@@ -32,7 +32,7 @@
 - [ ] We can trigger CSS animations dynamically
 - [ ] We can create use ARIA to make our nav accessible
 
-## Quality Assurance
+## Testing
 
 ### Mocking
 
