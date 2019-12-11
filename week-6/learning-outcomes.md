@@ -21,13 +21,6 @@
 - [ ] We can create a promise from scratch
 - [ ] We can wrap a function that takes a callback in a promise
 
-* [ ] We can store passwords securely by hashing and salting them
-* [ ] We can use JSON Web Tokens to store user information in a cookie
-* [ ] We can authenticate users by setting and reading cookies
-* [ ] We can design a usable and accessible login form
-* [ ] We can measure the test coverage of our code
-* [ ] We can set up a Continuous Integration server to run our tests
-
 ## Design
 
 ### Sign-in form
