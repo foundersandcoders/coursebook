@@ -14,6 +14,7 @@
 - [ ] We can catch errors and log them correctly
 - [ ] We can handle errors that occur in async code
 - [ ] We can show the user useful messages based on server errors
+- [ ] We can write automated tests for all our error handling
 
 ## Design \(UI/UX\)
 
