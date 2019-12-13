@@ -1,20 +1,34 @@
 # Week 4 Learning Outcomes
 
-## Specific week LOs
+## Node
+
+### Servers
 
 - [ ] **We can create a web server that responds to http requests**
 - [ ] We can conditionally set ports for our server based on the runtime environment
+- [ ] We can read secrets from a .env file
+- [ ] We can prevent sensitive data from being pushed to GitHub
+
+### GET requests
+
+- [ ] We can route requests to the correct handler function(s)
+- [ ] We can serve different types of files to the client
+- [ ] We can read information sent in a URL query string
+
+### POST requests
+
+- [ ] We can handle data received from a POST request
+- [ ] We can ‘chunk’ data sent from the client side on the server side
+- [ ] We can give descriptive names to HTML form input fields so that it is easy to access data in the POST request object
 - [ ] We can parse a request object
 - [ ] We can stringify a response object
-- [ ] We can prevent sensitive data from being pushed to GitHub
-- [ ] We can store secrets in .env files
+
+### Core modules
 
 - [ ] **We can use core Node modules**
 - [ ] We can require core modules in our files
 - [ ] We can access and invoke methods provided by core modules
-
-- [ ] **We can read files using Node’s fs module**
-- [ ] We can use synchronous and asynchronous methods where appropriate
+- [ ] We can read files synchronously and asynchronously using Node’s fs module
 
 ## Design LOs
 
@@ -29,4 +43,8 @@
 - [ ] We can install libraries from npm as dev dependencies
 - [ ] We can create package.json scripts that run our tests
 
-## Developer Toolkit LOs
+## Developer Toolkit
+
+### User stories
+
+- [ ] **We can write user stories with clearly defined acceptance criteria**
