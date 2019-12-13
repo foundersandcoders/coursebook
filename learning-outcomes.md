@@ -1,13 +1,17 @@
 # Week 1 Learning Outcomes
 
----
-
 ## Teamwork & Toolkit
+
+### Pair programming
 
 - [ ] **We can use pair programming techniques to work together**
 - [ ] We can work on one computer as a pair
 - [ ] We can use four different paired programming techniques
 - [ ] We can distribute commits evenly among team members
+
+---
+
+### Version control
 
 - [ ] **We can use Git and GitHub as version control for our code**
 - [ ] We can initialise a Git repository so that we can track changes to our code over time
@@ -22,6 +26,10 @@
 - [ ] We can review other people’s pull requests to provide feedback on their code
 - [ ] We can delete branches that have been merged to keep our repo tidy
 
+---
+
+### Accessibility
+
 - [ ] **We can make a website that is accessible by people other than ourselves**
 - [ ] We can structure a site using semantic HTML to aid accessibility
 - [ ] We can add appropriate attributes to HTML elements to make them screen reader friendly
@@ -35,7 +43,16 @@
 
 ## Design
 
+### Responsive design
+
 - [ ] **We can make our website display well on screens of different sizes**
-- [ ] We can use CSS Grid to apply responsive layouts to our website
 - [ ] We can use CSS media queries to change the layout on different devices/viewports
 - [ ] We can design mobile-first to ensure mobile users have a great experience on our site
+
+---
+
+### Grid layout
+
+- [ ] **We can use CSS Grid to apply responsive layouts to our website**
+- [ ] We can use an 8pt grid to create a consistent layout for our web pages
+- [ ] We can use Design Grid Overlay to examine different layouts in the browser
