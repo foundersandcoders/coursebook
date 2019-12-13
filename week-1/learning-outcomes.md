@@ -47,13 +47,13 @@
 ### Responsive design
 
 - [ ] **We can make our website display well on screens of different sizes**
-- [ ] We can use CSS media queries to change the layout on different devices/viewports
-- [ ] We can design mobile-first to ensure mobile users have a great experience on our site
+- [ ] We can use CSS media queries to ensure our content is always presented effectively
+- [ ] We can demonstrate a mobile-first approach to designing a website with a great user experience
 
 ---
 
 ### Grid layout
 
-- [ ] **We can use CSS Grid to apply responsive layouts to our website**
-- [ ] We can use an 8pt design grid to create a consistent layout for our web pages (the design)
+- [ ] **(CSS) We can use CSS Grid to apply responsive layouts to our website**
+- [ ] (Design) We can use an 8pt grid to create a consistent layout for our web pages
 - [ ] We can use Design Grid Overlay to examine different layouts in the browser
