@@ -2,8 +2,12 @@
 
 ## HTTP
 
+### Asynchronicity
+
 - [ ] **We can write code that executes asynchronously**
-- [ ] We can make a request using a callback so that it is non blocking
+- [ ] We can use callbacks to make our code non blocking
+
+### Fetch
 
 - [ ] **We can use the fetch method to make API requests and receive responses**
 - [ ] We can configure the options argument of the fetch method to make GET and POST requests
@@ -14,9 +18,9 @@
 - [ ] We can map over an array to create a new array containing new values
 
 - [ ] **We can manipulate the DOM using JavaScript**
-- [ ] We can use different selector methods to select DOM elements according to their type/attributes
-- [ ] We can add and remove elements from the DOM to change the appearance of our website
-- [ ] We can toggle classes on HTML elements to change their properties
+- [ ] We can use different selector methods to select DOM nodes
+- [ ] We can add and remove DOM nodes to change the appearance of our website
+- [ ] We can toggle the classes applied to DOM nodes to change their properties
 
 ## Design
 
