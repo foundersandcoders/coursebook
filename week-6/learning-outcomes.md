@@ -39,7 +39,7 @@
 
 ### Static analysis
 
-- [ ] **We can configure ESLint to analyse our code**
+- [ ] **We can configure ESLint to catch common JS errors**
 - [ ] We can describe how a linter helps us write code
 
 ## Developer Toolkit
