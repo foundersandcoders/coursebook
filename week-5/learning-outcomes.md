@@ -25,6 +25,11 @@
 
 - [ ] We can handle database errors on our server without crashing
 
+## Software Architecture
+
+- [ ] We can draw a diagram representing the flow of our application
+- [ ] We can follow a consistent pattern for naming our folders, files and variables
+
 ## Testing
 
 - [ ] We can create a separate database for testing
