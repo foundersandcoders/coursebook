@@ -4,8 +4,8 @@
 
 ### HTTP & REST
 
-- [ ] **We can build an API that returns JSON**
-- [ ] We can build an API that responds to all HTTP methods
+- [ ] **We can build an API server that returns JSON**
+- [ ] We can build an API that handles `GET`, `POST`, `PUT` and `DELETE` methods
 - [ ] We set relevant HTTP headers on our API responses
 - [ ] We can explain what makes a service RESTful
 
@@ -20,9 +20,8 @@
 - [ ] We can serve our static assets using Express
 - [ ] We can use Express to handle requests for different routes
 - [ ] We can explain what Express middleware is
-- [ ] We can use 3rd party middleware
-- [ ] We can write our own middleware
-- [ ] We can handle server errors using middleware
+- [ ] We can use 3rd party middleware to parse request bodies
+- [ ] We can write our own middleware to handle server errors
 
 ## Design
 
