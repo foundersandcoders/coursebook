@@ -1,6 +1,6 @@
 # Week 5 Learning Outcomes
 
-## Database design
+## Databases
 
 - [ ] We can design and document a database schema
 - [ ] We can normalize our data to reduce duplication
@@ -11,7 +11,25 @@
 - [ ] We can link multiple records in one table to multiple records in another
 - [ ] We can deploy a PSQL database locally on our own machine
 - [ ] We can deploy a PSQL database to a live server
-- [ ] We can read from and write to a database using SQL
 - [ ] We can set up separate environments for production and testing
-- [ ] We can handle database errors on our server
-- [ ] We can use UI components elements (to shape the user experience of our app)
+- [ ] We can use PSQL to manage Postgres from the command line
+
+## SQL
+
+- [ ] We can create, read update and delete from our database using SQL queries
+- [ ] We can sort and filter data using SQL queries
+- [ ] We can use joins to access related data in different tables
+- [ ] We can use query parameters to avoid SQL-injection vulnerabilities
+
+## Node
+
+- [ ] We can handle database errors on our server without crashing
+
+## Testing
+
+- [ ] We can create a separate database for testing
+- [ ] We can test that our database access works correctly
+
+## Design
+
+- [ ] We can use UI components (to shape the user experience of our app)
