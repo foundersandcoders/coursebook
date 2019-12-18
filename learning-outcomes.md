@@ -26,14 +26,15 @@
 
 ---
 
-### Accessibility
+## Accessibility
 
 - [ ] **We can make a website that is accessible by people other than ourselves**
 - [ ] We can structure a site using semantic HTML to aid accessibility
 - [ ] We can add appropriate attributes to HTML elements to make them screen reader friendly
 - [ ] We can add ARIA labels (where necessary) to make our semantic HTML more accessible
 - [ ] We can use a screen reader to understand how people with visual impairments may experience our website
-- [ ] We can choose appropriate colours and contrast ratios in our UI so that our design is inclusive for colour-blind and visually impaired users
+- [ ] We can design a UI without relying solely on colour, so that we don't exclude colour-blind users
+- [ ] We can ensure our UI has sufficient colour contrast so that everyone can perceive it comfortably
 - [ ] We can use various tools (a screenreader, WCAG Contrast Checker Extension, the accessibility section of Chrome/ Firefox dev tools) to check that our website meets accessibility criteria
 
 ---
@@ -43,13 +44,13 @@
 ### Responsive design
 
 - [ ] **We can make our website display well on screens of different sizes**
-- [ ] We can use CSS media queries to change the layout on different devices/viewports
-- [ ] We can design mobile-first to ensure mobile users have a great experience on our site
+- [ ] We can use CSS media queries to ensure our content is always presented effectively
+- [ ] We can demonstrate a mobile-first (but not mobile-only) approach to designing a website with a great user experience
 
 ---
 
 ### Grid layout
 
 - [ ] **We can use CSS Grid to apply responsive layouts to our website**
-- [ ] We can use an 8pt design grid to create a consistent layout for our web pages (the design)
+- [ ] We can use an 8pt design grid to design a consistent layout for our web pages
 - [ ] We can use Design Grid Overlay to examine different layouts in the browser
