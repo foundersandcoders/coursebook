@@ -6,17 +6,20 @@
 - [ ] We can write tests to mimic the behaviour of a user performing different actions
 - [ ] We can check that passing a given input into our tests returns the expected output
 
-### Modular functions
+### Functions
 
 - [ ] **We can write testable, modular functions**
+- [ ] We can write functions that add DOM nodes
+- [ ] We can write functions that remove DOM nodes
+- [ ] We can write functions that modify DOM nodes
 
-### HTML forms
+### Event listeners
 
-- [ ] **We can submit an HTML form without using JavaScript**
+- [ ] **We can apply event listeners to HTML form elements**
 
 ### Scope
 
-- [ ] **We can use function and block scope to store values inside temporary variables**
+- [ ] **We can isolate variables inside function and block scopes**
 
 ---
 
