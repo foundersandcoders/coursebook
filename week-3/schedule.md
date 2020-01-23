@@ -9,7 +9,7 @@
 | 11:00   | Unit testing workshop                       | Testing           |
 | _13:00_ | _Lunch_                                     |                   |
 | 14:00   | Testing an actual thing workshop (tbc)      | Testing           |
-| 16:00   | T4B Discovery Workshop                      |                   |
+| 16:00   | Tech for Better                             |                   |
 
 [testing-lib]: https://github.com/oliverjam/learn-testing/
 
