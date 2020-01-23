@@ -25,6 +25,7 @@
 | ----- | ----------------- |
 | 10:00 | Code review       |
 | 11:00 | Respond to issues |
+| 12:30 | Presentation prep |
 | 13:00 | _Lunch_           |
 | 14:00 | Presentations     |
 | 16:00 | Stop Go Continues |
