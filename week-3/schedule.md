@@ -16,17 +16,17 @@
 
 ## Day 2
 
-| Time    | Activity                | Learning outcomes                      |
-| ------- | ----------------------- | -------------------------------------- |
-| 09:45   | Intro reading           |                                        |
-| 10:00   | Design burst: colour    | CSS variables, colour palette          |
-| 10:30   | Colour palette workshop | CSS variables, colour palette          |
-| 11:00   | TDD array methods       | Test-Driven-Development, array methods |
-| _13:00_ | _Lunch_                 |                                        |
-| 14:00   | Project intro           |                                        |
-| 14:30   | Project intro           |                                        |
-| 14:45   | Research                |                                        |
-| 16:30   | Research presentations  |                                        |
+| Time    | Activity                   | Learning outcomes                      |
+| ------- | -------------------------- | -------------------------------------- |
+| 09:45   | Intro reading              |                                        |
+| 10:00   | Design burst: colour       | CSS variables, colour palette          |
+| 10:30   | Colour palette workshop    | CSS variables, colour palette          |
+| 11:00   | TDD array methods          | Test-Driven-Development, array methods |
+| _13:00_ | _Lunch_                    |                                        |
+| 14:00   | Project intro              |                                        |
+| 14:30   | Research                   |                                        |
+| 16:30   | Research presentation prep |                                        |
+| 17:00   | Research presentations     |                                        |
 
 ## Day 3
 
