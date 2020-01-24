@@ -2,22 +2,45 @@
 
 ## Day 1
 
-| Time    | Activity                                    | Learning outcomes |
-| ------- | ------------------------------------------- | ----------------- |
-| 10:00   | Intro presentation                          |                   |
-| 10:30   | [Build a tiny testing library](testing-lib) | Testing           |
-| 11:00   | Unit testing workshop                       | Testing           |
-| _13:00_ | _Lunch_                                     |                   |
-| 14:00   | Testing an actual thing workshop (tbc)      | Testing           |
-| 16:00   | Tech for Better                             |                   |
+| Time    | Activity                               | Learning outcomes |
+| ------- | -------------------------------------- | ----------------- |
+| 10:00   | Intro presentation                     |                   |
+| 10:30   | [Build a testing library](testing-lib) | Testing           |
+| 11:00   | Unit testing workshop                  | Testing           |
+| _13:00_ | _Lunch_                                |                   |
+| 14:00   | Testing an actual thing workshop (tbc) | Testing           |
+| 16:00   | Tech for Better                        |                   |
 
 [testing-lib]: https://github.com/oliverjam/learn-testing/
 
 ## Day 2
 
+| Time    | Activity                | Learning outcomes                      |
+| ------- | ----------------------- | -------------------------------------- |
+| 10:00   | Colour palette workshop | CSS variables, colour palette          |
+| 11:00   | TDD array methods       | Test-Driven-Development, array methods |
+| _13:00_ | _Lunch_                 |                                        |
+| 14:00   | Project intro           |                                        |
+| 14:15   | Research                |                                        |
+| 16:30   | Research presentations  |                                        |
+
 ## Day 3
 
+| Time    | Activity          | Learning outcomes |
+| ------- | ----------------- | ----------------- |
+| 10:00   | Morning challenge |                   |
+| 11:00   | Project           |                   |
+| _13:00_ | _Lunch_           |                   |
+| 14:00   | Project           |                   |
+| 17:00   | Speaker           |                   |
+
 ## Day 4
+
+| Time    | Activity |
+| ------- | -------- |
+| 10:00   | Project  |
+| _13:00_ | _Lunch_  |
+| 14:00   | Project  |
 
 ## Day 5
 
