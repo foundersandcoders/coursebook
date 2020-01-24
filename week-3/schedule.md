@@ -4,6 +4,7 @@
 
 | Time    | Activity                               | Learning outcomes |
 | ------- | -------------------------------------- | ----------------- |
+| 09:45   | Intro reading                          |                   |
 | 10:00   | Intro presentation                     |                   |
 | 10:30   | [Build a testing library](testing-lib) | Testing           |
 | 11:00   | Unit testing workshop                  | Testing           |
@@ -17,17 +18,21 @@
 
 | Time    | Activity                | Learning outcomes                      |
 | ------- | ----------------------- | -------------------------------------- |
-| 10:00   | Colour palette workshop | CSS variables, colour palette          |
+| 09:45   | Intro reading           |                                        |
+| 10:00   | Design burst: colour    | CSS variables, colour palette          |
+| 10:30   | Colour palette workshop | CSS variables, colour palette          |
 | 11:00   | TDD array methods       | Test-Driven-Development, array methods |
 | _13:00_ | _Lunch_                 |                                        |
 | 14:00   | Project intro           |                                        |
-| 14:15   | Research                |                                        |
+| 14:30   | Project intro           |                                        |
+| 14:45   | Research                |                                        |
 | 16:30   | Research presentations  |                                        |
 
 ## Day 3
 
 | Time    | Activity            | Learning outcomes           |
 | ------- | ------------------- | --------------------------- |
+| 09:45   | Intro reading       |                             |
 | 10:00   | DOM Manipulation MC | add/modify/remove DOM nodes |
 | 11:00   | Project             |                             |
 | _13:00_ | _Lunch_             |                             |
