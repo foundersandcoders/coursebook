@@ -43,7 +43,7 @@
 
 | Time    | Activity |
 | ------- | -------- |
-| 10:00   | Project  |
+| 09:45   | Project  |
 | _13:00_ | _Lunch_  |
 | 14:00   | Project  |
 
@@ -51,7 +51,7 @@
 
 | Time  | Activity          |
 | ----- | ----------------- |
-| 10:00 | Code review       |
+| 09:45 | Code review       |
 | 11:00 | Respond to issues |
 | 12:30 | Presentation prep |
 | 13:00 | _Lunch_           |
