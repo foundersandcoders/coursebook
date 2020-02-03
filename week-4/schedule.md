@@ -34,14 +34,16 @@
 
 ## Day 3
 
-| Time    | Activity      | Learning outcomes        |
-| ------- | ------------- | ------------------------ |
-| 09:45   | Intro reading |                          |
-| 10:00   | Node fetch MC | Network requests in Node |
-| 11:00   | Project       |                          |
-| _13:00_ | _Lunch_       |                          |
-| 14:00   | Project       |                          |
-| 17:00   | Speaker       |                          |
+| Time    | Activity                  | Learning outcomes        |
+| ------- | ------------------------- | ------------------------ |
+| 09:45   | Intro reading             |                          |
+| 10:00   | [Node fetch MC](fetch-mc) | Network requests in Node |
+| 11:00   | Project                   |                          |
+| _13:00_ | _Lunch_                   |                          |
+| 14:00   | Project                   |                          |
+| 17:00   | Speaker                   |                          |
+
+[fetch-mc]: https://github.com/foundersandcoders/mc-request-module-workshop
 
 ## Day 4
 
