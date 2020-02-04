@@ -1,4 +1,4 @@
-# Testing Week Schedule
+# Node Week Schedule
 
 ## Day 1
 
