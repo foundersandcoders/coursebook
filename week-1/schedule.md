@@ -4,7 +4,7 @@
 
 | Time    | Activity                                                                                                                                                                                                                                                                                                                                | Learning outcomes |
 | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
-| 09:45   |                                                                                                                                                                                                                                                                                                                                         |                   |
+| 09:45   | Arrive and meet everyone                                                                                                                                                                                                                                                                                                                |                   |
 | 10:00   | [Welcome talk](http://facresources.com/slides/students-day-1-talk#/)                                                                                                                                                                                                                                                                    |                   |
 | 10:30   | [Name game](https://github.com/foundersandcoders/master-reference/blob/master/coursebook/week-1/resources/name-game.md)                                                                                                                                                                                                                 |                   |
 | 11:00   | [Community talk](https://facresources.com/slides/community-talk#/)                                                                                                                                                                                                                                                                      |                   |
@@ -39,7 +39,7 @@
 | Time    | Activity                                                                     | Learning outcomes |
 | ------- | ---------------------------------------------------------------------------- | ----------------- |
 | 09:45   | Intro reading                                                                | CSS layouts       |
-| 10:00   | [CSS Gallery MC](https://github.com/foundersandcoders/css-gallery-challenge) | CSS Media queries |
+| 10:00   | [CSS Gallery MC](https://github.com/foundersandcoders/css-gallery-challenge) | CSS properties    |
 | 11:00   | Project                                                                      |                   |
 | _13:00_ | _Lunch_                                                                      |                   |
 | 14:00   | Project                                                                      |                   |
