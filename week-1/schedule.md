@@ -36,14 +36,14 @@
 
 ## Day 3
 
-| Time    | Activity                                                                     | Learning outcomes |
-| ------- | ---------------------------------------------------------------------------- | ----------------- |
-| 09:45   | Intro reading                                                                | CSS layouts       |
-| 10:00   | [CSS Gallery MC](https://github.com/foundersandcoders/css-gallery-challenge) | CSS properties    |
-| 11:00   | Project                                                                      |                   |
-| _13:00_ | _Lunch_                                                                      |                   |
-| 14:00   | Project                                                                      |                   |
-| 17:00   | Speaker                                                                      |                   |
+| Time    | Activity                                                           | Learning outcomes |
+| ------- | ------------------------------------------------------------------ | ----------------- |
+| 09:45   | Intro reading                                                      | Semantic HTML     |
+| 10:00   | [Learn HTML forms](https://github.com/oliverjam/learn-html-forms/) | HTML forms        |
+| 11:00   | Project                                                            |                   |
+| _13:00_ | _Lunch_                                                            |                   |
+| 14:00   | Project                                                            |                   |
+| 17:00   | Speaker                                                            |                   |
 
 ## Day 4
 
