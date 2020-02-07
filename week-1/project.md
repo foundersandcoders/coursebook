@@ -12,18 +12,20 @@ Your website should give potential clients:
 
 _**A [user story](https://www.visual-paradigm.com/guide/agile-software-development/what-is-user-story/) is a description of one or more features of a piece of software.**_
 
+### Core Stories
+
 **As a potential client, I want to:**
 
-- See information about each member of your team so that I can know who you are
-- Browse your website on mobile, tablet, and desktop devices
-- Click to navigate to different sections of your webpage
-- Contact you to enquire about working with you
-- Visit your website at a publicly accessible domain name
+- See information about each member of your team so that I can know who you are (2 points)
+- Browse your website on mobile, tablet, and desktop devices (2 points)
+- Click to navigate to different sections of your webpage (2 points)
+- Contact you to enquire about working with you (2 points)
+- Visit your website at a publicly accessible domain name (2 points)
 
 **Additionally, as a visually impaired user, I want to:**
 
-- Navigate your website using keyboard controls
-- Hear my screen reader describe the content on your website
+- Navigate your website using keyboard controls (2 points)
+- Hear my screen reader describe the content on your website (2 points)
 
 ## Acceptance Criteria
 
@@ -33,6 +35,14 @@ _**User stories come with [acceptance criteria](https://blog.easyagile.com/how-t
 - ‘About us’ section
 - Contact form
 - A user cannot submit a form without filling out all of the mandatory fields (name, company name, email address)
-- Information from the form doesn’t get submitted until a user clicks a button
+- Information from the form doesn’t get submitted until the user clicks a button
 
-Finally, feel free to get creative with the content! Good luck!
+**Estimated velocity:** 14 points
+
+### Stretch Goal
+
+Use the automatic trigger functionality of your [GitHub project board](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards).
+
+---
+
+Finally, feel free to get creative with the content of your website! Good luck!
