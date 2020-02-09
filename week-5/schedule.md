@@ -11,32 +11,31 @@
 | 14:00   | SQL commands ws (https://github.com/foundersandcoders/postgres-workshop)                                                                                                                      | PSQL, SQL queries |
 | 16:00   | Tech for Better                                                                                                                                                                               |                   |
 
-[testing-lib]: https://github.com/oliverjam/learn-testing/
-
 ## Day 2
 
-| Time    | Activity                | Learning outcomes                      |
-| ------- | ----------------------- | -------------------------------------- |
-| 09:45   | Intro reading           |                                        |
-| 10:00   | Design burst: colour    | CSS variables, colour palette          |
-| 10:30   | Colour palette workshop | CSS variables, colour palette          |
-| 11:00   | TDD array methods       | Test-Driven-Development, array methods |
-| _13:00_ | _Lunch_                 |                                        |
-| 14:00   | Project intro           |                                        |
-| 14:30   | Technical spikes        |                                        |
-| 16:30   | Spike presentation prep |                                        |
-| 17:00   | Spike presentations     |                                        |
+| Time    | Activity                                                                                                                          | Learning outcomes                    |
+| ------- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
+| 09:45   | Intro reading                                                                                                                     |                                      |
+| 10:00   | [Design burst](https://docs.google.com/presentation/d/1f8ryxVIngpu4KMv8rr5domBiCGKfgC3r25TstZbnvcg/edit#slide=id.g26a95a14fb_0_0) | UI components                        |
+| 10:30   | [Pg module code along](https://github.com/foundersandcoders/pg-walkthrough)                                                       | Initialising databases, SQL commands |
+| 12:00   | [Facsters Node app workshop](https://github.com/foundersandcoders/pg-workshop)                                                    |                                      |
+| _13:00_ | _Lunch_                                                                                                                           |                                      |
+| 14:00   | [Facsters Node app workshop contd.](https://github.com/foundersandcoders/pg-workshop)                                             |                                      |
+| 14:30   | [Database testing workshop](https://github.com/foundersandcoders/ws-database-testing/)                                            | Database testing                     |
+| 15:30   | Technical spikes                                                                                                                  |                                      |
+| 16:30   | Spike presentation prep                                                                                                           |                                      |
+| 17:00   | Spike presentations                                                                                                               |                                      |
 
 ## Day 3
 
-| Time    | Activity            | Learning outcomes           |
-| ------- | ------------------- | --------------------------- |
-| 09:45   | Intro reading       |                             |
-| 10:00   | DOM Manipulation MC | add/modify/remove DOM nodes |
-| 11:00   | Project             |                             |
-| _13:00_ | _Lunch_             |                             |
-| 14:00   | Project             |                             |
-| 17:00   | Speaker             |                             |
+| Time    | Activity      | Learning outcomes |
+| ------- | ------------- | ----------------- |
+| 09:45   | Intro reading |                   |
+| 10:00   | SQL MC        | SQL queries       |
+| 11:00   | Project       |                   |
+| _13:00_ | _Lunch_       |                   |
+| 14:00   | Project       |                   |
+| 17:00   | Speaker       |                   |
 
 ## Day 4
 
