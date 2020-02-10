@@ -2,14 +2,15 @@
 
 ## Day 1
 
-| Time    | Activity                                                                                                                                                                                      | Learning outcomes |
-| ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
-| 09:45   | Intro reading                                                                                                                                                                                 |                   |
-| 10:00   | [Intro presentation](https://docs.google.com/presentation/d/14LXEKmHM6xqjTvPLyKw0trtprGeNkD0VLgWkE8Z2ouo/edit#slide=id.g4dfce81f19_0_45)                                                      |                   |
-| 11:00   | [PSQL installation](https://github.com/macintoshhelper/learn-sql/blob/master/postgresql/setup.md) and [SQL commands intro workshop](https://github.com/foundersandcoders/sql-commands-intro/) | PSQL, SQL queries |
-| _13:00_ | _Lunch_                                                                                                                                                                                       |                   |
-| 14:00   | SQL commands ws (https://github.com/foundersandcoders/postgres-workshop)                                                                                                                      | PSQL, SQL queries |
-| 16:00   | Tech for Better                                                                                                                                                                               |                   |
+| Time    | Activity                                                                                                                                 | Learning outcomes |
+| ------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
+| 09:45   | Intro reading                                                                                                                            |                   |
+| 10:00   | [Intro presentation](https://docs.google.com/presentation/d/14LXEKmHM6xqjTvPLyKw0trtprGeNkD0VLgWkE8Z2ouo/edit#slide=id.g4dfce81f19_0_45) |                   |
+| 10:30   | [PSQL installation](https://github.com/macintoshhelper/learn-sql/blob/master/postgresql/setup.md)                                        |                   |
+| 11:00   | [SQL commands intro workshop](https://github.com/foundersandcoders/sql-commands-intro/)                                                  | PSQL, SQL queries |
+| _13:00_ | _Lunch_                                                                                                                                  |                   |
+| 14:00   | SQL commands ws (https://github.com/foundersandcoders/postgres-workshop)                                                                 | PSQL, SQL queries |
+| 16:00   | Tech for Better                                                                                                                          |                   |
 
 ## Day 2
 
