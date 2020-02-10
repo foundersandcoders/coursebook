@@ -11,3 +11,8 @@ We’re expecting to see:
 - The server should persist blog post data to the DB and associate each with a user
 - The submission page should only be available to authenticated users
 - Only the authenticated author of a post should be allowed to delete it
+
+## Stretch goals
+
+- An author page with all the posts by an author
+- Commenting functionality
