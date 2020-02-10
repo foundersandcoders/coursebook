@@ -17,24 +17,23 @@
 | ------- | --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
 | 09:45   | Intro reading                                                                                                                     |                                           |
 | 10:00   | [Design burst](https://docs.google.com/presentation/d/1f8ryxVIngpu4KMv8rr5domBiCGKfgC3r25TstZbnvcg/edit#slide=id.g26a95a14fb_0_0) | Typography                                |
-| 10:30   | [Client side validation mc](https://github.com/foundersandcoders/mc-client-side-validation)                                       | UX, usability, HTML forms                 |
-| 11:30   | [Stateless session management workshop](https://github.com/foundersandcoders/ws-jwt-stateless-session)                            | JSON Web Tokens, stateless authentication |
+| 10:30   | Typography challenge                                                                                                              | Typography, custom CSS fonts              |
+| 11:00   | [Stateless session management workshop](https://github.com/foundersandcoders/ws-jwt-stateless-session)                            | JSON Web Tokens, stateless authentication |
 | _13:00_ | _Lunch_                                                                                                                           |                                           |
-| 14:00   | [Stateless session workshop contd.](https://github.com/foundersandcoders/ws-jwt-stateless-session)                                |                                           |
-| 14:30   | Technical spikes                                                                                                                  |                                           |
+| 14:00   | Technical spikes                                                                                                                  |                                           |
 | 16:30   | Spike presentation prep                                                                                                           |                                           |
 | 17:00   | Spike presentations                                                                                                               |                                           |
 
 ## Day 3
 
-| Time    | Activity                                                   | Learning outcomes   |
-| ------- | ---------------------------------------------------------- | ------------------- |
-| 09:45   | Intro reading                                              |                     |
-| 10:00   | [Promises MC](https://github.com/oliverjam/learn-promises) | Promises, fetch API |
-| 11:00   | Project                                                    |                     |
-| _13:00_ | _Lunch_                                                    |                     |
-| 14:00   | Project                                                    |                     |
-| 17:00   | Speaker                                                    |                     |
+| Time    | Activity                                                                                    | Learning outcomes         |
+| ------- | ------------------------------------------------------------------------------------------- | ------------------------- |
+| 09:45   | Intro reading                                                                               |                           |
+| 10:00   | [Client side validation mc](https://github.com/foundersandcoders/mc-client-side-validation) | UX, usability, HTML forms |
+| 11:00   | Project                                                                                     |                           |
+| _13:00_ | _Lunch_                                                                                     |                           |
+| 14:00   | Project                                                                                     |                           |
+| 17:00   | Speaker                                                                                     |                           |
 
 ## Day 4
 
