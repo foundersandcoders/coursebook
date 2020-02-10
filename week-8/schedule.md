@@ -2,31 +2,29 @@
 
 ## Day 1
 
-| Time    | Activity           | Learning outcomes |
-| ------- | ------------------ | ----------------- |
-| 09:45   | Intro reading      |                   |
-| 10:00   | Intro presentation |                   |
-| 10:30   |                    |                   |
-| 11:00   |                    |                   |
-| _13:00_ | _Lunch_            |                   |
-| 14:00   |                    |                   |
-| 16:00   | Tech for Better    |                   |
-
-[testing-lib]: https://github.com/oliverjam/learn-testing/
+| Time    | Activity              | Learning outcomes           |
+| ------- | --------------------- | --------------------------- |
+| 09:45   | Intro reading         |                             |
+| 10:00   | Intro presentation    |                             |
+| 10:30   | Intro to ES Modules   | Native JS modules           |
+| 11:00   | Client-side rendering | innerHTML, Template element |
+| _13:00_ | _Lunch_               |                             |
+| 14:00   | Client-side routing   | Routing, History API        |
+| 16:00   | Tech for Better       |                             |
 
 ## Day 2
 
-| Time    | Activity                 | Learning outcomes |
-| ------- | ------------------------ | ----------------- |
-| 09:45   | Intro reading            |                   |
-| 10:00   | Design burst: loading    |                   |
-| 10:30   | Loading spinner workshop | a11y, animation   |
-| 11:00   |                          |                   |
-| _13:00_ | _Lunch_                  |                   |
-| 14:00   | Project intro            |                   |
-| 14:30   | Technical spikes         |                   |
-| 16:30   | Spike presentation prep  |                   |
-| 17:00   | Spike presentations      |                   |
+| Time    | Activity                 | Learning outcomes                 |
+| ------- | ------------------------ | --------------------------------- |
+| 09:45   | Intro reading            |                                   |
+| 10:00   | Design burst: loading    |                                   |
+| 10:30   | Loading spinner workshop | a11y, animation                   |
+| 11:00   | Error handling workshop  | Error handling, User notification |
+| _13:00_ | _Lunch_                  |                                   |
+| 14:00   | Project intro            |                                   |
+| 14:30   | Technical spikes         |                                   |
+| 16:30   | Spike presentation prep  |                                   |
+| 17:00   | Spike presentations      |                                   |
 
 ## Day 3
 
