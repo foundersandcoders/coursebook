@@ -30,14 +30,14 @@
 
 ## Day 3
 
-| Time    | Activity            | Learning outcomes           |
-| ------- | ------------------- | --------------------------- |
-| 09:45   | Intro reading       |                             |
-| 10:00   | DOM Manipulation MC | add/modify/remove DOM nodes |
-| 11:00   | Project             |                             |
-| _13:00_ | _Lunch_             |                             |
-| 14:00   | Project             |                             |
-| 17:00   | Speaker             |                             |
+| Time    | Activity          | Learning outcomes |
+| ------- | ----------------- | ----------------- |
+| 09:45   | Intro reading     |                   |
+| 10:00   | Function scope MC | Scope, closures   |
+| 11:00   | Project           |                   |
+| _13:00_ | _Lunch_           |                   |
+| 14:00   | Project           |                   |
+| 17:00   | Speaker           |                   |
 
 ## Day 4
 
