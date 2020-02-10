@@ -15,4 +15,3 @@ We’re expecting to see:
 ## Stretch goals
 
 - An author page with all the posts by an author
-- Commenting functionality
