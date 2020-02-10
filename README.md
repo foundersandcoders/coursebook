@@ -4,16 +4,16 @@ The new coursebook
 
 ## Topics
 
-| Week | Topic                |
-| ---- | -------------------- |
-| 1    | Teamwork and Toolkit |
-| 2    | HTTP                 |
-| 3    | Testing              |
-| 4    | Node                 |
-| 5    | Databases            |
-| 6    | Authentication       |
-| 7    | REST APIs            |
-| 8    | Full-Stack App       |
+| Week | Topic                            |
+| ---- | -------------------------------- |
+| 1    | [Teamwork and Toolkit](./week-1) |
+| 2    | [HTTP](./week-2)                 |
+| 3    | [Testing](./week-3)              |
+| 4    | [Node](./week-4)                 |
+| 5    | [Databases](./week-5)            |
+| 6    | [Authentication](./week-6)       |
+| 7    | [REST APIs](./week-7)            |
+| 8    | [Full-Stack App](./week-8)       |
 
 ## Default Schedule
 
