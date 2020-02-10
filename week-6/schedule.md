@@ -2,40 +2,39 @@
 
 ## Day 1
 
-| Time    | Activity                                                                                                                                                                                      | Learning outcomes |
-| ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
-| 09:45   | Intro reading                                                                                                                                                                                 |                   |
-| 10:00   | [Intro presentation](https://docs.google.com/presentation/d/14LXEKmHM6xqjTvPLyKw0trtprGeNkD0VLgWkE8Z2ouo/edit#slide=id.g4dfce81f19_0_45)                                                      |                   |
-| 11:00   | [PSQL installation](https://github.com/macintoshhelper/learn-sql/blob/master/postgresql/setup.md) and [SQL commands intro workshop](https://github.com/foundersandcoders/sql-commands-intro/) | PSQL, SQL queries |
-| _13:00_ | _Lunch_                                                                                                                                                                                       |                   |
-| 14:00   | SQL commands ws (https://github.com/foundersandcoders/postgres-workshop)                                                                                                                      | PSQL, SQL queries |
-| 16:00   | Tech for Better                                                                                                                                                                               |                   |
+| Time    | Activity                                                                                    | Learning outcomes                     |
+| ------- | ------------------------------------------------------------------------------------------- | ------------------------------------- |
+| 09:45   | Intro reading                                                                               |                                       |
+| 10:00   | [Intro presentation](https://drive.google.com/file/d/0BxXF_LZcFnS5ODM0dElWYmtmMWc/view)     |                                       |
+| 10:30   | [Password management workshop](https://github.com/foundersandcoders/ws-password-management) | Password management, hashing, salting |
+| _13:00_ | _Lunch_                                                                                     |                                       |
+| 14:00   | [Cookies workshop](https://github.com/foundersandcoders/ws-cookies)                         | Cookie management, authentication     |
+| 16:00   | Tech for Better                                                                             |                                       |
 
 ## Day 2
 
-| Time    | Activity                                                                                                                          | Learning outcomes                    |
-| ------- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
-| 09:45   | Intro reading                                                                                                                     |                                      |
-| 10:00   | [Design burst](https://docs.google.com/presentation/d/1f8ryxVIngpu4KMv8rr5domBiCGKfgC3r25TstZbnvcg/edit#slide=id.g26a95a14fb_0_0) | UI components                        |
-| 10:30   | [Pg module code along](https://github.com/foundersandcoders/pg-walkthrough)                                                       | Initialising databases, SQL commands |
-| 12:00   | [Facsters Node app workshop](https://github.com/foundersandcoders/pg-workshop)                                                    |                                      |
-| _13:00_ | _Lunch_                                                                                                                           |                                      |
-| 14:00   | [Facsters Node app workshop contd.](https://github.com/foundersandcoders/pg-workshop)                                             |                                      |
-| 14:30   | [Database testing workshop](https://github.com/foundersandcoders/ws-database-testing/)                                            | Database testing                     |
-| 15:30   | Technical spikes                                                                                                                  |                                      |
-| 16:30   | Spike presentation prep                                                                                                           |                                      |
-| 17:00   | Spike presentations                                                                                                               |                                      |
+| Time    | Activity                                                                                                                          | Learning outcomes                         |
+| ------- | --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
+| 09:45   | Intro reading                                                                                                                     |                                           |
+| 10:00   | [Design burst](https://docs.google.com/presentation/d/1f8ryxVIngpu4KMv8rr5domBiCGKfgC3r25TstZbnvcg/edit#slide=id.g26a95a14fb_0_0) | Typography                                |
+| 10:30   | [Client side validation mc](https://github.com/foundersandcoders/mc-client-side-validation)                                       | UX, usability, HTML forms                 |
+| 11:30   | [Stateless session management workshop](https://github.com/foundersandcoders/ws-jwt-stateless-session)                            | JSON Web Tokens, stateless authentication |
+| _13:00_ | _Lunch_                                                                                                                           |                                           |
+| 14:00   | [Stateless session workshop contd.](https://github.com/foundersandcoders/ws-jwt-stateless-session)                                |                                           |
+| 14:30   | Technical spikes                                                                                                                  |                                           |
+| 16:30   | Spike presentation prep                                                                                                           |                                           |
+| 17:00   | Spike presentations                                                                                                               |                                           |
 
 ## Day 3
 
-| Time    | Activity      | Learning outcomes |
-| ------- | ------------- | ----------------- |
-| 09:45   | Intro reading |                   |
-| 10:00   | SQL MC        | SQL queries       |
-| 11:00   | Project       |                   |
-| _13:00_ | _Lunch_       |                   |
-| 14:00   | Project       |                   |
-| 17:00   | Speaker       |                   |
+| Time    | Activity                                                   | Learning outcomes   |
+| ------- | ---------------------------------------------------------- | ------------------- |
+| 09:45   | Intro reading                                              |                     |
+| 10:00   | [Promises MC](https://github.com/oliverjam/learn-promises) | Promises, fetch API |
+| 11:00   | Project                                                    |                     |
+| _13:00_ | _Lunch_                                                    |                     |
+| 14:00   | Project                                                    |                     |
+| 17:00   | Speaker                                                    |                     |
 
 ## Day 4
 
