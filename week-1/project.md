@@ -16,16 +16,16 @@ _**A [user story](https://www.visual-paradigm.com/guide/agile-software-developme
 
 **As a potential client, I want to:**
 
-- See information about each member of your team so that I can know who you are (2 points)
-- Browse your website on mobile, tablet, and desktop devices (2 points)
-- Click to navigate to different sections of your webpage (2 points)
-- Contact you to enquire about working with you (2 points)
-- Visit your website at a publicly accessible domain name (2 points)
+- See information about each member of your team so that I can know who you are
+- Browse your website on mobile, tablet, and desktop devices
+- Click to navigate to different sections of your webpage
+- Contact you to enquire about working with you
+- Visit your website at a publicly accessible domain name
 
 **Additionally, as a visually impaired user, I want to:**
 
-- Navigate your website using keyboard controls (2 points)
-- Hear my screen reader describe the content on your website (2 points)
+- Navigate your website using keyboard controls
+- Hear my screen reader describe the content on your website
 
 ## Acceptance Criteria
 
@@ -36,8 +36,6 @@ _**User stories come with [acceptance criteria](https://blog.easyagile.com/how-t
 - Contact form
 - A user cannot submit a form without filling out all of the mandatory fields (name, company name, email address)
 - Information from the form doesn’t get submitted until the user clicks a button
-
-**Estimated velocity:** 14 points
 
 ### Stretch Goal
 
