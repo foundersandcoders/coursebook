@@ -6,8 +6,8 @@
 | ------- | ------------------------------------- | -------------------- |
 | 09:45   | Intro reading                         |                      |
 | 10:00   | Intro presentation                    |                      |
-| 10:30   | [HTTP intro](http-intro)              | HTTP                 |
-| 11:00   | [Fetch & Promises intro](fetch-intro) | Fetch, Promises      |
+| 10:30   | [HTTP intro][http-intro]              | HTTP                 |
+| 11:00   | [Fetch & Promises intro][fetch-intro] | Fetch, Promises      |
 | _13:00_ | _Lunch_                               |                      |
 | 14:00   | First-class functions (tbc)           | Functions, callbacks |
 | 16:00   | Tech for Better                       |                      |
@@ -20,11 +20,11 @@
 | Time    | Activity                                           | Learning outcomes                 |
 | ------- | -------------------------------------------------- | --------------------------------- |
 | 09:45   | Intro reading                                      |                                   |
-| 10:00   | [Design burst: layout](db-layout)                  |                                   |
+| 10:00   | [Design burst: layout][db-layout]                  |                                   |
 | 10:30   | Layout workshop (tbc)                              | CSS layout                        |
 | 11:00   | Submitting data with Fetch                         | POST requests                     |
 | _13:00_ | _Lunch_                                            |                                   |
-| 14:00   | [Issue management & estimation](estimation-slides) | Project management, GitHub issues |
+| 14:00   | [Issue management & estimation][estimation-slides] | Project management, GitHub issues |
 | 14:15   | Project intro                                      |                                   |
 | 14:30   | Technical spikes                                   |                                   |
 | 16:30   | Spike presentation prep                            |                                   |

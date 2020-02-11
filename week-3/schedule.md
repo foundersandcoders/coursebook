@@ -6,7 +6,7 @@
 | ------- | -------------------------------------- | ----------------- |
 | 09:45   | Intro reading                          |                   |
 | 10:00   | Intro presentation                     |                   |
-| 10:30   | [Build a testing library](testing-lib) | Testing           |
+| 10:30   | [Build a testing library][testing-lib] | Testing           |
 | 11:00   | Unit testing workshop                  | Testing           |
 | _13:00_ | _Lunch_                                |                   |
 | 14:00   | Testing an actual thing workshop (tbc) | Testing           |
