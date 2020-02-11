@@ -6,10 +6,10 @@
 | ------- | ------------------------------------------- | -------------------------------------- |
 | 09:45   | Intro reading                               | Web servers                            |
 | 10:00   | Intro presentation                          |                                        |
-| 10:30   | [Node intro](node-intro) tbc                | HTTP server                            |
-| 11:00   | [Node Girls workshop](node-girls)           | HTTP server, POST requests, HTML forms |
+| 10:30   | [Node intro][node-intro] tbc                | HTTP server                            |
+| 11:00   | [Node Girls workshop][node-girls]           | HTTP server, POST requests, HTML forms |
 | _13:00_ | _Lunch_                                     |                                        |
-| 14:00   | [Node Girls workshop](node-girls) continued | Testing                                |
+| 14:00   | [Node Girls workshop][node-girls] continued | Testing                                |
 | 16:00   | Tech for Better                             |                                        |
 
 [node-intro]: tbc
@@ -20,9 +20,9 @@
 | Time    | Activity                           | Learning outcomes    |
 | ------- | ---------------------------------- | -------------------- |
 | 09:45   | Intro reading                      |                      |
-| 10:00   | [Design burst: navigation](db-nav) |                      |
+| 10:00   | [Design burst: navigation][db-nav] |                      |
 | 10:30   | Navigation workshop tbc            | Hover & focus styles |
-| 11:00   | [TDD Node Server](node-tdd)        | Tape, TDD            |
+| 11:00   | [TDD Node Server][node-tdd]        | Tape, TDD            |
 | _13:00_ | _Lunch_                            |                      |
 | 14:00   | Project intro                      |                      |
 | 14:30   | Technical spikes                   |                      |
@@ -37,7 +37,7 @@
 | Time    | Activity                  | Learning outcomes        |
 | ------- | ------------------------- | ------------------------ |
 | 09:45   | Intro reading             |                          |
-| 10:00   | [Node fetch MC](fetch-mc) | Network requests in Node |
+| 10:00   | [Node fetch MC][fetch-mc] | Network requests in Node |
 | 11:00   | Project                   |                          |
 | _13:00_ | _Lunch_                   |                          |
 | 14:00   | Project                   |                          |

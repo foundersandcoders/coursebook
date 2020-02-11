@@ -6,7 +6,7 @@
 | ------- | ------------------------------ | ------------------------- |
 | 09:45   | Intro reading                  |                           |
 | 10:00   | Intro presentation             |                           |
-| 10:30   | [Express intro](express-intro) | Express                   |
+| 10:30   | [Express intro][express-intro] | Express                   |
 | 11:00   | Learn Express (tbc)            | Routing, Params           |
 | _13:00_ | _Lunch_                        |                           |
 | 14:00   | REST APIs (tbc)                | REST, Building a JSON API |
@@ -19,7 +19,7 @@
 | Time    | Activity                                  | Learning outcomes |
 | ------- | ----------------------------------------- | ----------------- |
 | 09:45   | Intro reading                             |                   |
-| 10:00   | [Design burst: wireframes](db-wireframes) | Wireframes        |
+| 10:00   | [Design burst: wireframes][db-wireframes] | Wireframes        |
 | 10:30   | Wireframe workshop (tbc)                  | Wireframes        |
 | 11:00   | Express middleware (tbc)                  | Middleware        |
 | _13:00_ | _Lunch_                                   |                   |
