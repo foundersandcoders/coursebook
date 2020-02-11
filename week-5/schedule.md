@@ -40,14 +40,16 @@
 
 ## Day 3
 
-| Time    | Activity      | Learning outcomes |
-| ------- | ------------- | ----------------- |
-| 09:45   | Intro reading |                   |
-| 10:00   | SQL MC        | SQL queries       |
-| 11:00   | Project       |                   |
-| _13:00_ | _Lunch_       |                   |
-| 14:00   | Project       |                   |
-| 17:00   | Speaker       |                   |
+| Time    | Activity         | Learning outcomes |
+| ------- | ---------------- | ----------------- |
+| 09:45   | Intro reading    |                   |
+| 10:00   | [SQL MC][sql-mc] | SQL queries       |
+| 11:00   | Project          |                   |
+| _13:00_ | _Lunch_          |                   |
+| 14:00   | Project          |                   |
+| 17:00   | Speaker          |                   |
+
+[sql-mc]: https://github.com/foundersandcoders/db-morning-challenge
 
 ## Day 4
 
