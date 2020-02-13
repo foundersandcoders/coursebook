@@ -13,7 +13,7 @@
 | 16:00   | Tech for Better                       |                      |
 
 [http-intro]: tbc
-[fetch-intro]: https://github.com/oliverjam/learn-promises/
+[fetch-intro]: https://github.com/oliverjam/learn-fetch/
 
 ## Day 2
 
