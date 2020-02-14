@@ -72,10 +72,11 @@ The general timetable for the first 8 weeks. This does differ from week to week 
 | Time    | Activity            | Description                                                                |
 | ------- | ------------------- | -------------------------------------------------------------------------- |
 | 09:45   | Code Review         | Review another team's project code                                         |
-| 11:00   | Respond to issues   | Refactor your project based upon the feedback you got in code review       |
-| 12:30   | Presentation Prep   |                                                                            |
+| 10:45   | Respond to issues   | Refactor your project based upon the feedback you got in code review       |
+| 12:15   | Presentation Prep   |                                                                            |
 | _13:00_ | _Lunch_             |                                                                            |
 | 14:00   | Presentations       | Present your project from this week                                        |
 | 16:00   | Stop, Go, Continues | Cohort and team retrospectives                                             |
+| 16:45   | Update User Manuals | Update user manuals with reflections from the week                         |
 | 17:00   | Speaker             | A talk about careers and employment from an employment partner or FAC alum |
 | _18:00_ | _Finish_            |                                                                            |
