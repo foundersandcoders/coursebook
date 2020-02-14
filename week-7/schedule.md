@@ -51,12 +51,13 @@
 
 ## Day 5
 
-| Time  | Activity          |
-| ----- | ----------------- |
-| 09:45 | Code review       |
-| 11:00 | Respond to issues |
-| 12:30 | Presentation prep |
-| 13:00 | _Lunch_           |
-| 14:00 | Presentations     |
-| 16:00 | Stop Go Continues |
-| 17:00 | Speaker           |
+| Time  | Activity            |
+| ----- | ------------------- |
+| 09:45 | Code review         |
+| 10:45 | Respond to issues   |
+| 12:15 | Presentation prep   |
+| 13:00 | _Lunch_             |
+| 14:00 | Presentations       |
+| 16:00 | Stop Go Continues   |
+| 16:45 | Update user Manuals |
+| 17:00 | Speaker             |
