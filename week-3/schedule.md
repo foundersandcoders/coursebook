@@ -6,7 +6,7 @@
 | ------- | -------------------------------------- | ----------------- |
 | 09:45   | Intro reading                          |                   |
 | 10:00   | Intro presentation                     |                   |
-| 10:30   | [Build a testing library](testing-lib) | Testing           |
+| 10:30   | [Build a testing library][testing-lib] | Testing           |
 | 11:00   | Unit testing workshop                  | Testing           |
 | _13:00_ | _Lunch_                                |                   |
 | 14:00   | Testing an actual thing workshop (tbc) | Testing           |
@@ -30,14 +30,14 @@
 
 ## Day 3
 
-| Time    | Activity            | Learning outcomes           |
-| ------- | ------------------- | --------------------------- |
-| 09:45   | Intro reading       |                             |
-| 10:00   | DOM Manipulation MC | add/modify/remove DOM nodes |
-| 11:00   | Project             |                             |
-| _13:00_ | _Lunch_             |                             |
-| 14:00   | Project             |                             |
-| 17:00   | Speaker             |                             |
+| Time    | Activity          | Learning outcomes |
+| ------- | ----------------- | ----------------- |
+| 09:45   | Intro reading     |                   |
+| 10:00   | Function scope MC | Scope, closures   |
+| 11:00   | Project           |                   |
+| _13:00_ | _Lunch_           |                   |
+| 14:00   | Project           |                   |
+| 17:00   | Speaker           |                   |
 
 ## Day 4
 

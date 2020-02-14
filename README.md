@@ -4,16 +4,16 @@ The new coursebook
 
 ## Topics
 
-| Week | Topic                            |
-| ---- | -------------------------------- |
-| 1    | [Teamwork and Toolkit](./week-1) |
-| 2    | [HTTP](./week-2)                 |
-| 3    | [Testing](./week-3)              |
-| 4    | [Node](./week-4)                 |
-| 5    | [Databases](./week-5)            |
-| 6    | [Authentication](./week-6)       |
-| 7    | [REST APIs](./week-7)            |
-| 8    | [Full-Stack App](./week-8)       |
+| Week | Topic                                        |
+| ---- | -------------------------------------------- |
+| 1    | [Teamwork and Toolkit](./week-1/schedule.md) |
+| 2    | [HTTP](./week-2/schedule.md)                 |
+| 3    | [Testing](./week-3/schedule.md)              |
+| 4    | [Node](./week-4/schedule.md)                 |
+| 5    | [Databases](./week-5/schedule.md)            |
+| 6    | [Authentication](./week-6/schedule.md)       |
+| 7    | [REST APIs](./week-7/schedule.md)            |
+| 8    | [Full-Stack App](./week-8/schedule.md)       |
 
 ## Default Schedule
 

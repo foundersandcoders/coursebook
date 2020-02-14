@@ -25,11 +25,10 @@
 
 ## Design
 
-### Animated navigation drawer
+### Wireframes
 
-- [ ] **We can create a slide-in navigation**
-- [ ] We can trigger CSS animations dynamically
-- [ ] We can create use ARIA to make our nav accessible
+- [ ] **We can build a wireframe of a UI**
+- [ ] We can map the user flow of the UI
 
 ## Testing
 
