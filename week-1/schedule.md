@@ -85,6 +85,7 @@
 | 13:00 | _Lunch_                                                       |
 | 14:00 | Presentations                                                 |
 | 15:30 | [Intro to cohort and team Stop Go Continue][intro-retros]     |
+| 16:45 | Update User Manuals                                           |
 | 17:00 | Speaker                                                       |
 
 [intro-code-review]: https://github.com/foundersandcoders/master-reference/blob/master/coursebook/week-1/codereviewintro.md
