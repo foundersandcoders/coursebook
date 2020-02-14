@@ -9,11 +9,12 @@
 | 10:30   | [HTTP intro][http-intro]              | HTTP                 |
 | 11:00   | [Fetch & Promises intro][fetch-intro] | Fetch, Promises      |
 | _13:00_ | _Lunch_                               |                      |
-| 14:00   | First-class functions (tbc)           | Functions, callbacks |
+| 14:00   | [First-class functions][fc-fns]       | Functions, callbacks |
 | 16:00   | Tech for Better                       |                      |
 
 [http-intro]: tbc
 [fetch-intro]: https://github.com/oliverjam/learn-fetch/
+[fc-fns]: https://github.com/oliverjam/first-class-functions
 
 ## Day 2
 
