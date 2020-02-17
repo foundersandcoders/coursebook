@@ -7,9 +7,9 @@
 | 09:45   | Intro reading                         |                      |
 | 10:00   | Intro presentation                    |                      |
 | 10:30   | [HTTP intro][http-intro]              | HTTP                 |
-| 11:00   | [Fetch & Promises intro][fetch-intro] | Fetch, Promises      |
+| 11:00   | [First-class functions][fc-fns]       | Functions, callbacks |
 | _13:00_ | _Lunch_                               |                      |
-| 14:00   | [First-class functions][fc-fns]       | Functions, callbacks |
+| 14:00   | [Fetch & Promises intro][fetch-intro] | Fetch, Promises      |
 | 16:00   | Tech for Better                       |                      |
 
 [http-intro]: tbc
