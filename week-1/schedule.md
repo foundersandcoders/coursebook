@@ -36,8 +36,8 @@
 | Time    | Activity                                                   | Learning outcomes                 |
 | ------- | ---------------------------------------------------------- | --------------------------------- |
 | 09:45   | Intro reading                                              | Accessibility                     |
-| 10:00   | [Design burst: grids][db-grids]                            |                                   |
-| 10:30   | Accessibility workshop                                     | Accessibility, pair programming   |
+| 10:00   | [Design burst: colour in UI][db-colour]                    |                                   |
+| 10:30   | [CSS Variables workshop][db-colour-ws]                     | CSS                               |
 | 11:30   | [Git workshop][git-ws]                                     | Version control, pair programming |
 | _13:00_ | _Lunch_                                                    |                                   |
 | 14:00   | [Git workshop contd.][git-ws]                              |                                   |
@@ -47,7 +47,8 @@
 | 16:30   | Spike presentation prep                                    |                                   |
 | 17:00   | Spike presentations                                        |                                   |
 
-[db-grids]: https://docs.google.com/presentation/d/11rIDhbzacs6AUFTVCiJd9f0Ud73TvM4Q9LScMVhctUY/edit?ts=5b4f0840#slide=id.g26a95a14fb_0_0
+[db-colour]: https://github.com/bobbysebolao/learn-css-variables
+[db-colour-ws]: https://github.com/bobbysebolao/learn-css-variables
 [git-ws]: https://github.com/foundersandcoders/git-workflow-workshop-for-two
 [research-guide]: https://github.com/foundersandcoders/master-reference/blob/master/coursebook/general/research-presentation-guidance.md
 [technical-spikes]: https://github.com/foundersandcoders/master-reference/blob/master/coursebook/week-1/research-afternoon.md
