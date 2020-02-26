@@ -21,7 +21,7 @@
 [welcome-talk]: http://facresources.com/slides/students-day-1-talk#/
 [name-game]: https://github.com/foundersandcoders/master-reference/blob/master/coursebook/week-1/resources/name-game.md
 [community-talk]: https://facresources.com/slides/community-talk#/
-[course-schedule]: https://github.com/foundersandcoders/master-reference/tree/master/coursebook
+[course-schedule]: (../README.md)
 [house-rules]: https://github.com/foundersandcoders/master-reference/blob/master/coursebook/general/house-rules.md
 [coc]: https://github.com/foundersandcoders/master-reference/blob/master/code-of-conduct.md
 [student-coc]: https://github.com/foundersandcoders/master-reference/blob/master/coursebook/week-1/cohort-code-of-conduct.md
