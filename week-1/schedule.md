@@ -16,20 +16,20 @@
 | 15:00   | [Accessibility workshop][a11y-workshop]                                                            | Accessibility      |
 | 16:00   | [Intro to project management presentation][pm-talk]                                                | Project management |
 | 16:30   | [Create user manuals][user-manuals]                                                                |                    |
-| 17:00   | [Intro to consensus based decision-making][intro-consensus]                                        |                    |
+| 17:00   | [Intro to sociocracatic decisions][intro-sociocracy]                                               |                    |
 
 [welcome-talk]: http://facresources.com/slides/students-day-1-talk#/
 [name-game]: https://github.com/foundersandcoders/master-reference/blob/master/coursebook/week-1/resources/name-game.md
 [community-talk]: https://facresources.com/slides/community-talk#/
 [course-schedule]: https://founders-and-coders.gitbook.io/coursebook/
-[house-rules]: https://github.com/foundersandcoders/master-reference/blob/master/coursebook/general/house-rules.md
-[coc]: https://github.com/foundersandcoders/master-reference/blob/master/code-of-conduct.md
+[house-rules]: https://founders-and-coders.gitbook.io/coursebook/documents/house-rules
+[coc]: https://founders-and-coders.gitbook.io/coursebook/documents/code-of-conduct
 [student-coc]: https://github.com/foundersandcoders/master-reference/blob/master/coursebook/week-1/cohort-code-of-conduct.md
-[intro-pairing]: https://github.com/foundersandcoders/master-reference/blob/master/coursebook/week-1/pair-programming.md
+[intro-pairing]: https://founders-and-coders.gitbook.io/coursebook/documents/pair-programming
 [a11y-workshop]: https://github.com/foundersandcoders/web-accessibility/blob/master/putting-yourself-in-someone-elses-shoes.md
 [pm-talk]: https://hackmd.io/@sofer/S1wGfV2M8#/
 [user-manuals]: https://github.com/foundersandcoders/master-reference/blob/master/coursebook/general/user-manuals/ISSUE_TEMPLATE.md
-[intro-consensus]: https://github.com/foundersandcoders/hq/blob/master/cooperative-structures.md
+[intro-sociocracy]: https://founders-and-coders.gitbook.io/coursebook/documents/sociocracy
 
 ## Day 2
 
@@ -50,7 +50,7 @@
 [db-colour]: https://github.com/bobbysebolao/learn-css-variables
 [db-colour-ws]: https://github.com/bobbysebolao/learn-css-variables
 [git-ws]: https://github.com/foundersandcoders/git-workflow-workshop-for-two
-[research-guide]: https://github.com/foundersandcoders/master-reference/blob/master/coursebook/general/research-presentation-guidance.md
+[research-guide]: https://founders-and-coders.gitbook.io/coursebook/documents/spikes
 [technical-spikes]: https://github.com/foundersandcoders/master-reference/blob/master/coursebook/week-1/research-afternoon.md
 
 ## Day 3
@@ -59,12 +59,13 @@
 | ------- | ------------------------------- | ----------------- |
 | 09:45   | Intro reading                   | Semantic HTML     |
 | 10:00   | [Learn HTML forms][learn-forms] | HTML forms        |
-| 11:00   | Project                         |                   |
+| 11:00   | [Project][projects]             |                   |
 | _13:00_ | _Lunch_                         |                   |
 | 14:00   | Project                         |                   |
 | 17:00   | Speaker                         |                   |
 
 [learn-forms]: https://github.com/oliverjam/learn-html-forms/
+[projects]: https://founders-and-coders.gitbook.io/coursebook/documents/projects
 
 ## Day 4
 
@@ -89,6 +90,6 @@
 | 16:45 | Update User Manuals                                           |
 | 17:00 | Speaker                                                       |
 
-[intro-code-review]: https://github.com/foundersandcoders/master-reference/blob/master/coursebook/week-1/codereviewintro.md
-[intro-project-presentations]: https://github.com/foundersandcoders/master-reference/blob/master/coursebook/general/weekly-projects.md#project-presentation
-[intro-retros]: https://github.com/foundersandcoders/master-reference/blob/master/coursebook/general/retrospectives.md#cohort-retrospective
+[intro-code-review]: https://founders-and-coders.gitbook.io/coursebook/documents/code-review
+[intro-project-presentations]: https://founders-and-coders.gitbook.io/coursebook/documents/projects#project-presentation
+[intro-retros]: https://founders-and-coders.gitbook.io/coursebook/documents/retrospectives
