@@ -47,7 +47,7 @@
 | 16:30   | Spike presentation prep                                    |                                   |
 | 17:00   | Spike presentations                                        |                                   |
 
-[db-colour]: https://github.com/bobbysebolao/learn-css-variables
+[db-colour]: http://facresources.com/slides/design-burst-week1.html
 [db-colour-ws]: https://github.com/bobbysebolao/learn-css-variables
 [git-ws]: https://github.com/foundersandcoders/git-workflow-workshop-for-two
 [research-guide]: https://founders-and-coders.gitbook.io/coursebook/documents/spikes
