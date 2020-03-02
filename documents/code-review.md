@@ -42,7 +42,7 @@ Open the project in your editor. Does the file structure make sense? Can you you
 
 ### Raise issues
 
-Check if the issue you want to raise already exists. Use the search bar if there are lots of issues already. Make sure your issue titles clearly summarise the content. If you're comment on a specific section of code you can [embed it in the issue](https://help.github.com/en/github/managing-your-work-on-github/opening-an-issue-from-code). Link to relevant documentation if you're suggesting something they may not have seen before.
+Check if the issue you want to raise already exists. Use the search bar if there are lots of issues already. Make sure your issue titles clearly summarise the content. If you're commenting on a specific section of code you can [embed it in the issue](https://help.github.com/en/github/managing-your-work-on-github/opening-an-issue-from-code). Link to relevant documentation if you're suggesting something they may not have seen before.
 
 Try to make sure your issues are clear and actionable. Don't focus on small subjective preferences (e.g. "I would put a line break before this line of code"). Instead highlight code that confused you, or that has the potential to break unexpectedly (e.g. "I wasn't sure what `x` was, could you call it `descriptiveName` instead?").
 
