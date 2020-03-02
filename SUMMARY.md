@@ -1,13 +1,13 @@
 ## Documents
 
 - [Code of Conduct](documents/code-of-conduct.md)
-- [Code Review](documents/code-review.md)
 - [House Rules](documents/house-rules.md)
 - [Pair Programming](documents/pair-programming.md)
+- [Spikes](documents/spikes.md)
 - [Projects](documents/projects.md)
+- [Code Review](documents/code-review.md)
 - [Retrospectives](documents/retrospectives.md)
 - [Sociocracy](documents/sociocracy.md)
-- [Spikes](documents/spikes.md)
 
 ## Week 1
 
