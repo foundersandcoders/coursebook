@@ -27,3 +27,37 @@ Struggle is good, but not too much of it. It's important to get used to not know
 For the first 8 weeks of the course, we stick to vanilla JavaScript. That means no frontend frameworks like Bootstrap, jQuery and friends. We want you to build your fundamental skills before learning higher-level abstractions.
 
 Understanding the basics will help you understand what problems frameworks were built to solve. This will let you make more effective judgements on which technologies to use in future. It will also give you the flexibility to switch between technologies, as the popularity of each one can shift.
+
+## Social rules
+
+Our social rules help create a friendly environment that is conducive to learning. We want everyone to feel comfortable sharing ideas and occasionally being wrong.
+
+These rules are important, but they aren't severe like code-of-conduct violations. It's likely everyone will slip up and break a social rule: you aren't a bad person if you do. If someone points this out apologise, reflect for a second and move on.
+
+### No "well-actually"s
+
+Try not to add an irrelevant correction to a conversation. Software engineers tend to care about being very specific and correct. This is a good trait when writing code, but makes for awkward conversation. Nobody wants to have to preface a short anecdote with pages of legalese and clarifications. An unnecessary interruption can throw off the person speaking and make them uncomfortable sharing further.
+
+> Jane: "I had a bunch of tasty vegetables for dinner: tomatoes-"
+>
+> Bill: "Actually tomatoes are a fruit!"
+
+### No feigning surprise
+
+Don't act surprised when someone doesn't know something. This will make that person feel bad for not knowing, and less likely to ask questions in the future.
+
+> Jane: "What does `querySelector` do?"
+>
+> Bill: "You've never used `querySelector`?!"
+
+### No backseat driving
+
+Don't chuck advice at people if you're not part of a conversation or working on a problem with someone. You might overhear a pair who are stuck on something and want to help, but it's likely you're missing lots of context (and you don't know what they've already tried). You might also be depriving them of the learning opportunity of figuring something out for themselves. It's also rude to jump into a conversation without asking first.
+
+### No subtle-isms
+
+Subtle-isms are subtle expressions of racism, sexism, ageism, homophobia, transphobia and other kinds of bias and prejudice. Although they may be small things they make people feel unwelcome and uncomfortable. Remember that (especially if you are in a privileged majority) that [microaggressions](https://en.wikipedia.org/wiki/Microaggression) add up. Your small offhand comment might be piled on top of a whole day of slights.
+
+We want to create an environment where everyone feels like they belong. Overt, intentional prejudice is a code-of-conduct violation and should be reported.
+
+Please also avoid bringing discussions of highly-charged topics into the space. What may be an interesting intellectual problem for you could be the daily lived experience of someone else.
