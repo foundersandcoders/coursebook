@@ -47,7 +47,7 @@
 | 14:00   | Project                       |                             |
 | 17:00   | Speaker                       |                             |
 
-[dom-mc][https://github.com/foundersandcoders/dom-manipulation-challenge/]
+[dom-mc]: https://github.com/foundersandcoders/dom-manipulation-challenge/
 
 ## Day 4
 
