@@ -18,17 +18,19 @@
 
 ## Day 2
 
-| Time    | Activity                | Learning outcomes                      |
-| ------- | ----------------------- | -------------------------------------- |
-| 09:45   | Intro reading           |                                        |
-| 10:00   | Design burst: colour    | CSS variables, colour palette          |
-| 10:30   | Colour palette workshop | CSS variables, colour palette          |
-| 11:00   | TDD array methods       | Test-Driven-Development, array methods |
-| _13:00_ | _Lunch_                 |                                        |
-| 14:00   | Project intro           |                                        |
-| 14:30   | Technical spikes        |                                        |
-| 16:30   | Spike presentation prep |                                        |
-| 17:00   | Spike presentations     |                                        |
+| Time    | Activity                        | Learning outcomes                      |
+| ------- | ------------------------------- | -------------------------------------- |
+| 09:45   | Intro reading                   |                                        |
+| 10:00   | Design burst: colour            | CSS variables, colour palette          |
+| 10:30   | Colour palette workshop         | CSS variables, colour palette          |
+| 11:00   | [TDD array methods][tdd-arrays] | Test-Driven-Development, array methods |
+| _13:00_ | _Lunch_                         |                                        |
+| 14:00   | Project intro                   |                                        |
+| 14:30   | Technical spikes                |                                        |
+| 16:30   | Spike presentation prep         |                                        |
+| 17:00   | Spike presentations             |                                        |
+
+[tdd-arrays]: https://github.com/oliverjam/tdd-array-methods
 
 ## Day 3
 
