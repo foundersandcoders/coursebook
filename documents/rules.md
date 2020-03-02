@@ -6,7 +6,7 @@
 
 Arrive **before scheduled start time**. If you're still in the kitchen making coffee when a workshop is supposed to begin you aren't on time, you're late. The mentors will not wait for everyone to be present before starting in the morning.
 
-Let your cohort or the course facilitator know in advance if you're going to be away. Lots of people are giving freely of their time and knowledge to make FAC possible and giving up other commitments to be here.
+Let your cohort or the course facilitator know in advance if you're going to be away. Lots of people are freely giving their time and knowledge to make FAC possible and giving up other commitments to be here.
 
 ### Share the space
 
