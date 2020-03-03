@@ -13,6 +13,7 @@
 
 - [Learning outcomes](week-1/learning-outcomes.md)
 - [Schedule](week-1/schedule.md)
+- [Spikes](week-1/spikes.md)
 - [Project](week-1/project.md)
 
 ## Week 2
