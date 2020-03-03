@@ -23,7 +23,7 @@
 | ------- | -------------------------------------------------- | --------------------------------------------------- |
 | 09:45   | Intro reading                                      |                                                     |
 | 10:00   | [Design burst: layout and spacing][db-layout]      |                                                     |
-| 10:30   | [Layout and spacing workshop][ws-layout]           | CSS layout                                          |
+| 10:30   | [Layout and spacing workshop][db-layout-ws]           | CSS layout                                          |
 | 11:00   | [Real world fetch][real-world-fetch]               | Error handling, submitting data, `fetch` with forms |
 | _13:00_ | _Lunch_                                            |                                                     |
 | 14:00   | [Issue management & estimation][estimation-slides] | Project management, GitHub issues                   |
