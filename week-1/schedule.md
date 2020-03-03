@@ -51,7 +51,7 @@
 [db-colour-ws]: https://github.com/bobbysebolao/learn-css-variables
 [git-ws]: https://github.com/foundersandcoders/git-workflow-workshop-for-two
 [research-guide]: https://founders-and-coders.gitbook.io/coursebook/documents/spikes
-[technical-spikes]: https://github.com/foundersandcoders/master-reference/blob/master/coursebook/week-1/research-afternoon.md
+[technical-spikes]: ./spikes.md
 
 ## Day 3
 
