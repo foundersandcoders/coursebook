@@ -59,5 +59,5 @@ How do you design and build a webpage that looks good on any device?
 ### Useful resources
 
 - [Units - Every Layout](https://every-layout.dev/rudiments/units/)
-- [CSS Units - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
+- [The lengths of CSS](https://css-tricks.com/the-lengths-of-css/)
 - [How To Write Mobile-first CSS](https://zellwk.com/blog/how-to-write-mobile-first-css/)
