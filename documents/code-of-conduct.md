@@ -1,7 +1,4 @@
----
-title: Code of Conduct
-tags: coc
----
+# Code of Conduct
 
 All members are required to agree with the following code of conduct.
 **All members of the community are expected to enforce this code** at every community event, class, gathering or exchange (such as [Founders and Coders classes](http://www.foundersandcoders.com) or our evening meetups, workshops and short courses), on our online forums (Slack and GitHub), and everywhere we interact under the [Founders and Coders](http://www.github.com/foundersandcoders) banner.
