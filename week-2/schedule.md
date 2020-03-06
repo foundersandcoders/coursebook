@@ -22,8 +22,8 @@
 | Time    | Activity                                           | Learning outcomes                                   |
 | ------- | -------------------------------------------------- | --------------------------------------------------- |
 | 09:45   | Intro reading                                      |                                                     |
-| 10:00   | [Design burst: layout][db-layout]                  |                                                     |
-| 10:30   | [Layout workshop][db-layout-ws]                    | Layout and spacing, CSS flexbox                     |
+| 10:00   | [Design burst: layout and spacing][db-layout]      |                                                     |
+| 10:30   | [Layout and spacing workshop][db-layout-ws]        | CSS layout, flexbox                                 |
 | 11:00   | [Real world fetch][real-world-fetch]               | Error handling, submitting data, `fetch` with forms |
 | _13:00_ | _Lunch_                                            |                                                     |
 | 14:00   | [Issue management & estimation][estimation-slides] | Project management, GitHub issues                   |
@@ -32,8 +32,8 @@
 | 16:30   | Spike presentation prep                            |                                                     |
 | 17:00   | Spike presentations                                |
 
-[db-layout]: https://docs.google.com/presentation/d/1mbzmHJ8UFGosmjwJaxOSJl-PuaQtqxzJKKU4ExGWxrg/edit#slide=id.g3d4c4019a0_1_276
-[db-layout-ws]: https://github.com/bobbysebolao/learn-layout-spacing/blob/master/readme.md
+[db-layout]: http://facresources.com/slides/design-burst-week2.html
+[db-layout-ws]: https://github.com/bobbysebolao/learn-layout-spacing
 [real-world-fetch]: https://github.com/oliverjam/real-world-fetch
 [estimation-slides]: https://hackmd.io/@sofer/B1AL4V3ML#/
 
@@ -48,7 +48,7 @@
 | 14:00   | Project                       |                             |
 | 17:00   | Speaker                       |                             |
 
-[dom-mc][https://github.com/foundersandcoders/dom-manipulation-challenge/]
+[dom-mc]: https://github.com/foundersandcoders/dom-manipulation-challenge/
 
 ## Day 4
 

@@ -1,7 +1,19 @@
+## Documents
+
+- [Code of Conduct](documents/code-of-conduct.md)
+- [House Rules](documents/house-rules.md)
+- [Pair Programming](documents/pair-programming.md)
+- [Spikes](documents/spikes.md)
+- [Projects](documents/projects.md)
+- [Code Review](documents/code-review.md)
+- [Retrospectives](documents/retrospectives.md)
+- [Sociocracy](documents/sociocracy.md)
+
 ## Week 1
 
 - [Learning outcomes](week-1/learning-outcomes.md)
 - [Schedule](week-1/schedule.md)
+- [Spikes](week-1/spikes.md)
 - [Project](week-1/project.md)
 
 ## Week 2
