@@ -4,11 +4,13 @@ Each week, you will be split into teams of 4 by your mentors. These teams will b
 
 The teams stay together for the following weeks:
 
-- First team = weeks 1-3
-- Second team = weeks 4-6
-- Third team = weeks 7-8
+- First team = weeks 1&2
+- Second team = weeks 3&4
+- Third team = week 5
+- Fourth team = weeks 6&7
+- Fifth team = week 8
 
-Your mentors will let you know which teams you will be in at the beginning of weeks: 1, 4 & 7. Have a chat with your team when it first forms, and come up with a team name.
+Your teams are posted on the wall by the door or can be found in your cohort's London Programme folder. Have a chat with your team when it first forms, and come up with a team name.
 
 ## Creating repositories for each project
 
@@ -37,18 +39,20 @@ Aside from these repositories, the organisation is yours and you are free to add
 
 ## Project Presentation
 
-Your timetable includes 15 mins for your team to discuss how you are going to present your project together.
+Your timetable includes 45 mins for your team to write your presentation and discuss how you are going to present your project together.
 **Remember: We want to hear from everyone during your presentation!**
 
-Each team then has 15 minutes to present, with 5 minutes for questions. We will be strict with you on timing, so make sure you use your planning time effectively.
+Each team then has 15 minutes to present, with 5 additional minutes for questions. We will be strict with you on timing, so make sure you use your time effectively.
 
 ### Structure
 
-1. Show your readme:
+1. Show your process:
    - Talk through the Why, What, How of your project
    - How did you split up the work?
    - How did you choose to pair?
-2. Demo your website and explain how it conforms to your brief i.e. the user stories
-3. Walk us through your code. Prioritise the things you learned that were new to you, which the rest of your cohort could benefit from hearing about:
+2. Briefly demo your website and explain how it conforms to your brief i.e. the user stories
+3. Walk us through your code. Emphasise the things you learned that were new to you, which the rest of your cohort could benefit from hearing about:
    - something you're proud of
    - something that you found really hard / struggled with
+4. Have the people who didn't write a piece of code talk through it - this is a great way to demonstrate knowledge of learning and collaboration
+5. Avoid talking through the project brief for a long time - each team has the same brief and your time will be better spent talking about what was unique about your presentation
