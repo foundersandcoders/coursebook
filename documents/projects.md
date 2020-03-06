@@ -1,6 +1,6 @@
 # Project
 
-Each week, you will be split into teams of 4 by your mentors. These teams will be changed twice during the first half course, to give you a chance to work with as many other members of your cohort as possible.
+Each week, you will be split into teams of 4 by your mentors. These teams will be changed four times during the first half of the course, to give you a chance to work with every other member of your cohort.
 
 The teams stay together for the following weeks:
 
@@ -13,12 +13,6 @@ The teams stay together for the following weeks:
 Your teams are posted on the wall by the door or can be found in your cohort's London Programme folder. Have a chat with your team when it first forms, and come up with a team name.
 
 ## Creating repositories for each project
-
-Inside your GitHub organisation you will see three repositories that have been created for you:
-
-- `prerequisites-gh-pages`
-- `research`
-- `morning-challenge-solutions`
 
 When you create repositories for your weekly projects, please follow this naming convention:  
 `week1-<name of team1>`  
