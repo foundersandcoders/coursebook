@@ -1,10 +1,6 @@
 # Project
 
-<<<<<<< HEAD
 Each week, you will be split into teams of 4 by your mentors. These teams will be changed four times during the first half of the course, to give you a chance to work with every other member of your cohort.
-=======
-Each week, you will be split into teams of 4 by your mentors. These teams will be changed four times during the first half course, to give you a chance to work with every other member of your cohort.
->>>>>>> 0a104b51919dce543f8e88f63bb2b7085eaee522
 
 The teams stay together for the following weeks:
 
