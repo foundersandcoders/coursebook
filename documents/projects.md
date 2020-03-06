@@ -1,6 +1,10 @@
 # Project
 
+<<<<<<< HEAD
 Each week, you will be split into teams of 4 by your mentors. These teams will be changed four times during the first half of the course, to give you a chance to work with every other member of your cohort.
+=======
+Each week, you will be split into teams of 4 by your mentors. These teams will be changed four times during the first half course, to give you a chance to work with every other member of your cohort.
+>>>>>>> 0a104b51919dce543f8e88f63bb2b7085eaee522
 
 The teams stay together for the following weeks:
 
@@ -44,7 +48,7 @@ Each team then has 15 minutes to present, with 5 additional minutes for question
    - Talk through the Why, What, How of your project
    - How did you split up the work?
    - How did you choose to pair?
-2. Briefly demo your website and explain how it conforms to your brief i.e. the user stories
+2. Briefly demo your project and explain how it conforms to your brief i.e. the user stories
 3. Walk us through your code. Emphasise the things you learned that were new to you, which the rest of your cohort could benefit from hearing about:
    - something you're proud of
    - something that you found really hard / struggled with
