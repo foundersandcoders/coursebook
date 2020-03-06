@@ -50,3 +50,12 @@ Each team then has 15 minutes to present, with 5 additional minutes for question
    - something that you found really hard / struggled with
 4. Have the people who didn't write a piece of code talk through it - this is a great way to demonstrate knowledge of learning and collaboration
 5. Avoid talking through the project brief for a long time - each team has the same brief and your time will be better spent talking about what was unique about your presentation
+
+### Make it interactive
+
+- **Ask your audience questions** and keep them on their toes.
+- You could even introduce a quiz element to your presentation. Check out [Kahoot!](https://kahoot.com)
+
+### ... and use gifs :tada:
+
+- Jazz it up with emojis, images and [gifs](https://giphy.com)!
