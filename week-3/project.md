@@ -33,7 +33,7 @@ You should have automated tests covering all the main user stories. Each story b
 
 - Use all the features of the app without a mouse
 
-### Stretch
+### Stretch
 
 **As a busy person, I want to:**
 
