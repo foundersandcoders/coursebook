@@ -1,4 +1,4 @@
-## HTTP week project
+# HTTP week project
 
 Your project this week is to build an app that queries at least _two_ APIs and uses the results to update the DOM. There should be a way for the user to search, filter, sort or otherwise affect what is displayed.
 
