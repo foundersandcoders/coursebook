@@ -6,11 +6,10 @@
 | ------- | --------------------------------------------------- | ------------------- |
 | 09:45   | Intro reading                                       |                     |
 | 10:00   | [Intro presentation][testing-intro]                 |                     |
-| 10:30   | [Build a testing library][testing-lib]              | Unit testing        |
-| 11:00   | [Unit testing workshop][unit-testing]               | Integration testing |
-| 12:00   | [Integration testing workshop][integration-testing] | Testing             |
+| 10:30   | [Build a testing library][testing-lib]              | Testing             |
+| 11:30   | [Unit testing workshop][unit-testing]               | Unit testing        |
 | _13:00_ | _Lunch_                                             |                     |
-| 14:00   | Testing an actual thing workshop (tbc)              | Testing             |
+| 14:00   | [Integration testing workshop][integration-testing] | Integration testing |
 | 16:00   | Tech for Better                                     |                     |
 
 [testing-intro]: https://hackmd.io/@oli/Sy7cA4TXI
