@@ -19,18 +19,19 @@
 
 ## Day 2
 
-| Time    | Activity                        | Learning outcomes                      |
-| ------- | ------------------------------- | -------------------------------------- |
-| 09:45   | Intro reading                   |                                        |
-| 10:00   | Design burst: grids             | Grid layout, CSS Grid                  |
-| 10:30   | [CSS Grid workshop][db-grid-ws] | Grid layout, CSS Grid                  |
-| 11:00   | [TDD array methods][tdd-arrays] | Test-Driven-Development, array methods |
-| _13:00_ | _Lunch_                         |                                        |
-| 14:00   | Project intro                   |                                        |
-| 14:30   | Technical spikes                |                                        |
-| 16:30   | Spike presentation prep         |                                        |
-| 17:00   | Spike presentations             |                                        |
+| Time    | Activity                              | Learning outcomes                      |
+| ------- | ------------------------------------- | -------------------------------------- |
+| 09:45   | Intro reading                         |                                        |
+| 10:00   | [Design burst: grids][db-grid-slides] | Grid layout, CSS Grid                  |
+| 10:30   | [CSS Grid workshop][db-grid-ws]       | Grid layout, CSS Grid                  |
+| 11:00   | [TDD array methods][tdd-arrays]       | Test-Driven-Development, array methods |
+| _13:00_ | _Lunch_                               |                                        |
+| 14:00   | Project intro                         |                                        |
+| 14:30   | Technical spikes                      |                                        |
+| 16:30   | Spike presentation prep               |                                        |
+| 17:00   | Spike presentations                   |                                        |
 
+[db-grid-slides]: https://hackmd.io/@fac/S1-95B9r8#/
 [db-grid-ws]: https://github.com/bobbysebolao/learn-css-grid
 [tdd-arrays]: https://github.com/oliverjam/tdd-array-methods
 
