@@ -38,15 +38,16 @@
 
 ## Day 3
 
-| Time    | Activity                    | Learning outcomes |
-| ------- | --------------------------- | ----------------- |
-| 09:45   | Intro reading               |                   |
-| 10:00   | [Scope challenge][scope-mc] | Scope, closures   |
-| 11:00   | Project                     |                   |
-| _13:00_ | _Lunch_                     |                   |
-| 14:00   | Project                     |                   |
-| 17:00   | Speaker                     |                   |
+| Time    | Activity                       | Learning outcomes |
+| ------- | ------------------------------ | ----------------- |
+| 09:45   | [Intro reading][magazine-grid] |                   |
+| 10:00   | [Scope challenge][scope-mc]    | Scope, closures   |
+| 11:00   | Project                        |                   |
+| _13:00_ | _Lunch_                        |                   |
+| 14:00   | Project                        |                   |
+| 17:00   | Speaker                        |                   |
 
+[magazine-grid]: https://css-tricks.com/responsive-grid-magazine-layout-in-just-20-lines-of-css/
 [scope-mc]: https://github.com/oliverjam/js-scope-challenge
 
 ## Day 4
