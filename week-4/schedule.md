@@ -2,18 +2,19 @@
 
 ## Day 1
 
-| Time    | Activity                                    | Learning outcomes                      |
-| ------- | ------------------------------------------- | -------------------------------------- |
-| 09:45   | Intro reading                               | Web servers                            |
-| 10:00   | Intro presentation                          |                                        |
-| 10:30   | [Node intro][node-intro] tbc                | HTTP server                            |
-| 11:00   | [Node Girls workshop][node-girls]           | HTTP server, POST requests, HTML forms |
-| _13:00_ | _Lunch_                                     |                                        |
-| 14:00   | [Node Girls workshop][node-girls] continued | Testing                                |
-| 16:00   | Tech for Better                             |                                        |
+| Time    | Activity                        | Learning outcomes                              |
+| ------- | ------------------------------- | ---------------------------------------------- |
+| 09:45   | Intro reading                   | Web servers                                    |
+| 10:00   | Intro presentation              |                                                |
+| 10:30   | [Node intro][node-intro]        | Node, CommonJS modules                         |
+| 11:00   | [Node HTTP Servers][node-http]  | HTTP server, Routing, Streams                  |
+| _13:00_ | _Lunch_                         |                                                |
+| 14:00   | [Node File Servers][node-files] | File system, Error-first callbacks, MIME types |
+| 16:00   | Tech for Better                 |                                                |
 
-[node-intro]: tbc
-[node-girls]: https://github.com/node-girls/node-workshop/
+[node-intro]: https://github.com/oliverjam/node-introduction
+[node-http]: https://github.com/oliverjam/node-http-server
+[node-files]: https://github.com/oliverjam/node-file-server
 
 ## Day 2
 
