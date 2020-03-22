@@ -18,6 +18,7 @@ Your project this week is to build a microblogging site. It should allow users t
 ### Acceptance Criteria
 
 - A page with a form to submit posts, and a page showing all posts
+- All static assets served correctly (CSS etc)
 - Tests for each server route
 - A responsive, mobile-first design
 - Ensure your app is accessible to as many different users as possible
