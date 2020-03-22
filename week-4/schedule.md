@@ -4,7 +4,7 @@
 
 | Time    | Activity                       | Learning outcomes             |
 | ------- | ------------------------------ | ----------------------------- |
-| 09:45   | Intro reading                  | Web servers                   |
+| 09:45   | Check-in                       |                               |
 | 10:00   | Intro presentation             |                               |
 | 10:30   | [Node intro][node-intro]       | Node, CommonJS modules        |
 | 11:00   | [Node HTTP Servers][node-http] | HTTP server, Routing, Streams |
@@ -21,7 +21,7 @@
 
 | Time    | Activity                        | Learning outcomes                              |
 | ------- | ------------------------------- | ---------------------------------------------- |
-| 09:45   | Intro reading                   |                                                |
+| 09:45   | Check-in                        |                                                |
 | 10:00   | Spike presentations             |                                                |
 | 11:00   | [npm intro][npm-intro]          | npm, modules                                   |
 | 11:30   | [Node File Servers][node-files] | File system, Error-first callbacks, MIME types |
@@ -36,7 +36,7 @@
 
 | Time    | Activity                  | Learning outcomes        |
 | ------- | ------------------------- | ------------------------ |
-| 09:45   | Intro reading             |                          |
+| 09:45   | Check-in                  |                          |
 | 10:00   | [Node fetch MC][fetch-mc] | Network requests in Node |
 | 11:00   | Project                   |                          |
 | _13:00_ | _Lunch_                   |                          |
@@ -49,7 +49,8 @@
 
 | Time    | Activity |
 | ------- | -------- |
-| 09:45   | Project  |
+| 09:45   | Check-in |
+| 10:00   | Project  |
 | _13:00_ | _Lunch_  |
 | 14:00   | Project  |
 
@@ -57,7 +58,8 @@
 
 | Time  | Activity            |
 | ----- | ------------------- |
-| 09:45 | Code review         |
+| 09:45 | Check-in            |
+| 10:00 | Code review         |
 | 10:45 | Respond to issues   |
 | 12:15 | Presentation prep   |
 | 13:00 | _Lunch_             |
