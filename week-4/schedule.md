@@ -60,7 +60,7 @@
 | ----- | ------------------- |
 | 09:45 | Check-in            |
 | 10:00 | Code review         |
-| 10:45 | Respond to issues   |
+| 11:00 | Respond to issues   |
 | 12:15 | Presentation prep   |
 | 13:00 | _Lunch_             |
 | 14:00 | Presentations       |
