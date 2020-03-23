@@ -10,12 +10,13 @@
 | 11:00   | [Node HTTP Servers][node-http] | HTTP server, Routing, Streams |
 | _13:00_ | _Lunch_                        |                               |
 | 14:00   | [Node HTTP Servers][node-http] | HTTP server, Routing, Streams |
+| 15:00   | [npm intro][npm-intro]         | npm, modules                  |
 | 15:30   | Project intro                  |                               |
-| 16:30   | Technical spikes               |                               |
+| 16:00   | Technical spikes               |                               |
 
 [node-intro]: https://github.com/oliverjam/node-introduction
 [node-http]: https://github.com/oliverjam/node-http-server
-[node-files]: https://github.com/oliverjam/node-file-server
+[npm-intro]: https://github.com/foundersandcoders/npm-introduction
 
 ## Day 2
 
@@ -23,13 +24,12 @@
 | ------- | ------------------------------- | ---------------------------------------------- |
 | 09:45   | Check-in                        |                                                |
 | 10:00   | Spike presentations             |                                                |
-| 11:00   | [npm intro][npm-intro]          | npm, modules                                   |
-| 11:30   | [Node File Servers][node-files] | File system, Error-first callbacks, MIME types |
+| 11:00   | [Node File Servers][node-files] | File system, Error-first callbacks, MIME types |
 | _13:00_ | _Lunch_                         |                                                |
 | 14:00   | [TDD Node Server][node-tdd]     | Tape, TDD                                      |
 | 16:00   | Tech for Better                 |                                                |
 
-[npm-intro]: https://github.com/foundersandcoders/npm-introduction
+[node-files]: https://github.com/oliverjam/node-file-server
 [node-tdd]: https://github.com/foundersandcoders/ws-tdd-node-server
 
 ## Day 3
