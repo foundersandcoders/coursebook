@@ -38,13 +38,15 @@ First of all, it's completely normal to find public speaking and giving presenta
 - It also provides **natural breaks** between your points.
 - Try [HackMD](https://hackmd.io)'s slide mode, or [Google slides](https://www.google.co.uk/slides/about/).
 
-#### Bullet points :bullettrain_side:
+#### Introduce one concept per slide :bullettrain_side:
 
 - A wall of text can be disengaging for the audience.
+- Keep your characer count per slide to 100 characters (at most)
 - Try to treat your slides' text as **prompts**. It'll stop you from just reading off the board!
 
 #### Code snippets :computer:
 
+- Where appropriate, alternate the introduction of a concept with its implementation in a code snippet
 - We recommend using these wherever possible - it can often be difficult to grasp a concept without seeing **an example** in code.
 - Walk through code **line by line**, and **slowly**!
 
