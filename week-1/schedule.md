@@ -35,7 +35,7 @@
 
 | Time    | Activity                                                   | Learning outcomes                 |
 | ------- | ---------------------------------------------------------- | --------------------------------- |
-| 09:45   | Check-in                                                   | Accessibility                     |
+| 09:45   | Check-in                                                   |                                   |
 | 10:00   | [Design burst: colour in UI][db-colour]                    |                                   |
 | 10:30   | [CSS Variables workshop][db-colour-ws]                     | CSS                               |
 | 11:30   | [Git workshop][git-ws]                                     | Version control, pair programming |
