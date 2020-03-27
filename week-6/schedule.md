@@ -4,7 +4,7 @@
 
 | Time    | Activity                                    | Learning outcomes                     |
 | ------- | ------------------------------------------- | ------------------------------------- |
-| 09:45   | Intro reading                               |                                       |
+| 09:45   | Check-in                                    |                                       |
 | 10:00   | [Intro presentation][intro-slides]          |                                       |
 | 10:30   | [Password management workshop][password-ws] | Password management, hashing, salting |
 | _13:00_ | _Lunch_                                     |                                       |
@@ -19,7 +19,7 @@
 
 | Time    | Activity                                            | Learning outcomes                         |
 | ------- | --------------------------------------------------- | ----------------------------------------- |
-| 09:45   | Intro reading                                       |                                           |
+| 09:45   | Check-in                                            |                                           |
 | 10:00   | [Design burst][db-typography]                       | Typography                                |
 | 10:30   | Typography challenge                                | Typography, custom CSS fonts              |
 | 11:00   | [Stateless session management workshop][session-ws] | JSON Web Tokens, stateless authentication |
@@ -35,7 +35,7 @@
 
 | Time    | Activity                                   | Learning outcomes         |
 | ------- | ------------------------------------------ | ------------------------- |
-| 09:45   | Intro reading                              |                           |
+| 09:45   | Check-in                                   |                           |
 | 10:00   | [Client side validation mc][validation-mc] | UX, usability, HTML forms |
 | 11:00   | Project                                    |                           |
 | _13:00_ | _Lunch_                                    |                           |
@@ -48,7 +48,8 @@
 
 | Time    | Activity |
 | ------- | -------- |
-| 09:45   | Project  |
+| 09:45   | Check-in |
+| 10:00   | Project  |
 | _13:00_ | _Lunch_  |
 | 14:00   | Project  |
 
@@ -56,8 +57,9 @@
 
 | Time  | Activity            |
 | ----- | ------------------- |
-| 09:45 | Code review         |
-| 10:45 | Respond to issues   |
+| 09:45 | Check-in            |
+| 10:00 | Code review         |
+| 11:00 | Respond to issues   |
 | 12:15 | Presentation prep   |
 | 13:00 | _Lunch_             |
 | 14:00 | Presentations       |

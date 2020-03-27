@@ -4,7 +4,7 @@
 
 | Time    | Activity                                 | Learning outcomes |
 | ------- | ---------------------------------------- | ----------------- |
-| 09:45   | Intro reading                            |                   |
+| 09:45   | Check-in                                 |                   |
 | 10:00   | [Intro presentation][intro-slides]       |                   |
 | 10:30   | [PSQL installation][psql-install]        |                   |
 | 11:00   | [SQL commands intro workshop][sql-intro] | PSQL, SQL queries |
@@ -23,7 +23,7 @@
 
 | Time    | Activity                                   | Learning outcomes                    |
 | ------- | ------------------------------------------ | ------------------------------------ |
-| 09:45   | Intro reading                              |                                      |
+| 09:45   | Check-in                                   |                                      |
 | 10:00   | UI components workshop                     | UI components                        |
 | 10:30   | [Pg module code along][pg-codealong]       | Initialising databases, SQL commands |
 | 12:00   | [Facsters Node app workshop][pg-ws]        |                                      |
@@ -42,7 +42,7 @@
 
 | Time    | Activity         | Learning outcomes |
 | ------- | ---------------- | ----------------- |
-| 09:45   | Intro reading    |                   |
+| 09:45   | Check-in         |                   |
 | 10:00   | [SQL MC][sql-mc] | SQL queries       |
 | 11:00   | Project          |                   |
 | _13:00_ | _Lunch_          |                   |
@@ -55,7 +55,8 @@
 
 | Time    | Activity |
 | ------- | -------- |
-| 09:45   | Project  |
+| 09:45   | Check-in |
+| 10:00   | Project  |
 | _13:00_ | _Lunch_  |
 | 14:00   | Project  |
 
@@ -63,8 +64,9 @@
 
 | Time  | Activity            |
 | ----- | ------------------- |
-| 09:45 | Code review         |
-| 10:45 | Respond to issues   |
+| 09:45 | Check-in            |
+| 10:00 | Code review         |
+| 11:00 | Respond to issues   |
 | 12:15 | Presentation prep   |
 | 13:00 | _Lunch_             |
 | 14:00 | Presentations       |

@@ -23,7 +23,7 @@ The general timetable for the first 8 weeks. This does differ from week to week 
 
 | Time    | Activity           | Description                                    |
 | ------- | ------------------ | ---------------------------------------------- |
-| 09:45   | Intro Reading      | Reading around this week's topic               |
+| 09:45   | Check-in           |                                                |
 | 10:00   | Intro Presentation | Mentors present on this week's topic           |
 | 10:30   | Workshops          |                                                |
 | _13:00_ | _Lunch_            |                                                |
@@ -35,7 +35,7 @@ The general timetable for the first 8 weeks. This does differ from week to week 
 
 | Time    | Activity                | Description                                                  |
 | ------- | ----------------------- | ------------------------------------------------------------ |
-| 09:45   | Intro Reading           |                                                              |
+| 09:45   | Check-in                |                                                              |
 | 10:00   | Design Burst            | A short presentation on an aspect of design                  |
 | 10:30   | Design Workshop         | A follow-on workshop on the design topic                     |
 | 11:00   | Workshop                |                                                              |
@@ -50,7 +50,7 @@ The general timetable for the first 8 weeks. This does differ from week to week 
 
 | Time    | Activity          | Description                                                     |
 | ------- | ----------------- | --------------------------------------------------------------- |
-| 09:45   | Intro Reading     |                                                                 |
+| 09:45   | Check-in          |                                                                 |
 | 10:00   | Morning Challenge | A workshop to challenge your understanding of this week's topic |
 | 11:00   | Project           |                                                                 |
 | _13:00_ | _Lunch_           |                                                                 |
@@ -62,7 +62,8 @@ The general timetable for the first 8 weeks. This does differ from week to week 
 
 | Time    | Activity | Description |
 | ------- | -------- | ----------- |
-| 09:45   | Project  |             |
+| 09:45   | Check-in |             |
+| 10:00   | Project  |             |
 | _13:00_ | _Lunch_  |             |
 | 14:00   | Project  |             |
 | _18:00_ | _Finish_ |             |
@@ -71,8 +72,9 @@ The general timetable for the first 8 weeks. This does differ from week to week 
 
 | Time    | Activity            | Description                                                                |
 | ------- | ------------------- | -------------------------------------------------------------------------- |
-| 09:45   | Code Review         | Review another team's project code                                         |
-| 10:45   | Respond to issues   | Refactor your project based upon the feedback you got in code review       |
+| 09:45   | Check-in            |                                                                            |
+| 10:00   | Code Review         | Review another team's project code                                         |
+| 11:00   | Respond to issues   | Refactor your project based upon the feedback you got in code review       |
 | 12:15   | Presentation Prep   |                                                                            |
 | _13:00_ | _Lunch_             |                                                                            |
 | 14:00   | Presentations       | Present your project from this week                                        |

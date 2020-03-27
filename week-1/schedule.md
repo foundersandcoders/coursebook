@@ -35,7 +35,7 @@
 
 | Time    | Activity                                                   | Learning outcomes                 |
 | ------- | ---------------------------------------------------------- | --------------------------------- |
-| 09:45   | Intro reading                                              | Accessibility                     |
+| 09:45   | Check-in                                                   |                                   |
 | 10:00   | [Design burst: colour in UI][db-colour]                    |                                   |
 | 10:30   | [CSS Variables workshop][db-colour-ws]                     | CSS                               |
 | 11:30   | [Git workshop][git-ws]                                     | Version control, pair programming |
@@ -57,7 +57,7 @@
 
 | Time    | Activity                        | Learning outcomes |
 | ------- | ------------------------------- | ----------------- |
-| 09:45   | Intro reading                   | Semantic HTML     |
+| 09:45   | Check-in                        |                   |
 | 10:00   | [Learn HTML forms][learn-forms] | HTML forms        |
 | 11:00   | [Project][projects]             |                   |
 | _13:00_ | _Lunch_                         |                   |
@@ -71,7 +71,8 @@
 
 | Time    | Activity |
 | ------- | -------- |
-| 09:45   | Project  |
+| 09:45   | Check-in |
+| 10:00   | Project  |
 | _13:00_ | _Lunch_  |
 | 14:00   | Project  |
 
@@ -79,8 +80,8 @@
 
 | Time  | Activity                                                      |
 | ----- | ------------------------------------------------------------- |
-| 09:45 | [Intro reading][intro-code-review]                            |
-| 10:00 | Code review                                                   |
+| 09:45 | Check-in                                                      |
+| 10:00 | [Code review][intro-code-review]                              |
 | 11:00 | Respond to issues                                             |
 | 12:15 | [Intro to project presentations][intro-project-presentations] |
 | 12:30 | Presentation prep                                             |

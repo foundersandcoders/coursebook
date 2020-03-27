@@ -4,7 +4,7 @@
 
 | Time    | Activity                       | Learning outcomes         |
 | ------- | ------------------------------ | ------------------------- |
-| 09:45   | Intro reading                  |                           |
+| 09:45   | Check-in                       |                           |
 | 10:00   | Intro presentation             |                           |
 | 10:30   | [Express intro][express-intro] | Express                   |
 | 11:00   | Learn Express (tbc)            | Routing, Params           |
@@ -18,7 +18,7 @@
 
 | Time    | Activity                                  | Learning outcomes |
 | ------- | ----------------------------------------- | ----------------- |
-| 09:45   | Intro reading                             |                   |
+| 09:45   | Check-in                                  |                   |
 | 10:00   | [Design burst: wireframes][db-wireframes] | Wireframes        |
 | 10:30   | Wireframe workshop (tbc)                  | Wireframes        |
 | 11:00   | Express middleware (tbc)                  | Middleware        |
@@ -34,7 +34,7 @@
 
 | Time    | Activity         | Learning outcomes |
 | ------- | ---------------- | ----------------- |
-| 09:45   | Intro reading    |                   |
+| 09:45   | Check-in         |                   |
 | 10:00   | Mocking MC (tbc) | Mocking           |
 | 11:00   | Project          |                   |
 | _13:00_ | _Lunch_          |                   |
@@ -45,7 +45,8 @@
 
 | Time    | Activity |
 | ------- | -------- |
-| 09:45   | Project  |
+| 09:45   | Check-in |
+| 10:00   | Project  |
 | _13:00_ | _Lunch_  |
 | 14:00   | Project  |
 
@@ -53,8 +54,9 @@
 
 | Time  | Activity            |
 | ----- | ------------------- |
-| 09:45 | Code review         |
-| 10:45 | Respond to issues   |
+| 09:45 | Check-in            |
+| 10:00 | Code review         |
+| 11:00 | Respond to issues   |
 | 12:15 | Presentation prep   |
 | 13:00 | _Lunch_             |
 | 14:00 | Presentations       |
