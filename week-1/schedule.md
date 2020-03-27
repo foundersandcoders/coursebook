@@ -57,7 +57,7 @@
 
 | Time    | Activity                        | Learning outcomes |
 | ------- | ------------------------------- | ----------------- |
-| 09:45   | Check-in                        | Semantic HTML     |
+| 09:45   | Check-in                        |                   |
 | 10:00   | [Learn HTML forms][learn-forms] | HTML forms        |
 | 11:00   | [Project][projects]             |                   |
 | _13:00_ | _Lunch_                         |                   |

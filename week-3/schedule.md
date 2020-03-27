@@ -21,7 +21,7 @@
 
 | Time    | Activity                              | Learning outcomes                      |
 | ------- | ------------------------------------- | -------------------------------------- |
-| 09:45   | [Check-in][make-your-test-fail]       |                                        |
+| 09:45   | Check-in                              |                                        |
 | 10:00   | [Design burst: grids][db-grid-slides] | Grid layout, CSS Grid                  |
 | 10:30   | [CSS Grid workshop][db-grid-ws]       | Grid layout, CSS Grid                  |
 | 11:00   | [TDD array methods][tdd-arrays]       | Test-Driven-Development, array methods |
@@ -31,7 +31,6 @@
 | 16:30   | Spike presentation prep               |                                        |
 | 17:00   | Spike presentations                   |                                        |
 
-[make-your-test-fail]: https://kentcdodds.com/blog/make-your-test-fail
 [db-grid-slides]: https://hackmd.io/@fac/S1-95B9r8#/
 [db-grid-ws]: https://github.com/bobbysebolao/learn-css-grid
 [tdd-arrays]: https://github.com/oliverjam/tdd-array-methods
@@ -40,14 +39,13 @@
 
 | Time    | Activity                    | Learning outcomes |
 | ------- | --------------------------- | ----------------- |
-| 09:45   | [Check-in][magazine-grid]   |                   |
+| 09:45   | Check-in                    |                   |
 | 10:00   | [Scope challenge][scope-mc] | Scope, closures   |
 | 11:00   | Project                     |                   |
 | _13:00_ | _Lunch_                     |                   |
 | 14:00   | Project                     |                   |
 | 17:00   | Speaker                     |                   |
 
-[magazine-grid]: https://css-tricks.com/responsive-grid-magazine-layout-in-just-20-lines-of-css/
 [scope-mc]: https://github.com/oliverjam/js-scope-challenge
 
 ## Day 4
