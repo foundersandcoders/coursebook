@@ -4,7 +4,7 @@
 
 | Time    | Activity                              | Learning outcomes    |
 | ------- | ------------------------------------- | -------------------- |
-| 09:45   | Intro reading                         |                      |
+| 09:45   | Check-in                              |                      |
 | 10:00   | [Intro presentation][http-slides]     |                      |
 | 10:30   | [HTTP intro][http-intro]              | HTTP                 |
 | 11:00   | [First-class functions][fc-fns]       | Functions, callbacks |
@@ -21,7 +21,7 @@
 
 | Time    | Activity                                           | Learning outcomes                                   |
 | ------- | -------------------------------------------------- | --------------------------------------------------- |
-| 09:45   | Intro reading                                      |                                                     |
+| 09:45   | Check-in                                           |                                                     |
 | 10:00   | [Design burst: layout and spacing][db-layout]      |                                                     |
 | 10:30   | [Layout and spacing workshop][db-layout-ws]        | CSS layout, flexbox                                 |
 | 11:00   | [Real world fetch][real-world-fetch]               | Error handling, submitting data, `fetch` with forms |
@@ -41,7 +41,7 @@
 
 | Time    | Activity                      | Learning outcomes           |
 | ------- | ----------------------------- | --------------------------- |
-| 09:45   | Intro reading                 |                             |
+| 09:45   | Check-in                      |                             |
 | 10:00   | [DOM Manipulation MC][dom-mc] | add/modify/remove DOM nodes |
 | 11:00   | Project                       |                             |
 | _13:00_ | _Lunch_                       |                             |
@@ -54,7 +54,8 @@
 
 | Time    | Activity |
 | ------- | -------- |
-| 09:45   | Project  |
+| 09:45   | Check-in |
+| 10:00   | Project  |
 | _13:00_ | _Lunch_  |
 | 14:00   | Project  |
 
@@ -62,8 +63,9 @@
 
 | Time  | Activity            |
 | ----- | ------------------- |
-| 09:45 | Code review         |
-| 10:45 | Respond to issues   |
+| 09:45 | Check-in            |
+| 10:00 | Code review         |
+| 11:00 | Respond to issues   |
 | 12:15 | Presentation prep   |
 | 13:00 | _Lunch_             |
 | 14:00 | Presentations       |

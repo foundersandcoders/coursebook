@@ -4,7 +4,7 @@
 
 | Time    | Activity              | Learning outcomes           |
 | ------- | --------------------- | --------------------------- |
-| 09:45   | Intro reading         |                             |
+| 09:45   | Check-in              |                             |
 | 10:00   | Intro presentation    |                             |
 | 10:30   | Intro to ES Modules   | Native JS modules           |
 | 11:00   | Client-side rendering | innerHTML, Template element |
@@ -16,7 +16,7 @@
 
 | Time    | Activity                 | Learning outcomes                 |
 | ------- | ------------------------ | --------------------------------- |
-| 09:45   | Intro reading            |                                   |
+| 09:45   | Check-in                 |                                   |
 | 10:00   | Design burst: loading    |                                   |
 | 10:30   | Loading spinner workshop | a11y, animation                   |
 | 11:00   | Error handling workshop  | Error handling, User notification |
@@ -30,7 +30,7 @@
 
 | Time    | Activity        | Learning outcomes        |
 | ------- | --------------- | ------------------------ |
-| 09:45   | Intro reading   |                          |
+| 09:45   | Check-in        |                          |
 | 10:00   | Test mocking MC | Mocking network requests |
 | 11:00   | Project         |                          |
 | _13:00_ | _Lunch_         |                          |
@@ -41,7 +41,8 @@
 
 | Time    | Activity |
 | ------- | -------- |
-| 09:45   | Project  |
+| 09:45   | Check-in |
+| 10:00   | Project  |
 | _13:00_ | _Lunch_  |
 | 14:00   | Project  |
 
@@ -49,8 +50,9 @@
 
 | Time  | Activity            |
 | ----- | ------------------- |
-| 09:45 | Code review         |
-| 10:45 | Respond to issues   |
+| 09:45 | Check-in            |
+| 10:00 | Code review         |
+| 11:00 | Respond to issues   |
 | 12:15 | Presentation prep   |
 | 13:00 | _Lunch_             |
 | 14:00 | Presentations       |
