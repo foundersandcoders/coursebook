@@ -25,7 +25,7 @@
 
 - [ ] We can handle database errors on our server without crashing
 
-## Software Architecture
+## Software Architecture
 
 - [ ] We can draw a diagram representing the flow of our application
 - [ ] We can follow a consistent pattern for naming our folders, files and variables
@@ -35,6 +35,6 @@
 - [ ] We can create a separate database for testing
 - [ ] We can test that our database access works correctly
 
-## Design
+## Design
 
 - [ ] We can use UI components (to shape the user experience of our app)
