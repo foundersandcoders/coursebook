@@ -28,7 +28,7 @@
 | 14:00   | [Error-handling][error-handling] | Try/catch, Promise errors |
 | 16:00   | Tech for Better                  |                           |
 
-[db-testing]: https://github.com/foundersandcoders/ws-database-testing/
+[db-testing]: https://github.com/oliverjam/learn-database-testing
 [error-handling]: https://github.com/oliverjam
 
 ## Day 3
