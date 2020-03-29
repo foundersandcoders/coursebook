@@ -30,7 +30,7 @@
 | 16:30   | Tech for Better                  |                           |
 
 [db-testing]: https://github.com/oliverjam/learn-database-testing
-[error-handling]: https://github.com/oliverjam
+[error-handling]: https://github.com/oliverjam/learn-node-error-handling
 
 ## Day 3
 
