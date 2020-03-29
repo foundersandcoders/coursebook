@@ -1,35 +1,33 @@
-# The Project
+# Database week project
 
-This week's project will involve setting up a database which you connect to via a node.js server. You'll use your data to make a dynamic web app for your front-end.
+Your project this week is to build a web app that stores data in a PostgreSQL database.
 
-Some suggested project ideas are below. Feel free to modify according to your interest, provided your idea has similar functionality.
+## User stories
 
-We're expecting to see:
+### Core
 
-- A simple web app with a node server and a database
-- A schema for your database, which should be documented in your readme (along with any other architectural decisions)
-- Your database hosted on Heroku, or locally
-- A build script for your database
-- Security concerns appropriately considered (you must protect against script injections!)
-- Dynamic content, but DOM manipulation kept to a minimum
-- Mobile-first design
-- Clear user journey (even if you take one of our suggested ideas, document the user journey in your readme)
-- Test your server routes with supertest
-- Test your pure functions both server and client side
-- Set up a test database so that you can test your database queries
+- **As a user, I want to**: submit information to your site for anyone to see
+- **As a user, I want to**: come back to your site later and see what I posted is still there
 
-**Note** We don't expect you to authenticate users (i.e. have a login or signup page), or even to simulate this feature. We'll cover how to do that properly in next week. Since these ideas were designed with Founders & Coders users in mind, we'll rely on trust instead of authentication :)
+Since this project is open-ended you'll need to write your own more specific user stories once you know what you want to build.
 
-## Suggested ideas
+### Acceptance Criteria
+
+- A page with a form to submit data
+- A page showing all the data
+- A schema describing your database in your README
+- A Postgres database hosted on Heroku
+- Tests for your data access with a separate local test database
+- No SQL injection vulnerabilities
+- Correctly hidden secret environment variables
+
+#### Stretch criteria
+
+- A way to view filtered/sorted data, instead of just all of it
+- GitHub Actions CI setup to run your tests when you push
+
+## Example project ideas
 
 - Founders & Coders book sharing system
 - Food / coffee recommendations around Founders & Coders
 - Founders & Coders events calendar
-
-## Getting started
-
-Make sure you have a plan, and break the project down into manageable parts. Here are some things to consider:
-
-- You will need to make the requests and update the DOM in response using client-side JavaScript.
-- As well as serving static HTML and JS files, your server will also need to provide endpoints that return DB query results as JSON. You can query your server from the client using the fetch method.
-- You'll need to be able to make both POST and GET requests to your server.
