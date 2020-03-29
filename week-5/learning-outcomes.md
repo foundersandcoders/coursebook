@@ -34,7 +34,3 @@
 
 - [ ] We can create a separate database for testing
 - [ ] We can test that our database access works correctly
-
-## Design
-
-- [ ] We can use UI components (to shape the user experience of our app)
