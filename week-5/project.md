@@ -31,3 +31,14 @@ Since this project is open-ended you'll need to write your own more specific use
 - Founders & Coders book sharing system
 - Food / coffee recommendations around Founders & Coders
 - Founders & Coders events calendar
+
+## Code review checklist
+
+The project you're reviewing should have:
+
+- [ ] A form for users to submit data
+- [ ] Semantic form elements with correctly associated labels
+- [ ] A Postgres database hosted on Heroku
+- [ ] Tests for server routes and database access
+- [ ] Not process user input as SQL commands
+- [ ] Hidden environment variables (i.e. not on GitHub)
