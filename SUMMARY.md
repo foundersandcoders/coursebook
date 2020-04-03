@@ -8,6 +8,7 @@
 - [Code Review](documents/code-review.md)
 - [Retrospectives](documents/retrospectives.md)
 - [Sociocracy](documents/sociocracy.md)
+- [Precourse](documents/precourse.md)
 
 ## Week 1
 
