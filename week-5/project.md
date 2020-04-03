@@ -22,7 +22,7 @@ Since this project is open-ended you'll need to write your own more specific use
 - [ ] Not process user input as SQL commands
 - [ ] Hidden environment variables (i.e. not on GitHub)
 
-#### Stretch criteria
+#### Stretch criteria
 
 - [ ] A way to view filtered/sorted data, instead of just all of it
 - [ ] GitHub Actions CI setup to run your tests when you push
