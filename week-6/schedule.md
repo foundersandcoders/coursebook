@@ -12,7 +12,7 @@
 | 16:00   | Technical spikes                   |                                       |
 
 [intro-slides]: https://drive.google.com/file/d/0BxXF_LZcFnS5ODM0dElWYmtmMWc/view
-[password-ws]: https://github.com/foundersandcoders/ws-password-management
+[password-ws]: https://github.com/oliverjam/learn-password-security
 [cookies-ws]: https://github.com/foundersandcoders/ws-cookies
 
 ## Day 2
