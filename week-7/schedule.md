@@ -12,7 +12,7 @@
 | 14:00   | REST APIs (tbc)                | REST, Building a JSON API |
 | 16:00   | Tech for Better                |                           |
 
-[express-intro]: tbc
+[express-intro]: https://github.com/oliverjam/express-intro
 
 ## Day 2
 
