@@ -32,16 +32,16 @@
 
 ## Day 3
 
-| Time    | Activity                                   | Learning outcomes   |
-| ------- | ------------------------------------------ | ------------------- |
-| 09:45   | Check-in                                   |                     |
-| 10:00   | [CSS pseudo-elements challenge][pseudo-mc] | CSS pseudo-elements |
-| 11:00   | Project                                    |                     |
-| _13:00_ | _Lunch_                                    |                     |
-| 14:00   | Project                                    |                     |
-| 17:00   | Speaker                                    |                     |
+| Time    | Activity                                 | Learning outcomes   |
+| ------- | ---------------------------------------- | ------------------- |
+| 09:45   | Check-in                                 |                     |
+| 10:00   | [Promise practice challenge][promise-mc] | CSS pseudo-elements |
+| 11:00   | Project                                  |                     |
+| _13:00_ | _Lunch_                                  |                     |
+| 14:00   | Project                                  |                     |
+| 17:00   | Speaker                                  |                     |
 
-[pseudo-mc]: https://github.com/oliverjam/pseudo-elements-challenge
+[pseudo-mc]: https://github.com/oliverjam/promise-practice
 
 ## Day 4
 
