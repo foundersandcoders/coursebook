@@ -7,12 +7,13 @@
 | 09:45   | Check-in                       |                           |
 | 10:00   | Intro presentation             |                           |
 | 10:30   | [Express intro][express-intro] | Express                   |
-| 11:00   | Learn Express (tbc)            | Routing, Params           |
+| 11:00   | [Learn Express][learn-express] | Routing, Params           |
 | _13:00_ | _Lunch_                        |                           |
 | 14:00   | REST APIs (tbc)                | REST, Building a JSON API |
 | 16:00   | Tech for Better                |                           |
 
 [express-intro]: https://github.com/oliverjam/express-intro
+[express-intro]: https://github.com/oliverjam/learn-express
 
 ## Day 2
 
