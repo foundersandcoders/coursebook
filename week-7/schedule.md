@@ -13,7 +13,7 @@
 | 16:00   | Technical spikes               |                           |
 
 [express-intro]: https://github.com/oliverjam/express-intro
-[express-intro]: https://github.com/oliverjam/learn-express
+[learn-express]: https://github.com/oliverjam/learn-express
 
 ## Day 2
 
