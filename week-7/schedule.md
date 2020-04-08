@@ -10,26 +10,22 @@
 | 11:00   | [Learn Express][learn-express] | Routing, Params           |
 | _13:00_ | _Lunch_                        |                           |
 | 14:00   | REST APIs (tbc)                | REST, Building a JSON API |
-| 16:00   | Tech for Better                |                           |
+| 16:00   | Technical spikes               |                           |
 
 [express-intro]: https://github.com/oliverjam/express-intro
 [express-intro]: https://github.com/oliverjam/learn-express
 
 ## Day 2
 
-| Time    | Activity                                  | Learning outcomes |
-| ------- | ----------------------------------------- | ----------------- |
-| 09:45   | Check-in                                  |                   |
-| 10:00   | [Design burst: wireframes][db-wireframes] | Wireframes        |
-| 10:30   | Wireframe workshop (tbc)                  | Wireframes        |
-| 11:00   | Express middleware (tbc)                  | Middleware        |
-| _13:00_ | _Lunch_                                   |                   |
-| 14:00   | Project intro                             |                   |
-| 14:30   | Technical spikes                          |                   |
-| 16:30   | Spike presentation prep                   |                   |
-| 17:00   | Spike presentations                       |                   |
-
-[db-wireframes]: https://docs.google.com/presentation/d/1l5DCpoFwiMLNi0X4gnqqStav--XQJ7-sdLyW86zgxBc/
+| Time    | Activity                 | Learning outcomes          |
+| ------- | ------------------------ | -------------------------- |
+| 09:45   | Check-in                 |                            |
+| 10:00   | Spike presentations      |                            |
+| 11:00   | Express middleware (tbc) | Middleware, error-handling |
+| _13:00_ | _Lunch_                  |                            |
+| 14:00   | A workshop               |                            |
+| 15:30   | Employment prep          |                            |
+| 16:30   | Tech for Better          |                            |
 
 ## Day 3
 
