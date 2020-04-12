@@ -2,30 +2,31 @@
 
 ## Day 1
 
-| Time    | Activity                       | Learning outcomes         |
-| ------- | ------------------------------ | ------------------------- |
-| 09:45   | Check-in                       |                           |
-| 10:00   | Intro presentation             |                           |
-| 10:30   | [Express intro][express-intro] | Express                   |
-| 11:00   | [Learn Express][learn-express] | Routing, Params           |
-| _13:00_ | _Lunch_                        |                           |
-| 14:00   | REST APIs (tbc)                | REST, Building a JSON API |
-| 16:00   | Technical spikes               |                           |
+| Time    | Activity                                 | Learning outcomes          |
+| ------- | ---------------------------------------- | -------------------------- |
+| 09:45   | Check-in                                 |                            |
+| 10:00   | Intro presentation                       |                            |
+| 10:30   | [Express intro][express-intro]           | Express                    |
+| 11:00   | [Learn Express][learn-express]           | Routing, Params            |
+| _13:00_ | _Lunch_                                  |                            |
+| 14:00   | [Express middleware][express-middleware] | Middleware, error-handling |
+| 16:00   | Technical spikes                         |                            |
 
 [express-intro]: https://github.com/oliverjam/express-intro
 [learn-express]: https://github.com/oliverjam/learn-express
+[express-middleware]: https://github.com/oliverjam/learn-express-middleware
 
 ## Day 2
 
-| Time    | Activity                 | Learning outcomes          |
-| ------- | ------------------------ | -------------------------- |
-| 09:45   | Check-in                 |                            |
-| 10:00   | Spike presentations      |                            |
-| 11:00   | Express middleware (tbc) | Middleware, error-handling |
-| _13:00_ | _Lunch_                  |                            |
-| 14:00   | A workshop               |                            |
-| 15:30   | Employment prep          |                            |
-| 16:30   | Tech for Better          |                            |
+| Time    | Activity            | Learning outcomes         |
+| ------- | ------------------- | ------------------------- |
+| 09:45   | Check-in            |                           |
+| 10:00   | Spike presentations |                           |
+| 11:00   | REST APIs (tbc)     | REST, Building a JSON API |
+| _13:00_ | _Lunch_             |                           |
+| 14:00   | A workshop          |                           |
+| 15:30   | Employment prep     |                           |
+| 16:30   | Tech for Better     |                           |
 
 ## Day 3
 
