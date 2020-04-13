@@ -28,7 +28,7 @@
 | 15:30   | Employment prep       |                   |
 | 16:30   | Tech for Better       |                   |
 
-[rest-api][https://github.com/oliverjam/learn-rest-apis]
+[rest-api]: https://github.com/oliverjam/learn-rest-apis
 
 ## Day 3
 
