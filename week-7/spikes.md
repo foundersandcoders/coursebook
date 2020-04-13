@@ -24,8 +24,7 @@ How can we maximise the performance of our Express servers?
 
 ### Useful resources
 
-- [Production best practices: performance and reliability
-  ](https://expressjs.com/en/advanced/best-practice-performance.html)
+- [Production best practices: performance and reliability](https://expressjs.com/en/advanced/best-practice-performance.html)
 
 ## Security
 
