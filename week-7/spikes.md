@@ -1,17 +1,17 @@
 # Technical spikes
 
-## Templating
+## Cross-origin Resource Sharing
 
-How can we use template engines to render HTML with Express?
+What is CORS?
 
 ### Questions to consider
 
-- What is a template engine?
-- What advantages do templating engines have over creating your own HTML with strings?
+- Why would it be dangerous for browsers to allow arbitrary cross-origin requests?
+- How can we configure our server to allow requests from a specific different domain? What about _any_ domain?
 
 ### Useful resources
 
-- [Using template engines with Express](https://expressjs.com/en/guide/using-template-engines.html)
+- [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 
 ## Performance
 
