@@ -18,28 +18,30 @@
 
 ## Day 2
 
-| Time    | Activity              | Learning outcomes |
-| ------- | --------------------- | ----------------- |
-| 09:45   | Check-in              |                   |
-| 10:00   | Spike presentations   |                   |
-| 11:00   | [REST APIs][rest-api] | REST, JSON API    |
-| _13:00_ | _Lunch_               |                   |
-| 14:00   | Test mocking          | Mocking           |
-| 15:30   | Employment prep       |                   |
-| 16:30   | Tech for Better       |                   |
+| Time    | Activity                        | Learning outcomes    |
+| ------- | ------------------------------- | -------------------- |
+| 09:45   | Check-in                        |                      |
+| 10:00   | Spike presentations             |                      |
+| 11:00   | [REST APIs][rest-api]           | REST, JSON API       |
+| _13:00_ | _Lunch_                         |                      |
+| 14:00   | [REST APIs continued][rest-api] | Token authentication |
+| 15:30   | Employment prep                 |                      |
+| 16:30   | Tech for Better                 |                      |
 
 [rest-api]: https://github.com/oliverjam/learn-rest-apis
 
 ## Day 3
 
-| Time    | Activity                | Learning outcomes |
-| ------- | ----------------------- | ----------------- |
-| 09:45   | Check-in                |                   |
-| 10:00   | Morning challenge (tbc) |                   |
-| 11:00   | Project                 |                   |
-| _13:00_ | _Lunch_                 |                   |
-| 14:00   | Project                 |                   |
-| 17:00   | Speaker                 |                   |
+| Time    | Activity                                | Learning outcomes |
+| ------- | --------------------------------------- | ----------------- |
+| 09:45   | Check-in                                |                   |
+| 10:00   | [Mocking morning challenge][mocking-mc] |                   |
+| 11:00   | Project                                 |                   |
+| _13:00_ | _Lunch_                                 |                   |
+| 14:00   | Project                                 |                   |
+| 17:00   | Speaker                                 |                   |
+
+[mocking-mc]: https://github.com/oliverjam/http-mocking-challenge
 
 ## Day 4
 
