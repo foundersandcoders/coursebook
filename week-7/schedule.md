@@ -41,7 +41,7 @@
 | 14:00   | Project                                 |                   |
 | 17:00   | Speaker                                 |                   |
 
-[mocking-mc]: https://github.com/oliverjam/http-mocking-challengeÌ
+[mocking-mc]: https://github.com/oliverjam/http-mocking-challenge
 
 ## Day 4
 
