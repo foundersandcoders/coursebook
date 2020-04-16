@@ -22,6 +22,7 @@
 | 10:00   | Spike presentations        |                                 |
 | 11:00   | Client-side error handling | Error states, User notification |
 | _13:00_ | _Lunch_                    |                                 |
+| 14:00   | Testing workshop tbc       |                                 |
 | 15:30   | Employment Prep            |                                 |
 | 16:30   | Tech for Better            |                                 |
 
