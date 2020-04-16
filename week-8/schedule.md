@@ -1,41 +1,41 @@
-# Full stack app Week Schedule
+# Single-page app Week Schedule
 
 ## Day 1
 
-| Time    | Activity              | Learning outcomes           |
-| ------- | --------------------- | --------------------------- |
-| 09:45   | Check-in              |                             |
-| 10:00   | Intro presentation    |                             |
-| 10:30   | Intro to ES Modules   | Native JS modules           |
-| 11:00   | Client-side rendering | innerHTML, Template element |
-| _13:00_ | _Lunch_               |                             |
-| 14:00   | Client-side routing   | Routing, History API        |
-| 16:00   | Tech for Better       |                             |
+| Time    | Activity                         | Learning outcomes           |
+| ------- | -------------------------------- | --------------------------- |
+| 09:45   | Check-in                         |                             |
+| 10:00   | [Intro presentation][intro-pres] |                             |
+| 10:30   | Intro to ES Modules              | Native JS modules           |
+| 11:00   | Client-side rendering            | innerHTML, Template element |
+| _13:00_ | _Lunch_                          |                             |
+| 14:00   | Client-side routing              | Routing, History API        |
+| 16:00   | Technical spikes                 |                             |
+
+[intro-pres]: https://hackmd.io/@fac/r1fH42HOU
 
 ## Day 2
 
-| Time    | Activity                 | Learning outcomes                 |
-| ------- | ------------------------ | --------------------------------- |
-| 09:45   | Check-in                 |                                   |
-| 10:00   | Design burst: loading    |                                   |
-| 10:30   | Loading spinner workshop | a11y, animation                   |
-| 11:00   | Error handling workshop  | Error handling, User notification |
-| _13:00_ | _Lunch_                  |                                   |
-| 14:00   | Project intro            |                                   |
-| 14:30   | Technical spikes         |                                   |
-| 16:30   | Spike presentation prep  |                                   |
-| 17:00   | Spike presentations      |                                   |
+| Time    | Activity                   | Learning outcomes               |
+| ------- | -------------------------- | ------------------------------- |
+| 09:45   | Check-in                   |                                 |
+| 10:00   | Spike presentations        |                                 |
+| 11:00   | Client-side error handling | Error states, User notification |
+| _13:00_ | _Lunch_                    |                                 |
+| 14:00   | Testing workshop tbc       |                                 |
+| 15:30   | Employment Prep            |                                 |
+| 16:30   | Tech for Better            |                                 |
 
 ## Day 3
 
-| Time    | Activity        | Learning outcomes        |
-| ------- | --------------- | ------------------------ |
-| 09:45   | Check-in        |                          |
-| 10:00   | Test mocking MC | Mocking network requests |
-| 11:00   | Project         |                          |
-| _13:00_ | _Lunch_         |                          |
-| 14:00   | Project         |                          |
-| 17:00   | Speaker         |                          |
+| Time    | Activity                | Learning outcomes |
+| ------- | ----------------------- | ----------------- |
+| 09:45   | Check-in                |                   |
+| 10:00   | Morning challenge (tbc) |                   |
+| 11:00   | Project                 |                   |
+| _13:00_ | _Lunch_                 |                   |
+| 14:00   | Project                 |                   |
+| 17:00   | Speaker                 |                   |
 
 ## Day 4
 
