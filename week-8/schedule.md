@@ -6,13 +6,14 @@
 | ------- | -------------------------------- | --------------------------- |
 | 09:45   | Check-in                         |                             |
 | 10:00   | [Intro presentation][intro-pres] |                             |
-| 10:30   | Intro to ES Modules              | Native JS modules           |
+| 10:30   | [Intro to ES Modules][learn-esm] | Native JS modules           |
 | 11:00   | Client-side rendering            | innerHTML, Template element |
 | _13:00_ | _Lunch_                          |                             |
 | 14:00   | Client-side routing              | Routing, History API        |
 | 16:00   | Technical spikes                 |                             |
 
 [intro-pres]: https://hackmd.io/@fac/r1fH42HOU
+[learn-esm]: https://github.com/oliverjam/learn-es-modules
 
 ## Day 2
 
