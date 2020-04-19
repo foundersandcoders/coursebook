@@ -2,17 +2,20 @@
 
 ## Day 1
 
-| Time    | Activity                         | Learning outcomes           |
-| ------- | -------------------------------- | --------------------------- |
-| 09:45   | Check-in                         |                             |
-| 10:00   | [Intro presentation][intro-pres] |                             |
-| 10:30   | Intro to ES Modules              | Native JS modules           |
-| 11:00   | Client-side rendering            | innerHTML, Template element |
-| _13:00_ | _Lunch_                          |                             |
-| 14:00   | Client-side routing              | Routing, History API        |
-| 16:00   | Technical spikes                 |                             |
+| Time    | Activity                                 | Learning outcomes           |
+| ------- | ---------------------------------------- | --------------------------- |
+| 09:45   | Check-in                                 |                             |
+| 10:00   | [Intro presentation][intro-pres]         |                             |
+| 10:30   | [Intro to ES Modules][learn-esm]         | Native JS modules           |
+| 11:00   | [Client-side rendering][learn-rendering] | innerHTML, Template element |
+| _13:00_ | _Lunch_                                  |                             |
+| 14:00   | [Client-side routing][learn-routing]     | Routing, History API        |
+| 16:00   | Technical spikes                         |                             |
 
 [intro-pres]: https://hackmd.io/@fac/r1fH42HOU
+[learn-esm]: https://github.com/oliverjam/learn-es-modules
+[learn-rendering]: https://github.com/oliverjam/learn-dom-rendering
+[learn-routing]: https://github.com/oliverjam/learn-client-side-routing
 
 ## Day 2
 
