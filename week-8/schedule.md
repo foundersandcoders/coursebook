@@ -19,15 +19,17 @@
 
 ## Day 2
 
-| Time    | Activity                   | Learning outcomes               |
-| ------- | -------------------------- | ------------------------------- |
-| 09:45   | Check-in                   |                                 |
-| 10:00   | Spike presentations        |                                 |
-| 11:00   | Client-side error handling | Error states, User notification |
-| _13:00_ | _Lunch_                    |                                 |
-| 14:00   | Testing workshop tbc       |                                 |
-| 15:30   | Employment Prep            |                                 |
-| 16:30   | Tech for Better            |                                 |
+| Time    | Activity                             | Learning outcomes        |
+| ------- | ------------------------------------ | ------------------------ |
+| 09:45   | Check-in                             |                          |
+| 10:00   | Spike presentations                  |                          |
+| 11:00   | [Vanilla SPAs][learn-spas]           | localStorage, token auth |
+| _13:00_ | _Lunch_                              |                          |
+| 14:00   | [Vanilla SPAs][learn-spas] continued | localStorage, token auth |
+| 15:30   | Employment Prep                      |                          |
+| 16:30   | Tech for Better                      |                          |
+
+[learn-spas]: https://github.com/oliverjam/learn-vanilla-spas
 
 ## Day 3
 
