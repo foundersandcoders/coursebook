@@ -33,14 +33,16 @@
 
 ## Day 3
 
-| Time    | Activity                | Learning outcomes |
-| ------- | ----------------------- | ----------------- |
-| 09:45   | Check-in                |                   |
-| 10:00   | Morning challenge (tbc) |                   |
-| 11:00   | Project                 |                   |
-| _13:00_ | _Lunch_                 |                   |
-| 14:00   | Project                 |                   |
-| 17:00   | Speaker                 |                   |
+| Time    | Activity                               | Learning outcomes   |
+| ------- | -------------------------------------- | ------------------- |
+| 09:45   | Check-in                               |                     |
+| 10:00   | [Pseudo-elements challenge][pseudo-mc] | CSS pseudo-elements |
+| 11:00   | Project                                |                     |
+| _13:00_ | _Lunch_                                |                     |
+| 14:00   | Project                                |                     |
+| 17:00   | Speaker                                |                     |
+
+[pseudo-mc]: https://github.com/oliverjam/css-pseudo-element-challenge
 
 ## Day 4
 
