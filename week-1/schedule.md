@@ -55,14 +55,15 @@
 
 ## Day 3
 
-| Time    | Activity                        | Learning outcomes |
-| ------- | ------------------------------- | ----------------- |
-| 09:45   | Check-in                        |                   |
-| 10:00   | [Learn HTML forms][learn-forms] | HTML forms        |
-| 11:00   | [Project][projects]             |                   |
-| _13:00_ | _Lunch_                         |                   |
-| 14:00   | Project                         |                   |
-| 17:00   | Speaker                         |                   |
+| Time    | Activity                                                          | Learning outcomes |
+| ------- | ------------------------------------------------------------------| ----------------- |
+| 09:45   | Check-in                                                          |                   |
+| 10:00   | [Learn HTML forms][learn-forms]                                   | HTML forms        |
+| 11:00   | [Intro to project management](https://hackmd.io/@fac/S1wGfV2M8#/) |                   |
+| 11:15   | [Project][projects]                                               |                   |
+| _13:00_ | _Lunch_                                                           |                   |
+| 14:00   | Project                                                           |                   |
+| 17:00   | Speaker                                                           |                   |
 
 [learn-forms]: https://github.com/oliverjam/learn-html-forms/
 [projects]: https://founders-and-coders.gitbook.io/coursebook/documents/projects
