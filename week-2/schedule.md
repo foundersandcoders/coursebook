@@ -35,7 +35,7 @@
 [db-layout]: http://facresources.com/slides/design-burst-week2.html
 [db-layout-ws]: https://github.com/bobbysebolao/learn-layout-spacing
 [real-world-fetch]: https://github.com/oliverjam/real-world-fetch
-[estimation-slides]: https://hackmd.io/@sofer/B1AL4V3ML#/
+[estimation-slides]: https://hackmd.io/@fac/B1AL4V3ML#/
 
 ## Day 3
 
