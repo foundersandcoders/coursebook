@@ -45,11 +45,12 @@ Each team then has 15 minutes to present, with 5 additional minutes for question
    - How did you split up the work?
    - How did you choose to pair?
 2. Briefly demo your project and explain how it conforms to your brief i.e. the user stories
-3. Walk us through your code. Emphasise the things you learned that were new to you, which the rest of your cohort could benefit from hearing about:
+3. Show your project board and (from Week 2) report on estimated vs actual velocity
+4. Walk us through your code. Emphasise the things you learned that were new to you, which the rest of your cohort could benefit from hearing about:
    - something you're proud of
    - something that you found really hard / struggled with
-4. Have the people who didn't write a piece of code talk through it - this is a great way to demonstrate knowledge of learning and collaboration
-5. Avoid talking through the project brief for a long time - each team has the same brief and your time will be better spent talking about what was unique about your presentation
+5. Have the people who didn't write a piece of code talk through it - this is a great way to demonstrate knowledge of learning and collaboration
+6. Avoid talking through the project brief for a long time - each team has the same brief and your time will be better spent talking about what was unique about your presentation
 
 ### Make it interactive
 
