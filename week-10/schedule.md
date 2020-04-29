@@ -42,7 +42,7 @@
 | 11:30   | Project                                     |
 | _13:00_ | _Lunch_                                     |
 | 14:00   | Project                                     |
-| 17:00   | Talk                                        |
+| 17:00   | TFB project pre-selection                   |
 
 [class-refactor]: https://github.com/oliverjam/react-refactor-class-hooks
 
@@ -58,15 +58,15 @@
 
 ## Day 5
 
-| Time  | Activity                  |
-| ----- | ------------------------- |
-| 09:45 | Check-in                  |
-| 10:00 | Code review               |
-| 11:00 | Respond to issues         |
-| 12:15 | Presentation prep         |
-| 13:00 | _Lunch_                   |
-| 14:00 | Presentations             |
-| 15:00 | TFB project pre-selection |
-| 16:00 | Stop Go Continues         |
-| 16:45 | Update user Manuals       |
-| 17:00 | Speaker                   |
+| Time  | Activity               |
+| ----- | ---------------------- |
+| 09:45 | Check-in               |
+| 10:00 | Code review            |
+| 11:00 | Respond to issues      |
+| 12:15 | Presentation prep      |
+| 13:00 | _Lunch_                |
+| 14:00 | Presentations          |
+| 15:00 | Code of Conduct review |
+| 16:00 | Stop Go Continues      |
+| 16:45 | Update user Manuals    |
+| 17:00 | Speaker                |
