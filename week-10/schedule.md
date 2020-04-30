@@ -8,7 +8,7 @@
 | 10:00   | [Intro talk][react-talk]                        |                                  |
 | 10:30   | [Learn React][learn-react]                      | JSX, React elements, React state |
 | _13:00_ | _Lunch_                                         |                                  |
-| 14:00   | [Learn React]                                   | React effects, React forms       |
+| 14:00   | [Learn React][learn-react]                      | React effects, React forms       |
 | 15:00   | [Build a filterable product page][product-page] | React forms                      |
 
 [react-talk]: https://hackmd.io/p/SJauYz6EM#
