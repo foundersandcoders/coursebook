@@ -65,3 +65,9 @@
 - [Schedule](week-8/schedule.md)
 - [Spikes](week-8/spikes.md)
 - [Project](week-8/project.md)
+
+## Week 10
+
+- [Learning Outcomes](week-10/learning-outcomes.md)
+- [Schedule](week-10/schedule.md)
+- [Project](week-10/project.md)
