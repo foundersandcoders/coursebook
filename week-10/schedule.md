@@ -11,7 +11,7 @@
 | 14:00   | [Learn React][learn-react]                      | React effects, React forms       |
 | 15:00   | [Build a filterable product page][product-page] | React forms                      |
 
-[react-talk]: https://hackmd.io/p/SJauYz6EM#
+[react-talk]: https://hackmd.io/@fac/Syia7nKKI#/
 [learn-react]: https://github.com/oliverjam/learn-react
 [product-page]: https://github.com/oliverjam/react-food-workshop
 
