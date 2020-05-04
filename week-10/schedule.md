@@ -25,7 +25,7 @@
 | 11:30   | [React with dynamic data][dynamic-data]             | fetching data with React |
 | _13:30_ | _Lunch_                                             |                          |
 | 14:30   | [Testing React components][testing-react]           | React Testing Library    |
-| 17:00   | Project set-up & planning                           |                          |
+| 16:30   | Tech For Better                                     |                          |
 
 [destructuring-mc]: https://github.com/oliverjam/learn-destructuring
 [bundlers-talk]: https://hackmd.io/p/rJBLi5mSf
@@ -38,32 +38,35 @@
 | ------- | ------------------------------------------- |
 | 09:45   | Check-in                                    |
 | 10:00   | [Refactor classes to hooks][class-refactor] |
-| 10:00   | Project                                     |
+| 11:00   | Project set-up & planning                   |
+| 11:30   | Project                                     |
 | _13:00_ | _Lunch_                                     |
 | 14:00   | Project                                     |
-| 17:00   | Talk                                        |
+| 17:00   | TFB project pre-selection                   |
 
 [class-refactor]: https://github.com/oliverjam/react-refactor-class-hooks
 
 ## Day 4
 
-| Time    | Activity |
-| ------- | -------- |
-| 09:45   | Check-in |
-| 10:00   | Project  |
-| _13:00_ | _Lunch_  |
-| 14:00   | Project  |
+| Time    | Activity        |
+| ------- | --------------- |
+| 09:45   | Check-in        |
+| 10:00   | Employment prep |
+| 10:30   | Project         |
+| _13:00_ | _Lunch_         |
+| 14:00   | Project         |
 
 ## Day 5
 
-| Time  | Activity            |
-| ----- | ------------------- |
-| 09:45 | Check-in            |
-| 10:00 | Code review         |
-| 11:00 | Respond to issues   |
-| 12:15 | Presentation prep   |
-| 13:00 | _Lunch_             |
-| 14:00 | Presentations       |
-| 16:00 | Stop Go Continues   |
-| 16:45 | Update user Manuals |
-| 17:00 | Speaker             |
+| Time  | Activity               |
+| ----- | ---------------------- |
+| 09:45 | Check-in               |
+| 10:00 | Code review            |
+| 11:00 | Respond to issues      |
+| 12:15 | Presentation prep      |
+| 13:00 | _Lunch_                |
+| 14:00 | Presentations          |
+| 15:00 | Code of Conduct review |
+| 16:00 | Stop Go Continues      |
+| 16:45 | Update user Manuals    |
+| 17:00 | Speaker                |
