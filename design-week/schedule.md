@@ -6,13 +6,12 @@
 | ------- | ----------------------- | ----------------- |
 | 09:45   | Check-in                |                   |
 | 10:00   | Intro presentation      |                   |
-| 10:30   | Choose a Goal           |                   |
-| 10:40   | Mapping                 |                   |
+| 10:30   | Mapping                 |                   |
 | 11:00   | _BREAK_                 |                   |
 | 11:15   | How Might We...         |                   |
-| 11:45   | User Personas           |                   |
-| 12:05   | Assumptions Table       |                   |
-| 12:20   | User Research Scripting |                   |
+| 11:30   | User Personas           |                   |
+| 11:45   | Assumptions Table       |                   |
+| 12:00   | User Research Scripting |                   |
 | _13:00_ | _Lunch_                 |                   |
 | 14:00   | Conduct User Research   |                   |
 | 15:00   | User Research Synthesis |                   |
