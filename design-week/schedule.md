@@ -5,7 +5,7 @@
 | Time    | Activity                | Learning outcomes |
 | ------- | ----------------------- | ----------------- |
 | 09:45   | Check-in                |                   |
-| 10:00   | Intro presentation      |                   |
+| 10:00   | [Intro][pd]             |                   |
 | 10:30   | Mapping                 |                   |
 | 11:00   | _BREAK_                 |                   |
 | 11:15   | How Might We...         |                   |
@@ -16,6 +16,8 @@
 | 14:00   | Conduct User Research   |                   |
 | 15:00   | User Research Synthesis |                   |
 | 16:00   | Tech for Better         |                   |
+
+[pd]: https://hackmd.io/@fac/BJAjjeNq8#/
 
 ## Day 2
 
