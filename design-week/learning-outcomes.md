@@ -1,6 +1,6 @@
 # Design Week Learning Outcomes
 
-### UX and Design
+## UX and Design
  - Understand the place of UX in software development
  - Where user testing fits in the cycle
  - Understand the value of involving your users at every stage
@@ -26,4 +26,3 @@
 - **Standup** (i.e. the *scrum*) a regular time each day for structured team feedback.
 - **Review** Demonstrating a working iteration of the product and comparing that to the planned sprint goals. 
 - **Retrospective** A Stop, Go, Continue session for the team, without the client present.
-
