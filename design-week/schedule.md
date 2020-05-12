@@ -5,7 +5,7 @@
 | Time    | Activity                | Learning outcomes |
 | ------- | ----------------------- | ----------------- |
 | 09:45   | Check-in                |                   |
-| 10:00   | [Intro][pd]             |                   |
+| 10:00   | [The Design Sprint][pd] |                   |
 | 10:30   | Mapping                 |                   |
 | 11:00   | _BREAK_                 |                   |
 | 11:15   | How Might We...         |                   |
@@ -17,7 +17,7 @@
 | 15:00   | User Research Synthesis |                   |
 | 16:00   | Tech for Better         |                   |
 
-[pd]: https://hackmd.io/@fac/BJAjjeNq8#/
+[pd]: https://hackmd.io/@fac/rySEBaUq8#/
 
 ## Day 2
 
