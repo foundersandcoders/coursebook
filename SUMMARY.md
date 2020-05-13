@@ -71,3 +71,9 @@
 - [Learning Outcomes](week-10/learning-outcomes.md)
 - [Schedule](week-10/schedule.md)
 - [Project](week-10/project.md)
+
+## Week 11 - Design Week
+
+- [Learning Outcomes](design-week/learning-outcomes.md)
+- [Schedule](design-week/schedule.md)
+- [Project](design-week/project.md)
