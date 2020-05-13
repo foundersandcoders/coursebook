@@ -66,16 +66,18 @@
 
 ## Day 5
 
-| Time  | Activity                |
-| ----- | ----------------------- |
-| 09:45 | Check-in                |
-| 10:00 | Choose Roles            |
-| 10:30 | Sprint Planning Intro   |
-| 11:00 | Sprint Planning         |
-| 12:00 | Presentation Prep       |
-| 13:00 | _Lunch_                 |
-| 14:00 | Presentations           |
-| 15:30 | Cohort Stop Go Continue |
-| 16:15 | Team Stop Go Continue   |
-| 16:45 | Update user Manuals     |
-| 17:00 | Speaker                 |
+| Time  | Activity                    |
+| ----- | --------------------------- |
+| 09:45 | Check-in                    |
+| 10:00 | Choose Roles                |
+| 10:30 | [Build Sprint intro][build] |
+| 11:00 | Sprint Planning             |
+| 12:00 | Presentation Prep           |
+| 13:00 | _Lunch_                     |
+| 14:00 | Presentations               |
+| 15:30 | Cohort Stop Go Continue     |
+| 16:15 | Team Stop Go Continue       |
+| 16:45 | Update user Manuals         |
+| 17:00 | Speaker                     |
+
+[build]: https://hackmd.io/@fac/S1ZTP6UcI#/
