@@ -5,12 +5,12 @@
 | Time    | Activity                     |
 | ------- | ---------------------------- |
 | 09:45   | Check-in                     |
-| 10:00   | Reach out to Project Mentors & Role mentors |
-| 10:30   | Build                        |
+| 10:00   | Inclusivity at FAC |
+| 10:30   | Reach out to Project Mentors                        |
+| 11:00 | Sprint Planning |
 | _13:00_ | _Lunch_                      |
-| 14:00   | TFB Workshop Prep            |
-| 16:00   | TFB Discovery Workshop       |
-| 17:45   | Check-out                    |
+| 14:00   | Build            |
+
 
 ## Day 2
 
@@ -19,8 +19,9 @@
 | 09:45   | Check-in  |
 | 10:00   | Build     |
 | _13:00_ | _Lunch_   |
-| 14:00   | Build     |
-| 17:45   | Check-out |
+| 14:00 | Build |
+| 16:00   | TFB Discovery Workshop       |
+| 17:45   | Check-out                    |
 
 ## Day 3
 
@@ -38,9 +39,11 @@
 | Time    | Activity     |
 | ------- | ------------ |
 | 09:45   | Check-in     |
-| 10:00   | Build        |
+| 10:00   | Co-ordinate User Testing        |
+| 10:30 | Build
 | _13:00_ | _Lunch_      |
 | 14:00   | Build        |
+| 14:30 | Pastoral Walks
 | 15:00   | User Testing |
 | 17:45   | Check-out    |
 
