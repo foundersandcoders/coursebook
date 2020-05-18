@@ -20,8 +20,10 @@
 | 10:00   | Build     |
 | _13:00_ | _Lunch_   |
 | 14:00 | Build |
-| 16:00   | TFB Discovery Workshop       |
+| 16:00   | [TFB Discovery Workshop][disc-workshop]       |
 | 17:45   | Check-out                    |
+
+[disc-workshop]: https://docs.google.com/presentation/d/10t83KG0ZHP5jKpxdL5HX8hkQDqvf2f01qJs-NkeqjX8/edit?usp=sharing
 
 ## Day 3
 
