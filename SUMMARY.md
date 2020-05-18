@@ -77,3 +77,23 @@
 - [Learning Outcomes](design-week/learning-outcomes.md)
 - [Schedule](design-week/schedule.md)
 - [Project](design-week/project.md)
+
+## Week 12 - Student Project Sprint One
+
+- [Schedule](projects/w12-schedule.md)
+
+## Week 13 - Student Project Sprint Two
+
+- [Schedule](projects/w13-schedule.md)
+
+## Week 14 - Tech for Better Design Week
+
+- [Schedule](projects/w14-schedule.md)
+
+## Week 15 - Tech for Better Sprint One
+
+- [Schedule](projects/w15-schedule.md)
+
+## Week 16 - Tech for Better Sprint Two
+
+- [Schedule](projects/w16-schedule.md)
