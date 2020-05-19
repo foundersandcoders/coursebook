@@ -81,6 +81,8 @@
 ## Week 12 - Student Project Sprint One
 
 - [Schedule](projects/w12-schedule.md)
+- [Mentor Roles](projects/mentor-roles.md)
+- [Student Roles](projects/student-roles.md)
 
 ## Week 13 - Student Project Sprint Two
 
