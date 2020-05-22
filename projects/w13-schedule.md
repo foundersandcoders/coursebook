@@ -2,15 +2,14 @@
 
 ## Day 1
 
-| Time    | Activity                     |
-| ------- | ---------------------------- |
-| 09:45   | Check-in                     |
+| Time    | Activity                                    |
+| ------- | ------------------------------------------- |
+| 09:45   | Check-in                                    |
 | 10:00   | Reach out to Project Mentors & Role mentors |
-| 10:30   | Build                        |
-| _13:00_ | _Lunch_                      |
-| 14:00   | TFB Workshop Prep            |
-| 16:00   | TFB Discovery Workshop       |
-| 17:45   | Check-out                    |
+| 10:30   | Build                                       |
+| _13:00_ | _Lunch_                                     |
+| 14:00   | Build                                       |
+| 17:45   | Check-out                                   |
 
 ## Day 2
 
@@ -58,4 +57,3 @@
 | 16:15   | Team SGC (Sprint Retrospective) |
 | 17:00   | Speaker                         |
 | 17:45   | Check-out                       |
-
