@@ -14,7 +14,8 @@ We will be having an installation party shortly before you arrive. If you are us
 4. [Semantic HTML](#semantic-html)
 5. [CSS](#css)
 6. [DOM Manipulation](#dom-manipulation)
-7. [Practical project](#practical-project)
+7. [SQL](#SQL)
+8. [Practical project](#practical-project)
 
 Please do not forget that **we don't use frameworks at FAC** – ignore Bootstrap and JQuery, and make sure you work in vanilla HTML, CSS and JavaScript.
 
@@ -84,6 +85,16 @@ _Resources:_
   + [The DOM: What is the Document Object Model?](https://www.youtube.com/watch?v=80Mr2Z6Qikc) (includes some jQuery, but provides a useful overview and some vanilla JS examples)
   + [Live coding intro to the DOM, with JS examples](https://www.youtube.com/watch?v=eaLKqoB9Fu0)
 
+### SQL
+
+_Learning outcomes:_
+- Understand what a relational database is
+- Select, Create and Manipulate data between tables
+
+_Resources:_
++ [Code Academy's Introduction to SQL](https://www.codecademy.com/learn/learn-sql) - At a minimum, tackle section 1, hopefully section 2 and if you're having fun then section 3 and 4!
++ Playing around with creating tables and accessing the data on your local device will increase your confidence in week 6 - feel free to reach out if you'd like a practical project to work on with SQL!
+
 ### Practical Project
 
 _Learning outcomes:_
@@ -92,12 +103,9 @@ Cement your knowledge of the concepts above through practical application.
 _Task:_
 + Build a calculator. This is one of the "Advanced Front End Development Projects" on [Free Code Camp](https://www.freecodecamp.com/challenges/build-a-javascript-calculator). Having a look at their guidelines might help you to get started.
 
-Rather than using Codepen or JS Fiddle, you should do this directly with your text editor, terminal and browser. Start by creating your repo on GitHub and try to stick to the command line for adding, committing and pushing your changes as you go.
+Rather than using Codepen or JS Fiddle, you should do this directly with your text editor, terminal and browser. Start by creating your repo on GitHub and stick to the command line for adding, committing and pushing your changes as you go.
 
-Make sure to host your project on GitHub pages. Remember, no frameworks :wink:
+Make sure to host your project on GitHub pages.
 
-If anyone has already made a calculator and feels that they need a different challenge, please message one of us on there. Have fun, and don't hesitate to use your gitter channel!
+If anyone has already made a calculator and feels that they need a different challenge, please message one of us. Have fun, and don't hesitate to use your Slack channel!
 
-### Fun optional extras
-
-We do not expect you to do more than what is listed above, but if you have any extra time and would like some more things to look at, here are a few [interesting resources](./optional-extras.md) that you could look at for fun.
