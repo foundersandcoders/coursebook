@@ -17,15 +17,15 @@
 ## For Windows Users:
 
 - For the course you'll **need** to install a Linux operating system on your machine and dual boot - students in the past who have tried to use Windows always encounter big setbacks with installation problems and general incompatibility issues.
+- Be sure to back up your files before you start, in case anything goes wrong. You will still be able to use Windows alongside Linux and if everything goes right, you won't lose any data.
 - It's not as scary as it sounds! There are a lot of articles online to help you. Due to a lot of different OS configurations you may be best off searching google for your specific OS + distro (eg: "dual boot windows 10 and Ubuntu"). However here are some links that may be useful:
 
-- [How to install Ubuntu 18.04 alongside Windows 10](https://askubuntu.com/questions/1031993/how-to-install-ubuntu-18-04-alongside-windows-10) - useful at time of posting (mid 2018)
-- [Dual boot Linux](https://www.howtogeek.com/214571/how-to-dual-boot-linux-on-your-pc/) 
+- [How to install Ubuntu 18.04 alongside Windows 10](https://askubuntu.com/questions/1031993/how-to-install-ubuntu-18-04-alongside-windows-10)
+- [Dual boot Linux on other Windows OS's](https://www.howtogeek.com/214571/how-to-dual-boot-linux-on-your-pc/) 
 - We shall have a couple of FAC students and alumni available at the installation party to guide you through installing linux. Please come along if you have Windows OS.
-- This [Lifewire article](https://www.lifewire.com/beginners-guide-to-linux-4090233) is informative and accessible, and [this PCWorld article](https://www.pcworld.com/article/2918397/how-to-get-started-with-linux-a-beginners-guide.html) has more info on installing Linux.
-- Dual boot [Windows 10 + Linux Mint](https://itsfoss.com/guide-install-linux-mint-16-dual-boot-windows/), and [Windows 10 + Ubuntu](https://itsfoss.com/install-ubuntu-1404-dual-boot-mode-windows-8-81-uefi/)
-- Some extra info on [APT](https://itsfoss.com/apt-command-guide/), the command-line tool for the Debian packaging system.
 - Finally please do not hesistate to come to a meetup or contact us on slack if you are having trouble, we can help!
+
+If you're having hardware or permissions issues when dual booting, you may be able to use [Windows Subsystem for Linux](https://wiki.ubuntu.com/WSL). If you're going down this route, please make sure postgres is installed correctly too. 
 
 ## Chromebook Users:
 
@@ -35,7 +35,7 @@
 
 - Install and manage Node.js using [nvm](https://github.com/creationix/nvm).  
 Note: We will be covering Node.js during the course. If you are curious and would like some background reading, [Art of Node](https://github.com/maxogden/art-of-node) is a great resource.
-- Install a text editor of your choice. We reccommend either: 
+- Install a text editor of your choice. We reccommend: 
   - [VS Code](https://code.visualstudio.com/) - because of it's source control and liveShare features
 - Install Chrome
 - [Setup SSH access to your Github account](https://help.github.com/articles/generating-an-ssh-key/)
