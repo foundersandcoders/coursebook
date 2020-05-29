@@ -1,8 +1,10 @@
 # Before you start the course
 
-The purpose of our [precourse material](#precourse-material) is to make sure that everyone is familiar with the key concepts we will be using throughout your time here. A solid grounding in the fundamentals will help you immensely. Please make sure you have finished the precourse material and installed the software on our [Installation List](#installation-list) before day 1 of your course.
+The purpose of our [precourse material](#precourse-material) is to make sure that everyone is familiar with the key concepts we will be using throughout your time here. A solid grounding in the fundamentals will help you immensely.
 
-We will be having an installation party shortly before you arrive. If you are using a **Windows OS** then attending this installation party is **crucial**. But if you are unable to attend, you can also do this by yourself. If you run into any difficulties, just get in touch.
+Please make sure you have finished the precourse material and installed the software on our [Installation List](./installation-list.md) before day 1 of your course.
+
+We will be having an installation party shortly before you arrive. If you are using a **Windows OS** then attending this installation party is **crucial**. But if you are unable to attend, you can also do this by yourself. If you run into any difficulties, please get in touch.
 
 ## Precourse Material
 
@@ -12,11 +14,12 @@ We will be having an installation party shortly before you arrive. If you are us
 4. [Semantic HTML](#semantic-html)
 5. [CSS](#css)
 6. [DOM Manipulation](#dom-manipulation)
-7. [Practical project](#practical-project)
+7. [SQL](#SQL)
+8. [Practical project](#practical-project)
 
-Please do not forget that **we don't use frameworks at FAC** – ignore Bootstrap and JQuery, and make sure you work in vanilla HTML, CSS and JavaScript. Head over to our [house rules](../general/house-rules.md) to find out why.
+Please do not forget that **we don't use frameworks at FAC** – ignore Bootstrap and JQuery, and make sure you work in vanilla HTML, CSS and JavaScript.
 
-If you have any problems with the following material, feel free to reach out to us through your cohort's Slack channel!
+If you have any problems with the following material, feel free to reach out to your peers and FAC Staff through your cohort's Slack channel!
 
 
 ### Command Line
@@ -82,6 +85,16 @@ _Resources:_
   + [The DOM: What is the Document Object Model?](https://www.youtube.com/watch?v=80Mr2Z6Qikc) (includes some jQuery, but provides a useful overview and some vanilla JS examples)
   + [Live coding intro to the DOM, with JS examples](https://www.youtube.com/watch?v=eaLKqoB9Fu0)
 
+### SQL
+
+_Learning outcomes:_
+- Understand what a relational database is
+- Select, Create and Manipulate data between tables
+
+_Resources:_
++ [Code Academy's Introduction to SQL](https://www.codecademy.com/learn/learn-sql) - At a minimum, tackle section 1, hopefully section 2 and if you're having fun then section 3 and 4!
++ Playing around with creating tables and accessing the data on your local device will increase your confidence in week 6 - feel free to reach out if you'd like a practical project to work on with SQL!
+
 ### Practical Project
 
 _Learning outcomes:_
@@ -90,60 +103,9 @@ Cement your knowledge of the concepts above through practical application.
 _Task:_
 + Build a calculator. This is one of the "Advanced Front End Development Projects" on [Free Code Camp](https://www.freecodecamp.com/challenges/build-a-javascript-calculator). Having a look at their guidelines might help you to get started.
 
-Rather than using Codepen or JS Fiddle, you should do this directly with your text editor, terminal and browser. Start by creating your repo on GitHub and try to stick to the command line for adding, committing and pushing your changes as you go.
+Rather than using Codepen or JS Fiddle, you should do this directly with your text editor, terminal and browser. Start by creating your repo on GitHub and stick to the command line for adding, committing and pushing your changes as you go.
 
-Make sure to host your project on GitHub pages. Remember, no frameworks :wink:
+Make sure to host your project on GitHub pages.
 
-If anyone has already made a calculator and feels that they need a different challenge, please message one of us on there. Have fun, and don't hesitate to use your gitter channel!
+If anyone has already made a calculator and feels that they need a different challenge, please message one of us. Have fun, and don't hesitate to use your Slack channel!
 
-### Fun optional extras
-
-We do not expect you to do more than what is listed above, but if you have any extra time and would like some more things to look at, here are a few [interesting resources](./optional-extras.md) that you could look at for fun.
-
-## Installation List
-
-For OSX Users:
-
-- Install [Brew](http://brew.sh/)
-- Optional: iTerm2
-
-For Linux Users:  
-
-| Distro        | Base           | Package Manager | 
-|-------------|-------------|-----  
-| [Ubuntu](https://www.ubuntu.com/) | [Debian](https://www.debian.org/) | [APT](https://help.ubuntu.com/lts/serverguide/apt.html) | 
-| [Linux Mint](https://linuxmint.com/) | [Debian](https://www.debian.org/) | [APT](https://help.ubuntu.com/lts/serverguide/apt.html) |  
-
-- Ubuntu and Linux Mint are probably the two most used desktop Linux distros out there. Mint is becoming increasingly popular and in a lot of ways, is more beginner-friendly than Ubuntu. It also uses up less memory resource (the most lightweight Mint edition is XFCE), and will be better suited to slower machines.
-
-For Windows Users:
-
-You **must** install Linux. Without dual booting Linux, you will encounter problems when we begin database week. In the past, this has led to students missing whole days of workshops while they troubleshoot. 
-
-- To dual boot, there are a lot of articles online about dualbooting windows + linux, and due to a lot of different OS configurations you may be best off searching google for your specific OS + Ubuntu (eg: "dual boot windows 10 and Ubuntu"). However here are some links that may be useful
-
-- [How to install Ubuntu 18.04 alongside Windows 10](https://askubuntu.com/questions/1031993/how-to-install-ubuntu-18-04-alongside-windows-10) - useful at time of posting (mid 2018)
-- [Dual boot Linux](https://www.howtogeek.com/214571/how-to-dual-boot-linux-on-your-pc/) 
-- We shall have a couple of FAC students and alumni available at the installation party to guide you through installing linux. Please come along if you have Windows OS. 
-- Finally please do not hesistate to come to a meetup or contact us on slack if you are having trouble, we can help!
-
-Chromebook Users:
-
-- Chromebooks [all now officially run Linux](https://www.techradar.com/uk/news/all-chromebooks-will-now-be-linux-ready) and [setting it up on older machines](https://support.google.com/chromebook/answer/9145439?hl=en-GB) is pretty simple, too.
-
-For Everyone:
-
-- Install and manage Node.js using [nvm](https://github.com/creationix/nvm).  
-Note: We will be covering Node.js during the course. If you are curious and would like some background reading, [Art of Node](https://github.com/maxogden/art-of-node) is a great resource.
-- Install a text editor of your choice. We reccommend either: 
-  - [Atom](https://atom.io/)
-  - [VS Code](https://code.visualstudio.com/)
-- Install Chrome
-- [Setup SSH access to your Github account](https://help.github.com/articles/generating-an-ssh-key/)
-- Install [Postman](https://www.postman.com/)
-- Chrome extensions:
-  - JSONView
-- Make sure to explore your editors plugin ecosystem for useful plugins:
-  - [VSCode Marketplace](https://marketplace.visualstudio.com/VSCode)
-  - [Atom packages](https://atom.io/packages)
-  - ...but don't be overwhelmed, you don't _need_ to install anything further

@@ -9,6 +9,7 @@
 - [Retrospectives](documents/retrospectives.md)
 - [Sociocracy](documents/sociocracy.md)
 - [Precourse](documents/precourse.md)
+- [Installation List](documents/installation-list.md)
 
 ## Week 1
 
