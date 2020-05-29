@@ -1,19 +1,21 @@
 # Week 14 Schedule - Tech for Better Project Design Sprint
 
-
 ## Day 1
 
-| Time    | Activity                                  | Learning outcomes |
-| ------- | ----------------------------------------- | ----------------- |
-| 09:45   | Check-in                                  |                   |
-| 10:00   | Definition Workshop set-up                |                   |
-| 10:30   | [Definition Workshop with PO][def-slides] |                   |
-| 12:30   | Definition Playback / Wrap up             |                   |
-| _13:00_ | _Lunch_                                   |                   |
-| 14:00   | Coordinate User Testing with PO           |                   |
-| 14:30   |                                           |                   |
+| Time    | Activity                                  | Learning outcomes      |
+| ------- | ----------------------------------------- | ---------------------- |
+| 09:45   | Check-in                                  |                        |
+| 10:00   | Definition Workshop set-up                |                        |
+| 10:30   | [Definition Workshop with PO][def-slides] |                        |
+| 12:30   | Definition Playback / Wrap up             |                        |
+| _13:00_ | _Lunch_                                   |                        |
+| 14:00   | [Usability Testing Talk][ut-slides]       |                        |
+| 14:30   | Co-ordinate Usability Testing with PO     |                        |
+| 15:00   | Usability Testing Scripting               |                        |
+| 16:00   | Project Setup / Research                  | Repo, Tech Stack, etc. |
 
 [def-slides]: https://docs.google.com/presentation/d/15c3DstgW4W-cFAjTV3LRNuvS9D7Ny5_UMOMYqW-Nvj0/edit?usp=sharing
+[ut-slides]: https://docs.google.com/presentation/d/10VxYiFBmwLevEH3V6AP74ibf_JRt51Gd-295TICrWQU/edit?usp=sharing
 
 ## Day 2
 
