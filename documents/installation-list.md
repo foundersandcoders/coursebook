@@ -35,7 +35,7 @@ If you're having hardware or permissions issues when dual booting, you may be ab
 
 - Install and manage Node.js using [nvm](https://github.com/creationix/nvm).  
 Note: We will be covering Node.js during the course. If you are curious and would like some background reading, [Art of Node](https://github.com/maxogden/art-of-node) is a great resource.
-- Install a text editor of your choice. We reccommend: 
+- Install a text editor of your choice. We recommend: 
   - [VS Code](https://code.visualstudio.com/) - because of it's source control and liveShare features
 - Install Chrome
 - [Setup SSH access to your Github account](https://help.github.com/articles/generating-an-ssh-key/)
