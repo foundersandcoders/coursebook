@@ -47,7 +47,8 @@
 | Time    | Activity             | Learning outcomes |
 | ------- | -------------------- | ----------------- |
 | 09:45   | Check-in             |                   |
-| 10:00   | Figma & User Testing |                   |
+| 10:00   | User Testing         |                   |
+| 11:00   | Figma                |                   |
 | _13:00_ | _Lunch_              |                   |
 | 14:00   | Figma                |                   |
 
