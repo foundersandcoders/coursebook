@@ -44,4 +44,5 @@ Note: We will be covering Node.js during the course. If you are curious and woul
   - JSONView
 - Make sure to explore your editors plugin ecosystem for useful plugins:
   - [VSCode Marketplace](https://marketplace.visualstudio.com/VSCode) - we recommend prettier and Rainbow Brackets
-  - ...but don't be overwhelmed, you don't _need_ to install anything further
+- Download the [Slack Desktop Client](https://slack.com/intl/en-gb/downloads) - the interface is easier to manage the different workspaces you'll be part of
+- ...but don't be overwhelmed, you don't _need_ to install anything further
