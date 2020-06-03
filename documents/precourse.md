@@ -101,7 +101,7 @@ _Learning outcomes:_
 Cement your knowledge of the concepts above through practical application.
 
 _Task:_
-+ Build a calculator. This is one of the "Advanced Front End Development Projects" on [Free Code Camp](https://www.freecodecamp.com/challenges/build-a-javascript-calculator). Having a look at their guidelines might help you to get started.
++ Build a calculator. This is one of the "Advanced Front End Development Projects" on [Free Code Camp](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-javascript-calculator). Having a look at their guidelines might help you to get started.
 
 Rather than using Codepen or JS Fiddle, you should do this directly with your text editor, terminal and browser. Start by creating your repo on GitHub and stick to the command line for adding, committing and pushing your changes as you go.
 
