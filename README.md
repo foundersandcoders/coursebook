@@ -1,6 +1,6 @@
 # Founders and Coders Curriculum
 
-Welcome to our web development curriculum. This is the material we use to teach beginners to be developers in our free bootcamp.
+Welcome to our curriculum. This material forms the basis of our tuition-free, peer-led web development programme.
 
 ## Using our curriculum
 
