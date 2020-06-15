@@ -14,7 +14,7 @@ The work is available under the Creative Commons [Attribution-NonCommercial-Shar
 
 1. Give us credit for creating it
 1. Maintain the original license
-1. Do not use it in a commercial project.
+1. Do not use it in a commercial project
 
 #### What you can do
 
