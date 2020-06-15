@@ -1,6 +1,32 @@
-# coursebook
+# Founders and Coders Curriculum
 
-The new coursebook
+Welcome to our web development curriculum. This is the material we use to teach beginners to be developers in our free bootcamp.
+
+## Using our curriculum
+
+Our curriculum is open source and free to use. This means anyone is welcome to work through the material at their own pace, even if they don't have a place on one of our bootcamp cohorts.
+
+If you do decide to use our material please let us know. We can only accept so many people onto our program so we'd love to hear about others benefiting from our work. You could also join our Slack community to help and be helped by other people learning to code.
+
+### License
+
+The work is available under the Creative Commons [Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. This means you can share or adapt the material as you like, as long as you:
+
+1. Give us credit for creating it
+1. Maintain the original license
+1. Do not use it in a commercial project.
+
+#### What you can do
+
+1. Work through the material yourself, or in groups of like-minded people
+1. Clone the workshop repos to work on them locally
+1. Fork the workshop repos so you have a copy on your own GitHub account
+
+#### What you _cannot_ do
+
+1. Create your own copy of the curriculum with our license removed
+1. Create your own copies of the workshops by pasting our material into a new repo
+1. Any other activity that removes attribution or authorship history
 
 ## Topics
 
