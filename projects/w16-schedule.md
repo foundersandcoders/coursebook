@@ -2,14 +2,14 @@
 
 ## Day 1
 
-| Time    | Activity                     |
-| ------- | ---------------------------- |
-| 09:45   | Check-in                     |
+| Time    | Activity                                    |
+| ------- | ------------------------------------------- |
+| 09:45   | Check-in                                    |
 | 10:00   | Reach out to Project Mentors & Role mentors |
-| 10:30   | Build                        |
-| _13:00_ | _Lunch_                      |
-| 14:00   | Build      |
-| 17:45   | Check-out                    |
+| 10:30   | Build                                       |
+| _13:00_ | _Lunch_                                     |
+| 14:00   | Build                                       |
+| 17:45   | Check-out                                   |
 
 ## Day 2
 
@@ -48,9 +48,8 @@
 | Time    | Activity                        |
 | ------- | ------------------------------- |
 | 09:45   | Check-in                        |
-| 10:00   | Code Review                     |
-| 11:00   | Sprint Review                   |
-| 12:00   | Presentation Prep               |
+| 10:00   | [Handover prep][po-handover]    |
+| 11:00   | Product Handover                |
 | _13:00_ | _Lunch_                         |
 | 14:00   | Presentations                   |
 | 15:30   | Cohort SGC                      |
@@ -58,3 +57,4 @@
 | 17:00   | Speaker                         |
 | 17:45   | Check-out                       |
 
+[po-handover]: ./po-handover.md
