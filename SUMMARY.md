@@ -100,3 +100,7 @@
 ## Week 16 - Tech for Better Sprint Two
 
 - [Schedule](projects/w16-schedule.md)
+
+## Week 17 - Employment Week
+
+- [Schedule](week-17/schedule.md)
