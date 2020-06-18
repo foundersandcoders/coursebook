@@ -100,3 +100,5 @@
 ## Week 16 - Tech for Better Sprint Two
 
 - [Schedule](projects/w16-schedule.md)
+- [PO Handover Guide](projects/po-handover.md)
+- [TFB Presentation Guide](projects/tfb-presentation.md)
