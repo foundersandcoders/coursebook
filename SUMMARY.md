@@ -10,6 +10,7 @@
 - [Sociocracy](documents/sociocracy.md)
 - [Precourse](documents/precourse.md)
 - [Installation List](documents/installation-list.md)
+- [One Day Projects](documents/one-day-projects.md)
 
 ## Week 1
 
