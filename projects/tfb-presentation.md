@@ -56,10 +56,10 @@ The purpose of this document is to provide advice about how to prepare a Tech fo
 
 ### Handy Tools
 
-[Excalidraw](https://excalidraw.com/) - make "handdrawn" mock ups of your UI
-[Creately](https://creately.com/) - create process diagrams (i.e. to map the flow of your app)
-[Dbdiagram.io](https://dbdiagram.io/home) - visualise your db schema
-[Gyazo](https://gyazo.com/captures) - record GIFs of your screen
-[Canva](https://www.canva.com/) - professional presentation templates
+- [Canva](https://www.canva.com/) - professional presentation templates
+- [Excalidraw](https://excalidraw.com/) - make "handdrawn" mock ups of your UI
+- [Creately](https://creately.com/) - create process diagrams (i.e. to map the flow of your app)
+- [Dbdiagram.io](https://dbdiagram.io/home) - visualise your db schema
+- [Gyazo](https://gyazo.com/captures) - record GIFs of your screen
 
 ---
