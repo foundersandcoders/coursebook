@@ -10,6 +10,7 @@
 - [Sociocracy](documents/sociocracy.md)
 - [Precourse](documents/precourse.md)
 - [Installation List](documents/installation-list.md)
+- [One Day Projects](documents/one-day-projects.md)
 
 ## Week 1
 
@@ -100,7 +101,10 @@
 ## Week 16 - Tech for Better Sprint Two
 
 - [Schedule](projects/w16-schedule.md)
+- [PO Handover Guidance](projects/po-handover.md)
+- [TFB Presentation Guidance](projects/tfb-presentation.md)
 
 ## Week 17 - Employment Week
 
 - [Schedule](week-17/schedule.md)
+

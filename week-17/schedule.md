@@ -32,11 +32,15 @@
 
 ## Day Four
 
-| Time  | Activity                  |
-| ----- | ------------------------- |
-| 10:00 | Employment Prep           |
-| 13:00 | Lunch                     |
-| 14:30 | Inclusive Design Practice |
-| 16:00 | Pramp                     |
+| Time  | Activity                   |
+| ----- | -------------------------- |
+| 10:00 | Peer CV / Portfolio Review |
+| 13:00 | Lunch                      |
+| 14:30 | Inclusive Design Practice  |
+| 16:00 | Pramp                      |
 
 ## Day Five
+
+| Time  | Activity |
+| ----- | -------- |
+| 13:00 | Park     |
