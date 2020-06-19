@@ -103,3 +103,8 @@
 - [Schedule](projects/w16-schedule.md)
 - [PO Handover Guidance](projects/po-handover.md)
 - [TFB Presentation Guidance](projects/tfb-presentation.md)
+
+## Week 17 - Employment Week
+
+- [Schedule](week-17/schedule.md)
+
