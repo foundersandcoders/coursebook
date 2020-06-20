@@ -40,10 +40,11 @@ The work is available under the Creative Commons [Attribution-NonCommercial-Shar
 | 6    | [Authentication](./week-6/schedule.md)       |
 | 7    | [REST APIs](./week-7/schedule.md)            |
 | 8    | [Full-Stack App](./week-8/schedule.md)       |
+| 9    | [React](./week-9/schedule.md)       |
 
 ## Default Schedule
 
-The general timetable for the first 8 weeks. This does differ from week to week - see each week's schedule for specific schedules.
+The timetable can differ from week to week. See each week's schedule for details. There is usually an additional reading week after Week 7 or 8.
 
 ### Day 1
 
@@ -51,10 +52,13 @@ The general timetable for the first 8 weeks. This does differ from week to week 
 | ------- | ------------------ | ---------------------------------------------- |
 | 09:45   | Check-in           |                                                |
 | 10:00   | Intro Presentation | Mentors present on this week's topic           |
-| 10:30   | Workshops          |                                                |
+| 10:15   | Intro Workshop     | Short introductory workshop                    |
+| 11:00   | Workshop           | The first of four 2-hour workshops             |
 | _13:00_ | _Lunch_            |                                                |
 | 14:00   | Workshop           |                                                |
-| 16:00   | Tech for Better    | Workshops as part of Tech for Better programme |
+| 16:00   | Project intro      | Introduce the project and learning outcomes    |
+| 16:15   | Technical Spike    | Research a relevant topic                      |
+| 17:55   | Check-out          |                                                |
 | _18:00_ | _Finish_           |                                                |
 
 ### Day 2
@@ -62,37 +66,39 @@ The general timetable for the first 8 weeks. This does differ from week to week 
 | Time    | Activity                | Description                                                  |
 | ------- | ----------------------- | ------------------------------------------------------------ |
 | 09:45   | Check-in                |                                                              |
-| 10:00   | Design Burst            | A short presentation on an aspect of design                  |
-| 10:30   | Design Workshop         | A follow-on workshop on the design topic                     |
+| 10:00   | Spike Presentations     |                                                              |
 | 11:00   | Workshop                |                                                              |
 | _13:00_ | _Lunch_                 |                                                              |
-| 14: 00  | Project intro           | Mentors will introduce the project and its learning outcomes |
-| 14:30   | Technical Spikes        | Research into a technical topic you'll need this week        |
-| 16:30   | Spike Presentation Prep |                                                              |
-| 17:00   | Spike Presentations     |                                                              |
+| 14:00   | Workshop                |                                                              |
+| 16:00   | Tech for Better         |                                                              |
+| 17:00   | Speaker                 | A technical talk from an employment partner or FAC alum      |
+| 17:55   | Check-out               |                                                              |
 | _18:00_ | _Finish_                |                                                              |
 
 ### Day 3
 
-| Time    | Activity          | Description                                                     |
-| ------- | ----------------- | --------------------------------------------------------------- |
-| 09:45   | Check-in          |                                                                 |
-| 10:00   | Morning Challenge | A workshop to challenge your understanding of this week's topic |
-| 11:00   | Project           |                                                                 |
-| _13:00_ | _Lunch_           |                                                                 |
-| 14:00   | Project           |                                                                 |
-| 17:00   | Speaker           | A technical talk from an employment partner or FAC alum         |
-| _18:00_ | _Finish_          |                                                                 |
+| Time    | Activity               | Description                                                     |
+| ------- | ---------------------- | --------------------------------------------------------------- |
+| 09:45   | Check-in               |                                                                 |
+| 10:00   | Morning Challenge      | A workshop to challenge your understanding of this week's topic |
+| 11:00   | Project                |                                                                 |
+| _13:00_ | _Lunch_                |                                                                 |
+| 14:00   | Project                |                                                                 |
+| 15:30   | Employment prep        | Portfolio, CV, media presence and interview prep                |
+| 16:30   | Community engagement   |                                                                 |
+| 17:55   | Check-out              |                                                                 |
+| _18:00_ | _Finish_               |                                                                 |
 
 ### Day 4
 
-| Time    | Activity | Description |
-| ------- | -------- | ----------- |
-| 09:45   | Check-in |             |
-| 10:00   | Project  |             |
-| _13:00_ | _Lunch_  |             |
-| 14:00   | Project  |             |
-| _18:00_ | _Finish_ |             |
+| Time    | Activity  | Description |
+| ------- | --------- | ----------- |
+| 09:45   | Check-in  |             |
+| 10:00   | Project   |             |
+| _13:00_ | _Lunch_   |             |
+| 14:00   | Project   |             |
+| 17:55   | Check-out |             |
+| _18:00_ | _Finish_  |             |
 
 ### Day 5
 
@@ -104,7 +110,8 @@ The general timetable for the first 8 weeks. This does differ from week to week 
 | 12:15   | Presentation Prep   |                                                                            |
 | _13:00_ | _Lunch_             |                                                                            |
 | 14:00   | Presentations       | Present your project from this week                                        |
-| 16:00   | Stop, Go, Continues | Cohort and team retrospectives                                             |
+| 15:30   | Stop, Go, Continues | Cohort and team retrospectives                                             |
 | 16:45   | Update User Manuals | Update user manuals with reflections from the week                         |
-| 17:00   | Speaker             | A talk about careers and employment from an employment partner or FAC alum |
+| 17:00   | Speaker             | A talk from an employment partner or FAC alum                              |
+| 17:55   | Check-out           |                                                                            |
 | _18:00_ | _Finish_            |                                                                            |
