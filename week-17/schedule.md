@@ -14,8 +14,8 @@
 
 | Time  | Activity        |
 | ----- | --------------- |
-| 10:00 | Employment Prep |
-| 11:30 | Anni's Talk     |
+| 10:00 | Anni's Talk     |
+| 12:00 | Employment Prep |
 | 13:00 | Lunch           |
 | 14:00 | Sara's Talk     |
 | 15:00 | Employment Prep |
@@ -24,7 +24,8 @@
 
 | Time  | Activity                             |
 | ----- | ------------------------------------ |
-| 10:00 | Time & Space Complexity Introduction |
+| 10:00 | TFB Next Steps                       |
+| 10:15 | Time & Space Complexity Introduction |
 | 11:00 | Research                             |
 | 13:00 | Lunch                                |
 | 14:00 | Algorithm Writing                    |
@@ -34,7 +35,8 @@
 
 | Time  | Activity                   |
 | ----- | -------------------------- |
-| 10:00 | Peer CV / Portfolio Review |
+| 10:00 | TFB Presentation Revisions |
+| 11:00 | Peer CV / Portfolio Review |
 | 13:00 | Lunch                      |
 | 14:30 | Inclusive Design Practice  |
 | 16:00 | Pramp                      |
