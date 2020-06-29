@@ -35,6 +35,6 @@
 
 | Time  | Activity               |
 | ----- | ---------------------- |
-| 14:00 | Tech Stars Talk        |
-| 15:00 | Break                  |
+| 15:00 | Tech Stars Talk        |
+| 16:00 | Break                  |
 | 18:00 | Interview Prep w/ Luke |
