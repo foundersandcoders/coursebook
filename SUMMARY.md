@@ -108,3 +108,6 @@
 
 - [Schedule](week-17/schedule.md)
 
+## Week 18 - Bonus Week
+
+- [Schedule](week-18/schedule.md)
