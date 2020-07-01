@@ -51,14 +51,15 @@ The timetable can differ from week to week. See each week's schedule for details
 | Time    | Activity           | Description                                    |
 | ------- | ------------------ | ---------------------------------------------- |
 | 09:45   | Check-in           |                                                |
-| 10:00   | Intro Presentation | Mentors present on this week's topic           |
-| 10:15   | Intro Workshop     | Short introductory workshop                    |
+| 10:00   | Mentor intro       | Mentors introduce themselves                   |
+| 10:05   | Intro Presentation | Mentors present on this week's topic           |
+| 10:20   | Intro Workshop     | Short introductory workshop                    |
 | 11:00   | Workshop           | The first of four 2-hour workshops             |
 | _13:00_ | _Lunch_            |                                                |
 | 14:00   | Workshop           |                                                |
 | 16:00   | Project intro      | Introduce the project and learning outcomes    |
 | 16:15   | Technical Spike    | Research a relevant topic                      |
-| 17:55   | Check-out          |                                                |
+| 17:50   | Check-out          |                                                |
 | _18:00_ | _Finish_           |                                                |
 
 ### Day 2
@@ -72,7 +73,7 @@ The timetable can differ from week to week. See each week's schedule for details
 | 14:00   | Workshop                |                                                              |
 | 16:00   | Tech for Better         |                                                              |
 | 17:00   | Speaker                 | A technical talk from an employment partner or FAC alum      |
-| 17:55   | Check-out               |                                                              |
+| 17:50   | Check-out               |                                                              |
 | _18:00_ | _Finish_                |                                                              |
 
 ### Day 3
@@ -86,7 +87,7 @@ The timetable can differ from week to week. See each week's schedule for details
 | 14:00   | Project                |                                                                 |
 | 15:30   | Employment prep        | Portfolio, CV, media presence and interview prep                |
 | 16:30   | Community engagement   |                                                                 |
-| 17:55   | Check-out              |                                                                 |
+| 17:50   | Check-out              |                                                                 |
 | _18:00_ | _Finish_               |                                                                 |
 
 ### Day 4
@@ -97,7 +98,7 @@ The timetable can differ from week to week. See each week's schedule for details
 | 10:00   | Project   |             |
 | _13:00_ | _Lunch_   |             |
 | 14:00   | Project   |             |
-| 17:55   | Check-out |             |
+| 17:50   | Check-out |             |
 | _18:00_ | _Finish_  |             |
 
 ### Day 5
@@ -110,8 +111,8 @@ The timetable can differ from week to week. See each week's schedule for details
 | 12:15   | Presentation Prep   |                                                                            |
 | _13:00_ | _Lunch_             |                                                                            |
 | 14:00   | Presentations       | Present your project from this week                                        |
-| 15:30   | Stop, Go, Continues | Cohort and team retrospectives                                             |
-| 16:45   | Update User Manuals | Update user manuals with reflections from the week                         |
+| 15:30   | Stop, Go, Continue  | Cohort retrospective                                                       |
+| 16:15   | Team retrospectives | SGC and update user manuals                                                |
 | 17:00   | Speaker             | A talk from an employment partner or FAC alum                              |
-| 17:55   | Check-out           |                                                                            |
+| 17:50   | Check-out           |                                                                            |
 | _18:00_ | _Finish_            |                                                                            |
