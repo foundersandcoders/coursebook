@@ -113,7 +113,7 @@ The timetable can differ from week to week. See each week's schedule for details
 | 14:00   | Presentations       | Present your project from this week                                        |
 | 15:30   | Stop, Go, Continue  | Cohort retrospective                                                       |
 | 16:15   | Team retrospectives | SGC and update user manuals                                                |
-| 17:45   | Curriculum feedback | Online survey                                                              |
+| 16:45   | Curriculum feedback | Online survey                                                              |
 | 17:00   | Speaker             | A talk from an employment partner or FAC alum                              |
 | 17:50   | Check-out           |                                                                            |
 | _18:00_ | _Finish_            |                                                                            |
