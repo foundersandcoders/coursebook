@@ -10,50 +10,50 @@
 
 ## Curriculum
 
-1. Teamwork & Toolkit
-   - [Learning outcomes](curriculum/teamwork-and-toolkit/learning-outcomes.md)
-   - [Schedule](curriculum/teamwork-and-toolkit/schedule.md)
-   - [Spikes](curriculum/teamwork-and-toolkit/spikes.md)
-   - [Project](curriculum/teamwork-and-toolkit/project.md)
-1. HTTP
-   - [Learning Outcomes](curriculum/http/learning-outcomes.md)
-   - [Schedule](curriculum/http/schedule.md)
-   - [Spikes](curriculum/http/spikes.md)
-   - [Project](curriculum/http/project.md)
-1. Testing
-   - [Learning Outcomes](curriculum/testing/learning-outcomes.md)
-   - [Schedule](curriculum/testing/schedule.md)
-   - [Spikes](curriculum/testing/spikes.md)
-   - [Project](curriculum/testing/project.md)
-1. Node
-   - [Learning Outcomes](curriculum/node/learning-outcomes.md)
-   - [Schedule](curriculum/node/schedule.md)
-   - [Spikes](curriculum/node/spikes.md)
-   - [Project](curriculum/node/project.md)
-1. Databases
-   - [Learning Outcomes](curriculum/databases/learning-outcomes.md)
-   - [Schedule](curriculum/databases/schedule.md)
-   - [Spikes](curriculum/databases/spikes.md)
-   - [Project](curriculum/databases/project.md)
-1. Authentication
-   - [Learning Outcomes](curriculum/authentication/learning-outcomes.md)
-   - [Schedule](curriculum/authentication/schedule.md)
-   - [Spikes](curriculum/authentication/spikes.md)
-   - [Project](curriculum/authentication/project.md)
-1. REST APIs
-   - [Learning Outcomes](curriculum/rest-apis/learning-outcomes.md)
-   - [Schedule](curriculum/rest-apis/schedule.md)
-   - [Spikes](curriculum/rest-apis/spikes.md)
-   - [Project](curriculum/rest-apis/project.md)
-1. Fullstack App
-   - [Learning Outcomes](curriculum/fullstack-app/learning-outcomes.md)
-   - [Schedule](curriculum/fullstack-app/schedule.md)
-   - [Spikes](curriculum/fullstack-app/spikes.md)
-   - [Project](curriculum/fullstack-app/project.md)
-1. React
-   - [Learning Outcomes](curriculum/react/learning-outcomes.md)
-   - [Schedule](curriculum/react/schedule.md)
-   - [Project](curriculum/react/project.md)
+- Teamwork & Toolkit
+  - [Learning outcomes](curriculum/teamwork-and-toolkit/learning-outcomes.md)
+  - [Schedule](curriculum/teamwork-and-toolkit/schedule.md)
+  - [Spikes](curriculum/teamwork-and-toolkit/spikes.md)
+  - [Project](curriculum/teamwork-and-toolkit/project.md)
+- HTTP
+  - [Learning Outcomes](curriculum/http/learning-outcomes.md)
+  - [Schedule](curriculum/http/schedule.md)
+  - [Spikes](curriculum/http/spikes.md)
+  - [Project](curriculum/http/project.md)
+- Testing
+  - [Learning Outcomes](curriculum/testing/learning-outcomes.md)
+  - [Schedule](curriculum/testing/schedule.md)
+  - [Spikes](curriculum/testing/spikes.md)
+  - [Project](curriculum/testing/project.md)
+- Node
+  - [Learning Outcomes](curriculum/node/learning-outcomes.md)
+  - [Schedule](curriculum/node/schedule.md)
+  - [Spikes](curriculum/node/spikes.md)
+  - [Project](curriculum/node/project.md)
+- Databases
+  - [Learning Outcomes](curriculum/databases/learning-outcomes.md)
+  - [Schedule](curriculum/databases/schedule.md)
+  - [Spikes](curriculum/databases/spikes.md)
+  - [Project](curriculum/databases/project.md)
+- Authentication
+  - [Learning Outcomes](curriculum/authentication/learning-outcomes.md)
+  - [Schedule](curriculum/authentication/schedule.md)
+  - [Spikes](curriculum/authentication/spikes.md)
+  - [Project](curriculum/authentication/project.md)
+- REST APIs
+  - [Learning Outcomes](curriculum/rest-apis/learning-outcomes.md)
+  - [Schedule](curriculum/rest-apis/schedule.md)
+  - [Spikes](curriculum/rest-apis/spikes.md)
+  - [Project](curriculum/rest-apis/project.md)
+- Fullstack App
+  - [Learning Outcomes](curriculum/fullstack-app/learning-outcomes.md)
+  - [Schedule](curriculum/fullstack-app/schedule.md)
+  - [Spikes](curriculum/fullstack-app/spikes.md)
+  - [Project](curriculum/fullstack-app/project.md)
+- React
+  - [Learning Outcomes](curriculum/react/learning-outcomes.md)
+  - [Schedule](curriculum/react/schedule.md)
+  - [Project](curriculum/react/project.md)
 
 ## Projects
 
