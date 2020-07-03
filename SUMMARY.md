@@ -60,9 +60,9 @@
 
 - Student Project
   - Design Week
-    - [Learning Outcomes](design-week/learning-outcomes.md)
-    - [Schedule](design-week/schedule.md)
-    - [Project](design-week/project.md)
+    - [Learning Outcomes](projects/design-week/learning-outcomes.md)
+    - [Schedule](projects/design-week/schedule.md)
+    - [Project](projects/design-week/project.md)
   - Sprint One
     - [Schedule](projects/w12-schedule.md)
     - [Mentor Roles](projects/mentor-roles.md)
