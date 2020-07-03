@@ -1,7 +1,7 @@
 ## Student Handbook
 
 - [Code of Conduct](handbook/code-of-conduct.md)
-- [House Rules](handbook/house-rules.md)
+- [Course Rules](handbook/course-rules.md)
 - [Pair Programming](handbook/pair-programming.md)
 - [Spikes](handbook/spikes.md)
 - [Projects](handbook/projects.md)
