@@ -7,7 +7,6 @@
 - [Projects](handbook/projects.md)
 - [Code Review](handbook/code-review.md)
 - [Retrospectives](handbook/retrospectives.md)
-- [Sociocracy](handbook/sociocracy.md)
 
 ## Curriculum
 
@@ -78,10 +77,6 @@
     - [Schedule](projects/w16-schedule.md)
     - [PO Handover Guidance](projects/po-handover.md)
     - [TFB Presentation Guidance](projects/tfb-presentation.md)
-
-### Week 17 - Employment Week
-
-- [Schedule](week-17/schedule.md)
 
 ### One Day Projects
 
