@@ -1,110 +1,88 @@
-## Documents
+## Student Handbook
 
-- [Code of Conduct](documents/code-of-conduct.md)
-- [House Rules](documents/house-rules.md)
-- [Pair Programming](documents/pair-programming.md)
-- [Spikes](documents/spikes.md)
-- [Projects](documents/projects.md)
-- [Code Review](documents/code-review.md)
-- [Retrospectives](documents/retrospectives.md)
-- [Sociocracy](documents/sociocracy.md)
-- [Precourse](documents/precourse.md)
-- [Installation List](documents/installation-list.md)
-- [One Day Projects](documents/one-day-projects.md)
+- [Code of Conduct](handbook/code-of-conduct.md)
+- [House Rules](handbook/house-rules.md)
+- [Pair Programming](handbook/pair-programming.md)
+- [Spikes](handbook/spikes.md)
+- [Projects](handbook/projects.md)
+- [Code Review](handbook/code-review.md)
+- [Retrospectives](handbook/retrospectives.md)
 
-## Week 1
+## Curriculum
 
-- [Learning outcomes](week-1/learning-outcomes.md)
-- [Schedule](week-1/schedule.md)
-- [Spikes](week-1/spikes.md)
-- [Project](week-1/project.md)
+1. Teamwork & Toolkit
+   - [Learning outcomes](curriculum/teamwork-and-toolkit/learning-outcomes.md)
+   - [Schedule](curriculum/teamwork-and-toolkit/schedule.md)
+   - [Spikes](curriculum/teamwork-and-toolkit/spikes.md)
+   - [Project](curriculum/teamwork-and-toolkit/project.md)
+1. HTTP
+   - [Learning Outcomes](curriculum/http/learning-outcomes.md)
+   - [Schedule](curriculum/http/schedule.md)
+   - [Spikes](curriculum/http/spikes.md)
+   - [Project](curriculum/http/project.md)
+1. Testing
+   - [Learning Outcomes](curriculum/testing/learning-outcomes.md)
+   - [Schedule](curriculum/testing/schedule.md)
+   - [Spikes](curriculum/testing/spikes.md)
+   - [Project](curriculum/testing/project.md)
+1. Node
+   - [Learning Outcomes](curriculum/node/learning-outcomes.md)
+   - [Schedule](curriculum/node/schedule.md)
+   - [Spikes](curriculum/node/spikes.md)
+   - [Project](curriculum/node/project.md)
+1. Databases
+   - [Learning Outcomes](curriculum/databases/learning-outcomes.md)
+   - [Schedule](curriculum/databases/schedule.md)
+   - [Spikes](curriculum/databases/spikes.md)
+   - [Project](curriculum/databases/project.md)
+1. Authentication
+   - [Learning Outcomes](curriculum/authentication/learning-outcomes.md)
+   - [Schedule](curriculum/authentication/schedule.md)
+   - [Spikes](curriculum/authentication/spikes.md)
+   - [Project](curriculum/authentication/project.md)
+1. REST APIs
+   - [Learning Outcomes](curriculum/rest-apis/learning-outcomes.md)
+   - [Schedule](curriculum/rest-apis/schedule.md)
+   - [Spikes](curriculum/rest-apis/spikes.md)
+   - [Project](curriculum/rest-apis/project.md)
+1. Fullstack App
+   - [Learning Outcomes](curriculum/fullstack-app/learning-outcomes.md)
+   - [Schedule](curriculum/fullstack-app/schedule.md)
+   - [Spikes](curriculum/fullstack-app/spikes.md)
+   - [Project](curriculum/fullstack-app/project.md)
+1. React
+   - [Learning Outcomes](curriculum/react/learning-outcomes.md)
+   - [Schedule](curriculum/react/schedule.md)
+   - [Project](curriculum/react/project.md)
 
-## Week 2
+## Projects
 
-- [Learning Outcomes](week-2/learning-outcomes.md)
-- [Schedule](week-2/schedule.md)
-- [Spikes](week-2/spikes.md)
-- [Project](week-2/project.md)
+- Student Project
+  - Design Week
+    - [Learning Outcomes](projects/design-week/learning-outcomes.md)
+    - [Schedule](projects/design-week/schedule.md)
+    - [Project](projects/design-week/project.md)
+  - Sprint One
+    - [Schedule](projects/w12-schedule.md)
+    - [Mentor Roles](projects/mentor-roles.md)
+    - [Student Roles](projects/student-roles.md)
+  - Student Project Sprint Two
+    - [Schedule](projects/w13-schedule.md)
+- Tech For Better Project
+  - Design Week
+    - [Schedule](projects/w14-schedule.md)
+  - Sprint One
+    - [Schedule](projects/w15-schedule.md)
+  - Sprint Two
+    - [Schedule](projects/w16-schedule.md)
+    - [PO Handover Guidance](projects/po-handover.md)
+    - [TFB Presentation Guidance](projects/tfb-presentation.md)
 
-## Week 3
+### One Day Projects
 
-- [Learning Outcomes](week-3/learning-outcomes.md)
-- [Schedule](week-3/schedule.md)
-- [Spikes](week-3/spikes.md)
-- [Project](week-3/project.md)
+- [Running a one day project](handbook/one-day-projects.md)
 
-## Week 4
+## Precourse
 
-- [Learning Outcomes](week-4/learning-outcomes.md)
-- [Schedule](week-4/schedule.md)
-- [Spikes](week-4/spikes.md)
-- [Project](week-4/project.md)
-
-## Week 5
-
-- [Learning Outcomes](week-5/learning-outcomes.md)
-- [Schedule](week-5/schedule.md)
-- [Spikes](week-5/spikes.md)
-- [Project](week-5/project.md)
-
-## Week 6
-
-- [Learning Outcomes](week-6/learning-outcomes.md)
-- [Schedule](week-6/schedule.md)
-- [Spikes](week-6/spikes.md)
-- [Project](week-6/project.md)
-
-## Week 7
-
-- [Learning Outcomes](week-7/learning-outcomes.md)
-- [Schedule](week-7/schedule.md)
-- [Spikes](week-7/spikes.md)
-- [Project](week-7/project.md)
-
-## Week 8
-
-- [Learning Outcomes](week-8/learning-outcomes.md)
-- [Schedule](week-8/schedule.md)
-- [Spikes](week-8/spikes.md)
-- [Project](week-8/project.md)
-
-## Week 10
-
-- [Learning Outcomes](week-10/learning-outcomes.md)
-- [Schedule](week-10/schedule.md)
-- [Project](week-10/project.md)
-
-## Week 11 - Design Week
-
-- [Learning Outcomes](design-week/learning-outcomes.md)
-- [Schedule](design-week/schedule.md)
-- [Project](design-week/project.md)
-
-## Week 12 - Student Project Sprint One
-
-- [Schedule](projects/w12-schedule.md)
-- [Mentor Roles](projects/mentor-roles.md)
-- [Student Roles](projects/student-roles.md)
-
-## Week 13 - Student Project Sprint Two
-
-- [Schedule](projects/w13-schedule.md)
-
-## Week 14 - Tech for Better Design Week
-
-- [Schedule](projects/w14-schedule.md)
-
-## Week 15 - Tech for Better Sprint One
-
-- [Schedule](projects/w15-schedule.md)
-
-## Week 16 - Tech for Better Sprint Two
-
-- [Schedule](projects/w16-schedule.md)
-- [PO Handover Guidance](projects/po-handover.md)
-- [TFB Presentation Guidance](projects/tfb-presentation.md)
-
-## Week 17 - Employment Week
-
-- [Schedule](week-17/schedule.md)
-
+- [Precourse](precourse/precourse.md)
+- [Installation List](precourse/installation-list.md)
