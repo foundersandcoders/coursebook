@@ -2,43 +2,44 @@
 
 ## Day 1
 
-| Time    | Activity                                                                                           | Learning outcomes  |
-| ------- | -------------------------------------------------------------------------------------------------- | ------------------ |
-| 09:45   | Arrive and meet everyone                                                                           |                    |
-| 10:00   | [Welcome talk][welcome-talk]                                                                       |                    |
-| 10:30   | [Name game][name-game]                                                                             |                    |
-| 11:00   | [Community talk][community-talk]                                                                   |                    |
-| _11:30_ | Go through [course schedule][course-schedule], [code of conduct][coc] & [house rules][house-rules] |                    |
-| 12:00   | [Students create their own code of conduct][student-coc]                                           |                    |
-| 12:45   | Introduce Slack channels                                                                           |                    |
-| 13:00   | _Lunch_                                                                                            |                    |
-| 14:00   | [Intro to Pair Programming][intro-pairing]                                                         | Pair programming   |
-| 15:00   | [Accessibility workshop][a11y-workshop]                                                            | Accessibility      |
-| 16:00   | [Intro to project management presentation][pm-talk]                                                | Project management |
-| 16:30   | [Create user manuals][user-manuals]                                                                |                    |
-| 17:00   | [Intro to sociocracatic decisions][intro-sociocracy]                                               |                    |
+| Time  | Activity                                                                                           | Learning outcomes |
+| ----- | -------------------------------------------------------------------------------------------------- | ----------------- |
+| 09:45 | Arrive and meet everyone                                                                           |                   |
+| 10:00 | [Welcome talk][welcome-talk]                                                                       |                   |
+| 10:30 | [Name game][name-game]                                                                             |                   |
+| 11:00 | Go through [course schedule][course-schedule], [code of conduct][coc] & [house rules][house-rules] |                   |
+| 11:30 | [Allyship Talk][ally-talk]                                                                         |                   |
+| 12:00 | [Students create their own cohort expectations][student-coc]                                       |                   |
+| 12:45 | Introduce Slack channels                                                                           |                   |
+| 13:00 | _Lunch_                                                                                            |                   |
+| 14:00 | [Intro to Pair Programming][intro-pairing]                                                         | Pair programming  |
+| 15:00 | [Accessibility workshop][a11y-workshop]                                                            | Accessibility     |
+| 16:00 | [Project Intro][project-intro]                                                                     |                   |
+| 16:15 | [Tech Spikes Intro][spikes-intro]                                                                  |                   |
+| 16:30 | [Tech Spikes][tech-spikes] | | |
 
 [welcome-talk]: http://facresources.com/slides/students-day-1-talk#/
 [name-game]: https://github.com/foundersandcoders/master-reference/blob/master/coursebook/week-1/resources/name-game.md
 [community-talk]: https://facresources.com/slides/community-talk#/
 [course-schedule]: https://founders-and-coders.gitbook.io/coursebook/
-[house-rules]: https://founders-and-coders.gitbook.io/coursebook/documents/house-rules
-[coc]: https://founders-and-coders.gitbook.io/coursebook/documents/code-of-conduct
+[house-rules]: https://founders-and-coders.gitbook.io/coursebook/student-handbook/course-rules
+[coc]: https://founders-and-coders.gitbook.io/coursebook/student-handbook/code-of-conduct
+[ally-talk]: https://hackmd.io/@fac/HyJimsFc8
 [student-coc]: https://github.com/foundersandcoders/master-reference/blob/master/coursebook/week-1/cohort-code-of-conduct.md
-[intro-pairing]: https://founders-and-coders.gitbook.io/coursebook/documents/pair-programming
+[intro-pairing]: https://founders-and-coders.gitbook.io/coursebook/student-handbook/pair-programming
 [a11y-workshop]: https://github.com/foundersandcoders/web-accessibility/blob/master/putting-yourself-in-someone-elses-shoes.md
-[pm-talk]: https://hackmd.io/@sofer/S1wGfV2M8#/
-[user-manuals]: https://github.com/foundersandcoders/master-reference/blob/master/coursebook/general/user-manuals/ISSUE_TEMPLATE.md
-[intro-sociocracy]: https://founders-and-coders.gitbook.io/coursebook/documents/sociocracy
+[project-intro]: https://founders-and-coders.gitbook.io/coursebook/curriculum/teamwork-and-toolkit/project
+[spikes-intro]: https://founders-and-coders.gitbook.io/coursebook/student-handbook/spikes
+[tech-spikes]: ./spikes.md
 
 ## Day 2
 
 | Time    | Activity                                                   | Learning outcomes                 |
 | ------- | ---------------------------------------------------------- | --------------------------------- |
 | 09:45   | Check-in                                                   |                                   |
-| 10:00   | [Design burst: colour in UI][db-colour]                    |                                   |
-| 10:30   | [CSS Variables workshop][db-colour-ws]                     | CSS                               |
-| 11:30   | [Git workshop][git-ws]                                     | Version control, pair programming |
+| 10:00   | [Tech Spikes Presentations][#]                    |                                   |
+| 11:00   | Anni's Talk                     | CSS                               |
+| 12:30   | User Manuals                                     |  |
 | _13:00_ | _Lunch_                                                    |                                   |
 | 14:00   | [Git workshop contd.][git-ws]                              |                                   |
 | 14.30   | Project intro                                              |                                   |
@@ -51,12 +52,12 @@
 [db-colour-ws]: https://github.com/bobbysebolao/learn-css-variables
 [git-ws]: https://github.com/foundersandcoders/git-workflow-workshop-for-two
 [research-guide]: https://founders-and-coders.gitbook.io/coursebook/documents/spikes
-[technical-spikes]: ./week-1/spikes.md
+[technical-spikes]: ./spikes.md
 
 ## Day 3
 
 | Time    | Activity                                 | Learning outcomes |
-| ------- | -----------------------------------------| ----------------- |
+| ------- | ---------------------------------------- | ----------------- |
 | 09:45   | Check-in                                 |                   |
 | 10:00   | [Learn HTML forms][learn-forms]          | HTML forms        |
 | 11:00   | [Intro to project management][pm-slides] |                   |
@@ -68,7 +69,6 @@
 [learn-forms]: https://github.com/oliverjam/learn-html-forms/
 [projects]: https://founders-and-coders.gitbook.io/coursebook/documents/projects
 [pm-slides]: https://hackmd.io/@fac/S1wGfV2M8#/
-
 
 ## Day 4
 
@@ -97,4 +97,3 @@
 [intro-code-review]: https://founders-and-coders.gitbook.io/coursebook/documents/code-review
 [intro-project-presentations]: https://founders-and-coders.gitbook.io/coursebook/documents/projects#project-presentation
 [intro-retros]: https://founders-and-coders.gitbook.io/coursebook/documents/retrospectives
-        
