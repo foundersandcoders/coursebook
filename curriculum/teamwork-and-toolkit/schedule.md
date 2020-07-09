@@ -16,7 +16,8 @@
 | 15:00 | [Accessibility workshop][a11y-workshop]                                                            | Accessibility     |
 | 16:00 | [Project Intro][project-intro]                                                                     |                   |
 | 16:15 | [Tech Spikes Intro][spikes-intro]                                                                  |                   |
-| 16:30 | [Tech Spikes][tech-spikes] | | |
+| 16:30 | [Tech Spikes][tech-spikes]                                                                         |                   |
+| 17:30 | [Tech Spike Presentations                                                                          |                   |
 
 [welcome-talk]: http://facresources.com/slides/students-day-1-talk#/
 [name-game]: https://github.com/foundersandcoders/master-reference/blob/master/coursebook/week-1/resources/name-game.md
@@ -34,25 +35,22 @@
 
 ## Day 2
 
-| Time    | Activity                                                   | Learning outcomes                 |
-| ------- | ---------------------------------------------------------- | --------------------------------- |
-| 09:45   | Check-in                                                   |                                   |
-| 10:00   | [Tech Spikes Presentations][#]                    |                                   |
-| 11:00   | Anni's Talk                     | CSS                               |
-| 12:30   | User Manuals                                     |  |
-| _13:00_ | _Lunch_                                                    |                                   |
-| 14:00   | [Git workshop contd.][git-ws]                              |                                   |
-| 14.30   | Project intro                                              |                                   |
-| 14:45   | [Technical spikes and presentations intro][research-guide] |                                   |
-| 15:00   | [Technical spikes][technical-spikes]                       |                                   |
-| 16:30   | Spike presentation prep                                    |                                   |
-| 17:00   | Spike presentations                                        |                                   |
+| Time    | Activity                          | Learning outcomes |
+| ------- | --------------------------------- | ----------------- |
+| 09:45   | Check-in                          |                   |
+| 10:00   | Tech Spikes Presentations         |                   |
+| 11:00   | Anni's Talk                       |                   |
+| 12:30   | [User Manuals][user-manuals]      |                   |
+| _13:00_ | _Lunch_                           |                   |
+| 14:00   | [Design Burst: Colour][db-colour] |                   |
+| 14:30   | [Colour Workshop][db-colour-ws]   |                   |
+| 15:30   | [Git workshop][git-ws]            |                   |
+| 17.30   | ???                               |                   |
 
+[user-manuals]: https://github.com/foundersandcoders/master-reference/tree/master/coursebook/general/user-manuals
 [db-colour]: http://facresources.com/slides/design-burst-week1.html
 [db-colour-ws]: https://github.com/bobbysebolao/learn-css-variables
 [git-ws]: https://github.com/foundersandcoders/git-workflow-workshop-for-two
-[research-guide]: https://founders-and-coders.gitbook.io/coursebook/documents/spikes
-[technical-spikes]: ./spikes.md
 
 ## Day 3
 
@@ -91,9 +89,10 @@
 | 13:00 | _Lunch_                                                       |
 | 14:00 | Presentations                                                 |
 | 15:30 | [Intro to cohort and team Stop Go Continue][intro-retros]     |
-| 16:45 | Update User Manuals                                           |
+| 15:45 | Cohort SGC                                                    |
+| 16:15 | Team SGC                                                      |
 | 17:00 | Speaker                                                       |
 
-[intro-code-review]: https://founders-and-coders.gitbook.io/coursebook/documents/code-review
-[intro-project-presentations]: https://founders-and-coders.gitbook.io/coursebook/documents/projects#project-presentation
-[intro-retros]: https://founders-and-coders.gitbook.io/coursebook/documents/retrospectives
+[intro-code-review]: https://founders-and-coders.gitbook.io/coursebook/student-handbook/code-review
+[intro-project-presentations]: https://founders-and-coders.gitbook.io/coursebook/student-handbook/projects#project-presentation
+[intro-retros]: https://founders-and-coders.gitbook.io/coursebook/student-handbook/restrospectives
