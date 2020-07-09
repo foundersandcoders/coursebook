@@ -17,7 +17,8 @@
 | 16:00 | [Project Intro][project-intro]                                                                     |                   |
 | 16:15 | [Tech Spikes Intro][spikes-intro]                                                                  |                   |
 | 16:30 | [Tech Spikes][tech-spikes]                                                                         |                   |
-| 17:30 | [Tech Spike Presentations                                                                          |                   |
+| 17:30 | [Tech Spike Presentation Prep][spikes-presentations]                                                                          |                   |
+| 17:45 | Check-out | | 
 
 [welcome-talk]: http://facresources.com/slides/students-day-1-talk#/
 [name-game]: https://github.com/foundersandcoders/master-reference/blob/master/coursebook/week-1/resources/name-game.md
@@ -32,21 +33,24 @@
 [project-intro]: https://founders-and-coders.gitbook.io/coursebook/curriculum/teamwork-and-toolkit/project
 [spikes-intro]: https://founders-and-coders.gitbook.io/coursebook/student-handbook/spikes
 [tech-spikes]: ./spikes.md
+[spikes-presentations]: https://founders-and-coders.gitbook.io/coursebook/student-handbook/spikes#what-makes-a-good-research-presentation
 
 ## Day 2
 
 | Time    | Activity                          | Learning outcomes |
 | ------- | --------------------------------- | ----------------- |
 | 09:45   | Check-in                          |                   |
-| 10:00   | Tech Spikes Presentations         |                   |
+| 10:00   | [Tech Spikes Presentations][spikes-presentations]         |                   |
 | 11:00   | Anni's Talk                       |                   |
 | 12:30   | [User Manuals][user-manuals]      |                   |
 | _13:00_ | _Lunch_                           |                   |
 | 14:00   | [Design Burst: Colour][db-colour] |                   |
 | 14:30   | [Colour Workshop][db-colour-ws]   |                   |
 | 15:30   | [Git workshop][git-ws]            |                   |
-| 17.30   | ???                               |                   |
+| 17.30   | Pastoral Care Introductions                               |                   |
+| 17:45 | Check-out | | 
 
+[spikes-presentations]: https://founders-and-coders.gitbook.io/coursebook/student-handbook/spikes#what-makes-a-good-research-presentation
 [user-manuals]: https://github.com/foundersandcoders/master-reference/tree/master/coursebook/general/user-manuals
 [db-colour]: http://facresources.com/slides/design-burst-week1.html
 [db-colour-ws]: https://github.com/bobbysebolao/learn-css-variables
@@ -63,6 +67,7 @@
 | _13:00_ | _Lunch_                                  |                   |
 | 14:00   | Project                                  |                   |
 | 17:00   | Speaker                                  |                   |
+| 17:45 | Check-out | | 
 
 [learn-forms]: https://github.com/oliverjam/learn-html-forms/
 [projects]: https://founders-and-coders.gitbook.io/coursebook/documents/projects
@@ -76,6 +81,7 @@
 | 10:00   | Project  |
 | _13:00_ | _Lunch_  |
 | 14:00   | Project  |
+| 17:45 | Check-out | | 
 
 ## Day 5
 
@@ -92,6 +98,7 @@
 | 15:45 | Cohort SGC                                                    |
 | 16:15 | Team SGC                                                      |
 | 17:00 | Speaker                                                       |
+| 17:45 | Check-out | | 
 
 [intro-code-review]: https://founders-and-coders.gitbook.io/coursebook/student-handbook/code-review
 [intro-project-presentations]: https://founders-and-coders.gitbook.io/coursebook/student-handbook/projects#project-presentation
