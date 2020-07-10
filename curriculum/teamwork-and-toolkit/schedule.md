@@ -83,6 +83,7 @@
 | _13:00_ | _Lunch_                          |                   |
 | 14:00   | [Projects][project-info]         |                   |
 | 17:45   | Check-out                        |                   |
+
 [project-info]: https://founders-and-coders.gitbook.io/coursebook/curriculum/teamwork-and-toolkit/project
 
 ## Day 5
