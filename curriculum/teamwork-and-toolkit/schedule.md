@@ -29,9 +29,9 @@
 [student-expectations-45]: https://github.com/foundersandcoders/master-reference/blob/master/coursebook/week-1/cohort-code-of-conduct.md
 [intro-pairing-60]: https://founders-and-coders.gitbook.io/coursebook/student-handbook/pair-programming
 [a11y-workshop-60]: https://github.com/foundersandcoders/web-accessibility/blob/master/putting-yourself-in-someone-elses-shoes.md
-[project-intro-15]: ./project.md
+[project-intro-15]: https://founders-and-coders.gitbook.io/coursebook/curriculum/teamwork-and-toolkit/project
 [spikes-intro-15]: https://founders-and-coders.gitbook.io/coursebook/student-handbook/spikes
-[tech-spikes-60]: ./spikes.md
+[tech-spikes-60]: https://founders-and-coders.gitbook.io/coursebook/curriculum/teamwork-and-toolkit/spikes
 [spikes-presentations-15]: https://founders-and-coders.gitbook.io/coursebook/student-handbook/spikes#what-makes-a-good-research-presentation
 
 ## Day 2
@@ -71,7 +71,7 @@
 
 [learn-forms-60]: https://github.com/oliverjam/learn-html-forms/
 [pm-slides-15]: https://hackmd.io/@fac/S1wGfV2M8#/
-[projects]: ./project.md
+[projects]: https://founders-and-coders.gitbook.io/coursebook/curriculum/teamwork-and-toolkit/project
 
 ## Day 4
 
@@ -83,7 +83,7 @@
 | _13:00_ | _Lunch_                          |                   |
 | 14:00   | [Projects][project-info]         |                   |
 | 17:45   | Check-out                        |                   |
-[project-info]: ./project.md
+[project-info]: https://founders-and-coders.gitbook.io/coursebook/curriculum/teamwork-and-toolkit/project
 
 ## Day 5
 
