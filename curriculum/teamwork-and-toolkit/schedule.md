@@ -38,7 +38,8 @@
 
 | Time    | Activity                             | Learning outcomes                  |
 | ------- | ------------------------------------ | ---------------------------------- |
-| 09:45   | Check-in                             |                                    |
+| 09:45   | Hello from Kat, pastoral mentor      |                                    |
+| 09:50   | Check-in                             |                                    |
 | 10:00   | [Spike presentations][spike-pres-60] | Presenting and learning CSS & a11y |
 | 11:00   | Anni's talk                          |                                    | 
 | 12:30   | [User Manuals][user-manuals-30]      | Reflection and self-discovery      |
@@ -59,7 +60,8 @@
 
 | Time    | Activity                                     | Learning outcomes         |
 | ------- | -------------------------------------------- | ------------------------- |
-| 09:45   | Check-in                                     |                           |
+| 09:45   | Hello from Charlie, pastoral mentor          |                           |
+| 09:50   | Check-in                                     |                           |
 | 10:00   | [Learn HTML forms][learn-forms-60]           | HTML forms                |
 | 11:00   | [Intro to project management][pm-slides-15]  | Managing tech projects    |
 | 11:15   | [Begin projects][projects]                   |                           |
@@ -74,22 +76,25 @@
 
 ## Day 4
 
-| Time    | Activity                 | Learning outcomes |
-| ------- | ------------------------ | ----------------- |
-| 09:45   | Check-in                 |                   |
-| 10:00   | [Projects][project-info] |                   |
-| _13:00_ | _Lunch_                  |                   |
-| 14:00   | [Projects][project-info] |                   |
-| 17:45   | Check-out                |                   |
+| Time    | Activity                         | Learning outcomes |
+| ------- | -------------------------------- | ----------------- |
+| 09:45   | Hello from Joko, pastoral mentor |                   |
+| 09:45   | Check-in                         |                   |
+| 10:00   | [Projects][project-info]         |                   |
+| _13:00_ | _Lunch_                          |                   |
+| 14:00   | [Projects][project-info]         |                   |
+| 17:45   | Check-out                        |                   |
 [project-info]: ./project.md
 
 ## Day 5
 
 | Time  | Activity                                                | Learning outcomes                    |
 | ----- | ------------------------------------------------------- | ------------------------------------ |
-| 09:45 | Check-in                                                |                                      |
+| 09:45 | Hello from Hannah, pastoral mentor                      |                                      |
+| 09:50 | Check-in                                                |                                      |
 | 10:00 | [Code review][intro-code-review-60]                     | Peer reviewing code                  |
 | 11:00 | Respond to issues                                       |                                      |
+| 12:00 | Sign up for pastoral 'walks'                            |                                      |
 | 12:15 | [Intro to project presentations][intro-project-pres-15] | Guidance on engaging talks           |
 | 12:30 | Presentation prep                                       |                                      |
 | 13:00 | _Lunch_                                                 |                                      |
