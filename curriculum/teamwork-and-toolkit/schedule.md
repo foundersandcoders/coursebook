@@ -58,17 +58,16 @@
 
 ## Day 3
 
-| Time    | Activity                                     | Learning outcomes         |
-| ------- | -------------------------------------------- | ------------------------- |
-| 09:45   | Hello from Charlie, pastoral mentor          |                           |
-| 09:50   | Check-in                                     |                           |
-| 10:00   | [Learn HTML forms][learn-forms-60]           | HTML forms                |
-| 11:00   | [Intro to project management][pm-slides-15]  | Managing tech projects    |
-| 11:15   | [Begin projects][projects]                   |                           |
-| _13:00_ | _Lunch_                                      |                           |
-| 14:00   | [Projects][projects]                         |                           |
-| 17:00   | Speaker                                      |                           |
-| 17:45   | Check-out                                    |                           |
+| Time    | Activity                                     | Learning outcomes          |
+| ------- | -------------------------------------------- | -------------------------- |
+| 09:45   | Hello from Charlie, pastoral mentor          |                            |
+| 09:50   | Check-in                                     |                            |
+| 10:00   | [Learn HTML forms][learn-forms-60]           | HTML forms                 |
+| 11:00   | [Intro to project management][pm-slides-15]  | Managing tech projects     |
+| 11:15   | [Begin projects][projects]                   |                            |
+| _13:00_ | _Lunch_                                      |                            |
+| 14:00   | [Projects][projects]                         |                            |
+| 17:45   | Check-out                                    |                            |
 
 [learn-forms-60]: https://github.com/oliverjam/learn-html-forms/
 [pm-slides-15]: https://hackmd.io/@fac/S1wGfV2M8#/
