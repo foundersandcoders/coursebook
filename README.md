@@ -30,17 +30,17 @@ The work is available under the Creative Commons [Attribution-NonCommercial-Shar
 
 ## Topics
 
-| Week | Topic                                                      |
-| ---- | ---------------------------------------------------------- |
-| 1    | [Teamwork and Toolkit](./teamwork-and-toolkit/schedule.md) |
-| 2    | [HTTP](./http/schedule.md)                                 |
-| 3    | [Testing](./testing/schedule.md)                           |
-| 4    | [Node](./node/schedule.md)                                 |
-| 5    | [Databases](./databases/schedule.md)                       |
-| 6    | [Authentication](./authentication/schedule.md)             |
-| 7    | [REST APIs](./rest-apis/schedule.md)                       |
-| 8    | [Full-Stack App](./fullstack-app/schedule.md)              |
-| 9    | [React](./react/schedule.md)                               |
+| Week | Topic                                                                                                              |
+| ---- | ------------------------------------------------------------------------------------------------------------------ |
+| 1    | [Teamwork and Toolkit](https://founders-and-coders.gitbook.io/coursebook/curriculum/teamwork-and-toolkit/schedule) |
+| 2    | [HTTP](https://founders-and-coders.gitbook.io/coursebook/curriculum/http/schedule)                                 |
+| 3    | [Testing](https://founders-and-coders.gitbook.io/coursebook/curriculum/testing/schedule)                           |
+| 4    | [Node](https://founders-and-coders.gitbook.io/coursebook/curriculum/node/schedule)                                 |
+| 5    | [Databases](https://founders-and-coders.gitbook.io/coursebook/curriculum/databases/schedule)                       |
+| 6    | [Authentication](https://founders-and-coders.gitbook.io/coursebook/curriculum/authentication/schedule)             |
+| 7    | [REST APIs](https://founders-and-coders.gitbook.io/coursebook/curriculum/rest-apis/schedule)                       |
+| 8    | [Full-Stack App](https://founders-and-coders.gitbook.io/coursebook/curriculum/fullstack-app/schedule)              |
+| 9    | [React](https://founders-and-coders.gitbook.io/coursebook/curriculum/react/schedule)                               |
 
 ## Default Schedule
 
