@@ -80,7 +80,7 @@
 
 ### One Day Projects
 
-- [Running a one day project](handbook/one-day-projects.md)
+- [Running a one day project](projects/one-day-projects.md)
 
 ## Precourse
 
