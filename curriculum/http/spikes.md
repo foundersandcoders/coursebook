@@ -47,9 +47,9 @@ How can we find out _why_ our page doesn't look right?
 - [Simulate Mobile Devices with Device Mode in Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/device-mode/)
 - [A Guide To New And Experimental CSS DevTools In Firefox](https://www.smashingmagazine.com/2019/10/guide-new-experimental-css-devtools-firefox/)
 
-## Async JavaScript
+## Asynchronous JavaScript
 
-How does JS handle asynchronous code?
+How does JS handle asynchronous code? (Note: this does **not** refer to [async functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)).
 
 ### Questions to consider
 
