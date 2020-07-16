@@ -52,7 +52,7 @@ The timetable can differ from week to week. See each week's schedule for details
 | ------- | ----------------------- | ------------------------------------------- |
 | 09:45   | Mentors intro           | Mentors introduce themselves                |
 | 09:50   | Check-in                |                                             |
-| 10:00   | Feedback on last week   | Reflect on last week's schedule             |
+| 10:00   | Feedback on last week   | Airtable online survey                      |
 | 10:05   | Intro presentation      | Mentors present on this week's topic        |
 | 10:20   | Intro workshop          | Short introductory workshop                 |
 | 11:00   | Workshop                | The first of four 2-hour workshops          |
