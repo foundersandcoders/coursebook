@@ -27,8 +27,7 @@ How can we send and receive test network requests while working on an applicatio
 ### Useful resources
 
 - [Inspect Network Activity In Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/network/)
-- [Sending requests with Postman](https://learning.postman.com/docs/postman/launching-postman/sending-the-first-request/)
-- [cURL tutorial](https://www.booleanworld.com/curl-command-tutorial-examples/)
+- [Getting started with Insomnia](https://support.insomnia.rest/article/11-getting-started)
 
 ## Debugging HTML & CSS
 
