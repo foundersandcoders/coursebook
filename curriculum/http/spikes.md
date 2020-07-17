@@ -49,11 +49,11 @@ How can we find out _why_ our page doesn't look right?
 
 ## Asynchronous JavaScript
 
-How does JS handle asynchronous code? (Note: this does **not** refer to [async functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)).
+How does JS handle asynchronous code?
 
 ### Questions to consider
 
-1. What do we mean by "asynchronous code"? What is "blocking code"?
+1. What's the difference between "synchronous" and "asynchronous" code? Why might synchronous code be called "blocking"?
 1. What are the event loop and the call stack?
 1. How do callbacks and promises help us?
 
