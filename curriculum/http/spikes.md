@@ -27,8 +27,7 @@ How can we send and receive test network requests while working on an applicatio
 ### Useful resources
 
 - [Inspect Network Activity In Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/network/)
-- [Sending requests with Postman](https://learning.postman.com/docs/postman/launching-postman/sending-the-first-request/)
-- [cURL tutorial](https://www.booleanworld.com/curl-command-tutorial-examples/)
+- [Getting started with Insomnia](https://support.insomnia.rest/article/11-getting-started)
 
 ## Debugging HTML & CSS
 
@@ -47,13 +46,13 @@ How can we find out _why_ our page doesn't look right?
 - [Simulate Mobile Devices with Device Mode in Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/device-mode/)
 - [A Guide To New And Experimental CSS DevTools In Firefox](https://www.smashingmagazine.com/2019/10/guide-new-experimental-css-devtools-firefox/)
 
-## Async JavaScript
+## Asynchronous JavaScript
 
 How does JS handle asynchronous code?
 
 ### Questions to consider
 
-1. What do we mean by "asynchronous code"? What is "blocking code"?
+1. What's the difference between "synchronous" and "asynchronous" code? Why might synchronous code be called "blocking"?
 1. What are the event loop and the call stack?
 1. How do callbacks and promises help us?
 
