@@ -48,32 +48,35 @@ The timetable can differ from week to week. See each week's schedule for details
 
 ### Day 1
 
-| Time    | Activity           | Description                                 |
-| ------- | ------------------ | ------------------------------------------- |
-| 09:45   | Check-in           |                                             |
-| 10:00   | Mentor intro       | Mentors introduce themselves                |
-| 10:05   | Intro Presentation | Mentors present on this week's topic        |
-| 10:20   | Intro Workshop     | Short introductory workshop                 |
-| 11:00   | Workshop           | The first of four 2-hour workshops          |
-| _13:00_ | _Lunch_            |                                             |
-| 14:00   | Workshop           |                                             |
-| 16:00   | Project intro      | Introduce the project and learning outcomes |
-| 16:15   | Technical Spike    | Research a relevant topic                   |
-| 17:50   | Check-out          |                                             |
-| _18:00_ | _Finish_           |                                             |
+| Time    | Activity                | Description                                 |
+| ------- | ----------------------- | ------------------------------------------- |
+| 09:45   | Mentors intro           | Mentors introduce themselves                |
+| 09:50   | Check-in                |                                             |
+| 10:00   | Feedback on last week   | Airtable online survey                      |
+| 10:05   | Intro presentation      | Mentors present on this week's topic        |
+| 10:20   | Intro workshop          | Short introductory workshop                 |
+| 11:00   | Workshop                | The first of four 2-hour workshops          |
+| _13:00_ | _Lunch_                 |                                             |
+| 14:00   | Workshop                |                                             |
+| 16:00   | Project and spike intro | Introduce the project and learning outcomes |
+| 16:15   | Technical spike         | Research a relevant topic                   |
+| 17:15   | Presentation prep       | Prepare spike presentation                  |
+| 17:45   | Check-out               |                                             |
+| _18:00_ | _Finish_                |                                             |
 
 ### Day 2
 
 | Time    | Activity            | Description                                             |
 | ------- | ------------------- | ------------------------------------------------------- |
 | 09:45   | Check-in            |                                                         |
-| 10:00   | Spike Presentations |                                                         |
+| 10:00   | Presentation prep   |                                                         |
+| 10:10   | Spike presentations |                                                         |
 | 11:00   | Workshop            |                                                         |
 | _13:00_ | _Lunch_             |                                                         |
 | 14:00   | Workshop            |                                                         |
 | 16:00   | Tech for Better     |                                                         |
 | 17:00   | Speaker             | A technical talk from an employment partner or FAC alum |
-| 17:50   | Check-out           |                                                         |
+| 17:45   | Check-out           |                                                         |
 | _18:00_ | _Finish_            |                                                         |
 
 ### Day 3
@@ -85,9 +88,9 @@ The timetable can differ from week to week. See each week's schedule for details
 | 11:00   | Project              |                                                                 |
 | _13:00_ | _Lunch_              |                                                                 |
 | 14:00   | Project              | Discussions held with potential Tech for Better partners        |
-| 15:30   | Employment prep      | Portfolio, CV, media presence and interview prep                |
+| 15:30   | Employment prep      | Portfolio, CV, media presence and interview prep (weeks 5+)     |
 | 16:30   | Community engagement |                                                                 |
-| 17:50   | Check-out            |                                                                 |
+| 17:45   | Check-out            |                                                                 |
 | _18:00_ | _Finish_             |                                                                 |
 
 ### Day 4
@@ -98,7 +101,7 @@ The timetable can differ from week to week. See each week's schedule for details
 | 10:00   | Project   |             |
 | _13:00_ | _Lunch_   |             |
 | 14:00   | Project   |             |
-| 17:50   | Check-out |             |
+| 17:45   | Check-out |             |
 | _18:00_ | _Finish_  |             |
 
 ### Day 5
@@ -108,12 +111,12 @@ The timetable can differ from week to week. See each week's schedule for details
 | 09:45   | Check-in            |                                                                      |
 | 10:00   | Code Review         | Review another team's project code                                   |
 | 11:00   | Respond to issues   | Refactor your project based upon the feedback you got in code review |
-| 12:15   | Presentation Prep   |                                                                      |
+| 12:15   | Presentation prep   |                                                                      |
 | _13:00_ | _Lunch_             |                                                                      |
 | 14:00   | Presentations       | Present your project from this week                                  |
-| 15:30   | Stop, Go, Continue  | Cohort retrospective                                                 |
-| 16:15   | Team retrospectives | SGC and update user manuals                                          |
-| 16:45   | Curriculum feedback | Online survey                                                        |
+| 15:15   | Stop, Go, Continue  | Cohort retrospective                                                 |
+| 16:00   | Team SGCs           | Project team retrospectives                                          |
+| 16:45   | Update user manuals |                                                                      |
 | 17:00   | Speaker             | A talk from an employment partner or FAC alum                        |
-| 17:50   | Check-out           |                                                                      |
+| 17:45   | Check-out           |                                                                      |
 | _18:00_ | _Finish_            |                                                                      |
