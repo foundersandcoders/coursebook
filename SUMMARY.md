@@ -15,45 +15,54 @@
   - [Schedule](curriculum/teamwork-and-toolkit/schedule.md)
   - [Spikes](curriculum/teamwork-and-toolkit/spikes.md)
   - [Project](curriculum/teamwork-and-toolkit/project.md)
+  - [Resources](curriculum/teamwork-and-toolkit/resources.md)
 - HTTP
   - [Learning Outcomes](curriculum/http/learning-outcomes.md)
   - [Schedule](curriculum/http/schedule.md)
   - [Spikes](curriculum/http/spikes.md)
   - [Project](curriculum/http/project.md)
+  - [Resources](curriculum/http/resources.md)
 - Testing
   - [Learning Outcomes](curriculum/testing/learning-outcomes.md)
   - [Schedule](curriculum/testing/schedule.md)
   - [Spikes](curriculum/testing/spikes.md)
   - [Project](curriculum/testing/project.md)
+  - [Resources](curriculum/testing/resources.md)
 - Node
   - [Learning Outcomes](curriculum/node/learning-outcomes.md)
   - [Schedule](curriculum/node/schedule.md)
   - [Spikes](curriculum/node/spikes.md)
   - [Project](curriculum/node/project.md)
+  - [Resources](curriculum/node/resources.md)
 - Databases
   - [Learning Outcomes](curriculum/databases/learning-outcomes.md)
   - [Schedule](curriculum/databases/schedule.md)
   - [Spikes](curriculum/databases/spikes.md)
   - [Project](curriculum/databases/project.md)
+  - [Resources](curriculum/databases/resources.md)
 - Authentication
   - [Learning Outcomes](curriculum/authentication/learning-outcomes.md)
   - [Schedule](curriculum/authentication/schedule.md)
   - [Spikes](curriculum/authentication/spikes.md)
   - [Project](curriculum/authentication/project.md)
+  - [Resources](curriculum/authentication/resources.md)
 - REST APIs
   - [Learning Outcomes](curriculum/rest-apis/learning-outcomes.md)
   - [Schedule](curriculum/rest-apis/schedule.md)
   - [Spikes](curriculum/rest-apis/spikes.md)
   - [Project](curriculum/rest-apis/project.md)
+  - [Resources](curriculum/rest-apis/resources.md)
 - Fullstack App
   - [Learning Outcomes](curriculum/fullstack-app/learning-outcomes.md)
   - [Schedule](curriculum/fullstack-app/schedule.md)
   - [Spikes](curriculum/fullstack-app/spikes.md)
   - [Project](curriculum/fullstack-app/project.md)
+  - [Resources](curriculum/fullstack-app/resources.md)
 - React
   - [Learning Outcomes](curriculum/react/learning-outcomes.md)
   - [Schedule](curriculum/react/schedule.md)
   - [Project](curriculum/react/project.md)
+  - [Resources](curriculum/react/resources.md)
 
 ## Projects
 
