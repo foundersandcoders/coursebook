@@ -4,11 +4,11 @@ Each week, you will be split into teams of 4 by your mentors. These teams will b
 
 The teams stay together for the following weeks:
 
-- First team = weeks 1&2
-- Second team = weeks 3&4
-- Third team = week 5
-- Fourth team = weeks 6&7
-- Fifth team = week 8
+- First team = week 1
+- Second team = weeks 2&3
+- Third team = week 4
+- Fourth team = weeks 5&6
+- Fifth team = week 7&8
 
 Your teams are posted on the wall by the door or can be found in your cohort's London Programme folder. Have a chat with your team when it first forms, and come up with a team name.
 
@@ -36,7 +36,7 @@ Aside from these repositories, the organisation is yours and you are free to add
 Your timetable includes 45 mins for your team to write your presentation and discuss how you are going to present your project together.
 **Remember: We want to hear from everyone during your presentation!**
 
-Each team then has 15 minutes to present, with 5 additional minutes for questions. We will be strict with you on timing, so make sure you use your time effectively.
+Each team then has 12 minutes to present, with 5 additional minutes for questions. We will be strict with you on timing, so make sure you use your time effectively.
 
 ### Structure
 

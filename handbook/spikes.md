@@ -1,6 +1,6 @@
 # Research presentation guidance
 
-Time spent researching might seem like it should be the priority, but if the presentation of your material is half-baked then it'll difficult for the rest of the cohort to follow! In this context, **your research is only as good as your presentation**. :sun_with_face:
+Time spent researching might seem like it should be the priority, but if the presentation of your material is half-baked then it'll difficult for the rest of the cohort to follow! In this context, **your research is only as good as your presentation**. :sun_with_face: You will have 8 minutes to present and 4 for fielding questions.
 
 ## How to do good research
 
@@ -70,7 +70,7 @@ First of all, it's completely normal to find public speaking and giving presenta
 
 ## :crown: Research presentation Hall of Fame
 
-### [FAC16: Asynchronous JS](https://github.com/FAC-Sixteen/research/blob/master/week2/Asynchronous%20JS.md)
+### [FAC19: Debugging network requests](https://github.com/fac19/research/blob/master/week2/Debugging-network-requests.md)
 
 Why it's so good:
 
@@ -78,4 +78,4 @@ Why it's so good:
 - Short bullet points
 - Audience interaction
 - Useful links and resources
-- Gifs everywhere
+- GIFs everywhere
