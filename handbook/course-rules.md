@@ -20,6 +20,14 @@ Try to sit at a different desk each day. You'll usually be pairing with the pers
 
 Struggle is good, but not too much of it. It's important to get used to not knowing how to do something, and to practice finding out for yourself (e.g. figuring it out with your pair or googling). If you cannot solve a problem within 20 minutes, then stop and ask a mentor for help.
 
+## Extracurricular learning
+
+Your course facilitator can connect anyone interested in revising together, based on specific material you would like to cover from any of the curriculum so far.
+
+It's worth emphasising that there is no expectation to take on this extra work in your free time. Whilst there is clearly a benefit to revising on your own or with others, the course has been designed so that at the end of four months you will be an employable software developer. Founders and Coders has a very high success rate in this regard. This truly is possible working only during class time.
+
+Please be kind to yourselves and prioritise your mental and physical health and well-being. You have a strong support network of mentors and FAC staff who you can lean on anytime for support.
+
 ## No frameworks
 
 For the first 8 weeks of the course, we stick to vanilla JavaScript. That means no frontend frameworks like Bootstrap, jQuery and friends. We want you to build your fundamental skills before learning higher-level abstractions.
