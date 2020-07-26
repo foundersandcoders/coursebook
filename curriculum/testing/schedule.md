@@ -5,7 +5,7 @@
 | Time    | Activity                                                | Learning outcomes   |
 | ------- | ------------------------------------------------------- | ------------------- |
 | 09:45   | Check-in                                                |                     |
-| 10:00   | [Feedback survey][survey]                               |                     |
+| 10:00   | [Feedback survey][survey-5]                               |                     |
 | 10:05   | [Intro presentation][testing-intro-25]                  |                     |
 | 10:30   | [Build a testing library][testing-lib-60]               | Testing             |
 | 11:30   | [Unit testing workshop][unit-testing-90]                | Unit testing        |
@@ -16,7 +16,7 @@
 | 17:15   | Spike presentation prep                                 |                     |
 | 17:45   | Checkout                                                |                     |
 
-[survey]: https://airtable.com/shrIKQyPpx4vSUNzC
+[survey-5]: https://airtable.com/shrIKQyPpx4vSUNzC
 [testing-intro-25]: https://hackmd.io/@oli/Sy7cA4TXI
 [testing-lib-60]: https://github.com/oliverjam/learn-testing/
 [unit-testing-90]: https://github.com/oliverjam/learn-unit-testing
