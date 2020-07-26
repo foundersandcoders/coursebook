@@ -17,7 +17,7 @@
 | 17:45   | Checkout                                                |                     |
 
 [survey-5]: https://airtable.com/shrIKQyPpx4vSUNzC
-[testing-intro-25]: https://hackmd.io/@oli/Sy7cA4TXI
+[testing-intro-25]: https://hackmd.io/aDxkr45wTaaDj-ciJSMa4Q
 [testing-lib-60]: https://github.com/oliverjam/learn-testing/
 [unit-testing-90]: https://github.com/oliverjam/learn-unit-testing
 [integration-testing-120]: https://github.com/oliverjam/learn-integration-testing
