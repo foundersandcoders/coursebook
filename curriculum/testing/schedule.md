@@ -36,7 +36,7 @@
 | _13:00_ | _Lunch_                               |                                        |
 | 14:00   | [Design burst: grids][db-grid-slides-30] | Grid layout, CSS Grid               |
 | 14:30   | [CSS Grid workshop][db-grid-ws-30]       | Grid layout, CSS Grid               |
-| 15:00   | Tech for Better - meet POs            |                                        |
+| 15:00   | Tech for Better - meet FAC19 POs      |                                        |
 | 16:00   | Tech for Better                       |                                        |
 | 17:00   | Speaker                               |                                        |
 | 17:45   | Checkout                              |                                        |
