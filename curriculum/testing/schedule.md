@@ -2,51 +2,60 @@
 
 ## Day 1
 
-| Time    | Activity                                            | Learning outcomes   |
-| ------- | --------------------------------------------------- | ------------------- |
-| 09:45   | Check-in                                            |                     |
-| 10:00   | [Intro presentation][testing-intro]                 |                     |
-| 10:30   | [Build a testing library][testing-lib]              | Testing             |
-| 11:30   | [Unit testing workshop][unit-testing]               | Unit testing        |
-| _13:00_ | _Lunch_                                             |                     |
-| 14:00   | [Integration testing workshop][integration-testing] | Integration testing |
-| 16:00   | Tech for Better                                     |                     |
+| Time    | Activity                                                | Learning outcomes   |
+| ------- | ------------------------------------------------------- | ------------------- |
+| 09:45   | Check-in                                                |                     |
+| 10:00   | [Feedback survey][survey-5]                               |                     |
+| 10:05   | [Intro presentation][testing-intro-25]                  |                     |
+| 10:30   | [Build a testing library][testing-lib-60]               | Testing             |
+| 11:30   | [Unit testing workshop][unit-testing-90]                | Unit testing        |
+| _13:00_ | _Lunch_                                                 |                     |
+| 14:00   | [Integration testing workshop][integration-testing-120] | Integration testing |
+| 16:00   | [Project][project-5] and [spikes][spikes-10] intro      |                     |
+| 16:15   | [Technical spikes][spikes-10]                           |                     |
+| 17:15   | Spike presentation prep                                 |                     |
+| 17:45   | Checkout                                                |                     |
 
-[testing-intro]: https://hackmd.io/@oli/Sy7cA4TXI
-[testing-lib]: https://github.com/oliverjam/learn-testing/
-[unit-testing]: https://github.com/oliverjam/learn-unit-testing
-[integration-testing]: https://github.com/oliverjam/learn-integration-testing
+[survey-5]: https://airtable.com/shrIKQyPpx4vSUNzC
+[testing-intro-25]: https://hackmd.io/aDxkr45wTaaDj-ciJSMa4Q
+[testing-lib-60]: https://github.com/oliverjam/learn-testing/
+[unit-testing-90]: https://github.com/oliverjam/learn-unit-testing
+[integration-testing-120]: https://github.com/oliverjam/learn-integration-testing
+[project-5]: https://founders-and-coders.gitbook.io/coursebook/curriculum/testing/project
+[spikes-10]: https://founders-and-coders.gitbook.io/coursebook/curriculum/testing/spikes
+
 
 ## Day 2
 
 | Time    | Activity                              | Learning outcomes                      |
 | ------- | ------------------------------------- | -------------------------------------- |
 | 09:45   | Check-in                              |                                        |
-| 10:00   | [Design burst: grids][db-grid-slides] | Grid layout, CSS Grid                  |
-| 10:30   | [CSS Grid workshop][db-grid-ws]       | Grid layout, CSS Grid                  |
-| 11:00   | [TDD array methods][tdd-arrays]       | Test-Driven-Development, array methods |
+| 10:00   | Spike presentation prep                            |                                                        |
+| 10:10   | Spike presentations                                |                                                        |
+| 11:00   | [TDD array methods][tdd-arrays-120]       | Test-Driven-Development, array methods |
 | _13:00_ | _Lunch_                               |                                        |
-| 14:00   | Project intro                         |                                        |
-| 14:30   | Technical spikes                      |                                        |
-| 16:30   | Spike presentation prep               |                                        |
-| 17:00   | Spike presentations                   |                                        |
+| 14:00   | [Design burst: grids][db-grid-slides-30] | Grid layout, CSS Grid                  |
+| 14:30   | [CSS Grid workshop][db-grid-ws-30]       | Grid layout, CSS Grid                  |
+| 15:00   | Tech for Better                       |                                        |
+| 17:00   | Speaker                   |                                        |
+| 17:45   | Checkout                   |                                        |
 
-[db-grid-slides]: https://hackmd.io/@fac/S1-95B9r8#/
-[db-grid-ws]: https://github.com/bobbysebolao/learn-css-grid
-[tdd-arrays]: https://github.com/oliverjam/tdd-array-methods
+[tdd-arrays-120]: https://github.com/oliverjam/tdd-array-methods
+[db-grid-slides-30]: https://hackmd.io/@fac/S1-95B9r8#/
+[db-grid-ws-30]: https://github.com/bobbysebolao/learn-css-grid
 
 ## Day 3
 
-| Time    | Activity                    | Learning outcomes |
-| ------- | --------------------------- | ----------------- |
-| 09:45   | Check-in                    |                   |
-| 10:00   | [Scope challenge][scope-mc] | Scope, closures   |
-| 11:00   | Project                     |                   |
-| _13:00_ | _Lunch_                     |                   |
-| 14:00   | Project                     |                   |
-| 17:00   | Speaker                     |                   |
+| Time    | Activity                       | Learning outcomes |
+| ------- | ------------------------------ | ----------------- |
+| 09:45   | Check-in                       |                   |
+| 10:00   | [Scope challenge][scope-mc-60] | Scope, closures   |
+| 11:00   | Project                        |                   |
+| _13:00_ | _Lunch_                        |                   |
+| 14:00   | Project                        |                   |
+| 17:45   | Checkout                       |                   |
 
-[scope-mc]: https://github.com/oliverjam/js-scope-challenge
+[scope-mc-60]: https://github.com/oliverjam/js-scope-challenge
 
 ## Day 4
 
@@ -56,6 +65,7 @@
 | 10:00   | Project  |
 | _13:00_ | _Lunch_  |
 | 14:00   | Project  |
+| 17:45   | Checkout |
 
 ## Day 5
 
@@ -67,6 +77,8 @@
 | 12:15 | Presentation prep   |
 | 13:00 | _Lunch_             |
 | 14:00 | Presentations       |
-| 16:00 | Stop Go Continues   |
-| 16:45 | Update user Manuals |
+| 15:15 | Cohort SGC          |
+| 16:00 | Team SGCs           |
+| 16:45 | Update user manuals |
 | 17:00 | Speaker             |
+| 17:45 | Checkout            |
