@@ -31,7 +31,7 @@ Please read these notes and check with the course facilitator before your week s
 - Don't say no when you think they are not doing something right - and be open to the fact that their way could also be right. Be gentle, approach it in a thoughtful way. You can try asking them to explain the steps that they're taking. If you give them the answer, you're taking away an opportunity for them to learn.
 - Work collaboratively with the cohort. If you have two or more people, you should work with all of them. Don't focus all your attention on one of them. Encourage those who have figured it out first to then show this to the others.
 
-Note: People may be frustrated with you, especially at the beginning of the course, because they expect teachers to provide answers. 
+Note: People may be frustrated with you, especially at the beginning of the course, because they may assume you are here as a teacher that can always provide answers. You can clarify that your role as mentor is to work through problems together.
 
 ## Timings
 You are ultimately responsible for timings, which will be up to date in the course schedule before your week. As Zoom host, you can broadcast messages (e.g. “Rooms closing in 60 seconds”), and close rooms - which starts the 60 second timer. The clearer and sharper you are with timings, the happier everyone will be. Please try not to compromise timings during the week, e.g. shortening SGCs, since each part is important for different reasons.
