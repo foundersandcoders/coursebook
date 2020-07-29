@@ -18,20 +18,20 @@ Please read these notes and check with the course facilitator before your week s
 - This is their classroom (Zoom, their Slack channel, Space4). Please be respectful of their space and time.
 - Making offhand announcements like “it’s going to get a lot tougher” or “this will be super easy in a few weeks” builds unnecessary expectations based on your own experience. Do your best to frame it as your experience, and only when asked directly about it.
 - Avoid saying "you'll learn that later" or "this will be useless once you learn x". And avoid offering negative opinions about any material covered during your week - your job is to present the curriculum and allow them to come to their own conclusions.
-- When a student brings you a problem, ask questions before giving an answer. It's better if you can empower students to find that answer within themselves rather than giving it to them.
+- When someone brings you a problem, ask questions before giving an answer. It's better if you can empower them to find that answer within themselves rather than giving it to them.
   - Have you asked the other members of your team?
-  - Have you asked other students outside of your team? [If you know a team that has worked through the same problem, point them to that team]
+  - Have you asked anyone from other teams? [If you know a team that has worked through the same problem, point them to that team]
   - What did you google for?
 - Respond positively to questions. Asking questions is scary, so help people to feel comfortable and try to encourage that behaviour.
-- The student should always be in control of the keyboard and mouse (don’t type for them). Very occassionally, you might need to write something (e.g. pseudo code). Avoid temptation by using a notepad / Zoom chat.
+- They should always be in control of the keyboard and mouse (don’t type for them). Very occassionally, you might need to write something (e.g. pseudo code). Avoid temptation by using a notepad / Zoom chat.
 - Draw things out! Keep a notepad and pen with you and prepare yourself to draw out the problems/solutions to visually aid your explanations.
-- If you don’t know the answer that is completely okay! The best thing to do is find out the answer with the student. Google it and then you can both learn something new. Ideally this also signals to the person you are mentoring that it is okay not to know something.
-- Help break big problems down into small ones, especially if a student seems like they're feeling overwhelmed. They need to be shown they can figure it out on their own, you are just there to guide them. Write down the steps & encourage them just to focus on one step at a time.
+- If you don’t know the answer that is completely okay! Be honest about not knowing. The best thing to do is find out the answer with the other person. Google it and then you can both learn something new. Ideally this also signals to the person you are mentoring that it is okay not to know something.
+- Help break big problems down into small ones, especially if they seem like they're feeling overwhelmed. They need to be shown they can figure it out on their own, you are just there to guide them. Write down the steps & encourage them just to focus on one step at a time.
 - Let them stumble. We learn by making mistakes, getting frustrated, and working through problem in our own way. Be supportive, and encourage them to explore.
-- Don't say no when the students are not doing something right - also be open to the fact that their way could also be right. Be gentle, approach it in a thoughtful way. You can try asking them to explain the steps that they're taking. If you give them the answer, you're taking away an opportunity for them to learn.
-- Work collaboratively with your students. If you have two or more students, you should work with all of them. Don't focus all your attention on one of them. Encourage those who have figured it out first to then show this to the others.
+- Don't say no when you think they are not doing something right - and be open to the fact that their way could also be right. Be gentle, approach it in a thoughtful way. You can try asking them to explain the steps that they're taking. If you give them the answer, you're taking away an opportunity for them to learn.
+- Work collaboratively with the cohort. If you have two or more people, you should work with all of them. Don't focus all your attention on one of them. Encourage those who have figured it out first to then show this to the others.
 
-Note: Students may be frustrated with you, especially at the beginning of the course, because they expect teachers to provide answers.
+Note: People may be frustrated with you, especially at the beginning of the course, because they expect teachers to provide answers. 
 
 ## Timings
 You are ultimately responsible for timings, which will be up to date in the course schedule before your week. As Zoom host, you can broadcast messages (e.g. “Rooms closing in 60 seconds”), and close rooms - which starts the 60 second timer. The clearer and sharper you are with timings, the happier everyone will be. Please try not to compromise timings during the week, e.g. shortening SGCs, since each part is important for different reasons.
