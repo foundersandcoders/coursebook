@@ -11,8 +11,8 @@ Please read these notes and check with the course facilitator before your week s
 - Decide who will lead which bits of your week - your presentations, project & spike intro, design burst and workshops.
 - Read your week's workshops and solutions, as well as learning objectives.
 - Check in with the course facilitator for anything, before, during or after your week.
-- Have a look at the cohort's most recent projects, read their most recent SGC in `fac#` > `cohort` > `retrospective` > `week-x.md`.
-- Read their cohort expectations at `fac#` > `cohort` > `expectations.md`.
+- Have a look at the cohort's most recent projects, read their most recent SGC in `GitHub` > `fac#` > `cohort` > `retrospective` > `week-x.md`.
+- Read their cohort expectations at `GitHub` > `fac#` > `cohort` > `expectations.md`.
 
 ## Being a good mentor
 - This is their classroom (Zoom, their Slack channel, Space4). Please be respectful of their space and time.
