@@ -48,7 +48,7 @@
 | ------- | ------------------------- | ------------------------ |
 | 09:45   | Check-in                  |                          |
 | 10:00   | [Node fetch MC][fetch-mc] | Network requests in Node |
-| 11:00   | Project                   |                          |
+| 11:00   | [Project][project]        |                          |
 | 12:45   | Role check ins            |                          |
 | _13:00_ | _Lunch_                   |                          |
 | 14:00   | Project                   |                          |
@@ -56,6 +56,7 @@
 | 17:45   | Check out                 |                          |
 
 [fetch-mc]: https://github.com/foundersandcoders/mc-request-module-workshop
+[project]: https://founders-and-coders.gitbook.io/coursebook/curriculum/node/project
 
 ## Day 4
 
