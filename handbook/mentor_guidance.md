@@ -19,6 +19,7 @@ Please read these notes and check with the course facilitator before your week s
 - Making offhand announcements like “it’s going to get a lot tougher” or “this will be super easy in a few weeks” builds unnecessary expectations based on your own experience. Do your best to frame it as your experience, and only when asked directly about it.
 - Avoid saying "you'll learn that later" or "this will be useless once you learn x". And avoid offering negative opinions about any material covered during your week - your job is to present the curriculum and allow them to come to their own conclusions.
 - When someone brings you a problem, ask questions before giving an answer. It's better if you can empower them to find that answer within themselves rather than giving it to them.
+  - Consider asking them to take a step back and explain *why* they are trying to do a certain thing (rather than *how*). This will ensure they're focussing on the problem and not their solution.
   - Have you asked the other members of your team?
   - Have you asked anyone from other teams? [If you know a team that has worked through the same problem, point them to that team]
   - What did you google for?
