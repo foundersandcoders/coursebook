@@ -44,7 +44,7 @@ How does Node handle lots of requests despite running on a single processor thre
 
 ### Useful resources
 
-- [The Node.js Event Loop](https://nodejs.dev/the-nodejs-event-loop)
+- [The Node.js Event Loop](https://blog.logrocket.com/a-complete-guide-to-the-node-js-event-loop/)
 - [What are callbacks?](https://nodejs.org/en/knowledge/getting-started/control-flow/what-are-callbacks/)
 - [What are the error conventions?](https://nodejs.org/en/knowledge/errors/what-are-the-error-conventions/)
 
@@ -60,6 +60,6 @@ How can we use modules in our Node apps?
 
 ### Useful resources
 
-- [Expose functionality from a Node.js file using exports](https://nodejs.dev/expose-functionality-from-a-nodejs-file-using-exports)
-- [The package.json guide](https://nodejs.dev/the-package-json-guide)
-- [How to use or execute a package installed using npm](https://nodejs.dev/how-to-use-or-execute-a-package-installed-using-npm)
+- [Expose functionality from a Node.js file using exports](https://flaviocopes.com/node-export-module/)
+- [The package.json guide](https://flaviocopes.com/package-json/)
+- [How to use or execute a package installed using npm](https://flaviocopes.com/how-to-use-npm-package/)
