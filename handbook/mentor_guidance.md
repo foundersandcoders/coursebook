@@ -27,7 +27,7 @@ Please read these notes and check with the course facilitator before your week s
 - Draw things out! Keep a notepad and pen with you and prepare yourself to draw out the problems/solutions to visually aid your explanations.
 - If you don’t know the answer that is completely okay! Be honest about not knowing. The best thing to do is find out the answer with the other person. Google it and then you can both learn something new. Ideally this also signals to the person you are mentoring that it is okay not to know something.
 - Help break big problems down into small ones, especially if they seem like they're feeling overwhelmed. They need to be shown they can figure it out on their own, you are just there to guide them. Write down the steps & encourage them just to focus on one step at a time.
-- Let them stumble. We learn by making mistakes, getting frustrated, and working through problem in our own way. Be supportive, and encourage them to explore.
+- Let them stumble. We learn by making mistakes, getting frustrated, and working through a problem in our own way. Be supportive, and encourage them to explore.
 - Don't say no when you think they are not doing something right - and be open to the fact that their way could also be right. Be gentle, approach it in a thoughtful way. You can try asking them to explain the steps that they're taking. If you give them the answer, you're taking away an opportunity for them to learn.
 - Work collaboratively with the cohort. If you have two or more people, you should work with all of them. Don't focus all your attention on one of them. Encourage those who have figured it out first to then show this to the others.
 
