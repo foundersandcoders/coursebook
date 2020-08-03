@@ -30,7 +30,6 @@ Since your app will be unique you will need to create your own user stories for 
 - A clearly defined user journey, documented in your readme
 - A responsive, mobile-first design
 - Ensure your app is accessible to as many different users as possible
-- Try not to push API keys up to GitHub (since anyone can see them there)
 
 ## Planning
 
@@ -39,6 +38,12 @@ During the planning phase we suggest you spend time on:
 - Exploring APIs you are interested in working with
 - Considering your user journey
 - Deciding what you need to build for your Minimum Viable Product (MVP) and splitting up the tasks
+
+### API keys
+
+Some APIs require a key or token so they can identify who is making a request. This allows them to block people who abuse the API (or charge people if it's not a free service).
+
+Usually you want to avoid including this API key in your client-side code, since anyone can see it using the browser developer tools. However this requires having your own server, which we're learning next week, so for now try to either use APIs that don't require a token, or free APIs so it doesn't matter too much if someone steals your token.
 
 ### Choosing your APIs
 
