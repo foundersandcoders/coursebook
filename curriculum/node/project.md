@@ -18,7 +18,8 @@ Your project this week is to build a microblogging site. It should allow users t
 ### Acceptance Criteria
 
 - A page with a form to submit posts, and a page showing all posts
-- No client-side JavaScript
+- No `.html` files (all HTML responses should be created dynamically within Node)
+- No client-side JavaScript (all logic should happen on the server)
 - All static assets served correctly (CSS, favicon etc)
 - Tests for each server route
 - A responsive, mobile-first design
