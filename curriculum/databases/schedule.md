@@ -7,8 +7,7 @@
 | 09:45   | Check-in                                       |                   |
 | 10:00   | [Feedback survey][feedback-10]                 |                   |
 | 10:10   | [Intro presentation][intro-slides-20]          |                   |
-| 10:30   | [PostgreSQL installation][postgres-install-30] |                   |
-| 11:00   | [SQL commands][sql-intro-120]                  | PSQL, SQL queries |
+| 10:30   | [SQL commands][sql-intro-150]                  | PSQL, SQL queries |
 | _13:00_ | _Lunch_                                        |                   |
 | 14:00   | [PostgreSQL with Node][postgres-node-120]      | `node-postgres`   |
 | 16:00   | [Project][project-5] and [spikes][spikes-10] intro  |              |
@@ -18,8 +17,7 @@
 
 [feedback-10]: https://airtable.com/shrIKQyPpx4vSUNzC
 [intro-slides-20]: https://docs.google.com/presentation/d/14LXEKmHM6xqjTvPLyKw0trtprGeNkD0VLgWkE8Z2ouo/edit#slide=id.g4dfce81f19_0_45
-[postgres-install-30]: https://github.com/macintoshhelper/learn-sql/blob/master/postgresql/setup.md
-[sql-intro-120]: https://github.com/foundersandcoders/sql-commands-intro/
+[sql-intro-150]: https://github.com/foundersandcoders/sql-commands-intro/
 [postgres-node-120]: https://github.com/oliverjam/learn-node-postgres
 [project-5]: https://founders-and-coders.gitbook.io/coursebook/curriculum/databases/project
 [spikes-10]: https://founders-and-coders.gitbook.io/coursebook/curriculum/databases/spikes
