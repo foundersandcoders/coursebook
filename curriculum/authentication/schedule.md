@@ -52,7 +52,7 @@
 | 16:30   | [Employment: LinkedIn][linkedin-75]      |                     |
 | 17:45   | Check out                                |                     |
 
-[pseudo-mc-60]: https://github.com/oliverjam/promise-practice
+[promise-mc-60]: https://github.com/oliverjam/promise-practice
 [linkedin-75]: https://hackmd.io/@fac/Bku_c9zMw
 
 ## Day 4
