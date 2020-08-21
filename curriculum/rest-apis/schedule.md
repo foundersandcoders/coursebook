@@ -50,8 +50,7 @@
 | _13:00_ | _Lunch_                                 |                   |
 | 14:00   | Project                                 |                   |
 | 16:30   | [Employment: Portfolio][employment-75]  |                   |
-| 17:00   | Speaker                                 |                   |
-| 17:45   | Check out                       |                      |
+| 17:45   | Check out                               |                      |
 
 [mocking-mc-60]: https://github.com/oliverjam/http-mocking-challenge
 [employment-75]: https://hackmd.io/@fac/BJKpHm2fw
