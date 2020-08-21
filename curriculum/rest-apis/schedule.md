@@ -2,46 +2,58 @@
 
 ## Day 1
 
-| Time    | Activity                                 | Learning outcomes          |
-| ------- | ---------------------------------------- | -------------------------- |
-| 09:45   | Check-in                                 |                            |
-| 10:00   | Intro presentation                       |                            |
-| 10:30   | [Express intro][express-intro]           | Express                    |
-| 11:00   | [Learn Express][learn-express]           | Routing, Params            |
-| _13:00_ | _Lunch_                                  |                            |
-| 14:00   | [Express middleware][express-middleware] | Middleware, error-handling |
-| 16:00   | Technical spikes                         |                            |
+| Time    | Activity                                    | Learning outcomes          |
+| ------- | ------------------------------------------- | -------------------------- |
+| 09:45   | Check-in                                    |                            |
+| 10:00   | [Feedback survey][survey-10]                |                            |
+| 10:10   | [Intro presentation][intro-20]              |                            |
+| 10:30   | [Express intro][express-intro-30]           | Express                    |
+| 11:00   | [Learn Express][learn-express-120]          | Routing, Params            |
+| _13:00_ | _Lunch_                                     |                            |
+| 14:00   | [Express middleware][express-middleware-120]| Middleware, error-handling |
+| 16:00   | [Project][project-intro-5] & [spike][spike-intro-10] intro |             |
+| 16:15   | [Technical spikes][spike-intro-10]         |                             |
+| 17:45   | Check out                                  |                             |
 
-[express-intro]: https://github.com/oliverjam/express-intro
-[learn-express]: https://github.com/oliverjam/learn-express
-[express-middleware]: https://github.com/oliverjam/learn-express-middleware
+[survey-10]: https://airtable.com/shrIKQyPpx4vSUNzC
+[intro-20]: https://hackmd.io/@fac/Hkoom7hzP
+[express-intro-30]: https://github.com/oliverjam/express-intro
+[learn-express-120]: https://github.com/oliverjam/learn-express
+[express-middleware-120]: https://github.com/oliverjam/learn-express-middleware
+[project-intro-5]: https://founders-and-coders.gitbook.io/coursebook/curriculum/rest-apis/project
+[spike-intro-10]: https://founders-and-coders.gitbook.io/coursebook/curriculum/rest-apis/spikes
 
 ## Day 2
 
 | Time    | Activity                        | Learning outcomes    |
 | ------- | ------------------------------- | -------------------- |
 | 09:45   | Check-in                        |                      |
-| 10:00   | Spike presentations             |                      |
-| 11:00   | [REST APIs][rest-api]           | REST, JSON API       |
+| 10:00   | Spike presentations prep        |                      |
+| 10:10   | Spike presentations             |                      |
+| 11:00   | [REST APIs][rest-api-120]       | REST, JSON API       |
 | _13:00_ | _Lunch_                         |                      |
-| 14:00   | [REST APIs continued][rest-api] | Token authentication |
-| 15:30   | Employment prep                 |                      |
-| 16:30   | Tech for Better                 |                      |
+| 14:00   | [REST APIs continued][rest-api-120] | Token authentication |
+| 16:00   | Tech for Better                 |                      |
+| 17:00   | Speaker                         |                      |
+| 17:45   | Check out                       |                      |
 
-[rest-api]: https://github.com/oliverjam/learn-rest-apis
+[rest-api-120]: https://github.com/oliverjam/learn-rest-apis
 
 ## Day 3
 
 | Time    | Activity                                | Learning outcomes |
 | ------- | --------------------------------------- | ----------------- |
 | 09:45   | Check-in                                |                   |
-| 10:00   | [Mocking morning challenge][mocking-mc] |                   |
+| 10:00   | [Mocking morning challenge][mocking-mc-60]|                 |
 | 11:00   | Project                                 |                   |
+| 12:45   | Role circles                            |                   |
 | _13:00_ | _Lunch_                                 |                   |
 | 14:00   | Project                                 |                   |
-| 17:00   | Speaker                                 |                   |
+| 16:30   | [Employment: Portfolio][employment-75]  |                   |
+| 17:45   | Check out                               |                      |
 
-[mocking-mc]: https://github.com/oliverjam/http-mocking-challenge
+[mocking-mc-60]: https://github.com/oliverjam/http-mocking-challenge
+[employment-75]: https://hackmd.io/@fac/BJKpHm2fw
 
 ## Day 4
 
@@ -51,6 +63,8 @@
 | 10:00   | Project  |
 | _13:00_ | _Lunch_  |
 | 14:00   | Project  |
+| 17:15   | Code Q&A |
+| 17:45   | Check out|
 
 ## Day 5
 
@@ -59,9 +73,12 @@
 | 09:45 | Check-in            |
 | 10:00 | Code review         |
 | 11:00 | Respond to issues   |
+| 12:00 | Role circles        |
 | 12:15 | Presentation prep   |
 | 13:00 | _Lunch_             |
 | 14:00 | Presentations       |
-| 16:00 | Stop Go Continues   |
-| 16:45 | Update user Manuals |
+| 15:15 | Cohort retospective |
+| 16:00 | Team SGCs           |
+| 16:45 | Update user manuals |
 | 17:00 | Speaker             |
+| 17:45 | Check out           |
