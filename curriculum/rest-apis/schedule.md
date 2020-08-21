@@ -12,7 +12,7 @@
 | _13:00_ | _Lunch_                                     |                            |
 | 14:00   | [Express middleware][express-middleware-120]| Middleware, error-handling |
 | 16:00   | [Project][project-intro-5] & [spike][spike-intro-10] intro |             |
-| 16:45   | [Technical spikes][spike-intro-10]         |                             |
+| 16:15   | [Technical spikes][spike-intro-10]         |                             |
 | 17:45   | Check out                                  |                             |
 
 [survey-10]: https://airtable.com/shrIKQyPpx4vSUNzC
