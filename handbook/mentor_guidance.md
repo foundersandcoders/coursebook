@@ -63,5 +63,7 @@ You will put them in pairs for workshops according to a pre-made pairing rota at
 
 Give at least fifteen minutes at the end of each workshop for going through solutions, and you should split the pairs across two rooms - e.g. by putting all the odd break out rooms in room 1 and even breakout rooms in room 2. Please select people at random rather than ask for volunteers, answering questions, having a discussion. Please make a note of what questions are asked as we are building a FAQ for each workshop. Do your best to get one person from each pair to contribute something.
 
+Make time on Thursday to go back through each workshop from Monday to Wednesday and raise issues (or pull requests!) from your first hand feedback.
+
 ## Code reviewing
 Make sure you have finished reviewing their code before 11am on Friday. Be complimentary, keep it focused around the acceptance criteria and learning objectives for the week, of course highlighting improved ways of writing code, especially concerning topics covered in previous weeks. Ideally keep it brief and where appropriate link to resources (MDN, W3, etc). You will review two weeks: your week and the week after.
