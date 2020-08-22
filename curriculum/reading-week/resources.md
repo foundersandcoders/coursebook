@@ -1,7 +1,7 @@
 # Reading week resources
 
 ## Frontend Challenges
-These are mostly HTML/CSS. Good to brush up on creating nice looking frontend things
+These are mostly HTML/CSS. Good to brush up on how to create a nice looking frontend.
 https://piccalil.li/category/front-end%20challenges%20club/
 
 ## JavaScript 30
