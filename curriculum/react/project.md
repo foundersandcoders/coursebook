@@ -20,9 +20,10 @@ The goal is to build an interactive game-like thing that uses data from an API.
 
 ## Examples
 
-"interactive game-like thing" is a bit vague, so here are two example apps:
+"Interactive game-like thing" is a bit vague, so here are two example apps:
 
 [GIT FIGHTER II](https://camko.netlify.app/)
+
 [Let's Go Pokémon Battle](https://lets-go-pokemon-battle.netlify.app/)
 
 ## Setup
