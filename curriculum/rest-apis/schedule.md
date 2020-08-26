@@ -49,11 +49,11 @@
 | 12:45   | Role circles                            |                   |
 | _13:00_ | _Lunch_                                 |                   |
 | 14:00   | Project                                 |                   |
-| 16:30   | [Employment: Portfolio][employment-75]  |                   |
+| 16:30   | [Employment: Employment Mentors][employment-75]  |                   |
 | 17:45   | Check out                               |                      |
 
 [mocking-mc-60]: https://github.com/oliverjam/http-mocking-challenge
-[employment-75]: https://hackmd.io/@fac/BJKpHm2fw
+[employment-75]: https://hackmd.io/@fac/Hy1OHLfXv#/
 
 ## Day 4
 
