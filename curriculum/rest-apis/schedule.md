@@ -48,9 +48,12 @@
 | Time    | Activity |
 | ------- | -------- |
 | 09:45   | Check-in |
-| 10:00   | Project  |
+| 10:00   | [Student project ideas][sp-ideas-15]  |
+| 10:15   | Project  |
 | _13:00_ | _Lunch_  |
 | 14:00   | Project  |
+
+[sp-ideas-15]: https://github.com/fac20/student-project-ideas
 
 ## Day 5
 
