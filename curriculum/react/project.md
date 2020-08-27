@@ -20,7 +20,7 @@ The goal is to build an interactive game-like thing that uses data from an API.
 
 ## Examples
 
-"interactive game-like thing" is a bit vague, so here are two example apps:
+"Interactive game-like thing" is a bit vague, so here are some apps built previously:
 
 [GIT FIGHTER II](https://camko.netlify.app/)
 
