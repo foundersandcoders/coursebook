@@ -2,22 +2,22 @@
 
 ## Day 1
 
-| Time    | Activity                       | Learning outcomes             |
-| ------- | ------------------------------ | ----------------------------- |
-| 09:45   | Check-in                       |                               |
-| 10:00   | [Feedback survey][survey-5]                |                               |
-| 10:05   | [Intro presentation][intro-presentation-25]             |                               |
-| 10:30   | [Node intro][node-intro-30]       | Node, CommonJS modules        |
-| 11:00   | [Node HTTP Servers][node-http-120] | HTTP server, Routing, Streams |
-| _13:00_ | _Lunch_                        |                               |
-| 14:00   | [Node HTTP Servers][node-http-120] | HTTP server, Routing, Streams |
-| 15:00   | [npm intro][npm-intro-30]         | npm, modules                  |
-| 15:30   | [Project][project-intro-5] & [spike][spike-intro-10] intro                  |                               |
-| 15:45   | [Technical spikes][spike-intro-10]               |                               |
-| 17:45   | Check out | |
+| Time    | Activity                                   | Learning outcomes             |
+| ------- | ------------------------------------------ | ----------------------------- |
+| 09:45   | Check-in                                   |                               |
+| 10:00   | [Feedback survey][survey-10]               |                               |
+| 10:10   | [Intro presentation][intro-presentation-20]|                               |
+| 10:30   | [Node intro][node-intro-30]                | Node, CommonJS modules        |
+| 11:00   | [Node HTTP Servers][node-http-120]         | HTTP server, Routing, Streams |
+| _13:00_ | _Lunch_                                    |                               |
+| 14:00   | [Node HTTP Servers][node-http-120]         | HTTP server, Routing, Streams |
+| 16:00   | [npm intro][npm-intro-30]                  | npm, modules                  |
+| 16:30   | [Project][project-intro-5] & [spike][spike-intro-10] intro |               |
+| 16:45   | [Technical spikes][spike-intro-10]         |                               |
+| 17:45   | Check out                                  |                               |
 
-[survey-5]: https://airtable.com/shrIKQyPpx4vSUNzC
-[intro-presentation-25]: https://hackmd.io/@fac/HJwR0yVbP
+[survey-10]: https://airtable.com/shrIKQyPpx4vSUNzC
+[intro-presentation-20]: https://hackmd.io/@fac/HJwR0yVbP
 [node-intro-30]: https://github.com/oliverjam/node-introduction
 [node-http-120]: https://github.com/oliverjam/node-http-server
 [npm-intro-30]: https://github.com/foundersandcoders/npm-introduction
@@ -66,6 +66,7 @@
 | 10:00   | Project  |
 | _13:00_ | _Lunch_  |
 | 14:00   | Project  |
+| 17:15   | Code Q&A |
 | 17:45   | Check out|
 
 ## Day 5
@@ -75,7 +76,7 @@
 | 09:45 | Check-in            |
 | 10:00 | Code review         |
 | 11:00 | Respond to issues   |
-| 12:00 | Role debriefs       |
+| 12:00 | Role circles        |
 | 12:15 | Presentation prep   |
 | 13:00 | _Lunch_             |
 | 14:00 | Presentations       |

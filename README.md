@@ -86,6 +86,7 @@ The timetable can differ from week to week. See each week's schedule for details
 | 09:45   | Check-in             |                                                                 |
 | 10:00   | Morning Challenge    | A workshop to challenge your understanding of this week's topic |
 | 11:00   | Project              |                                                                 |
+| 12:45   | Role circles         |                                                                 |
 | _13:00_ | _Lunch_              |                                                                 |
 | 14:00   | Project              | Discussions held with potential Tech for Better partners        |
 | 15:30   | Employment prep      | Portfolio, CV, media presence and interview prep (weeks 5+)     |
@@ -101,6 +102,7 @@ The timetable can differ from week to week. See each week's schedule for details
 | 10:00   | Project   |             |
 | _13:00_ | _Lunch_   |             |
 | 14:00   | Project   |             |
+| 17:15   | Code Q&A |
 | 17:45   | Check-out |             |
 | _18:00_ | _Finish_  |             |
 
@@ -111,6 +113,7 @@ The timetable can differ from week to week. See each week's schedule for details
 | 09:45   | Check-in            |                                                                      |
 | 10:00   | Code Review         | Review another team's project code                                   |
 | 11:00   | Respond to issues   | Refactor your project based upon the feedback you got in code review |
+| 12:00   | Role circles        |                                                                      |
 | 12:15   | Presentation prep   |                                                                      |
 | _13:00_ | _Lunch_             |                                                                      |
 | 14:00   | Presentations       | Present your project from this week                                  |
