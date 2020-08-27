@@ -72,10 +72,9 @@
     - [Mentor Roles](projects/roles/mentors.md)
     - [Student Roles](projects/roles/project-team.md)
 - Student Project
-  - Design Week
     - [Learning Outcomes](projects/design-week/learning-outcomes.md)
-    - [Schedule](projects/design-week/schedule.md)
-    - [Project](projects/design-week/project.md)
+  - Design Week
+    - [Schedule](projects/student-projects/design.md)
   - Sprint One
     - [Schedule](projects/student-projects/build-1.md)
   - Sprint Two
@@ -89,7 +88,8 @@
     - [Schedule](projects/tech-for-better/build-2.md)
     - [PO Handover Guidance](projects/tech-for-better/po-handover.md)
     - [TFB Presentation Guidance](projects/tech-for-better/presentation.md)
-- [Running a one day project](projects/one-day-projects.md)
+- One Day Projects
+  - [Running a one day project](projects/one-day-projects.md)
 
 ## Precourse
 
