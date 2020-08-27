@@ -23,7 +23,12 @@ The goal is to build an interactive game-like thing that uses data from an API.
 "interactive game-like thing" is a bit vague, so here are two example apps:
 
 [GIT FIGHTER II](https://camko.netlify.app/)
+
 [Let's Go Pokémon Battle](https://lets-go-pokemon-battle.netlify.app/)
+
+[Oli's Tamagotchi](https://tamagotchi.netlify.com)  
+
+[Zooey's Drake thing](https://fuckin-yolo.netlify.com/)
 
 ## Setup
 
