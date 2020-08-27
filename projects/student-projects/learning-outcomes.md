@@ -1,4 +1,4 @@
-# Design Week Learning Outcomes
+# Learning Outcomes
 
 ## UX and Design
  - Understand the place of UX in software development
