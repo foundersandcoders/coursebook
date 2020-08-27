@@ -65,30 +65,27 @@
   - [Resources](curriculum/react/resources.md)
 
 ## Projects
-
+- Roles
+    - [Mentor Roles](projects/roles/mentors.md)
+    - [Student Roles](projects/roles/project-team.md)
 - Student Project
   - Design Week
     - [Learning Outcomes](projects/design-week/learning-outcomes.md)
     - [Schedule](projects/design-week/schedule.md)
     - [Project](projects/design-week/project.md)
   - Sprint One
-    - [Schedule](projects/w12-schedule.md)
-    - [Mentor Roles](projects/mentor-roles.md)
-    - [Student Roles](projects/student-roles.md)
-  - Student Project Sprint Two
-    - [Schedule](projects/w13-schedule.md)
+    - [Schedule](projects/student-projects/build-1.md)
+  - Sprint Two
+    - [Schedule](projects/student-projects/build-2.md)
 - Tech For Better Project
   - Design Week
-    - [Schedule](projects/w14-schedule.md)
+    - [Schedule](projects/tech-for-better/design.md)
   - Sprint One
-    - [Schedule](projects/w15-schedule.md)
+    - [Schedule](projects/tech-for-better/build-1.md)
   - Sprint Two
-    - [Schedule](projects/w16-schedule.md)
-    - [PO Handover Guidance](projects/po-handover.md)
-    - [TFB Presentation Guidance](projects/tfb-presentation.md)
-
-### One Day Projects
-
+    - [Schedule](projects/tech-for-better/build-2.md)
+    - [PO Handover Guidance](projects/tech-for-better/po-handover.md)
+    - [TFB Presentation Guidance](projects/tech-for-better/presentation.md)
 - [Running a one day project](projects/one-day-projects.md)
 
 ## Precourse
