@@ -63,6 +63,9 @@
   - [Schedule](curriculum/react/schedule.md)
   - [Project](curriculum/react/project.md)
   - [Resources](curriculum/react/resources.md)
+- Reading week
+  - [Suggested activities](curriculum/reading-week/activity.md)
+  - [Resources](curriculum/reading-week/resources.md)
 
 ## Projects
 - Roles

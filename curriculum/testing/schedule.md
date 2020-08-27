@@ -5,7 +5,7 @@
 | Time    | Activity                                                | Learning outcomes   |
 | ------- | ------------------------------------------------------- | ------------------- |
 | 09:45   | Check-in                                                |                     |
-| 10:00   | [Feedback survey][survey-5]                               |                     |
+| 10:00   | [Feedback survey][survey-5]                             |                     |
 | 10:05   | [Intro presentation][testing-intro-25]                  |                     |
 | 10:30   | [Build a testing library][testing-lib-60]               | Testing             |
 | 11:30   | [Unit testing workshop][unit-testing-90]                | Unit testing        |
