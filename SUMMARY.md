@@ -2,16 +2,16 @@
 
 - [Code of Conduct](handbook/code-of-conduct.md)
 - [Course Rules](handbook/course-rules.md)
-- [Pair Programming](handbook/pair-programming.md)
+- [Pair programming](handbook/pair-programming.md)
 - [Spikes](handbook/spikes.md)
 - [Projects](handbook/projects.md)
-- [Code Review](handbook/code-review.md)
+- [Code review](handbook/code-review.md)
 - [Retrospectives](handbook/retrospectives.md)
 
 ## Curriculum
 
 - Teamwork & Toolkit
-  - [Learning outcomes](curriculum/teamwork-and-toolkit/learning-outcomes.md)
+  - [Learning Outcomes](curriculum/teamwork-and-toolkit/learning-outcomes.md)
   - [Schedule](curriculum/teamwork-and-toolkit/schedule.md)
   - [Spikes](curriculum/teamwork-and-toolkit/spikes.md)
   - [Project](curriculum/teamwork-and-toolkit/project.md)
@@ -52,7 +52,7 @@
   - [Spikes](curriculum/rest-apis/spikes.md)
   - [Project](curriculum/rest-apis/project.md)
   - [Resources](curriculum/rest-apis/resources.md)
-- Fullstack App
+- Fullstack app
   - [Learning Outcomes](curriculum/fullstack-app/learning-outcomes.md)
   - [Schedule](curriculum/fullstack-app/schedule.md)
   - [Spikes](curriculum/fullstack-app/spikes.md)
@@ -68,33 +68,25 @@
   - [Resources](curriculum/reading-week/resources.md)
 
 ## Projects
-
-- Student Project
-  - Design Week
-    - [Learning Outcomes](projects/design-week/learning-outcomes.md)
-    - [Schedule](projects/design-week/schedule.md)
-    - [Project](projects/design-week/project.md)
-  - Sprint One
-    - [Schedule](projects/w12-schedule.md)
-    - [Mentor Roles](projects/mentor-roles.md)
-    - [Student Roles](projects/student-roles.md)
-  - Student Project Sprint Two
-    - [Schedule](projects/w13-schedule.md)
-- Tech For Better Project
-  - Design Week
-    - [Schedule](projects/w14-schedule.md)
-  - Sprint One
-    - [Schedule](projects/w15-schedule.md)
-  - Sprint Two
-    - [Schedule](projects/w16-schedule.md)
-    - [PO Handover Guidance](projects/po-handover.md)
-    - [TFB Presentation Guidance](projects/tfb-presentation.md)
-
-### One Day Projects
-
-- [Running a one day project](projects/one-day-projects.md)
+- Roles
+    - [Mentor roles](projects/roles/mentors.md)
+    - [Student roles](projects/roles/project-team.md)
+- Student project
+  - [Learning Outcomes](projects/design-week/learning-outcomes.md)
+  - [Design week](projects/student-projects/design.md)
+  - [Sprint one](projects/student-projects/build-1.md)
+  - [Sprint two](projects/student-projects/build-2.md)
+- Tech For Better project
+  - [Learning Outcomes](projects/design-week/learning-outcomes.md)
+  - [Design week](projects/tech-for-better/design.md)
+  - [Sprint one](projects/tech-for-better/build-1.md)
+  - [Sprint two](projects/tech-for-better/build-2.md)
+  - [TFB presentation guidance](projects/tech-for-better/presentation.md)
+  - [PO handover guidance](projects/tech-for-better/po-handover.md)
+- One Day Projects
+  - [Running a one day project](projects/one-day-projects.md)
 
 ## Precourse
 
 - [Precourse](precourse/precourse.md)
-- [Installation List](precourse/installation-list.md)
+- [Installation list](precourse/installation-list.md)
