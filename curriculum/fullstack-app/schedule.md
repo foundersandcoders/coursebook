@@ -1,4 +1,4 @@
-# Single Page App Week Schedule
+# Single-page App Week Schedule
 
 ## Day 1
 
