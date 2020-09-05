@@ -1,4 +1,4 @@
-# Week 2 Learning Outcomes
+# Learning Outcomes
 
 ## HTTP
 

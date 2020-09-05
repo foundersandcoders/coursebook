@@ -52,12 +52,12 @@
   - [Spikes](curriculum/rest-apis/spikes.md)
   - [Project](curriculum/rest-apis/project.md)
   - [Resources](curriculum/rest-apis/resources.md)
-- Fullstack app
-  - [Learning Outcomes](curriculum/fullstack-app/learning-outcomes.md)
-  - [Schedule](curriculum/fullstack-app/schedule.md)
-  - [Spikes](curriculum/fullstack-app/spikes.md)
-  - [Project](curriculum/fullstack-app/project.md)
-  - [Resources](curriculum/fullstack-app/resources.md)
+- Single-page app
+  - [Learning Outcomes](curriculum/single-page-app/learning-outcomes.md)
+  - [Schedule](curriculum/single-page-app/schedule.md)
+  - [Spikes](curriculum/single-page-app/spikes.md)
+  - [Project](curriculum/single-page-app/project.md)
+  - [Resources](curriculum/single-page-app/resources.md)
 - React
   - [Learning Outcomes](curriculum/react/learning-outcomes.md)
   - [Schedule](curriculum/react/schedule.md)

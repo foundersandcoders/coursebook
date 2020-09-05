@@ -1,4 +1,4 @@
-# Database Week Schedule
+# Database week schedule
 
 ## Day 1
 
@@ -13,7 +13,7 @@
 | 16:00   | [Project][project-5] and [spikes][spikes-10] intro |                   |
 | 16:15   | [Technical spikes][spikes-10]                      |                   |
 | 17:15   | Spike presentation prep                            |                   |
-| 17:45   | Checkout                                           |
+| 17:45   | Checkout                                           |                   |
 
 [feedback-10]: https://airtable.com/shrIKQyPpx4vSUNzC
 [intro-slides-20]: https://docs.google.com/presentation/d/14LXEKmHM6xqjTvPLyKw0trtprGeNkD0VLgWkE8Z2ouo/edit#slide=id.g4dfce81f19_0_45

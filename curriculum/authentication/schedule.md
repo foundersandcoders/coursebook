@@ -1,4 +1,4 @@
-# Authentication Week Schedule
+# Authentication week schedule
 
 ## Day 1
 

@@ -1,6 +1,6 @@
-# Week 8 Learning Objectives
+# Learning Objectives
 
-## Full stack app
+## Single-page app
 
 ### Client rendering
 

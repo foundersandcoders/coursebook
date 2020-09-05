@@ -1,4 +1,4 @@
-# HTTP Week Schedule
+# HTTP week schedule
 
 ## Day 1
 

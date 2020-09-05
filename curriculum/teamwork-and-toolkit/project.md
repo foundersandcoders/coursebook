@@ -1,4 +1,4 @@
-# The Project
+# First Project
 
 Your challenge for the next couple of days is to build an agency website for your team.
 

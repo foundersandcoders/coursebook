@@ -1,4 +1,4 @@
-# Week 5 Learning Outcomes
+# Learning Outcomes
 
 ## Databases
 

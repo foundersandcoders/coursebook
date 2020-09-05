@@ -1,4 +1,4 @@
-# Node Week Schedule
+# Node week schedule
 
 ## Day 1
 

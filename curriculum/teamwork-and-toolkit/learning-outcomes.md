@@ -1,4 +1,4 @@
-# Week 1 Learning Outcomes
+# Learning Outcomes
 
 ## Teamwork & Toolkit
 

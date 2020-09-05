@@ -1,4 +1,4 @@
-# Teamwork & Toolkit Week Schedule
+# Teamwork & Toolkit week schedule
 
 ## Day 1
 

@@ -1,4 +1,4 @@
-# Testing Week Schedule
+# Testing week schedule
 
 ## Day 1
 

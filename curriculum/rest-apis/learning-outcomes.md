@@ -1,4 +1,4 @@
-# Week 7 Learning Outcomes
+# Learning Outcomes
 
 ## REST APIs
 

@@ -1,4 +1,4 @@
-# Week 4 Learning Outcomes
+# Learning Outcomes
 
 ## Node
 

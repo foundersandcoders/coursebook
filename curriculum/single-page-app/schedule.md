@@ -1,4 +1,4 @@
-# Single-page App Week Schedule
+# Single-page App week schedule
 
 ## Day 1
 
@@ -19,8 +19,8 @@
 [learn-esm-30]: https://github.com/oliverjam/learn-es-modules
 [learn-rendering-120]: https://github.com/oliverjam/learn-dom-rendering
 [learn-routing]: https://github.com/oliverjam/learn-client-side-routing
-[project-5]: https://founders-and-coders.gitbook.io/coursebook/curriculum/fullstack-app/project
-[spikes-10]: https://founders-and-coders.gitbook.io/coursebook/curriculum/fullstack-app/spikes
+[project-5]: https://founders-and-coders.gitbook.io/coursebook/curriculum/single-page-app/project
+[spikes-10]: https://founders-and-coders.gitbook.io/coursebook/curriculum/single-page-app/spikes
 
 ## Day 2
 

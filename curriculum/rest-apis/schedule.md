@@ -1,4 +1,4 @@
-# Express Week Schedule
+# REST APIs week schedule
 
 ## Day 1
 
