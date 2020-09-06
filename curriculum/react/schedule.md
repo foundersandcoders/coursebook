@@ -1,4 +1,4 @@
-# React Week Schedule
+# React week schedule
 
 ## Day 1
 

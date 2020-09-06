@@ -1,8 +1,8 @@
-# React Week Learning Objectives
+# Learning Outcomes
 
 ## React API
 
-- [ ] React's benefits/tradeoffs
+- [ ] React's benefits / tradeoffs
 - [ ] The React API
 - [ ] JSX/React elements
 - [ ] Function components

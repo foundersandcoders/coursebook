@@ -1,4 +1,4 @@
-# Single-page app week project
+# Single-page app project
 
 Your project this week is to build a frontend for one of the APIs from REST API week. It should be a single-page app with client-side routing.
 

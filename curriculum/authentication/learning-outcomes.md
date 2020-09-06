@@ -1,4 +1,4 @@
-# Week 6 Learning Outcomes
+# Learning Outcomes
 
 ## Authentication
 

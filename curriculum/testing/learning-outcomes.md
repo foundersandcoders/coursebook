@@ -1,4 +1,4 @@
-# Week 3 Learning Outcomes
+# Learning Outcomes
 
 ## Testing
 

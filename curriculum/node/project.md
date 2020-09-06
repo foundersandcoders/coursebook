@@ -1,4 +1,4 @@
-# Node week project
+# Node project
 
 Your project this week is to build a microblogging site. It should allow users to submit their own posts and view all the posts submitted by others.
 
