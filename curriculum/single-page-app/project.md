@@ -1,6 +1,6 @@
 # Single-page app project
 
-Your project this week is to build a frontend for one of the APIs from REST API week. It should be a single-page app with client-side routing.
+Your project this week is to build a frontend for one of the APIs from REST API week. It should be a single-page app rendered with client-side JavaScript.
 
 ## User stories
 
@@ -21,11 +21,10 @@ Since this project is open-ended you'll need to write your own more specific use
 ### Acceptance Criteria
 
 - [ ] A single-page app (only one HTML file)
-- [ ] Client-side routing
 - [ ] Accessible signup/login forms
 - [ ] Token-based authentication (storing token in localStorage)
 - [ ] Form for adding new resources (only for logged in users)
-- [ ] Works well across Chrome, Firefox and IE 10 browsers
+- [ ] Works well across Chrome, Firefox and Safari/Edge browsers
 
 #### Stretch criteria
 
