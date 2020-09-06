@@ -24,7 +24,7 @@ Since this project is open-ended you'll need to write your own more specific use
 - [ ] Accessible signup/login forms
 - [ ] Token-based authentication (storing token in localStorage)
 - [ ] Form for adding new resources (only for logged in users)
-- [ ] Works well across Chrome, Firefox and IE 10 browsers
+- [ ] Works well across Chrome, Firefox and Safari/Edge browsers
 
 #### Stretch criteria
 
