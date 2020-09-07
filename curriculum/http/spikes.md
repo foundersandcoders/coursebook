@@ -9,25 +9,30 @@ How would you effectively find out where (and why) an error is occurring in your
 1. What `console` methods are there other than `console.log`? Can these help us debug?
 1. What does the `debugger;` statement do?
 1. How do we use the debugger in our browser?
+1. How can we debug network requests ? and how can we manually send test requests outside of our browser?
 
 ### Useful resources
 
 - [How to get the most out of the JavaScript console](https://www.freecodecamp.org/news/how-to-get-the-most-out-of-the-javascript-console-b57ca9db3e6d/)
 - [Get Started with Debugging JavaScript in Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/javascript/)
-
-## Debugging network requests
-
-How can we send and receive test network requests while working on an application?
-
-### Questions to consider
-
-1. How can we inspect any requests the browser is making on an HTML page?
-1. How can we manually send test requests outside of our browser?
-
-### Useful resources
-
 - [Inspect Network Activity In Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/network/)
 - [Getting started with Insomnia](https://support.insomnia.rest/article/11-getting-started)
+
+## GIT
+
+1. What is origin ? _eg. `git push origin master`_
+2. How can you find the current origin ? and How can you change the origin's url ?
+3. different uses of `git-reset`.
+4. Talk about and give a demo of the following commands, when would you use each one?:
+    - `git stash` & `git stash pop`
+    - `git diff`
+    - `git log`
+    - `git fetch`
+
+### Useful links
+- [Git documentation](https://git-scm.com/doc)
+- [An aggressive blogpost about git :laughing: ](https://ohshitgit.com/)
+
 
 ## Debugging HTML & CSS
 
