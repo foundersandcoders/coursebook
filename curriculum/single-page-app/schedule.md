@@ -24,19 +24,21 @@
 
 ## Day 2
 
-| Time    | Activity                             | Learning outcomes        |
-| ------- | ------------------------------------ | ------------------------ |
-| 09:45   | Check-in                             |                          |
-| 10:00   | Spike presentation prep              |                          |
-| 10:10   | Spike presentations                  |                          |
-| 11:00   | [Vanilla SPAs][learn-spas]           | localStorage, token auth |
-| _13:00_ | _Lunch_                              |                          |
-| 14:00   | [Vanilla SPAs][learn-spas] continued | localStorage, token auth |
-| 16:00   | Tech for Better                      |                          |
-| 17:00   | Speaker                              |                          |
-| 17:45   | Check out                            |                          |
+| Time    | Activity                                    | Learning outcomes            |
+| ------- | ------------------------------------------- | ---------------------------- |
+| 09:45   | Check-in                                    |                              |
+| 10:00   | Spike presentation prep                     |                              |
+| 10:10   | Spike presentations                         |                              |
+| 11:00   | [Vanilla SPAs][learn-spas]                  | localStorage, token auth     |
+| _13:00_ | _Lunch_                                     |                              |
+| 14:00   | Student project session                     |                              |
+| 14:30   | [Accessible status messages][a11y-messages] | live regions, status updates |
+| 16:00   | Tech for Better                             |                              |
+| 17:00   | Speaker                                     |                              |
+| 17:45   | Check out                                   |                              |
 
-[learn-spas]: https://github.com/oliverjam/learn-vanilla-spas
+[token-auth]: https://github.com/oliverjam/client-token-auth
+[a11y-messages]: https://github.com/oliverjam/accessible-status-messages
 
 ## Day 3
 
