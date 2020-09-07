@@ -2,6 +2,8 @@
 
 Your project this week is to build a frontend for one of the APIs from REST API week. It should be a single-page app rendered with client-side JavaScript.
 
+If your team don't have a finished API, or don't want to use it, you can use the [Dogs API](https://github.com/oliverjam/dog-rest-api/) from the workshops. The readme contains documentation of all the endpoints.
+
 ## User stories
 
 ### Core
