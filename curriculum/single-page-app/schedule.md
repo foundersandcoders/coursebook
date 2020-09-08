@@ -29,7 +29,7 @@
 | 09:45   | Check-in                                    |                              |
 | 10:00   | Spike presentation prep                     |                              |
 | 10:10   | Spike presentations                         |                              |
-| 11:00   | [Vanilla SPAs][token-auth]                  | localStorage, token auth     |
+| 11:00   | [Token authentication][token-auth]          | localStorage, token auth     |
 | _13:00_ | _Lunch_                                     |                              |
 | 14:00   | Student project session                     |                              |
 | 14:30   | [Accessible status messages][a11y-messages] | live regions, status updates |
