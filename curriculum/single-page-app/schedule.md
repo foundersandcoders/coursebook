@@ -49,12 +49,12 @@
 | 11:00   | Project                                     |                     |
 | 12:45   | Role circles                                |                     |
 | _13:00_ | _Lunch_                                     |                     |
-| 16:00   | [Employment: Portfolio site][employment-60] |                     |
+| 16:30   | [Employment: Portfolio site][employment-75] |                     |
 | 17:00   | Tech for Better                             |                     |
 | 17:45   | Check out                                   |                     |
 
 [pseudo-mc-60]: https://github.com/oliverjam/css-pseudo-element-challenge
-[employment-60]: https://hackmd.io/@fac/BJKpHm2fw
+[employment-75]: https://hackmd.io/@fac/BJKpHm2fw
 
 ## Day 4
 
