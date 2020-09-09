@@ -39,7 +39,7 @@ The work is available under the Creative Commons [Attribution-NonCommercial-Shar
 | 5    | [Databases](https://founders-and-coders.gitbook.io/coursebook/curriculum/databases/schedule)                       |
 | 6    | [Authentication](https://founders-and-coders.gitbook.io/coursebook/curriculum/authentication/schedule)             |
 | 7    | [REST APIs](https://founders-and-coders.gitbook.io/coursebook/curriculum/rest-apis/schedule)                       |
-| 8    | [Full-Stack App](https://founders-and-coders.gitbook.io/coursebook/curriculum/fullstack-app/schedule)              |
+| 8    | [Single Page Apps](https://founders-and-coders.gitbook.io/coursebook/curriculum/single-page-app/schedule)              |
 | 9    | [React](https://founders-and-coders.gitbook.io/coursebook/curriculum/react/schedule)                               |
 
 ## Default Schedule
