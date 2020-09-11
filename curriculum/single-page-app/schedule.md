@@ -77,7 +77,8 @@
 | 12:15 | Presentation prep   |
 | 13:00 | _Lunch_             |
 | 14:00 | Presentations       |
-| 16:00 | Stop Go Continues   |
+| 15:15 | Cohort SGC          |
+| 16:00 | Team SGC            |
 | 16:45 | Update user manuals |
 | 17:00 | Speaker             |
 | 17:45 | Check out           |
