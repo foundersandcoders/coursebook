@@ -29,7 +29,7 @@
 
 [destructuring-mc]: https://github.com/oliverjam/learn-destructuring
 [bundlers-talk]: https://hackmd.io/p/rJBLi5mSf
-[dynamic-data]: https://github.com/sofiapoh/react-dynamic-data-workshop
+[dynamic-data]: https://github.com/oliverjam/react-dynamic-data-workshop
 [testing-react]: https://github.com/oliverjam/learn-react-testing
 
 ## Day 3
