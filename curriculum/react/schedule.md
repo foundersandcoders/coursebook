@@ -45,7 +45,7 @@
 | 12:00   | Project                                     |
 | _13:00_ | _Lunch_                                     |
 | 14:00   | Project                                     |
-| 16:30   | Employment prep                             |
+| 16:30   | Employment:  CVs and cover letters          |
 | 17:45   | Check out                                   |
 
 [class-refactor]: https://github.com/oliverjam/react-refactor-class-hooks
