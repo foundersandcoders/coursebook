@@ -10,6 +10,7 @@
 | _13:00_ | _Lunch_                                         |                                  |
 | 14:00   | [Learn React][learn-react]                      | React effects, React forms       |
 | 15:00   | [Build a filterable product page][product-page] | React forms                      |
+| 17:45   | Check out                                       |                                  |
 
 [react-talk]: https://hackmd.io/@fac/Syia7nKKI#/
 [learn-react]: https://github.com/oliverjam/learn-react
@@ -26,6 +27,7 @@
 | 14:00   | [Testing React components][testing-react]           | React Testing Library    |
 | 16:00   | Tech For Better                                     |                          |
 | 16:45   | Speaker                                             |                          |
+| 17:45   | Check out                                           |                          |
 
 [destructuring-mc]: https://github.com/oliverjam/learn-destructuring
 [bundlers-talk]: https://hackmd.io/p/rJBLi5mSf
@@ -38,12 +40,13 @@
 | ------- | ------------------------------------------- |
 | 09:45   | Check-in                                    |
 | 10:00   | [Refactor classes to hooks][class-refactor] |
-| 11:00   | Project set-up & planning                   |
-| 11:30   | Project                                     |
+| 11:00   | Student Project idea selection              |
+| 11:30   | Project set-up & planning                   |
+| 12:00   | Project                                     |
 | _13:00_ | _Lunch_                                     |
 | 14:00   | Project                                     |
 | 16:30   | Employment prep                             |
-| 17:00   | TFB project pre-selection                   |
+| 17:45   | Check out                                   |
 
 [class-refactor]: https://github.com/oliverjam/react-refactor-class-hooks
 
@@ -55,6 +58,7 @@
 | 10:00   | Project  |
 | _13:00_ | _Lunch_  |
 | 14:00   | Project  |
+| 17:45   | Check out|
 
 ## Day 5
 
@@ -70,3 +74,5 @@
 | 16:00 | Stop Go Continues      |
 | 16:45 | Update user Manuals    |
 | 17:00 | Speaker                |
+| 17:45 | Check out              |
+
