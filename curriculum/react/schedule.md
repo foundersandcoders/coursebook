@@ -21,11 +21,11 @@
 | ------- | --------------------------------------------------- | ------------------------ |
 | 09:45   | Check-in                                            |                          |
 | 10:00   | [Destructuring morning challenge][destructuring-mc] | Destructuring            |
-| 11:00   | [Intro to bundlers][bundlers-talk]                  | Bundlers, modules        |
-| 11:30   | [React with dynamic data][dynamic-data]             | fetching data with React |
-| _13:30_ | _Lunch_                                             |                          |
-| 14:30   | [Testing React components][testing-react]           | React Testing Library    |
-| 16:30   | Tech For Better                                     |                          |
+| 11:00   | [React with dynamic data][dynamic-data]             | fetching data with React |
+| _13:00_ | _Lunch_                                             |                          |
+| 14:00   | [Testing React components][testing-react]           | React Testing Library    |
+| 16:00   | Tech For Better                                     |                          |
+| 16:45   | Speaker                                             |                          |
 
 [destructuring-mc]: https://github.com/oliverjam/learn-destructuring
 [bundlers-talk]: https://hackmd.io/p/rJBLi5mSf
@@ -42,19 +42,19 @@
 | 11:30   | Project                                     |
 | _13:00_ | _Lunch_                                     |
 | 14:00   | Project                                     |
+| 16:30   | Employment prep                             |
 | 17:00   | TFB project pre-selection                   |
 
 [class-refactor]: https://github.com/oliverjam/react-refactor-class-hooks
 
 ## Day 4
 
-| Time    | Activity        |
-| ------- | --------------- |
-| 09:45   | Check-in        |
-| 10:00   | Employment prep |
-| 10:30   | Project         |
-| _13:00_ | _Lunch_         |
-| 14:00   | Project         |
+| Time    | Activity |
+| ------- | -------- |
+| 09:45   | Check-in |
+| 10:00   | Project  |
+| _13:00_ | _Lunch_  |
+| 14:00   | Project  |
 
 ## Day 5
 
