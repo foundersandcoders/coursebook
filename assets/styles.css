@@ -1,10 +1,7 @@
 /* Regular weight font */
 @font-face {
   font-family: "Eesti";
-  src: url("/assets/fonts/GT-Eesti-Text-Light-subset.woff2") format("woff2"),
-    url("/assets/fonts/GT-Eesti-Text-Light-subset.zopfli.woff") format("woff"),
-    url("/assets/fonts/GT-Eesti-Text-Light-subset.ttf") format("truetype");
-
+  src: url("/assets/fonts/GT-Eesti-Text-Light-subset.woff2") format("woff2");
   font-weight: 400;
   font-display: swap;
 }
@@ -12,9 +9,7 @@
 /* Bold weight font */
 @font-face {
   font-family: "Eesti";
-  src: url("/assets/fonts/GT-Eesti-Text-Medium-subset.woff2") format("woff2"),
-    url("/assets/fonts/GT-Eesti-Text-Medium-subset.zopfli.woff") format("woff"),
-    url("/assets/fonts/GT-Eesti-Text-Medium-subset.ttf") format("truetype");
+  src: url("/assets/fonts/GT-Eesti-Text-Medium-subset.woff2") format("woff2");
   font-weight: 600;
   font-display: swap;
 }
@@ -23,11 +18,7 @@
 @font-face {
   font-family: "Eesti";
   src: url("/assets/fonts/GT-Eesti-Text-Light-Italic-subset.woff2")
-      format("woff2"),
-    url("/assets/fonts/GT-Eesti-Text-Light-Italic-subset.zopfli.woff")
-      format("woff"),
-    url("/assets/fonts/GT-Eesti-Text-Light-Italic-subset.ttf")
-      format("truetype");
+    format("woff2");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
