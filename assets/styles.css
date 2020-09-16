@@ -1,0 +1,265 @@
+/* Regular weight font */
+@font-face {
+  font-family: "Eesti";
+  src: url("/assets/fonts/GT-Eesti-Text-Light-subset.woff2") format("woff2"),
+    url("/assets/fonts/GT-Eesti-Text-Light-subset.zopfli.woff") format("woff"),
+    url("/assets/fonts/GT-Eesti-Text-Light-subset.ttf") format("truetype");
+
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* Bold weight font */
+@font-face {
+  font-family: "Eesti";
+  src: url("/assets/fonts/GT-Eesti-Text-Medium-subset.woff2") format("woff2"),
+    url("/assets/fonts/GT-Eesti-Text-Medium-subset.zopfli.woff") format("woff"),
+    url("/assets/fonts/GT-Eesti-Text-Medium-subset.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+}
+
+/* Italic style regular weight font */
+@font-face {
+  font-family: "Eesti";
+  src: url("/assets/fonts/GT-Eesti-Text-Light-Italic-subset.woff2")
+      format("woff2"),
+    url("/assets/fonts/GT-Eesti-Text-Light-Italic-subset.zopfli.woff")
+      format("woff"),
+    url("/assets/fonts/GT-Eesti-Text-Light-Italic-subset.ttf")
+      format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  --padding: max(1rem, 1rem + 1vw);
+  --border-title: 1px solid hsl(200, 10%, 84%);
+  --font-sans: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+  --text-dark: hsl(220, 20%, 25%);
+  --text-mid: hsl(220, 10%, 45%);
+  --bg-100: hsl(220, 20%, 80%);
+  --bg-500: hsl(220, 20%, 90%);
+  --bg-800: hsl(220, 20%, 96%);
+  --bg-900: hsl(220, 20%, 98%);
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-variant-numeric: tabular-nums; /* so numbers are all same width */
+  line-height: 1.5;
+  color: hsl(200, 10%, 25%);
+  background-color: var(--bg-900);
+}
+
+a {
+  color: inherit;
+}
+
+ul,
+ol {
+  padding-inline-start: 1em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  break-inside: auto;
+}
+
+thead {
+  border-bottom: var(--border-title);
+  text-align: left;
+  font-weight: bold;
+}
+
+th,
+td {
+  padding: 0.75rem 0.5rem;
+}
+
+tr + tr {
+  border-top: 1px solid hsl(200, 10%, 92%);
+}
+
+tr:nth-child(even) {
+  background-color: var(--bg-800);
+}
+
+code {
+  border-radius: 4px;
+  padding: 0.25rem 0.35rem;
+  background-color: hsl(200, 10%, 96%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+thead {
+  /* font-family: "Eesti", var(--font-sans); */
+  line-height: 1.1;
+}
+
+.heading-anchor {
+  opacity: 0;
+  color: inherit;
+  transition: opacity 0.2s;
+}
+
+/* Show heading links when focused or when containing heading is hovered */
+.heading-anchor:focus,
+*:hover > .heading-anchor {
+  opacity: 1;
+}
+
+main h1 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+
+main h2 {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  border-top: var(--border-title);
+  padding-top: 3rem;
+}
+
+main h3 {
+  margin-top: 2rem;
+  font-size: 1.25rem;
+}
+
+main h4 {
+  margin-top: 1.5rem;
+  font-size: 1.125rem;
+}
+
+blockquote {
+  margin-left: 0;
+  border-left: var(--border-title);
+  padding-left: 1.5rem;
+  font-style: italic;
+}
+
+.global-nav {
+  --active-bg: hsl(220, 20%, 90%);
+
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: max-content;
+
+  padding: var(--padding);
+  background-color: hsl(220, 20%, 96%);
+  color: var(--text-mid);
+  transform: translateX(-100%);
+  transition: 0.15s transform ease-out;
+}
+
+.global-nav.active {
+  box-shadow: 0 2px 4px hsla(200, 10%, 20%, 0.2),
+    0 8px 20px hsla(200, 10%, 20%, 0.5);
+  transform: none;
+}
+
+.global-nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.global-nav > ul > li > ul {
+  /* border-left: var(--border-title); */
+}
+
+.global-nav > ul {
+  border-left: 0;
+  padding-left: 0;
+}
+
+.global-nav h2 {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.global-nav h3 {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.global-nav .heading-anchor {
+  display: none;
+}
+
+.global-nav ul a {
+  display: block;
+  border-radius: 8px;
+  padding: 0.35rem 0.75rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.global-nav ul a:hover,
+.global-nav ul a:focus {
+  background-color: var(--active-bg);
+}
+
+.toggle-nav {
+  position: fixed;
+  left: 1.5rem;
+  bottom: 1.5rem;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  border: 0;
+  background-color: hsl(200, 10%, 82%);
+  z-index: 10;
+}
+
+.main-wrapper {
+  max-width: 66ch;
+  margin-right: auto;
+  padding: var(--padding);
+  line-height: 1.5;
+}
+
+@media (min-width: 50em) {
+  .page-wrapper {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    grid-column-gap: max(1rem, 1rem + 1vw);
+  }
+
+  .toggle-nav {
+    display: none;
+  }
+
+  .global-nav {
+    max-height: 100vh;
+    position: static;
+    width: auto;
+    transform: none;
+    border-right: var(--border-title);
+  }
+
+  main {
+    max-height: 100vh;
+    overflow-y: scroll;
+    /* font-size: 1.125rem; */
+  }
+}
