@@ -29,17 +29,21 @@
 }
 
 html {
-  --padding: max(1rem, 1rem + 1vw);
-  --border-title: 1px solid hsl(200, 10%, 84%);
+  --padding: clamp(1rem, 1rem + 4vw, 4rem);
   --font-sans: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
   --text-dark: hsl(220, 20%, 25%);
   --text-mid: hsl(220, 10%, 45%);
-  --bg-100: hsl(220, 20%, 80%);
+  --bg-100: hsl(220, 20%, 82%);
+  --bg-200: hsl(220, 20%, 84%);
+  --bg-300: hsl(220, 20%, 86%);
+  --bg-400: hsl(220, 20%, 88%);
   --bg-500: hsl(220, 20%, 90%);
   --bg-600: hsl(220, 20%, 92%);
   --bg-700: hsl(220, 20%, 94%);
   --bg-800: hsl(220, 20%, 96%);
   --bg-900: hsl(220, 20%, 98%);
+  --border-title: 1px solid var(--bg-200);
+
   scroll-behavior: smooth;
 }
 
@@ -58,7 +62,7 @@ a {
 
 ul,
 ol {
-  padding-inline-start: 1em;
+  padding-inline-start: 1.15em;
 }
 
 table {
@@ -79,7 +83,7 @@ td {
 }
 
 tr + tr {
-  border-top: 1px solid hsl(200, 10%, 92%);
+  border-top: 1px solid var(--bg-600);
 }
 
 tr:nth-child(even) {
@@ -89,7 +93,15 @@ tr:nth-child(even) {
 code {
   border-radius: 4px;
   padding: 0.25rem 0.35rem;
-  background-color: hsl(200, 10%, 96%);
+  font-family: ui-monospace, Monaco, Consolas, monospace;
+  font-size: 0.875em;
+  font-weight: 600;
+  background-color: var(--bg-700);
+}
+
+pre > code {
+  display: block;
+  padding: 1rem;
 }
 
 h1,
@@ -143,6 +155,12 @@ blockquote {
   border-left: var(--border-title);
   padding-left: 1.5rem;
   font-style: italic;
+}
+
+hr {
+  margin: 3rem 0;
+  border: 0;
+  border-top: var(--border-title);
 }
 
 .global-nav {
@@ -243,17 +261,24 @@ blockquote {
 }
 
 .main-wrapper {
-  max-width: 66ch;
   margin-right: auto;
   padding: var(--padding);
   line-height: 1.5;
+}
+
+.main-wrapper > * {
+  max-width: 64ch;
+}
+
+.main-wrapper > table {
+  max-width: 100%;
 }
 
 @media (min-width: 50em) {
   .page-wrapper {
     display: grid;
     grid-template-columns: max-content 1fr;
-    grid-column-gap: max(1rem, 1rem + 1vw);
+    grid-column-gap: var(--padding);
   }
 
   .toggle-nav {
@@ -275,5 +300,9 @@ blockquote {
     max-height: 100vh;
     overflow-y: scroll;
     /* font-size: 1.125rem; */
+  }
+
+  .main-wrapper {
+    padding-left: 0;
   }
 }
