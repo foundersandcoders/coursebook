@@ -20,6 +20,7 @@ exports.render = (data) => {
         <link href="/assets/styles.css" rel="stylesheet" />
         <style>
           .global-nav ul a[href="${data.page.url}"] {
+            font-weight: 500;
             color: var(--text-dark);
             background-color: var(--active-bg);
           }
