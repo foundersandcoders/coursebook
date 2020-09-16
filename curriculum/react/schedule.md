@@ -45,7 +45,7 @@
 | _13:00_ | _Lunch_                                     |
 | 14:00   | Project                                     |
 | 16:00   | Student Project idea selection              |
-| 16:30   | Employment:  CVs and cover letters          |
+| 16:30   | [Employment:  CVs and cover letters](https://hackmd.io/@fac/r1Ub4MREw)|
 | 17:45   | Check out                                   |
 
 [class-refactor]: https://github.com/oliverjam/react-refactor-class-hooks
