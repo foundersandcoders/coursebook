@@ -40,11 +40,11 @@
 | ------- | ------------------------------------------- |
 | 09:45   | Check-in                                    |
 | 10:00   | [Refactor classes to hooks][class-refactor] |
-| 11:00   | Student Project idea selection              |
-| 11:30   | Project set-up & planning                   |
-| 12:00   | Project                                     |
+| 11:00   | Project set-up & planning                   |
+| 11:30   | Project                                     |
 | _13:00_ | _Lunch_                                     |
-| 14:00   | Project                                     |
+| 14:00   | Student Project idea selection              |
+| 14:30   | Project                                     |
 | 16:30   | Employment:  CVs and cover letters          |
 | 17:45   | Check out                                   |
 
