@@ -24,7 +24,7 @@
 | Time    | Activity                                      | Learning outcomes |
 | ------- | --------------------------------------------- | ----------------- |
 | 09:45   | Check-in                                      |                   |
-| 10:00   | Finishing Definition Workshop                 |                   |
+| 10:00   | Finish definition workshop                 |                   |
 | 10:30   | [Figma introduction][figma-intro-60]          |                   |
 | 11:00   | Wireframing                                   |                   |
 | _13:00_ | _Lunch_                                       |                   |
