@@ -19,8 +19,8 @@ The work is available under the Creative Commons [Attribution-NonCommercial-Shar
 #### What you can do
 
 1. Work through the material yourself, or in groups of like-minded people
-1. Clone the workshop repos to work on them locally
-1. Fork the workshop repos so you have a copy on your own GitHub account
+1. [Clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) the workshop repos to work on them locally
+1. [Fork](https://guides.github.com/activities/forking/) the workshop repos so you have a copy on your own GitHub account
 
 #### What you _cannot_ do
 
