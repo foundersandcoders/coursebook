@@ -11,7 +11,8 @@
 | 11:00   | [Discovery workshop][discovery-120]   |                   |
 | _13:00_ | _Lunch_                               |                   |
 | 14:00   | Conduct user research                 |                   |
-| 15:00   | [Definition workshop][definition-120] |                   |
+| 16:00   | [Definition workshop][definition-120] |                   |
+| 17:45   | Checkout                                      |                   |
 
 [feedback-15]: https://airtable.com/shrIKQyPpx4vSUNzC
 [design-pres-20]: https://hackmd.io/@fac/rySEBaUq8#/
