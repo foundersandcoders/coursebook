@@ -8,6 +8,8 @@ Our curriculum is open source and free to use. This means anyone is welcome to w
 
 If you do decide to use our material please let us know. We can only accept so many people onto our program so we'd love to hear about others benefiting from our work. You could also join our Slack community to help and be helped by other people learning to code.
 
+Although we love people using our curriculum to self-learn we have to ask that you **do not claim to have attended or completed Founders and Coders**.
+
 ### License
 
 The work is available under the Creative Commons [Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. This means you can share or adapt the material as you like, as long as you:
