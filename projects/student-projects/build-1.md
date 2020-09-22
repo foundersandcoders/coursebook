@@ -5,11 +5,15 @@
 | Time    | Activity                     |
 | ------- | ---------------------------- |
 | 09:45   | Check-in                     |
-| 10:00   | Inclusivity at FAC           |
+| 10:10 | Feedback Survey |
 | 10:30   | Reach out to Project Mentors |
-| 11:00   | Sprint Planning              |
+| 11:00   | Build              |
 | _13:00_ | _Lunch_                      |
 | 14:00   | Build                        |
+| 16:00   | [TFB Discovery Workshop][disc-workshop] |
+| 17:45 | Checkout | 
+
+[disc-workshop]: https://docs.google.com/presentation/d/10t83KG0ZHP5jKpxdL5HX8hkQDqvf2f01qJs-NkeqjX8/edit?usp=sharing
 
 ## Day 2
 
@@ -19,10 +23,9 @@
 | 10:00   | Build                                   |
 | _13:00_ | _Lunch_                                 |
 | 14:00   | Build                                   |
-| 16:00   | [TFB Discovery Workshop][disc-workshop] |
+| 17:00   | Speaker         |
 | 17:45   | Check-out                               |
 
-[disc-workshop]: https://docs.google.com/presentation/d/10t83KG0ZHP5jKpxdL5HX8hkQDqvf2f01qJs-NkeqjX8/edit?usp=sharing
 
 ## Day 3
 
@@ -32,7 +35,6 @@
 | 10:00   | Build           |
 | _13:00_ | _Lunch_         |
 | 14:00   | Employment Prep |
-| 17:00   | Speaker         |
 | 17:45   | Check-out       |
 
 ## Day 4

@@ -2,17 +2,16 @@
 
 ## Day 1
 
-| Time    | Activity                                  | Learning outcomes      |
-| ------- | ----------------------------------------- | ---------------------- |
-| 09:45   | Check-in                                  |                        |
-| 10:00   | Definition Workshop set-up                |                        |
-| 10:30   | [Definition Workshop with PO][def-slides] |                        |
-| 12:30   | Definition Playback / Wrap up             |                        |
-| _13:00_ | _Lunch_                                   |                        |
-| 14:00   | [Usability Testing Talk][ut-slides]       |                        |
-| 14:30   | Co-ordinate Usability Testing with PO     |                        |
-| 15:00   | Usability Testing Scripting               |                        |
-| 16:00   | Project Setup / Research                  | Repo, Tech Stack, etc. |
+| Time    | Activity                                  | Learning outcomes |
+| ------- | ----------------------------------------- | ----------------- |
+| 09:45   | Check-in                                  |                   |
+| 10:00   | [Definition Workshop with PO][def-slides] |                   |
+| 12:00   | Definition Playback / Wrap up             |                   |
+| _13:00_ | _Lunch_                                   |                   |
+| 14:00   | [Usability Testing Refresher][ut-slides]  |                   |
+| 14:30   | Co-ordinate Usability Testing with PO     |                   |
+| 15:00   | Wireframing                               |                   |
+| 17:45   | Check-out                                 |                   |
 
 [def-slides]: https://docs.google.com/presentation/d/15c3DstgW4W-cFAjTV3LRNuvS9D7Ny5_UMOMYqW-Nvj0/edit?usp=sharing
 [ut-slides]: https://docs.google.com/presentation/d/10VxYiFBmwLevEH3V6AP74ibf_JRt51Gd-295TICrWQU/edit?usp=sharing
@@ -22,42 +21,41 @@
 | Time    | Activity                 | Learning outcomes |
 | ------- | ------------------------ | ----------------- |
 | 09:45   | Check-in                 |                   |
-| 10:00   | PO Workshop set-up       |                   |
-| 10:30   | [PO Workshop][po-slides] |                   |
-| 12:30   | PO Playback / Wrap up    |                   |
+| 10:00   | [PO Workshop][po-slides] |                   |
+| 12:00   | Wireframing              |                   |
 | _13:00_ | _Lunch_                  |                   |
-| 14:00   | Figma Prototyping        |                   |
+| 14:00   | Wireframing              |                   |
+| 17:00   | Speaker                  |                   |
+| 17:45   | Check-out                |                   |
 
 [po-slides]: https://docs.google.com/presentation/d/1l2q87_ihk8HM7nnjHd2O1Ufe5dePz_0iX7WdDO412_k/edit?usp=sharing
 
 ## Day 3
 
-| Time    | Activity                                 | Learning outcomes |
-| ------- | ---------------------------------------- | ----------------- |
-| 09:45   | Check-in                                 |                   |
-| 10:00   | UX/UI Lead coordinate review with Mentor |                   |
-| 10:30   | UX/UI Lead coordinate User Testing       |                   |
-| 11:00   | Figma                                    |                   |
-| _13:00_ | _Lunch_                                  |                   |
-| 14:00   | Employment Prep                          |                   |
-| 17:00   | Speaker                                  |                   |
+| Time    | Activity                  | Learning outcomes |
+| ------- | ------------------------- | ----------------- |
+| 09:45   | Check-in                  |                   |
+| 10:00   | Conduct Usability Testing |                   |
+| 12:00   | Update Wireframe          |                   |
+| _13:00_ | _Lunch_                   |                   |
+| 14:00   | Employment Prep           |                   |
+| 17:45   | Check-out                 |                   |
 
 ## Day 4
 
-| Time    | Activity             | Learning outcomes |
-| ------- | -------------------- | ----------------- |
-| 09:45   | Check-in             |                   |
-| 10:00   | User Testing         |                   |
-| 11:00   | Figma                |                   |
-| _13:00_ | _Lunch_              |                   |
-| 14:00   | Figma                |                   |
+| Time    | Activity         | Learning outcomes |
+| ------- | ---------------- | ----------------- |
+| 09:45   | Check-in         |                   |
+| 10:00   | Project Planning |                   |
+| _13:00_ | _Lunch_          |                   |
+| 14:00   | Tech Spikes      |                   |
 
 ## Day 5
 
 | Time  | Activity                |
 | ----- | ----------------------- |
 | 09:45 | Check-in                |
-| 10:00 | Sprint Planning         |
+| 10:00 | Sprint Planning w/ PO   |
 | 12:00 | Presentation Prep       |
 | 13:00 | _Lunch_                 |
 | 14:00 | Presentations           |
