@@ -49,7 +49,7 @@
 | 16:00   | Employment: Cover letter                           |                   |
 | 17:45   | Checkout                                           |                   |
 
-[role-intros-60]: https://founders-and-coders.gitbook.io/coursebook/projects/student-project/sprint-one/student-roles
+[role-intros-60]: https://founders-and-coders.gitbook.io/coursebook/projects/roles/project-team
 
 ## Day 4
 
