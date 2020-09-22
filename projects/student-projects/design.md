@@ -46,7 +46,7 @@
 | 12:00   | Usability testing synthesis / updates to wireframe |                   |
 | _13:00_ | _Lunch_                                            |                   |
 | 14:00   | [Project planning in Miro][planning-120]           |                   |
-| 16:00   | [Employment: Job boards & recruiters[job-boards-75]|                   |
+| 16:00   | [Employment: Job boards & recruiters][job-boards-75]|                   |
 | 17:45   | Checkout                                           |                   |
 
 [role-intros-60]: https://founders-and-coders.gitbook.io/coursebook/projects/roles/project-team
