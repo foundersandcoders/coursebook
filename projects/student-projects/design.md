@@ -46,11 +46,12 @@
 | 12:00   | Usability testing synthesis / updates to wireframe |                   |
 | _13:00_ | _Lunch_                                            |                   |
 | 14:00   | [Project planning in Miro][planning-120]           |                   |
-| 16:00   | Employment: Cover letter                           |                   |
+| 16:00   | [Employment: Job boards & recruiters[job-boards-75]|                   |
 | 17:45   | Checkout                                           |                   |
 
 [role-intros-60]: https://founders-and-coders.gitbook.io/coursebook/projects/roles/project-team
 [planning-120]: https://hackmd.io/@fac/SkyPKSwBw
+[job-boards-75]: https://hackmd.io/@fac/BJmr5cwrv
 
 ## Day 4
 
@@ -66,7 +67,7 @@
 | 16:30   | Spike presentations            |                   |
 | 17:45   | Checkout                                           |                   |
 
-[cicd-120]: https://github.com/emilyb7/actions-test
+[cicd-120]: https://github.com/emilyb7/FAC-devops-workshop
 [build-pres-30]: https://hackmd.io/@fac/S1ZTP6UcI#/
 
 ## Day 5
