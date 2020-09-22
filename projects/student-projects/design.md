@@ -45,11 +45,12 @@
 | 11:00   | Conduct usability testing                          |                   |
 | 12:00   | Usability testing synthesis / updates to wireframe |                   |
 | _13:00_ | _Lunch_                                            |                   |
-| 14:00   | Project planning in Miro                           |                   |
+| 14:00   | [Project planning in Miro][planning-120]           |                   |
 | 16:00   | Employment: Cover letter                           |                   |
 | 17:45   | Checkout                                           |                   |
 
 [role-intros-60]: https://founders-and-coders.gitbook.io/coursebook/projects/roles/project-team
+[planning-120]: https://hackmd.io/@fac/SkyPKSwBw
 
 ## Day 4
 
