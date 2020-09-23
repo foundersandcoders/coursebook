@@ -20,7 +20,7 @@
   - [Learning Outcomes](curriculum/http/learning-outcomes.md)
   - [Schedule](curriculum/http/schedule.md)
   - [Spikes](curriculum/http/spikes.md)
-  - [Project](curriculum/http/project.md)
+  - [Project](/curriculum/http/project)
   - [Resources](curriculum/http/resources.md)
 - Testing
   - [Learning Outcomes](curriculum/testing/learning-outcomes.md)
@@ -68,9 +68,10 @@
   - [Resources](curriculum/reading-week/resources.md)
 
 ## Projects
+
 - Roles
-    - [Mentor roles](projects/roles/mentors.md)
-    - [Student roles](projects/roles/project-team.md)
+  - [Mentor roles](projects/roles/mentors.md)
+  - [Student roles](projects/roles/project-team.md)
 - Student project
   - [Learning Outcomes](projects/design-week/learning-outcomes.md)
   - [Design week](projects/student-projects/design.md)
