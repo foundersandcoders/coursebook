@@ -59,8 +59,8 @@
 | ------- | ------------------------------ | ----------------- |
 | 09:45   | Check-in                       |                   |
 | 10:00   | [CI / CD workshop][cicd-120]   |                   |
-| 12:00   | [Choose roles][role-intros-60] |                   |
-| 12:30   | [Build Sprint][build-pres-30]  |
+| 12:00   | [Build Sprint][build-pres-15]  |                   |
+| 12:15   | [Choose roles][role-intros-45] |                   |
 | _13:00_ | _Lunch_                        |                   |
 | 14:00   | Technical Spikes               |                   |
 | 16:00   | Spike presentation prep        |
@@ -68,7 +68,8 @@
 | 17:45   | Checkout                                           |                   |
 
 [cicd-120]: https://github.com/emilyb7/FAC-devops-workshop
-[build-pres-30]: https://hackmd.io/@fac/S1ZTP6UcI#/
+[build-pres-15]: https://hackmd.io/@fac/S1ZTP6UcI#/
+[role-intros-45]: https://founders-and-coders.gitbook.io/coursebook/projects/roles/project-team
 
 ## Day 5
 
