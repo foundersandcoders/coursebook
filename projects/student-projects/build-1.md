@@ -6,8 +6,8 @@
 | ------- | ---------------------------- |
 | 09:45   | Check-in                     |
 | 10:00   | Feedback Survey |
-| 10:10   | Intro to react-router-dom |
-| 10:30   | React-router-dom workshop |
+| 10:10   | Intro to client-side routing |
+| 10:30   | React routing workshop |
 | _13:00_ | _Lunch_                      |
 | 14:00   | Build                        |
 | 16:00   | [TFB Discovery Workshop][disc-workshop] |
