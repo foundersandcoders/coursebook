@@ -9,7 +9,7 @@
 | 10:10   | Intro to client-side routing |
 | 10:30   | React routing workshop |
 | _13:00_ | _Lunch_                      |
-| 14:00   | Build                        |
+| 14:00   | Routing challenge                        |
 | 16:00   | [TFB Discovery Workshop][disc-workshop] |
 | 17:45 | Checkout | 
 
