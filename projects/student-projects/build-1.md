@@ -5,15 +5,19 @@
 | Time    | Activity                     |
 | ------- | ---------------------------- |
 | 09:45   | Check-in                     |
-| 10:00   | Feedback Survey |
+| 10:00   | [Feedback Survey][feedback-10] |
 | 10:10   | Intro to client-side routing |
-| 10:30   | React routing workshop |
+| 10:30   | [DIY React Routing][routing-1-60] |
+| 11:30   | [React Router][routing-2-120] |
 | _13:00_ | _Lunch_                      |
 | 14:00   | Routing challenge                        |
 | 16:00   | [TFB Discovery Workshop][disc-workshop] |
 | 17:45 | Checkout | 
 
+[feedback-10]: https://airtable.com/shrIKQyPpx4vSUNzC
 [disc-workshop]: https://docs.google.com/presentation/d/10t83KG0ZHP5jKpxdL5HX8hkQDqvf2f01qJs-NkeqjX8/edit?usp=sharing
+[routing-1-60]: https://github.com/oliverjam/diy-react-routing
+[routing-2-120]: https://github.com/oliverjam/learn-react-router
 
 ## Day 2
 
@@ -46,7 +50,7 @@
 | 09:45   | Check-in                 |
 | 10:00   | Build                    |
 | _13:00_ | _Lunch_                  |
-| 14:00   | User Testing             |
+| 14:00   | User testing             |
 | 15:00   | Build                    |
 | 17:45   | Check-out                |
 
