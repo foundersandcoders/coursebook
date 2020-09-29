@@ -7,8 +7,8 @@
 | 09:45   | Check-in                     |
 | 10:00   | [Feedback Survey][feedback-10] |
 | 10:10   | Intro to client-side routing |
-| 10:30   | [React routing workshop I][routing-1-60] |
-| 11:30   | [React routing workshop I][routing-2-120] |
+| 10:30   | [DIY React Routing][routing-1-60] |
+| 11:30   | [React Router][routing-2-120] |
 | _13:00_ | _Lunch_                      |
 | 14:00   | Routing challenge                        |
 | 16:00   | [TFB Discovery Workshop][disc-workshop] |
