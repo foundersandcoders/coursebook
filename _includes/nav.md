@@ -84,10 +84,10 @@
   - [Sprint two](/projects/tech-for-better/build-2/)
   - [TFB presentation guidance](/projects/tech-for-better/presentation/)
   - [PO handover guidance](/projects/tech-for-better/po-handover/)
-- One Day Projects
+- ### One Day Projects
   - [Running a one day project](/projects/one-day-projects/)
 
 ## Precourse
 
-- [Precourse](/precourse/precourse/)
+- [Precourse](/precourse/)
 - [Installation list](/precourse/installation-list/)
