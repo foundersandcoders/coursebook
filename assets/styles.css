@@ -186,6 +186,7 @@ hr {
 }
 
 .global-nav {
+  scroll-padding-top: 2rem; /* so active link doesn't hit top of window */
   overflow-y: auto;
   position: fixed;
   top: 0;
