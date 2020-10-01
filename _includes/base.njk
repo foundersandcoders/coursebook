@@ -33,7 +33,10 @@
       </button>
       <nav id="globalNav" class="global-nav">
         <a href="/" aria-label="Home">{% include "logo.njk" %}</a>
-        {# {% include "nav2.html" %} #}
+
+        {% set nav %}{% include "nav.md" %}{% endset %}
+        {{ nav | markdown | safe}}
+
       </nav>
       <main id="main">
         <div class="main-wrapper">{{ content | safe }}</div>

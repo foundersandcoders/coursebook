@@ -33,6 +33,8 @@ module.exports = (config) => {
   md.use(markdownItTitle);
 
   config.setLibrary("md", md);
+
+  config.addFilter("markdown", (s) => md.render(s));
 };
 
 const html = String.raw;
