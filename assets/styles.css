@@ -51,8 +51,8 @@ html {
   --secondary: var(--blue);
   --tertiary: var(--green);
   --quarternary: var(--red);
-  --info-bg: hsl(220, 60%, 94%);
-  --info-fg: hsl(220, 60%, 30%);
+  --info-bg: hsl(50, 80%, 90%);
+  --info-fg: hsl(50, 50%, 20%);
   --border-title: 1px solid var(--bg-200);
 
   scroll-behavior: smooth;
