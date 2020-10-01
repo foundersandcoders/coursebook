@@ -278,17 +278,19 @@ hr {
 }
 
 .main-wrapper {
+  display: grid;
+  grid-template-columns: minmax(min-content, 64ch) 1fr;
   margin-right: auto;
   padding: var(--padding);
   line-height: 1.7;
 }
 
 .main-wrapper > * {
-  max-width: 64ch;
+  grid-column: 1 / 2;
 }
 
 .main-wrapper > table {
-  max-width: 100%;
+  grid-column: 1 / -1;
 }
 
 @media (min-width: 50em) {
