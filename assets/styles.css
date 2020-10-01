@@ -26,6 +26,7 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 html {
@@ -59,7 +60,6 @@ html {
 }
 
 body {
-  margin: 0;
   font-family: var(--font-sans);
   font-variant-numeric: tabular-nums; /* so numbers are all same width */
   color: var(--text-dark);
@@ -76,6 +76,26 @@ a:focus {
 ul,
 ol {
   padding-inline-start: 1.15em;
+}
+
+.main-wrapper {
+  display: grid;
+  grid-template-columns: minmax(min-content, 64ch) 1fr;
+  margin-right: auto;
+  padding: var(--padding);
+  line-height: 1.7;
+}
+
+.main-wrapper > * {
+  grid-column: 1 / 2;
+}
+
+.main-wrapper > table {
+  grid-column: 1 / -1;
+}
+
+.main-wrapper > * + * {
+  margin-top: var(--flow-space, 1rem);
 }
 
 table {
@@ -152,23 +172,23 @@ main h1 {
 }
 
 main h2 {
-  margin-top: 3rem;
+  --flow-space: 3rem;
   font-size: 1.5rem;
   border-top: var(--border-title);
   padding-top: 3rem;
 }
 
 main h1 + h2 {
-  margin-top: 0;
+  --flow-space: 0;
 }
 
 main h3 {
-  margin-top: 2rem;
+  --flow-space: 2rem;
   font-size: 1.25rem;
 }
 
 main h4 {
-  margin-top: 1.5rem;
+  --flow-space: 1.5rem;
   font-size: 1.125rem;
 }
 
@@ -180,13 +200,14 @@ blockquote {
 }
 
 hr {
-  margin: 3rem 0;
+  --flow-space: 3rem;
+  margin: var(--flow-space) 0;
   border: 0;
   border-top: var(--border-title);
 }
 
 .global-nav {
-  scroll-padding-top: 2rem; /* so active link doesn't hit top of window */
+  scroll-padding-top: 3rem; /* so active link doesn't hit top of window */
   overflow-y: auto;
   position: fixed;
   top: 0;
@@ -276,22 +297,6 @@ hr {
   border: 0;
   background-color: hsl(200, 10%, 82%);
   z-index: 10;
-}
-
-.main-wrapper {
-  display: grid;
-  grid-template-columns: minmax(min-content, 64ch) 1fr;
-  margin-right: auto;
-  padding: var(--padding);
-  line-height: 1.7;
-}
-
-.main-wrapper > * {
-  grid-column: 1 / 2;
-}
-
-.main-wrapper > table {
-  grid-column: 1 / -1;
 }
 
 @media (min-width: 50em) {
