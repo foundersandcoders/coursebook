@@ -43,25 +43,6 @@
       </main>
     </div>
     <script>
-      const main = document.querySelector("#main");
-      const globalNav = document.querySelector("#globalNav");
-      const toggleNav = document.querySelector("#toggleNav");
-      const closeNav = () => {
-        globalNav.classList.remove("active");
-      };
-
-      toggleNav.addEventListener("click", () => {
-        globalNav.classList.toggle("active");
-        if (globalNav.classList.contains("active")) {
-          main.addEventListener("click", closeNav, { once: true });
-          document.addEventListener(
-            "keydown",
-            (event) => event.key === "Escape" && closeNav(),
-            { once: true }
-          );
-        }
-      });
-
       {# ensure nav is always scrolled to current page's link #}
       const activeNav = document.querySelector("a[href='{{ page.url }}']");
       if (activeNav) {
@@ -69,5 +50,6 @@
         activeNav.setAttribute("aria-current", "page");
       }
     </script>
+    <script src="/assets/nav.js"></script>
   </body>
 </html>
