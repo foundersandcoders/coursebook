@@ -143,6 +143,11 @@ thead {
 main h1 {
   margin-top: 3rem;
   margin-bottom: 3rem;
+  text-decoration: underline;
+  text-decoration-color: var(--primary);
+  text-decoration-thickness: 0.5rem;
+  text-decoration-skip-ink: none;
+  text-underline-offset: -0.25rem;
   font-size: 2rem;
 }
 
@@ -151,6 +156,10 @@ main h2 {
   font-size: 1.5rem;
   border-top: var(--border-title);
   padding-top: 3rem;
+}
+
+main h1 + h2 {
+  margin-top: 0;
 }
 
 main h3 {
