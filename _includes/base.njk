@@ -61,6 +61,13 @@
           );
         }
       });
+
+      {# ensure nav is always scrolled to current page's link #}
+      const activeNav = document.querySelector("a[href='{{ page.url }}']");
+      if (activeNav) {
+        activeNav.scrollIntoView();
+        activeNav.setAttribute("aria-current", "page");
+      }
     </script>
   </body>
 </html>
