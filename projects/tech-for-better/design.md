@@ -18,28 +18,28 @@
 
 ## Day 2
 
+| Time    | Activity                  | Learning outcomes |
+| ------- | ------------------------- | ----------------- |
+| 09:45   | Check-in                  |                   |
+| 12:00   | Wireframing               |                   |
+| _13:00_ | _Lunch_                   |                   |
+| 14:00   | Wireframing               |                   |
+| 15:00   | Conduct Usability Testing |                   |
+| 17:00   | Speaker                   |                   |
+| 17:45   | Check-out                 |                   |
+
+## Day 3
+
 | Time    | Activity                 | Learning outcomes |
 | ------- | ------------------------ | ----------------- |
 | 09:45   | Check-in                 |                   |
 | 10:00   | [PO Workshop][po-slides] |                   |
-| 12:00   | Wireframing              |                   |
+| 12:00   | Update Wireframe         |                   |
 | _13:00_ | _Lunch_                  |                   |
-| 14:00   | Wireframing              |                   |
-| 17:00   | Speaker                  |                   |
+| 14:00   | Employment Prep          |                   |
 | 17:45   | Check-out                |                   |
 
 [po-slides]: https://docs.google.com/presentation/d/1l2q87_ihk8HM7nnjHd2O1Ufe5dePz_0iX7WdDO412_k/edit?usp=sharing
-
-## Day 3
-
-| Time    | Activity                  | Learning outcomes |
-| ------- | ------------------------- | ----------------- |
-| 09:45   | Check-in                  |                   |
-| 10:00   | Conduct Usability Testing |                   |
-| 12:00   | Update Wireframe          |                   |
-| _13:00_ | _Lunch_                   |                   |
-| 14:00   | Employment Prep           |                   |
-| 17:45   | Check-out                 |                   |
 
 ## Day 4
 

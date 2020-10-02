@@ -5,7 +5,8 @@
 | Time    | Activity                     |
 | ------- | ---------------------------- |
 | 09:45   | Check-in                     |
-| 10:00   | Reach out to Project Mentors & Role mentors |
+| 10:00 | Feedback Survey |
+| 10:10   | Reach out to Project Mentors & Role mentors |
 | 10:30   | Build                        |
 | _13:00_ | _Lunch_                      |
 | 14:00   | Build       |
