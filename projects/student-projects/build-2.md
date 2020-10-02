@@ -5,7 +5,7 @@
 | Time    | Activity        |
 | ------- | --------------- |
 | 09:45   | Check-in        |
-| 10:00   | feedback survey |
+| 10:00   | Feedback survey |
 | 10:10   | Build           |
 | _13:00_ | _Lunch_         |
 | 14:00   | Build           |
