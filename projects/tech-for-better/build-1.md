@@ -5,10 +5,10 @@
 | Time    | Activity                     |
 | ------- | ---------------------------- |
 | 09:45   | Check-in                     |
-| 10:00   | Reach out to Project Mentors & Role mentors |
-| 10:30   | Build                        |
+| 10:00   | Feedback Survey              |
+| 10:10   | Build                        |
 | _13:00_ | _Lunch_                      |
-| 14:00   | Build       |
+| 14:00   | Build                        |
 | 17:45   | Check-out                    |
 
 ## Day 2
@@ -19,6 +19,7 @@
 | 10:00   | Build     |
 | _13:00_ | _Lunch_   |
 | 14:00   | Build     |
+| 17:00   | Speaker     |
 | 17:45   | Check-out |
 
 ## Day 3
@@ -28,9 +29,10 @@
 | 09:45   | Check-in        |
 | 10:00   | Build           |
 | _13:00_ | _Lunch_         |
-| 14:00   | Employment Prep |
-| 17:00   | Speaker         |
-| 17:45   | Check-out       |
+| 14:00   | Employment: Tech tests |
+| 16:15   | Check-out       |
+| 16:30   | Meetups         |
+| 18:00   | _End_         |
 
 ## Day 4
 
@@ -39,8 +41,8 @@
 | 09:45   | Check-in     |
 | 10:00   | Build        |
 | _13:00_ | _Lunch_      |
-| 14:00   | Build        |
-| 15:00   | User Testing |
+| 14:00   | User Testing |
+| 15:00   | Build        |
 | 17:45   | Check-out    |
 
 ## Day 5
@@ -54,7 +56,7 @@
 | _13:00_ | _Lunch_                         |
 | 14:00   | Presentations                   |
 | 15:30   | Cohort SGC                      |
-| 16:15   | Team SGC (Sprint Retrospective) |
+| 16:15   | Team SGC                        |
 | 17:00   | Speaker                         |
 | 17:45   | Check-out                       |
 
