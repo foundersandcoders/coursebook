@@ -60,11 +60,13 @@
 | Time  | Activity                |
 | ----- | ----------------------- |
 | 09:45 | Check-in                |
-| 10:00 | Sprint Planning w/ PO   |
-| 12:00 | Presentation Prep       |
+| 10:00 | Speaker                 | 
+| 11:00 | Sprint Planning w/ PO   |
 | 13:00 | _Lunch_                 |
-| 14:00 | Presentations           |
-| 15:30 | Cohort Stop Go Continue |
-| 16:15 | Team Stop Go Continue   |
-| 16:45 | Update user manuals     |
-| 17:00 | Speaker                 |
+| 14:00 | Remaining spike         |
+| 14:15 | Presentation Prep       |
+| 15:00 | Presentations           |
+| 16:30 | Cohort Stop Go Continue |
+| 17:15 | Team Stop Go Continue   |
+| 17:45 | Check out               |
+| 18:00 | _End_                   |
