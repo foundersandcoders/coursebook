@@ -50,8 +50,8 @@
 | Time    | Activity                        |
 | ------- | ------------------------------- |
 | 09:45   | Check-in                        |
-| 10:00   | Code Review                     |
-| 11:00   | Sprint Review                   |
+| 10:00   | Sprint Review                   |
+| 11:00   | Sprint Planning                 |
 | 12:00   | Presentation Prep               |
 | _13:00_ | _Lunch_                         |
 | 14:00   | Presentations                   |
