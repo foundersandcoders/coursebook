@@ -14,8 +14,6 @@ It's easy for your first reaction to be "I suck at this, no one else has these p
 
 Make sure you stop and understand exactly what went wrong before you start trying to fix it. Otherwise you might go down an entirely wrong path, which will make it harder to figure out what the real original problem was later.
 
-### Read the question
-
 What were you actually trying to do? Do you have a good idea in your head of what the code you wrote _should_ do? If you're working on a specific project feature or workshop problem make sure you've read it properly and understood the edge-cases. If you're following some documentation make sure you've re-read exactly how it works.
 
 E.g. What arguments does this function take? What type of thing does it return? Is it asynchronous?
@@ -34,7 +32,7 @@ Uncaught TypeError: arr.join is not a function
     at run (index.html:14)
 ```
 
-The first part tells us that our code encountered a "type error". This means we tried to use a value in an impossible way. E.g. accessing a property on `undefined` instead of an object.
+The first part tells us that our code encountered a "type error". This means we tried to use a value in an impossible way. E.g. accessing a property on `undefined` instead of an object. This is probably the most common cause of JS errors and is worth eliminating as a possibility before moving on.
 
 The second part tells us we tried to call the `.join()` method of a variable named `arr`, but it was not a function (and so could not be called). Since `.join()` is a built-in method (and therefore all arrays will have it) this probably means `arr` is not actually an array.
 
