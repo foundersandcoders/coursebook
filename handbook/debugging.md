@@ -50,6 +50,12 @@ Ideally this will return GitHub issues on the repo for the library you're using,
 
 Once you understand what's wrong you need to fix your code. If you found an easy solution to your problem this might be simple, but sometimes it will require experimentation.
 
+### Make sure your code is running
+
+Always check that the code you think is executing _really is_. It's surprisingly common to be refreshing the deployed production site wondering why your local changes aren't showing up.
+
+Make sure the function you're changing is actually getting called, and if there are any branches in logic (e.g. `if` statements) that you're in the one you expect. This can be as simple as including a `console.log("here!")`, or as complex as stepping through your code using your [browser's debugger](https://javascript.info/debugging-chrome).
+
 ### Change one thing
 
 The biggest mistake beginners make when trying to fix a problem is changing multiple things at once. As with scientific experiments you should only ever change one thing at a time. This ensures that you know exactly what change was the right one.
