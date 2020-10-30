@@ -51,9 +51,11 @@
 | 09:45   | Check-in                                   |
 | 10:00   | [Handover prep](./po-handover.md)          |
 | 11:00   | Product Handover                           |
+| 12:15   | [Presentation Prep](./tfb-presentation.md) |
 | _13:00_ | _Lunch_                                    |
-| 14:00   | [Presentation Prep](./tfb-presentation.md) |
-| 15:00   | Presentations                              |
-| 16:30   | Cohort SGC                                 |
-| 17:15   | Team SGC             |
+| 14:00   | Presentations                              |
+| 15:30   | Cohort SGC                                 |
+| 16:15   | Team SGC             |
+| 16:45   | User manuals                                  |
+| 17:00   | Speaker                                  |
 | 17:45   | Check-out                                  |
