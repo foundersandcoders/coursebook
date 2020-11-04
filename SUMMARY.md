@@ -68,9 +68,10 @@
   - [Resources](curriculum/reading-week/resources.md)
 
 ## Projects
+
 - Roles
-    - [Mentor roles](projects/roles/mentors.md)
-    - [Student roles](projects/roles/project-team.md)
+  - [Mentor roles](projects/roles/mentors.md)
+  - [Student roles](projects/roles/project-team.md)
 - Student project
   - [Learning Outcomes](projects/design-week/learning-outcomes.md)
   - [Design week](projects/student-projects/design.md)
