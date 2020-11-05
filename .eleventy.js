@@ -6,8 +6,7 @@ const markdownItTitle = require("markdown-it-title");
 
 module.exports = (config) => {
   // copy fonts & styles straight to output
-  config.addPassthroughCopy("assets/fonts");
-  config.addPassthroughCopy("assets/styles.css");
+  config.addPassthroughCopy("assets");
 
   // merges directory-level data with template-specific data when keys clash
   config.setDataDeepMerge(true);

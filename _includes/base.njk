@@ -32,7 +32,9 @@
         </svg>
       </button>
       <nav id="globalNav" class="global-nav">
-        <a href="/" aria-label="Home">{% include "logo.njk" %}</a>
+        <a href="/" aria-label="Home">
+          <img src="/assets/images/logo.svg" width="140" alt="">
+        </a>
 
         {% set nav %}{% include "nav.md" %}{% endset %}
         {{ nav | markdown | safe}}
