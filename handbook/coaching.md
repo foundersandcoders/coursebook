@@ -49,9 +49,9 @@ In a group of two, each round should be no longer than 40 minutes, even if a pro
 
 The facilitator can introduce a new role:
 
-3. Helper
+3. Research assistant
 
-In a three-person group, the Driver should take an even more passive role and the Navigator should direct their dialogue about the problem to their Helper. The Driver can relax and let the other two group members do the work—unless they are asked for input.
+In a three-person group, the Driver should take an even more passive role and the Navigator should direct their dialogue about the problem to their Research assistant, who is also free to search online for answers. The Driver can relax and let the other two group members do the work—unless they are asked for input.
 
 After a problem has been solved, the Driver will then have an opportunity to ask questions about the solution, to offer alternative solutions, and to offer their reflections to the group, a role that in a less-experienced, two-person group would be played by the facilitator.
 
