@@ -1,4 +1,4 @@
-# A list for future of employment schedule and material delivered in FAC20
+# Employment schedule and material delivered in FAC20
 
 ## [The employment curriculum](https://hackmd.io/jY8pyE7iTWaThtkuUNgSjw)
 
@@ -8,9 +8,7 @@
 - [Week 5 Twitter](https://hackmd.io/Qb1vbesIS2enTaRUYdD09A)
 - [Week 6 LinkedIn](https://hackmd.io/lLUSUXWZSTe47AwLHeNhMg)
 - [Week 7 Employment mentor planning](https://hackmd.io/6S_2xAffSzuI7TQVT8yT8g)
-
 - Reading week Employment mentor intro
-
 - [Week 9 Portfolio site](https://hackmd.io/sK2PqWRvTmmAizCcuwhd2g)
 
 ### In React pairs
