@@ -71,8 +71,9 @@
 | Time  | Activity            |
 | ----- | ------------------- |
 | 09:45 | Check-in            |
-| 10:00 | Code review         |
-| 11:00 | Respond to issues   |
+| 10:00 | Team code review    |
+| 10:45 | Live code review    |
+| 11:15 | Respond to issues   |
 | 12:00 | Role circles        |
 | 12:15 | Presentation prep   |
 | 13:00 | _Lunch_             |
