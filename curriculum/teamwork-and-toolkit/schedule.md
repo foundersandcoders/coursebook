@@ -38,7 +38,7 @@
 
 | Time    | Activity                             | Learning outcomes                  |
 | ------- | ------------------------------------ | ---------------------------------- |
-| 09:45   | Hello from Kat, pastoral mentor      |                                    |
+| 09:45   | Hello from pastoral mentor           |                                    |
 | 09:50   | Check-in                             |                                    |
 | 10:00   | Spike prep                           |                                    |
 | 10:10   | [Spike presentations][spike-pres-50] | Presenting and learning CSS & a11y |
@@ -62,7 +62,7 @@
 
 | Time    | Activity                                    | Learning outcomes      |
 | ------- | ------------------------------------------- | ---------------------- |
-| 09:45   | Hello from Joko, pastoral mentor            |                        |
+| 09:45   | Hello from pastoral mentor                  |                        |
 | 09:50   | Check-in                                    |                        |
 | 10:00   | [Learn HTML forms][learn-forms-60]          | HTML forms             |
 | 11:00   | [Intro to project management][pm-slides-15] | Managing tech projects |
@@ -77,14 +77,14 @@
 
 ## Day 4
 
-| Time    | Activity                            | Learning outcomes |
-| ------- | ----------------------------------- | ----------------- |
-| 09:45   | Hello from Charlie, pastoral mentor |                   |
-| 09:50   | Check-in                            |                   |
-| 10:00   | [Projects][project-info]            |                   |
-| _13:00_ | _Lunch_                             |                   |
-| 14:00   | [Projects][project-info]            |                   |
-| 17:45   | Check-out                           |                   |
+| Time    | Activity                   | Learning outcomes |
+| ------- | -------------------------- | ----------------- |
+| 09:45   | Hello from pastoral mentor |                   |
+| 09:50   | Check-in                   |                   |
+| 10:00   | [Projects][project-info]   |                   |
+| _13:00_ | _Lunch_                    |                   |
+| 14:00   | [Projects][project-info]   |                   |
+| 17:45   | Check-out                  |                   |
 
 [project-info]: https://founders-and-coders.gitbook.io/coursebook/curriculum/teamwork-and-toolkit/project
 
@@ -92,7 +92,7 @@
 
 | Time  | Activity                                                | Learning outcomes                    |
 | ----- | ------------------------------------------------------- | ------------------------------------ |
-| 09:45 | Hello from Hannah, pastoral mentor                      |                                      |
+| 09:45 | Hello from pastoral mentor                              |                                      |
 | 09:50 | Check-in                                                |                                      |
 | 10:00 | [Team code review][intro-code-review-60]                | Peer reviewing code                  |
 | 10:45 | Live code review                                        | Mentor reviewing code                |
