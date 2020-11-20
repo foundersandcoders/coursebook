@@ -25,20 +25,20 @@
 
 ## Day 2
 
-| Time    | Activity                                           | Learning outcomes                                      |
-| ------- | -------------------------------------------------- | ------------------------------------------------------ |
-| 09:45   | Check-in                                           |                                                        |
-| 10:00   | Spike presentation prep                            |                                                        |
-| 10:10   | Spike presentations                                |                                                        |
-| 11:00   | [Design burst: layout and spacing][db-layout-30]   |                                                        |
-| 11:30   | [Layout and spacing workshop][db-layout-ws-30]     | CSS layout, flexbox                                    |
-| 12:15   | [Issue management & estimation][estimation-slides-15] | Managing and estimating GitHub issues               |
-| 12:30   | [Real world fetch][real-world-fetch-120]           | Pre-lunch reading, familiarise with topic              |
-| _13:00_ | _Lunch_                                            |                                                        |
-| 14:00   | [Real world fetch][real-world-fetch-120]           | Error handling, submitting data, `fetch` with forms    |
-| 16:00   | Tech for Better                                    | Social impact at FAC and the Tech for Better Programme |
-| 17:00   | Speaker                                            |                                                        |
-| 17:45   | Checkout                                           |                                                        |
+| Time    | Activity                                              | Learning outcomes                                      |
+| ------- | ----------------------------------------------------- | ------------------------------------------------------ |
+| 09:45   | Check-in                                              |                                                        |
+| 10:00   | Spike presentation prep                               |                                                        |
+| 10:10   | Spike presentations                                   |                                                        |
+| 11:00   | [Design burst: layout and spacing][db-layout-30]      |                                                        |
+| 11:30   | [Layout and spacing workshop][db-layout-ws-30]        | CSS layout, flexbox                                    |
+| 12:15   | [Issue management & estimation][estimation-slides-15] | Managing and estimating GitHub issues                  |
+| 12:30   | [Real world fetch][real-world-fetch-120]              | Pre-lunch reading, familiarise with topic              |
+| _13:00_ | _Lunch_                                               |                                                        |
+| 14:00   | [Real world fetch][real-world-fetch-120]              | Error handling, submitting data, `fetch` with forms    |
+| 16:00   | Tech for Better                                       | Social impact at FAC and the Tech for Better Programme |
+| 17:00   | Speaker                                               |                                                        |
+| 17:45   | Checkout                                              |                                                        |
 
 [db-layout-30]: http://facresources.com/slides/design-burst-week2.html
 [db-layout-ws-30]: https://github.com/bobbysebolao/learn-layout-spacing
@@ -73,8 +73,9 @@
 | Time  | Activity            |
 | ----- | ------------------- |
 | 09:45 | Check-in            |
-| 10:00 | Code review         |
-| 11:00 | Respond to issues   |
+| 10:00 | Team code review    |
+| 10:45 | Live code review    |
+| 11:15 | Respond to issues   |
 | 12:15 | Presentation prep   |
 | 13:00 | _Lunch_             |
 | 14:00 | Presentations       |

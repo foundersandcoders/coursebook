@@ -36,37 +36,38 @@
 
 ## Day 3
 
-| Time    | Activity                                    |
-| ------- | ------------------------------------------- |
-| 09:45   | Check-in                                    |
-| 10:00   | [Refactor classes to hooks][class-refactor] |
-| 11:00   | Project set-up & planning                   |
-| 11:30   | Project                                     |
-| _13:00_ | _Lunch_                                     |
-| 14:00   | Project                                     |
-| 16:00   | Student Project idea selection              |
-| 16:30   | [Employment:  CVs and cover letters](https://hackmd.io/@fac/r1Ub4MREw)|
-| 17:45   | Check out                                   |
+| Time    | Activity                                                              |
+| ------- | --------------------------------------------------------------------- |
+| 09:45   | Check-in                                                              |
+| 10:00   | [Refactor classes to hooks][class-refactor]                           |
+| 11:00   | Project set-up & planning                                             |
+| 11:30   | Project                                                               |
+| _13:00_ | _Lunch_                                                               |
+| 14:00   | Project                                                               |
+| 16:00   | Student Project idea selection                                        |
+| 16:30   | [Employment: CVs and cover letters](https://hackmd.io/@fac/r1Ub4MREw) |
+| 17:45   | Check out                                                             |
 
 [class-refactor]: https://github.com/oliverjam/react-refactor-class-hooks
 
 ## Day 4
 
-| Time    | Activity |
-| ------- | -------- |
-| 09:45   | Check-in |
-| 10:00   | Project  |
-| _13:00_ | _Lunch_  |
-| 14:00   | Project  |
-| 17:45   | Check out|
+| Time    | Activity  |
+| ------- | --------- |
+| 09:45   | Check-in  |
+| 10:00   | Project   |
+| _13:00_ | _Lunch_   |
+| 14:00   | Project   |
+| 17:45   | Check out |
 
 ## Day 5
 
 | Time  | Activity               |
 | ----- | ---------------------- |
 | 09:45 | Check-in               |
-| 10:00 | Code review            |
-| 11:00 | Respond to issues      |
+| 10:00 | Team code review       |
+| 10:45 | Live code review       |
+| 11:15 | Respond to issues      |
 | 12:15 | Presentation prep      |
 | 13:00 | _Lunch_                |
 | 14:00 | Presentations          |
@@ -75,4 +76,3 @@
 | 16:45 | Update user Manuals    |
 | 17:00 | Speaker                |
 | 17:45 | Check out              |
-

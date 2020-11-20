@@ -24,22 +24,21 @@
 [project-5]: https://founders-and-coders.gitbook.io/coursebook/curriculum/testing/project
 [spikes-10]: https://founders-and-coders.gitbook.io/coursebook/curriculum/testing/spikes
 
-
 ## Day 2
 
-| Time    | Activity                              | Learning outcomes                      |
-| ------- | ------------------------------------- | -------------------------------------- |
-| 09:45   | Check-in                              |                                        |
-| 10:00   | Spike presentation prep               |                                        |
-| 10:10   | Spike presentations                   |                                        |
-| 11:00   | [TDD array methods][tdd-arrays-120]   | Test-Driven-Development, array methods |
-| _13:00_ | _Lunch_                               |                                        |
-| 14:00   | [Design burst: grids][db-grid-slides-30] | Grid layout, CSS Grid               |
-| 14:30   | [CSS Grid workshop][db-grid-ws-30]       | Grid layout, CSS Grid               |
-| 15:00   | Tech for Better - meet FAC19 POs      |                                        |
-| 16:00   | Tech for Better                       |                                        |
-| 17:00   | Speaker                               |                                        |
-| 17:45   | Checkout                              |                                        |
+| Time    | Activity                                 | Learning outcomes                      |
+| ------- | ---------------------------------------- | -------------------------------------- |
+| 09:45   | Check-in                                 |                                        |
+| 10:00   | Spike presentation prep                  |                                        |
+| 10:10   | Spike presentations                      |                                        |
+| 11:00   | [TDD array methods][tdd-arrays-120]      | Test-Driven-Development, array methods |
+| _13:00_ | _Lunch_                                  |                                        |
+| 14:00   | [Design burst: grids][db-grid-slides-30] | Grid layout, CSS Grid                  |
+| 14:30   | [CSS Grid workshop][db-grid-ws-30]       | Grid layout, CSS Grid                  |
+| 15:00   | Tech for Better - meet FAC19 POs         |                                        |
+| 16:00   | Tech for Better                          |                                        |
+| 17:00   | Speaker                                  |                                        |
+| 17:45   | Checkout                                 |                                        |
 
 [tdd-arrays-120]: https://github.com/oliverjam/tdd-array-methods
 [db-grid-slides-30]: https://hackmd.io/@fac/S1-95B9r8#/
@@ -47,15 +46,15 @@
 
 ## Day 3
 
-| Time    | Activity                       | Learning outcomes |
-| ------- | ------------------------------ | ----------------- |
-| 09:45   | Check-in                       |                   |
+| Time    | Activity                                               | Learning outcomes    |
+| ------- | ------------------------------------------------------ | -------------------- |
+| 09:45   | Check-in                                               |                      |
 | 10:00   | [Techniques for generating ideas][generating-ideas-30] | Inspiring creativity |
-| 10:30   | [Scope challenge][scope-mc-60] | Scope, closures   |
-| 11:30   | Project                        |                   |
-| _13:00_ | _Lunch_                        |                   |
-| 14:00   | Project                        |                   |
-| 17:45   | Checkout                       |                   |
+| 10:30   | [Scope challenge][scope-mc-60]                         | Scope, closures      |
+| 11:30   | Project                                                |                      |
+| _13:00_ | _Lunch_                                                |                      |
+| 14:00   | Project                                                |                      |
+| 17:45   | Checkout                                               |                      |
 
 [generating-ideas-30]: https://docs.google.com/presentation/d/1Sr3u9F4tl0x9eEssyeLL2tpC8yK8SrpgxcqOKysvpww/edit?usp=sharing
 [scope-mc-60]: https://github.com/oliverjam/js-scope-challenge
@@ -75,8 +74,9 @@
 | Time  | Activity            |
 | ----- | ------------------- |
 | 09:45 | Check-in            |
-| 10:00 | Code review         |
-| 11:00 | Respond to issues   |
+| 10:00 | Team code review    |
+| 10:45 | Live code review    |
+| 11:15 | Respond to issues   |
 | 12:15 | Presentation prep   |
 | 13:00 | _Lunch_             |
 | 14:00 | Presentations       |
