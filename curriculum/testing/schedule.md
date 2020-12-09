@@ -83,5 +83,5 @@
 | 15:15 | Cohort SGC          |
 | 16:00 | Team SGCs           |
 | 16:45 | Update user manuals |
-| 17:00 | Speaker             |
+| 17:00 | Roundtable          |
 | 17:45 | Checkout            |
