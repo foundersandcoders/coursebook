@@ -105,7 +105,7 @@
 | 15:30 | [Intro to Stop Go Continues (SGCs)][intro-retros-15]    | Reflection and retrospection at FAC  |
 | 15:45 | Cohort SGC                                              | How we can be better with each other |
 | 16:15 | Team SGC                                                | How we want to work with each other  |
-| 17:00 | Speaker                                                 |                                      |
+| 17:00 | Roundtable                                              |                                      |
 | 17:45 | Check-out                                               |                                      |
 
 [intro-code-review-60]: https://founders-and-coders.gitbook.io/coursebook/student-handbook/code-review
