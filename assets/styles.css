@@ -32,6 +32,7 @@
 html {
   --padding: clamp(1rem, 1rem + 4vw, 4rem);
   --font-sans: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+  --font-heading: "Eesti";
   --text-dark: hsl(220, 20%, 20%);
   --text-mid: hsl(220, 10%, 35%);
   --text-light: hsl(220, 10%, 50%);
@@ -144,7 +145,7 @@ h4,
 h5,
 h6,
 thead {
-  /* font-family: "Eesti", var(--font-sans); */
+  font-family: "Eesti";
   line-height: 1.1;
 }
 
@@ -167,8 +168,8 @@ main h1 {
   text-decoration-color: var(--primary);
   text-decoration-thickness: 0.5rem;
   text-decoration-skip-ink: none;
-  text-underline-offset: -0.25rem;
-  font-size: 2rem;
+  text-underline-offset: -0.5rem;
+  font-size: 3rem;
 }
 
 main h2 {
