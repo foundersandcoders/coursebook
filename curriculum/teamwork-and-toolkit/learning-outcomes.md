@@ -1,17 +1,11 @@
-# Learning Outcomes
-
-## Teamwork & Toolkit
-
-### Pair programming
+## Pair programming
 
 - [ ] **We can use pair programming techniques to work together**
 - [ ] We can work on one computer as a pair
 - [ ] We can use four different paired programming techniques
 - [ ] We can distribute commits evenly among team members
 
----
-
-### Version control
+## Version control
 
 - [ ] **We can use Git and GitHub as version control for our code**
 - [ ] We can initialise a Git repository so that we can track changes to our code over time
@@ -26,9 +20,7 @@
 - [ ] We can review other people’s pull requests to provide feedback on their code
 - [ ] We can delete branches that have been merged to keep our repo tidy
 
----
-
-### Accessibility
+## Accessibility
 
 - [ ] **We can make a website that is accessible by people other than ourselves**
 - [ ] We can structure a site using semantic HTML to aid accessibility
@@ -40,19 +32,13 @@
 - [ ] We can ensure our UI has sufficient colour contrast so that everyone can perceive it comfortably
 - [ ] We can use various tools (a screenreader, WCAG Contrast Checker Extension, the accessibility section of Chrome/ Firefox dev tools) to check that our website meets accessibility criteria
 
----
-
-## Design
-
-### Responsive design
+## Responsive design
 
 - [ ] **We can make our website display well on screens of different sizes**
 - [ ] We can use CSS media queries to ensure our content is always presented effectively
 - [ ] We can demonstrate a mobile-first approach to designing a website with a great user experience
 
----
-
-### Grid layout
+## Grid layout
 
 - [ ] **(CSS) We can use CSS Grid to apply responsive layouts to our website**
 - [ ] (Design) We can use an 8pt grid to create a consistent layout for our web pages

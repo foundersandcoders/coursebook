@@ -1,5 +1,3 @@
-# Technical spikes
-
 ## Accessibility
 
 How do you write markup so that your page is accessible to as many users as possible?
