@@ -1,3 +1,7 @@
+---
+nav: false
+---
+
 # Employment schedule and material delivered in FAC20
 
 ## [The employment curriculum](https://hackmd.io/jY8pyE7iTWaThtkuUNgSjw)

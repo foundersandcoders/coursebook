@@ -1,3 +1,7 @@
+---
+title: Coaching
+---
+
 # Guidelines for coaching sessions
 
 All participants are encouraged to read these notes.
@@ -99,9 +103,9 @@ Complete beginners may fall into any of the following patterns:
 - Not making appropriate use of a search engine;
 - Just out-and-out guessing without any sense of what they are doing.
 
-When the facilitator observes these behaviours and they are not corrected by the learners themselves, they can intervene with suggestive questions, starting with phrases like, *"Have you thought about...?"* or as a group gets more experienced, *"What step do you think we could take now to solve this problem?"* or *"Are we forgetting to do something here?"* or *"Do you remember what we did at this stage on the last problem we worked on together?"* or *"What other approaches could we take at this point?"*.
+When the facilitator observes these behaviours and they are not corrected by the learners themselves, they can intervene with suggestive questions, starting with phrases like, _"Have you thought about...?"_ or as a group gets more experienced, _"What step do you think we could take now to solve this problem?"_ or _"Are we forgetting to do something here?"_ or _"Do you remember what we did at this stage on the last problem we worked on together?"_ or _"What other approaches could we take at this point?"_.
 
-Only with complete beginners or where the group has become obviously stuck, should the facilitator consider being explicit with a solution, with a phrase like,*"Have you thought about...?"*. Using this sort of language will make it easier for other members of the group to begin to facilitate the problem-solving process, even when they themselves are unsure of the answer. If also allows the facilitator to continue to play a useful role in the group even when they are not sure of how they would solve a problem.
+Only with complete beginners or where the group has become obviously stuck, should the facilitator consider being explicit with a solution, with a phrase like,_"Have you thought about...?"_. Using this sort of language will make it easier for other members of the group to begin to facilitate the problem-solving process, even when they themselves are unsure of the answer. If also allows the facilitator to continue to play a useful role in the group even when they are not sure of how they would solve a problem.
 
 ## Advice to a complete beginner
 
