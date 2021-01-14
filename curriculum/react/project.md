@@ -1,5 +1,3 @@
-# React game project
-
 The goal is to build an interactive game-like thing that uses data from an API.
 
 ## Criteria
@@ -26,7 +24,7 @@ The goal is to build an interactive game-like thing that uses data from an API.
 
 [Let's Go Pokémon Battle](https://lets-go-pokemon-battle.netlify.app/)
 
-[Oli's Tamagotchi](https://tamagotchi.netlify.com)  
+[Oli's Tamagotchi](https://tamagotchi.netlify.com)
 
 [Zooey's Drake thing](https://fuckin-yolo.netlify.com/)
 

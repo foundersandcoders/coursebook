@@ -1,5 +1,3 @@
-# First Project
-
 Your challenge for the next couple of days is to build an agency website for your team.
 
 Your website should give potential clients:

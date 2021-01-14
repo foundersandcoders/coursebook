@@ -1,5 +1,3 @@
-# Learning Outcomes
-
 ## REST APIs
 
 ### HTTP & REST

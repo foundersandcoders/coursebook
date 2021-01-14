@@ -1,5 +1,3 @@
-# Resources
-
 ## Articles
 
 ### React docs

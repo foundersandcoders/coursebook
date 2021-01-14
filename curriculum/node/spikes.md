@@ -1,5 +1,3 @@
-# Technical spikes
-
 ## Deployment
 
 How can we deploy our Node server to a cloud provider like Heroku?

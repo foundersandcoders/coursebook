@@ -1,3 +1,5 @@
+# Project team
+
 ## QA
 
 ### Responsibilities
@@ -18,7 +20,6 @@
 - Set up deployment to Heroku and take ongoing responsibility
 - set up environment variables for local and remote databases
 
-
 ## Scrum Master
 
 ### Responsibilities
@@ -28,7 +29,6 @@
   - Break down larger issues into manageable chunks
 - Lead standups
 - Clear blocks
-
 
 ## UX Lead
 

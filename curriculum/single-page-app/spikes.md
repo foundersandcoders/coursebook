@@ -1,5 +1,3 @@
-# Technical spikes
-
 ## ES Modules
 
 How can we modularise our client-side JavaScript?

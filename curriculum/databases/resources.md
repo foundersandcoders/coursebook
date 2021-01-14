@@ -1,5 +1,3 @@
-# Database resources
-
 These resources are helpful extra reading that may clarify or enhance concepts you're learning in the main curriculum.
 
 - ### [Databases: how they work, and a brief history](https://seldo.com/posts/databases_how_they_work_and_a_brief_history)

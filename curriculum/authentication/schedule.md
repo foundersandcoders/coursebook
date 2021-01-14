@@ -1,5 +1,3 @@
-# Authentication week schedule
-
 ## Day 1
 
 | Time    | Activity                                           | Learning outcomes                     |

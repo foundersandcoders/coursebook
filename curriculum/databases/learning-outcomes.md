@@ -1,5 +1,3 @@
-# Learning Outcomes
-
 ## Databases
 
 - [ ] We can design and document a database schema

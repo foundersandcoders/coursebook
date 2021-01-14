@@ -1,5 +1,3 @@
-# Learning Outcomes
-
 ## React API
 
 - [ ] React's benefits / tradeoffs

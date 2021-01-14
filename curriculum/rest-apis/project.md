@@ -1,5 +1,3 @@
-# REST API project
-
 Your project this week is to build a REST API that returns JSON data. It should have endpoints for creating, reading, updating and deleting whatever resource you choose (tweets, blog posts, pets etc).
 
 ## User stories

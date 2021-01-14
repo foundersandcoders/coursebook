@@ -1,5 +1,3 @@
-# Learning Outcomes
-
 ## HTTP
 
 ### Asynchronicity

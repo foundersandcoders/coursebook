@@ -1,5 +1,3 @@
-# Technical spikes
-
 ## HTTPS
 
 How does HTTPS keep websites secure?

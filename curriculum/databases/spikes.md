@@ -1,5 +1,3 @@
-# Technical spikes
-
 ## Relational vs non-relational databases
 
 What's the difference between relational (SQL) and non-relational (NoSQL) databases?

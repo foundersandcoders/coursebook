@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ title }} | FAC Curriculum</title>
+    <title>{{ title }}</title>
     <link
       rel="preload"
       href="/assets/fonts/GT-Eesti-Text-Light-subset.woff2"
@@ -12,46 +12,18 @@
       crossorigin
     />
     <link href="/assets/styles.css" rel="stylesheet" />
-    <style>
-      .global-nav ul a[href="{{ page.url }}"] {
-        font-weight: 500;
-        color: var(--info-fg);
-        background-color: var(--info-bg);
-      }
-    </style>
   </head>
   <body>
-    <div class="page-wrapper">
-      <button id="toggleNav" class="toggle-nav">
-        <svg viewBox="0 0 20 20" width="24" height="24" fill="currentColor">
-          <path
-            fill-rule="evenodd"
-            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-            clip-rule="evenodd"
-          ></path>
-        </svg>
-      </button>
-      <nav id="globalNav" class="global-nav">
-        <a href="/" aria-label="Home">
-          <img src="/assets/images/logo.svg" width="140" alt="">
-        </a>
-
-        {% set nav %}{% include "nav.md" %}{% endset %}
-        {{ nav | markdown | safe}}
-
-      </nav>
-      <main id="main">
-        <div class="main-wrapper">{{ content | safe }}</div>
-      </main>
+    <div class="center">
+      <div class="layout">
+        <aside>
+          {% include "nav.njk" %}
+        </aside>
+        <main id="main">
+          <div class="main-wrapper flow">{{ content | safe }}</div>
+        </main>
+      </div>
     </div>
-    <script>
-      {# ensure nav is always scrolled to current page's link #}
-      const activeNav = document.querySelector("a[href='{{ page.url }}']");
-      if (activeNav) {
-        activeNav.scrollIntoView();
-        activeNav.setAttribute("aria-current", "page");
-      }
-    </script>
     <script src="/assets/nav.js"></script>
     <script type="module" src="/assets/checkboxen.js"></script>
   </body>

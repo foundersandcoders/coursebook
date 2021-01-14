@@ -1,1 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="-1 0 301 141"><defs><pattern id="a" width="5" height="5" patternUnits="userSpaceOnUse"><path stroke="#000" d="M-1 1l2-2M0 5l5-5M4 6l2-2"/></pattern></defs><path stroke="#000" d="M0 0h100v100H0z"/><path fill="#000" d="M0 0h100v50H0z"/><path fill="url(#a)" d="M50 50h50v50H50z"/><g><path stroke="#000" d="M108 100L158 0l50 100z"/><path fill="#000" d="M108 100l25-50 25 50zM158 100l25-50 25 50z"/><path fill="url(#a)" d="M125 50l25 50 25-50z" transform="translate(8)"/></g><g><circle cx="250" cy="50" r="50" stroke="#000"/><circle cx="250" cy="50" r="22" fill="url(#a)"/><path fill="#000" d="M250 0a1 1 0 010 100"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="-1 0 301 101">
+  <defs>
+    <pattern id="a" width="5" height="5" patternUnits="userSpaceOnUse">
+      <path stroke="#000" d="M-1 1l2-2M0 5l5-5M4 6l2-2"/>
+    </pattern>
+  </defs>
+  <path stroke="#000" d="M0 0h100v100H0z"/>
+  <path fill="#000" d="M0 0h100v50H0z"/>
+  <path fill="url(#a)" d="M50 50h50v50H50z"/>
+  <g>
+    <path stroke="#000" d="M108 100L158 0l50 100z"/>
+    <path fill="#000" d="M108 100l25-50 25 50zM158 100l25-50 25 50z"/>
+    <path fill="url(#a)" d="M125 50l25 50 25-50z" transform="translate(8)"/>
+  </g>
+  <g>
+    <circle cx="250" cy="50" r="50" stroke="#000"/>
+    <circle cx="250" cy="50" r="22" fill="url(#a)"/>
+    <path fill="#000" d="M250 0a1 1 0 010 100"/>
+  </g>
+</svg>
