@@ -1,5 +1,3 @@
-# Technical spikes
-
 ## Debugging JavaScript
 
 How would you effectively find out where (and why) an error is occurring in your JavaScript code?

@@ -1,5 +1,3 @@
-# Database project
-
 Your project this week is to build a web app that stores data in a PostgreSQL database.
 
 ## User stories

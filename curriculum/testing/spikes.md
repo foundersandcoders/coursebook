@@ -1,5 +1,3 @@
-# Technical spikes
-
 ## Advanced CSS
 
 How can we use advanced CSS features to create complex custom components?

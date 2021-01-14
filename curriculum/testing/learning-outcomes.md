@@ -1,5 +1,3 @@
-# Learning Outcomes
-
 ## Testing
 
 - [ ] **We can test the functionality of our app**

@@ -1,5 +1,3 @@
-# Learning Outcomes
-
 ## Authentication
 
 ### Password encryption

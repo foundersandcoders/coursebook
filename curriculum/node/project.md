@@ -1,5 +1,3 @@
-# Node project
-
 Your project this week is to build a microblogging site. It should allow users to submit their own posts and view all the posts submitted by others.
 
 **Note**: we aren't expecting the data to persist when the server restarts (we'll be looking at databases for this next week).

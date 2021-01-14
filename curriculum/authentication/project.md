@@ -1,5 +1,3 @@
-# Authentication project
-
 Your project this week is to build a web app that authenticates users and stores user-specific data in a PostgreSQL database.
 
 ## User stories

@@ -1,5 +1,3 @@
-# Technical spikes
-
 ## Cross-origin Resource Sharing
 
 What is CORS?

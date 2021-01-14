@@ -1,5 +1,3 @@
-# Learning Objectives
-
 ## Single-page app
 
 ### Client rendering
