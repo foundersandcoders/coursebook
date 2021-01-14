@@ -1,5 +1,6 @@
 const { html } = require("htm/preact");
 const render = require("preact-render-to-string");
+const RawContent = require("./RawContent");
 
 function App({ title, content, collections, page }) {
   return html`
@@ -23,17 +24,8 @@ function App({ title, content, collections, page }) {
             <aside>
               <${Nav} collections=${collections} page=${page} />
             </aside>
-            <main id="main">
-              <!-- e.g. markdown pages will have string content -->
-              ${typeof content === "string"
-                ? html`
-                    <div
-                      class="main-wrapper flow"
-                      dangerouslySetInnerHTML=${{ __html: content }}
-                    />
-                  `
-                : html`<div class="main-wrapper flow">${content}</div>`}
-            </main>
+            <!-- e.g. markdown pages will have string content -->
+            <${RawContent} as="main" id="main">${content}</${RawContent}>
           </div>
         </div>
         <script src="/assets/nav.js"></script>

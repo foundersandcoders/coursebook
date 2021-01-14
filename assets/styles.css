@@ -112,11 +112,13 @@ summary {
   width: 1px;
 }
 
+main {
+  padding: var(--padding);
+}
+
 .main-wrapper {
   display: grid;
   grid-template-columns: minmax(min-content, 65ch) 1fr;
-  margin-right: auto;
-  padding: var(--padding);
   line-height: 1.7;
 }
 

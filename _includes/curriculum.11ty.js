@@ -1,4 +1,5 @@
 const { html } = require("htm/preact");
+const RawContent = require("./RawContent");
 
 exports.data = {
   layout: "_document",
@@ -6,6 +7,7 @@ exports.data = {
 
 exports.render = ({ week, section, page, content }) => {
   return html`
+    <div class="vstack" style="--gap: 2rem">
     <header class="vstack" style="--gap: 1.5rem">
       <!-- visually hide title since it's duplicated in the tabs below -->
       <h1>${week} <span class="vh">${section}</span></h1>
@@ -32,14 +34,8 @@ exports.render = ({ week, section, page, content }) => {
         </ul>
       </nav>
     </header>
-    ${
-      typeof content === "string"
-        ? html` <div
-            class="flow"
-            dangerouslySetInnerHTML=${{ __html: content }}
-          />`
-        : html` <div class="main-wrapper flow">${content}</div> `
-    }
+    <${RawContent} class="main-wrapper flow">${content}</${RawContent}>
+    </div>
 `;
 };
 
