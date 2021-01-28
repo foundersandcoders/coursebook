@@ -16,7 +16,7 @@ function App({ title, content, collections, page }) {
           type="font/woff2"
           crossorigin
         />
-        <link href="/assets/styles.css" rel="stylesheet" />
+        <link href="/assets/css/syntax-highlighting.css" rel="stylesheet" />
       </head>
       <body>
         <div class="center">
