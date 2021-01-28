@@ -69,6 +69,10 @@ body {
   background-color: var(--body-bg);
 }
 
+[hidden] {
+  display: none !important;
+}
+
 a {
   color: var(--secondary);
 }
@@ -102,6 +106,21 @@ summary {
   user-select: none;
 }
 
+input {
+  width: 100%;
+  border: 0;
+  padding: 1rem;
+  font: inherit;
+}
+
+button {
+  border: 0;
+  padding: 1rem;
+  font: inherit;
+  font-weight: bold;
+  background-color: var(--bg-400);
+}
+
 .vh {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -118,7 +137,7 @@ main {
 
 .main-wrapper {
   display: grid;
-  grid-template-columns: minmax(min-content, 65ch) 1fr;
+  grid-template-columns: minmax(0, 65ch) 1fr;
   line-height: 1.7;
 }
 
@@ -143,12 +162,13 @@ main {
   display: grid;
   gap: var(--gap, 1rem);
   align-content: start;
+  padding: var(--pad);
 }
 
 .hstack {
   display: flex;
   gap: var(--gap, 1rem);
-  align-items: center;
+  align-items: var(--align, center);
 }
 
 table {
@@ -181,7 +201,6 @@ code {
   padding: 0.25rem 0.35rem;
   font-family: ui-monospace, Monaco, Consolas, monospace;
   font-size: 0.875em;
-  font-weight: 600;
   background-color: var(--bg-700);
 }
 
@@ -211,16 +230,6 @@ thead {
 .heading-anchor:focus,
 *:hover > .heading-anchor {
   opacity: 1;
-}
-
-main h1 {
-  text-decoration: underline;
-  text-decoration-color: var(--primary);
-  text-decoration-thickness: 0.75rem;
-  text-decoration-skip-ink: none;
-  text-underline-offset: -0.75rem;
-  font-size: 4rem;
-  font-size: clamp(2rem, 2rem + 2vw, 4rem);
 }
 
 main h2 {
@@ -475,4 +484,38 @@ hr {
     border-bottom-color: transparent;
     background-color: var(--body-bg);
   }
+}
+
+.stripes {
+  --stripe: var(--bg-400);
+  background-image: repeating-linear-gradient(
+    -45deg,
+    var(--stripe),
+    var(--stripe) 2px,
+    transparent 2px,
+    transparent 8px
+  );
+}
+
+.highlight > * {
+  display: inline;
+  background: var(--bg, white);
+  padding: 0.25rem 0.5rem;
+  line-height: 1.4;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+copy-text {
+  border: 0.25rem solid var(--bg-400);
+}
+
+copy-text > input {
+  font-family: ui-monospace, Monaco, Consolas, monospace;
+}
+
+copy-text > button {
+  border-left: inherit;
+  display: grid;
+  place-content: center;
 }

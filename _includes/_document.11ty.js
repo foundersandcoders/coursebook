@@ -2,7 +2,7 @@ const { html } = require("htm/preact");
 const render = require("preact-render-to-string");
 const RawContent = require("./RawContent");
 
-function App({ title, content, collections, page }) {
+function App({ title, styles = [], scripts = [], content, collections, page }) {
   return html`
     <html lang="en">
       <head>
@@ -16,7 +16,9 @@ function App({ title, content, collections, page }) {
           type="font/woff2"
           crossorigin
         />
+        <link href="/assets/css/styles.css" rel="stylesheet" />
         <link href="/assets/css/syntax-highlighting.css" rel="stylesheet" />
+        ${styles.map((href) => html`<link href="${href}" rel="stylesheet" />`)}
       </head>
       <body>
         <div class="center">
@@ -28,8 +30,10 @@ function App({ title, content, collections, page }) {
             <${RawContent} as="main" id="main">${content}</${RawContent}>
           </div>
         </div>
-        <script src="/assets/nav.js"></script>
-        <script type="module" src="/assets/checkboxen.js"></script>
+        <script src="/assets/js/nav.js"></script>
+        <script type="module" src="/assets/js/checkboxen.js"></script>
+        ${scripts.map((src) => html`<script src="${src}"></script>`)}
+
       </body>
     </html>
   `;
