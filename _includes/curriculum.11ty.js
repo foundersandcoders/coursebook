@@ -2,7 +2,7 @@ const { html } = require("htm/preact");
 const RawContent = require("./RawContent");
 
 exports.data = {
-  layout: "_document",
+  layout: "base",
 };
 
 exports.render = ({ week, section, page, content }) => {
