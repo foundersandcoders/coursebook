@@ -6,6 +6,7 @@ const markdownItTitle = require("markdown-it-title");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = (config) => {
+  config.addWatchTarget("styles");
   // copy fonts & styles straight to output
   config.addPassthroughCopy("assets");
 

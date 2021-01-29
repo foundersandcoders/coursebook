@@ -7,13 +7,22 @@ exports.data = {
   scripts: ["/assets/js/copy-text.js"],
 };
 
-exports.render = ({ title, description, content, page }) => {
+exports.render = ({ title, description, tags = [], page, content }) => {
   return html`
-    <div class="vstack" style="--gap: 2rem">
-      <header class="vstack stripes" style="--gap: 1.5rem; --pad: 2rem">
-        <div class="highlight" style="--bg: var(--primary)"><h1>${title}</h1></div>
-        <div class="highlight">
-          <p class="intro">${description}</p>
+    <div class="vstack" style="gap: 6rem">
+      <header class="vstack gap-xl pad-xl stripes">
+        <div class="vstack"  data-gap="md">
+          <h1 class="highlight" style="--bg: var(--primary)">${title}</h1>
+          <p class="highlight fz-lg">${description}</p>
+          <ul class="hstack gap-sm wrap">
+            ${tags.map(
+              (tag) => html`
+                <li class="highlight fz-sm fw-bold" style="--bg: var(--bg-400)">
+                  ${tag}
+                </li>
+              `
+            )}
+          </ul>
         </div>
         <${Copy} ...${page} />
       </header>
@@ -26,10 +35,13 @@ function Copy({ url, fileSlug }) {
   const command = `npx degit foundersandcoders/coursebook${url}#main ${fileSlug}`;
   return html`
     <div>
-      <div class="highlight" style="--bg: var(--bg-400)">
-        <label for="download-command">Download via CLI</label>
-      </div>
-      <copy-text class="hstack" style="--gap: 0; --align: stretch">
+      <label
+        for="download-command"
+        class="highlight fw-bold"
+        style="--bg: var(--bg-400)"
+        >Download files via CLI</label
+      >
+      <copy-text class="hstack gap-none align-stretch">
         <input id="download-command" readonly value="${command}" />
         <button aria-label="Copy" title="Copy" hidden>
           <svg

@@ -4,6 +4,10 @@ description: In JavaScript functions are treated like any other variable. This i
 setup:
   - Open `workshop.html` in your editor
   - Write new code inside the `<script>` tag
+tags:
+  - js
+  - functions
+  - fundamentals
 ---
 
 ## Functions are variables

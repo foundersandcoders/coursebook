@@ -121,16 +121,6 @@ button {
   background-color: var(--bg-400);
 }
 
-.vh {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-}
-
 main {
   padding: var(--padding);
 }
@@ -152,23 +142,6 @@ main {
 .main-wrapper > img,
 .main-wrapper > pre {
   grid-column: 1 / -1;
-}
-
-.flow > * + * {
-  margin-top: var(--flow-space, 1rem);
-}
-
-.vstack {
-  display: grid;
-  gap: var(--gap, 1rem);
-  align-content: start;
-  padding: var(--pad);
-}
-
-.hstack {
-  display: flex;
-  gap: var(--gap, 1rem);
-  align-items: var(--align, center);
 }
 
 table {
@@ -264,19 +237,6 @@ hr {
   margin: var(--flow-space) 0;
   border: 0;
   border-top: var(--border-title);
-}
-
-.center {
-  max-width: var(--measure, 80rem);
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.pill {
-  max-width: max-content;
-  padding: var(--pad, 0.75rem);
-  font-size: var(--fz, 1rem);
-  background-color: var(--bg, var(--primary));
 }
 
 /*
@@ -497,8 +457,8 @@ hr {
   );
 }
 
-.highlight > * {
-  display: inline;
+.highlight {
+  max-width: max-content;
   background: var(--bg, white);
   padding: 0.25rem 0.5rem;
   line-height: 1.4;
