@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+a {
+  color: var(--secondary);
+}
+
+a:focus {
+  outline: 2px dashed var(--bg-100);
+  outline-offset: 2px;
+}
+
+a[class] {
+  text-decoration: none;
+}
+
+*:focus:not(:focus-visible) {
+  outline: 0;
+}
+
+ul,
+ol {
+  padding-inline-start: 1.15em;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+  list-style: none;
+}
+
+summary {
+  cursor: pointer;
+  user-select: none;
+}
+
+input {
+  width: 100%;
+  border: 0;
+  padding: 1rem;
+  font: inherit;
+}
+
+button {
+  border: 0;
+  padding: 1rem;
+  font: inherit;
+  font-weight: bold;
+  background-color: var(--bg-400);
+}

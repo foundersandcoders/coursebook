@@ -26,6 +26,10 @@
   align-items: stretch;
 }
 
+.hstack.justify-between {
+  justify-content: space-between;
+}
+
 .vstack {
   display: grid;
   gap: 1rem;

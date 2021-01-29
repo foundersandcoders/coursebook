@@ -2,7 +2,7 @@ const { html } = require("htm/preact");
 const RawContent = require("./RawContent");
 
 exports.data = {
-  layout: "_document",
+  layout: "base",
   styles: ["/assets/css/workshop.css"],
   scripts: ["/assets/js/copy-text.js"],
 };
