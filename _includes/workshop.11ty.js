@@ -14,6 +14,15 @@ exports.render = ({ title, description, tags = [], page, content }) => {
         <div class="vstack"  data-gap="md">
           <h1 class="highlight" style="--bg: var(--primary)">${title}</h1>
           <p class="highlight fz-lg">${description}</p>
+          <ul class="hstack gap-sm wrap">
+            ${tags.map(
+              (tag) => html`
+                <li class="highlight fz-sm fw-bold" style="--bg: var(--bg-400)">
+                  ${tag}
+                </li>
+              `
+            )}
+          </ul>
         </div>
         <${Copy} ...${page} />
       </header>
