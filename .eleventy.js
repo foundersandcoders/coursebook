@@ -3,6 +3,7 @@ const markdownItAnchor = require("markdown-it-anchor");
 const slugify = require("@sindresorhus/slugify");
 const markdownItTaskLists = require("markdown-it-task-lists");
 const markdownItTitle = require("markdown-it-title");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = (config) => {
   // copy fonts & styles straight to output
@@ -30,6 +31,8 @@ module.exports = (config) => {
 
   // set first title in .md files as data.title
   md.use(markdownItTitle);
+
+  config.addPlugin(syntaxHighlight);
 
   config.setLibrary("md", md);
 

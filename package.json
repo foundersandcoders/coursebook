@@ -20,6 +20,7 @@
   "homepage": "https://github.com/foundersandcoders/coursebook#readme",
   "dependencies": {
     "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.6",
     "@sindresorhus/slugify": "^1.1.0",
     "htm": "^3.0.4",
     "markdown-it": "^11.0.0",
