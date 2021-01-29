@@ -5,7 +5,7 @@ module.exports = {
     // since this would show up on GitHub and look weird
     // https://www.11ty.dev/docs/data-computed/
     if (data.page.fileSlug === "README") {
-      return "/";
+      return "/about/index.html";
     } else {
       return data.permalink;
     }

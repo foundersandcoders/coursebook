@@ -16,10 +16,12 @@ html {
   --bg-800: hsl(220, 20%, 96%);
   --bg-900: hsl(220, 20%, 98%);
   --green: #00be00;
-  --yellow: #ffe500;
+  --yellow: hsl(54, 100%, 50%);
+  --yellow-dark: hsl(54, 100%, 46%);
   --blue: #0805ec;
   --red: #ff2800;
   --primary: var(--yellow);
+  --primary-dark: var(--yellow-dark);
   --secondary: var(--blue);
   --tertiary: var(--green);
   --quarternary: var(--red);
@@ -361,38 +363,4 @@ hr {
     border-bottom-color: transparent;
     background-color: var(--body-bg);
   }
-}
-
-.stripes {
-  --stripe: var(--bg-400);
-  background-image: repeating-linear-gradient(
-    -45deg,
-    var(--stripe),
-    var(--stripe) 2px,
-    transparent 2px,
-    transparent 8px
-  );
-}
-
-.highlight {
-  max-width: max-content;
-  background: var(--bg, white);
-  padding: 0.25rem 0.5rem;
-  line-height: 1.4;
-  box-decoration-break: clone;
-  -webkit-box-decoration-break: clone;
-}
-
-copy-text {
-  border: 0.25rem solid var(--bg-400);
-}
-
-copy-text > input {
-  font-family: ui-monospace, Monaco, Consolas, monospace;
-}
-
-copy-text > button {
-  border-left: inherit;
-  display: grid;
-  place-content: center;
 }

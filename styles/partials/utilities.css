@@ -8,59 +8,6 @@
   width: 1px;
 }
 
-.flow > * + * {
-  margin-top: var(--flow-space, 1rem);
-}
-
-.hstack {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-}
-
-.hstack.wrap {
-  flex-wrap: wrap;
-}
-
-.hstack.align-stretch {
-  align-items: stretch;
-}
-
-.hstack.justify-between {
-  justify-content: space-between;
-}
-
-.vstack {
-  display: grid;
-  gap: 1rem;
-  align-content: start;
-}
-
-.hstack.gap-none,
-.vstack.gap-none {
-  gap: 0;
-}
-
-.hstack.gap-sm,
-.vstack.gap-sm {
-  gap: 0.5rem;
-}
-
-.hstack.gap-md,
-.vstack.gap-md {
-  gap: 1rem;
-}
-
-.hstack.gap-lg,
-.vstack.gap-lg {
-  gap: 1.5rem;
-}
-
-.hstack.gap-xl,
-.vstack.gap-xl {
-  gap: 2rem;
-}
-
 .pad-sm {
   padding: 0.5rem;
 }
@@ -77,10 +24,8 @@
   padding: 2rem;
 }
 
-.center {
-  max-width: var(--measure, 80rem);
-  margin-left: auto;
-  margin-right: auto;
+.pad-xxl {
+  padding: 4rem;
 }
 
 .fz-sm {
@@ -101,4 +46,36 @@
 
 .fw-bold {
   font-weight: bold;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.ai-stretch {
+  align-items: stretch;
+}
+
+.jc-between {
+  justify-content: space-between;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.ji-center {
+  justify-items: center;
+}
+
+.js-stretch {
+  justify-self: stretch;
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.tac {
+  text-align: center;
 }
