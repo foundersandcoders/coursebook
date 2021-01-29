@@ -17,6 +17,7 @@ function App({ title, styles = [], scripts = [], content, collections, page }) {
           crossorigin
         />
         <link href="/assets/css/styles.css" rel="stylesheet" />
+        <link href="/assets/css/utilities.css" rel="stylesheet" />
         <link href="/assets/css/syntax-highlighting.css" rel="stylesheet" />
         ${styles.map((href) => html`<link href="${href}" rel="stylesheet" />`)}
       </head>

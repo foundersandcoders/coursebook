@@ -7,8 +7,8 @@ exports.data = {
 
 exports.render = ({ week, section, page, content }) => {
   return html`
-    <div class="vstack" style="--gap: 2rem">
-    <header class="vstack" style="--gap: 1.5rem">
+    <div class="vstack gap-xl">
+    <header class="vstack gap-lg">
       <!-- visually hide title since it's duplicated in the tabs below -->
       <h1>${week} <span class="vh">${section}</span></h1>
       <nav>
