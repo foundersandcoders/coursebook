@@ -10,7 +10,7 @@ That said there are some minimum requirements you'll need to meet to get the mos
 - We recommend a minimum of 5GB of free space on your laptop
 - We recommend your laptop has a minimum of 4GB of RAM
 
-## More detail
+## More detail
 
 ### Operating system
 
