@@ -1,20 +1,17 @@
 module.exports = {
-  tags: "curriculum",
-  layout: "curriculum",
+  layout: "syllabus",
   eleventyComputed: {
-    week: (data) => {
-      const paths = data.page.inputPath.split("/");
-      if (paths.length === 4) {
-        const weekName = paths[paths.length - 2];
-        return titleCase(weekName);
-      }
+    topic: (data) => {
+      // get whatever comes after syllabus in path. e.g. /syllabus/{this}/stuff
+      const [, topic] = data.page.inputPath.match(/\/syllabus\/(.+)\//);
+      return topic;
     },
     section: (data) => {
       const paths = data.page.filePathStem.split("/");
       const fileName = paths[paths.length - 1];
       return fileName === "index" ? "Introduction" : titleCase(fileName);
     },
-    title: (data) => `${data.section} | ${data.week}`,
+    title: (data) => `${data.section} | ${data.topic}`,
   },
 };
 

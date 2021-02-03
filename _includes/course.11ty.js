@@ -30,16 +30,16 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/handbook/mentor-guidance/">Mentoring</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/coaching/">Coaching</${Link}></li>
         </${Section}>
-        <${Section} title="Curriculum" url=${url} subpath="course/curriculum">
-          <li><${Link} url=${url} href="/course/curriculum/teamwork-and-toolkit/">Teamwork & Toolkit</${Link}></li>
-          <li><${Link} url=${url} href="/course/curriculum/http/">HTTP</${Link}></li>
-          <li><${Link} url=${url} href="/course/curriculum/testing/">Testing</${Link}></li>
-          <li><${Link} url=${url} href="/course/curriculum/node/">Node</${Link}></li>
-          <li><${Link} url=${url} href="/course/curriculum/databases/">Databases</${Link}></li>
-          <li><${Link} url=${url} href="/course/curriculum/authentication/">Authentication</${Link}></li>
-          <li><${Link} url=${url} href="/course/curriculum/rest-apis/">REST</${Link}></li>
-          <li><${Link} url=${url} href="/course/curriculum/single-page-app/">SPA</${Link}></li>
-          <li><${Link} url=${url} href="/course/curriculum/react/">React</${Link}></li>
+        <${Section} title="Syllabus" url=${url} subpath="course/syllabus">
+          <li><${Link} url=${url} href="/course/syllabus/teamwork-and-toolkit/">Teamwork & Toolkit</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/http/">HTTP</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/testing/">Testing</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/node/">Node</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/databases/">Databases</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/authentication/">Authentication</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/rest-apis/">REST</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/single-page-app/">SPA</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/react/">React</${Link}></li>
         </${Section}>
         <${Section} title="Projects" url=${url} subpath="course/projects">
           <li><${Link} url=${url} href="/course/projects/roles/">Roles</${Link}></li>

@@ -10,7 +10,7 @@ exports.data = {
   layout: "_document",
 };
 
-exports.render = ({ collections, page, content }) => {
+exports.render = ({ page, content }) => {
   return html`
     <header class="hstack jc-between pad-lg">
       <a href="/" aria-label="Home">
