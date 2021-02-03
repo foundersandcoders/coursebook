@@ -26,7 +26,6 @@ function App({ title, styles = [], scripts = [], content, collections, page }) {
       </head>
       <body>
         <${RawContent}>${content}</${RawContent}>
-        <script src="/assets/js/nav.js"></script>
         <script type="module" src="/assets/js/checkboxen.js"></script>
         ${scripts.map((src) => html`<script src="${src}"></script>`)}
 

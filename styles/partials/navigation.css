@@ -1,0 +1,119 @@
+nav a {
+  color: inherit;
+}
+
+/**********
+ GLOBAL NAV
+***********/
+
+.global-nav__link[aria-current] {
+  font-weight: bold;
+}
+
+/***********
+ SIDEBAR NAV
+************/
+
+.sidebar-nav {
+  position: sticky;
+  top: 1rem;
+  max-height: 100vh;
+  overflow-y: auto;
+
+  padding: var(--padding);
+  font-size: 0.875rem;
+  line-height: 1;
+  color: var(--text-300);
+}
+
+.sidebar-nav__content {
+  grid-row: 2;
+  grid-column: 1 / -1;
+}
+
+.sidebar-nav__heading {
+  display: inline;
+  text-transform: uppercase;
+  font-size: inherit;
+  color: var(--text-400);
+  letter-spacing: 1px;
+  transition: color 0.2s;
+}
+
+.sidebar-nav__link {
+  display: block;
+  font-weight: normal;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+.sidebar-nav__link:hover {
+  color: var(--text-100);
+}
+
+.sidebar-nav__link[aria-current] {
+  font-weight: bold;
+  color: var(--info-fg);
+}
+
+.sidebar-nav__toggle {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/**********************
+  SIDEBAR NAV JS STATES
+***********************/
+
+/* .sidebar-nav__toggle #open,
+.sidebar-nav__toggle #closed {
+  transition: opacity 0.3s, visibility 0.3s;
+} */
+
+.sidebar-nav__toggle #open {
+  visibility: visible;
+  opacity: 1;
+}
+
+.sidebar-nav__toggle #closed {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.sidebar-nav__toggle[open] #open {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.sidebar-nav__toggle[open] #closed {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* hide nav when button is not toggled */
+.sidebar-nav__toggle ~ .sidebar-nav__content {
+  display: none;
+}
+
+/* show nav when button is toggled */
+.sidebar-nav__toggle[open] ~ .sidebar-nav__content {
+  display: block;
+}
+
+@media (min-width: 40em) {
+  .layout {
+    display: grid;
+    grid-template-columns: 30ch 1fr;
+  }
+
+  .sidebar-nav__toggle {
+    display: none;
+  }
+
+  /*
+    ensure nav is always visible on larger viewports
+    (ignoring toggle button JS state)
+  */
+  .sidebar-nav__toggle ~ .sidebar-nav__content {
+    display: block;
+  }
+}

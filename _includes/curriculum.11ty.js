@@ -2,7 +2,7 @@ const { html } = require("htm/preact");
 const RawContent = require("./RawContent");
 
 exports.data = {
-  layout: "base",
+  layout: "course",
 };
 
 exports.render = ({ week, section, page, content }) => {
@@ -12,7 +12,7 @@ exports.render = ({ week, section, page, content }) => {
       <!-- visually hide title since it's duplicated in the tabs below -->
       <h1>${week} <span class="vh">${section}</span></h1>
       <nav>
-        <ul class="nav-tabs">
+        <ul role="list" class="nav-tabs">
           <li>
             <${Link} page=${page} href="">Intro</${Link}>
           </li>
@@ -56,7 +56,7 @@ function Link({ page, href, children }) {
   return html`
     <a
       class="nav-tab"
-      href="../${href + href !== "" ? "/" : ""}"
+      href="../${href + (href !== "" ? "/" : "")}"
       aria-current="${href === page.fileSlug ? "page" : undefined}"
     >
       ${children}

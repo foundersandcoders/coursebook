@@ -24,6 +24,12 @@
   --bg-hover: var(--primary-dark);
 }
 
+button.icon {
+  --bg: transparent;
+  --bg-hover: var(--bg-800);
+  padding: 0.5rem;
+}
+
 .stripes {
   --stripe: var(--bg-400);
   background-image: repeating-linear-gradient(
@@ -55,4 +61,25 @@ copy-text > button {
   border-left: inherit;
   display: grid;
   place-content: center;
+}
+
+.disclosure > summary {
+  list-style: none;
+}
+
+.disclosure > summary::after {
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" /></svg>');
+  content: " \002B";
+  font: inherit;
+  color: inherit;
+  font-weight: bold;
+}
+
+.disclosure[open] > summary::after {
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4" /></svg>');
+  content: " \2212";
+}
+
+.disclosure > summary::-webkit-details-marker {
+  display: none;
 }

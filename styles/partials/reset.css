@@ -29,14 +29,12 @@ ol {
   padding-inline-start: 1.15em;
 }
 
-ul[class],
-ol[class] {
+ul[role="list"],
+ol[role="list"] {
   padding: 0;
   list-style: none;
 }
-
 summary {
-  cursor: pointer;
   user-select: none;
 }
 

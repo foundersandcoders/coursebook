@@ -5,7 +5,7 @@ exports.data = {
   layout: "base",
 };
 
-exports.render = ({ week, section, page, content }) => {
+exports.render = ({ content }) => {
   return html`
     <${RawContent} class="main-wrapper flow">${content}</${RawContent}>
 `;
