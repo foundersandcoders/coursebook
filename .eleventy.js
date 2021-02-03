@@ -1,3 +1,4 @@
+const fs = require("fs");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const slugify = require("@sindresorhus/slugify");
@@ -5,8 +6,19 @@ const markdownItTaskLists = require("markdown-it-task-lists");
 const markdownItTitle = require("markdown-it-title");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
+const options = {
+  dir: {
+    output: "_site",
+  },
+};
+
 module.exports = (config) => {
+  // Delete old output dir before building new one
+  config.on("beforeBuild", clean);
+
+  // re-run the build when source CSS files change
   config.addWatchTarget("styles");
+
   // copy fonts & styles straight to output
   config.addPassthroughCopy("assets");
 
@@ -38,7 +50,14 @@ module.exports = (config) => {
   config.setLibrary("md", md);
 
   config.addFilter("markdown", (s) => md.render(s));
+
+  return options;
 };
+
+function clean() {
+  fs.rmdirSync(options.dir.output, { recursive: true, force: true });
+  console.log(`Deleted old ${options.dir.output} directory`);
+}
 
 const html = String.raw;
 
