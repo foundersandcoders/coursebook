@@ -13,9 +13,6 @@ const options = {
 };
 
 module.exports = (config) => {
-  // Delete old output dir before building new one
-  config.on("beforeBuild", clean);
-
   // re-run the build when source CSS files change
   config.addWatchTarget("styles");
 
@@ -53,11 +50,6 @@ module.exports = (config) => {
 
   return options;
 };
-
-function clean() {
-  fs.rmdirSync(options.dir.output, { recursive: true, force: true });
-  console.log(`Deleted old ${options.dir.output} directory`);
-}
 
 const html = String.raw;
 
