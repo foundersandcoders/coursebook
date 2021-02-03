@@ -5,12 +5,12 @@ exports.data = {
   layout: "course",
 };
 
-exports.render = ({ week, topic, page, content }) => {
+exports.render = ({ section, topic, page, content }) => {
   return html`
     <div class="vstack gap-xl">
     <header class="vstack gap-lg">
-      <!-- visually hide title since it's duplicated in the tabs below -->
-      <h1>${week} <span class="vh">${topic}</span></h1>
+      <!-- visually hide section since it's duplicated in the tabs below -->
+      <h1 class="highlight bg-primary">${topic} week <span class="vh">${section}</span></h1>
       <nav>
         <ul role="list" class="nav-tabs">
           <li>

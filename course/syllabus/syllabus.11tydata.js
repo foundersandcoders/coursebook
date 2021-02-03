@@ -4,7 +4,7 @@ module.exports = {
     topic: (data) => {
       // get whatever comes after syllabus in path. e.g. /syllabus/{this}/stuff
       const [, topic] = data.page.inputPath.match(/\/syllabus\/(.+)\//);
-      return topic;
+      return titleCase(topic);
     },
     section: (data) => {
       const paths = data.page.filePathStem.split("/");
