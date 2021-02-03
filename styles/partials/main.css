@@ -191,35 +191,3 @@ hr {
   background-color: var(--primary);
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>');
 }
-
-.nav-tab[aria-current] {
-  font-weight: bold;
-}
-
-.nav-tab:hover,
-.nav-tab:focus {
-  outline: 0;
-  background-color: var(--bg-800);
-  text-decoration: underline;
-}
-
-@media (min-width: 50em) {
-  .nav-tabs {
-    display: flex;
-    border-bottom: var(--border-title);
-  }
-
-  .nav-tab {
-    display: block;
-    position: relative;
-    top: 1px;
-    padding: 0.5rem 0.75rem;
-    transition: background-color 0.3s;
-  }
-
-  .nav-tab[aria-current] {
-    border: var(--border-title);
-    border-bottom-color: transparent;
-    background-color: var(--body-bg);
-  }
-}
