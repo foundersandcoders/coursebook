@@ -5,17 +5,14 @@ exports.data = {
   layout: "course",
 };
 
-exports.render = ({ week, section, page, content }) => {
+exports.render = ({ week, topic, page, content }) => {
   return html`
     <div class="vstack gap-xl">
     <header class="vstack gap-lg">
       <!-- visually hide title since it's duplicated in the tabs below -->
-      <h1>${week} <span class="vh">${section}</span></h1>
+      <h1>${week} <span class="vh">${topic}</span></h1>
       <nav>
         <ul role="list" class="nav-tabs">
-          <li>
-            <${Link} page=${page} href="">Intro</${Link}>
-          </li>
           <li>
             <${Link} page=${page} href="schedule">Schedule</${Link}>
           </li>
@@ -40,23 +37,10 @@ exports.render = ({ week, section, page, content }) => {
 };
 
 function Link({ page, href, children }) {
-  // gross branch cause the "intro" page is a bare path
-  // all other pages are "one level down"
-  if (page.filePathStem.includes("index")) {
-    return html`
-      <a
-        class="nav-tab"
-        href="${href}"
-        aria-current=${href === "" ? "page" : undefined}
-      >
-        ${children}
-      </a>
-    `;
-  }
   return html`
     <a
       class="nav-tab"
-      href="../${href + (href !== "" ? "/" : "")}"
+      href="../${href}"
       aria-current="${href === page.fileSlug ? "page" : undefined}"
     >
       ${children}

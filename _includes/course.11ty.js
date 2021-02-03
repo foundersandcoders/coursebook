@@ -31,15 +31,15 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/handbook/coaching/">Coaching</${Link}></li>
         </${Section}>
         <${Section} title="Syllabus" url=${url} subpath="course/syllabus">
-          <li><${Link} url=${url} href="/course/syllabus/teamwork-and-toolkit/">Teamwork & Toolkit</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/http/">HTTP</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/testing/">Testing</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/node/">Node</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/databases/">Databases</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/authentication/">Authentication</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/rest-apis/">REST</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/single-page-app/">SPA</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/react/">React</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/teamwork-and-toolkit/schedule/">Teamwork & Toolkit</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/http/schedule/">HTTP</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/testing/schedule/">Testing</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/node/schedule/">Node</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/databases/schedule/">Databases</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/authentication/schedule/">Authentication</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/rest-apis/schedule/">REST</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/single-page-app/schedule/">SPA</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/react/schedule/">React</${Link}></li>
         </${Section}>
         <${Section} title="Projects" url=${url} subpath="course/projects">
           <li><${Link} url=${url} href="/course/projects/roles/">Roles</${Link}></li>
