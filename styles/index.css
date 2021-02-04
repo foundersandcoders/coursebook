@@ -1,3 +1,8 @@
+@import "./partials/fonts.css";
+@import "./partials/reset.css";
 @import "./partials/main.css";
+@import "./partials/layout.css";
+@import "./partials/components.css";
+@import "./partials/navigation.css";
 @import "./partials/utilities.css";
 @import "./partials/syntax-highlighting.css";

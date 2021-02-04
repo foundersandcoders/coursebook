@@ -1,8 +1,8 @@
 const { html } = require("htm/preact");
-const RawContent = require("./RawContent");
+const RawContent = require("./components/RawContent");
 
 exports.data = {
-  layout: "_document",
+  layout: "base",
   styles: ["/assets/css/workshop.css"],
   scripts: ["/assets/js/copy-text.js"],
 };
@@ -12,7 +12,7 @@ exports.render = ({ title, description, tags = [], page, content }) => {
     <div class="vstack" style="gap: 6rem">
       <header class="vstack gap-xl pad-xl stripes">
         <div class="vstack"  data-gap="md">
-          <h1 class="highlight" style="--bg: var(--primary)">${title}</h1>
+          <h1 class="highlight bg-primary">${title}</h1>
           <p class="highlight fz-lg">${description}</p>
           <ul class="hstack gap-sm wrap">
             ${tags.map(
@@ -41,7 +41,7 @@ function Copy({ url, fileSlug }) {
         style="--bg: var(--bg-400)"
         >Download files via CLI</label
       >
-      <copy-text class="hstack gap-none align-stretch">
+      <copy-text class="hstack gap-none ai-stretch">
         <input id="download-command" readonly value="${command}" />
         <button aria-label="Copy" title="Copy" hidden>
           <svg
