@@ -5,6 +5,8 @@ setup:
   - Open `workshop.html` in your editor
   - Write new code inside the `<script>` tag
 tags:
+  - workshop
+  - http
   - js
   - functions
   - fundamentals

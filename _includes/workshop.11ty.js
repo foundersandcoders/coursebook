@@ -1,5 +1,5 @@
 const { html } = require("htm/preact");
-const RawContent = require("./RawContent");
+const RawContent = require("./components/RawContent");
 
 exports.data = {
   layout: "base",

@@ -14,7 +14,10 @@ exports.render = () => html`
       </p>
 
       <nav class="switcher jc-center js-stretch">
-        <a class="button hstack gap-sm jc-center fz-lg" href="/course">
+        <a
+          class="button hstack gap-sm jc-center fz-lg"
+          href="/course/introduction/"
+        >
           Course
           <svg
             width="20"
@@ -37,7 +40,7 @@ exports.render = () => html`
         </a>
         <a
           class="button primary hstack gap-sm jc-center fz-lg"
-          href="/resources"
+          href="/resources/introduction/"
         >
           Resources
           <svg
@@ -55,7 +58,7 @@ exports.render = () => html`
             />
           </svg>
         </a>
-        <a class="button hstack gap-sm jc-center fz-lg" href="/about">
+        <a class="button hstack gap-sm jc-center fz-lg" href="/about/">
           About
           <svg
             width="20"

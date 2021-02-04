@@ -5,7 +5,7 @@
 
 const { html } = require("htm/preact");
 const render = require("preact-render-to-string");
-const RawContent = require("./RawContent");
+const RawContent = require("./components/RawContent");
 
 function App({ title, styles = [], scripts = [], content, collections, page }) {
   return html`
