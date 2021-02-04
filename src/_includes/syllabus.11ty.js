@@ -11,7 +11,7 @@ exports.render = ({ section, topic, page, content }) => {
     <div class="vstack gap-xl">
       <header class="vstack gap-lg">
         <!-- visually hide section since it's duplicated in the tabs below -->
-        <h1 class="highlight bg-primary">${topic} week <span class="vh">${section}</span></h1>
+        <h1 class="highlight bg-primary">${topic} <span class="vh">${section}</span></h1>
         <${Tabs}>
           <${Tab} page=${page} href="schedule">Schedule</${Tab}>
           <${Tab} page=${page} href="learning-outcomes">Learnings</${Tab}>
