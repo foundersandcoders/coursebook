@@ -7,6 +7,7 @@ setup:
 tags:
   - workshop
   - http
+keywords:
   - js
   - functions
   - fundamentals
