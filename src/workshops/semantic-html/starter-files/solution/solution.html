@@ -1,0 +1,79 @@
+<!-- Tells the browser what language the content is in: used for screenreader accents and Google Translate -->
+<html lang="en">
+  <head>
+    <!-- Ensures browsers interpret the text contents of this file in the right format -->
+    <meta charset="utf-8" />
+    <!-- Ensures mobile browsers don't display really zoomed out -->
+    <meta name="viewport" content="width-device-width, initial-scale=1" />
+    <!-- Shown in the browser tab and read out first on page load by screenreaders -->
+    <title>My Messy Site</title>
+    <!-- `rel` tells the browser what type of file this is -->
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- `header` groups heading elements together -->
+    <header>
+      <!-- The main title for this page—there should be only one -->
+      <h1>My Messy Site</h1>
+      <!-- Subtitles should not be heading tags—they don't denote a discrete section of the page -->
+      <p>I Love Coding</p>
+    </header>
+
+    <!-- Images need alts that describe them (or an empty alt="" if they're only decorative) -->
+    <img src="./catonkeyboard.jpeg" alt="My cat sitting on my keyboard" />
+
+    <!-- Sections semantically denote a new section of the page -->
+    <section>
+      <!-- Headings describe the new section. Don't skip numbers in the heading hierarchy -->
+      <h2>First Section Header</h2>
+      <!-- Paragraphs of text content should use the `p` tag -->
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+    </section>
+
+    <section>
+      <h2>Second Section Header</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua sunt in culpa qui
+        officia deserunt mollit anim id est laborum.
+      </p>
+    </section>
+
+    <form action="/" method="post">
+      <!-- Inputs need associated labels. They tell users what to enter and focus the input when clicked -->
+      <label for="first-name">First Name</label>
+      <input id="first-name" type="text" />
+
+      <label for="last-name">Last Name</label>
+      <input id="last-name" type="text" />
+
+      <label for="email">Email</label>
+      <input id="email" type="email" />
+
+      <label for="password">Password</label>
+      <input id="password" type="password" />
+
+      <!-- type="submit" buttons will trigger form submission if the user hits enter inside an input -->
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- `blockquote` is the semantic element for quotations -->
+    <blockquote>
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      <!-- `cite` is the semantic element for citations -->
+      <cite>by John Smith, 2017</cite>
+    </blockquote>
+
+    <!-- `footer` is the semantic element for footer content -->
+    <footer>Copyright John 2015. All rights reserved</footer>
+  </body>
+</html>
