@@ -32,7 +32,7 @@ exports.render = ({ title, description, keywords = [], page, content }) => {
 function Copy({ url, fileSlug }) {
   const command = `npx degit foundersandcoders/coursebook${url}#main ${fileSlug}`;
   return html`
-    <div>
+    <div class="vstack gap-none">
       <label
         for="download-command"
         class="highlight fw-bold"
