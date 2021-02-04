@@ -30,7 +30,7 @@ exports.render = ({ title, description, keywords = [], page, content }) => {
 };
 
 function Copy({ url, fileSlug }) {
-  const command = `npx degit foundersandcoders/coursebook${url}#main ${fileSlug}`;
+  const command = `npx degit 'foundersandcoders/coursebook/src${url}starter-files#main' ${fileSlug}`;
   return html`
     <div class="vstack gap-none">
       <label
