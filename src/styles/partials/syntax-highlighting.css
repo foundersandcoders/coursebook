@@ -1,7 +1,6 @@
 code[class*="language-"],
 pre[class*="language-"] {
   color: #383a42;
-  background: #fafafa;
   text-shadow: none;
   font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   font-size: 1em;
@@ -43,14 +42,7 @@ code[class*="language-"] ::selection {
 
 /* Code blocks */
 pre[class*="language-"] {
-  padding: 1em;
-  margin: 0.5em 0;
   overflow: auto;
-}
-
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
-  background: #fafafa;
 }
 
 /* Inline code */

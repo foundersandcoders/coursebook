@@ -102,7 +102,7 @@ nav a {
 @media (min-width: 40em) {
   .layout {
     display: grid;
-    grid-template-columns: 30ch 1fr;
+    grid-template-columns: 24ch 1fr;
   }
 
   .sidebar-nav__toggle {
