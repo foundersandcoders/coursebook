@@ -15,7 +15,8 @@ exports.data = {
 exports.render = ({ page: { url }, content }) => {
   return html`
   <div class="layout">
-    <aside>
+    <aside></aside>
+    <!-- <aside>
       <${Nav}>
         <${Link} url=${url} href="/resources/introduction/">Introduction</${Link}>
         <${Link} url=${url} href="/resources/teamwork/introduction/">Teamwork</${Link}>
@@ -28,9 +29,9 @@ exports.render = ({ page: { url }, content }) => {
         <${Link} url=${url} href="/resources/app/introduction/">App</${Link}>
         <${Link} url=${url} href="/resources/react/introduction/">React</${Link}>
       </${Nav}>
-    </aside>
+    </aside> -->
     <main id="main">
-      <${RawContent} class="main-wrapper flow">${content}</${RawContent}>
+      <${RawContent}>${content}</${RawContent}>
     </main>
   </div>
   `;
