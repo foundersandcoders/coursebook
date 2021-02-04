@@ -55,6 +55,15 @@ nav a {
   color: var(--info-fg);
 }
 
+.sidebar-nav__link:not([href]) {
+  cursor: not-allowed;
+}
+
+.sidebar-nav__link:not([href])::after {
+  content: " [TBC]";
+  font-size: 0.875em;
+}
+
 .sidebar-nav__toggle {
   display: block;
   margin-bottom: 1rem;
