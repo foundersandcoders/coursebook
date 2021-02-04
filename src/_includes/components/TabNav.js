@@ -16,8 +16,8 @@ function Tab({ href, page, children, ...rest }) {
       <a
         ...${rest}
         class="nav-tab"
-        href="../${href}"
         aria-current="${href === page.fileSlug ? "page" : undefined}"
+        href="${href ? `../${href}` : undefined}"
       >
         ${children}
       </a>

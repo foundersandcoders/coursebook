@@ -14,10 +14,10 @@ exports.render = ({ section, topic, page, content }) => {
         <h1 class="highlight bg-primary">${topic} <span class="vh">${section}</span></h1>
         <${Tabs}>
           <${Tab} page=${page} href="schedule">Schedule</${Tab}>
-          <${Tab} page=${page} href="learning-outcomes">Learnings</${Tab}>
-          <${Tab} page=${page} href="spikes">Spikes</${Tab}>
-          <${Tab} page=${page} href="project">Project</${Tab}>
-          <${Tab} page=${page} href="resources">Resources</${Tab}>
+          <${Tab} page=${page}><!-- href="learning-outcomes"-->Learnings</${Tab}>
+          <${Tab} page=${page}><!-- href="spikes"-->Spikes</${Tab}>
+          <${Tab} page=${page}><!-- href="project"-->Project</${Tab}>
+          <${Tab} page=${page}><!-- href="resources"-->Resources</${Tab}>
         </${Tabs}>
       </header>
       <${RawContent} class="main-wrapper flow">${content}</${RawContent}>
