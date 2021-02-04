@@ -21,6 +21,7 @@ function App({ title, styles = [], scripts = [], content, collections, page }) {
           type="font/woff2"
           crossorigin
         />
+        <link rel="icon" href="/assets/favicon.svg" />
         <link href="/assets/css/styles.css" rel="stylesheet" />
         ${styles.map((href) => html`<link href="${href}" rel="stylesheet" />`)}
       </head>
