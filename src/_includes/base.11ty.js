@@ -18,9 +18,9 @@ exports.render = ({ page, content }) => {
       </a>
       <nav id="global-nav">
         <ul role="list" class="hstack">
-          <${Link} url=${page.url} href="/course">Course</${Link}>
-          <${Link} url=${page.url} href="/resources">Resources</${Link}>
-          <${Link} url=${page.url} href="/about">About</${Link}>
+          <${Link} url=${page.url} href="/course/introduction/">Course</${Link}>
+          <${Link} url=${page.url} href="/resources/introduction/">Resources</${Link}>
+          <${Link} url=${page.url} href="/about/">About</${Link}>
         </ul>
       </nav>
     </header>

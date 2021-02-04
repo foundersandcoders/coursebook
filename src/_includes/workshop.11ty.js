@@ -2,39 +2,37 @@ const { html } = require("htm/preact");
 const RawContent = require("./components/RawContent");
 
 exports.data = {
-  layout: "base",
+  layout: "resources",
   styles: ["/assets/css/workshop.css"],
   scripts: ["/assets/js/copy-text.js"],
 };
 
-exports.render = ({ title, description, tags = [], page, content }) => {
+exports.render = ({ title, description, keywords = [], page, content }) => {
   return html`
-    <div class="vstack" style="gap: 6rem">
-      <header class="vstack gap-xl pad-xl stripes">
-        <div class="vstack"  data-gap="md">
-          <h1 class="highlight bg-primary">${title}</h1>
-          <p class="highlight fz-lg">${description}</p>
-          <ul class="hstack gap-sm wrap">
-            ${tags.map(
-              (tag) => html`
-                <li class="highlight fz-sm fw-bold" style="--bg: var(--bg-400)">
-                  ${tag}
-                </li>
-              `
-            )}
-          </ul>
-        </div>
-        <${Copy} ...${page} />
-      </header>
-      <${RawContent} class="main-wrapper flow">${content}</${RawContent}>
-    </div>
+    <header class="vstack gap-xl pad-xl stripes">
+      <div class="vstack"  data-gap="md">
+        <h1 class="highlight bg-primary">${title}</h1>
+        <p class="highlight fz-lg">${description}</p>
+        <ul role="list" class="hstack gap-sm wrap">
+          ${keywords.map(
+            (tag) => html`
+              <li class="highlight fz-sm fw-bold" style="--bg: var(--bg-400)">
+                ${tag}
+              </li>
+            `
+          )}
+        </ul>
+      </div>
+      <${Copy} ...${page} />
+    </header>
+    <${RawContent} style="margin-top: 4rem" class="main-wrapper flow">${content}</${RawContent}>
   `;
 };
 
 function Copy({ url, fileSlug }) {
   const command = `npx degit foundersandcoders/coursebook${url}#main ${fileSlug}`;
   return html`
-    <div>
+    <div class="vstack gap-none">
       <label
         for="download-command"
         class="highlight fw-bold"

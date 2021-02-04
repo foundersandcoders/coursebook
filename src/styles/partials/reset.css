@@ -24,6 +24,10 @@ a[class] {
   outline: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 ul,
 ol {
   padding-inline-start: 1.15em;

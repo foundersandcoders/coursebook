@@ -15,10 +15,13 @@ const options = {
 
 module.exports = (config) => {
   // re-run the build when source CSS files change
-  config.addWatchTarget("styles");
+  config.addWatchTarget("src/styles");
+  config.addWatchTarget("src/styles/partials");
 
   // copy fonts & styles straight to output
-  config.addPassthroughCopy("assets");
+  config.addPassthroughCopy("src/assets");
+
+  config.addPassthroughCopy("src/workshops/**/*.{png,jpg}");
 
   // merges directory-level data with template-specific data when keys clash
   config.setDataDeepMerge(true);

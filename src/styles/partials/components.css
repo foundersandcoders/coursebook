@@ -115,3 +115,16 @@ copy-text > button {
     background-color: var(--body-bg);
   }
 }
+
+.nav-tab:not([href]) {
+  opacity: 0.75;
+  border: 0;
+  background: none;
+  cursor: not-allowed;
+}
+
+.nav-tab:not([href]):hover,
+.nav-tab:not([href]):focus {
+  background: none;
+  text-decoration: none;
+}

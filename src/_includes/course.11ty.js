@@ -32,20 +32,16 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/handbook/coaching/">Coaching</${Link}></li>
         </${Section}>
         <${Section} title="Syllabus" url=${url} subpath="course/syllabus">
-          <li><${Link} url=${url} href="/course/syllabus/teamwork/schedule/">Teamwork</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/http/schedule/">HTTP</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/testing/schedule/">Testing</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/server/schedule/">Server</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/database/schedule/">Database</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/authentication/schedule/">Authentication</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/api/schedule/">API</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/app/schedule/">App</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/react/schedule/">React</${Link}></li>
-        </${Section}>
-        <${Section} title="Projects" url=${url} subpath="course/projects">
-          <li><${Link} url=${url} href="/course/projects/roles/">Roles</${Link}></li>
-          <li><${Link} url=${url} href="/course/projects/student-projects/">Student projects</${Link}></li>
-          <li><${Link} url=${url} href="/course/projects/tech-for-better/">Tech For Better</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/precourse-1/schedule/">Pre-course 1</${Link}></li>
+          <li><${Link} url=${url}> <!--href="/course/syllabus/teamwork/schedule/"-->Teamwork</${Link}></li>
+          <li><${Link} url=${url}> <!--href="/course/syllabus/http/schedule/"-->HTTP</${Link}></li>
+          <li><${Link} url=${url}> <!--href="/course/syllabus/testing/schedule/"-->Testing</${Link}></li>
+          <li><${Link} url=${url}> <!--href="/course/syllabus/server/schedule/"-->Server</${Link}></li>
+          <li><${Link} url=${url}> <!--href="/course/syllabus/database/schedule/"-->Database</${Link}></li>
+          <li><${Link} url=${url}> <!--href="/course/syllabus/authentication/schedule/"-->Authentication</${Link}></li>
+          <li><${Link} url=${url}> <!--href="/course/syllabus/api/schedule/"-->API</${Link}></li>
+          <li><${Link} url=${url}> <!--href="/course/syllabus/app/schedule/"-->App</${Link}></li>
+          <li><${Link} url=${url}> <!--href="/course/syllabus/react/schedule/"-->React</${Link}></li>
         </${Section}>
       </${Nav}>
     </aside>

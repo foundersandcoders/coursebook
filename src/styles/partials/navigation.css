@@ -55,6 +55,15 @@ nav a {
   color: var(--info-fg);
 }
 
+.sidebar-nav__link:not([href]) {
+  cursor: not-allowed;
+}
+
+.sidebar-nav__link:not([href])::after {
+  content: " [TBC]";
+  font-size: 0.875em;
+}
+
 .sidebar-nav__toggle {
   display: block;
   margin-bottom: 1rem;
@@ -102,7 +111,7 @@ nav a {
 @media (min-width: 40em) {
   .layout {
     display: grid;
-    grid-template-columns: 30ch 1fr;
+    grid-template-columns: 24ch 1fr;
   }
 
   .sidebar-nav__toggle {
