@@ -6,7 +6,7 @@ That said there are some minimum requirements you'll need to meet to get the mos
 
 ## Summary
 
-- We recommend using a Mac or a Windows laptop configured to dual-boot Linux
+- We recommend using a Mac laptop or a Windows laptop with a Linux environment
 - We recommend a minimum of 5GB of free space on your laptop
 - We recommend your laptop has a minimum of 4GB of RAM
 
@@ -20,7 +20,9 @@ Windows has a totally different command-line. The underlying OS is different eno
 
 This is changing with [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10), which lets you run a Linux system _within_ Windows. It's still very new but looks promising for standardised development on Windows.
 
-**We recommend using a Mac or a Windows laptop configured to dual-boot Linux**. You can read more about this in the Installation List.
+We'd recommend Windows users try running [Ubuntu within WSL2](https://wiki.ubuntu.com/WSL). If that doesn't work then try dual-booting a full copy of Ubuntu alongside Windows.
+
+**We recommend using a Mac laptop or a Windows laptop with a Linux environment.**
 
 ### Storage
 
