@@ -14,6 +14,7 @@ html {
   --bg-600: hsl(220, 20%, 92%);
   --bg-700: hsl(220, 20%, 94%);
   --bg-800: hsl(220, 20%, 96%);
+  --bg-850: hsl(220, 20%, 97%);
   --bg-900: hsl(220, 20%, 98%);
   --green: #00be00;
   --yellow: hsl(54, 100%, 50%);
@@ -89,23 +90,6 @@ tr:nth-child(even) {
   background-color: var(--bg-800);
 }
 
-pre,
-code {
-  background-color: var(--bg-900);
-}
-
-code {
-  border-radius: 4px;
-  padding: 0.25rem 0.35rem;
-  font-family: ui-monospace, Monaco, Consolas, monospace;
-  font-size: 0.875em;
-}
-
-pre > code {
-  display: block;
-  padding: 1rem;
-}
-
 h1,
 h2,
 h3,
@@ -154,7 +138,7 @@ blockquote {
 figure {
   border-radius: 0.25rem;
   padding: var(--padding);
-  background-color: var(--bg-900);
+  background-color: var(--bg-850);
 }
 
 figcaption {
