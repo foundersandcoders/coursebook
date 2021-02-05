@@ -53,11 +53,11 @@ brew install git
 apt-get install git
 ```
 
-#### Configuring git
+#### Configuring Git
 
 You will need to tell Git your [username](https://docs.github.com/en/github/using-git/setting-your-username-in-git) and [email](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address). It uses these to record who wrote each bit of code in a project.
 
-You should make sure the email matches your email on GitHub, so that you don't end up with multiple versions of yourself committing to a project. If you want to keep your email private [GitHub can provide you](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address) with a "no-reply" email for use with git.
+You should make sure the email matches your email on GitHub, so that you don't end up with multiple versions of yourself committing to a project. If you want to keep your email private [GitHub can provide you](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address) with a "no-reply" email for use with Git.
 
 ```bash
 git config --global user.name "Example Name"
