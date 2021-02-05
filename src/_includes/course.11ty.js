@@ -20,6 +20,8 @@ exports.render = ({ page: { url }, content }) => {
         <${Link} url=${url} href="/course/introduction">Introduction</${Link}>
         <${Link} url=${url} href="/course/code-of-conduct/">Code of Conduct</${Link}>
         <${Section} title="Handbook" url=${url} subpath="course/handbook">
+          <li><${Link} url=${url} href="/course/handbook/system-requirements/">System Requirements</${Link}></li>
+          <li><${Link} url=${url} href="/course/handbook/installation/">Installation Guide</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/course-rules/">Course Rules</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/pair-programming/">Pair programming</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/debugging/">Debugging</${Link}></li>
