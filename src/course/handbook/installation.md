@@ -222,3 +222,20 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 ```
 
 Restart your Terminal and you should now be able to use the `volta` program.
+
+#### Homebrew failed git fetch
+
+Homebrew uses Git to download all of the information it needs about packages. This `homebrew/core` repo is very big, and can fail to download. You may see an error like:
+
+```
+==> Tapping homebrew/core
+...
+fatal: the remote end hung up unexpectedly
+fatal: early EOF
+fatal: index-pack failed
+Failed during git fetch...
+```
+
+This usually means the download was interrupted midway through. You can try re-running the same command in case it was a fluke. However we've found that some Internet Service Providers enable "protection" settings that mess with large Git downloads.
+
+The easiest way to verify this is to tether your laptop to your phone's hotspot and retry. If that works you may want to investigate your ISPs settings and see if there's something you need to disable.
