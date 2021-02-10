@@ -20,7 +20,272 @@ Let's quickly review some of the ways we can control layout with CSS.
 
 [Flow layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flow_Layout) is the default way elements behave. Block elements like `div`, `header` and `p` take up the full-width of the page. Inline elements like `span`, `strong` and `a` only take up as much horizontal space as they need, and can sit next to each other.
 
+The viewport scrolls vertically by default, when there's too much content to fit on the screen. If the content is too _wide_ to fit the browser will wrap elements onto the next line.
+
 You can go a surprisingly long way without writing much layout CSS, since the defaults are pretty good.
+
+### Flexible box layout
+
+[Flexible box layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout) (usually called "flexbox") is an alternate layout context you can set using the `display: flex` rule.
+
+This allows a parent element to control how its children are laid out. By default it puts elements all on a single line (as if they were inline elements). Unlike inline elements they won't wrap when there's not enough room. You have to enable wrapping with the `flex-wrap: wrap` rule.
+
+Flexbox is usually used for _single-direction_ layouts. I.e. a row _or_ a column, but not both. It's also better for flexible layouts where you don't need exact control over where every element goes.
+
+### Grid layout
+
+[Grid layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) is another layout context that lets a parent element specify rows and columns for its children to slot into. You set this using `display: grid`.
+
+Grid can be used to create very specific layouts using `grid-template-columns` and `grid-template-rows` to specify an exact layout grid. You can then place child elements into specific locations on the grid with `grid-column` and `grid-row`.
+
+Grid is usually used for _two-direction_ layouts. I.e. rows _and_ columns. It works best when you have a specific grid in mind, but can be less flexible.
+
+## The Stack: controlling vertical space
+
+The most important layout primitive is one to control the space between elements. For re-usability and simplicity it's a good idea not to apply spacing rules to individual elements. E.g. if you put `margin-left` on a button you can only re-use it in places where left spacing makes sense.
+
+It's better to use a parent element to apply spacing to its children. This is often called a "stack". There are lots of ways to implement this (e.g. using flexbox or grid), but for simplicity we're going to do it with margin.
+
+Let's say we want `1rem` of space between each of these boxes:
+
+```html
+<div>
+  <div class="box">Box 1</div>
+  <div class="box">Box 2</div>
+  <div class="box">Box 3</div>
+</div>
+```
+
+<figure>
+  <div class="border-xl">
+    <div class="pad-xl bg-primary">Box 1</div>
+    <div class="pad-xl bg-primary">Box 2</div>
+    <div class="pad-xl bg-primary">Box 3</div>
+  </div>
+  <figcaption>Boxes with no space between them</figcaption>
+</figure>
+
+We _could_ add styles to our `.box` class, but then we couldn't re-use those boxes in other places where `margin-top` didn't work. Instead we can use the parent to add margin to its children:
+
+```css
+.stack > * {
+  margin-top: 1rem;
+}
+```
+
+```html
+<div class="stack">
+  <div class="box">Box 1</div>
+  <div class="box">Box 2</div>
+  <div class="box">Box 3</div>
+</div>
+```
+
+<figure>
+  <style>
+    .example-stack > * {
+      margin-top: 1rem;
+    }
+  </style>
+  <div class="example-stack border-xl">
+    <div class="pad-xl bg-primary">Box 1</div>
+    <div class="pad-xl bg-primary">Box 2</div>
+    <div class="pad-xl bg-primary">Box 3</div>
+  </div>
+  <figcaption>Boxes with space above all of them</figcaption>
+</figure>
+
+This isn't quite right: we've got space above _every_ child—we only want the space _between_ the children. This means no space above the first child.
+
+There are a few ways to achieve this. We could add a rule disabling the margin for the first child:
+
+```css
+.stack > * {
+  margin-top: 1rem;
+}
+.stack > *:first-child {
+  margin-top: 0;
+}
+```
+
+Or we could only apply the rule to elements that are _not_ the first child:
+
+```css
+.stack > *:not(:first-child) {
+  margin-top: 1rem;
+}
+```
+
+Or we could use the [adjacent sibling combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator) to only apply the rule to elements that have a sibling before them:
+
+```css
+.stack > * + * {
+  margin-top: 1rem;
+}
+```
+
+<figure>
+  <style>
+    .example-stack-owl > * + * {
+      margin-top: 1rem;
+    }
+  </style>
+  <div class="example-stack-owl border-xl">
+    <div class="pad-xl bg-primary">Box 1</div>
+    <div class="pad-xl bg-primary">Box 2</div>
+    <div class="pad-xl bg-primary">Box 3</div>
+  </div>
+  <figcaption>Boxes with space between them</figcaption>
+</figure>
+
+### Customising spacing
+
+Our stack primitive is useful, but we're going to need different amounts of spacing to make a whole page. We can control this in a couple of ways.
+
+First we could use a CSS variable for the size of the margin:
+
+```css
+.stack > * + * {
+  margin-top: var(--space, 1rem);
+}
+```
+
+This will default to `1rem` if no variable is set, but we can override it if needed.
+
+```html
+<div class="stack" style="--space: 4rem">
+  <div class="box">Box 1</div>
+  <div class="box">Box 2</div>
+  <div class="box">Box 3</div>
+</div>
+```
+
+<figure>
+  <style>
+    .example-stack-var > * + * {
+      margin-top: var(--space, 1rem);
+    }
+  </style>
+  <div class="example-stack-var border-xl" style="--space: 4rem">
+    <div class="pad-xl bg-primary">Box 1</div>
+    <div class="pad-xl bg-primary">Box 2</div>
+    <div class="pad-xl bg-primary">Box 3</div>
+  </div>
+  <figcaption>Boxes with much more space between them</figcaption>
+</figure>
+
+The downside to this is nested stacks will break, since CSS variables are _inherited_ from their parents. E.g.
+
+```html
+<main class="stack" style="--space: 4rem">
+  <section class="stack">
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+  </section>
+  <section class="stack">
+    <div class="box">Box 4</div>
+    <div class="box">Box 5</div>
+    <div class="box">Box 6</div>
+  </section>
+</main>
+```
+
+We want `4rem` of space between the `section`s and `1rem` between the `div`s. However since the `div`s will inherit the same `--space` variable we end up with `4rem` between every element:
+
+<figure>
+  <div class="example-stack-var border-xl" style="--space: 4rem">
+    <div class="example-stack-var">
+      <div class="pad-xl bg-primary">Box 1</div>
+      <div class="pad-xl bg-primary">Box 2</div>
+      <div class="pad-xl bg-primary">Box 3</div>
+    </div>
+    <div class="example-stack-var">
+      <div class="pad-xl bg-tertiary">Box 4</div>
+      <div class="pad-xl bg-tertiary">Box 5</div>
+      <div class="pad-xl bg-tertiary">Box 6</div>
+    </div>
+  </div>
+  <figcaption>Nested stacks with too much space between them</figcaption>
+</figure>
+
+Instead we can define separate classes for each size of stack. This is nice because it allows us to choose a pre-set number of sizes, which keeps our layout consistent.
+
+```css
+.stack-sm > * + * {
+  margin-top: 0.5rem;
+}
+.stack-md > * + * {
+  margin-top: 1rem;
+}
+.stack-lg > * + * {
+  margin-top: 2rem;
+}
+.stack-xl > * + * {
+  margin-top: 4rem;
+}
+```
+
+Now we can control the space more easily:
+
+```html
+<main class="stack-xl">
+  <section class="stack-md">
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+  </section>
+  <section class="stack-md">
+    <div class="box">Box 4</div>
+    <div class="box">Box 5</div>
+    <div class="box">Box 6</div>
+  </section>
+</main>
+```
+
+<figure>
+  <style>
+    .example-stack-md > * + * {
+      margin-top: 1rem;
+    }
+    .example-stack-xl > * + * {
+      margin-top: 4rem;
+    }
+  </style>
+  <div class="example-stack-xl border-xl" style="--space: 4rem">
+    <div class="example-stack-md">
+      <div class="pad-xl bg-primary">Box 1</div>
+      <div class="pad-xl bg-primary">Box 2</div>
+      <div class="pad-xl bg-primary">Box 3</div>
+    </div>
+    <div class="example-stack-md">
+      <div class="pad-xl bg-tertiary">Box 4</div>
+      <div class="pad-xl bg-tertiary">Box 5</div>
+      <div class="pad-xl bg-tertiary">Box 6</div>
+    </div>
+  </div>
+  <figcaption>Nested stacks with differing space between them</figcaption>
+</figure>
+
+### Challenge 1: using the Stack
+
+You're going to use the Stack to fix the layout of a web page. Download the starter files using the command at the start of the workshop, then open `challenge-1/index.html` in your editor.
+
+<figure>
+  <iframe src="starter-files/challenge-1/"/></iframe>
+  <figcaption>Challenge 1 preview</figcaption>
+</figure>
+
+Currently there's no space between anything. There should be `2rem` of space between each `section`. There should be `1rem` of space between the elements within each section. There should be `0.5rem` between each form field and its label.
+
+Fix the layout by adding Stack classes inside the `style` tag, then _only_ adding classes to the HTML. Don't add or remove any elements!
+
+<figure>
+  <iframe src="starter-files/challenge-1/solution/"/></iframe>
+  <figcaption>Challenge 1 solution preview</figcaption>
+</figure>
+
+---
 
 ### Flexbox layout
 

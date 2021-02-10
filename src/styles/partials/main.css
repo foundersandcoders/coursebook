@@ -61,6 +61,7 @@ main {
 .main-wrapper > table,
 .main-wrapper > img,
 .main-wrapper > figure,
+.main-wrapper > hr,
 .main-wrapper > pre {
   grid-column: 1 / -1;
 }
@@ -142,9 +143,18 @@ figure {
 }
 
 figcaption {
-  margin-top: 0.5rem;
+  margin-top: var(--padding);
   font-weight: bold;
   line-height: 1;
+}
+
+iframe {
+  width: 100%;
+  height: 30rem;
+  aspect-ratio: 16 / 9;
+  border: 0.5rem solid;
+  background-color: #fff;
+  resize: both;
 }
 
 hr {
