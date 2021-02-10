@@ -8,6 +8,8 @@ This guide will explain how to install all the software you need to start the co
 
 Before you start you should read the [System Requirements](../system-requirements/) guide to make sure your computer is appropriate. This is especially true for Windows users, since you'll need a Linux environment for most of this guide to work.
 
+If you hit any problems check the [troubleshooting section](#troubleshooting).
+
 ## Package managers
 
 We'll be using a "package manager" to install most things. Package managers are software you use to install other software. They make it easier to install lots of things at once and keep track of everything you have. This is a more structured way than just going to a website, finding the right link and downloading an installer.
@@ -164,3 +166,76 @@ You want at least these minimum versions:
 Node: 14
 npm: 6
 psql: 11
+
+## Troubleshooting
+
+Every computer is different and has a different combination of operating system, version, etc. This means it's likely you'll encounter some problems installing at least one thing. This can be frustrating, but try to take a deep breath and work through the issue.
+
+The most important skill to learn as a developer is how to carefully read an error message and figure out what went wrong. So in a way fixing problems at this stage is great practice starting out in your career!
+
+### General steps
+
+1. Read the error message. If it's very long make sure you scroll right to the top.
+1. If the error message suggested a solution try that first. If it pointed out an obvious issue (like a mispelled command) try correcting it and running again.
+1. If the error isn't self-explanatory google _the exact message_ plus the general technology. For example is Homebrew fails to install with a message like `Failed during git fetch...` then search for `Homebrew "Failed during git fetch"`. The quotes tell Google you want the results to include that exact string.
+1. Don't be afraid to try suggestions off the internet. You'll find yourself copy/pasting things from Stack Overflow throughout your career. However bear in mind that Terminal commands _can_ be dangerous, so be a little cautious and make sure you read things before blindly pasting them.
+
+### Known issues
+
+Some problems come up again and again, so it's quicker to list them here than have everyone google them.
+
+#### Volta command not found
+
+Did your Volta install script succeed, but you cannot actually use it (e.g. you get `Command not found` when running `volta install node`)?
+
+This means the Volta program was not added to your Terminal's `PATH` variable. `PATH` is a list of every command-line program that is installed. It's where your Terminal looks for available commands whenever you type anything (e.g. `ls` and `cd` are listed inside `PATH` somewhere).
+
+Volta is supposed to automatically do this, but sometimes it does so in the wrong config file (e.g. if you have both Bash and Zsh configs). You can manually add the required lines. First determine which shell you're using with:
+
+```bash
+echo $SHELL
+```
+
+This will print something like `/bin/zsh` or `/bin/bash`. If your shell is Zsh (the default on modern Macs) then you want to edit the `.zshrc` config file. If it is Bash you either want the `.bashrc` or `.bash_profile` config files.
+
+These config files live in your "home directory". The tilde symbol (`~`) is a shortcut for this directory. You can list everything inside of it with:
+
+```bash
+ls -a ~
+```
+
+You should be able to see the config file you need in there. Open it in your text editor with:
+
+```bash
+code ~/.zshrc
+# or
+code ~/.bashrc
+# or
+code ~/.bash_profile
+```
+
+and add the following lines (there might be existing config; you can add these lines anywhere):
+
+```bash
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
+```
+
+Restart your Terminal and you should now be able to use the `volta` program.
+
+#### Homebrew failed git fetch
+
+Homebrew uses Git to download all of the information it needs about packages. This `homebrew/core` repo is very big, and can fail to download. You may see an error like:
+
+```
+==> Tapping homebrew/core
+...
+fatal: the remote end hung up unexpectedly
+fatal: early EOF
+fatal: index-pack failed
+Failed during git fetch...
+```
+
+This usually means the download was interrupted midway through. You can try re-running the same command in case it was a fluke. However we've found that some Internet Service Providers enable "protection" settings that mess with large Git downloads.
+
+The easiest way to verify this is to tether your laptop to your phone's hotspot and retry. If that works you may want to investigate your ISPs settings and see if there's something you need to disable.
