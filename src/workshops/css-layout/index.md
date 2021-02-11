@@ -189,7 +189,7 @@ Now we can add extra classes when we want different widths.
 
 ### Challenge 1: using the Center
 
-You're going to fix the layout of this page. Currently all the content is full-width and it's hard to read.
+You're going to fix the layout of this page. Currently all the content is full-width and it's hard to read. Download the starter files using the command at the start of the workshop, then open `challenge-1/index.html` in your editor.
 
 <figure>
   <iframe src="starter-files/challenge-1/"></iframe>
@@ -369,7 +369,7 @@ Now we can control the space more easily:
 
 ### Challenge 2: using the Stack
 
-You're going to use the Stack to fix the layout of a web page. Download the starter files using the command at the start of the workshop, then open `challenge-2/index.html` in your editor.
+You're going to use the Stack to fix the layout of a web page. Open `challenge-2/index.html` in your editor.
 
 <figure>
   <iframe src="starter-files/challenge-2/"></iframe>
@@ -393,7 +393,7 @@ Another very useful layout primitive is a "row". Web interfaces often need eleme
 
 <figure>
   <div class="border-xl pad-xl">
-    <div class="vstack pad-lg bg-body">
+    <div class="vstack pad-lg bg-body center" style="--measure: 30rem">
       <p>Are you sure you'd like to delete everything?</p>
       <div class="hstack" style="justify-content: flex-end">
         <button class="button bg-quarternary">Delete</button>
@@ -568,3 +568,110 @@ You need to make the header layout work correctly. The logo should be on the far
 </figure>
 
 Again, _only_ add Row CSS to the style tag and classes to the HTML. Don't add any new HTML elements.
+
+## The Grid: equal-sized children
+
+Sometimes you need to create a grid of elements, like an image gallery. Every element should be the same size, and the grid should automatically put as many elements as it can in a row.
+
+CSS grid is perfect for this. It lets us create a two-dimensional layout (with columns and rows), and keeps all the elements consistently sized (unlike flexbox).
+
+We can make a grid and set a specific number of columns. We can also use `gap` to space the columns out:
+
+```css
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+```
+
+```html
+<div class="grid">
+  <div class="box">Box 1</div>
+  <div class="box">Box 2</div>
+  <div class="box">Box 3</div>
+  <div class="box">Box 4</div>
+  <div class="box">Box 5</div>
+  <div class="box">Box 6</div>
+</div>
+```
+
+Here we're defining three columns that take up one fraction (`1fr`) of the available space. So they'll all be the same size.
+
+<figure>
+  <style>
+    .example-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 1rem;
+      resize: horizontal;
+      overflow: hidden;
+    }
+  </style>
+  <div class="example-grid border-xl">
+    <div class="pad-xl bg-primary">Box 1</div>
+    <div class="pad-xl bg-primary">Box 2</div>
+    <div class="pad-xl bg-primary">Box 3</div>
+    <div class="pad-xl bg-primary">Box 4</div>
+    <div class="pad-xl bg-primary">Box 5</div>
+    <div class="pad-xl bg-primary">Box 6</div>
+  </div>
+  <figcaption>Three-column grid example</figcaption>
+</figure>
+
+The children automatically get slotted into new rows, but there are always three columns. This isn't very responsive: if you resize the example you'll see the boxes get squished.
+
+The solution is a fancy CSS trick that tells the grid to automatically create as many columns as it can fit:
+
+```css
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 1rem;
+}
+```
+
+This rule will create as many equal-sized columns as it can, as long as they don't get smaller than `10rem`. As the viewport gets bigger it'll add columns; as the viewport gets smaller it'll remove them.
+
+<figure>
+  <style>
+    .example-grid-dynamic {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+      gap: 1rem;
+      resize: horizontal;
+      overflow: hidden;
+    }
+  </style>
+  <div class="example-grid-dynamic border-xl">
+    <div class="pad-xl bg-primary">Box 1</div>
+    <div class="pad-xl bg-primary">Box 2</div>
+    <div class="pad-xl bg-primary">Box 3</div>
+    <div class="pad-xl bg-primary">Box 4</div>
+    <div class="pad-xl bg-primary">Box 5</div>
+    <div class="pad-xl bg-primary">Box 6</div>
+  </div>
+  <figcaption>Three-column grid example</figcaption>
+</figure>
+
+Resize the example and you should see the grid automatically reflow to fit the available space.
+
+## Challenge 4: bring it all together
+
+For the final challenge you'll be recreating the Instagram Web profile layout—without writing any CSS at all.
+
+Here's how it currently looks:
+
+<figure>
+  <iframe src="starter-files/challenge-4/"></iframe>
+  <figcaption>Challenge 4 preview</figcaption>
+</figure>
+
+And here's what you're aiming for:
+
+<figure>
+  <iframe src="starter-files/challenge-4/solution/"></iframe>
+  <figcaption>Challenge 4 solution</figcaption>
+</figure>
+
+Open `challenge-4/index.html` in your editor. You need to get as close to the final layout as you can by only adding classes to the HTML. No touching the CSS!

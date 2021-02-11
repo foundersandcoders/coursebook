@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solution 4 | CSS Layout Workshop</title>
+    <link rel="stylesheet" href="../challenge-4.css" />
+  </head>
+  <body>
+    <header>
+      <div class="row justify-space-between center width-lg">
+        <a class="logo" href="/" aria-label="Home">Facstagram</a>
+        <input type="search" aria-label="Search" placeholder="Search" />
+        <nav>
+          <ul class="row">
+            <li><a class="button" href="#login">Log In</a></li>
+            <li><a href="#signup">Sign Up</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="center width-lg stack-xl">
+      <section>
+        <div class="row gap-xl center">
+          <img
+            class="avatar"
+            width="150"
+            height="150"
+            src="https://scontent-lhr8-1.cdninstagram.com/v/t51.2885-19/s320x320/139838786_395777978185626_1672190520859118091_n.jpg?_nc_ht=scontent-lhr8-1.cdninstagram.com&_nc_ohc=P6oTeDiKWDIAX9uuuCD&tp=1&oh=ca36bce78605df46dfdab03661b4c98c&oe=60509BDB"
+            alt="We rate dogs' profile pic"
+          />
+          <div class="stack-md">
+            <div class="row">
+              <h1>weratedogs</h1>
+              <button class="button">Follow</button>
+            </div>
+            <ul class="row gap-lg">
+              <li><strong>2,163</strong> posts</li>
+              <li><strong>1.9m</strong> followers</li>
+              <li><strong>21</strong> following</li>
+            </ul>
+            <p>Your Only Source For Professional Dog Ratings</p>
+            <p>DM or tag us to submit your pups</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="stack-md">
+        <nav class="tabs">
+          <ul class="row center width-sm">
+            <li><a href="#posts">Posts</a></li>
+            <li><a href="#reels">Reels</a></li>
+            <li><a href="#igtv">IGTV</a></li>
+            <li><a href="#tagged">Tagged</a></li>
+          </ul>
+        </nav>
+        <ul class="grid column-lg">
+          <li>
+            <img
+              width="500"
+              height="500"
+              src="https://scontent-lhr8-1.cdninstagram.com/v/t51.2885-15/e35/c0.249.640.640a/148452815_2315891778556136_5674330183663822292_n.jpg?_nc_ht=scontent-lhr8-1.cdninstagram.com&_nc_cat=1&_nc_ohc=YySkj-xw2P4AX_rAlwF&tp=1&oh=8a5ba801f2afbd8a91a7765265509b1d&oe=6027C15A"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              width="500"
+              height="500"
+              src="https://scontent-lhr8-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/c0.67.1440.1440a/s640x640/148267689_770733710459787_8125000056314458450_n.jpg?_nc_ht=scontent-lhr8-1.cdninstagram.com&_nc_cat=1&_nc_ohc=TYL3LSFtTzAAX9x4NSm&tp=1&oh=5fa7dcc3112b55f8e88b8573251f2ea6&oe=604E0994"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              width="500"
+              height="500"
+              src="https://scontent-lhr8-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/c0.180.1440.1440a/s640x640/148006378_169118674755592_1045621209807962899_n.jpg?_nc_ht=scontent-lhr8-1.cdninstagram.com&_nc_cat=1&_nc_ohc=Bry1VQHhKBsAX-qiQ69&tp=1&oh=d1356a08f1fbf30278028245e497a393&oe=604EB706"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              width="500"
+              height="500"
+              src="https://scontent-lhr8-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/c0.168.1347.1347a/s640x640/146862340_411687416801001_1971441974294062618_n.jpg?_nc_ht=scontent-lhr8-1.cdninstagram.com&_nc_cat=109&_nc_ohc=xKNGvQ1OYpcAX_SlaT0&tp=1&oh=9974ffed0d26647f350ef51e49b4ea1a&oe=604E83FA"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              width="500"
+              height="500"
+              src="https://scontent-lht6-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/c0.180.1440.1440a/s640x640/146829317_164114195485719_4172792283799953518_n.jpg?_nc_ht=scontent-lht6-1.cdninstagram.com&_nc_cat=103&_nc_ohc=o6o8Wo79hS0AX_yqvF6&tp=1&oh=7a0a6c21ab185a0d7431f7f0e22c2fae&oe=604E5024"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              width="500"
+              height="500"
+              src="https://scontent-lht6-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/c0.179.1440.1440a/s640x640/147144736_458524588656323_3782833575631664230_n.jpg?_nc_ht=scontent-lht6-1.cdninstagram.com&_nc_cat=111&_nc_ohc=ua3kaq1ZNm0AX-eQ-an&tp=1&oh=4d06b312065ed79ca64df12b0e2c964f&oe=604D5322"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              width="500"
+              height="500"
+              src="https://scontent-lhr8-1.cdninstagram.com/v/t51.2885-15/e35/c0.224.576.576a/146097662_336478484232162_4499272017695085288_n.jpg?_nc_ht=scontent-lhr8-1.cdninstagram.com&_nc_cat=1&_nc_ohc=tjTUgv8tavoAX8rIMoE&tp=1&oh=1005561265da9f1f3519e1e826f5ff50&oe=6027E97E"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              width="500"
+              height="500"
+              src="https://scontent-lhr8-2.cdninstagram.com/v/t51.2885-15/e35/c140.0.621.621a/145197349_4991504734224254_9198004500447041373_n.jpg?_nc_ht=scontent-lhr8-2.cdninstagram.com&_nc_cat=102&_nc_ohc=UXCXlAy7nNIAX83Wnol&tp=1&oh=ad44c607c1a98cfbcd2914fff7163ab4&oe=604DA102"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              width="500"
+              height="500"
+              src="https://scontent-lhr8-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/c0.129.1032.1032a/s640x640/144643188_117043046929524_954106252578704427_n.jpg?_nc_ht=scontent-lhr8-1.cdninstagram.com&_nc_cat=100&_nc_ohc=n-IO69rZWg8AX_kofNu&tp=1&oh=fc752e1ee12dcdc499f9d341f9e837f7&oe=6050BD8B"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              width="500"
+              height="500"
+              src="https://scontent-lhr8-2.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/146640879_702813663744650_6011562951331276346_n.jpg?_nc_ht=scontent-lhr8-2.cdninstagram.com&_nc_cat=102&_nc_ohc=25ik8N7bvdcAX_IUgLQ&tp=1&oh=bf3f356ac9725e23cd72778070863db6&oe=604F6DC1"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              width="500"
+              height="500"
+              src="https://scontent-lhr8-2.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/145121581_3169052009863718_3938921979493239691_n.jpg?_nc_ht=scontent-lhr8-2.cdninstagram.com&_nc_cat=102&_nc_ohc=PHEZvpAR9VEAX95oTgl&tp=1&oh=3ccec06de0547015604f762bfba38524&oe=604EEFBF"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              width="500"
+              height="500"
+              src="https://scontent-lhr8-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/c0.167.1371.1371a/s640x640/145364081_125716436081180_7722760910513714506_n.jpg?_nc_ht=scontent-lhr8-1.cdninstagram.com&_nc_cat=108&_nc_ohc=dp-3wQUepusAX-HkUuA&tp=1&oh=d0e290a6d80ada0fbd606bc452a79a1a&oe=604D4ADA"
+              alt=""
+            />
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

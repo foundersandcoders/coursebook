@@ -22,6 +22,8 @@ module.exports = (config) => {
   config.addPassthroughCopy("src/assets");
 
   config.addPassthroughCopy("src/workshops/**/*.{png,jpg}");
+  // pass everything in starter files through
+  config.addPassthroughCopy("src/workshops/**/starter-files/**/*");
 
   // merges directory-level data with template-specific data when keys clash
   config.setDataDeepMerge(true);

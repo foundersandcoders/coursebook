@@ -1,0 +1,137 @@
+/* Set some sensible defaults... */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* A few app-specific styles */
+
+header {
+  border-bottom: 1px solid hsl(200, 10%, 80%);
+  padding: 0.75rem 1.5rem;
+}
+
+.logo {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+input[type="search"] {
+  min-width: 24ch;
+  padding: 0.25rem;
+  font: inherit;
+  font-size: 0.875rem;
+  text-align: center;
+  border: 1px solid hsl(200, 10%, 80%);
+  background-color: hsl(200, 10%, 98%);
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  border: 0;
+  padding: 0.25rem 1.25rem;
+  font: inherit;
+  background-color: hsl(200deg 100% 45%);
+  color: white;
+}
+
+main {
+  padding: 4rem 1.5rem;
+}
+
+.avatar {
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px white, 0 0 0 6px hotpink;
+}
+
+.tabs {
+  border-top: 1px solid hsl(200, 10%, 80%);
+  padding-top: 1rem;
+}
+
+.tabs a {
+  padding: 0.5rem;
+  text-transform: uppercase;
+}
+
+.center {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.width-sm {
+  max-width: 20rem;
+}
+
+.width-lg {
+  max-width: 60rem;
+}
+
+.stack-sm > * + * {
+  margin-top: 0.5rem;
+}
+
+.stack-md > * + * {
+  margin-top: 1rem;
+}
+
+.stack-lg > * + * {
+  margin-top: 2rem;
+}
+
+.stack-xl > * + * {
+  margin-top: 4rem;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.gap-lg {
+  gap: 2rem;
+}
+
+.gap-xl {
+  gap: 4rem;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 1rem;
+}
+
+.column-lg {
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+}
