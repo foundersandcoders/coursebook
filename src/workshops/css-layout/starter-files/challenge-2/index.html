@@ -16,33 +16,45 @@
       }
       body {
         font-family: system-ui, sans-serif;
-      }
-      a {
-        text-decoration: none;
-        color: inherit;
-      }
-      ul {
-        list-style: none;
-        padding: 0;
-      }
-      header {
         padding: 1.5rem;
-        background-color: black;
-        color: white;
       }
     </style>
   </head>
   <body>
-    <header>
-      <a href="/" aria-label="Home">🐹</a>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+    <main>
+      <h1>Welcome to my site</h1>
+
+      <section>
+        <h2>The first section</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus
+          itaque voluptatibus magnam perspiciatis, accusantium atque alias
+          cupiditate provident nemo quo placeat incidunt commodi ea aperiam
+          voluptatum corporis soluta impedit eaque.
+        </p>
+      </section>
+
+      <section>
+        <h2>Contact me</h2>
+        <form>
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" />
+          </div>
+
+          <div>
+            <label for="name">Email</label>
+            <input type="email" id="email" />
+          </div>
+
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message"></textarea>
+          </div>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
   </body>
 </html>

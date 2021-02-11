@@ -16,42 +16,54 @@
       }
       body {
         font-family: system-ui, sans-serif;
-      }
-      a {
-        text-decoration: none;
-        color: inherit;
-      }
-      ul {
-        list-style: none;
-        padding: 0;
-      }
-      header {
         padding: 1.5rem;
-        background-color: black;
-        color: white;
       }
-      .row {
-        display: flex;
-        gap: 1rem;
-        flex-wrap: wrap;
-        align-items: center;
+      .stack-sm > * + * {
+        margin-top: 0.5rem;
       }
-      .justify-space-between {
-        justify-content: space-between;
+      .stack-md > * + * {
+        margin-top: 1rem;
+      }
+      .stack-lg > * + * {
+        margin-top: 2rem;
       }
     </style>
   </head>
   <body>
-    <header class="row justify-space-between">
-      <a href="/" aria-label="Home">🐹</a>
-      <nav>
-        <ul class="row">
-          <li><a href="#about">About</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+    <main class="stack-lg">
+      <h1>Welcome to my site</h1>
+
+      <section class="stack-md">
+        <h2>The first section</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus
+          itaque voluptatibus magnam perspiciatis, accusantium atque alias
+          cupiditate provident nemo quo placeat incidunt commodi ea aperiam
+          voluptatum corporis soluta impedit eaque.
+        </p>
+      </section>
+
+      <section class="stack-md">
+        <h2>Contact me</h2>
+        <form class="stack-md">
+          <div class="stack-sm">
+            <label for="name">Name</label>
+            <input type="text" id="name" />
+          </div>
+
+          <div class="stack-sm">
+            <label for="name">Email</label>
+            <input type="email" id="email" />
+          </div>
+
+          <div class="stack-sm">
+            <label for="message">Message</label>
+            <textarea id="message"></textarea>
+          </div>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
   </body>
 </html>

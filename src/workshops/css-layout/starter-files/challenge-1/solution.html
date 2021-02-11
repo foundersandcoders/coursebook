@@ -8,32 +8,57 @@
     <style>
       * {
         box-sizing: border-box;
-        margin: 0;
       }
       label,
-      input {
+      input,
+      textarea,
+      button {
+        margin-top: 0.5rem;
+        width: 100%;
         display: block;
       }
       body {
+        margin: 0;
         font-family: system-ui, sans-serif;
-        padding: 1.5rem;
       }
-      .stack-sm > * + * {
-        margin-top: 0.5rem;
+      header {
+        padding: 4rem 1.5rem;
+        background-color: black;
+        color: white;
       }
-      .stack-md > * + * {
-        margin-top: 1rem;
+      section {
+        margin-top: 4rem;
       }
-      .stack-lg > * + * {
-        margin-top: 2rem;
+      main {
+        padding: 0 1.5rem;
+      }
+      .center {
+        max-width: 40rem;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .width-sm {
+        max-width: 20rem;
+      }
+      .width-lg {
+        max-width: 60rem;
       }
     </style>
   </head>
   <body>
-    <main class="stack-lg">
-      <h1>Welcome to my site</h1>
-
-      <section class="stack-md">
+    <header>
+      <div class="center width-lg">
+        <h1>Welcome to my site</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus
+          itaque voluptatibus magnam perspiciatis, accusantium atque alias
+          cupiditate provident nemo quo placeat incidunt commodi ea aperiam
+          voluptatum corporis soluta impedit eaque.
+        </p>
+      </div>
+    </header>
+    <main>
+      <section class="center">
         <h2>The first section</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus
@@ -43,20 +68,20 @@
         </p>
       </section>
 
-      <section class="stack-md">
+      <section class="center width-sm">
         <h2>Contact me</h2>
-        <form class="stack-md">
-          <div class="stack-sm">
+        <form>
+          <div>
             <label for="name">Name</label>
             <input type="text" id="name" />
           </div>
 
-          <div class="stack-sm">
+          <div>
             <label for="name">Email</label>
             <input type="email" id="email" />
           </div>
 
-          <div class="stack-sm">
+          <div>
             <label for="message">Message</label>
             <textarea id="message"></textarea>
           </div>

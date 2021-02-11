@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge 3 | CSS Layout Workshop</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+      label,
+      input {
+        display: block;
+      }
+      body {
+        font-family: system-ui, sans-serif;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      header {
+        padding: 1.5rem;
+        background-color: black;
+        color: white;
+      }
+      .row {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .justify-space-between {
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="row justify-space-between">
+      <a href="/" aria-label="Home">🐹</a>
+      <nav>
+        <ul class="row">
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>

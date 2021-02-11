@@ -42,6 +42,171 @@ Grid is usually used for _two-direction_ layouts. I.e. rows _and_ columns. It wo
 
 ---
 
+## The Center: constraining content width
+
+It's important for content not to get too wide. Otherwise text gets pretty hard to read as your eyes have to travel so far left-to-right.
+
+So it's a common requirement to put content in a narrow horizontally centered column. For example the content on this very website is in a center column.
+
+The best way to constrain width is with the `max-width` property. This is better than just `width`, as it allows content to shrink if the viewport is too small. E.g. if you set `width: 60rem` but the viewport was only `40rem` wide the element would overflow by `20rem`.
+
+```css
+.center {
+  max-width: 30rem;
+}
+```
+
+```html
+<div class="center">
+  <div class="box">Box 1</div>
+</div>
+```
+
+<figure>
+  <style>
+    .example-center {
+      max-width: 30rem;
+    }
+  </style>
+  <div class="border-xl">
+    <div class="example-center">
+      <div class="pad-xl bg-primary">Box 1</div>
+    </div>
+  </div>
+  <figcaption>Constaining max-width</figcaption>
+</figure>
+
+We can then use margin to control where the constrained column goes. Setting margin to `auto` tells the browser to use as much of the leftover available space as possible. E.g. if we set `margin-left: auto` it would push the element all the way to the right (since the left margin would take up all of the available space):
+
+```css
+.center {
+  max-width: 30rem;
+  margin-left: auto;
+}
+```
+
+<figure>
+  <div class="border-xl">
+    <div class="example-center" style="margin-left: auto">
+      <div class="pad-xl bg-primary">Box 1</div>
+    </div>
+  </div>
+  <figcaption>Left auto-margin example</figcaption>
+</figure>
+
+To center an element we can balance this out with an equal `margin-right: auto`. Now both margins will get _half_ the available space, pushing the element to the middle.
+
+```css
+.center {
+  max-width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+```
+
+<figure>
+  <div class="border-xl">
+    <div class="example-center" style="margin-left: auto; margin-right: auto">
+      <div class="pad-xl bg-primary">Box 1</div>
+    </div>
+  </div>
+  <figcaption>Left and right auto-margin example</figcaption>
+</figure>
+
+### Customising width
+
+We're going to need control over how wide the Center allows content to get, otherwise it's not very re-usable. We can control this in a couple of ways.
+
+First we could use a CSS variable for the `max-width`:
+
+```css
+.center {
+  max-width: var(--max-width, 30rem);
+  margin-left: auto;
+  margin-right: auto;
+}
+```
+
+This will default to `30rem` if no variable is set, but we can override it if needed:
+
+```html
+<div class="center" style="--max-width: 10rem">
+  <div class="box">Box 1</div>
+</div>
+```
+
+<figure>
+  <div class="border-xl">
+    <div class="example-center" style="margin-left: auto; margin-right: auto; max-width: 10rem">
+      <div class="pad-xl bg-primary">Box 1</div>
+    </div>
+  </div>
+  <figcaption>Narrower Center example</figcaption>
+</figure>
+
+This is very easy to use, but has a couple of disadvantages. First it allows _any_ value to be used. This is flexible but will lead to inconsistency in our design. It's better to pick pre-determined "allowed widths" so your layout doesn't look random.
+
+Second, CSS variables are _inherited_, which means nested Centers will use the `--max-width` from their parent.
+
+```html
+<div class="center" style="--max-width: 60rem">
+  <div class="center">
+    <div class="box">Box 1</div>
+  </div>
+</div>
+```
+
+You might expect the second `.center` here to be `30rem` wide, since that's the default. However it will inherit the `--max-width: 60rem` from its parent, which is unexpected.
+
+Instead of CSS variables we can define "modifier" classes that we apply to override the max-width rule:
+
+```css
+.center {
+  max-width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.width-sm {
+  max-width: 20rem;
+}
+.width-lg {
+  max-width: 40rem;
+}
+.width-xl {
+  max-width: 60rem;
+}
+```
+
+Now we can add extra classes when we want different widths.
+
+```html
+<div class="center width-xl">
+  <div class="center">
+    <div class="box">Box 1</div>
+  </div>
+</div>
+```
+
+### Challenge 1: using the Center
+
+You're going to fix the layout of this page. Currently all the content is full-width and it's hard to read.
+
+<figure>
+  <iframe src="starter-files/challenge-1/"></iframe>
+  <figcaption>Challenge 1 preview</figcaption>
+</figure>
+
+The header content should be constrained to `60rem` wide, the first section to `40rem` wide, and the contact section to `20rem` wide.
+
+Add the Center CSS you need to the `style` tag at the top. Then add classes to the HTML, but don't change it in any other way. Here is the result you're aiming for:
+
+<figure>
+  <iframe src="starter-files/challenge-1/solution"></iframe>
+  <figcaption>Challenge 1 solution</figcaption>
+</figure>
+
+---
+
 ## The Stack: controlling vertical space
 
 The most important layout primitive is one to control the space between elements. For re-usability and simplicity it's a good idea not to apply spacing rules to individual elements. E.g. if you put `margin-left` on a button you can only re-use it in places where left spacing makes sense.
@@ -142,76 +307,9 @@ Or we could use the [adjacent sibling combinator](https://developer.mozilla.org/
 
 ### Customising spacing
 
-Our stack primitive is useful, but we're going to need different amounts of spacing to make a whole page. We can control this in a couple of ways.
+Our stack primitive is useful, but we're going to need different amounts of spacing to make a whole page. We can control this using multiple classes, just like with the Center.
 
-First we could use a CSS variable for the size of the margin:
-
-```css
-.stack > * + * {
-  margin-top: var(--space, 1rem);
-}
-```
-
-This will default to `1rem` if no variable is set, but we can override it if needed.
-
-```html
-<div class="stack" style="--space: 4rem">
-  <div class="box">Box 1</div>
-  <div class="box">Box 2</div>
-  <div class="box">Box 3</div>
-</div>
-```
-
-<figure>
-  <style>
-    .example-stack-var > * + * {
-      margin-top: var(--space, 1rem);
-    }
-  </style>
-  <div class="example-stack-var border-xl" style="--space: 4rem">
-    <div class="pad-xl bg-primary">Box 1</div>
-    <div class="pad-xl bg-primary">Box 2</div>
-    <div class="pad-xl bg-primary">Box 3</div>
-  </div>
-  <figcaption>Boxes with much more space between them</figcaption>
-</figure>
-
-The downside to this is nested stacks will break, since CSS variables are _inherited_ from their parents. E.g.
-
-```html
-<main class="stack" style="--space: 4rem">
-  <section class="stack">
-    <div class="box">Box 1</div>
-    <div class="box">Box 2</div>
-    <div class="box">Box 3</div>
-  </section>
-  <section class="stack">
-    <div class="box">Box 4</div>
-    <div class="box">Box 5</div>
-    <div class="box">Box 6</div>
-  </section>
-</main>
-```
-
-We want `4rem` of space between the `section`s and `1rem` between the `div`s. However since the `div`s will inherit the same `--space` variable we end up with `4rem` between every element:
-
-<figure>
-  <div class="example-stack-var border-xl" style="--space: 4rem">
-    <div class="example-stack-var">
-      <div class="pad-xl bg-primary">Box 1</div>
-      <div class="pad-xl bg-primary">Box 2</div>
-      <div class="pad-xl bg-primary">Box 3</div>
-    </div>
-    <div class="example-stack-var">
-      <div class="pad-xl bg-tertiary">Box 4</div>
-      <div class="pad-xl bg-tertiary">Box 5</div>
-      <div class="pad-xl bg-tertiary">Box 6</div>
-    </div>
-  </div>
-  <figcaption>Nested stacks with too much space between them</figcaption>
-</figure>
-
-Instead we can define separate classes for each size of stack. This is nice because it allows us to choose a pre-set number of sizes, which keeps our layout consistent.
+This is nice because it allows us to choose a pre-set number of sizes, which keeps our layout consistent.
 
 ```css
 .stack-sm > * + * {
@@ -269,13 +367,13 @@ Now we can control the space more easily:
   <figcaption>Nested stacks with differing space between them</figcaption>
 </figure>
 
-### Challenge 1: using the Stack
+### Challenge 2: using the Stack
 
-You're going to use the Stack to fix the layout of a web page. Download the starter files using the command at the start of the workshop, then open `challenge-1/index.html` in your editor.
+You're going to use the Stack to fix the layout of a web page. Download the starter files using the command at the start of the workshop, then open `challenge-2/index.html` in your editor.
 
 <figure>
-  <iframe src="starter-files/challenge-1/"></iframe>
-  <figcaption>Challenge 1 preview</figcaption>
+  <iframe src="starter-files/challenge-2/"></iframe>
+  <figcaption>Challenge 2 preview</figcaption>
 </figure>
 
 Currently there's no space between anything. There should be `2rem` of space between each `section`. There should be `1rem` of space between the elements within each section. There should be `0.5rem` between each form field and its label.
@@ -283,8 +381,8 @@ Currently there's no space between anything. There should be `2rem` of space bet
 Fix the layout by defining Stack CSS inside the `style` tag, then _only_ adding Stack classes to the HTML. Don't add or remove any elements or write any other CSS! You can create this whole layout using only Stacks.
 
 <figure>
-  <iframe src="starter-files/challenge-1/solution/"></iframe>
-  <figcaption>Challenge 1 solution preview</figcaption>
+  <iframe src="starter-files/challenge-2/solution/"></iframe>
+  <figcaption>Challenge 2 solution preview</figcaption>
 </figure>
 
 ---
@@ -453,20 +551,20 @@ You may also need to allow control of horizontal alignment using the `justify-co
   <figcaption>Flex horizontal alignment example</figcaption>
 </figure>
 
-### Challenge 2: using the Row
+### Challenge 3: using the Row
 
-Open `challenge-2/index.html` in your editor. You should see a page with a header containing a logo and a nav.
+Open `challenge-3/index.html` in your editor. You should see a page with a header containing a logo and a nav.
 
 <figure>
-  <iframe src="starter-files/challenge-2/"></iframe>
-  <figcaption>Challenge 2 preview</figcaption>
+  <iframe src="starter-files/challenge-3/"></iframe>
+  <figcaption>Challenge 3 preview</figcaption>
 </figure>
 
 You need to make the header layout work correctly. The logo should be on the far left, with the nav on the far right, and all the links in a row, like this:
 
 <figure>
-  <iframe src="starter-files/challenge-2/solution/"></iframe>
-  <figcaption>Challenge 2 solution</figcaption>
+  <iframe src="starter-files/challenge-3/solution/"></iframe>
+  <figcaption>Challenge 3 solution</figcaption>
 </figure>
 
 Again, _only_ add Row CSS to the style tag and classes to the HTML. Don't add any new HTML elements.
