@@ -7,8 +7,6 @@
 
 Practice working with git and GitHub by pushing your solution to the CSS workshop to the [FAC21 pre-course repository](https://github.com/fac21/pre-course/).
 
-## Markdown
+Make sure you create a new folder with your name inside the `css-layout` folder. You can put your solution in there.
 
-Read [GitHub's Markdown introduction](https://guides.github.com/features/mastering-markdown/). Practice your Markdown by writing a `README.md` for your workshop solution. Try to include some headings, lists, images, and maybe even a table.
-
-This should explain what you learnt, anything interesting you wanted to share etc. We'll use this as the basis for our group discussion in the next session.
+Don't forget to practice your Markdown by writing a `README.md` documenting your learnings this week.
