@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge 2 | CSS Layout Workshop</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+      label,
+      input {
+        display: block;
+      }
+      body {
+        font-family: system-ui, sans-serif;
+        padding: 1.5rem;
+      }
+      .stack-sm > * + * {
+        margin-top: 0.5rem;
+      }
+      .stack-md > * + * {
+        margin-top: 1rem;
+      }
+      .stack-lg > * + * {
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="stack-lg">
+      <h1>Welcome to my site</h1>
+
+      <section class="stack-md">
+        <h2>The first section</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus
+          itaque voluptatibus magnam perspiciatis, accusantium atque alias
+          cupiditate provident nemo quo placeat incidunt commodi ea aperiam
+          voluptatum corporis soluta impedit eaque.
+        </p>
+      </section>
+
+      <section class="stack-md">
+        <h2>Contact me</h2>
+        <form class="stack-md">
+          <div class="stack-sm">
+            <label for="name">Name</label>
+            <input type="text" id="name" />
+          </div>
+
+          <div class="stack-sm">
+            <label for="name">Email</label>
+            <input type="email" id="email" />
+          </div>
+
+          <div class="stack-sm">
+            <label for="message">Message</label>
+            <textarea id="message"></textarea>
+          </div>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

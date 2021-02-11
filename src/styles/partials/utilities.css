@@ -72,10 +72,30 @@
   justify-self: stretch;
 }
 
+.bg-body {
+  background-color: var(--body-bg);
+}
+
 .bg-primary {
   background-color: var(--primary);
 }
 
+.bg-secondary {
+  background-color: var(--secondary);
+}
+
+.bg-tertiary {
+  background-color: var(--tertiary);
+}
+
+.bg-quarternary {
+  background-color: var(--quarternary);
+}
+
 .tac {
   text-align: center;
+}
+
+.border-xl {
+  border: 0.5rem solid;
 }

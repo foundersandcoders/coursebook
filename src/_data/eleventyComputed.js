@@ -10,4 +10,9 @@ module.exports = {
       return data.permalink;
     }
   },
+  layout: (data) => {
+    if (data.page.url.includes("starter-files")) return false;
+    if (data.layout) return data.layout;
+    return "default";
+  },
 };
