@@ -1,4 +1,65 @@
-/* Set some sensible defaults... */
+/* The layout primitives for you to use */
+
+.center {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.width-sm {
+  max-width: 20rem;
+}
+
+.width-lg {
+  max-width: 60rem;
+}
+
+.stack-sm > * + * {
+  margin-top: 0.5rem;
+}
+
+.stack-md > * + * {
+  margin-top: 1rem;
+}
+
+.stack-lg > * + * {
+  margin-top: 2rem;
+}
+
+.stack-xl > * + * {
+  margin-top: 4rem;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.gap-lg {
+  gap: 2rem;
+}
+
+.gap-xl {
+  gap: 4rem;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 1rem;
+}
+
+.column-lg {
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+}
+
+/* Some sensible defaults... */
 
 * {
   box-sizing: border-box;
@@ -75,63 +136,4 @@ main {
 .tabs a {
   padding: 0.5rem;
   text-transform: uppercase;
-}
-
-.center {
-  max-width: 40rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.width-sm {
-  max-width: 20rem;
-}
-
-.width-lg {
-  max-width: 60rem;
-}
-
-.stack-sm > * + * {
-  margin-top: 0.5rem;
-}
-
-.stack-md > * + * {
-  margin-top: 1rem;
-}
-
-.stack-lg > * + * {
-  margin-top: 2rem;
-}
-
-.stack-xl > * + * {
-  margin-top: 4rem;
-}
-
-.row {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.gap-lg {
-  gap: 2rem;
-}
-
-.gap-xl {
-  gap: 4rem;
-}
-
-.justify-space-between {
-  justify-content: space-between;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-  gap: 1rem;
-}
-
-.column-lg {
-  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
 }
