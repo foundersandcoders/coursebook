@@ -10,7 +10,7 @@ keywords:
   - fundamentals
 ---
 
-Modern CSS has powerful tools for controlling where elements go on the page. We're going to learn how to create basic style "primitives" (single-purpose bits of CSS) to solve different layout requirements, then see how we can combine those primitives together to create more complex layouts.
+Modern CSS has powerful tools for controlling where elements go on the page. We're going to learn how to create style "primitives" (single-purpose bits of CSS) to solve different layout requirements, then see how we can combine those primitives together to create more complex layouts.
 
 ## Layout fundamentals
 
@@ -39,6 +39,8 @@ Flexbox is usually used for _single-direction_ layouts. I.e. a row _or_ a column
 Grid can be used to create very specific layouts using `grid-template-columns` and `grid-template-rows` to specify an exact layout grid. You can then place child elements into specific locations on the grid with `grid-column` and `grid-row`.
 
 Grid is usually used for _two-direction_ layouts. I.e. rows _and_ columns. It works best when you have a specific grid in mind, but can be less flexible.
+
+---
 
 ## The Stack: controlling vertical space
 
@@ -272,24 +274,39 @@ Now we can control the space more easily:
 You're going to use the Stack to fix the layout of a web page. Download the starter files using the command at the start of the workshop, then open `challenge-1/index.html` in your editor.
 
 <figure>
-  <iframe src="starter-files/challenge-1/"/></iframe>
+  <iframe src="starter-files/challenge-1/"></iframe>
   <figcaption>Challenge 1 preview</figcaption>
 </figure>
 
 Currently there's no space between anything. There should be `2rem` of space between each `section`. There should be `1rem` of space between the elements within each section. There should be `0.5rem` between each form field and its label.
 
-Fix the layout by adding Stack classes inside the `style` tag, then _only_ adding classes to the HTML. Don't add or remove any elements!
+Fix the layout by defining Stack CSS inside the `style` tag, then _only_ adding Stack classes to the HTML. Don't add or remove any elements or write any other CSS! You can create this whole layout using only Stacks.
 
 <figure>
-  <iframe src="starter-files/challenge-1/solution/"/></iframe>
+  <iframe src="starter-files/challenge-1/solution/"></iframe>
   <figcaption>Challenge 1 solution preview</figcaption>
 </figure>
 
 ---
 
-### Flexbox layout
+## The Row: placing elements next to each other
 
-Setting `display: flex` on an element lets it control how its children are laid out. By default they will all be put in a single row.
+Another very useful layout primitive is a "row". Web interfaces often need elements placed next to each other. For example a horizontal list of links in a navigation bar, or the "Confirm" and "Cancel" buttons in a dialogue popup.
+
+<figure>
+  <div class="border-xl pad-xl">
+    <div class="vstack pad-lg bg-body">
+      <p>Are you sure you'd like to delete everything?</p>
+      <div class="hstack" style="justify-content: flex-end">
+        <button class="button bg-quarternary">Delete</button>
+        <button class="button">Cancel</button>
+      </div>
+    </div>
+  </div>
+  <figcaption>Buttons sitting next to each other in a row</figcaption>
+</figure>
+
+Flexbox is designed for one-dimensional layouts, so it is perfect here. Setting `display: flex` on an element lets it control how its children are laid out. By default they will all be put in a single row.
 
 ```css
 .row {
@@ -319,9 +336,9 @@ Setting `display: flex` on an element lets it control how its children are laid 
 
 #### Making it responsive
 
-If you resize the container using the handle on the bottom right you'll see that this layout doesn't _adapt_. By default the flex children will shrink as much as their content allows, but they can't get smaller than the longest word inside them. Once the container gets narrower than this they stop shrinking and overflow their container.
+If you resize the container using the handle on the bottom right you'll see that this layout doesn't _adapt_. By default the flex children will shrink as much as their content allows, but they can't get smaller than the longest word inside them. Once the container gets narrower than this they stop shrinking and get cut off.
 
-Overflow is not good. It usually means your layout isn't flexible enough to cope with different screen sizes. Generally when you put things in a row you want to make sure they can wrap when there's no more space.
+This means our layout isn't flexible enough to cope with different screen sizes. Generally when you put things in a row you want to make sure they can wrap when there's no more space.
 
 ```css
 .row {
@@ -365,6 +382,96 @@ Layouts usualy require some space between each element. CSS has a handy property
 </figure>
 
 Note that the gap is maintained even when the children wrap. Unfortunately `gap` is not supported for flexbox in Safari yet (it works fine for grid). You can [approximate the same effect using margins](https://web.dev/flexbox-gap/#flexbox-gap), but it's more complex to make sure it handles wrapping.
+
+### Alignment
+
+Flexbox allows control over how children are aligned both horizontally and vertically. Most of the time you want things vertically centered, so that different height children line up. You can control vertical alignment with `align-items`:
+
+```css
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+```
+
+<figure>
+  <div class="example-row" style="flex-wrap: wrap; gap: 1rem; align-items: center">
+    <div class="pad-sm bg-primary">Small box</div>
+    <div class="pad-xl bg-tertiary">Tall box</div>
+  </div>
+  <figcaption>Flex vertical alignment example</figcaption>
+</figure>
+
+You can allow this value to be customised the same way we did for the Stack's space above. Either a CSS variable or modifier classes:
+
+```css
+.row {
+  /* ... */
+  align-items: var(--align, center);
+}
+```
+
+```css
+.row {
+  /* ... */
+  align-items: center;
+}
+.align-start {
+  align-items: start;
+}
+.align-end {
+  align-items: end;
+}
+/* etc */
+```
+
+You may also need to allow control of horizontal alignment using the `justify-content` property. This lets the container push its children apart, or to either end of the container.
+
+```css
+.row {
+  /* ... */
+}
+.justify-end {
+  justify-content: flex-end;
+}
+```
+
+```html
+<div class="row justify-end">
+  <div class="box">Box 1</div>
+  <div class="box">Box 2</div>
+</div>
+```
+
+<figure>
+  <div class="example-row" style="flex-wrap: wrap; gap: 1rem; justify-content: flex-end">
+    <div class="pad-xl bg-primary">Box 1</div>
+    <div class="pad-xl bg-tertiary">Box 2</div>
+  </div>
+  <figcaption>Flex horizontal alignment example</figcaption>
+</figure>
+
+### Challenge 2: using the Row
+
+Open `challenge-2/index.html` in your editor. You should see a page with a header containing a logo and a nav.
+
+<figure>
+  <iframe src="starter-files/challenge-2/"></iframe>
+  <figcaption>Challenge 2 preview</figcaption>
+</figure>
+
+You need to make the header layout work correctly. The logo should be on the far left, with the nav on the far right, and all the links in a row, like this:
+
+<figure>
+  <iframe src="starter-files/challenge-2/solution/"></iframe>
+  <figcaption>Challenge 2 solution</figcaption>
+</figure>
+
+Again, _only_ add Row CSS to the style tag and classes to the HTML. Don't add any new HTML elements.
+
+---
 
 ## Mindset
 
