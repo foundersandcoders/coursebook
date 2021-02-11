@@ -568,13 +568,3 @@ You need to make the header layout work correctly. The logo should be on the far
 </figure>
 
 Again, _only_ add Row CSS to the style tag and classes to the HTML. Don't add any new HTML elements.
-
----
-
-## Mindset
-
-CSS tends to be tough for beginners because it requires a certain way of thinking. It's better to try and give the browser _hints_ about how a layout should work, rather than trying to control exactly where everything goes. Rules like `display: absolute` (where you have to manually place an element) should be a last resort.
-
-The default browser layout (without any CSS) is accessible and responsive. When adding CSS to control where things go we should be careful not to break this. Always consider how your layout will adapt to changes: e.g. does your grid automatically wrap when the screen gets narrower?
-
-Generally your styles will be less complex if you create single-purpose components. However identifying what these should be requires experience, and so beginners often end up writing tangled, overly-complex CSS that is harder to understand.
