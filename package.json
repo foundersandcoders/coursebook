@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "eleventy --serve --quiet",
-    "build": "ELEVENTY_ENV=production eleventy"
+    "build": "ELEVENTY_ENV=production eleventy",
+    "postinstall": "husky install",
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -37,5 +39,8 @@
   "devDependencies": {
     "husky": "^5.0.9",
     "prettier": "^2.2.1"
+  },
+  "prettier": {
+    "trailingComma": "es5"
   }
 }
