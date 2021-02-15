@@ -36,25 +36,25 @@
 
 ## Day 4
 
-| Time    | Activity     |
-| ------- | ------------ |
-| 09:45   | Check-in     |
-| 10:00   | Build        |
-| _13:00_ | _Lunch_      |
-| 14:00   | Build        |
-| 17:45   | Check-out    |
+| Time    | Activity  |
+| ------- | --------- |
+| 09:45   | Check-in  |
+| 10:00   | Build     |
+| _13:00_ | _Lunch_   |
+| 14:00   | Build     |
+| 17:45   | Check-out |
 
 ## Day 5
 
-| Time    | Activity                        |
-| ------- | ------------------------------- |
-| 09:45   | Check-in                        |
-| 10:00   | Code Review                     |
-| 11:00   | Sprint Review                   |
-| 12:00   | Presentation Prep               |
-| _13:00_ | _Lunch_                         |
-| 14:00   | Presentations                   |
-| 15:30   | Cohort SGC                      |
-| 16:15   | Team SGC                        |
-| 17:00   | Speaker                         |
-| 17:45   | Check-out                       |
+| Time    | Activity          |
+| ------- | ----------------- |
+| 09:45   | Check-in          |
+| 10:00   | Code Review       |
+| 11:00   | Sprint Review     |
+| 12:00   | Presentation Prep |
+| _13:00_ | _Lunch_           |
+| 14:00   | Presentations     |
+| 15:30   | Cohort SGC        |
+| 16:15   | Team SGC          |
+| 17:00   | Speaker           |
+| 17:45   | Check-out         |

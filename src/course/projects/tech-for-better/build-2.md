@@ -2,14 +2,14 @@
 
 ## Day 1
 
-| Time    | Activity                                    |
-| ------- | ------------------------------------------- |
-| 09:45   | Check-in                                    |
-| 10:00   | Feedback Survey                             |
-| 10:10   | Build                                       |
-| _13:00_ | _Lunch_                                     |
-| 14:00   | Build                                       |
-| 17:45   | Check-out                                   |
+| Time    | Activity        |
+| ------- | --------------- |
+| 09:45   | Check-in        |
+| 10:00   | Feedback Survey |
+| 10:10   | Build           |
+| _13:00_ | _Lunch_         |
+| 14:00   | Build           |
+| 17:45   | Check-out       |
 
 ## Day 2
 
@@ -19,30 +19,30 @@
 | 10:00   | Build     |
 | _13:00_ | _Lunch_   |
 | 14:00   | Build     |
-| 17:00   | Speaker     |
+| 17:00   | Speaker   |
 | 17:45   | Check-out |
 
 ## Day 3
 
-| Time    | Activity        |
-| ------- | --------------- |
-| 09:45   | Check-in        |
-| 10:00   | Build           |
-| _13:00_ | _Lunch_         |
+| Time    | Activity                   |
+| ------- | -------------------------- |
+| 09:45   | Check-in                   |
+| 10:00   | Build                      |
+| _13:00_ | _Lunch_                    |
 | 14:00   | Employment: Interview prep |
-| 16:15   | Check-out       |
-| 16:30   | Meet ups         |
-| 18:00   | _End_       |
+| 16:15   | Check-out                  |
+| 16:30   | Meet ups                   |
+| 18:00   | _End_                      |
 
 ## Day 4
 
-| Time    | Activity     |
-| ------- | ------------ |
-| 09:45   | Check-in     |
-| 10:00   | Build        |
-| _13:00_ | _Lunch_      |
-| 14:00   | Build        |
-| 17:45   | Check-out    |
+| Time    | Activity  |
+| ------- | --------- |
+| 09:45   | Check-in  |
+| 10:00   | Build     |
+| _13:00_ | _Lunch_   |
+| 14:00   | Build     |
+| 17:45   | Check-out |
 
 ## Day 5
 
@@ -55,7 +55,7 @@
 | _13:00_ | _Lunch_                                    |
 | 14:00   | Presentations                              |
 | 15:30   | Cohort SGC                                 |
-| 16:15   | Team SGC             |
-| 16:45   | User manuals                                  |
-| 17:00   | Speaker                                  |
+| 16:15   | Team SGC                                   |
+| 16:45   | User manuals                               |
+| 17:00   | Speaker                                    |
 | 17:45   | Check-out                                  |

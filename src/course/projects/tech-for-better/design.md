@@ -60,7 +60,7 @@
 | Time  | Activity                |
 | ----- | ----------------------- |
 | 09:45 | Check-in                |
-| 10:00 | Speaker                 | 
+| 10:00 | Speaker                 |
 | 11:00 | Sprint Planning w/ PO   |
 | 13:00 | _Lunch_                 |
 | 14:00 | Remaining spike         |
