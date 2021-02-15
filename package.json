@@ -2,13 +2,14 @@
   "name": "coursebook",
   "version": "1.0.0",
   "description": "Our open source web development curriculum",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "dev": "eleventy --serve --quiet",
     "build": "ELEVENTY_ENV=production eleventy",
-    "postinstall": "husky install",
     "format": "prettier --write .",
-    "precommit": "lint-staged"
+    "pre-commit": "lint-staged",
+    "postinstall": "git config core.hooksPath .githooks",
+    "create-hook": "create() { echo '#!/bin/sh\n\n' $2 > .githooks/$1; chmod +x .githooks/$1; echo Created hook $1; }; create"
   },
   "repository": {
     "type": "git",
@@ -38,7 +39,6 @@
     "preact-render-to-string": "^5.1.12"
   },
   "devDependencies": {
-    "husky": "^5.0.9",
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1"
   },
