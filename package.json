@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "eleventy --serve --quiet",
     "build": "ELEVENTY_ENV=production eleventy",
-    "format": "prettier --write .",
     "pre-commit": "lint-staged",
     "postinstall": "git config core.hooksPath .githooks",
     "create-hook": "create() { echo '#!/bin/sh\n\n' $2 > .githooks/$1; chmod +x .githooks/$1; echo Created hook $1; }; create"
@@ -46,6 +45,6 @@
     "trailingComma": "es5"
   },
   "lint-staged": {
-    "*.{md,html,css,js}": "npm run format"
+    "*.{md,html,css,js}": "prettier --write"
   }
 }
