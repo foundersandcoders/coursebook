@@ -33,5 +33,9 @@
     "postcss-preset-env": "^6.7.0",
     "preact": "^10.5.10",
     "preact-render-to-string": "^5.1.12"
+  },
+  "devDependencies": {
+    "husky": "^5.0.9",
+    "prettier": "^2.2.1"
   }
 }
