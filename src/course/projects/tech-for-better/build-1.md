@@ -2,14 +2,14 @@
 
 ## Day 1
 
-| Time    | Activity                     |
-| ------- | ---------------------------- |
-| 09:45   | Check-in                     |
-| 10:00   | Feedback Survey              |
-| 10:10   | Build                        |
-| _13:00_ | _Lunch_                      |
-| 14:00   | Build                        |
-| 17:45   | Check-out                    |
+| Time    | Activity        |
+| ------- | --------------- |
+| 09:45   | Check-in        |
+| 10:00   | Feedback Survey |
+| 10:10   | Build           |
+| _13:00_ | _Lunch_         |
+| 14:00   | Build           |
+| 17:45   | Check-out       |
 
 ## Day 2
 
@@ -19,20 +19,20 @@
 | 10:00   | Build     |
 | _13:00_ | _Lunch_   |
 | 14:00   | Build     |
-| 17:00   | Speaker     |
+| 17:00   | Speaker   |
 | 17:45   | Check-out |
 
 ## Day 3
 
-| Time    | Activity        |
-| ------- | --------------- |
-| 09:45   | Check-in        |
-| 10:00   | Build           |
-| _13:00_ | _Lunch_         |
+| Time    | Activity               |
+| ------- | ---------------------- |
+| 09:45   | Check-in               |
+| 10:00   | Build                  |
+| _13:00_ | _Lunch_                |
 | 14:00   | Employment: Tech tests |
-| 16:15   | Check-out       |
-| 16:30   | Meetups         |
-| 18:00   | _End_         |
+| 16:15   | Check-out              |
+| 16:30   | Meetups                |
+| 18:00   | _End_                  |
 
 ## Day 4
 
@@ -47,16 +47,15 @@
 
 ## Day 5
 
-| Time    | Activity                        |
-| ------- | ------------------------------- |
-| 09:45   | Check-in                        |
-| 10:00   | Sprint Review                   |
-| 11:00   | Sprint Planning                 |
-| 12:00   | Presentation Prep               |
-| _13:00_ | _Lunch_                         |
-| 14:00   | Presentations                   |
-| 15:30   | Cohort SGC                      |
-| 16:15   | Team SGC                        |
-| 17:00   | Speaker                         |
-| 17:45   | Check-out                       |
-
+| Time    | Activity          |
+| ------- | ----------------- |
+| 09:45   | Check-in          |
+| 10:00   | Sprint Review     |
+| 11:00   | Sprint Planning   |
+| 12:00   | Presentation Prep |
+| _13:00_ | _Lunch_           |
+| 14:00   | Presentations     |
+| 15:30   | Cohort SGC        |
+| 16:15   | Team SGC          |
+| 17:00   | Speaker           |
+| 17:45   | Check-out         |

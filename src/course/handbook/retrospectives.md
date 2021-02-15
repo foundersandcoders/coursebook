@@ -20,7 +20,7 @@ The feedback can range broadly from environmental concerns, to timetabling, to f
 
 Once students have filled a whiteboard with their feedback, an assigned facilitator will read each point and they are discussed by the group. The facilitator should not feel they need to respond to every issue and, except for reading out each point, doesn't talk more than the others.
 
-An assigned notetaker will take rough minutes of the meeting as well as any action points. The minutes of these meetings are captured in the cohort organisation, forwarded to mentors of future weeks, and used when we review the curriculum. Each action point should be assigned to a particular person and at the beginning of the next SGC, the facilitator will check-in on progress with the assignees. 
+An assigned notetaker will take rough minutes of the meeting as well as any action points. The minutes of these meetings are captured in the cohort organisation, forwarded to mentors of future weeks, and used when we review the curriculum. Each action point should be assigned to a particular person and at the beginning of the next SGC, the facilitator will check-in on progress with the assignees.
 
 ## Team retrospectives
 

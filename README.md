@@ -41,7 +41,7 @@ The work is available under the Creative Commons [Attribution-NonCommercial-Shar
 | 5    | [Databases](https://founders-and-coders.gitbook.io/coursebook/curriculum/databases/schedule)                       |
 | 6    | [Authentication](https://founders-and-coders.gitbook.io/coursebook/curriculum/authentication/schedule)             |
 | 7    | [REST APIs](https://founders-and-coders.gitbook.io/coursebook/curriculum/rest-apis/schedule)                       |
-| 8    | [Single Page Apps](https://founders-and-coders.gitbook.io/coursebook/curriculum/single-page-app/schedule)              |
+| 8    | [Single Page Apps](https://founders-and-coders.gitbook.io/coursebook/curriculum/single-page-app/schedule)          |
 | 9    | [React](https://founders-and-coders.gitbook.io/coursebook/curriculum/react/schedule)                               |
 
 ## Default Schedule
@@ -104,7 +104,7 @@ The timetable can differ from week to week. See each week's schedule for details
 | 10:00   | Project   |             |
 | _13:00_ | _Lunch_   |             |
 | 14:00   | Project   |             |
-| 17:15   | Code Q&A |
+| 17:15   | Code Q&A  |
 | 17:45   | Check-out |             |
 | _18:00_ | _Finish_  |             |
 

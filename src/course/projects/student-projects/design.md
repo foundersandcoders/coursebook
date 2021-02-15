@@ -12,7 +12,7 @@
 | _13:00_ | _Lunch_                               |                   |
 | 14:00   | Conduct user research                 |                   |
 | 16:00   | [Definition workshop][definition-120] |                   |
-| 17:45   | Checkout                                      |                   |
+| 17:45   | Checkout                              |                   |
 
 [feedback-15]: https://airtable.com/shrIKQyPpx4vSUNzC
 [design-pres-20]: https://hackmd.io/@fac/rySEBaUq8#/
@@ -38,16 +38,16 @@
 
 ## Day 3
 
-| Time    | Activity                                           | Learning outcomes |
-| ------- | -------------------------------------------------- | ----------------- |
-| 09:45   | Check-in                                           |                   |
-| 10:00   | [Introduction to Project Roles][role-intros-60]    |                   |
-| 11:00   | Conduct usability testing                          |                   |
-| 12:00   | Usability testing synthesis / updates to wireframe |                   |
-| _13:00_ | _Lunch_                                            |                   |
-| 14:00   | [Project planning in Miro][planning-150]           |                   |
-| 16:30   | [Employment: Job boards & recruiters][job-boards-75]|                   |
-| 17:45   | Checkout                                           |                   |
+| Time    | Activity                                             | Learning outcomes |
+| ------- | ---------------------------------------------------- | ----------------- |
+| 09:45   | Check-in                                             |                   |
+| 10:00   | [Introduction to Project Roles][role-intros-60]      |                   |
+| 11:00   | Conduct usability testing                            |                   |
+| 12:00   | Usability testing synthesis / updates to wireframe   |                   |
+| _13:00_ | _Lunch_                                              |                   |
+| 14:00   | [Project planning in Miro][planning-150]             |                   |
+| 16:30   | [Employment: Job boards & recruiters][job-boards-75] |                   |
+| 17:45   | Checkout                                             |                   |
 
 [role-intros-60]: https://founders-and-coders.gitbook.io/coursebook/projects/roles/project-team
 [planning-150]: https://hackmd.io/@fac/SkyPKSwBw
@@ -65,7 +65,7 @@
 | 14:00   | Technical Spikes               |                   |
 | 16:00   | Spike presentation prep        |
 | 16:30   | Spike presentations            |                   |
-| 17:45   | Checkout                                           |                   |
+| 17:45   | Checkout                       |                   |
 
 [cicd-120]: https://github.com/emilyb7/FAC-devops-workshop
 [build-pres-15]: https://hackmd.io/@fac/S1ZTP6UcI#/
