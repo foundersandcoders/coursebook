@@ -7,7 +7,8 @@
     "dev": "eleventy --serve --quiet",
     "build": "ELEVENTY_ENV=production eleventy",
     "postinstall": "husky install",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "precommit": "lint-staged"
   },
   "repository": {
     "type": "git",
@@ -38,9 +39,13 @@
   },
   "devDependencies": {
     "husky": "^5.0.9",
+    "lint-staged": "^10.5.4",
     "prettier": "^2.2.1"
   },
   "prettier": {
     "trailingComma": "es5"
+  },
+  "lint-staged": {
+    "*.{md,html,css,js}": "npm run format"
   }
 }
