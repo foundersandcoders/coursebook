@@ -4,6 +4,9 @@
 
 ### Further reading
 
+- [First-class Function | MDN](https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function)
+- [What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ) (video)
+
 ## Git/GitHub
 
 Practice working with git and GitHub by pushing your solution to the CSS workshop to the [FAC21 pre-course repository](https://github.com/fac21/pre-course/).
