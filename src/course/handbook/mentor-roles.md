@@ -2,7 +2,7 @@
 title: Mentor Roles
 ---
 
-This document outline the different sorts of mentors and what can be expected of each of them.
+# What to expect from your mentors
 
 Most of the mentors you will interact with on the course have recently graduated from the course. Some mentors will be alumni who finished the course a little while ago.
 
