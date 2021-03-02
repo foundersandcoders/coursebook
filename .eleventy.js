@@ -39,7 +39,6 @@ module.exports = (config) => {
     permalink: true, // show link to headings
     permalinkSymbol: anchorIcon,
     permalinkClass: "heading-anchor",
-    level: [2], // only h2
   });
 
   // GitHub style checkbox lists
