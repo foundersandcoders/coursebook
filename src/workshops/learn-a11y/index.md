@@ -72,7 +72,7 @@ You can activate Voiceover by pressing <kbd>⌘ command</kbd> + <kbd>F5</kbd> (o
 
 Useful commands:
 
-- <kbd>control</kbd>: stop VoiceOver speaking by at any time.
+- <kbd>control</kbd>: stop VoiceOver speaking at any time.
 - <kbd>control</kbd> + <kbd>option</kbd> + <kbd>U</kbd>: open the "Web rotor". Press <kbd>←</kbd> or <kbd>→</kbd> to view all the headings/links/form controls etc on a page.
 - <kbd>control</kbd> + <kbd>option</kbd> + <kbd>←</kbd> or <kbd>→</kbd>: move cursor to previous/next item.
 - Read more about [the basics of navigating with VO](https://www.apple.com/voiceover/info/guide/_1124.html)
@@ -86,7 +86,7 @@ You can activate Narrator by pressing the Windows logo key + <kbd>control</kbd> 
 
 Useful commands:
 
-- <kbd>control</kbd>: stop Narrator speaking by at any time.
+- <kbd>control</kbd>: stop Narrator speaking at any time.
 - <kbd>⇪</kbd> + <kbd>S</kbd>: read a summary of a webpage, including links and headings
 - <kbd>⇪</kbd> + <kbd>↓</kbd>: start reading the document from the beginning
 - There are [lots of different ways to read text](https://support.microsoft.com/en-us/windows/chapter-4-reading-text-8054c6cd-dccf-5070-e405-953f036e4a15) so try exploring them.
@@ -103,6 +103,17 @@ sudo apt install orca
 ```
 
 You should be able to run the `orca` command in your terminal to start it.
+
+By default Orca keyboard shortcuts use caps lock <kbd>⇪</kbd> as the modifier key on laptops. Read more in [their docs](https://help.gnome.org/users/orca/stable/howto_keyboard_layout.html.en).
+
+Useful commands:
+
+- <kbd>⇪</kbd> + <kbd>S</kbd>: stop Orca speaking.
+- <kbd>⇪</kbd> + <kbd>;</kbd>: read the entire document from the beginning
+- <kbd>←</kbd> or <kbd>→</kbd>: read previous/next character
+- <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>H</kbd>: show a list of headings
+- <kbd>H</kbd> and <kbd>shift</kbd> + <kbd>H</kbd>: read next/previous heading
+- There are [lots of other ways to navigate](https://techblog.wikimedia.org/2020/07/02/an-orca-screen-reader-tutorial/) so try exploring them.
 
 </details>
 
