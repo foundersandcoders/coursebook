@@ -26,7 +26,7 @@
 [ally-talk-30]: https://hackmd.io/@fac/HyJimsFc8
 [student-expectations-45]: https://github.com/foundersandcoders/master-reference/blob/master/coursebook/week-1/cohort-code-of-conduct.md
 [intro-pairing-60]: https://founders-and-coders.gitbook.io/coursebook/student-handbook/pair-programming
-[a11y-workshop-60]: https://github.com/foundersandcoders/web-accessibility/blob/master/putting-yourself-in-someone-elses-shoes.md
+[a11y-workshop-60]: /workshops/learn-a11y/
 [project-intro-10]: https://founders-and-coders.gitbook.io/coursebook/curriculum/teamwork-and-toolkit/project
 [spikes-intro-5]: https://founders-and-coders.gitbook.io/coursebook/student-handbook/spikes
 [tech-spikes-60]: https://founders-and-coders.gitbook.io/coursebook/curriculum/teamwork-and-toolkit/spikes
