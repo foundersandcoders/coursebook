@@ -4,7 +4,7 @@ pre {
   background-color: var(--bg-850);
   font-size: 0.875rem;
 
-  font-family: ui-monospace, Consolas, Monaco, "Ubuntu Mono", monospace;
+  font-family: var(--font-mono);
   white-space: pre;
   word-spacing: normal;
   word-break: normal;

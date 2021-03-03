@@ -30,6 +30,7 @@ html {
   --info-bg: hsl(220, 85%, 96%);
   --info-fg: hsl(220, 60%, 20%);
   --border-title: 1px solid var(--bg-200);
+  --font-mono: ui-monospace, Consolas, Monaco, "Ubuntu Mono", monospace;
 
   scroll-behavior: smooth;
 }
@@ -169,6 +170,20 @@ hr {
   margin: var(--flow-space) 0;
   border: 0;
   border-top: var(--border-title);
+}
+
+kbd {
+  border-radius: 2px;
+  border: 1px solid var(--bg-100);
+  box-shadow: 0 -1px 1px var(--bg-200) inset;
+  padding: 2px 6px 3px;
+  white-space: nowrap;
+  vertical-align: middle;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1;
+  background-color: var(--bg-900);
 }
 
 .contains-task-list {
