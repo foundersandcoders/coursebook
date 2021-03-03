@@ -10,6 +10,7 @@ Your project this week is to build a REST API that returns JSON data. It should 
 - **As an API user, I want to**: update an existing resource
 - **As an API user, I want to**: delete an existing resource
 - **As an API user, I want to**: only be able to change an existing resource if I am authenticated to do so
+- **As an API user, I want to**: read the documentation so I can understand what endpoints are available
 
 Since this project is open-ended you'll need to write your own more specific user stories once you know what you want to build.
 
@@ -24,6 +25,7 @@ Since this project is open-ended you'll need to write your own more specific use
 - [ ] Tests for server routes and database access
 - [ ] Not process user input as SQL commands
 - [ ] Hidden environment variables (i.e. not on GitHub)
+- [ ] Documentation that lists endpoints and what each is for
 
 #### Stretch criteria
 
