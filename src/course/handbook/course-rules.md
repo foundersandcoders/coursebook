@@ -1,35 +1,67 @@
 # Course rules
 
-## Arrive on time
+Our rules help create a friendly environment that is conducive to learning. We want everyone to feel comfortable sharing ideas and occasionally being wrong.
 
-Arrive **before scheduled start time**. If you're still in the kitchen making coffee when a workshop is supposed to begin you aren't on time, you're late. The mentors will not wait for everyone to be present before starting in the morning.
+These rules are important, but they aren't severe like code-of-conduct violations. It's likely everyone will slip up and break a rule at some point: you aren't a bad person if you do.
 
-Let your cohort or the course facilitator know in advance if you're going to be away. Lots of people are freely giving their time and knowledge to make FAC possible and giving up other commitments to be here.
+We'd like everyone to feel comfortable gently correcting others' behaviour when they see rule violations. If you feel comfortable please point this out to someone—it's generally better to confront small problems immediately rather than letting them snowball into something bigger.
 
-## Share the space
+For example:
 
-You are sharing a space with the rest of your cohort, the mentors, FAC staff and plenty of people working in Space4. Make sure you respect everyone else's right to have access to a clean tidy kitchen and bathroom.
+> **Oli**: hey guys, how are you all doing?
+>
+> **Yvonne**: good thanks! FYI would you mind not using gendered terms to refer to the group? Thanks!
+>
+> **Oli**: Sorry my mistake!
 
-Tidy up after yourself (at least!). Wash up your mugs and dishes straight away. Don't leave old food to go mouldy in the fridge. Clear your desk at the end of each day so it's ready for someone to use in the morning.
+If you aren't comfortable pointing out a rule violation then please message your Course Facilitator or other member of the Staff team. They can highlight the problem to the cohort.
 
-## Move around
+For example:
 
-Try to sit at a different desk each day. You'll usually be pairing with the person next to you; it's important to get experiencing working with everyone on the cohort.
+> **Oli**: hey guys, how are you all doing?
+>
+> **Yvonne** (to Course Facilitator): hey would you mind reminding Oli not to call everyone "guys"?
+>
+> **CF** (to everyone): hey Oli, just a reminder to try not to use gendered terms for the group!
+>
+> **Oli**: Oh whoops, I'm sorry everyone!
 
-## 20-minute rule
+If someone does point out that you broke a rule, try not to take it personally. One-off mistakes happen—it doesn't mean you're a bad person. Just apologise, reflect on your mistake and avoid doing it again.
 
-Struggle is good, but not too much of it. It's important to get used to not knowing how to do something, and to practice finding out for yourself (e.g. figuring it out with your pair or googling). If you cannot solve a problem within 20 minutes, then stop and ask a mentor for help.
+## Respect each other
 
-## Extracurricular learning
+Please be respectful of your peers on the course, the staff team, and the wider community
 
-Your course facilitator can connect anyone interested in revising together, based on specific material you would like to cover from any of the curriculum so far.
+Respect others' time—make sure you arrive on time for everything on the schedule. This means being ready _before_ the scheduled start time, not off making coffee. Also please let your Course Facilitator and cohort know if you're going to be absent.
 
-It's worth emphasising that there is no expectation to take on this extra work in your free time. Whilst there is clearly a benefit to revising on your own or with others, the course has been designed so that at the end of four months you will be an employable software developer. Founders and Coders has a very high success rate in this regard. This truly is possible working only during class time.
+Please demonstrate that you're paying attention to your peers, staff, speakers etc. E.g. don't lie down on your bed during a talk.
 
-Please be kind to yourselves and prioritise your mental and physical health and well-being. You have a strong support network of mentors and FAC staff who you can lean on anytime for support.
+Respect each others' privacy. This is especially important when working remotely, since you're inviting each other into your homes via video calls. Please do not take screenshots or recordings of video calls without permission from everyone involved.
 
-## No frameworks
+## Avoid microaggressions
 
-For the first 8 weeks of the course, we stick to vanilla JavaScript. That means no frontend frameworks like Bootstrap, jQuery and friends. We want you to build your fundamental skills before learning higher-level abstractions.
+[Microaggressions](https://www.vox.com/2015/2/16/8031073/what-are-microaggressions) are subtle and unintentional acts of discrimination. They're insensitive comments that make somebody feel "other" for being a part of a group that is stereotyped or discriminated against.
 
-Understanding the basics will help you understand what problems frameworks were built to solve. This will let you make more effective judgements on which technologies to use in future. It will also give you the flexibility to switch between technologies, as the popularity of each one can shift.
+There are plenty of subtle expressions of racism, sexism, ageism, homophobia, transphobia and other kinds of bias and prejudice. For example: referring to a mixed-gender group as "guys", or a white person [asking to touch a Black person's hair](https://www.forbes.com/sites/janicegassam/2020/01/08/stop-asking-black-people-if-you-can-touch-their-hair/).
+
+This rule comes with a duty for everyone to educate themselves on social issues. Founders and Coders is not a normal coding bootcamp—one of our primary goals is to make the tech industry more inclusive. We can only do this if our graduates are willing to put in the effort to make change and be a better ally.
+
+This rule is _not_ about overt slurs, harassment or other Code of Conduct violations. Those should be reported to the staff team and will be treated differently.
+
+## Avoid unnecessary corrections
+
+Try not to correct someone unless the error is actually meaningful. Software engineers tend to care about being very specific and correct. This is a good trait when writing code, but makes for awkward conversation. An unnecessary interruption can throw off the person speaking and make them uncomfortable sharing further.
+
+> **Oli**: so you pass the parameter to this function...
+>
+> **Yvonne**: actually parameters are when you _define_ the function, they're called "arguments" when you call it
+
+This is _technically correct_, but nobody was really confused by the initial statement, so it was not necessary.
+
+## Don't pretend to be surprised
+
+Don't act surprised when someone doesn't know something. This will make that person feel bad for not knowing, and less likely to ask questions in the future.
+
+> **Yvonne**: what does `querySelector` do?
+>
+> **Oli**: wow you've never used `querySelector`?!
