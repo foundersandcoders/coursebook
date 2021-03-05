@@ -1,4 +1,4 @@
-const fs = require("fs");
+const yaml = require("js-yaml");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const slugify = require("@sindresorhus/slugify");
@@ -14,6 +14,9 @@ const options = {
 };
 
 module.exports = (config) => {
+  // so we can use yaml to load data as well as json
+  config.addDataExtension("yml", (contents) => yaml.safeLoad(contents));
+
   // re-run the build when source CSS files change
   config.addWatchTarget("src/styles");
   config.addWatchTarget("src/styles/partials");
