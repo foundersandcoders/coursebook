@@ -39,15 +39,15 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/syllabus/precourse-2/schedule/">Pre-course 2</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/precourse-3/schedule/">Pre-course 3</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/precourse-4/schedule/">Pre-course 4</${Link}></li>
-          <li><${Link} url=${url}> <!--href="/course/syllabus/teamwork/schedule/"-->Teamwork</${Link}></li>
-          <li><${Link} url=${url}> <!--href="/course/syllabus/http/schedule/"-->HTTP</${Link}></li>
-          <li><${Link} url=${url}> <!--href="/course/syllabus/testing/schedule/"-->Testing</${Link}></li>
-          <li><${Link} url=${url}> <!--href="/course/syllabus/server/schedule/"-->Server</${Link}></li>
-          <li><${Link} url=${url}> <!--href="/course/syllabus/database/schedule/"-->Database</${Link}></li>
-          <li><${Link} url=${url}> <!--href="/course/syllabus/authentication/schedule/"-->Authentication</${Link}></li>
-          <li><${Link} url=${url}> <!--href="/course/syllabus/api/schedule/"-->API</${Link}></li>
-          <li><${Link} url=${url}> <!--href="/course/syllabus/app/schedule/"-->App</${Link}></li>
-          <li><${Link} url=${url}> <!--href="/course/syllabus/react/schedule/"-->React</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/teamwork/schedule/">Teamwork</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/http/schedule/">HTTP</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/testing/schedule/">Testing</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/server/schedule/">Server</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/database/schedule/">Database</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/authentication/schedule/">Authentication</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/api/schedule/">API</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/app/schedule/">App</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/react/schedule/">React</${Link}></li>
         </${Section}>
       </${Nav}>
     </aside>
