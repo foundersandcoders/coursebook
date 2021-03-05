@@ -44,7 +44,7 @@
 }
 
 .center {
-  max-width: var(--measure, 80rem);
+  max-width: var(--measure, 90rem);
   margin-left: auto;
   margin-right: auto;
 }

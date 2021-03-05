@@ -25,7 +25,7 @@ exports.render = ({ title, description, keywords = [], page, content }) => {
       </div>
       <${Copy} ...${page} />
     </header>
-    <${RawContent} style="margin: 4rem 0" class="main-wrapper flow">${content}</${RawContent}>
+    <${RawContent} style="margin: 4rem 0" class="flow">${content}</${RawContent}>
   `;
 };
 

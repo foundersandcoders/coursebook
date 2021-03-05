@@ -18,7 +18,7 @@ exports.render = ({ title, page, content }) => {
           <${Tab} page=${page} href="guides">Guides</${Tab}>
         </${Tabs}>
       </header>
-      <${RawContent} class="main-wrapper flow">${content}</${RawContent}>
+      <${RawContent} class="flow">${content}</${RawContent}>
     </div>
 `;
 };

@@ -108,10 +108,10 @@ nav a {
   display: block;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 50em) {
   .layout {
     display: grid;
-    grid-template-columns: 26ch 1fr;
+    grid-template-columns: 25ch minmax(0, 1fr);
   }
 
   .sidebar-nav__toggle {

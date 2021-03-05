@@ -52,7 +52,7 @@ exports.render = ({ page: { url }, content }) => {
       </${Nav}>
     </aside>
     <main id="main">
-      <${RawContent} class="main-wrapper flow">${content}</${RawContent}>
+      <${RawContent} class="flow">${content}</${RawContent}>
     </main>
   </div>
   `;

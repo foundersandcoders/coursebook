@@ -10,7 +10,7 @@ exports.data = {
   layout: "_document",
 };
 
-exports.render = ({ collections, page, content }) => {
+exports.render = ({ content }) => {
   return html`
   <main id="main" class="cover">
     <${RawContent}>${content}</${RawContent}>

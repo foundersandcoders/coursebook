@@ -7,6 +7,6 @@ exports.data = {
 
 exports.render = ({ content }) => {
   return html`
-    <${RawContent} class="main-wrapper flow">${content}</${RawContent}>
+    <${RawContent} class="flow">${content}</${RawContent}>
 `;
 };
