@@ -14,13 +14,13 @@ For example:
 >
 > **Oli**: Sorry my mistake!
 
-If you aren't comfortable pointing out a rule violation then please message your Course Facilitator or other member of the Staff team. They can highlight the problem to the cohort.
+If you aren't comfortable pointing out a rule violation then please message your course facilitator or other member of the core team. They can highlight the problem to the cohort.
 
 For example:
 
 > **Oli**: hey guys, how are you all doing?
 >
-> **Yvonne** (to Course Facilitator): hey would you mind reminding Oli not to call everyone "guys"?
+> **Yvonne** (to course facilitator): hey would you mind reminding Oli not to call everyone "guys"?
 >
 > **CF** (to everyone): hey Oli, just a reminder to try not to use gendered terms for the group!
 >
@@ -30,11 +30,11 @@ If someone does point out that you broke a rule, try not to take it personally. 
 
 ## Respect each other
 
-Please be respectful of your peers on the course, the staff team, and the wider community
+Please be respectful of your peers on the course, the core team, and the wider community
 
-Respect others' time—make sure you arrive on time for everything on the schedule. This means being ready _before_ the scheduled start time, not off making coffee. Also please let your Course Facilitator and cohort know if you're going to be absent.
+Respect each others' time—make sure you arrive on time for everything on the schedule. This means being ready _before_ the scheduled start time, not off making coffee. Also please let your course facilitator and cohort know if you're going to be absent.
 
-Please demonstrate that you're paying attention to your peers, staff, speakers etc. E.g. don't lie down on your bed during a talk.
+Please demonstrate that you're paying attention to your peers, core team, speakers etc. E.g. don't lie down on your bed during a talk.
 
 Respect each others' privacy. This is especially important when working remotely, since you're inviting each other into your homes via video calls. Please do not take screenshots or recordings of video calls without permission from everyone involved.
 
@@ -46,7 +46,7 @@ There are plenty of subtle expressions of racism, sexism, ageism, homophobia, tr
 
 This rule comes with a duty for everyone to educate themselves on social issues. Founders and Coders is not a normal coding bootcamp—one of our primary goals is to make the tech industry more inclusive. We can only do this if our graduates are willing to put in the effort to make change and be a better ally.
 
-This rule is _not_ about overt slurs, harassment or other Code of Conduct violations. Those should be reported to the staff team and will be treated differently.
+This rule is _not_ about overt slurs, harassment or other Code of Conduct violations. Those should be reported to the core team and will be treated differently.
 
 ## Avoid unnecessary corrections
 
