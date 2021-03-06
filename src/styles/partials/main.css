@@ -46,25 +46,22 @@ main {
   padding: var(--padding);
 }
 
-.main-wrapper {
-  display: grid;
-  grid-template-columns: minmax(0, 65ch) 1fr;
+main p,
+main ul:not([role="list"]),
+main ol:not([role="list"]),
+main blockquote,
+main pre,
+main details,
+main hr {
+  max-width: 46rem;
+}
+
+main p,
+main ul:not([role="list"]),
+main ol:not([role="list"]),
+main blockquote,
+main details {
   line-height: 1.7;
-}
-
-.main-wrapper > * {
-  grid-column: 1 / 2;
-}
-
-/* big stuff can break out to full width */
-.main-wrapper > h1,
-.main-wrapper > header,
-.main-wrapper > table,
-.main-wrapper > img,
-.main-wrapper > figure,
-.main-wrapper > hr,
-.main-wrapper > pre {
-  grid-column: 1 / -1;
 }
 
 table {

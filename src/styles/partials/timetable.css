@@ -1,0 +1,119 @@
+.timetable {
+  display: grid;
+  row-gap: 0.5rem;
+}
+
+.day {
+  text-transform: capitalize;
+}
+
+.column-label {
+  display: none;
+  justify-self: center;
+  text-transform: uppercase;
+  padding-bottom: 0.5rem;
+}
+
+.entry {
+  --hue: 200;
+  --sat: 20%;
+  display: grid;
+  gap: 0.25rem;
+  align-content: start;
+  border-bottom: 2px solid hsl(var(--hue), var(--sat), 80%);
+  padding: clamp(0.5rem, 0.5rem + 1vw, 1rem);
+  background-color: hsl(var(--hue), var(--sat), 90%);
+  color: hsl(var(--hue), calc(var(--sat) / 4), 15%);
+  line-height: 1.2;
+  transition: transform 0.1s ease-out;
+}
+
+.entry[data-label] {
+  margin-top: 4rem;
+  scroll-margin-top: 4rem;
+  position: relative;
+}
+
+.entry[data-label]:target::after {
+  content: "";
+  position: absolute;
+  top: -2.5rem;
+  left: -1rem;
+  right: -1rem;
+  height: 1000%;
+  z-index: -10;
+  background-image: linear-gradient(var(--bg-800), transparent);
+}
+
+.entry[data-label]::before {
+  content: attr(data-label);
+  text-transform: capitalize;
+  display: block;
+  position: absolute;
+  bottom: calc(100% + 0.5rem);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.entry.workshop {
+  --hue: 50;
+  --sat: 80%;
+}
+
+.entry.presentation {
+  --hue: 140;
+  --sat: 60%;
+}
+
+.entry.challenge {
+  --hue: 0;
+  --sat: 60%;
+}
+
+.entry.project {
+  --sat: 60%;
+}
+
+.entry dt {
+  font-size: 0.75rem;
+}
+
+.entry dd {
+  font-weight: bold;
+}
+
+.entry a {
+  color: inherit;
+}
+
+@media (min-width: 60rem) {
+  .column-label {
+    display: revert;
+  }
+  .timetable {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    column-gap: clamp(0.025rem, 0.025rem + 2vw, 2rem);
+  }
+  .entry {
+    grid-row: var(--row);
+    grid-column: var(--col);
+    hyphens: auto;
+  }
+  .entry[data-label] {
+    margin-top: 2rem;
+  }
+  .entry[data-label]::before {
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+  }
+
+  .entry[data-label]:target::before {
+    font-weight: bold;
+  }
+  .day {
+    visibility: hidden;
+    position: absolute;
+  }
+}
