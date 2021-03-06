@@ -20,10 +20,12 @@ exports.render = ({ defaultSchedule, schedule }) => {
           const { start: defaultStart, end: defaultEnd } = defaultEntry;
           const startedDuring = start >= defaultStart && start < defaultEnd;
           const endedDuring = entry.end > defaultStart && end < defaultEnd;
+          const totalEclipse = start <= defaultStart && end >= defaultEnd;
           // override default entry if the new one overlaps it
           // e.g. a week-entry at 13:30 would stop lunch (13:00-14:00) appearing
-          return startedDuring || endedDuring;
+          return startedDuring || endedDuring || totalEclipse;
         });
+
         return !override;
       });
       const mergedDay = [...defaultLeftovers, ...day];
