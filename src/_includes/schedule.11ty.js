@@ -1,17 +1,32 @@
 const { html } = require("htm/preact");
-const { mergeWith, unionBy, sortBy } = require("lodash");
-const RawContent = require("./components/RawContent");
+const { mergeWith, sortBy } = require("lodash");
 
 exports.data = {
   layout: "syllabus",
 };
 
-exports.render = ({ defaultSchedule, schedule, content }) => {
+exports.render = ({ defaultSchedule, schedule }) => {
   const finalSchedule = mergeWith(
     schedule,
     defaultSchedule,
-    (objValue, srcValue) => {
-      const mergedDay = unionBy(objValue, srcValue, "start");
+    (day, defaultDay) => {
+      // no need to override if there's nothing specified for that week
+      if (!day) return defaultDay;
+
+      // find all the defaults that haven't been overridden
+      const defaultLeftovers = defaultDay.filter((defaultEntry) => {
+        const override = day.find((entry) => {
+          const { start, end } = entry;
+          const { start: defaultStart, end: defaultEnd } = defaultEntry;
+          const startedDuring = start >= defaultStart && start < defaultEnd;
+          const endedDuring = entry.end > defaultStart && end < defaultEnd;
+          // override default entry if the new one overlaps it
+          // e.g. a week-entry at 13:30 would stop lunch (13:00-14:00) appearing
+          return startedDuring || endedDuring;
+        });
+        return !override;
+      });
+      const mergedDay = [...defaultLeftovers, ...day];
       return sortBy(mergedDay, "start");
     }
   );
