@@ -129,9 +129,16 @@ main h4 {
 
 blockquote {
   margin-left: 0;
-  border-left: var(--border-title);
-  padding-left: 1.5rem;
-  font-style: italic;
+  border-left: 0.5rem solid var(--bg-100);
+  padding-left: 1rem;
+}
+
+blockquote > * + * {
+  margin-top: 0.5rem;
+}
+
+blockquote > p {
+  line-height: 1.2;
 }
 
 figure {
