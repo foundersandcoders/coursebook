@@ -64,11 +64,8 @@ main details {
   line-height: 1.7;
 }
 
-main li + li {
-  margin-top: 0.5rem;
-}
-
-main li > * {
+main :is(ul, ol):not([role="list"]) li + li,
+main :is(ul, ol):not([role="list"]) li > * {
   margin-top: 0.5rem;
 }
 
