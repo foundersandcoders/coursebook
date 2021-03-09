@@ -88,6 +88,8 @@ Now we need to write some code to add the new feature.
    </html>
    ```
 
+   **Note**: you may notice errors in this code. This is deliberate—we'll be fixing them later on in the workshop.
+
 1. Create a new file called `style.css` which contains:
 
    ```css
@@ -161,7 +163,7 @@ It's also important to link your code changes to the issues that track them. Git
 
 At this point your remote repo on GitHub hasn't changed yet. You need to push your changes.
 
-1. Push the `create-heading-with-shadow` branch up to the "origin" i.e. the GitHub repo that you cloned from.
+1. Push the `create-heading-with-shadow` branch up to the "origin" (the GitHub repo that you cloned from).
    ```bash
    git push origin create-heading-with-shadow
    ```
@@ -170,8 +172,7 @@ At this point your remote repo on GitHub hasn't changed yet. You need to push yo
 
 ### Step 8: create a pull request
 
-1. Programmer 1 navigates to the repository on GitHub.com and creates a [pull request](https://help.github.com/articles/creating-a-pull-request/#creating-the-pull-request).
-
+1. Programmer 1 navigates to the repository on GitHub and creates a pull request.
    - Add a descriptive title (e.g. `Create page heading`)
    - Add some more info about the change in the body. You can also link the PR to the issue here by including `Relates #1` or `Closes #1`.
    - Select Programmer 2 as an [assignee](https://help.github.com/articles/assigning-issues-and-pull-requests-to-other-github-users/).
@@ -187,6 +188,10 @@ You usually shouldn't merge your own pull requests. A PR gives the rest of your 
 Now your remote repo looks like this:
 
 <img src="images/step9GitFlow.png" width="286" height="309" alt="repo visual after step 1">
+
+You can go and close the issue tracking this feature now that the change is merged (If you put `Closes #1` in your commit message it will have automatically closed).
+
+---
 
 ## Part 2: splitting the work
 
@@ -205,7 +210,7 @@ Your quality assurance engineer has just noticed some problems with the recent c
    <figcaption>How the heading should look</figcaption>
 </figure>
 
-You decide that one of you **(Programmer 1) will resolve issue number 1** while the other person **(Programmer 2) will resolve issue number 2**. When you begin working on your weekly projects, you will always be pairing. So programmer 1 represents "pair 1" and programmer 2 represents "pair 2". So from this point on you both need to work on separate computers.
+**Programmer 1 will fix the first problem** and **Programmer 2 will fix the second**. When you begin working on your weekly projects, you will always be pairing. So Programmer 1 represents "pair 1" and Programmer 2 represents "pair 2". From this point on you both need to work on separate computers.
 
 **Note: Only one line in the `index.html` file needs to be modified.**
 
@@ -219,8 +224,8 @@ You decide that one of you **(Programmer 1) will resolve issue number 1** while 
 ### Step 2: raise 2 new issues
 
 1. Create the following two issues and assign each one to a different person
-   - `Fix spelling typo in <h1> heading` (Programmer 1)
-   - `Correct the class name of <h1> heading to match the existing class name in the css file` (Programmer 2)
+   - `Fix typo in page heading` (Programmer 1)
+   - `Correct the classname of page heading` (Programmer 2)
 
 ### Step 3: create your branches
 
@@ -232,7 +237,7 @@ Git branches are used to make sure each person can work independently without af
 
 ### Step 4: make your changes
 
-It's important to avoid making unrelated changes as you work. It can be really tempting if you spot an obvious problem to just quickly fix it while you're doing some other work. However this makes the Git history of changes really difficult to track. It's also confusing to try and review a pull request that has lots of random unrelated changes.
+It's important to avoid making unrelated changes as you work. It can be tempting to just quickly fix an error if you spot one while doing some other work. However this makes the Git history of changes really difficult to track. It's also confusing to review a pull request that has lots of unrelated changes.
 
 1. Programmer 1 fixes **only the spelling typo** in the heading (WORKSHOW -> WORKSHOP).
    ```html
@@ -283,6 +288,7 @@ On a real project there might be lots of other people contributing code simultan
    ```bash
    git checkout fix-typo-heading
    ```
+   Since there were no new changes to deal with Programmer 1 can move on to pushing.
 
 ### Step 8: push changes (Programmer 1)
 
@@ -364,7 +370,7 @@ You can resolve the conflict by manually editing the code to leave only the chan
      <h1 class="page-heading">GIT WORKFLOW WORKSHOP</h1>
    </body>
    ```
-1. Programmer 2 adds the `index.html` file to staging area and commits the changes occurred during the merge conflict.
+1. Programmer 2 adds the `index.html` file to staging area and commits the merge changes.
 
 ```bash
 git add index.html
@@ -400,8 +406,10 @@ git commit -m 'Merge main and resolve conflicts'
 
 1. Programmer 1 merges the pull request
 
+<img src="images/2step16GitFlow.png" width="381" height="546" alt="repo visual after step 17">
+
 ## Finishing up
 
-That's it, you have successfully follow the GitHub flow to add a new feature and fix some bugs.
+That's it, you have successfully followed the GitHub flow to add a new feature and fix some bugs.
 
 Both Programmer 1 and Programmer 2 can switch back to the `main` branch and pull the remote changes. They should also both delete their other local branches since they are now merged. The final step should be to close any open issues (if the PRs didn't do this automatically).
