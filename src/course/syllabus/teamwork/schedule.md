@@ -70,8 +70,8 @@ schedule:
       start: 17:30
       end: 17:45
   wednesday:
-    - name: Learn HTML forms
-      url: https://github.com/oliverjam/learn-html-forms/
+    - name: HTML forms
+      url: /workshops/html-forms/
       start: 10:00
       end: 11:00
     - name: Project management intro
