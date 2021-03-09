@@ -10,19 +10,9 @@ keywords:
 author: PiotrBerebecki
 ---
 
-An exercise to practice git workflow skills. The workshop should be undertaken by two programmers, working on two computers. The skills practiced include:
+An exercise to practice git workflow skills. The workshop should be undertaken by two programmers, working on two computers.
 
-- cloning a repository
-- creating branches
-- switching branches
-- adding changes to staging area
-- committing changes
-- pulling latest version from the remote main branch
-- merging main branch into recently created branch
-- resolving merge conflicts
-- pushing to remote repository
-- creating a pull request on GitHub
-- merging a pull request on GitHub
+**Note**: you may see references to a `master` branch in diagrams or external resources. This used to be the name of the default Git branch, but this was changed to `main` last year. New repos should all have a `main` branch, so that's what you should use.
 
 ## Part 1: Initial setup
 
@@ -34,7 +24,6 @@ Programmer 1 creates a new GitHub repo and clones it.
 
 1. Go to your cohort's GitHub organisation and create a new repo, initialising it with a `README.md`.
 1. Clone this new repository using your terminal.
-   <img src="images/clone-repository-dialog.png" width="500" height="auto" alt="clone repository dialog">
    ```bash
    git clone 'PASTE THE URL OF YOUR REPOSITORY HERE'
    ```
@@ -44,7 +33,7 @@ Programmer 1 creates a new GitHub repo and clones it.
    ```
    This is what your remote and local repositories look like after this. HEAD is a reference to your current location.</br>
 
-<img src="images/step1GitFlow.png" width="350" height="auto" alt="repo visual after step 1">
+<img src="images/step1GitFlow.png" width="664" height="280" alt="repo visual after step 1">
 
 ### Step 2: raise issues
 
@@ -64,12 +53,12 @@ There are many types of workflow. At FAC we use [GitHub flow](https://guides.git
    ```bash
    git branch create-heading-with-shadow
    ```
-   <img src="images/step3(1)GitFlow.png" width="300" height="auto" alt="repo visual after step 1">
+   <img src="images/step3(1)GitFlow.png" width="398" height="302" alt="repo visual after step 1">
 1. Leave the main branch by switching to the new branch you have just created.
    ```bash
    git checkout create-heading-with-shadow
    ```
-   <img src="images/step3(2)GitFlow.png" width="300" height="auto" alt="repo visual after step 1">
+   <img src="images/step3(2)GitFlow.png" width="480" height="296" alt="repo visual after step 1">
 
 Alternatively you can do this in a single step by using the `-b` flag to tell the `git checkout` command to create the new branch:
 
@@ -145,7 +134,7 @@ If you know you definitely want to stage _all_ your current changes you can save
 git add .
 ```
 
-<img src="images/step5GitFlow.png" width="400" height="auto" alt="repo visual after step 1">
+<img src="images/step5GitFlow.png" width="652" height="246" alt="repo visual after step 1">
 
 ### Step 6: commit your changes
 
@@ -166,7 +155,7 @@ It's also important to link your code changes to the issues that track them. Git
    Here we're using a second `-m` flag to add another line to our commit message with the extra issue info.
    You could also just run `git commit`, which will open your [default text editor](https://oliverjam.es/blog/make-your-terminal-nicer/#set-your-default-editor) so you can write longer commit messages in a more comfortable environment.
 
-<img src="images/step6GitFlow.png" width="400" height="auto" alt="repo visual after step 1">
+<img src="images/step6GitFlow.png" width="649" height="289" alt="repo visual after step 1">
 
 ### Step 7: push your changes to GitHub
 
@@ -177,7 +166,7 @@ At this point your remote repo on GitHub hasn't changed yet. You need to push yo
    git push origin create-heading-with-shadow
    ```
 
-<img src="images/step7GitFlow.png" width="400" height="auto" alt="repo visual after step 1">
+<img src="images/step7GitFlow.png" width="427" height="285" alt="repo visual after step 1">
 
 ### Step 8: create a pull request
 
@@ -187,8 +176,6 @@ At this point your remote repo on GitHub hasn't changed yet. You need to push yo
    - Add some more info about the change in the body. You can also link the PR to the issue here by including `Relates #1` or `Closes #1`.
    - Select Programmer 2 as an [assignee](https://help.github.com/articles/assigning-issues-and-pull-requests-to-other-github-users/).
 
-   <img src="images/pull-request-open.png" width="500" height="auto" alt="open pull request page">
-
 ### Step 9: merge the pull request
 
 You usually shouldn't merge your own pull requests. A PR gives the rest of your team the chance to review before your changes are merged into `main`. In your projects, you will be asking the other pair to do this.
@@ -196,11 +183,10 @@ You usually shouldn't merge your own pull requests. A PR gives the rest of your 
 1. Programmer 2 reviews the changes.
    This is where you'd leave any feedback or request changes to be made.
 1. Programmer 2 merges the pull request
-   <img src="images/pull-request-tab.png" width="500" height="auto" alt="pull request tab button">
 
 Now your remote repo looks like this:
 
-<img src="images/step9GitFlow.png" width="400" height="auto" alt="repo visual after step 1">
+<img src="images/step9GitFlow.png" width="286" height="309" alt="repo visual after step 1">
 
 ## Part 2: splitting the work
 
@@ -209,19 +195,21 @@ Your quality assurance engineer has just noticed some problems with the recent c
 1. Spelling mistake in the heading (the word 'WORKSHOW' should be replaced with 'WORKSHOP')
 1. The classname applied to the `h1` is wrong, so the styles aren't applying (`class="some-heading"` should be replaced with `class="page-heading"`).
 
-Current heading:
+<figure>
+   <img src="images/heading-before.png" width="1036" height="136" alt="a regular h1 with the browser default font styles">
+   <figcaption>The current heading</figcaption>
+</figure>
 
-<img src="images/heading-before.png" width="500" height="auto" alt="git workflow workshop heading without css style">
-
-When you apply the two changes above the heading will look like this:
-
-<img src="images/heading-after.png" width="500" height="auto" alt="git workflow workshop heading with css style">
+<figure>
+   <img src="images/heading-after.png" width="1022" height="154" alt="the same heading with some fancy shadow styles and a nice font">
+   <figcaption>How the heading should look</figcaption>
+</figure>
 
 You decide that one of you **(Programmer 1) will resolve issue number 1** while the other person **(Programmer 2) will resolve issue number 2**. When you begin working on your weekly projects, you will always be pairing. So programmer 1 represents "pair 1" and programmer 2 represents "pair 2". So from this point on you both need to work on separate computers.
 
 **Note: Only one line in the `index.html` file needs to be modified.**
 
-### Step 1: programmer 2 clones the repo
+### Step 1: clone the repo (Programmer 2)
 
 1. Programmer 2 also needs a copy of the repo, since they haven't worked on it yet
    ```bash
@@ -271,7 +259,7 @@ It's important to avoid making unrelated changes as you work. It can be really t
 
 1. Both programmers commit their change. Don't forget the multi-line commit message with the referenced issue.
 
-<img src="images/2step7GitFlow.png" width="400" height="auto" alt="repo visual after step 1">
+<img src="images/2step7GitFlow.png" width="744" height="450" alt="repo visual after step 1">
 
 **Important: don't work in parallel from here**. We want to push, PR and merge Programmer 1's change first, _then_ move on to Programmer 2's change.
 
@@ -303,14 +291,13 @@ On a real project there might be lots of other people contributing code simultan
    git push origin fix-typo-heading
    ```
 
-<img src="images/2step9GitFlow.png" width="400" height="auto" alt="repo visual after step 1">
+<img src="images/2step9GitFlow.png" width="594" height="453" alt="repo visual after step 1">
 
 ### Step 9: create a pull request (Programmer 1)
 
 1. Programmer 1 creates a pull request.
    - Don't forget a descriptive title/body (and link the relevant issue in the body)
    - Assign Programmer 2 to review
-     <img src="images/pull-request-open.png" width="500" height="auto" alt="open pull request page">
 
 ### Step 10: review the pull request (Programmer 2)
 
@@ -322,9 +309,8 @@ On a real project there might be lots of other people contributing code simultan
 ### Step 11: merge the pull request (Programmer 2)
 
 1. Programmer 2 merges the pull request
-   <img src="images/pull-request-tab.png" width="500" height="auto" alt="pull request tab button">
 
-<img src="images/2step12GitFlow.png" width="250" height="auto" alt="repo visual after step 1">
+<img src="images/2step12GitFlow.png" width="361" height="561" alt="repo visual after step 1">
 
 **Note: now Programmer 1's changes are merged we can move on to Programmer 2's**
 
@@ -340,7 +326,7 @@ Remember it's always a good idea to check for any new changes on the remote befo
    ```bash
    git pull
    ```
-   <img src="images/2step13(1)GitFlow.png" width="400" height="auto" alt="repo visual after step 1">
+   <img src="images/2step13(1)GitFlow.png" width="519" height="703" alt="repo visual after step 1">
 1. Programmer 2 switches back to the `update-class-heading` branch.
    ```bash
    git checkout update-class-heading
@@ -385,7 +371,7 @@ git add index.html
 git commit -m 'Merge main and resolve conflicts'
 ```
 
-<img src="images/2step13(2)GitFlow.png" width="250" height="auto" alt="repo visual after step 1">
+<img src="images/2step13(2)GitFlow.png" width="346" height="469" alt="repo visual after step 1">
 
 ### Step 14: push your changes (Programmer 2)
 
@@ -395,14 +381,13 @@ git commit -m 'Merge main and resolve conflicts'
   git push origin update-class-heading
 ```
 
-<img src="images/2step14GitFlow.png" width="250" height="auto" alt="repo visual after step 1">
+<img src="images/2step14GitFlow.png" width="395" height="509" alt="repo visual after step 1">
 
 ### Step 15: create a pull request (Programmer 2)
 
 1. Programmer 2 creates a pull request.
    - Don't forget a descriptive title/body (and link the relevant issue in the body)
    - Assign Programmer 1 to review
-     <img src="images/pull-request-open.png" width="500" height="auto" alt="open pull request page">
 
 ### Step 16: review the pull request (Programmer 1)
 
@@ -414,6 +399,9 @@ git commit -m 'Merge main and resolve conflicts'
 ### Step 17: merge the pull request (Programmer 1)
 
 1. Programmer 1 merges the pull request
-   <img src="images/pull-request-tab.png" width="500" height="auto" alt="pull request tab button">
 
-  <img src="images/heading-after.png" width="500" height="auto" alt="git workflow workshop heading with css style">
+## Finishing up
+
+That's it, you have successfully follow the GitHub flow to add a new feature and fix some bugs.
+
+Both Programmer 1 and Programmer 2 can switch back to the `main` branch and pull the remote changes. They should also both delete their other local branches since they are now merged. The final step should be to close any open issues (if the PRs didn't do this automatically).
