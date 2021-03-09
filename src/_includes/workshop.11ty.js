@@ -3,11 +3,17 @@ const RawContent = require("./components/RawContent");
 
 exports.data = {
   layout: "resources",
-  styles: ["/assets/css/workshop.css"],
   scripts: ["/assets/js/copy-text.js"],
 };
 
-exports.render = ({ title, description, keywords = [], page, content }) => {
+exports.render = ({
+  title,
+  description,
+  keywords = [],
+  page,
+  content,
+  starter = true,
+}) => {
   return html`
     <header class="vstack gap-xl pad-xl stripes">
       <div class="vstack"  data-gap="md">
@@ -23,7 +29,7 @@ exports.render = ({ title, description, keywords = [], page, content }) => {
           )}
         </ul>
       </div>
-      <${Copy} ...${page} />
+      ${starter && html`<${Copy} ...${page} />`}
     </header>
     <${RawContent} style="margin: 4rem 0" class="flow">${content}</${RawContent}>
   `;

@@ -63,7 +63,7 @@ schedule:
       start: 14:30
       end: 15:30
     - name: Git workshop
-      url: https://github.com/foundersandcoders/git-workflow-workshop-for-two
+      url: /workshops/git-workflow/
       start: 15:30
       end: 17:30
     - name: Pastoral care

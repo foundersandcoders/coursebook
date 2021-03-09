@@ -64,6 +64,11 @@ main details {
   line-height: 1.7;
 }
 
+main :is(ul, ol):not([role="list"]) li + li,
+main :is(ul, ol):not([role="list"]) li > * {
+  margin-top: 0.5rem;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
