@@ -64,6 +64,14 @@ main details {
   line-height: 1.7;
 }
 
+main li + li {
+  margin-top: 0.5rem;
+}
+
+main li > * {
+  margin-top: 0.5rem;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
