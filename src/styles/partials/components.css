@@ -31,6 +31,10 @@ button.icon {
   padding: 0.5rem;
 }
 
+button.icon > svg {
+  display: block;
+}
+
 .button.full-width {
   max-width: none;
 }

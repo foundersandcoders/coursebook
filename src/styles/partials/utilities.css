@@ -48,6 +48,10 @@
   font-weight: bold;
 }
 
+.ff-heading {
+  font-family: var(--font-heading);
+}
+
 .ai-center {
   align-items: center;
 }
@@ -72,6 +76,10 @@
   justify-self: stretch;
 }
 
+.js-start {
+  justify-self: start;
+}
+
 .bg-body {
   background-color: var(--body-bg);
 }
@@ -94,6 +102,10 @@
 
 .tac {
   text-align: center;
+}
+
+.border-lg {
+  border: 0.25rem solid;
 }
 
 .border-xl {
