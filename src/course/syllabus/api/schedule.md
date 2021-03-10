@@ -41,9 +41,17 @@ schedule:
       end: 11:00
       url: https://github.com/oliverjam/http-mocking-challenge
       type: challenge
+    - name: Projects
+      start: 11:00
+      end: 12:45
+      type: project
     - name: Role circles
       start: 12:45
       end: 13:00
+    - name: Projects
+      start: 14:00
+      end: 16:30
+      type: project
     - name: Employment - Employment mentors
       start: 16:30
       end: 17:45
@@ -52,8 +60,15 @@ schedule:
     - name: Project ideas
       start: 10:00
       end: 10:15
+    - name: Projects
+      start: 10:15
+      end: 13:00
+      type: project
   friday:
     - name: Role circles
       start: 12:00
       end: 12:15
+    - name: Respond to issues
+      start: 11:15
+      end: 12:00
 ---
