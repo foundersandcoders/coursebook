@@ -1,0 +1,196 @@
+---
+title: Lollipop randomiser
+layout: false
+---
+
+<style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  [hidden] {
+    display: none !important;
+  }
+
+  /* .container {
+    max-width: 50rem;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-row-gap: 2rem;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: hsl(180, 10%, 10%);
+    color: hsl(180, 10%, 90%);
+  } */
+
+  textarea {
+    font-family: Consolas, monospace;
+    color: inherit;
+    background: none;
+    resize: vertical;
+  }
+
+  /* button {
+    display: block;
+    border: 0;
+    padding: 0.75rem 1.25rem;
+    font: inherit;
+    font-size: 1rem;
+    font-weight: 900;
+    background-color: hsl(180, 10%, 90%);
+    color: hsl(180, 10%, 10%);
+  } */
+
+  /* .lollipop-section {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    place-items: center;
+    padding: 2rem;
+    border: 0.25rem solid;
+  } */
+
+  output {
+    /* margin-top: 2rem; */
+    font-size: calc(4rem + 2vw);
+    text-transform: capitalize;
+  }
+
+  @keyframes grow {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+
+  output > div {
+    animation: grow 0.15s forwards cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+</style>
+
+<div class="center vstack gap-xl pad-md" style="--measure: 50rem">
+  <form class="vstack justify-start">
+    <label for="names">
+      <div class="fz-lg ff-heading">Add names</div>
+      <div>Comma-separate multiple values</div>
+    </label>
+    <textarea
+      name="names"
+      id="names"
+      class="border-lg pad-md fz-md"
+      rows="3"
+      spellcheck="false"
+    >
+amy, antonio, chisha, chun, craig, evgeny, jo, mariya, maryam, michael, nafisa, neville, rosie, safia, saki, sevda</textarea
+    >
+  </form>
+
+  <section class="vstack ji-center border-lg pad-lg" id="lollipop-section">
+    <button
+      class="icon"
+      aria-label="Generate new name"
+      title="Generate new name"
+    >
+      <svg
+        width="32"
+        height="32"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+        />
+      </svg>
+    </button>
+    <output class="ff-heading"></output>
+  </section>
+</div>
+
+<script>
+  const textarea = document.querySelector("textarea");
+  const button = document.querySelector("button");
+  const output = document.querySelector("output");
+
+  let names;
+  let shuffledNames;
+
+  // auto-update names 500ms after user stops typing
+  textarea.addEventListener(
+    "input",
+    debounce(500, () => run(textarea.value))
+  );
+
+  function run(input) {
+    updateNames(input);
+    shuffle();
+    getRandomName();
+  }
+
+  // takes user input and updates global array
+  function updateNames(string) {
+    const namesString = string.replace(/\s/g, "");
+    names = namesString.split(",").filter(Boolean);
+    // preserve names in URL so users can share
+    history.replaceState(null, null, "?" + new URLSearchParams({ names }));
+  }
+
+  // mutates global array each time
+  function getRandomName() {
+    // reshuffles a new array when we run out of entries
+    if (!shuffledNames?.length) shuffle();
+    // grab someone off the end and put them in a div
+    const newName = h("div", {}, shuffledNames.pop());
+    output.replaceChildren(newName);
+  }
+
+  // keep generating new names on each click
+  button.addEventListener("click", getRandomName);
+
+  // if there are names in the URL search params use them
+  const { searchParams } = new URL(window.location);
+  const customNames = searchParams.get("names");
+  if (customNames) {
+    textarea.value = customNames.split(",").join(", ");
+  }
+
+  // auto-run on load
+  run(textarea.value);
+
+  // ==========
+  // utils
+  // ==========
+
+  // easily create DOM elements
+  function h(tag, props, ...kids) {
+    let e = document.createElement(tag);
+    Object.assign(tag, props);
+    e.append(...kids);
+    return e;
+  }
+
+  // fisher-yates shuffle: https://javascript.info/task/shuffle
+  function shuffle() {
+    const copy = names.slice();
+    for (let i = copy.length - 1; i > 0; i--) {
+      let j = Math.floor(Math.random() * (i + 1));
+      [copy[i], copy[j]] = [copy[j], copy[i]];
+    }
+    shuffledNames = copy;
+  }
+
+  // so we can auto-update the names without needing a submit button
+  function debounce(timeout, fn) {
+    let timer;
+    return (...args) => {
+      clearTimeout(timer);
+      timer = setTimeout(() => fn(...args), timeout);
+    };
+  }
+</script>
