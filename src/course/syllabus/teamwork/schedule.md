@@ -77,10 +77,10 @@ schedule:
     - name: Project management intro
       url: https://hackmd.io/@fac/S1wGfV2M8#/
       start: 11:00
-      end: 11:15
+      end: 11:30
     - name: Project
       url: ../project
-      start: 11:15
+      start: 11:30
       end: 13:00
       type: project
   thursday:
