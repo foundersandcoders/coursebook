@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn Fetch & Promises</title>
+  </head>
+  <body>
+    <script>
+      /* TASK 1 */
+
+      const getUser = (username) =>
+        fetch(`https://api.github.com/users/${username}`).then((response) =>
+          response.json()
+        );
+
+      getUser("oliverjam").then(console.log).catch(console.error);
+
+      /* TASK 2 */
+
+      const getRepos = (user) =>
+        fetch(user.repos_url).then((response) => response.json());
+
+      getUser("oliverjam")
+        .then(getRepos)
+        .then(console.log)
+        .catch(console.error);
+
+      /* TASK 3 (BONUS) */
+
+      const oliverPromise = getUser("oliverjam");
+      const starsuitPromise = getUser("starsuit");
+
+      Promise.all([oliverPromise, starsuitPromise])
+        .then(console.log)
+        .catch(console.error);
+    </script>
+  </body>
+</html>
