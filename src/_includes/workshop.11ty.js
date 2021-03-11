@@ -18,16 +18,24 @@ exports.render = ({
     <header class="vstack gap-xl pad-xl stripes">
       <div class="vstack"  data-gap="md">
         <h1 class="highlight bg-primary">${title}</h1>
-        <p class="highlight fz-lg">${description}</p>
-        <ul role="list" class="hstack gap-sm wrap">
-          ${keywords.map(
-            (tag) => html`
-              <li class="highlight fz-sm fw-bold" style="--bg: var(--bg-400)">
-                ${tag}
-              </li>
-            `
-          )}
-        </ul>
+        ${description && html`<p class="highlight fz-lg">${description}</p>`}
+        ${
+          keywords &&
+          html`
+            <ul role="list" class="hstack gap-sm wrap">
+              ${keywords.map(
+                (tag) => html`
+                  <li
+                    class="highlight fz-sm fw-bold"
+                    style="--bg: var(--bg-400)"
+                  >
+                    ${tag}
+                  </li>
+                `
+              )}
+            </ul>
+          `
+        }
       </div>
       ${starter && html`<${Copy} ...${page} />`}
     </header>
