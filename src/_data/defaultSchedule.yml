@@ -2,6 +2,9 @@ monday:
   - start: 9:45
     end: 10:00
     name: Check-in
+  - start: 10:00
+    end: 10:10
+    name: Feedback survey
   - start: 13:00
     end: 14:00
     name: Lunch
@@ -14,8 +17,8 @@ monday:
     type: spike
   - start: 17:15
     end: 17:45
-    name: Spike preparation
-    url: /handbook/spikes/#what-makes-a-good-research-presentation
+    name: Spike presentation preparation
+    url: /course/handbook/spikes/#what-makes-a-good-research-presentation
   - start: 17:45
     end: 18:00
     name: Check-out
@@ -26,7 +29,7 @@ tuesday:
   - start: 10:00
     end: 10:15
     name: Spike prep
-    url: /handbook/spikes/#what-makes-a-good-research-presentation
+    url: /course/handbook/spikes/#what-makes-a-good-research-presentation
   - start: 10:15
     end: 11:00
     name: Spike presentations
