@@ -5,7 +5,7 @@ schedule:
     - name: Intro presentation
       start: 10:10
       end: 10:30
-      url: https://hackmd.io/@fac/Hy2LcbNm8#/
+      url: https://fac-slides.netlify.app/slides/http/
     - name: HTTP Game
       start: 10:30
       end: 11:00
@@ -13,10 +13,12 @@ schedule:
       start: 11:00
       end: 13:00
       url: https://github.com/oliverjam/first-class-functions
+      type: workshop
     - name: Fetch & Promises intro
       start: 14:00
       end: 16:00
-      url: https://github.com/oliverjam/learn-fetch/
+      url: /workshops/learn-fetch/
+      type: workshop
     - name: Project and Spikes introduction
       start: 16:00
       end: 16:15
@@ -26,14 +28,15 @@ schedule:
       end: 17:15
       url: ../spikes
   tuesday:
-    - name: Design burst - layout and spacing
+    - name: Layout design burst
       start: 11:00
       end: 11:30
       url: http://facresources.com/slides/design-burst-week2.html
-    - name: Layout and spacing workshop
+    - name: Layout and spacing
       start: 11:30
       end: 12:15
       url: https://github.com/bobbysebolao/learn-layout-spacing
+      type: workshop
     - name: Issue management and estimation
       start: 12:15
       end: 12:30
@@ -41,7 +44,8 @@ schedule:
     - name: Real world fetch
       start: 12:30
       end: 13:00
-      url: https://github.com/oliverjam/real-world-fetch
+      url: /workshops/real-world-fetch
+      type: workshop
     - name: Real world fetch
       start: 14:00
       end: 16:00
