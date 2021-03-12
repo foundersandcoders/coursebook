@@ -10,7 +10,7 @@ The teams stay together for the following weeks:
 - Fourth team = weeks 7, 8 & 9
 - Fifth team = weeks 10, 11 & 12
 
-Your teams are posted on the wall by the door or can be found in your cohort's repository in your GitHub repository. Remember to read each other's user manuals when you start working with a new team.
+Your teams are posted on the wall by the door or can be found in your cohort's repository in your GitHub organisation. Remember to read each other's user manuals when you start working with a new team.
 
 ## Creating repositories for each project
 
