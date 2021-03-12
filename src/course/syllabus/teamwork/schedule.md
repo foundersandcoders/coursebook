@@ -89,7 +89,7 @@ schedule:
       start: 11:15
       end: 12:00
     - name: Project presentations intro
-      url: http://localhost:8080/course/handbook/projects/#project-presentation
+      url: /course/handbook/projects/#project-presentation
       start: 12:00
       end: 12:15
 ---
