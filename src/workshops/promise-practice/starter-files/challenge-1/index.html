@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge 1 | Promise practice</title>
+  </head>
+  <body>
+    <h1>Open the console</h1>
+    <script>
+      // this function returns a promise
+      // the promise resolves after the number of milliseconds you pass in
+      // don't worry too much about how this works for now
+      // we'll look at how to create promises in a later workshop
+      function wait(ms) {
+        return new Promise((resolve) => setTimeout(resolve), ms);
+      }
+
+      // example usage of wait (feel free to delete):
+      wait(2000).then(() => {
+        console.log("this callback ran after 2000ms");
+      });
+
+      // write your code here
+    </script>
+  </body>
+</html>

@@ -37,8 +37,9 @@ When something needs to happen out of this order, we call it _asynchronous_. Jav
 console.log(1);
 setTimeout(() => console.log(2), 1000);
 console.log(3);
-// logs 1, then 3, then (after 1 second) logs 2
 ```
+
+This code logs `1`, then `3`, then (after 1 second) logs `2`.
 
 It's intuitive that the above example logs `2` last, because JS has to wait a whole second before running the function passed to `setTimeout`.
 
@@ -48,8 +49,9 @@ What's less intuitive is that this is the same even with a timeout of 0ms.
 console.log(1);
 setTimeout(() => console.log(2), 0);
 console.log(3);
-// logs 1, then 3, then (as soon as possible) logs 2
 ```
+
+This code logs `1`, then `3`, then (as soon as possible) logs `2`.
 
 This is because `setTimeout` always gets pushed to the back of the queue—the specified wait time just tells JS the _minimum time_ that has to pass before that code is allowed to run.
 
@@ -57,33 +59,43 @@ This is because `setTimeout` always gets pushed to the back of the queue—the s
 
 We can use callbacks (functions passed as arguments to other functions) to access async values or run our code once some async task completes. In fact the first argument to `setTimeout` above is a callback. We pass a function which `setTimeout` runs once the timeout has finished.
 
-Callbacks can be fiddly to deal with, and you may end up with very nested function calls if you have to chain lots of async stuff. Here's a contrived example:
+Callbacks can be fiddly to deal with, and you can end up with very nested function calls if you have to chain lots of async stuff. Here's a contrived example:
 
 ```js
-getStuff((err, stuff) => {
-  if (err) handleError(err);
-  getOtherStuff((err, otherStuff) => {
-    if (err) handleError(err);
-    console.log(stuff, otherStuff);
+getStuff((stuff) => {
+  getOtherStuff((otherStuff) => {
+    getThirdStuff((thirdStuff) => {
+      getEvenMoreStuff((finalStuff) => {
+        console.log(finalStuff);
+      });
+    });
   });
 });
 ```
 
-Here's how that would look using promises:
+This is often referred to as "callback hell". In more realistic code with error handling etc it can be pretty hard to follow.
+
+Here's how that would look if each function returned a promise instead:
 
 ```js
-getStuff().then(getOtherStuff).catch(handleError);
+getStuff()
+  .then(getOtherStuff)
+  .then(getThirdStuff)
+  .then(getEvenMoreStuff)
+  .then(console.log);
 ```
+
+Our code stays "flat" at the same level no matter how many async things happen.
 
 ## What is a promise?
 
-Promises are a special type of object. They allow us to represent the _eventual result_ of async code. A function that executes async code will return the promise object instead of the final value (which it doesn't have yet).
+Promises are a special type of object. They allow us to represent the _eventual result_ of async code. A function that executes asynchronously can return a promise object instead of the final value (which it doesn't have yet).
 
 For example when we fetch some data from a server we will receive a _promise_ that will eventually represent the server's response (when the network request completes).
 
-## `fetch`
+## Using `fetch`
 
-We can use the `fetch` function to make HTTP requests in the browser. It takes two arguments: the URL you want to send the request to and an options object (we'll look at that later).
+We can use the global `fetch` function to make HTTP requests in the browser. It takes two arguments: the URL you want to send the request to and an options object (we'll look at that later). It returns a promise object that will eventually contain the response.
 
 ### Challenge 1
 
@@ -93,6 +105,15 @@ We can use the `fetch` function to make HTTP requests in the browser. It takes t
 1. Open the file in your browser. You should see the pending promise in the console.
 
 ![](https://user-images.githubusercontent.com/9408641/74358318-2dbef800-4db9-11ea-903d-63f0530bcffa.png)
+
+{% solution %}
+
+```js
+const pokePromise = fetch("https://pokeapi.co/api/v2/pokemon/pikachu");
+console.log(pokePromise);
+```
+
+{% endsolution %}
 
 ### Promise terminology
 
@@ -119,11 +140,11 @@ So how do we actually access the value when the promise fulfills?
 
 ## Accessing the promise value
 
-Since the promise's fulfilled value isn't accessible syncronously, we can't use it immediately like a normal JS variable. We need a way to tell JS to run our code once the promise has fulfilled.
+Since the promise's fulfilled value isn't accessible synchronously, we can't use it immediately like a normal JS variable. We need a way to tell JS to run our code once the promise has fulfilled.
 
 ```javascript
 const myPromise = fetch("url");
-myPromise.then((someData) => console.log(someData));
+myPromise.then((result) => console.log(result));
 ```
 
 Promises are objects with a `.then()` method. This method takes a callback function as an argument. The promise will call this function with the fulfilled value when it's ready.
@@ -131,32 +152,45 @@ Promises are objects with a `.then()` method. This method takes a callback funct
 It's worth noting that you don't need to keep the promise itself around as a variable.
 
 ```javascript
-fetch("url").then((someData) => console.log(someData));
+fetch("url").then((result) => console.log(result));
 ```
 
 ### Challenge 2
 
-1. Use `.then()` to access the result of your PokeAPI request. Log this to see what a JS response object looks like.
+1. Use `.then()` to access the result of your PokéAPI request. Log this to see what a JS response object looks like.
 
 ![](https://user-images.githubusercontent.com/9408641/74358327-31527f00-4db9-11ea-873d-30865128b313.png)
 
-## Accessing the response body
-
-We can see the response object, but how do we get the body? The PokeAPI is returning some JSON, but `fetch` can't assume this. We have to explicitly tell it to parse the JSON body using the `response.json()` method. This is _also_ async, which means it also returns a promise. We need to use another `.then()` to access the JSON value.
+{% solution %}
 
 ```js
-fetch("url").then((response) =>
-  response.json().then((data) => console.log(data))
-);
+const pokePromise = fetch("https://pokeapi.co/api/v2/pokemon/pikachu");
+pokePromise.then((result) => console.log(result));
+```
+
+{% endsolution %}
+
+## Accessing the response body
+
+The promise resolves with an object representing the HTTP response (e.g. it has a `status` property). However since the response body could be in many different formats there's an extra step to access it. Response objects have built-in methods for parsing different body formats.
+
+Since the PokéAPI returns JSON-formatted data we can use the `response.json()` method to access it. Accessing the body can be slow, so this is async too. The `.json()` method also returns a promise, so we need to use another `.then()` to access the value.
+
+```js
+fetch("url").then((response) => {
+  response.json().then((data) => {
+    console.log(data);
+  });
+});
 ```
 
 Nesting our `.then()`s like this is getting us back into the same mess as with callbacks. Luckily promises have a nice solution to this problem.
 
-#### Chaining `.then`
+#### Chaining `.then`s
 
 The `.then()` method always returns a promise, which will resolve to whatever value you return from your callback. This allows you to chain your `.then()`s and avoid nested callback hell.
 
-If your first `.then()` returns a promise the next one won't run until the first fulfills.
+The `.then`s will run in order, and wait for the previous one to fulfill before starting. Here our first `.then` returns the promise that the `response.json()` method creates. Our second `.then` only runs once that promise fulfills with the JSON data.
 
 ```js
 fetch("url")
@@ -171,9 +205,20 @@ fetch("url")
 
 ![](https://user-images.githubusercontent.com/9408641/74358336-34e60600-4db9-11ea-8394-e6df57e3cef2.png)
 
+{% solution %}
+
+```js
+const pokePromise = fetch("https://pokeapi.co/api/v2/pokemon/pikachu");
+pokePromise
+  .then((response) => response.json())
+  .then((pikachu) => console.log(pikachu));
+```
+
+{% endsolution %}
+
 ## Handling errors
 
-Sometimes requests go wrong. We can handle errors by passing a function to the promise's `.catch()` method. This will be run _instead of_ the `.then()` if the promise rejects.
+Sometimes requests go wrong. Promises have a built in way to control what happens when the asynchronous code hits an error. We can pass a function to the promise's `.catch()` method. This will be run _instead of_ the `.then()` if the promise rejects. Your callback will be passed the error that occurred instead of the data you wanted.
 
 ```javascript
 fetch("broken-url")
@@ -190,6 +235,18 @@ Note: you would usually want to do something useful with the error instead of ju
 
 ![](https://user-images.githubusercontent.com/9408641/74358484-6959c200-4db9-11ea-98a0-7cb2ba107908.png)
 
+{% solution %}
+
+```js
+const pokePromise = fetch();
+pokePromise
+  .then((response) => response.json())
+  .then((pikachu) => console.log(pikachu))
+  .catch((error) => console.log(error));
+```
+
+{% endsolution %}
+
 ---
 
 ## Workshop
@@ -199,7 +256,7 @@ We're going to use the `fetch` function to get a user from the GitHub API. The A
 ### Task 1
 
 1. Write a `getUser` function that takes a username argument
-1. It should fetch that user's profile from `"https://api.github.com/users/{{USERNAME_HERE}}"`
+1. It should fetch that user's profile from `"https://api.github.com/users/USERNAME_HERE"`
 1. It should be callable like this:
    ```js
    getUser("oliverjam")
@@ -212,12 +269,12 @@ We're going to use the `fetch` function to get a user from the GitHub API. The A
 ### Task 2
 
 1. Write a `getRepos` function that takes the Github user response object as an argument.
-1. Fetch the a user using `getUser`, _then_ use `getRepos` to fetch their repos using the `repos_url` from the user object.
+1. Fetch the a user using `getUser`, _then_ use `getRepos` to fetch their repos using the `repos_url` property from the user object.
 1. Log the array of repos.
 
 ![](https://user-images.githubusercontent.com/9408641/74358501-6eb70c80-4db9-11ea-95f8-69264ed3585c.png)
 
-### Bonus if you have time: Task 4
+### Bonus if you have time: Task 3
 
 1. Fetch multiple GitHub profiles _simultaneously_ using your `getUser` function above (you'll have to call it more than once)
 
