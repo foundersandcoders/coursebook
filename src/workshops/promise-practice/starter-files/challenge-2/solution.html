@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge 2 | Promise practice</title>
+  </head>
+  <body>
+    <h1>Open the console</h1>
+    <script>
+      fetch("https://pokeapi.co/api/v2/pokemon/pikachu")
+        .then((response) => response.json())
+        .then((pikachu) => fetch(pikachu.species.url))
+        .then((response) => response.json())
+        .then((species) => fetch(species.shape.url))
+        .then((response) => response.json())
+        .then((shape) => console.log(shape));
+
+      // `fetch` and `response.json` always returns a new promise object
+      // if we return that new promise from each .then
+      // we can chain them together nicely
+    </script>
+  </body>
+</html>

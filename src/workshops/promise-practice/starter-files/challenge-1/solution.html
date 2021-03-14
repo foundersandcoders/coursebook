@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge 1 | Promise practice</title>
+  </head>
+  <body>
+    <h1>Open the console</h1>
+    <script>
+      // this function returns a promise
+      // the promise resolves after the number of milliseconds you pass in
+      // don't worry too much about how this works for now
+      // we'll look at how to create promises in a later workshop
+      function wait(ms) {
+        return new Promise((resolve) => setTimeout(resolve, ms));
+      }
+
+      // the trick is to return the wait promise
+      // that way we can chain our .thens together
+      // and avoid nested callbacks
+      function light(color) {
+        return wait(1000).then(() => console.log(color));
+      }
+
+      light("green")
+        .then(() => light("amber"))
+        .then(() => light("red"))
+        .then(() => light("amber"))
+        .then(() => light("green"))
+        .then(() => light("finished"));
+    </script>
+  </body>
+</html>
