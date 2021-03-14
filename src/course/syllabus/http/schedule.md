@@ -51,4 +51,25 @@ schedule:
       end: 11:00
       url: https://github.com/foundersandcoders/dom-manipulation-challenge/
       type: challenge
+    - name: Project
+      start: 14:00
+      end: 17:15
+      type: project
+    - name: Check-out
+      start: 17:15
+      end: 17:30
+    - name: Q+A - YYT
+      start: 17:30
+      end: 18:30
+  thursday:
+    - name: Project
+      start: 14:00
+      end: 17:15
+      type: project
+    - name: Check-out
+      start: 17:15
+      end: 17:30
+    - name: Q+A - Elm
+      start: 17:30
+      end: 18:30
 ---
