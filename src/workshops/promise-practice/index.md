@@ -1,6 +1,6 @@
 ---
 title: Promise practice
-description: Practice using promises to control asynchronous JavaScript
+description: Practice using promises to avoid "callback hell" in asynchronous JavaScript
 tags:
   - workshop
   - js
@@ -9,10 +9,6 @@ keywords:
   - promises
   - async
 ---
-
-Let's practice using promises to avoid "callback hell" in our asynchronous JavaScript.
-
-## Part 1: sequential functions
 
 Running functions in sequence (one after another) is a common requirement. For example, triggering animations in order, or requesting some data then sending that response on to another API.
 
