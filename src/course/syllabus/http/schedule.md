@@ -4,20 +4,17 @@ schedule:
   monday:
     - name: Intro presentation
       start: 10:10
-      end: 10:30
+      end: 10:45
       url: https://fac-slides.netlify.app/slides/http/
-    - name: HTTP Game
-      start: 10:30
-      end: 11:00
-    - name: First-class functions
-      start: 11:00
-      end: 13:00
-      url: https://github.com/oliverjam/first-class-functions
-      type: workshop
     - name: Fetch & Promises intro
+      start: 10:45
+      end: 13:00
+      url: /workshops/learn-fetch/
+      type: workshop
+    - name: Promise practice
       start: 14:00
       end: 16:00
-      url: /workshops/learn-fetch/
+      url: /workshops/promise-practice/
       type: workshop
     - name: Project and Spikes introduction
       start: 16:00
