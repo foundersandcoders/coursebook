@@ -111,3 +111,7 @@
 .border-xl {
   border: 0.5rem solid;
 }
+
+.border-400 {
+  border-color: var(--bg-400);
+}
