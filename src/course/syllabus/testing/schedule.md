@@ -27,8 +27,11 @@ schedule:
       end: 13:00
       name: TDD Array methods
       type: workshop
-    - start: 14:00
-      end: 16:00
+    - name: Interview practice
+      start: 14:00
+      end: 15:00
+    - start: 15:00
+      end: 17:00
       name: Grid design burst
       type: workshop
   wednesday:
