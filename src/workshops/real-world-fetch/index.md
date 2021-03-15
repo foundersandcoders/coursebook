@@ -253,6 +253,10 @@ We're going to make a Pokémon search page using the [PokéAPI](https://pokeapi.
 1. If the request succeeds show the Pokémon's name and sprite
 1. If the request fails show a relevant error to the user
 
+### Stretch goals
+
+If you have extra time try using some of the other data in the response body to show e.g. the pokémon's types or stats. Write some CSS to make it pretty!
+
 <figure>
   <iframe
     src="starter-files/solution/"
