@@ -19,13 +19,13 @@ The browser's `fetch` method is deliberately low-level. This means there are cer
 ### Challenge
 
 1. Open `workshop.html` in your editor
-1. Add a `fetch` call to `"https://foundersandcoders.com/404"` (this always returns a 404)
+1. Add a `fetch` call to `"https://echo.oliverjam.workers.dev/status/404"` (this always returns a 404)
 1. Add a `.then()` and `.catch()`. Which of these runs? What does the response look like?
 
 {% solution %}
 
 ```js
-fetch("https://foundersandcoders.com/404")
+fetch("https://echo.oliverjam.workers.dev/status/404")
   .then(console.log)
   .catch(console.error);
 ```
@@ -53,7 +53,7 @@ We need to handle HTTP responses we don't want. We can do this by checking the `
 {% solution %}
 
 ```js
-fetch("https://foundersandcoders.com/404")
+fetch("https://echo.oliverjam.workers.dev/status/404")
   .then((response) => {
     if (!response.ok) {
       const error = new Error(response.status);
@@ -86,7 +86,7 @@ This [options object](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrW
 
 ### Challenge
 
-1. Edit your `fetch` to send a `POST` request to `"https://reqres.in/api/users"`
+1. Edit your `fetch` to send a `POST` request to `"https://echo.oliverjam.workers.dev/json"`
 1. Send a JSON body containing an object with whatever properties you like
 1. Don't forget the `"content-type"`!
 
@@ -95,7 +95,7 @@ This [options object](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrW
 ```js
 const data = { name: "oli" };
 
-fetch("https://reqres.in/api/users", {
+fetch("https://echo.oliverjam.workers.dev/json", {
   method: "POST",
   body: JSON.stringify(data),
   headers: { "content-type": "application/json" },
@@ -106,8 +106,16 @@ fetch("https://reqres.in/api/users", {
   })
   .then((json) => console.log(json))
   .catch((error) => console.error(error));
+```
 
-// should log something like: { name: "oli", id: "499", createdAt: "2020-02-17T16:03:13.654Z" }
+This should log something like:
+
+```json
+{
+  "name": "oli",
+  "id": 499,
+  "created": "2020-02-17T16:03:13.654Z"
+}
 ```
 
 {% endsolution %}
@@ -124,87 +132,50 @@ We can add a handler for the submit event like this:
 
 ```js
 const myForm = document.querySelector("form");
+
 myForm.addEventListener("submit", event => {
   event.preventDefault();
-  // do stuff
+  // handle the submission yourself here
 }))
 ```
 
 `event.preventDefault()` will stop the browser trying to send the request for you. We want to handle the request with `fetch` instead.
 
-There are a few ways we could access the values the user entered.
+In order to send our request we have to get hold of the values the user entered. There are a few ways we could do this.
 
 ### Challenge: `querySelector`
 
-We can use [`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) to directly access each form input, then get its value. For example `document.querySelector("#username").value`.
+We can use [`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) to directly access each input element, then get its value. For example `document.querySelector("#username").value`.
 
 1. Create a form with two inputs and a submit button
 1. Add a `"submit"` event handler to the form (don't forget `preventDefault`)
 1. Use `querySelector` to get each input's value
 1. Use `fetch` to `POST` the data as JSON to the same URL as before
+1. Log the response you get from the server
 
 {% solution %}
 
 ```html
 <form>
-  <label for="username">Post title</label>
-  <input id="username" />
-  <label for="password">Password</label>
-  <input type="password" id="password" />
+  <label for="name">Name</label>
+  <input id="name" />
+
+  <label for="email">Email</label>
+  <input type="email" id="email" />
+
   <button type="submit">Log in</button>
 </form>
 
 <script>
   const form = document.querySelector("form");
+
   form.addEventListener("submit", (event) => {
     event.preventDefault();
-    const username = document.querySelector("#username").value;
-    const password = document.querySelector("#password").value;
-    const data = { username, password };
-    fetch("https://reqres.in/api/users", {
-      method: "POST",
-      body: JSON.stringify(data),
-      headers: { "content-type": "application/json" },
-    })
-      .then((response) => {
-        if (!response.ok) throw new Error(response.status);
-        return response.json();
-      })
-      .then((json) => console.log(json))
-      .catch((error) => console.error(error));
-  });
-</script>
-```
+    const name = document.querySelector("#name").value;
+    const password = document.querySelector("#email").value;
+    const data = { name, email };
 
-{% endsolution %}
-
-### Challenge: `event.target.elements`
-
-The form's submit event already contains references to each named element within it. We can access this at `event.target.elements.inputName`.
-
-1. Make sure your inputs have unique `name` attributes
-1. Use [`event.target.elements`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/elements) to get the input values
-1. Submit the values as JSON like before
-
-{% solution %}
-
-```html
-<form>
-  <label for="username">Post title</label>
-  <input id="username" name="username" />
-  <label for="password">Password</label>
-  <input type="password" id="password" name="password" />
-  <button type="submit">Log in</button>
-</form>
-
-<script>
-  const form = document.querySelector("form");
-  form.addEventListener("submit", (event) => {
-    event.preventDefault();
-    const username = event.target.elements.username.value;
-    const password = event.target.elements.password.value;
-    const data = { username, password };
-    fetch("https://reqres.in/api/users", {
+    fetch("https://echo.oliverjam.workers.dev/json", {
       method: "POST",
       body: JSON.stringify(data),
       headers: { "content-type": "application/json" },
@@ -223,33 +194,37 @@ The form's submit event already contains references to each named element within
 
 ### Challenge: `new FormData()`
 
-There is a built-in API that mirrors a form's native behaviour. We can use `new FormData(event.target)` to create a [`FormData` interface](https://developer.mozilla.org/en-US/docs/Web/API/FormData). This is what the form would send if we didn't call `preventDefault()`.
+There is a built-in API that mirrors a form's native behaviour. We can use `new FormData(myForm)` to create a [`FormData` interface](https://developer.mozilla.org/en-US/docs/Web/API/FormData). This is what the form would send if we didn't call `preventDefault()`, and contains all the input values.
 
-If we want to submit this as JSON we need to turn it into a normal object. You can do this with a [`for..of`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) loop or use [`Object.fromEntries(data)`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries). Note: `fromEntries()` is relatively new and isn't supported in older browsers.
+If we want to submit this as JSON we need to turn it into a normal object. You can do this with [`Object.fromEntries(data)`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries). Note: `fromEntries()` is relatively new and isn't supported in older browsers.
 
 #### Challenge
 
+1. Edit your previous solution
 1. Use `new FormData()` to get all the input values
-1. Turn the FormData into an object
-1. Submit the values as JSON like before
+1. Turn the FormData into an object to submit
 
 {% solution %}
 
 ```html
 <form>
-  <label for="username">Post title</label>
-  <input id="username" name="username" />
-  <label for="password">Password</label>
-  <input type="password" id="password" name="password" />
+  <label for="name">Name</label>
+  <input id="name" name="name" />
+
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" />
+
   <button type="submit">Log in</button>
 </form>
 
 <script>
   const form = document.querySelector("form");
+
   form.addEventListener("submit", (event) => {
     event.preventDefault();
-    const formData = new FormData(event.target);
+    const formData = new FormData(form);
     const data = Object.fromEntries(formData);
+
     fetch("https://reqres.in/api/users", {
       method: "POST",
       body: JSON.stringify(data),
@@ -265,15 +240,26 @@ If we want to submit this as JSON we need to turn it into a normal object. You c
 </script>
 ```
 
+The advantage of this solution is it will work for any number of inputs, without getting any longer. The previous two require a new line of code to access every input you add to the form.
+
 {% endsolution %}
 
 ## Workshop
 
-We're going to make a Pokémon search page using the PokéAPI.
+We're going to make a Pokémon search page using the [PokéAPI](https://pokeapi.co/).
 
 1. Create a form with a search input and submit button
-1. When the form is submitted request the Pokémon the user typed from `"https://pokeapi.co/api/v2/pokemon/{{NAME}}"`
+1. When the form is submitted request the Pokémon the user typed from `"https://pokeapi.co/api/v2/pokemon/NAME"`
 1. If the request succeeds show the Pokémon's name and sprite
 1. If the request fails show a relevant error to the user
 
-![real-world-fetch](https://user-images.githubusercontent.com/9408641/74943442-4a2be780-53ec-11ea-90f2-77bc07bbcdbb.gif)
+<figure>
+  <iframe
+    src="starter-files/solution/"
+    onload="
+      this.contentWindow.document.querySelector('#pokemon').value = 'pikachu';
+      this.contentWindow.document.querySelector('button').click();
+    ">
+    </iframe>
+  <figcaption>Solution preview</figcaption>
+</figure>

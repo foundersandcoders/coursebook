@@ -6,9 +6,11 @@
     <title>Real world fetch</title>
     <style>
       label,
-      input,
       output {
         display: block;
+      }
+      label {
+        margin-bottom: 0.25rem;
       }
     </style>
   </head>
@@ -33,7 +35,7 @@
         output.innerHTML = "";
 
         // get the value of the field with name="pokemon"
-        const formData = new FormData(event.target);
+        const formData = new FormData(form);
         const name = formData.get("pokemon");
 
         // request that pokemon from PokeAPI
@@ -46,12 +48,12 @@
           .then((pokemonData) => {
             const heading = document.createElement("h2");
             heading.textContent = pokemonData.name;
+
             const image = document.createElement("img");
             image.src = pokemonData.sprites.front_default;
             image.alt = "";
 
-            output.appendChild(heading);
-            output.appendChild(image);
+            output.append(heading, image);
           })
           // if the request is unsuccessful
           .catch((error) => {
