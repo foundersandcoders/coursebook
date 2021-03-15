@@ -85,6 +85,14 @@ schedule:
       type: project
   thursday:
   friday:
+    - start: 10:00
+      end: 10:30
+      name: Live code review
+    - start: 10:30
+      end: 11:15
+      name: Team code review
+    - start: 11:15
+      end: 12:15
     - name: Respond to issues
       start: 11:15
       end: 12:00

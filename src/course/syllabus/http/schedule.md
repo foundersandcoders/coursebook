@@ -43,9 +43,13 @@ schedule:
       end: 13:00
       url: /workshops/real-world-fetch
       type: workshop
-    - name: Real world fetch
+    - name: Interview practice
       start: 14:00
-      end: 16:00
+      end: 15:00
+    - name: Real world fetch
+      start: 15:00
+      end: 17:00
+      type: workshop
   wednesday:
     - name: DOM Manipulation MC
       start: 10:00
