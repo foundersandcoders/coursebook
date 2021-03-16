@@ -54,7 +54,7 @@ schedule:
     - name: DOM Manipulation MC
       start: 10:00
       end: 11:00
-      url: https://github.com/foundersandcoders/dom-manipulation-challenge/
+      url: /workshops/dom-challenge/
       type: challenge
     - name: Project
       start: 14:00
