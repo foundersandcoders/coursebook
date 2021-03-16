@@ -18,19 +18,19 @@ Here is a quick overview of various DOM manipulation techniques. If you want to 
 
 ### Accessing elements
 
-You can access elements on the page with the `document.querySelector` method. This takes any valid CSS selector (like `"button"` or `"#my-id > .my-class:first-child"`) and searches the DOM for the first match. It returns a DOM element represented as a JS object.
+You can access elements on the page with the [`document.querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) method. This takes any valid CSS selector (like `"button"` or `"#my-id > .my-class:first-child"`) and searches the DOM for the first match. It returns a [DOM element](https://developer.mozilla.org/en-US/docs/Web/API/Element) represented as a JS object.
 
-You can access multiple elements with the `document.querySelectorAll` method. This works in the same way except it returns a [NodeList](https://developer.mozilla.org/en-US/docs/Web/API/NodeList) of all matches.
+You can access multiple elements with the [`document.querySelectorAll`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) method. This works in the same way except it returns a [NodeList](https://developer.mozilla.org/en-US/docs/Web/API/NodeList) of all matches.
 
 A NodeList is similar to an array but missing most of the usual array methods (it only has `.forEach`). If you need to use `.map`/`.filter` etc you can turn it into an array with `Array.from(myList)`.
 
 ### Creating elements
 
-You can create a new DOM element with `document.createElement`. This takes a tag string like `"button"` and returns the new DOM object.
+You can create a new DOM element with [`document.createElement`](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement). This takes a tag string like `"button"` and returns the new DOM object.
 
 It's important to note that this object isn't actually on the page yet—it just lives in memory in your JavaScript. To get the element to show up you have to put it inside another element on the page.
 
-You can do this using the `parent.appendChild` or `parent.append` methods. The main difference between these is that `append` works for text and can take multiple items. E.g. `myDiv.append(myButton, "some text", myParagraph)`.
+You can do this using the [`parent.appendChild`](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild) or [`parent.append`](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/append) methods. The main difference between these is that `append` works for text and can take multiple items. E.g. `myDiv.append(myButton, "some text", myParagraph)`.
 
 ### Updating elements
 
