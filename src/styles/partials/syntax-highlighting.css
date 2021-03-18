@@ -1,5 +1,7 @@
 code,
 pre {
+  --shadow-color: var(--bg-600);
+  --shadow: inset 0 0 2px 1px var(--shadow-color);
   color: var(--text-100);
   background-color: var(--bg-850);
   font-size: 0.875em;
@@ -16,13 +18,43 @@ pre {
 
 :not(pre) > code {
   border-radius: 4px;
-  padding: 0.25rem 0.35rem;
+  box-shadow: var(--shadow);
+  padding: 0.15rem 0.35rem;
 }
 
 pre {
+  --radius: 2px;
+  position: relative;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
   padding: 1rem;
   overflow: auto;
   font-size: 1rem;
+}
+
+pre[class|="language"]::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-bottom-left-radius: var(--radius);
+  padding: 0.3rem;
+  line-height: 1;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: bold;
+  background-color: var(--shadow-color);
+}
+
+pre.language-html::after {
+  content: "HTML";
+}
+
+pre.language-css::after {
+  content: "CSS";
+}
+
+pre.language-js::after {
+  content: "JS";
 }
 
 .token.comment,
