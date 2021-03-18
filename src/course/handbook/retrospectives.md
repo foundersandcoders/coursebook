@@ -24,7 +24,7 @@ An assigned notetaker will take rough minutes of the meeting as well as any acti
 
 ## Team retrospectives
 
-We also run a smaller "stop go continue" meeting with each [student team](./teams.md) so they are able to reflect on how their group project work went that week.
+We also run a smaller "stop go continue" meeting with each project team so they are able to reflect on how their group project work went that week.
 
 During the first two weeks, FAC-staff will offer to facilitate team SGCs or at least ensure that each team has a facilitator and time keeper. The team may want to assign somebody as note taker and have the 4th person play a "reflective" role at the end of the session to provide a closing response to the SGC. The facilitator should not feel they need to respond to every issue and, except for reading out each point, doesn't talk more than the others
 
