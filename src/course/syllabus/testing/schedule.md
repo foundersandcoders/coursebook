@@ -11,7 +11,7 @@ schedule:
       end: 11:30
       name: Build a testing library
       type: workshop
-      url: /workshops/learn-testing/
+      url: "/testing-lib"
     - start: 11:30
       end: 13:00
       name: Unit testing
