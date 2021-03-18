@@ -21,7 +21,7 @@ schedule:
       end: 16:00
       name: Integration testing
       type: workshop
-      url: "https://github.com/oliverjam/learn-integration-testing"
+      url: /workshops/learn-integration-testing/
   tuesday:
     - start: 11:00
       end: 13:00

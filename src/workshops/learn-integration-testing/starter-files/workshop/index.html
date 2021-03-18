@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn Integration Testing</title>
+  </head>
+  <body>
+    <form>
+      <label for="text">First number</label>
+      <input type="number" id="a" name="a" />
+
+      <label for="sign">Sign</label>
+      <select id="sign" name="sign">
+        <option>+</option>
+        <option>-</option>
+        <option>*</option>
+        <option>/</option>
+      </select>
+
+      <label for="text">Second number</label>
+      <input type="number" id="b" name="b" />
+
+      <button type="submit">Submit</button>
+      <output id="result"></output>
+    </form>
+    <script src="../test-helpers.js"></script>
+    <script src="index.js"></script>
+    <script src="index.test.js"></script>
+  </body>
+</html>
