@@ -5,6 +5,7 @@ const slugify = require("@sindresorhus/slugify");
 const markdownItTaskLists = require("markdown-it-task-lists");
 const markdownItTitle = require("markdown-it-title");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const shortcodes = require("./src/_includes/shortcodes");
 
 const options = {
   dir: {
@@ -55,6 +56,10 @@ module.exports = (config) => {
   config.setLibrary("md", md);
 
   config.addFilter("markdown", (s) => md.render(s));
+
+  Object.entries(shortcodes).forEach((code) =>
+    config.addPairedShortcode(...code)
+  );
 
   return options;
 };

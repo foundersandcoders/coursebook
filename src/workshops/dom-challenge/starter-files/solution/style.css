@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: system-ui;
+  line-height: 1.4;
+}
+
+section + section {
+  margin-top: 4rem;
+}
+
+.font-serif {
+  font-family: Georgia, serif;
+  font-size: 1.125rem;
+}
+
+/* All inputs other than checkboxes & radios
+ * should be block display so they sit on a new line
+ */
+input:not([type="checkbox"]):not([type="radio"]),
+button,
+textarea {
+  display: block;
+  font: inherit;
+  color: inherit;
+}
+
+textarea {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+pre {
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: hsl(200, 10%, 95%);
+}
+
+.highlight {
+  background-color: gold;
+}
+
+[aria-invalid="true"] {
+  box-shadow: 0 0 0 3px red;
+}
+
+.toggle-button {
+  margin-bottom: 1rem;
+}

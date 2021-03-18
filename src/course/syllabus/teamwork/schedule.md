@@ -63,33 +63,41 @@ schedule:
       start: 14:30
       end: 15:30
     - name: Git workshop
-      url: https://github.com/foundersandcoders/git-workflow-workshop-for-two
+      url: /workshops/git-workflow/
       start: 15:30
       end: 17:30
     - name: Pastoral care
       start: 17:30
       end: 17:45
   wednesday:
-    - name: Learn HTML forms
-      url: https://github.com/oliverjam/learn-html-forms/
+    - name: HTML forms
+      url: /workshops/html-forms/
       start: 10:00
       end: 11:00
     - name: Project management intro
       url: https://hackmd.io/@fac/S1wGfV2M8#/
       start: 11:00
-      end: 11:15
+      end: 11:30
     - name: Project
       url: ../project
-      start: 11:15
+      start: 11:30
       end: 13:00
       type: project
   thursday:
   friday:
+    - start: 10:00
+      end: 10:30
+      name: Live code review
+    - start: 10:30
+      end: 11:15
+      name: Team code review
+    - start: 11:15
+      end: 12:15
     - name: Respond to issues
       start: 11:15
       end: 12:00
     - name: Project presentations intro
-      url: http://localhost:8080/course/handbook/projects/#project-presentation
+      url: /course/handbook/projects/#project-presentation
       start: 12:00
       end: 12:15
 ---

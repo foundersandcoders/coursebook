@@ -29,15 +29,18 @@ schedule:
       type: workshop
       url: https://github.com/oliverjam/tdd-array-methods
     - start: 14:00
-      end: 14:30
+      end: 15:00
+      name: Interview practice
+    - start: 15:00
+      end: 15:30
       name: Grid design burst
       type: workshop
       url: https://hackmd.io/@fac/S1-95B9r8#/
-    - start: 14:30
-      end: 16:00
+    - start: 15:30
+      end: 17:00
       type: workshop
       name: Grid workshop
-      url:
+      url: https://github.com/bobbysebolao/learn-css-grid
   wednesday:
     - start: 10:00
       end: 11:00

@@ -11,10 +11,12 @@ monday:
   - start: 16:00
     end: 16:15
     name: Project & Spikes intro
+    url: ../project
   - start: 16:15
     end: 17:15
     name: Technical spikes
     type: spike
+    url: ../spikes
   - start: 17:15
     end: 17:45
     name: Spike presentation preparation

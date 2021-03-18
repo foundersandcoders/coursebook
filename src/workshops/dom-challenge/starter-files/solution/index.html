@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DOM Challenge</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section>
+      <h2>Challenge 1</h2>
+      <button id="toggle-highlight">Toggle highlight</button>
+      <p class="font-serif">
+        This is the first paragraph, so nothing should happen to it when you
+        click the button.
+      </p>
+      <p class="font-serif">
+        This paragraph should be highlighted gold when you click the button. If
+        you click it again the gold highlight should go away.
+      </p>
+      <p class="font-serif">
+        The third paragraph should also not change when you click the button
+        above.
+      </p>
+    </section>
+
+    <section>
+      <h2>Challenge 2</h2>
+      <pre>["apple", "banana", "orange"]</pre>
+      <button id="generate-list">Generate list</button>
+    </section>
+
+    <section>
+      <h2>Challenge 3</h2>
+      <form>
+        <label for="tweet">New tweet</label>
+        <textarea id="tweet" name="tweet" rows="5" cols="50">
+There are currently more than 180 characters in this textarea, which means that it should receive a red outline when you click the "Check tweet" button. If you delete some text and click again it should re-check and remove the outline.
+      </textarea
+        >
+        <button>Check tweet</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Challenge 4</h2>
+      <button class="toggle-button">Toggle 1</button>
+      <p>This paragraph should hide when you click the above button</p>
+
+      <button class="toggle-button">Toggle 2</button>
+      <p>This paragraph should hide when you click the above button</p>
+
+      <button class="toggle-button">Toggle 3</button>
+      <p>This paragraph should hide when you click the above button</p>
+    </section>
+  </body>
+
+  <script src="dom.js"></script>
+
+  <!--
+    don't worry about anything down here
+    this JS just runs your functions to make sure things work
+    you don't need to edit any of this
+  -->
+  <script>
+    document.querySelector("#toggle-highlight").onclick = toggleHighlight;
+
+    const listBtn = document.querySelector("#generate-list");
+    listBtn.onclick = () => {
+      const ul = generateList(["apple", "banana", "orange"]);
+      listBtn.insertAdjacentElement("afterend", ul);
+    };
+
+    document.querySelector("form").onsubmit = (event) => {
+      event.preventDefault();
+      validateTweet(event.target.elements.tweet);
+    };
+
+    validateTweetOnInput();
+
+    setupToggleButtons();
+  </script>
+</html>

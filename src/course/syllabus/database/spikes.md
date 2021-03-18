@@ -53,4 +53,4 @@ How can we use GitHub Actions to automatically run our tests and deploy our code
 ### Useful resources
 
 - [About continuous integration | GitHub Actions](https://help.github.com/en/actions/building-and-testing-code-with-continuous-integration/about-continuous-integration)
-- [Continuous Integration in JavaScript: a Guide (ft. Github Actions)](https://www.valentinog.com/blog/ci-js/)
+- [Understanding how to use GitHub Actions)](https://zellwk.com/blog/understanding-github-actions/)

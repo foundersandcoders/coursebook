@@ -48,6 +48,10 @@
   font-weight: bold;
 }
 
+.ff-heading {
+  font-family: var(--font-heading);
+}
+
 .ai-center {
   align-items: center;
 }
@@ -70,6 +74,10 @@
 
 .js-stretch {
   justify-self: stretch;
+}
+
+.js-start {
+  justify-self: start;
 }
 
 .bg-body {
@@ -96,6 +104,14 @@
   text-align: center;
 }
 
+.border-lg {
+  border: 0.25rem solid;
+}
+
 .border-xl {
   border: 0.5rem solid;
+}
+
+.border-400 {
+  border-color: var(--bg-400);
 }
