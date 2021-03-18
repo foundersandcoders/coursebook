@@ -47,4 +47,11 @@ schedule:
       name: Scope challenge
       type: challenge
       url: https://github.com/oliverjam/js-scope-challenge
+    - start: 17:30
+      end: 18:30
+      name: Q&A
+  thursday:
+    - start: 17:30
+      end: 18:30
+      name: Q&A
 ---
