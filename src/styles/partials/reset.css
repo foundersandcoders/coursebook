@@ -45,7 +45,7 @@ summary {
   user-select: none;
 }
 
-input {
+input:not([type="checkbox"]):not([type="radio"]) {
   width: 100%;
   border: 0;
   padding: 1rem;
