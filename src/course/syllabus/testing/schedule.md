@@ -11,7 +11,7 @@ schedule:
       end: 11:30
       name: Build a testing library
       type: workshop
-      url: "https://github.com/oliverjam/learn-testing/"
+      url: /workshops/learn-testing/
     - start: 11:30
       end: 13:00
       name: Unit testing
