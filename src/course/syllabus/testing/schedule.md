@@ -16,7 +16,7 @@ schedule:
       end: 13:00
       name: Unit testing
       type: workshop
-      url: "https://github.com/oliverjam/learn-unit-testing"
+      url: /workshops/learn-unit-testing/
     - start: 14:00
       end: 16:00
       name: Integration testing
