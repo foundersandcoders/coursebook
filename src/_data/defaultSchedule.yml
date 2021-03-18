@@ -11,10 +11,12 @@ monday:
   - start: 16:00
     end: 16:15
     name: Project & Spikes intro
+    url: ../project
   - start: 16:15
     end: 17:15
     name: Technical spikes
     type: spike
+    url: ../spikes
   - start: 17:15
     end: 17:45
     name: Spike presentation preparation
@@ -89,6 +91,7 @@ friday:
   - start: 10:00
     end: 10:45
     name: Team code review
+    url: /course/handbook/code-review/
   - start: 10:45
     end: 11:15
     name: Live code review
@@ -98,6 +101,7 @@ friday:
   - start: 12:15
     end: 13:00
     name: Presentation prep
+    url: /course/handbook/projects/#project-presentation
   - start: 13:00
     end: 14:00
     name: Lunch
@@ -108,12 +112,15 @@ friday:
   - start: 15:15
     end: 16:00
     name: Cohort SGC
+    url: /course/handbook/retrospectives/
   - start: 16:00
     end: 16:45
     name: Team SGCs
+    url: /course/handbook/retrospectives/#team-retrospectives
   - start: 16:45
     end: 17:00
     name: Update user manuals
+    url: /course/handbook/user-manuals/
   - start: 17:00
     end: 17:45
     name: Speaker
