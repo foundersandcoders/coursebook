@@ -141,7 +141,7 @@ const allNegative = every(arr, (x) => x < 0); // false
 
 ### `some`
 
-[`Array.some()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some) is used to check whether at least one element in an array meets a certain criteria. It takes a function as an argument, then loops over each element in the array and calls the function with each one. If the function returns true for _any_ of the elements the iteration stops and `true` is immediately returned. Otherwise it returns `false.
+[`Array.some()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some) is used to check whether at least one element in an array meets a certain criteria. It takes a function as an argument, then loops over each element in the array and calls the function with each one. If the function returns `true` for _any_ of the elements the iteration stops and `true` is immediately returned. Otherwise it returns `false`.
 
 ```js
 const arr = [1, 2, 3];
@@ -159,7 +159,7 @@ const atLeastOneNegative = some(arr, (x) => x < 0); // false
 
 ### `find`
 
-[`Array.find()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find) is used to get the first element in an array that meets a certain criteria. It takes a function as an argument, then loops over each element in the array and calls the function with each one. If the function returns true for the element the iteration stops and the element is immediately returned. If the function returns false for every element then `undefined` is returned.
+[`Array.find()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find) is used to get the first element in an array that meets a certain criteria. It takes a function as an argument, then loops over each element in the array and calls the function with each one. If the function returns `true` for the element the iteration stops and the element is immediately returned. If the function returns `false` for every element then `undefined` is returned.
 
 ```js
 const arr = [1, 2, 3];

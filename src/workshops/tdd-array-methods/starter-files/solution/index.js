@@ -64,7 +64,7 @@ function some(array, fn) {
   for (let i = 0; i < array.length; i++) {
     const el = array[i];
     result = fn(el, i);
-    if (result) break; // need to stop if an element fails
+    if (result) break; // need to stop if an element passes
   }
   return result;
 }
@@ -100,18 +100,18 @@ function reduce(array, fn, initialAccumulator) {
   return newAccumulator;
 }
 
-function flat(array) {
-  let flattened = [];
-  for (let i = 0; i < array.length; i++) {
-    const el = array[i];
-    if (Array.isArray(el)) {
-      flattened = flattened.concat(el); // concat merges two arrays
-    } else {
-      flattened.push(el);
-    }
-  }
-  return flattened;
-}
+// function flat(array) {
+//   let flattened = [];
+//   for (let i = 0; i < array.length; i++) {
+//     const el = array[i];
+//     if (Array.isArray(el)) {
+//       flattened = flattened.concat(el); // concat merges two arrays
+//     } else {
+//       flattened.push(el);
+//     }
+//   }
+//   return flattened;
+// }
 
 function flat(array, depth = 1) {
   let flattened = [];
