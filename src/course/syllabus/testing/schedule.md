@@ -6,7 +6,7 @@ schedule:
       end: 10:30
       name: Intro presentation
       type: slides
-      url: "https://hackmd.io/@fac/Sy7cA4TXI#/"
+      url: https://fac-slides.netlify.app/slides/testing/
     - start: 10:30
       end: 11:30
       name: Build a testing library
@@ -27,7 +27,7 @@ schedule:
       end: 13:00
       name: TDD Array methods
       type: workshop
-      url: https://github.com/oliverjam/tdd-array-methods
+      url: /workshops/tdd-array-methods/
     - start: 14:00
       end: 15:00
       name: Interview practice
@@ -46,11 +46,19 @@ schedule:
       end: 11:00
       name: Scope challenge
       type: challenge
-      url: https://github.com/oliverjam/js-scope-challenge
+      url: /workshops/scope-challenge/
+    - start: 14:00
+      end: 17:30
+      name: Project
+      type: project
     - start: 17:30
       end: 18:30
       name: Q&A
   thursday:
+    - start: 14:00
+      end: 17:30
+      name: Project
+      type: project
     - start: 17:30
       end: 18:30
       name: Q&A
