@@ -11,7 +11,6 @@ How can we use advanced CSS features to create complex custom components?
 ### Useful resources
 
 - [CSS selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
-- [The Stack | Every Layout](https://every-layout.dev/layouts/stack/)
 - [A Whole Bunch of Amazing Stuff Pseudo Elements Can Do](https://css-tricks.com/pseudo-element-roundup/)
 - [Under-Engineered Custom Radio Buttons and Checkboxen](https://adrianroselli.com/2017/05/under-engineered-custom-radio-buttons-and-checkboxen.html)
 
@@ -24,18 +23,16 @@ How can we use advanced DOM features to make rendering complex UIs easier.
 1. What is a NodeList?
    - How is it different from an array?
    - What's the different between "live" and "static" NodeLists?
-   - How is it different from an `HTMLCollection`?
 1. What is the `<template>` element?
-   - What is a `DocumentFragment`?
-   - How can we use these to render dynamic UI?
+   - How can we use this to render dynamic UI?
 
 ### Useful resources
 
 - [NodeList | MDN](https://developer.mozilla.org/en-US/docs/Web/API/NodeList)
 - [The Content Template Element | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template)
-- [Document Fragment | MDN](https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment)
+- [Template element example](https://codepen.io/oliverjam/pen/yLNEOQO?editors=1010)
 
-## Types of tests
+## Checking our code
 
 What are all the different ways to make sure our code is correct?
 
