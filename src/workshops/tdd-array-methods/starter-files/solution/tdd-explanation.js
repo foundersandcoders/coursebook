@@ -21,8 +21,8 @@ test("TDD explanation: map() should return an array with the same number of elem
 
 // RED: a failing test
 test("TDD explanation: map() should transform a one element array using the fn argument", () => {
-  const result1 = map([1], (x) => x + 1);
-  equal(result1[0], 2);
+  const result = map([1], (x) => x + 1);
+  equal(result[0], 2);
 });
 
 // to pass the test we need to transform the one item in the array using the callback argument
