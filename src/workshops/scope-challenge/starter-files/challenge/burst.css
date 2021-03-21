@@ -1,0 +1,18 @@
+.burst {
+  --size: 8px;
+  --hue: 0;
+  position: absolute;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  background-color: hsl(var(--hue), 100%, 90%);
+  opacity: 0.5;
+  /* animation: bounce 0.5s forwards cubic-bezier(0.175, 0.885, 0.32, 1.75);
+  transform: scale(0); */
+}
+
+@keyframes bounce {
+  to {
+    transform: scale(1);
+  }
+}
