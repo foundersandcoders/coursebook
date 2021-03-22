@@ -185,7 +185,7 @@ function equal(actual, expected, message) {
   }
 }
 
-function notEqual(actual, expected) {
+function notEqual(actual, expected, message) {
   if (actual !== expected) {
     const defaultMessage = `${expected} is different to ${actual}`;
     console.info("Pass: " + (message || defaultMessage));
