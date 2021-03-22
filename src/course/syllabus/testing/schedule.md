@@ -3,6 +3,9 @@ layout: schedule
 schedule:
   monday:
     - start: 10:00
+      end: 10:10
+      name: Feedback survey
+    - start: 10:10
       end: 10:30
       name: Intro presentation
       type: slides
