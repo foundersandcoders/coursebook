@@ -13,5 +13,5 @@
 
 ## Design
 
-- [ ] **We can create an attractive and accessible colour palette for our project**
-- [ ] We can use CSS variables to apply repeated colours to HTML elements
+- [ ] **We can use CSS grid to create complex layouts**
+- [ ] We can use CSS grid to make layouts that adapt to the viewport size
