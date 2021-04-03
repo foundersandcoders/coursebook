@@ -1,25 +1,36 @@
 # Learning circles
 
 ## Set up
-- Groups of 4, 90 minutes, with each learner leading the discussion for 20 minutes in turn;
-- Facilitator: checkin/out; ensures no interruptions; and that the circle proceeds in rounds;
-- Timekeeper: ensures nobody goes over time;
-- Recorder: takes note of who was present and records each circle member's closing TIL. (Only needed if the circle is feeding back to a larger group);
-- The circle starts by appointing a facilitator; they then do a check-in; the facilitator appoints a timekeeper and recorder; they then request the first person to present;
+- Groups of 4. Typically, lasting 90 minutes, with four 20-minute rounds;
+- Start with a check-in and end with a check-out;
+- Inexperienced groups should have a facilitator present.
+
+## Roles
+
+- Proposer: presents a problem;
+- Questioner: asks questions of the proposer;
+- Responder: proposes solutions to the proposer;
+- Observer: reflects on the problem and the responses of the group.
 
 ## Rounds
 
-- The first person shares their screen, and either presents their work or the problem that they, or the group as a whole, wants to discuss;
-- The circle then proceeds in rounds, with each learner taking it in turn to ask questions or respond to the material;
-- The first round is for each learner to ask clarifying questions to ensure that they understand the material; this would normally proceed quite quickly with each learner asking one or at most two questions and any responses kept short;
-- The second, longer round is the problem-solving round, where each learner in turn has an opportunity to respond to the material being presented, to make observations, or suggest solutions;
-- only one person speaks at a time; as soon as the speaker has no more questions or no more observations or has solved the problem or after no more than 3-4 minutes has passed, they handover to the next person;
-- The rounds may be more or less strictly adhered to, depending on the context, but it is important that all members of the circle have an opportunity to contribute and that the space is not dominated by one or two people; it is the responsibility of the whole group, not just the facilitator, to maintain the integrity of the circle;
+- The proposer shares their screen and presents the problem that they want to discuss;
+- The questioner then proceeds solely by asking questions of the proposer with a view to the whole group gaining a better undertanding of the problem;
+- If after 5 minutes or so and solely through the proposer's responses to questioning, the group has not yet gained an adequate understanding of the problem, it is the responder's role to try to navigate the proposer to a solution to the problem by more direct means; 
+- After about 15 minutes, it is the observer's role to reflect on the problem and on the behaviour of the group;
+- If there is a facilitator present, they can add their own reflections on whether the problem was at a suitable level, whether the group as a whole was supportive of each other, whether each participant stayed in role, and on the solution. They should also make sure the group is on schedule. If there is no facilitator present, this role can be taken by the observer;
+- When the round comes to an end, each group member takes on a new role and the process is repeated until each member of the group has played all four roles.
 
-## Ending
+Aims:
+1. To give each participant an opportunity to get the support of the group with a problem that they are working on;
+2. To give each participant practice in developing questioning strategies to aid problem solving;
+3. To give each participant practice at communicating proposed solutions;
+4. To give each participant practice at thinking reflectively about their learning processes;
+5. To ensure that each participant gets an equal opportunity to develop their problem-solving skills;
+6. To develop the capacity of all participants to run a strucutured study group without a facilitator present.
 
-- When the round comes to an end, the leader of the round can reflect on the round before handing over to the next circle member to share their screen;
-- After every circle member has had an opportunity to lead the discussion, the facilitator does a TIL round where each person summarises their most important single learning from the circle; if feeding back to a larger group, the recorder can take note of each item and post the learnings in a designated place (e.g. a slack channel)
-- Finally, the group checks out.
+## Tools
 
-Note: for an inexperienced circle an external facilitator can take on all the roles.
+- Question crib sheet, that the questioner can use as a scaffold for their questioning;
+- Glossary of terms.
+
