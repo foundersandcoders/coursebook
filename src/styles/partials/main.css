@@ -17,13 +17,21 @@ html {
   --bg-850: hsl(220, 20%, 97%);
   --bg-900: hsl(220, 20%, 98%);
   --green: #00be00;
+  --yellow-100: hsl(54, 100%, 82%);
+  --yellow-700: hsl(54, 100%, 96%);
   --yellow: hsl(54, 100%, 50%);
   --yellow-dark: hsl(54, 100%, 46%);
-  --blue: #0805ec;
+  --blue: hsl(240, 96%, 48%);
+  --blue-100: hsl(240, 80%, 88%);
+  --blue-700: hsl(240, 80%, 98%);
   --red: #ff2800;
   --primary: var(--yellow);
+  --primary-100: var(--yellow-100);
+  --primary-700: var(--yellow-700);
   --primary-dark: var(--yellow-dark);
   --secondary: var(--blue);
+  --secondary-100: var(--blue-100);
+  --secondary-700: var(--blue-700);
   --tertiary: var(--green);
   --quarternary: var(--red);
   --body-bg: white;
@@ -52,7 +60,8 @@ main ol:not([role="list"]),
 main blockquote,
 main pre,
 main details,
-main hr {
+main hr,
+main .content {
   max-width: 46rem;
 }
 
