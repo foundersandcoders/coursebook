@@ -6,7 +6,7 @@ How can we deploy our Node server to a cloud provider like Heroku?
 
 1. What is Heroku?
 1. What are environment variables and why might we want to hide them?
-1. How can we automatically deploy merges to our Master branch?
+1. How can we automatically deploy merges to our Main branch?
 
 ### Useful resources
 
