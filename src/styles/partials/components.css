@@ -137,3 +137,17 @@ copy-text > button {
   background: none;
   text-decoration: none;
 }
+
+.box {
+  --shadow: var(--bg-600);
+  --bg: var(--bg-850);
+  border-radius: 2px;
+  box-shadow: inset 0 0 2px 1px var(--shadow);
+  padding: 1.5rem;
+  background-color: var(--bg);
+}
+
+.box-primary {
+  --shadow: var(--primary-100);
+  --bg: var(--primary-700);
+}
