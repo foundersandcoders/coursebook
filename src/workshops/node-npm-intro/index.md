@@ -113,13 +113,13 @@ node add.js
 
 ### Modules
 
-Modules are used to isolate code and make it specific when different files interact. In the browser by default all JS has access to the same global scope, even if loaded via separate script tags.
+Modules are used to isolate code. In the browser by default all JS has access to the same global scope, even if loaded via separate script tags.
 
-Although browsers do now have ES Modules Node was created before they were added to JavaScript. This means it has its own system.
+Although browsers do now have [Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) Node was created before they were added to JavaScript. This means it has its own system (called "CommonJS").
 
 #### Exporting code
 
-By default all files are self-contained. Code in one file cannot access anything in another file.
+By default all files are self-contained in Node. Code in one file cannot access anything in another file.
 
 To use something in another file you must "export" it. You can do so by assigning the value to `module.exports`:
 
@@ -133,7 +133,7 @@ module.exports = message1;
 
 #### Importing code
 
-To access code that is exported from another file you must "import" it. You can do so by calling the `require` function with the pass of the file:
+To access code that is exported from another file you must "import" it. You can do so by calling the `require` function with the path to the file:
 
 ```js
 // index.js
@@ -279,6 +279,10 @@ npm will also create a directory named `node_modules` and put all the 3rd party 
 
 You can import these modules just like built-in Node modules. When you `require` a non-path Node will look in the `node_modules` folder to find the module to import.
 
+```js
+const cowsay = require("cowsay");
+```
+
 #### Development dependencies
 
 Some 3rd party modules are only used for development purposes. E.g. a testing library or a linter. You can mark a module as a dev dependency with the `-D` flag when you install:
@@ -291,13 +295,13 @@ This will put it under the `"devDependencies"` field in the `package.json`. This
 
 #### Global modules
 
-You can also install modules "globally" on your computer using the `-g` flag. This makes them available to use anywhere in your terminal, and so is sometimes used as an easy way to install software you want to use (sort of like Homebrew or `apt-get`).
+You can also install modules "globally" on your computer using the `-g` flag. This makes them available to use anywhere in your terminal, and so is sometimes used as an alternative to Homebrew or `apt-get`.
 
 You shouldn't use global modules in your Node apps, since they aren't listed in the `package.json` and so won't be installed automatically if another developer clones your repo and runs `npm install`.
 
 ### npm scripts
 
-npm installs packages that have command-line programs into `/node_modules/.bin/`. This means we could run it in our terminal like this:
+npm installs packages that have command-line interfaces into `/node_modules/.bin/`. This means we can run the `cowsay` CLI in our terminal like this:
 
 ```shell
 ./node_modules/.bin/cowsay hello
@@ -307,7 +311,7 @@ However this is pretty awkward to type, especially if it's a command we need to 
 
 npm automatically creates a field called `"scripts"` in your `package.json`. These are shortcuts for different tasks you might want to do while developing your app. They're like per-project command-line aliases.
 
-You can reference dependencies directly in a script (without the `/node_modules/.bin/` bit). So we could add a "greeting" script like so:
+You can reference dependencies directly in a script (without the `/node_modules/.bin/` bit). So we could add a "greet" script like so:
 
 ```json
 {
