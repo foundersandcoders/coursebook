@@ -305,10 +305,12 @@ A `POST` request that doesn't send any data isn't very useful. Usually a form wo
 curl -X POST localhost:3000 -d "name=oli"
 ```
 
-However we cannot access this in our handler yet. Express requires you to use a "body parser" middleware in order to access request bodies. For convenience these are included as part of the Express module. There are different functions for different `content-type` bodies (e.g. one for JSON, one for forms). We want `urlencoded`, which is what forms submit by default:
+However since bodies can be large they come in lots of small chunks. This means there's no simple way to just access the body. Instead we must use a "body parser" middleware.
+
+For convenience these are included as part of the Express module. Request bodies can come in different formats (JSON, form etc), so we must use the right middleware. We want `express.urlencoded`, which is what forms submit by default. This is a function we call to create our middleware:
 
 ```js
-const bodyParser = express.urlencoded({ extended: false });
+const bodyParser = express.urlencoded();
 
 server.post("/submit", bodyParser, (request, response) => {
   console.log(request.body);
