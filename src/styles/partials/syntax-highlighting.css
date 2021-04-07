@@ -58,6 +58,14 @@ pre.language-js::after {
   content: "JS";
 }
 
+pre.language-json::after {
+  content: "JSON";
+}
+
+pre.language-shell::after {
+  content: "TERMINAL";
+}
+
 .token.comment,
 .token.prolog,
 .token.doctype,
