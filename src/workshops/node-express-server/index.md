@@ -276,6 +276,22 @@ server.use(logger);
 
 Now we'll get a helpful log like `GET /` in our terminal when we load any page. Without middleware we would have to copy this into every route we wrote.
 
+## Static files
+
+It's common to have some static files that don't change for each request. E.g. CSS, images, maybe some basic HTML pages. For convenience Express includes a built-in middleware for serving a directory of files: `express.static`.
+
+Create a new directory named `public`. This is where we'll keep all the files sent to the client. Create a `public/style.css` file with some example CSS.
+
+Finally configure the middleware to serve this directory:
+
+```js
+const staticHandler = express.static("public");
+
+server.use(staticHandler);
+```
+
+The server will now handle requests to http://localhost:3000/style.css and respond with the file contents. Note that there is no `public` in the final URL: Express serves the files from the root of the site.
+
 ## Post requests
 
 So far we've only created `GET` handlers. Let's add a `POST` handler to see how we'd deal with forms submitting user data to our server:
