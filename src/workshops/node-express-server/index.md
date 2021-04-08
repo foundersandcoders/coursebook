@@ -220,7 +220,22 @@ Now if you visit http://localhost:3000/redirects in your browser you should end 
 
 First a request to `/redirects`. This has a response status code of `302` and a `location` header pointing to `/`. This tells the browser to then make a second request to `/`.
 
-### Missing routes
+## Dynamic route paths
+
+Sometimes you can't know in advance all the routes you need. For example if you wanted a page for each user profile: `/users/oli`, `/users/dan` etc. You can't statically list _every_ possible route here. Instead you can use a placeholder value in the path to indicate that part of it is variable:
+
+```js
+server.get("/users/:name", (request, response) => {
+  const name = request.params.name;
+  response.send(`<h1>Hello ${name}</h1>`);
+});
+```
+
+We use a colon (`:`) to indicate to Express that _any_ value can match a part of the path. It will put any matched values on the `request.params` object so you can use them.
+
+If you visit http://localhost:3000/users/oli you should see "Hello oli". If you visit http://localhost:3000/users/knadkmnaf you should see "Hello knadkmnaf".
+
+## Missing routes
 
 Try visiting http://localhost:3000/not-real in your browser. You should see `Cannot GET /not-real`. This is Express' default response for when no handler matches a path.
 
