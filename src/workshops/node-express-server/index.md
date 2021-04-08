@@ -323,7 +323,7 @@ We can't make a test `POST` request as easily in our browser, since that would r
 Open a new terminal window/tab and run:
 
 ```shell
-curl -X POST localhost:3000
+curl -X POST localhost:3000/submit
 ```
 
 You should receive a response of "Thanks for submitting". You can add the `--verbose` flag to see the entire HTTP request/response. If you check the terminal where your server is running you should see "posted" logged.
@@ -333,7 +333,7 @@ You should receive a response of "Thanks for submitting". You can add the `--ver
 A `POST` request that doesn't send any data isn't very useful. Usually a form would be submitting some user input. We can add data to our `curl` request with the `-d` flag:
 
 ```shell
-curl -X POST localhost:3000 -d "name=oli"
+curl -X POST localhost:3000/submit -d "name=oli"
 ```
 
 However since bodies can be large they come in lots of small chunks. This means there's no simple way to just access the body. Instead we must use a "body parser" middleware.
