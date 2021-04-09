@@ -21,4 +21,10 @@ schedule:
       end: 16:00
       url: /workshops/node-express-server/
       type: workshop
+  tuesday:
+    - name: Server-side forms
+      start: 11:00
+      end: 13:00
+      url: /workshops/server-side-forms/
+      type: workshop
 ---
