@@ -1,11 +1,13 @@
 #! /usr/bin/env node
 
-// usage: ./scripts/import-workshop.js my-username/my-repo
-// copies repo README into workshops/my-repo/index.md
+// USAGE:
+// ./scripts/workshop.js import my-username/my-repo
+// OR:
+// ./scripts/workshop.js create my-workshop
 
-const fetch = require("node-fetch");
 const { join } = require("path");
 const { pathExists, outputFile, ensureDir } = require("fs-extra");
+const fetch = require("node-fetch");
 
 const [, , COMMAND, REPO] = process.argv;
 
@@ -43,6 +45,18 @@ const commands = {
       console.error(`Failed to create workshop '${filename}'\n\n`, error);
       process.exit(1);
     }
+  },
+  help() {
+    console.log(`
+Usage: workshop [command] [path]
+
+Either imports an existing workshop from GitHub or scaffolds a new workshop.
+
+Available commands:
+
+import  Takes a GitHub path like username/repo and copies the README
+create  Takes a filename and scaffolds an empty new workshop file
+`);
   },
 };
 
