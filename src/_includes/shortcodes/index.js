@@ -7,8 +7,13 @@ function solution(content) {
   `;
 }
 
-function tryit(content) {
-  return /*html*/ `<div class="box box-primary content flow">${content}</div>`;
+const types = {
+  default: "box-default",
+  success: "box-success",
+  error: "box-error",
+};
+function box(content, type = "default") {
+  return /*html*/ `<div class="box ${types[type]} content flow">${content}</div>`;
 }
 
-module.exports = { solution, tryit };
+module.exports = { solution, box };

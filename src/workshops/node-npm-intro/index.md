@@ -56,14 +56,14 @@ Type ".help" for more information.
 
 You can type JS code in here, then hit "Enter" to execute it (just like a browser console).
 
-{% tryit %}
+{% box %}
 
 #### Try it
 
 1. Use the REPL to define a function that adds two numbers
 1. Call that function to add together `1234` and `4321`
 
-{% endtryit %}
+{% endbox %}
 
 ### JS files
 
@@ -75,7 +75,7 @@ node my-file.js
 
 Node will parse the JS code in the file, execute it, and (if there are any logs) show the logs in the Terminal.
 
-{% tryit %}
+{% box %}
 
 #### Try it
 
@@ -109,7 +109,7 @@ node add.js
 
 {% endsolution %}
 
-{% endtryit %}
+{% endbox %}
 
 ### Modules
 
@@ -170,7 +170,7 @@ console.log(messages.message1); // Logs: "hello"
 console.log(messages.message2); // Logs: "goodbye"
 ```
 
-{% tryit %}
+{% box %}
 
 #### Try it
 
@@ -208,7 +208,7 @@ node index.js
 
 {% endsolution %}
 
-{% endtryit %}
+{% endbox %}
 
 ### Built-in modules
 
@@ -220,7 +220,7 @@ const fs = require("fs");
 fs.readFile("my-file.txt");
 ```
 
-{% tryit %}
+{% box %}
 
 #### Try it
 
@@ -241,7 +241,7 @@ node index.js
 
 {% endsolution %}
 
-{% endtryit %}
+{% endbox %}
 
 ## Node Package Manager
 
@@ -323,7 +323,7 @@ You can reference dependencies directly in a script (without the `/node_modules/
 
 You can run npm scripts in your terminal with `npm run <name>`. So in this case `npm run greet`.
 
-{% tryit %}
+{% box %}
 
 ### Try it
 
@@ -347,4 +347,4 @@ You should see something like this:
                 ||     ||
 ```
 
-{% endtryit %}
+{% endbox %}

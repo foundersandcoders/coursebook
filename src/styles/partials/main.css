@@ -16,7 +16,9 @@ html {
   --bg-800: hsl(220, 20%, 96%);
   --bg-850: hsl(220, 20%, 97%);
   --bg-900: hsl(220, 20%, 98%);
-  --green: #00be00;
+  --green: hsl(120, 100%, 37%);
+  --green-100: hsl(120, 100%, 88%);
+  --green-700: hsl(120, 100%, 98%);
   --yellow-100: hsl(54, 100%, 82%);
   --yellow-700: hsl(54, 100%, 96%);
   --yellow: hsl(54, 100%, 50%);
@@ -24,7 +26,9 @@ html {
   --blue: hsl(240, 96%, 48%);
   --blue-100: hsl(240, 80%, 88%);
   --blue-700: hsl(240, 80%, 98%);
-  --red: #ff2800;
+  --red: hsl(9, 100%, 50%);
+  --red-100: hsl(9, 100%, 88%);
+  --red-700: hsl(9, 100%, 98%);
   --primary: var(--yellow);
   --primary-100: var(--yellow-100);
   --primary-700: var(--yellow-700);
@@ -33,7 +37,13 @@ html {
   --secondary-100: var(--blue-100);
   --secondary-700: var(--blue-700);
   --tertiary: var(--green);
+  --tertiary-100: var(--green-100);
+  --tertiary-700: var(--green-700);
   --quarternary: var(--red);
+  --quarternary-100: var(--red-100);
+  --quarternary-700: var(--red-700);
+  --tertiary-100: var(--green-100);
+  --tertiary-700: var(--green-700);
   --body-bg: white;
   --info-bg: hsl(220, 85%, 96%);
   --info-fg: hsl(220, 60%, 20%);
