@@ -147,7 +147,17 @@ copy-text > button {
   background-color: var(--bg);
 }
 
-.box-primary {
+.box-default {
   --shadow: var(--primary-100);
   --bg: var(--primary-700);
+}
+
+.box-success {
+  --shadow: var(--tertiary-100);
+  --bg: var(--tertiary-700);
+}
+
+.box-error {
+  --shadow: var(--quarternary-100);
+  --bg: var(--quarternary-700);
 }
