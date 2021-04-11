@@ -27,4 +27,15 @@ schedule:
       end: 13:00
       url: /workshops/server-side-forms/
       type: workshop
+    - name: E2E testing with Cypress
+      start: 14:00
+      end: 16:00
+      url: /workshops/cypress-testing/
+      type: workshop
+  wednesday:
+    - name: Node scripting challenge
+      start: 10:00
+      end: 11:00
+      url: /workshops/node-scripting-challenge/
+      type: challenge
 ---
