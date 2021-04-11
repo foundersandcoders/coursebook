@@ -14,7 +14,7 @@ You can test in the browser by manually including test functions in a script tag
 
 Cypress solves this problem by letting you write separate test files, then injecting them into a real browser. Since it automatically controls a browser you can see your tests running in in real time.
 
-## Setup
+## Setup
 
 First we need to create a new directory and initialise it so we can install modules:
 
