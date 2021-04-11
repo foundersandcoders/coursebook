@@ -27,7 +27,7 @@ schedule:
       end: 13:00
       url: /workshops/server-side-forms/
       type: workshop
-    - name: E2E testing with Cypress
+    - name: Testing with Cypress
       start: 14:00
       end: 16:00
       url: /workshops/cypress-testing/
