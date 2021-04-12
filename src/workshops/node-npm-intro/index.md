@@ -100,7 +100,7 @@ function add(x, y) {
   return x + y;
 }
 
-add(4, 6); // Logs: 10
+console.log(add(4, 6)); // Logs: 10
 ```
 
 ```shell
