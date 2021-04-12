@@ -111,7 +111,11 @@ node server.js
 
 The server will start and you should see "Server listening on http://localhost:3000" logged.
 
-**Note**: The Node process will continue running until you tell it to stop by typing <kbd>control</kbd> + <kbd>c</kbd>. Every time you change your code you should stop the old process and start a new one by running `node server.js` again.
+{% box "error" %}
+
+**Note**: The Node process will continue running until you tell it to stop by typing <kbd>control</kbd> + <kbd>c</kbd> in your terminal. Every time you change your code you must stop the old process and start a new one by running `node server.js` again.
+
+{% endbox %}
 
 ## Sending requests
 
@@ -244,7 +248,7 @@ You can customise this by putting a "catch-all" handler after all your other rou
 We can use the `server.use` method to create a handler that will match _any_ method/route:
 
 ```js
-server.use((response, request) => {
+server.use((request, response) => {
   response.status(404).send("<h1>Not found</h1>");
 });
 ```

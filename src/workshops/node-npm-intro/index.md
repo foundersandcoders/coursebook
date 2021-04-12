@@ -307,7 +307,7 @@ npm installs packages that have command-line interfaces into `/node_modules/.bin
 ./node_modules/.bin/cowsay hello
 ```
 
-However this is pretty awkward to type, especially if it's a command we need to use a lot (like "start the dev server"). Luckily npm scripts makes this nicer.
+However this is pretty awkward to type, especially if it's a command we need to use a lot (like "start the dev server"). Luckily npm scripts make this nicer.
 
 npm automatically creates a field called `"scripts"` in your `package.json`. These are shortcuts for different tasks you might want to do while developing your app. They're like per-project command-line aliases.
 
