@@ -170,7 +170,7 @@ Let's add a form for submitting new dogs to the site. We aren't using a database
 
 {% box %}
 
-**Note**: it's important to always redirect after a `POST` request. This ensures the user only ever ends up on a page rendered via a `GET`. Otherwise if the user navigated back to the results page their browser would resend the `POST` and you'd get a double-submission. This is why lots of sites say "Don't click back or you'll be charged twice"!
+**Note**: it's important to always **redirect** after a `POST` request. This ensures the user only ever ends up on a page rendered via a `GET`. Otherwise if the user navigated back to the results page their browser would resend the `POST` and you'd get a double-submission. This is why lots of sites say "Don't click back or you'll be charged twice"!
 
 {% endbox %}
 
@@ -185,7 +185,15 @@ When you're done you should be able to visit http://localhost:3333/add-dog, subm
 
 ## Deleting resources
 
-We've seen how to use forms to _create_ things on the server. They can also be used to _delete_ things. It's important to know that forms don't have to contain any user-editable inputs. For example if we wanted a delete button next to each dog's name we'd need each one to submit a different `POST` request. E.g. to delete "pongo":
+So far we've only had one form per page. Each form has just submitted to the default URL—the current one. However if you want to use multiple forms on a page they'll need different URLs to represent different actions.
+
+For example we might want to be able to delete dogs from our homepage. This action might happen via the `/delete-dog` URL. We can tell the form to send its request to this URL with the `action` attribute:
+
+```html
+<form action="/delete-dog" method="POST"></form>
+```
+
+But how will our `/delete-dog` endpoint know _which_ dog to delete? We need the request body to contain the name of the dog to remove, like this:
 
 ```
 POST /delete-dog HTTP/1.1
@@ -193,7 +201,7 @@ POST /delete-dog HTTP/1.1
 dogName=pongo
 ```
 
-In this case the user shouldn't have to type the name into an input—we can hard-code that for each dog's delete form by including it in the HTML. That way they can just click a button to send the delete request.
+We _could_ have the user type the name in, but that's not a great experience. It would be better if each "delete button" could be a separate form with a hard-coded "name to delete". That way the user can just click a button to send the delete request.
 
 There are two ways to hard-code data into a form. You can use inputs with `type="hidden"`. These aren't displayed to the user but will still be submitted to your server.
 
@@ -216,9 +224,9 @@ It's like a little self-contained form. The only thing the user sees is the butt
 
 ### Challenge 4: removing dogs
 
-Let's add delete buttons next to each dog in the list on the homepage. You can remove a dog from the `dogs` array by creating a new array using `dogs.filter`.
+Let's add delete buttons next to each dog in the list on the homepage. You can remove a dog from the `dogs` array by creating a new array using the `.filter` method.
 
-1. Add a delete form next to each dog's name
+1. Add a delete form next to each dog's name on the homepage
 1. Each one should send a `POST` to `/delete-dog` with the name of the dog to remove in the body
 1. Add a new route `POST /delete-dog`
 1. It should get the name of the dog to remove from the request body
