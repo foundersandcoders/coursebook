@@ -1,16 +1,21 @@
-const express = require("express");
-const dogs = require("./dogs.js");
+const dogs = require("../dogs.js");
 
-const server = express();
-
-server.get("/", (request, response) => {
+function get(request, response) {
   const search = request.query.search || "";
   let items = "";
   for (const dog of Object.values(dogs)) {
     const match = dog.name.toLowerCase().includes(search.toLowerCase());
     // if we don't have a search submission we show all dogs
     if (match || !search) {
-      items += `<li>${dog.name}</li>`;
+      items += `
+        <li>
+          <span>${dog.name}</span>
+          <form action="/delete-dog" method="POST" style="display: inline;">
+            <button name="name" value="${dog.name}" aria-label="Delete ${dog.name}">
+              &times;
+            </button>
+          </form>
+        </li>`;
     }
   }
   const html = `
@@ -28,11 +33,11 @@ server.get("/", (request, response) => {
         <button>Search</button>
       </form>
       <ul>${items}</ul>
+      <a href="/add-dog">Add dog +</a>
     </body>
   </html>
   `;
   response.end(html);
-});
+}
 
-const PORT = 3333;
-server.listen(PORT, () => console.log(`Listening on http://localhost:${PORT}`));
+module.exports = { get };

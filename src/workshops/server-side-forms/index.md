@@ -18,7 +18,7 @@ Forms are the building blocks of interactivity on the web. Until client-side Jav
 1. `npm install` to install the dependencies
 1. `npm run dev` to start the server with [nodemon](https://github.com/remy/nodemon#nodemon). This is a helper that auto-restarts your server when you save changes
 
-Before we get stuck into forms lets practice our Express basics. Open `workshop/server.js` in your editor. You should see a server that listens on port `3333`. There's also an array of objects containing data about different dogs.
+Before we get stuck into forms lets practice our Express basics. Open `workshop/server.js` in your editor. You should see a server that listens on port `3333`. There's also an object containing data about different dogs imported from `dogs.js`.
 
 ### Challenge 1: server setup
 
@@ -30,13 +30,16 @@ Before we get stuck into forms lets practice our Express basics. Open `workshop/
 
 #### Hint
 
-You can generate a dynamic list by looping over the array:
+You can use `Object.values(myObj)` to get an array of all the values. You can then generate a dynamic list by looping over that array:
 
 ```js
-const dogs = ["rover", "spot"];
+const myObj = {
+  first: { test: "hi" },
+  second: { test: "bye" },
+};
 let items = "";
-for (const dog of dogs) {
-  items += `<li>${dog}</li>`;
+for (const thing of Object.values(myObj)) {
+  items += `<li>${thing.test}</li>`;
 }
 const list = `<ul>${items}</ul>`;
 ```
@@ -52,7 +55,7 @@ When you're done you should be able to visit http://localhost:3000 and see the l
 ```js
 server.get("/", (request, response) => {
   let items = "";
-  for (const dog of dogs) {
+  for (const dog of Object.values(dogs)) {
     items += `<li>${dog.name}</li>`;
   }
   const html = `
@@ -166,7 +169,7 @@ Since request bodies are sent in lots of small chunks (as they can sometimes be 
 
 ### Challenge 3: add a dog
 
-Let's add a form for submitting new dogs to the site. We aren't using a database to store our dogs persistently, so we'll just store new dogs by pushing them into the `dogs` array in-memory. This means the dogs will reset each time the server restarts.
+Let's add a form for submitting new dogs to the site. We aren't using a database to store our dogs persistently, so we'll just store new dogs by adding them into the `dogs` object in-memory. This means the dogs will reset each time the server restarts.
 
 {% box %}
 
@@ -178,7 +181,7 @@ Let's add a form for submitting new dogs to the site. We aren't using a database
 1. It should render another form with inputs for each property of a dog
 1. Add a new route for `POST /add-dog`
 1. It should use the Express body-parsing middleware to access the submitted body
-1. Push a new dog object to the `dogs` array containing the body data
+1. Add the new dog to the `dogs` object
 1. Redirect back to the homepage so the user can see their new dog in the list
 
 When you're done you should be able to visit http://localhost:3333/add-dog, submit the information for a new dog, then be redirected to the homepage and see that information in the list.
@@ -224,16 +227,41 @@ It's like a little self-contained form. The only thing the user sees is the butt
 
 ### Challenge 4: removing dogs
 
-Let's add delete buttons next to each dog in the list on the homepage. You can remove a dog from the `dogs` array by creating a new array using the `.filter` method.
+Let's add delete buttons next to each dog in the list on the homepage. You can remove a dog from the `dogs` object using the `delete` operator. E.g.
+
+```js
+const name = "pongo";
+delete dogs[name];
+```
 
 1. Add a delete form next to each dog's name on the homepage
 1. Each one should send a `POST` to `/delete-dog` with the name of the dog to remove in the body
 1. Add a new route `POST /delete-dog`
 1. It should get the name of the dog to remove from the request body
-1. Use the name to remove the dog from the `dogs` array
+1. Use the name to remove the dog from the `dogs` object
 1. Redirect back to the homepage so the user can see the dog is gone
 
 When you're done you should be able to click the delete button next to each dog and see that dog disappear from the list.
+
+## Modularisation
+
+Our `server.js` file is starting to get a little cluttered. We've got handlers and logic for several different routes, plus the code that starts our server listening. It's not too hard to follow right now, but as an application grows you'll want to split things up into separate files.
+
+You can import and register route handler functions like this:
+
+```js
+const someHandler = require("./someHandler.js");
+
+server.get("/hello", someHandler);
+```
+
+There are different philosophies on modularisation. Some people like dividing things up by the _type of code_. For example put all the route handlers in one place, all the database queries in another place, and all the HTML templates in another place. So you might have folders like `handlers/`, `database/` and `templates/`. A single feature "add a dog" might be divided across all three folders.
+
+Other people like to divide code up by _features_. For example put all the code related to a single feature (like "adding a dog") into a single file. So you might just have a `routes/` folder containing `addDog.js`. This file would contain everything required for that feature—the route handlers, data access and HTML strings all together.
+
+### Challenge 5: modularise your server
+
+Pick one of the methods above and move your route handlers out of `server.js`. Don't forget to import/export everything!
 
 ## Stretch goal: dog pages
 

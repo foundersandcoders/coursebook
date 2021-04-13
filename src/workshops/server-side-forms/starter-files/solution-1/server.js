@@ -1,17 +1,11 @@
 const express = require("express");
+const dogs = require("./dogs.js");
 
 const server = express();
 
-let dogs = [
-  { name: "Alphonso", breed: "German Shepherd" },
-  { name: "Lassie", breed: "Golden Retriever" },
-  { name: "Pongo", breed: "Dalmation" },
-  { name: "Luna", breed: "Cocker Spaniel" },
-];
-
 server.get("/", (request, response) => {
   let items = "";
-  for (const dog of dogs) {
+  for (const dog of Object.values(dogs)) {
     items += `<li>${dog.name}</li>`;
   }
   const html = `

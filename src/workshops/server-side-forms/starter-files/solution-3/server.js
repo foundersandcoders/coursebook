@@ -1,18 +1,12 @@
 const express = require("express");
+const dogs = require("./dogs.js");
 
 const server = express();
-
-let dogs = [
-  { name: "Alphonso", breed: "German Shepherd" },
-  { name: "Lassie", breed: "Golden Retriever" },
-  { name: "Pongo", breed: "Dalmation" },
-  { name: "Luna", breed: "Cocker Spaniel" },
-];
 
 server.get("/", (request, response) => {
   const search = request.query.search || "";
   let items = "";
-  for (const dog of dogs) {
+  for (const dog of Object.values(dogs)) {
     const match = dog.name.toLowerCase().includes(search.toLowerCase());
     // if we don't have a search submission we show all dogs
     if (match || !search) {
@@ -67,7 +61,9 @@ server.get("/add-dog", (request, response) => {
 const bodyParser = express.urlencoded({ extended: false });
 
 server.post("/add-dog", bodyParser, (request, response) => {
-  dogs.push(request.body);
+  const newDog = request.body;
+  const name = newDog.name.toLowerCase();
+  dogs[name] = newDog;
   response.redirect("/");
 });
 
