@@ -96,7 +96,7 @@ fs.writeFile("my-file-name.txt, "hello world")
 const fs = require("fs/promises");
 
 const filename = process.argv[2];
-const title = filename.replace("-", " ");
+const title = filename.replace(/-/g, " ");
 
 const contents = `<!doctype html>
 <html lang="en">
