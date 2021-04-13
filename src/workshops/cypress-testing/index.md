@@ -19,8 +19,8 @@ Cypress solves this problem by letting you write separate test files, then injec
 First we need to create a new directory and initialise it so we can install modules:
 
 ```shell
-mkdir cypress-intro
-cd cypress-intro
+mkdir cypress-testing
+cd cypress-testing
 npm init -y
 ```
 
