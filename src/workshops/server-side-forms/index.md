@@ -48,7 +48,7 @@ You could also combine `array.map` and `array.join` to create the string.
 
 {% endbox %}
 
-When you're done you should be able to visit http://localhost:3000 and see the list of dogs rendered.
+When you're done you should be able to visit http://localhost:3333 and see the list of dogs rendered.
 
 {% solution %}
 
@@ -70,7 +70,7 @@ server.get("/", (request, response) => {
     </body>
   </html>
   `;
-  response.end(html);
+  response.send(html);
 });
 ```
 
