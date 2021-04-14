@@ -82,8 +82,9 @@ You can access the arguments passed to a script using `process.argv`.
 You can create new files using `fs.writeFile`:
 
 ```js
-fs.writeFile("my-file-name.txt, "hello world")
-  .then(() => console.log("finished"));
+fs.writeFile("my-file-name.txt", "hello world").then(() => {
+  console.log("finished");
+});
 ```
 
 {% endbox %}
