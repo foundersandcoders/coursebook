@@ -159,6 +159,11 @@ main h4 {
   font-size: 1.125rem;
 }
 
+main h5 {
+  --flow-space: 1.25rem;
+  font-size: 1rem;
+}
+
 blockquote {
   margin-left: 0;
   border-left: 0.5rem solid var(--bg-100);
