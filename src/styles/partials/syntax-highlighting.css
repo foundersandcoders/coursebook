@@ -21,6 +21,7 @@ pre {
   box-shadow: var(--shadow);
   padding: 0.15rem 0.35rem;
   line-height: inherit;
+  color: inherit;
 }
 
 pre {
@@ -64,6 +65,10 @@ pre.language-json::after {
 
 pre.language-shell::after {
   content: "TERMINAL";
+}
+
+pre.language-sql::after {
+  content: "SQL";
 }
 
 .token.comment,
