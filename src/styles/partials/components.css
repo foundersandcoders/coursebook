@@ -74,6 +74,9 @@ copy-text > button {
 
 .disclosure > summary {
   list-style: none;
+  max-width: max-content;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .disclosure > summary::after {
