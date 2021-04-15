@@ -16,7 +16,7 @@ const types = {
 };
 
 function box(content, type = "default") {
-  return /*html*/ `<div class="box ${types[type]} content flow">${content}</div>`;
+  return html`<div class="box ${types[type]} content flow">${content}</div>`;
 }
 
 // removes line breaks, tabs, or pairs of spaces
