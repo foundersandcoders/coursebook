@@ -106,14 +106,14 @@ We can use the global `fetch` function to make HTTP requests in the browser. It 
 
 ![](https://user-images.githubusercontent.com/9408641/74358318-2dbef800-4db9-11ea-903d-63f0530bcffa.png)
 
-{% solution %}
+{% disclosure %}
 
 ```js
 const pokePromise = fetch("https://pokeapi.co/api/v2/pokemon/pikachu");
 console.log(pokePromise);
 ```
 
-{% endsolution %}
+{% enddisclosure %}
 
 ### Promise terminology
 
@@ -161,14 +161,14 @@ fetch("url").then((result) => console.log(result));
 
 ![](https://user-images.githubusercontent.com/9408641/74358327-31527f00-4db9-11ea-873d-30865128b313.png)
 
-{% solution %}
+{% disclosure %}
 
 ```js
 const pokePromise = fetch("https://pokeapi.co/api/v2/pokemon/pikachu");
 pokePromise.then((result) => console.log(result));
 ```
 
-{% endsolution %}
+{% enddisclosure %}
 
 ## Accessing the response body
 
@@ -205,7 +205,7 @@ fetch("url")
 
 ![](https://user-images.githubusercontent.com/9408641/74358336-34e60600-4db9-11ea-8394-e6df57e3cef2.png)
 
-{% solution %}
+{% disclosure %}
 
 ```js
 const pokePromise = fetch("https://pokeapi.co/api/v2/pokemon/pikachu");
@@ -214,7 +214,7 @@ pokePromise
   .then((pikachu) => console.log(pikachu));
 ```
 
-{% endsolution %}
+{% enddisclosure %}
 
 ## Handling errors
 
@@ -235,7 +235,7 @@ Note: you would usually want to do something useful with the error instead of ju
 
 ![](https://user-images.githubusercontent.com/9408641/74358484-6959c200-4db9-11ea-98a0-7cb2ba107908.png)
 
-{% solution %}
+{% disclosure %}
 
 ```js
 const pokePromise = fetch();
@@ -245,7 +245,7 @@ pokePromise
   .catch((error) => console.log(error));
 ```
 
-{% endsolution %}
+{% enddisclosure %}
 
 ---
 

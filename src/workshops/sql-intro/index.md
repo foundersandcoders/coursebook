@@ -194,13 +194,13 @@ This is similar to the `OR` operator we saw above.
    | Moull1990 | Wanlip, UK     |
    | Spont1935 | Saxilby, UK    |
 
-   {% solution %}
+   {% disclosure %}
 
    ```sql
    SELECT username, location FROM users;
    ```
 
-   {% endsolution %}
+   {% enddisclosure %}
 
 1. #### Select users conditionally
 
@@ -213,14 +213,14 @@ This is similar to the `OR` operator we saw above.
    | 3   | Moull1990 | 41  | Skye       | Hobbs     | Wanlip, UK  |
    | 4   | Spont1935 | 72  | Matthew    | Griffin   | Saxilby, UK |
 
-   {% solution %}
+   {% disclosure %}
 
    ```sql
    SELECT * FROM users
      WHERE age > 40;
    ```
 
-   {% endsolution %}
+   {% enddisclosure %}
 
 1. #### Select users using multiple conditions
 
@@ -232,14 +232,14 @@ This is similar to the `OR` operator we saw above.
    | ---------- | --------- | ----------- |
    | Matthew    | Griffin   | Saxilby, UK |
 
-   {% solution %}
+   {% disclosure %}
 
    ```sql
    SELECT first_name, last_name, location FROM users
      WHERE location = 'Saxilby, UK' AND age > 40;
    ```
 
-   {% endsolution %}
+   {% enddisclosure %}
 
 1. #### Select posts using multiple conditions
 
@@ -252,14 +252,14 @@ This is similar to the `OR` operator we saw above.
    | 2       | Peculiar trifling absolute and wandered vicinity property yet. decay. |
    | 3       | Far stairs now coming bed oppose hunted become his.                   |
 
-   {% solution %}
+   {% disclosure %}
 
    ```sql
    SELECT user_id, text_content FROM blog_posts
      WHERE user_id IN (2, 3);
    ```
 
-   {% endsolution %}
+   {% enddisclosure %}
 
 ---
 
@@ -323,7 +323,7 @@ Would return:
    | ------------ | ------- |
    | Hello World  | 1       |
 
-   {% solution %}
+   {% disclosure %}
 
    ```sql
    INSERT INTO blog_posts (text_content, user_id)
@@ -332,7 +332,7 @@ Would return:
    ;
    ```
 
-   {% endsolution %}
+   {% enddisclosure %}
 
 1. #### Updating an existing post
 
@@ -346,14 +346,14 @@ Would return:
    | ------- |
    | 2       |
 
-   {% solution %}
+   {% disclosure %}
 
    ```sql
    UPDATE blog_posts SET user_id=2
      WHERE text_content='Hello World';
    ```
 
-   {% endsolution %}
+   {% enddisclosure %}
 
 ---
 
@@ -427,7 +427,7 @@ SELECT users.username, blog_posts.text_content
    | Wanlip, UK     |                  |
    | Saxilby, UK    |                  |
 
-   {% solution %}
+   {% disclosure %}
 
    ```sql
    SELECT users.location, post_comments.text_content
@@ -435,7 +435,7 @@ SELECT users.username, blog_posts.text_content
      LEFT JOIN post_comments ON users.id = post_comments.user_id;
    ```
 
-   {% endsolution %}
+   {% enddisclosure %}
 
 1. #### Selecting blog posts and comments
 
@@ -447,7 +447,7 @@ SELECT users.username, blog_posts.text_content
    | --------------------------------------------------- | ---------------- |
    | Far stairs now coming bed oppose hunted become his. | Great blog post! |
 
-   {% solution %}
+   {% disclosure %}
 
    ```sql
    SELECT blog_posts.text_content, post_comments.text_content
@@ -455,7 +455,7 @@ SELECT users.username, blog_posts.text_content
      INNER JOIN post_comments ON blog_posts.id = post_comments.post_id;
    ```
 
-   {% endsolution %}
+   {% enddisclosure %}
 
 1. #### Bonus: select the user who made a comment
 
@@ -473,7 +473,7 @@ SELECT users.username, blog_posts.text_content
 
    {% endbox %}
 
-   {% solution %}
+   {% disclosure %}
 
    ```sql
    SELECT blog_posts.text_content, post_comments.text_content, users.username
@@ -482,7 +482,7 @@ SELECT users.username, blog_posts.text_content
      INNER JOIN users ON users.id = post_comments.user_id;
    ```
 
-   {% endsolution %}
+   {% enddisclosure %}
 
 ## Bonus: Sub queries
 
@@ -512,7 +512,7 @@ You can then run `SELECT text_content FROM post_comments WHERE post_id = 2;` to 
 | ---------------- |
 | Interesting post |
 
-{% solution %}
+{% disclosure %}
 
 ```sql
 INSERT INTO post_comments (post_id, reply_to, user_id, text_content)
@@ -527,4 +527,4 @@ INSERT INTO post_comments (post_id, reply_to, user_id, text_content)
 ;
 ```
 
-{% endsolution %}
+{% enddisclosure %}

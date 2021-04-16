@@ -1,19 +1,19 @@
-function solution(content) {
-  return html`
-    <div class="box box-success content">
-      <details class="disclosure flow">
-        <summary>Toggle answer</summary>
-        ${content}
-      </details>
-    </div>
-  `;
-}
-
 const types = {
   default: "box-default",
   success: "box-success",
   error: "box-error",
 };
+
+function disclosure(content, label = "Toggle answer", type = "success") {
+  return html`
+    <div class="box ${types[type]} content">
+      <details class="disclosure flow">
+        <summary>${label}</summary>
+        ${content}
+      </details>
+    </div>
+  `;
+}
 
 function box(content, type = "default") {
   return html`<div class="box ${types[type]} content flow">${content}</div>`;
@@ -24,7 +24,7 @@ function box(content, type = "default") {
 // since Markdown relies on it for formatting
 // https://github.com/11ty/eleventy/issues/402
 function deindent(str) {
-  return str.replace(/\n|\t|\s{2}/g, "").trim();
+  return str.replace(/\n|\t|\s{2}/g, "");
 }
 
 // need to deindent HTML strings
@@ -39,4 +39,4 @@ function html(strings, ...vars) {
     .join("");
 }
 
-module.exports = { solution, box };
+module.exports = { disclosure, box };

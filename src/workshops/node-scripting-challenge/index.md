@@ -89,7 +89,7 @@ fs.writeFile("my-file-name.txt", "hello world").then(() => {
 
 {% endbox %}
 
-{% solution %}
+{% disclosure %}
 
 ```js
 #! /usr/bin/env node
@@ -116,4 +116,4 @@ fs.writeFile(filename + ".html", contents).then(() => {
 });
 ```
 
-{% endsolution %}
+{% enddisclosure %}
