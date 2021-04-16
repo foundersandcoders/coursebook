@@ -22,7 +22,7 @@ The browser's `fetch` method is deliberately low-level. This means there are cer
 1. Add a `fetch` call to `"https://echo.oliverjam.workers.dev/status/404"` (this always returns a 404)
 1. Add a `.then()` and `.catch()`. Which of these runs? What does the response look like?
 
-{% solution %}
+{% disclosure %}
 
 ```js
 fetch("https://echo.oliverjam.workers.dev/status/404")
@@ -40,7 +40,7 @@ The `.then()` branch runs (not the `.catch()`), and logs the response object. Th
 }
 ```
 
-{% endsolution %}
+{% enddisclosure %}
 
 We need to handle HTTP responses we don't want. We can do this by checking the `response.ok` property. This will be `true` for successful status codes (like `200`) and `false` for unsuccessful ones (like `404` or `502`).
 
@@ -50,7 +50,7 @@ We need to handle HTTP responses we don't want. We can do this by checking the `
 1. If the response is not okay throw a new error with the `status` property of the response
 1. Now does your `.catch()` run?
 
-{% solution %}
+{% disclosure %}
 
 ```js
 fetch("https://echo.oliverjam.workers.dev/status/404")
@@ -66,7 +66,7 @@ fetch("https://echo.oliverjam.workers.dev/status/404")
 
 Now the `.then` branch runs, and sees that the response is not "ok". It creates a new error with the response's status code, then throws that error. Any error thrown inside a promise will cause that promise to reject. This means you can use the `.catch` branch to handle all the errors.
 
-{% endsolution %}
+{% enddisclosure %}
 
 ## Submitting data
 
@@ -90,7 +90,7 @@ This [options object](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrW
 1. Send a JSON body containing an object with whatever properties you like
 1. Don't forget the `"content-type"`!
 
-{% solution %}
+{% disclosure %}
 
 ```js
 const data = { name: "oli" };
@@ -118,7 +118,7 @@ This should log something like:
 }
 ```
 
-{% endsolution %}
+{% enddisclosure %}
 
 ## User input
 
@@ -153,7 +153,7 @@ We can use [`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Do
 1. Use `fetch` to `POST` the data as JSON to the same URL as before
 1. Log the response you get from the server
 
-{% solution %}
+{% disclosure %}
 
 ```html
 <form>
@@ -190,7 +190,7 @@ We can use [`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Do
 </script>
 ```
 
-{% endsolution %}
+{% enddisclosure %}
 
 ### Challenge: `new FormData()`
 
@@ -204,7 +204,7 @@ If we want to submit this as JSON we need to turn it into a normal object. You c
 1. Use `new FormData()` to get all the input values
 1. Turn the FormData into an object to submit
 
-{% solution %}
+{% disclosure %}
 
 ```html
 <form>
@@ -242,7 +242,7 @@ If we want to submit this as JSON we need to turn it into a normal object. You c
 
 The advantage of this solution is it will work for any number of inputs, without getting any longer. The previous two require a new line of code to access every input you add to the form.
 
-{% endsolution %}
+{% enddisclosure %}
 
 ## Workshop
 

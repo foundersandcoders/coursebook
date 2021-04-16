@@ -85,7 +85,7 @@ Node will parse the JS code in the file, execute it, and (if there are any logs)
 1. Call the function and log the result
 1. Run your file in your Terminal
 
-{% solution %}
+{% disclosure %}
 
 ```shell
 mkdir node-intro
@@ -107,7 +107,7 @@ console.log(add(4, 6)); // Logs: 10
 node add.js
 ```
 
-{% endsolution %}
+{% enddisclosure %}
 
 {% endbox %}
 
@@ -181,7 +181,7 @@ console.log(messages.message2); // Logs: "goodbye"
 1. Try to import and log it in `index.js`
 1. Make sure you export it and import it to make this work
 
-{% solution %}
+{% disclosure %}
 
 ```js
 // add.js
@@ -206,7 +206,7 @@ console.log(another); // Logs: "hi"
 node index.js
 ```
 
-{% endsolution %}
+{% enddisclosure %}
 
 {% endbox %}
 
@@ -227,7 +227,7 @@ fs.readFile("my-file.txt");
 1. Use `require` to import the built-in `"os"` module
 1. Use the `os.cpus()` method to log what processors your computers has
 
-{% solution %}
+{% disclosure %}
 
 ```js
 const os = require("os");
@@ -239,7 +239,7 @@ console.log(os.cpus());
 node index.js
 ```
 
-{% endsolution %}
+{% enddisclosure %}
 
 {% endbox %}
 

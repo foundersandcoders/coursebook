@@ -32,7 +32,7 @@ If you want to check it works for lots of different numbers you'll be doing a bu
 
 Since you know how to code you can begin to automate this! Write some JavaScript that calls the `square` function (like above), then checks that the result is what you expect. It should log a useful message to the console using `console.error("my message")` if the result is wrong.
 
-{% solution %}
+{% disclosure %}
 
 ```js
 const result = square(2);
@@ -42,7 +42,7 @@ if (result !== expected) {
 }
 ```
 
-{% endsolution %}
+{% enddisclosure %}
 
 If your test passes change your expected value so that it's definitely wrong. Can you see the failure in your browser console?
 
@@ -58,7 +58,7 @@ Write a function called `equal` that takes two arguments and checks if they're t
 
 Use this `equal` function to refactor your test above, then write another one to check that `square(3.5)` is correct.
 
-{% solution %}
+{% disclosure %}
 
 ```js
 function equal(actual, expected) {
@@ -80,7 +80,7 @@ equal(result2, expected2);
 
 The first test logs: `"Pass: Expected 4 and received 4`. The second test logs: `Fail: Expected 9999 but received 12.25 instead"` (because we deliberately used the wrong expected value so we could see a test failure).
 
-{% endsolution %}
+{% enddisclosure %}
 
 If your test is passing change your expected value so that it's definitely wrong. Can you see the error in your browser console?
 
@@ -92,7 +92,7 @@ Write a `notEqual` function. It should be similar to `equal`, but log a failure 
 
 Write a test that checks `square(3)` does not return 10.
 
-{% solution %}
+{% disclosure %}
 
 ```js
 function notEqual(actual, expected) {
@@ -110,7 +110,7 @@ notEqual(result3, expected3);
 
 This test logs: `"Pass: 10 is different to 3"`.
 
-{% endsolution %}
+{% enddisclosure %}
 
 ## Separating tests
 
@@ -138,7 +138,7 @@ Write a function called `test` that takes two arguments: a `name` and a `testFun
 
 It should call the `testFunction` callback argument so that the actual test is run.
 
-{% solution %}
+{% disclosure %}
 
 ```js
 function test(name, testFunction) {
@@ -162,7 +162,7 @@ test("Correctly squares decimals", () => {
 
 See how we can reuse the `result` and `expect` variable names? Each test is self-contained within its own function.
 
-{% endsolution %}
+{% enddisclosure %}
 
 ![](https://user-images.githubusercontent.com/9408641/74967349-b587b080-5410-11ea-8295-a2f81a8d0f78.png)
 
@@ -172,7 +172,7 @@ For more complex assertions it's nice to be able to write a custom message speci
 
 Amend your `equal` and `notEqual` functions so that they take a third optional `message` argument. Your `console.info`/`console.error` should log this message. If there is no `message` passed in then default to the message you were using before.
 
-{% solution %}
+{% disclosure %}
 
 ```js
 function equal(actual, expected, message) {
@@ -204,7 +204,7 @@ test("Correctly squares integers", () => {
 
 This should log our custom message: `"Pass: square(2) should return 4"`.
 
-{% endsolution %}
+{% enddisclosure %}
 
 ## That's it
 

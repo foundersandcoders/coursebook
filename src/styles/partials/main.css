@@ -12,7 +12,7 @@ html {
   --bg-400: hsl(220, 20%, 88%);
   --bg-500: hsl(220, 20%, 90%);
   --bg-600: hsl(220, 20%, 92%);
-  --bg-700: hsl(220, 20%, 94%);
+  --bg-700: hsl(220, 21%, 94%);
   --bg-800: hsl(220, 20%, 96%);
   --bg-850: hsl(220, 20%, 97%);
   --bg-900: hsl(220, 20%, 98%);
@@ -85,11 +85,11 @@ main details {
 
 main :is(ul, ol):not([role="list"]) li + li,
 main :is(ul, ol):not([role="list"]) li > * {
-  margin-top: 0.5rem;
+  margin-top: var(--flow-space, 0.5rem);
 }
 
 table {
-  width: 100%;
+  border: var(--border-title);
   border-collapse: collapse;
   break-inside: auto;
 }
@@ -105,12 +105,20 @@ td {
   padding: 0.75rem 0.5rem;
 }
 
+:is(td, th):first-child {
+  padding-left: 1rem;
+}
+
+:is(td, th):last-child {
+  padding-right: 1rem;
+}
+
 tr + tr {
   border-top: 1px solid var(--bg-600);
 }
 
 tr:nth-child(even) {
-  background-color: var(--bg-800);
+  background-color: var(--bg-900);
 }
 
 h1,
@@ -149,6 +157,11 @@ main h3 {
 main h4 {
   --flow-space: 1.5rem;
   font-size: 1.125rem;
+}
+
+main h5 {
+  --flow-space: 1.25rem;
+  font-size: 1rem;
 }
 
 blockquote {

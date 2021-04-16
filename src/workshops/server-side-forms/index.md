@@ -50,7 +50,7 @@ You could also combine `array.map` and `array.join` to create the string.
 
 When you're done you should be able to visit http://localhost:3333 and see the list of dogs rendered.
 
-{% solution %}
+{% disclosure %}
 
 ```js
 server.get("/", (request, response) => {
@@ -74,7 +74,7 @@ server.get("/", (request, response) => {
 });
 ```
 
-{% endsolution %}
+{% enddisclosure %}
 
 ## `GET` requests
 
