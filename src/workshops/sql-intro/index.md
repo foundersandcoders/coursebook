@@ -387,8 +387,6 @@ SELECT users.username, blog_posts.text_content
 
 [`LEFT JOIN`](https://www.w3schools.com/sql/sql_join_left.asp) selects every entry in the first table you name, but only matched records from the second. For example if we wanted a list of _every_ user, plus their blog posts' text content (if they have any):
 
-![Venn diagram of a left join—the left circle and overlap with the right circle is highlighted](images/left-join.png)
-
 ```sql
 SELECT users.username, blog_posts.text_content
   FROM users LEFT JOIN blog_posts
@@ -403,6 +401,8 @@ SELECT users.username, blog_posts.text_content
 | Spont1935 |                                                                    |
 
 `LEFT JOIN` selects one extra row here compared to `INNER JOIN`: the final user "Spont1935" who has no blog posts.
+
+![Venn diagram of a left join—the left circle and overlap with the right circle is highlighted](images/left-join.png)
 
 ### `RIGHT JOIN`
 
