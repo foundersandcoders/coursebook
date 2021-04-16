@@ -48,6 +48,7 @@ schedule:
     - name: Role circles
       start: 12:45
       end: 13:00
+      url: ./../../../handbook/role-circles
     - name: Projects
       start: 14:00
       end: 16:30
@@ -68,6 +69,7 @@ schedule:
     - name: Role circles
       start: 12:00
       end: 12:15
+      url: ./../../../handbook/role-circles
     - name: Respond to issues
       start: 11:15
       end: 12:00

@@ -1,6 +1,6 @@
 # Role Circles
 
-Role Circles are a chance to chat to members of other project teams, grouped by your responsibilities to your own teams. In the past, we've found that teams often encounter the same issues and that it can be easy to feel siloed in your own team.
+Role Circles are a chance to chat to members of other project teams, grouped by your responsibilities to your own team. In the past, we've found that teams often encounter the same issues and that it can be easy to feel siloed in your own team.
 
 ## Structure
 
