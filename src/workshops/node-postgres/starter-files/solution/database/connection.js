@@ -4,7 +4,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 const DB_URL = process.env.DATABASE_URL;
-console.log(DB_URL);
+
 const options = {
   connectionString: DB_URL,
 };
