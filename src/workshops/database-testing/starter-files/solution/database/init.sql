@@ -11,7 +11,7 @@ CREATE TABLE users (
 
 CREATE TABLE blog_posts (
   id SERIAL PRIMARY KEY,
-  user_id INTEGER REFERENCES users(id),
+  user_id INTEGER REFERENCES users(id) ON DELETE CASCADE, -- CASCADE means delete the post if the author gets deleted
   text_content TEXT
 );
 

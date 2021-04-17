@@ -20,7 +20,7 @@ schedule:
     - name: Database testing
       start: 11:00
       end: 13:00
-      url: https://github.com/oliverjam/learn-database-testing
+      url: /workshops/database-testing
       type: workshop
     - name: Error-handling
       start: 14:00
