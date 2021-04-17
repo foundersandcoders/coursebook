@@ -1,0 +1,24 @@
+{
+  "name": "node-postgres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "workshop/server.js",
+  "scripts": {
+    "start": "node workshop/server.js",
+    "dev": "nodemon workshop/server.js",
+    "test": "cypress open --project workshop",
+    "test:solution": "cypress open --project solution"
+  },
+  "keywords": [],
+  "author": "Oliver Phillips <hello@oliverjam.es> (https://oliverjam.es/)",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^8.6.0"
+  },
+  "devDependencies": {
+    "cypress": "^7.1.0",
+    "nodemon": "^2.0.7"
+  }
+}
