@@ -5,8 +5,6 @@ const db = require("./connection.js");
 const initPath = path.join(__dirname, "init.sql"); // e.g. ./workshop/database/init.sql
 const initSQL = fs.readFileSync(initPath, "utf-8");
 
-console.log(process.env.DATABASE_URL);
-
 function build() {
   return db.query(initSQL);
 }
