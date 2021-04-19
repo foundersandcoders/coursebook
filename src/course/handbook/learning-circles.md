@@ -8,18 +8,15 @@
 ## Roles
 
 - Proposer: presents a problem;
-- Respondent: asks questions of the proposer;
-- Reviewer: proposes solutions to the proposer;
-- Observer: reflects on the problem and the responses of the group.
+- Respondents: the rest of the group.
 
 ## Rounds
 
-- The proposer shares their screen and presents the problem that they want to discuss;
-- The respondent then proceeds solely by asking questions of the proposer with a view to the whole group gaining a better undertanding of the problem;
-- If after no more than 10 minutes and solely through the proposer's responses to questioning, the group has not yet gained an adequate understanding of the problem, it is the reviewer's role to review the questions and responses so far and, if needed, to propose a solution to the problem; 
-- After about 15 minutes, it is the observer's role to reflect on the problem and on the behaviour of the group;
-- If there is a facilitator present, they can add their own reflections on whether the problem was at a suitable level, whether the group as a whole was supportive of each other, whether each participant stayed in role, and on the solution. They should also make sure the group is on schedule. If there is no facilitator present, this role can be taken by the observer;
-- When the round comes to an end, each group member takes on a new role and the process is repeated until each member of the group has played all four roles.
+- The proposer shares their screen and presents a problem which is then discussed by the group;
+- Each of the respondents take it in turns to lead the discussion for no more than 5 minutes each;
+- In turn, each respondent leads the group by asking questions of the proposer and the rest of the group with a view to the whole group gaining a better undertanding of the problem;
+- If there is a facilitator present, then after each of the respondents has led the discussion, they can add their own reflections. They should also make sure the group is on schedule. If there is no facilitator present, the group can nominate a timekeeper for each round;
+- When the round comes to an end, the next group member takes on the role of presenter and the process is repeated until each member of the group has presented.
 
 Aims:
 1. To give each participant an opportunity to get the support of the group with a problem that they are working on;
@@ -31,6 +28,6 @@ Aims:
 
 ## Tools
 
-- [Question crib sheet](problem-solving-questions.md), that the questioner can use as a scaffold for their questioning;
+- [Question crib sheet](problem-solving-questions.md), that each respondent can use as a scaffold for their questioning;
 - [Glossary](glossary.md) of terms.
 
