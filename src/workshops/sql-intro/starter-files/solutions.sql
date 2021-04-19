@@ -54,7 +54,7 @@ SELECT blog_posts.text_content, post_comments.text_content, users.username
 --
 -- Bonus: Sub queries
 --
-INSERT INTO post_comments (post_id, reply_to, user_id, text_content)
+INSERT INTO post_comments (post_id, user_id, text_content)
   VALUES (
     (
       SELECT id FROM blog_posts

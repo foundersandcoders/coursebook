@@ -315,7 +315,7 @@ Would return:
 
 1. #### Adding a new post
 
-   Using [`INSERT INTO`](https://www.w3schools.com/sql/sql_insert.asp) and `RETURNING`, add a blog post with the text "Hello world" to the user with ID `1`. Return the text content and user ID of the inserted post.
+   Using [`INSERT INTO`](https://www.w3schools.com/sql/sql_insert.asp) and `RETURNING`, add a blog post with the text "Hello World" to the user with ID `1`. Return the text content and user ID of the inserted post.
 
    ##### Expected Result
 
@@ -338,7 +338,7 @@ Would return:
 
    Using [`UPDATE`](https://www.w3schools.com/sql/sql_update.asp), update the blog post from the previous question to change the author to the user with ID `2`. **Make sure you don't change any other posts**.
 
-   You can then run `SELECT user_id FROM blog_posts WHERE text_content='Hello world';` to test for the expected result.
+   You can then run `SELECT user_id FROM blog_posts WHERE text_content='Hello World';` to test for the expected result.
 
    ##### Expected Result
 
@@ -515,7 +515,7 @@ You can then run `SELECT text_content FROM post_comments WHERE post_id = 2;` to 
 {% disclosure %}
 
 ```sql
-INSERT INTO post_comments (post_id, reply_to, user_id, text_content)
+INSERT INTO post_comments (post_id, user_id, text_content)
   VALUES (
     (
       SELECT id FROM blog_posts
