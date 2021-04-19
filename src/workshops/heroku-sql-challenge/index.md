@@ -136,9 +136,9 @@ You can check everything is set up by listing the database tables with `\dt`. Yo
 
     {% disclosure "Reveal hint" "default" %}
 
-    Since projects-to-students is a _many-to-many_ relationship (each project can have multiple authors, each student can have multiple projects) we can't link them with just IDs. We need a whole separate table to keep track of which students worked on which projects.
+    Since projects-to-students is a _many-to-many_ relationship (each project can have multiple authors, each student can have multiple projects) we can't link them with just IDs. We need to use a separate table to keep track of which students worked on which projects.
 
-    This is often called a _join table_, or _junction table_. You'll need to join to this as an intermediary step to link projects to students.
+    This is often called a _join table_, or _junction table_. You'll need to join to this as an intermediary step to link projects to students. You don't need to create it—it is already created in `init.sql`
 
     {% enddisclosure %}
 
