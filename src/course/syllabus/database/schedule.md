@@ -25,13 +25,13 @@ schedule:
     - name: Error-handling
       start: 14:00
       end: 16:00
-      url: https://github.com/oliverjam/learn-node-error-handling
+      url: /workshops/node-error-handling
       type: workshop
   wednesday:
     - name: Heroku SQL challenge
       start: 10:00
       end: 11:00
-      url: https://github.com/oliverjam/heroku-sql-challenge
+      url: /workshops/heroku-sql-challenge
       type: challenge
     - name: Ceremonies & pair programming
       start: 11:00
