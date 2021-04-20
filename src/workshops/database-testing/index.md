@@ -16,11 +16,18 @@ Most interesting apps are _stateful_. They save information for later in some ki
 We're going to start with the server from the [Postgres & Node workshop](/workshops/node-postgres). If you completed that you should already have a database to connect to. If not it contains instructions on setting up a new database and user.
 
 1. Download the starter files
-1. Add a `.env` file with an `DATABASE_URL` environment variable pointing to your database. For example:
+1. Add a `.env` file to the root of the project (where the `package.json` is)
+   - This should set a `DATABASE_URL` environment variable pointing to your database. For example:
    ```shell
    DATABASE_URL='postgres://myuser:password@localhost:5432/learn_node_postgres'
    ```
 1. Start the server with `npm run dev` and check it's working
+
+{% box %}
+
+If you get an error about the env var not being defined it probably means your `.env` file is in the wrong place. The `dotenv` module looks in the directory where you started the server. This should be the root where the `package.json` is. Make sure you don't `cd` into `workshop/` before starting the server.
+
+{% endbox %}
 
 ## Isolating tests
 
