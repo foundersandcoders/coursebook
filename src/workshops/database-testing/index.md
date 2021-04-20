@@ -214,6 +214,26 @@ function get(request, response) {
 
 This should work, but we can improve it. Our handler is stuck dealing with database-specific details. I.e. it has to know about the Postgres `result.rows` property. Ideally we should do this data-processing inside `model.js` instead:
 
+```js
+const db = require("./database/connection");
+
+function getUsers() {
+  return db.query("SELECT * FROM users").then((result) => result.rows);
+}
+
+module.exports = { getUsers };
+```
+
+```js
+const model = require("../database/model.js");
+
+function get(request, response) {
+  getUsers().then((users) => {
+    // ...
+  });
+}
+```
+
 ### Challenge 2: modularise queries
 
 Move the rest of the DB queries into `model.js`. Make sure all the tests keep passing!
