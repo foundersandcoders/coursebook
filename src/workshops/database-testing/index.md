@@ -197,7 +197,7 @@ Let's extract the homepage's query. Create a new file `workshop/database/model.j
 Create a function named `getUsers`. Import your database pool object and use it to get all the users, just like before:
 
 ```js
-const db = require("./database/connection");
+const db = require("./connection.js");
 
 function getUsers() {
   return db.query("SELECT * FROM users");
@@ -212,7 +212,7 @@ You can now import and use this function in `routes/home.js`:
 const model = require("../database/model.js");
 
 function get(request, response) {
-  getUsers().then((result) => {
+  model.getUsers().then((result) => {
     const users = result.rows;
     // ...
   });
@@ -222,7 +222,7 @@ function get(request, response) {
 This should work, but we can improve it. Our handler is stuck dealing with database-specific details. I.e. it has to know about the Postgres `result.rows` property. Ideally we should do this data-processing inside `model.js` instead:
 
 ```js
-const db = require("./database/connection");
+const db = require("./connection.js");
 
 function getUsers() {
   return db.query("SELECT * FROM users").then((result) => result.rows);
@@ -235,7 +235,7 @@ module.exports = { getUsers };
 const model = require("../database/model.js");
 
 function get(request, response) {
-  getUsers().then((users) => {
+  model.getUsers().then((users) => {
     // ...
   });
 }
