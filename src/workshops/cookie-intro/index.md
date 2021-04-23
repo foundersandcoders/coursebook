@@ -171,3 +171,96 @@ server.get("/remove", (request, response) => {
 ```
 
 If you visit http://localhost:3000/remove in your browser you should be redirected back to the home page, but the cookie will be gone.
+
+## Authentication
+
+Cookies are useful for ensuring users don't have to keep verifying their identity on every request. Once a user has proved who they are (usually by entering a password only they know) it's important to remember that information.
+
+### "Stateless" authentication
+
+There are two ways to use cookies for authenticating users. The first is often known as "stateless" auth. We can store all the information we need to know in the cookie itself. For example:
+
+```js
+const userInfo = {
+  id: 1,
+  username: "oliverjam",
+  admin: true,
+};
+response.cookie("user", userInfo, {
+  HttpOnly: true,
+  MaxAge: 60,
+});
+```
+
+When the user first logs in we set a cookie containing the user's information. On subsequent requests our server can check for this cookie. If it is present we can assume the user has previously logged in, and so we allow them to see protected content.
+
+#### Signing cookies
+
+Unfortunately this has a pretty serious security problem: we _can't_ trust cookies sent to us. Since a cookie is just an HTTP header anybody could send a cookie that looks like anything. E.g. anyone can use `curl` to send such a request:
+
+```shell
+curl -H 'cookie: user={"id":1,"username":"oliverjam","admin":true}' localhost:3000
+```
+
+It's also easy to edit cookie values in dev tools—a user could simply change their ID/username to another.
+
+However there is a way we can trust cookies: we can sign them. In cryptography signing refers to using a mathematical operation based on a secret string to transform a value. This signature will always be the same assuming the same secret and the same input value. Without the secret it is impossible to reproduce the same signature.
+
+If we sign our cookie we can validate that it has not been tampered with, since only our server knows the secret required to create a valid signature. Implementing this is complex and easy to mess up—luckily the `cookie-parser` middleware supports signed cookies.
+
+```js
+server.use(cookieParser("alongrandomstringnobodyelseknows"));
+
+server.get("/", (request, response) => {
+  console.log(request.signedCookies);
+  response.cookie("userid", "123", { signed: true });
+});
+```
+
+You need to pass a random secret string to the `cookieParser()` middleware function. Then you can specify `signed: true` in the cookie options. Signed cookies are available at a different request key to normal cookies: `request.signedCookies`.
+
+### Challenge 1: stateless auth
+
+1. Add a `GET /login` route that sets a _signed_ cookie containing some user information, then redirects to the home page
+1. Log the signed cookies in the home route
+1. Inspect the cookie in the browser's dev tools
+
+If you visit `/login` you should see the cookie data you set logged in your terminal. In the browser the cookie will have some extra random stuff attached to it. This is the signature.
+
+```
+s:j:{"id":1,"username":"oliverjam","admin":true}.uJLn0/18tqme8pQE0bB+8WsqeEXP2IY19l+34YdyFnk
+```
+
+If you edit the cookie in dev tools and then refresh you should instead see your server log `false` for that cookie name. This is because the signature no longer matches, so the server does not trust the cookie.
+
+{% solution %}
+
+```js
+server.get("/", (request, response) => {
+  console.log(request.signedCookies);
+  response.send("<h1>Hello</h1>");
+});
+
+server.get("/login", (request, response) => {
+  const userInfo = {
+    id: 1,
+    username: "oliverjam",
+    admin: true,
+  };
+  response.cookie("user", userInfo, {
+    HttpOnly: true,
+    MaxAge: 60,
+    signed: true,
+  });
+  response.redirect("/");
+});
+```
+
+{% endsolution %}
+
+#### Stateless auth downsides
+
+Storing all the information we need inside the cookie like this is very convenient. However there are some downsides:
+
+1. Cookies have a 4kb size limit, so you can't fit _too_ much info in them.
+1. The server cannot invalidate a cookie, it has to wait for the cookie to expire. This means e.g. you cannot log a user out on all devices—any browser with a valid cookie can keep making authenticated requests until that cookie expires.
