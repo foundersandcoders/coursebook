@@ -6,10 +6,10 @@ schedule:
       start: 10:10
       end: 10:45
       # url: https://fac-slides.netlify.app/slides/databases/
-    - name: Cookies intro
+    - name: Cookie authentication
       start: 10:30
       end: 13:00
-      # url: /workshops/sql-intro/
+      url: /workshops/cookie-auth/
       type: workshop
     - name: Password security
       start: 14:00
