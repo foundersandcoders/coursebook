@@ -25,13 +25,13 @@ schedule:
     - name: Client-side validation
       start: 14:00
       end: 16:00
-      url: https://github.com/oliverjam/learn-form-validation
+      url: /workshops/form-validation/
       type: workshop
   wednesday:
     - name: Promise practice
       start: 10:00
       end: 11:00
-      url: https://github.com/oliverjam/promise-practice
+      url: /workshops/promise-practice/
       type: challenge
     - name: Ceremonies & pair programming
       start: 11:00
