@@ -20,7 +20,7 @@ schedule:
     - name: Session management
       start: 11:00
       end: 13:00
-      # url: /workshops/database-testing
+      url: /workshops/session-auth
       type: workshop
     - name: Client-side validation
       start: 14:00
