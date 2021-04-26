@@ -9,8 +9,8 @@
 ### Authentication
 
 - [ ] **We can authenticate users by setting and reading cookies**
-- [ ] We can use JSON Web Tokens to store user information in a cookie
-- [ ] We can describe why we need to use JSON Web Tokens
+- [ ] We can store session IDs in a cookie
+- [ ] We can describe why we need session IDs
 - [ ] We can ensure only authenticated users can see certain content
 - [ ] We can ensure only authenticated users can take certain actions
 - [ ] We can describe the difference between a stateful and stateless server
@@ -29,11 +29,6 @@
 - [ ] We can help users enter the right information with HTML5 validation
 
 ## Testing
-
-### Test coverage
-
-- [ ] **We can measure the test coverage of our code**
-- [ ] We can identify where our tests are lacking and fix this
 
 ### Static analysis
 
