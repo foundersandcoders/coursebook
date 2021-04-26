@@ -24,6 +24,7 @@ What's the difference between stateless and stateful authentication?
 ### Useful resources
 
 - [What really is the difference between session and token based authentication](https://dev.to/thecodearcher/what-really-is-the-difference-between-session-and-token-based-authentication-2o39)
+- [JSON Web Tokens suck](https://www.youtube.com/watch?v=JdGOb7AxUo0) (this includes tons of general info about how web auth works)
 
 ## Browser storage
 
@@ -55,4 +56,4 @@ How might our websites be vulnerable to hacking?
 
 - [XSS aka HTML Injection Attack explained](https://medium.com/@jamischarles/xss-aka-html-injection-attack-explained-538f46475f6c)
 - [Intro to CSRF](https://medium.com/swlh/intro-to-csrf-cross-site-request-forgery-9de669df03de)
-- [Understanding CSFR](https://github.com/pillarjs/understanding-csrf)
+- [Understanding CSRF](https://github.com/pillarjs/understanding-csrf)

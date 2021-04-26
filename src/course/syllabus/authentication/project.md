@@ -18,12 +18,11 @@ Since this project is open-ended you'll need to write your own more specific use
 - [ ] A way for logged in users to delete their own data
 - [ ] Semantic form elements with correctly associated labels
 - [ ] A Postgres database hosted on Heroku
-- [ ] Tests for server routes and database access
-- [ ] Not process user input as SQL commands
 - [ ] Hidden environment variables (i.e. not on GitHub)
 
 #### Stretch criteria
 
+- [ ] Tests for all routes
 - [ ] A user page that shows everything posted by a single user
 - [ ] GitHub Actions CI setup to run your tests when you push
 
