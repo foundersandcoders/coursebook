@@ -1,0 +1,28 @@
+{
+  "name": "session-auth",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "db:setup": "./scripts/setup_db",
+    "db:build": "./scripts/build_db",
+    "dev": "nodemon workshop/server.js",
+    "start": "node workshop/server.js",
+    "test:model": "nodemon tests/model.js | tap-spec"
+  },
+  "keywords": [],
+  "author": "Oliver Phillips <hello@oliverjam.es> (https://oliverjam.es/)",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^8.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.2.2"
+  }
+}

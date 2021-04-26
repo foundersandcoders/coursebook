@@ -1,0 +1,13 @@
+#! /bin/sh
+
+# exit immediately on error
+set -e
+
+createuser sessionauthuser --superuser 
+echo "Created Postgres user 'sessionauthuser'"
+
+createdb sessionauthdb --owner=sessionauthuser
+echo "Created Postgres database 'sessionauthdb'"
+
+cp -n example.env .env
+echo "Created .env with database URL"
