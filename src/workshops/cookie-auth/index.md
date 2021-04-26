@@ -47,7 +47,7 @@ The server would receive this second request, read the `cookie` header and know 
 Cookies also support extra attributes to customise their behaviour. These can be set after the cookie value itself, like this:
 
 ```
-set-cookie: userid=1234; Max-Age=60; HttpOnly; SameSite=Strict
+set-cookie: userid=1234; Max-Age=60; HttpOnly; SameSite=Lax
 ```
 
 #### Expiry
@@ -62,7 +62,7 @@ Cookies often contain sensitive information. There are a few options that should
 
 The `HttpOnly` option stops client-side JavaScript from accessing cookies. This can prevent malicious JS code (e.g. from a browser extension) from reading your cookies (this is know as "Cross-site Scripting" or XSS).
 
-The `Same-Site` option stops the cookie from being sent on requests made from other domains. You probably want to set it to "strict". Otherwise there's a risk of other sites pretending to act on behalf of a logged in user (this is know as "Cross-site Request Forgery" or CSRF).
+The `Same-Site` option stops the cookie from being sent on requests made from other domains. You probably want to set it to "Lax" (which is the default starting with Chrome v84). Otherwise there's a risk of other sites pretending to act on behalf of a logged in user (this is know as "Cross-site Request Forgery" or CSRF).
 
 The `Secure` option will ensure the cookie is only set for secure encrypted (`https`) connections. You shouldn't use this in development (since your `localhost` server doesn't use `https`) but it's a very good idea in production.
 
@@ -88,7 +88,7 @@ First lets set a cookie by adding a "set-cookie" header to the response manually
 server.get("/", (request, response) => {
   response.set(
     "set-cookie",
-    "hello=this is my cookie; HttpOnly; Max-Age=60; SameSite=Strict"
+    "hello=this is my cookie; HttpOnly; Max-Age=60; SameSite=Lax"
   );
   response.send("<h1>Hello</h1>");
 });
@@ -106,7 +106,7 @@ server.get("/", (request, response) => {
   console.log(cookies);
   response.set(
     "set-cookie",
-    "hello=this is my cookie; HttpOnly; Max-Age=60; SameSite=Strict"
+    "hello=this is my cookie; HttpOnly; Max-Age=60; SameSite=Lax"
   );
   response.send("<h1>Hello</h1>");
 });
@@ -137,7 +137,7 @@ server.get("/", (request, response) => {
   response.cookie("hello", "this is my cookie", {
     httpOnly: true,
     maxAge: 1000 * 60, // 60,000ms (60s)
-    sameSite: "strict",
+    sameSite: "lax",
   });
   response.send("<h1>Hello</h1>");
 });
@@ -208,7 +208,7 @@ const userInfo = {
 response.cookie("user", userInfo, {
   httpOnly: true,
   maxAge: 1000 * 60,
-  sameSite: "strict",
+  sameSite: "lax",
 });
 ```
 
@@ -272,7 +272,7 @@ server.get("/login", (request, response) => {
   response.cookie("user", userInfo, {
     httpOnly: true,
     maxAge: 1000 * 60,
-    sameSite: "strict",
+    sameSite: "lax",
     signed: true,
   });
   response.redirect("/");

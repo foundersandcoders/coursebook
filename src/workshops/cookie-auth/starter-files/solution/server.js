@@ -28,7 +28,7 @@ server.get("/login", (request, response) => {
   response.cookie("sid", sid, {
     httpOnly: true,
     maxAge: 6000,
-    sameSite: "strict",
+    sameSite: "lax",
     signed: true,
   });
   response.redirect("/");
