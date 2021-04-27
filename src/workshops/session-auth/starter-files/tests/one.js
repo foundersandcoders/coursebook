@@ -1,7 +1,7 @@
 const test = require("tape");
 const resetDB = require("./reset.js");
-const model = require("../solution/database/model.js");
-const db = require("../solution/database/connection.js");
+const model = require("../workshop/database/model.js");
+const db = require("../workshop/database/connection.js");
 
 test("Can create a user", async (t) => {
   await resetDB();

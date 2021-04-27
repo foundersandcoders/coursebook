@@ -9,7 +9,8 @@
     "dev": "nodemon workshop/server.js",
     "start": "node workshop/server.js",
     "test:one": "node tests/one.js | tap-spec",
-    "test:two": "node tests/two.js | tap-spec"
+    "test:two": "node tests/two.js | tap-spec",
+    "test:three": "node tests/two.js | tap-spec"
   },
   "keywords": [],
   "author": "Oliver Phillips <hello@oliverjam.es> (https://oliverjam.es/)",
