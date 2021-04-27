@@ -3,10 +3,10 @@
 # exit immediately on error
 set -e
 
-createuser sessionauthuser --superuser 
+psql -q -c "CREATE USER sessionauthuser SUPERUSER PASSWORD '123'"
 echo "Created Postgres user 'sessionauthuser'"
 
-createdb sessionauthdb --owner=sessionauthuser
+psql -q -c "CREATE DATABASE sessionauthdb WITH OWNER sessionauthuser"
 echo "Created Postgres database 'sessionauthdb'"
 
 cp -n example.env .env
