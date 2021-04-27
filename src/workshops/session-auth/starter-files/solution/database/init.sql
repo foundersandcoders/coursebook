@@ -11,7 +11,7 @@ CREATE TABLE users (
 
 INSERT INTO users (email, password, name) VALUES (
   'test@gmail.com',
-  '$2a$10$YoazGoxCZFmVHkZWMbkH4uu91tocTXuODyrjucCgIpwbTvX1AC2wG',
+  '$2a$10$vzgLAxSa1k293giKSbVWi.GgSGmb1JB/kD1qWIg.mrUlt7UwVDCWG',
   'Test Testington'
 );
 
@@ -20,6 +20,11 @@ DROP TABLE IF EXISTS sessions CASCADE;
 CREATE TABLE sessions (
   sid TEXT PRIMARY KEY,
   data JSON NOT NULL
+);
+
+INSERT INTO sessions (sid, data) VALUES (
+  'abc123',
+  '{"test":"stuff"}'
 );
 
 COMMIT;
