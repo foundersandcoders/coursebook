@@ -17,17 +17,8 @@ function get(request, response) {
 
 function post(request, response) {
   const { email, password, name } = request.body;
-  auth
-    .createUser(email, password, name)
-    .then(auth.saveUserSession)
-    .then((sid) => {
-      response.cookie("sid", sid, auth.COOKIE_OPTIONS);
-      response.redirect("/");
-    })
-    .catch((error) => {
-      console.error(error);
-      response.send(`<h1>Something went wrong, sorry</h1>`);
-    });
+  console.log("Signing up...");
+  response.redirect("/");
 }
 
 module.exports = { get, post };
