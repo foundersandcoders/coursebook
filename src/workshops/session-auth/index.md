@@ -59,21 +59,21 @@ The `sessions` table has a `data` column that is the `JSON` type. This means it 
 
 You're going to implement the sessions-based authentication functionality. You'll work step-by-step to create each part of the code as a separate function, then bring all the parts together to make the server work.
 
+{% box %}
+
+There are unit tests for each part of the workshop. You can run these to find out if you've implemented the functions correctly. For example:
+
+```shell
+npm run test:one
+```
+
+{% endbox %}
+
 ## Part one: storing sessions in the DB
 
 The database-related code is separate from the rest of the server logic, in `database/model.js`. There are already some functions for accessing data in this file.
 
 The model is missing a way to insert new sessions into the database, so you need to write this function.
-
-{% box %}
-
-You can run the unit tests to get feedback on whether you've implemented this correctly.
-
-```shell
-npm run test:model
-```
-
-{% endbox %}
 
 1. Write a `createSession` function that takes a session ID and a data object, inserts them into the `sessions` table, and returns the session ID. For example:
    ```js
@@ -82,6 +82,22 @@ npm run test:model
      .then((sid) => console.log(sid));
    // Logs: "def456"
    ```
+
+{% disclosure %}
+
+```js
+function createSession(sid, data) {
+  const INSERT_SESSION = `
+    INSERT INTO sessions (sid, data) VALUES ($1, $2)
+    RETURNING sid
+  `;
+  return db
+    .query(INSERT_SESSION, [sid, data])
+    .then((result) => result.rows[0].sid);
+}
+```
+
+{% enddisclosure %}
 
 ## Part two: signing up
 
