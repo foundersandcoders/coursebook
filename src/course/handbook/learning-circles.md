@@ -13,8 +13,7 @@
 ## Rounds
 
 - The proposer shares their screen and presents a problem which is then discussed by the group;
-- Each of the respondents take it in turns to lead the discussion for no more than 5 minutes each;
-- In turn, each respondent leads the group by asking questions of the proposer and the rest of the group with a view to the whole group gaining a better undertanding of the problem;
+- In turns and for no more than 5 minutes each, each respondent leads the discussion by asking questions of the proposer and the rest of the group with a view to the whole group gaining a better undertanding of the problem;
 - If there is a facilitator present, then after each of the respondents has led the discussion, they can add their own reflections. They should also make sure the group is on schedule. If there is no facilitator present, the group can nominate a timekeeper for each round;
 - When the round comes to an end, the next group member takes on the role of presenter and the process is repeated until each member of the group has presented.
 
