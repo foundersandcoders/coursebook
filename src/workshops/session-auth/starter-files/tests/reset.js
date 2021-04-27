@@ -1,16 +1,11 @@
-const { execFile } = require("child_process");
+const fs = require("fs/promises");
 const { join } = require("path");
+const db = require("../solution/database/connection.js");
 
-const BUILD_PATH = join(__dirname, "..", "scripts", "build_db");
+const BUILD_PATH = join(__dirname, "..", "solution", "database", "init.sql");
 
 function resetDB() {
-  return new Promise((resolve, reject) => {
-    execFile(BUILD_PATH, (err, stdout, stderr) => {
-      console.log(stderr);
-      if (err) return reject(err);
-      resolve(stdout);
-    });
-  });
+  return fs.readFile(BUILD_PATH, "utf-8").then((sql) => db.query(sql));
 }
 
 module.exports = resetDB;

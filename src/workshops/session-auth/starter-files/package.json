@@ -8,7 +8,8 @@
     "db:build": "./scripts/build_db",
     "dev": "nodemon workshop/server.js",
     "start": "node workshop/server.js",
-    "test:model": "nodemon tests/model.js | tap-spec"
+    "test:one": "node tests/one.js | tap-spec",
+    "test:two": "node tests/two.js | tap-spec"
   },
   "keywords": [],
   "author": "Oliver Phillips <hello@oliverjam.es> (https://oliverjam.es/)",
