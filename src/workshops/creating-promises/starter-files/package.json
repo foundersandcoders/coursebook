@@ -1,0 +1,17 @@
+{
+  "name": "creatingg-promises",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test:one": "tape workshop/challenge-one.js | tap-spec",
+    "test:two": "tape workshop/challenge-two.js | tap-spec"
+  },
+  "keywords": [],
+  "author": "Oliver Phillips <hello@oliverjam.es> (https://oliverjam.es/)",
+  "license": "MIT",
+  "dependencies": {
+    "tap-spec": "^5.0.0",
+    "tape": "^5.2.2"
+  }
+}

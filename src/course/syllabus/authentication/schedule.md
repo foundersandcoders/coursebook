@@ -28,10 +28,10 @@ schedule:
       url: /workshops/form-validation/
       type: workshop
   wednesday:
-    - name: Promise practice
+    - name: Promise creation challenge
       start: 10:00
       end: 11:00
-      url: /workshops/promise-practice/
+      url: /workshops/creating-promises/
       type: challenge
     - name: Ceremonies & pair programming
       start: 11:00
