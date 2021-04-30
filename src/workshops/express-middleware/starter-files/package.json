@@ -1,0 +1,20 @@
+{
+  "name": "express-middleware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "workshop/server.js",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon workshop/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

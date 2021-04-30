@@ -278,6 +278,8 @@ Open the network tab and visit the `/error` route again. You should see a `403` 
 
 It's a bit cluttered having all our middleware mixed in with our handlers. Create a `middleware/` directory with files for each middleware function we built. Export each one, then import them in `server.js` to use.
 
+You'll also need to move the `sessions` object out into its own file and export it so it's available to anything that needs it.
+
 ## Stretch goal: fancier error-handling
 
 The built-in Express error-handler does a bit more than just sending a static error message. It behaves differently in development and production.
