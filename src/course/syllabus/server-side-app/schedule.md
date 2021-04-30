@@ -9,7 +9,7 @@ schedule:
     - name: Express middleware
       start: 11:00
       end: 13:00
-      url: https://github.com/oliverjam/learn-express-middleware
+      url: /workshops/express-middleware/
       type: workshop
     - name: REST APIs
       start: 14:00
