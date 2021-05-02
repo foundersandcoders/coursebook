@@ -3,7 +3,6 @@ layout: schedule
 schedule:
   monday:
     - name: Welcome talk
-      url: http://facresources.com/slides/students-day-1-talk#/
       start: 10:00
       end: 10:30
     - name: Course resources
