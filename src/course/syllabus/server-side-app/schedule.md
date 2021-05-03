@@ -7,14 +7,15 @@ schedule:
       end: 18:00
   tuesday:
     - name: Express middleware
-      start: 11:00
+      start: 10:00
       end: 13:00
       url: /workshops/express-middleware/
       type: workshop
-    - name: TBC
+    - name: Project spikes
       start: 14:00
       end: 16:00
-      type: workshop
+      url: ../project
+      type: project
   wednesday:
     - name: Projects
       start: 10:00

@@ -1,32 +1,20 @@
-Your project this week is to build a REST API that returns JSON data. It should have endpoints for creating, reading, updating and deleting whatever resource you choose (tweets, blog posts, pets etc).
+Your project this week is to build anything you like as long as it meets the technical criteria below. It should still be a Node/Express server-rendered application with a Postgres database, but feel free to get creative with the ideas.
 
-## User stories
+This week is the culmination of your Express learning, so focus on doing everything as professionally as you can. Your app should have validation, error-handling, good user-experience etc.
 
-### Core
+## Technical spikes
 
-- **As an API user, I want to**: get a list of all available resources
-- **As an API user, I want to**: get all the information on a specific resource
-- **As an API user, I want to**: create a new resource
-- **As an API user, I want to**: update an existing resource
-- **As an API user, I want to**: delete an existing resource
-- **As an API user, I want to**: only be able to change an existing resource if I am authenticated to do so
-- **As an API user, I want to**: read the documentation so I can understand what endpoints are available
+Your project should include one of these four new topics. You'll have to spend some time researching them in your group, figuring out how exactly to implement them before you start working on your project. There are minimal examples provided, but they are only one way to approach it—feel free to find tutorials/blog posts etc with alternative solutions.
 
-Since this project is open-ended you'll need to write your own more specific user stories once you know what you want to build.
+1. File uploads
+1. Sending emails
+1. Session flash messages
+1. Social login (OAuth)
 
-### Acceptance Criteria
+## Technical criteria
 
-- [ ] An Express server that only returns JSON
-- [ ] A Postgres database to store the data
-- [ ] Endpoints for creating, reading, updating & deleting resources
-- [ ] Token-based authentication so only the owner of a resource can change it
-- [ ] Correct headers and response metadata
-- [ ] Error-handling to make it easy to use the API to build something
-- [ ] Tests for server routes and database access
-- [ ] Not process user input as SQL commands
-- [ ] Hidden environment variables (i.e. not on GitHub)
-- [ ] Documentation that lists endpoints and what each is for
-
-#### Stretch criteria
-
-- [ ] GitHub Actions CI setup to run your tests when you push
+- Express server
+- Postgres database
+- Hosted on Heroku
+- One of the above spike topics
+- Handle errors and inform the user
