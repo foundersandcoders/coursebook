@@ -11,10 +11,9 @@ schedule:
       end: 13:00
       url: /workshops/express-middleware/
       type: workshop
-    - name: REST APIs
+    - name: TBC
       start: 14:00
       end: 16:00
-      url: https://github.com/oliverjam/learn-rest-apis
       type: workshop
   wednesday:
     - name: Projects
