@@ -9,12 +9,13 @@ Your project should include one of these four new topics. You'll have to spend s
 1. ### File uploads
    Allow users to upload files to your server (like images or audio clips).  
    [View file upload example](https://express-file-upload-example.glitch.me) | [View code](https://glitch.com/edit/#!/express-file-upload-example)
-1. ### Sending emails
-   Send emails from your server for notifying the user. E.g. sign up success, to verify email addresses or reset passwords.
+1. ### Social login (OAuth)
+   Allow users to log in using 3rd party accounts like Google or GitHub.  
+   [View GitHub login example](https://express-oauth-example.glitch.me) | [View code](https://glitch.com/edit/#!/express-oauth-example)
 1. ### Session flash messages
    Show temporary messages after successful/failed form submissions to help the user understand what's happening.
-1. ### Social login (OAuth)
-   Allow users to log in using 3rd party accounts like Google or GitHub.
+1. ### Sending emails
+   Send emails from your server for notifying the user. E.g. sign up success, to verify email addresses or reset passwords.
 
 ## Technical criteria
 
