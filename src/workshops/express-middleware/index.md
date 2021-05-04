@@ -81,7 +81,7 @@ We don't know which routes will want to access the logged in user value so we'll
 
 ```js
 server.use((req, res, next) => {
-  const token = req.cookies.user;
+  const sid = req.signedCookies.sid;
   const sessionInfo = sessions[sid];
   if (sessionInfo) {
     req.session = sessionInfo;
