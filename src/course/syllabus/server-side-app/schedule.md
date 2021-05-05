@@ -29,8 +29,8 @@ schedule:
       start: 14:00
       end: 16:30
       type: project
-    - name: Employment - Employment mentors
+    - name: Interview Prep - Code Writing
       start: 16:30
       end: 17:45
-      url: https://hackmd.io/@fac/Hy1OHLfXv#/
+      url: https://www.notion.so/foundersandcoders/Code-Writing-5f37dabeebc149309d8b8198304288b9/
 ---
