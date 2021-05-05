@@ -9,7 +9,7 @@ schedule:
     - name: ES Modules intro
       start: 10:30
       end: 11:00
-      url: https://github.com/oliverjam/learn-es-modules
+      url: /workshops/es-modules
       type: workshop
     - name: DOM rendering
       start: 11:00
