@@ -8,25 +8,21 @@ The goal is to build an interactive game-like thing that uses data from an API.
 - Have some form of persistent state and interactivity, e.g.
   - A hunger bar that decreases over time and is topped up when you feed them stars
   - A button to add more users to your collection
-- Have integration tests using React Testing Library
 
 ### Stretch criteria
 
 - Save your state to localstorage so you can leave the page and come back later
 - Have a button to add more copies of the game
-- Make it look sick
+- Make it look great
 
 ## Examples
 
 "Interactive game-like thing" is a bit vague, so here are some apps built previously:
 
-[GIT FIGHTER II](https://camko.netlify.app/)
-
-[Let's Go Pokémon Battle](https://lets-go-pokemon-battle.netlify.app/)
-
-[Oli's Tamagotchi](https://tamagotchi.netlify.com)
-
-[Zooey's Drake thing](https://fuckin-yolo.netlify.com/)
+- [GIT FIGHTER II](https://camko.netlify.app/)
+- [Let's Go Pokémon Battle](https://lets-go-pokemon-battle.netlify.app/)
+- [Oli's Tamagotchi](https://tamagotchi.netlify.com)
+- [Zooey's Drake thing](https://fuckin-yolo.netlify.com/)
 
 ## Setup
 
@@ -56,7 +52,7 @@ We'll be deploying our apps to [Netlify](https://netlify.com).
 1. Choose the repo you want to deploy
 1. Choose "Deploy site" (the build settings for CRA should be pre-filled)
 
-Now every time you push to the Master branch your site will redeploy.
+Now every time you push to the `main` branch your site will redeploy.
 
 ### API secrets
 
@@ -64,13 +60,17 @@ If you have API tokens you want to prevent reaching Github you should use Create
 
 1. Create a gitignored `.env` at the root of your project
 1. Add your environment variables, prefacing them with `REACT_APP_`. e.g.
-   ```bash
+   ```
    REACT_APP_GITHUB_TOKEN=123456
    ```
 1. Access the token in your code as `process.env.REACT_APP_GITHUB_TOKEN`
 
 You will need to configure Netlify to inject this value when it deploys your site too (just like Heroku). You can do this under "Site settings" > "Build & deploy" > "Environment" > "Environment variables".
 
+{% box "error" %}
+
 #### IMPORTANT!
 
 Since all your code is client-side it will all be available in the browser. This means if someone looked inside your JS using dev tools they would be able to find this token. If you have an API key that absolutely _must_ stay secret you need to make your requests on a server instead. You may find [Netlify Functions](https://www.netlify.com/docs/functions/) useful for adding simple Node endpoints to a mostly-frontend app (but they're probably not necessary for this project).
+
+{% endbox %}
