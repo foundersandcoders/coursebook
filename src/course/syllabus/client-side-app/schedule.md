@@ -14,7 +14,7 @@ schedule:
     - name: DOM rendering
       start: 11:00
       end: 13:00
-      url: https://github.com/oliverjam/learn-dom-rendering
+      url: /workshops/dom-rendering
       type: workshop
     - name: React intro
       start: 14:00
