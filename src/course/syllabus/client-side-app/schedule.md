@@ -5,7 +5,7 @@ schedule:
     - name: Intro presentation
       start: 10:10
       end: 10:30
-      url: https://hackmd.io/@fac/r1fH42HOU#/14
+      url: https://fac-slides.netlify.app/slides/spa-react/
     - name: ES Modules intro
       start: 10:30
       end: 11:00
