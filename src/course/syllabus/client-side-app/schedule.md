@@ -18,11 +18,19 @@ schedule:
       type: workshop
     - name: React intro
       start: 14:00
+      end: 14:30
+    - name: React components
+      start: 14:30
+      end: 15:45
+      url: /workshops/react-components
+      type: workshop
+    - name: React state & effects
+      start: 15:45
       end: 17:45
-      url: https://github.com/oliverjam/learn-react/
+      url: /workshops/react-state-effects
       type: workshop
   tuesday:
-    - name: React practice
+    - name: React forms
       start: 10:00
       end: 13:00
       url: https://github.com/oliverjam/react-food-workshop/

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8" />
+  <title>Component Proponent | FAC React</title>
+
+  <body>
+    <!-- These scripts will make React and ReactDOM globally available. -->
+    <script src="https://unpkg.com/react@%5E17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@%5E17/umd/react-dom.development.js"></script>
+    <!-- This will let us write JSX and ES6 in a script tag with a special type of "text/babel" -->
+    <script src="https://unpkg.com/babel-standalone@%5E6/babel.js"></script>
+
+    <div id="root"></div>
+
+    <script type="text/babel">
+      const root = document.getElementById("root");
+
+      // Toggle renders a div containing two things:
+      // a button that toggles that state boolean when clicked
+      // a div containing whatever children were passed
+      // however if the state value is false this div is replaced with nothing
+      function Toggle(props) {
+        const [open, setOpen] = React.useState(false);
+        function toggleOpen() {
+          setOpen(!open); // !open gives us the opposite, e.g. true -> false or false -> true
+        }
+        return (
+          <div>
+            <button onClick={toggleOpen}>Toggle</button>
+            {open ? <div>{props.children}</div> : null}
+          </div>
+        );
+      }
+
+      // renders Toggle with "This text is..." as the children prop
+      function App() {
+        return <Toggle>This text is hidden until the button is clicked</Toggle>;
+      }
+
+      ReactDOM.render(<App />, root);
+    </script>
+  </body>
+</html>

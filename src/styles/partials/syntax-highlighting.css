@@ -71,6 +71,10 @@ pre.language-sql::after {
   content: "SQL";
 }
 
+pre.language-jsx::after {
+  content: "JSX";
+}
+
 .token.comment,
 .token.prolog,
 .token.doctype,
