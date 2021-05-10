@@ -1,6 +1,6 @@
 ---
 title: React forms
-description:
+description: Learn how to build dynamic interactions using form elements in React
 tags:
   - workshop
   - js
@@ -18,7 +18,7 @@ Don't worry, we'll work our way there step by step.
 
 ## Part 1: Project setup
 
-1. Download starter files
+1. Download starter files and `cd` in
 1. Run `npm install`
 1. Run `npm run dev` to start the dev server
 
@@ -293,7 +293,7 @@ function DishList(props) {
   return (
     <ul className="grid">
       {dishes
-        .filter((dish) => dish.price >= props.min && dish.props.price <= max)
+        .filter((dish) => dish.price >= props.min && dish.price <= props.max)
         .map((dish) => (
           <li key={dish.id} className="card">
             <h3>{dish.name}</h3>
@@ -355,33 +355,22 @@ We also want to filter our dishes by category. This is a good use-case for a gro
 
 Create a new file called `CategoryFilter.jsx` and make a new component in it. We need a radio input for each category.
 
-You'll also need to create a state value to keep track of which radio is selected. Since this state will be needed to filter the `DishList` component it will also need to live in their shared parent (`App`) and be passed down as a prop.
+You'll also need to create a state value to keep track of which radio is selected. Since this state will be needed to filter the `DishList` component it will need to live in their shared parent (`App`) and be passed down as a prop (just like the min/max state).
 
 You can use the `checked` prop to determine which radio should be checked, based on the current state value. Here's an example:
 
 ```jsx
-  <label htmlFor="burger">
-    Burger
-    <input
-      type="radio"
-      name="categories"
-      id="burger"
-      value="burger"
-      checked={someStateVar === "burger"}
-      onChange={(event) => setSomeStateVar(event.target.value)}
-    />
-  </label>
-  <label htmlFor="hot-dog">
-    Hot dog
-    <input
-      type="radio"
-      name="categories"
-      id="hot-dog"
-      value="hot dog"
-      checked={someStateVar === "hot dog"}
-      onChange={(event) => setSomeStateVar(event.target.value)}
-    />
-  </label>
+<label htmlFor="burger">
+  Burger
+  <input
+    type="radio"
+    name="categories"
+    id="burger"
+    value="burger"
+    checked={someStateVar === "burger"}
+    onChange={(event) => setSomeStateVar(event.target.value)}
+  />
+</label>
 ```
 
 You should end up with something like this:
