@@ -18,7 +18,7 @@ function App() {
       </section>
       <section className="dishes">
         <h2>Dishes</h2>
-        <DishList min={min} max={max} />
+        <DishList min={min} max={max} category={category} />
       </section>
     </main>
   );

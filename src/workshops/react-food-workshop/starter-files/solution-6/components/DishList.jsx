@@ -4,7 +4,7 @@ import dishes from "../../data";
 function DishList({ min, max }) {
   return (
     <ul className="grid">
-      {dishItems.length ? (
+      {dishes.length ? (
         dishes
         .filter(dish => dish.price >= min && dish.price <= max)
         .map(dish => (

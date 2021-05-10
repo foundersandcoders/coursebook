@@ -1,12 +1,12 @@
 import React from "react";
 import dishes from "../../data";
 
-function DishList({ min, max }) {
+function DishList({ min, max, category }) {
   return (
     <ul className="grid">
-      {dishItems.length ? (
+      {dishes.length ? (
         dishes
-        .filter(dish => category === "all" || dish.category === "category")
+        .filter(dish => category === "all" || dish.category === category)
         .filter(dish => dish.price >= min && dish.price <= max)
         .map(dish => (
           <li key={dish.id} className="card">

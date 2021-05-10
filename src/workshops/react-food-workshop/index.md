@@ -454,7 +454,7 @@ function App() {
   const [category, setCategory] = React.useState("burger");
   return (
     // ...
-    <DishList category={category} />
+    <DishList min={min} max={max} category={category} />
     // ...
   );
 }

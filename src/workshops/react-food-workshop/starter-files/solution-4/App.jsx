@@ -41,7 +41,7 @@ function App() {
       <section className="dishes">
         <h2>Dishes</h2>
         <ul className="grid">
-          {dishItems.length ? (
+          {dishes.length ? (
             dishes
             .filter(dish => dish.price >= min && dish.price <= max)
             .map(dish => (
