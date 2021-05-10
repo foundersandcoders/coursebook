@@ -38,6 +38,7 @@ schedule:
     - name: React fetching data
       start: 14:00
       end: 16:00
+      url: /workshops/react-fetch
       type: workshop
   wednesday:
     - name: React class challenge
