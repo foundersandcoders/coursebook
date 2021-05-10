@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  --green: hsl(150, 100%, 70%);
+  --orange: hsl(30, 100%, 70%);
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Helvetica, Arial,
+    sans-serif;
+  color: hsl(220, 10%, 20%);
+  background-color: hsl(220, 10%, 98%);
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filters {
+  flex-basis: 20rem;
+  flex-grow: 1;
+  padding: 2rem;
+  background-color: var(--green);
+}
+
+.dishes {
+  flex-basis: 0;
+  flex-grow: 999;
+  padding: 2rem;
+  padding: clamp(2rem, 2rem + 4vw, 6rem);
+}
+
+h1 {
+  position: relative;
+  font-weight: 900;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  border-bottom: 0.25rem solid #000;
+  padding-bottom: 0.25rem;
+}
+
+form {
+  position: sticky;
+  top: 2rem;
+}
+
+fieldset {
+  margin-top: 0.5rem;
+  border: 0.25rem solid black;
+}
+
+legend {
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  text-transform: capitalize;
+}
+
+label + label {
+  margin-top: 0.25rem;
+}
+
+input {
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+.grid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+  grid-gap: 2rem;
+  grid-gap: clamp(2rem, 2rem + 1vw, 4rem);
+  align-content: start;
+}
+
+.card {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-gap: 0.25rem;
+  box-shadow: 0.5rem 0.5rem 0 var(--orange);
+  border: 0.25rem solid black;
+  padding: 1rem;
+  background-color: #fff;
+}

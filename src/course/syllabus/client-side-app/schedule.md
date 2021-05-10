@@ -33,7 +33,7 @@ schedule:
     - name: React forms
       start: 10:00
       end: 13:00
-      url: https://github.com/oliverjam/react-food-workshop/
+      url: /workshops/react-forms/
       type: workshop
     - name: React fetching data
       start: 14:00
