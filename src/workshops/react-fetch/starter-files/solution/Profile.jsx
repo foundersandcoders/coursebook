@@ -1,5 +1,5 @@
 import React from "react";
-import Repos from "./ReposList.jsx";
+import ReposList from "./ReposList.jsx";
 
 const USER_URL = "https://api.github.com/users/";
 
@@ -18,7 +18,7 @@ function Profile({ name }) {
       <h1>{user.name}</h1>
       <img src={user.avatar_url} alt="" width="128" height="128" />
       <h2>Repos</h2>
-      <Repos url={user.repos_url} />
+      <ReposList url={user.repos_url} />
     </div>
   );
 }
