@@ -107,7 +107,7 @@ Some time passes...
 1. Our `.then` sets the `pokeData` state as the response object
 1. React sees the state update and re-runs the component function
 1. This time the `pokeData` state variable is the response object (not `null`)
-1. So JS runs the second `if` branch and returns `<div>pikachi</div>`
+1. So JS runs the second `if` branch and returns `<div>pikachu</div>`
 
 ### Avoiding infinite loops
 
