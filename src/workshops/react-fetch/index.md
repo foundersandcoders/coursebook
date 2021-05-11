@@ -125,6 +125,12 @@ React.useEffect(() => {
 
 This tells React "you won't need to re-run this effect, since it doesn't depend on any values that might change and get out of sync".
 
+{% box "error" %}
+
+It's really important not to forget this dependency array: if you trigger an infinite fetching loop GitHub might temporarily ban you from their API!
+
+{% endbox %}
+
 ### Challenge 1: user profile
 
 You're going to build a `Profile` component that fetches a user from the GitHub API and renders their name, avatar image and any other details you like.
