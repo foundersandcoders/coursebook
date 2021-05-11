@@ -44,7 +44,7 @@ schedule:
     - name: React class challenge
       start: 10:00
       end: 11:00
-      url: https://github.com/oliverjam/react-refactor-class-hooks
+      url: /workshops/react-refactor-classes/
       type: challenge
     - name: Projects
       start: 11:00
