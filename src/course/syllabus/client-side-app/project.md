@@ -85,7 +85,7 @@ Vite will [automatically read any environment variables](https://vitejs.dev/guid
 VITE_APP_API_KEY='123'
 ```
 
-You can access that using `import.meta.env.VITE__APP_API_KEY`.
+You can access that using `import.meta.env.VITE_APP_API_KEY`.
 
 Make sure you add `.env` to your `.gitignore` file so it doesn't end up on GitHub.
 
