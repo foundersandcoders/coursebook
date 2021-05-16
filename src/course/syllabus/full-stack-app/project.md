@@ -1,5 +1,7 @@
 This week you'll be building an e-commerce shopping site for a fake brand. It doesn't need to actually take payments or have a checkout, but it should have product listings and the ability to add items to a shopping basket.
 
+Here's a very polished example (with more features than you need to implement): https://demo.vercel.store/
+
 You'll be provided with a Postgres database hosted on AWS RDS, so you don't have to worry about that. You can take the database URL and run any SQL you like to create your tables etc.
 
 ## Acceptance criteria
