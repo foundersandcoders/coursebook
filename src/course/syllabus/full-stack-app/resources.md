@@ -1,0 +1,2 @@
+- [Next.js Docs](https://nextjs.org/docs/getting-started)
+- [Next.js Deployment](https://nextjs.org/docs/deployment)

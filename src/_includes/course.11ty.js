@@ -48,6 +48,7 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/syllabus/authentication/schedule/">Authentication</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/server-side-app/schedule/">Server-side app</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/client-side-app/schedule/">Client-side app</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/full-stack-app/schedule/">Full-stack app</${Link}></li>
         </${Section}>
       </${Nav}>
     </aside>
