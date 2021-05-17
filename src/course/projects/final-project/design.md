@@ -64,10 +64,10 @@ schedule:
       url: "./../../roles/project-team"
     - name: Project planning
       start: 14:00
-      end: 16:30
+      end: 16:00
       url: Project planning in Miro
     - name: Employment prep
-      start: 16:30
+      start: 16:00
       end: 17:45
   thursday:
     - name: Usability testing
