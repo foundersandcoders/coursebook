@@ -49,9 +49,9 @@ schedule:
   thursday:
     - name: Anni's Talk
       start: 10:00
-      end: 11:30
+      end: 11:00
     - name: Project
-      start: 11:30
+      start: 11:00
       end: 13:00
       type: project
 ---
