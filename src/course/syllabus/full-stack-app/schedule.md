@@ -27,6 +27,9 @@ schedule:
       start: 14:00
       end: 17:00
       type: project
+    - name: Employment Prep
+      start: 17:00
+      end: 17:45
   wednesday:
     - name: Project
       start: 10:00
@@ -43,4 +46,12 @@ schedule:
     - name: Interview Prep - Code Writing
       start: 16:30
       end: 17:45
+  thursday:
+    - name: Anni's Talk
+      start: 10:00
+      end: 11:30
+    - name: Project
+      start: 11:30
+      end: 13:00
+      type: project
 ---
