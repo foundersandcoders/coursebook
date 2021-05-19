@@ -53,6 +53,8 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/projects/final-project/design/">Design Week</${Link}></li>
           <li><${Link} url=${url} href="/course/projects/final-project/build-1/">Build Sprint 1</${Link}></li>
           <li><${Link} url=${url} href="/course/projects/final-project/build-2/">Build Sprint 2</${Link}></li>
+          <li><${Link} url=${url} href="/course/projects/roles/project-team/">Project Roles</${Link}></li>
+          <li><${Link} url=${url} href="/course/projects/one-day-projects/">One Day Projects</${Link}></li>
         </${Section}>
       </${Nav}>
     </aside>
