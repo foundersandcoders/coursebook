@@ -1,3 +1,5 @@
 # Project
 
-Your project this week is to create a wireframe in Figma and to test it.
+Your project in Design Week is to create a wireframe in Figma and to test it.
+
+In each build week you'll be consistently working on your final project.
