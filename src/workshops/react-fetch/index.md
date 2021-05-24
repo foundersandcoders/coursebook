@@ -21,7 +21,7 @@ React doesn't have a built-in pattern designed for fetching data. This can make 
 
 The `index.html` file loads `workshop/index.jsx`. This imports `workshop/App.jsx` and renders the component using React.
 
-## Part one: side effects
+## Managing effects
 
 React components are designed to keep the DOM in-sync with your app's data. For example this component will re-render every time the `name` prop changes, ensuring the message is always correct:
 
@@ -107,7 +107,7 @@ Some time passes...
 1. Our `.then` sets the `pokeData` state as the response object
 1. React sees the state update and re-runs the component function
 1. This time the `pokeData` state variable is the response object (not `null`)
-1. So JS runs the second `if` branch and returns `<div>pikachi</div>`
+1. So JS runs the second `if` branch and returns `<div>pikachu</div>`
 
 ### Avoiding infinite loops
 
@@ -124,6 +124,12 @@ React.useEffect(() => {
 ```
 
 This tells React "you won't need to re-run this effect, since it doesn't depend on any values that might change and get out of sync".
+
+{% box "error" %}
+
+It's really important not to forget this dependency array: if you trigger an infinite fetching loop GitHub might temporarily ban you from their API!
+
+{% endbox %}
 
 ### Challenge 1: user profile
 
@@ -149,7 +155,7 @@ import React from "react";
 
 const USER_URL = "https://api.github.com/users/";
 
-function Profile({ name }) {
+function Profile() {
   const [user, setUser] = React.useState();
 
   React.useEffect(() => {
@@ -172,8 +178,158 @@ export default Profile;
 
 {% enddisclosure %}
 
-## TBC
+## Re-running effects
 
-1. Amend `Profile` to take a `name` prop that changes which user is fetched
-1. Create a `ReposList` component that uses `user.repos_url` to fetch
-1. Amend App to add a search input to type the users name
+Our `Profile` component would be more useful and reusable if it could fetch _any_ user's GitHub information. Components can be customised by passing in props (just like function arguments). We want to be able to do this:
+
+```jsx
+<Profile name="oliverjam" />
+```
+
+and have the component fetch that user's profile.
+
+### Challenge 2: re-usable profile
+
+1. Amend `Profile` to take a `name` prop
+1. Use this prop to fetch the right data from GitHub
+1. Pass a `name` to `<Profile />` inside `App`
+
+{% box %}
+
+**Hint:** you'll need to tell `useEffect` about this new dependency, since it will need to re-run your fetch if/when the `name` prop changes.
+
+{% endbox %}
+
+{% disclosure %}
+
+```jsx
+const USER_URL = "https://api.github.com/users/";
+
+function Profile(props) {
+  const [user, setUser] = React.useState();
+
+  React.useEffect(() => {
+    fetch(USER_URL + props.name)
+      .then((res) => res.json())
+      .then((data) => setUser(data));
+  }, [props.name]);
+
+  if (!user) return <div>Loading...</div>;
+  return (...);
+}
+
+export default Profile;
+```
+
+Note that we had to pass `props.name` to `useEffect` inside the dependency array. Otherwise this would only ever fetch the first name passed in. Later we'll add a feature that lets the user type in a name, so we will need the effect to re-run.
+
+{% enddisclosure %}
+
+## Passing state down
+
+Our `Profile` component can now fetch any user, but we still have to hard-code the prop when we render it in `App`. Ideally we'd let users type the name into a search input, then update the prop we pass down when they submit.
+
+We can achieve this with a state value in `App` that keeps track of the current value of `name`. When the form is submitted you can update that state value, which will cause the `App` component to re-render. This will then cause `Profile` to re-render with the new value of `name` passed as a prop.
+
+### Challenge 3: searching for users
+
+1. Add a form with a search input to `App`
+1. Add a `name` state value to `App`
+1. When the form is submitted update the state value
+1. Pass the state value to `Profile` so it knows which name to fetch
+
+{% box %}
+
+**Hint:** Don't forget to call `event.preventDefault()` in your submit handler to stop the form from refreshing the page.
+
+{% endbox %}
+
+{% disclosure %}
+
+```jsx
+function App() {
+  const [name, setName] = React.useState("oliverjam");
+  return (
+    <main>
+      <form
+        onSubmit={(event) => {
+          event.preventDefault();
+          setName(event.target.username.value);
+        }}
+      >
+        <input
+          type="search"
+          aria-label="Search users"
+          placeholder="Search users"
+          name="username"
+        />
+      </form>
+      <Profile name={name} />
+    </main>
+  );
+}
+```
+
+Note that we did not need to change `Profile` at all. This is because we have divided up each component's responsibilities. `Profile` just takes a username and fetches that data—it doesn't care _how_ it gets the name.
+
+{% enddisclosure %}
+
+## Stretch goal: fetching repos
+
+The user response object from GitHub contains a `repos_url` property. This is a URL from which you can fetch an array of the user's repositories. To display the user's repos underneath their other info we'll have to make _another_ fetch after the first one resolves.
+
+The simplest way to achieve this is by creating a new component that takes the `repos_url` as a prop, fetches the data, then renders the list of repos.
+
+1. Create a new component in `ReposList.jsx`
+1. It should receive a URL as a prop and fetch the repos from it
+1. When it receives a response it should render a list of repos
+1. Amend `Profile` to render `ReposList` and pass in the right URL prop
+
+{% disclosure %}
+
+```jsx
+// Profile.jsx
+
+function Profile({ name }) {
+  // ...
+  return (
+    <div>
+      <h1>{user.name}</h1>
+      <img src={user.avatar_url} alt="" width="128" height="128" />
+      <h2>Repos</h2>
+      <ReposList url={user.repos_url} />
+    </div>
+  );
+}
+```
+
+```jsx
+// ReposList.jsx
+
+import React from "react";
+
+function ReposList({ url }) {
+  const [repos, setRepos] = React.useState();
+
+  React.useEffect(() => {
+    fetch(url)
+      .then((res) => res.json())
+      .then((data) => setRepos(data));
+  }, [url]);
+
+  if (!repos) return <div>Loading repos...</div>;
+  return (
+    <ul>
+      {repos.map((repo) => (
+        <li key={repo.id}>
+          <a href={repo.url}>{repo.name}</a> | ⭐️ {repo.stargazers_count}
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+export default ReposList;
+```
+
+{% enddisclosure %}

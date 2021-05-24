@@ -1,6 +1,6 @@
 import React from "react";
 
-function Repos({ url }) {
+function ReposList({ url }) {
   const [repos, setRepos] = React.useState();
 
   React.useEffect(() => {
@@ -21,4 +21,4 @@ function Repos({ url }) {
   );
 }
 
-export default Repos;
+export default ReposList;
