@@ -34,6 +34,8 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/handbook/mentor-roles/">Mentor roles</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/learning-circles/">Learning circles</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/role-circles/">Role circles</${Link}></li>
+          <li><${Link} url=${url} href="/course/handbook/project-team/">Project Roles</${Link}></li>
+          <li><${Link} url=${url} href="/course/handbook/one-day-projects/">One Day Projects</${Link}></li>
         </${Section}>
         <${Section} title="Syllabus" url=${url} subpath="course/syllabus">
           <li><${Link} url=${url} href="/course/syllabus/precourse-1/schedule/">Pre-course 1</${Link}></li>
@@ -52,8 +54,6 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/syllabus/final-project/design/">Design Week</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/final-project/build-1/">Build Sprint 1</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/final-project/build-2/">Build Sprint 2</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/final-project/project-team/">Project Roles</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/final-project/one-day-projects/">One Day Projects</${Link}></li>
         </${Section}>
       </${Nav}>
     </aside>

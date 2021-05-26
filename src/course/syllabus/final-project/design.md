@@ -69,7 +69,7 @@ schedule:
     - name: Introduction to project roles
       start: 10:00
       end: 11:00
-      url: "./../../roles/project-team"
+      url: "/course/handbook/project-team"
       type: presentation
     - name: Wireframing
       start: 11:00
@@ -78,11 +78,11 @@ schedule:
     - name: Choose roles
       start: 12:30
       end: 13:00
-      url: "./../../roles/project-team"
+      url: "/course/handbook/project-team"
     - name: Project planning
       start: 14:00
       end: 16:00
-      url: Project planning in Miro
+      url: https://hackmd.io/@fac/SkyPKSwBw#/
       type: project
     - name: Employment prep
       start: 16:00
@@ -92,6 +92,7 @@ schedule:
       start: 10:00
       end: 12:00
       type: presentation
+      url: https://docs.google.com/presentation/d/10VxYiFBmwLevEH3V6AP74ibf_JRt51Gd-295TICrWQU/edit?usp=sharing
     - name: Usability testing synthesis and project updates
       start: 12:00
       end: 12:45
@@ -103,6 +104,7 @@ schedule:
     - name: Technical spikes
       start: 14:00
       end: 16:00
+      url: "./../spikes"
     - name: Spike presentation prep
       start: 16:00
       end: 16:30

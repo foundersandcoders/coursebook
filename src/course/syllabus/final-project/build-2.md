@@ -5,13 +5,16 @@ schedule:
     - name: Build
       start: 10:10
       end: 13:00
+      type: project
     - name: Build
       start: 14:00
       end: 17:45
+      type: project
   tuesday:
     - name: Build
       start: 10:00
       end: 13:00
+      type: project
     - name: Usability Testing
       start: 14:00
       end: 16:00
@@ -22,9 +25,15 @@ schedule:
     - name: Build
       start: 10:00
       end: 13:00
-    - name: Build
+      type: project
+    - name: Role circles
       start: 14:00
+      end: 14:30
+      url: "/course/handbook/role-circles"
+    - name: Build
+      start: 14:30
       end: 16:30
+      type: project
     - name: Employment Prep
       start: 16:30
       end: 17:45
@@ -32,9 +41,11 @@ schedule:
     - name: Build
       start: 10:00
       end: 13:00
+      type: project
     - name: Build
       start: 14:00
       end: 17:45
+      type: project
   friday:
     - name: Code Review
       start: 10:00
