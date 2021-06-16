@@ -2,13 +2,13 @@
 
 ## Learning Outcomes
 
-- Learn a variety of techniques for how to pair programme
+- Learn a variety of techniques for how to pair program
 - Feel more comfortable with pairing
 - Understand the benefits of pairing
 
 ## Task
 
-1. Find a partner and work from one computer together (close the other laptop)
+1. Find a partner and work from one screen together (close the other laptop or share your screen)
 2. Choose a 8kyu kata on codewars, preferably one that neither of you have completed before
 3. Read through the [different pair programming methods](#methods) & choose one that you want to try
 4. Attempt the kata, using this pair programming method.
@@ -20,11 +20,11 @@ Don't worry if you don't finish the kata. The aim is to learn the process. 15 mi
 
 ## Methods
 
-**Ping pong.** _This is the preferred pairing method in FAC, but we advise you wait until after testing week (week 2) before trying it out._ One student starts by creating a single failing test and then each student takes it in turns to first write code to make the test pass and then to write a new failing test before passing the keyboard back to their partner.
+**Ping pong.** Take turns writing code. How much code you write depends on the context. Maybe, one developer writes a line of code and then the other writes a line of code. In another case, one developer starts by creating a single failing test and then each developer takes it in turns to first write code to make the test pass and then to write a new failing test before passing the keyboard back to their partner.
 
-**The driving test.** One student sits at the computer and the other student acts as examiner. the student being examined should explain their thinking as they work. Whenever the examiner thinks the other student is being too quiet or does not understand something, she can ask for more information, but otherwise should offer no advice nor provide any feedback.
+**The driving test.** One developer sits at the computer and the other developer acts as examiner. the developer being examined should explain their thinking as they work. Whenever the examiner thinks the other developer is being too quiet or does not understand something, they can ask for more information, but otherwise should offer no advice nor provide any feedback.
 
-**The back-seat driver.** This is similar to the driving test, but in this case the examiner sits at the keyboard and follows the instructions of the other student. Again, the examiner should provide no advice, but can request clarification or an explanation of why she is being asked to do something.
+**The back-seat driver.** This is similar to the driving test, but in this case the examiner sits at the keyboard and follows the instructions of the other developer. Again, the examiner should provide no advice, but can request clarification or an explanation of why she is being asked to do something.
 
 **The driving instructor.** In this case, the person not at the keyboard should lead a discussion about the code through a series of questions. If desired, she can use the coding questions crib sheet for assistance.
 

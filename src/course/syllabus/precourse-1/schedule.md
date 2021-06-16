@@ -36,6 +36,11 @@ Work on [Execute Program](https://www.executeprogram.com/) every day. Start with
 
 ## Projects
 
-Build a website (or two) over the next two weeks. Focus on using Semantic HTML and ensuring the site has 100% in a Lighthouse Accessibility audit.
+Sign up for [JavaScript 30](https://javascript30.com/) and work on the first two projects:
 
-Add the websites into your project collection as well as some notes on what you've learnt.
+- JavaScript Drum Kit
+- CSS + JS Clock
+
+Focus on using Semantic HTML and ensuring the site has 100% in a Lighthouse Accessibility audit.
+
+Add the websites into your project collection as well as some notes on what you've learnt while building them.
