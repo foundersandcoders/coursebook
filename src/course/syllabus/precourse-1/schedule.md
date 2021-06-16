@@ -18,7 +18,9 @@ Work through the [Learn Accessibility workshop](/workshops/learn-a11y/) to pract
 
 ## Git/GitHub
 
-Clone [this repository](https://github.com/fac22/project-collection) to your own profile and commit something each day. This will be a directory of the sites you create during the pre-apprenticeship.
+Fork [this repository](https://github.com/fac22/project-collection) to your own profile and commit something each day. This will be a directory of the sites you create during the pre-apprenticeship and a record of your learnings.
+
+Customise the site in your own way and add your own style to it.
 
 Practice working with git and GitHub by pushing your solution to the HTML workshop to this repository.
 
