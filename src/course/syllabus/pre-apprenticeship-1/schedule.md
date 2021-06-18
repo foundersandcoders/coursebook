@@ -53,18 +53,18 @@ Work on [Execute Program](https://www.executeprogram.com/) every day. Start with
 
 ## Employment
 
-**Get active on Twitter**
+### Get active on Twitter
 
 Please post your Twitter handle on Discord, so that we can all follow you.
 
-**Research homework**
+### Research homework
 
 Look into how to implement ES6 array methods, like map, reduce, filter and forEach, using just a for-loop. Choose one as a challenge for next week in the role of coach.
 
-**Search for “Jackson Gabbard”**
+### Search for “Jackson Gabbard”
 
 Find his blog and YouTube channel and spend some time with them.
 
-**_Optional homework_**
+### _Optional homework_
 
 Attempt to create a script that generates 11 combinations of 4 groups of 3 people, so that any two people share the same group exactly twice and no three people are in the same group more than once. No group should be majoritively male. (I haven’t checked if this is a solvable problem yet, so please don’t spend too much time on it). Please don't post your solutions until this time next week, to give everyone who wants to have a go at it a bit of time.
