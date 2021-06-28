@@ -461,7 +461,7 @@ Note that we don't need to add media queries here. Those are great when you need
 
 #### Spacing children out
 
-Layouts usualy require some space between each element. CSS has a handy property for controlling this for flexbox and grid containers: `gap`. This is a shorthand for `row-gap` and `column-gap`, which allow you to control the vertical/horizontal spacing separately.
+Layouts usually require some space between each element. CSS has a handy property for controlling this for flexbox and grid containers: `gap`. This is a shorthand for `row-gap` and `column-gap`, which allow you to control the vertical/horizontal spacing separately.
 
 ```css
 .row {
