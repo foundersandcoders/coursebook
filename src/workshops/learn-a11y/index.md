@@ -39,7 +39,7 @@ This document will mostly focus on keyboard and screen reader access, since thos
 
 ## Different ways to navigate
 
-If you're an able-bodied web developer it's possible you aren't aware of or haven't tried navigating the web using anything but your mouse. It's important to get a sense of how other people will be attempting to use the sites you build.
+If you're a non-disabled web developer it's possible you aren't aware of or haven't tried navigating the web using anything but your mouse. It's important to get a sense of how other people will be attempting to use the sites you build.
 
 ### Keyboard navigation
 
