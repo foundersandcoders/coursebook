@@ -1,0 +1,9 @@
+- [Learn Layout](https://learnlayout.com/)
+- [SmolCSS](https://smolcss.dev/): small snippets of modern layout CSS.
+- [Every Layout](https://every-layout.dev/): great comprehensive resource on building layout components.
+- [Boxes - Every Layout](https://every-layout.dev/rudiments/boxes/)
+- [CSS Layout - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout)
+- [A complete guide to grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [Refactoring UI - Design Tips](https://twitter.com/i/events/994601867987619840)
+- [What a Year of Learning and Teaching Accessibility Taught Me](https://www.24a11y.com/2019/what-a-year-of-learning-and-teaching-accessibility-taught-me/)
+- [Why, How, and When to Use Semantic HTML and ARIA](https://css-tricks.com/why-how-and-when-to-use-semantic-html-and-aria/)
