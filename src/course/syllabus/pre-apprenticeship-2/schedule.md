@@ -1,20 +1,20 @@
 ## CSS Layouts
 
-This week, we looked at [CSS Layouts](https://learn.foundersandcoders.com/workshops/css-layout/).
+Work through the [CSS Layouts](https://learn.foundersandcoders.com/workshops/css-layout/) workshop.
 
-For next week, focus on building a [projects gallery](../project).
+And build a [projects gallery](../project).
 
 ## CSS Grid
 
 CSS Grid offers two-dimensional layouts for our pages. We define a series of rows and columns and fit our content inside these.
 
-Work through [Grid Garden](https://cssgridgarden.com/) for an interactive introduction to grids.
+Work through [Grid Garden](https://cssgridgarden.com/) picking up where you left off in the workshop.
 
 Have a go at [recreating a BBC News style homepage](https://github.com/bobbysebolao/learn-css-grid) using CSS Grid.
 
 ## A11y
 
-Look into [ARIA Labels](https://css-tricks.com/why-how-and-when-to-use-semantic-html-and-aria/) and learn [why they're used](https://www.24a11y.com/2019/what-a-year-of-learning-and-teaching-accessibility-taught-me/). Include them in your project for these two weeks.
+Look into [ARIA Labels](https://css-tricks.com/why-how-and-when-to-use-semantic-html-and-aria/) and learn [why they're used](https://www.24a11y.com/2019/what-a-year-of-learning-and-teaching-accessibility-taught-me/). Try to use them in your project when they're needed.
 
 ## Git and GitHub
 
