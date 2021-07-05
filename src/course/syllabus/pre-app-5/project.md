@@ -1,14 +1,15 @@
 Your project for this week is to continue working on your [digital agency website](../../pre-app-4/project).
 
-This week you'll work together to add user submissions as elements on your site. They does not need to be preserved on refresh.
+You'll add a way to get in touch if they are interested in working with you. When the user clicks submit on the form, their request should be added to a visible backlog on the page. The backlog does not need to be preserved when the user refreshes the page.
 
-Use what you've learnt in this week's DOM workshops to code an efficient solution.
+Use what you've learnt in this week's DOM workshops to code an efficient and robust solution.
 
-Your comments section should:
+Your requests section should:
 
-- Attach a user name to each comment
 - Allow users to leave comments requesting to work with your agency
-- Limit the length of comments to 149 characters
+- Attach a visible user name to each request
+- Ask the user to give an email address and validate the email
+- Limit the length of requests to 149 characters
 
 ### User Stories
 
@@ -25,24 +26,24 @@ Together, you and your partner should decide who will lead on each user story. Y
 - Input my name, email address and a description of the job to complete (E1)
 - Be notified if my email address doesn't look right (E2)
 - Be notified if the content I'm writing is too long (E2)
-- See my comment on the page once I click a button (E3)
-- Click a button to remove a comment (E3)
+- See my request on the page once I click a button (E3)
+
+**Stretch Goals**
+
+- Click a button to delete a request (E2)
+- Click a button to mark a request as complete (E2)
 
 **Additionally, as a visually impaired user, I want to:**
 
-- Navigate your website using keyboard controls (E2)
+- Navigate your website using keyboard controls (E1)
 - Hear my screen reader describe the content on your website (E1)
 
 ## Acceptance Criteria
 
 _**User stories come with [acceptance criteria](https://blog.easyagile.com/how-to-write-good-user-stories-in-agile-software-development-d4b25356b604?gi=dc603f56ed77) - a detailed scope of a user’s requirements.**_
 
-- Navigation menu
-- ‘About us’ section
-- Contact form
-- A user cannot submit a form without filling out all of the mandatory fields (name, company name, email address)
-- Information from the form doesn’t get submitted until the user clicks a button
-
-### Stretch Goal
-
-Use the automatic trigger functionality of your [GitHub project board](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards).
+- Input boxes for name, email and request
+- Visible feedback when inputs are not valid
+- A submit button
+- A user cannot submit a form without filling out all of the mandatory fields (name, email address, request)
+- Information from the form appears on the page after clicking submit

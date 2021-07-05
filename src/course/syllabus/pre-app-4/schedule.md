@@ -1,7 +1,3 @@
-## Execute Program
-
-Continue working on all the modules you've started.
-
 ## Git and GitHub
 
 Continue to expand your learning repository and keep committing at least once a day.
@@ -15,3 +11,18 @@ Install [Prettier](https://www.digitalocean.com/community/tutorials/how-to-forma
 Your [project](../project) this week is to work together with your assigned partner on a set of user stories. We've estimated how long each one should take.
 
 Focus on reading and reviewing each others' code before merging pull requests. Reflect on the challenges of working together and what you've learnt from pairing on a project asynchronously.
+
+## Spikes
+
+This week there is one [tech spike on checking our code](../spikes).
+
+## Execute Program
+
+Continue working on the modules you've started.
+
+## JavaScript30
+
+Work on:
+
+- 14 Must Know Dev Tools Tricks
+- Hold Shift to Check Multiple Checkboxes
