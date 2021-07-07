@@ -22,7 +22,7 @@ Continue to upload your learnings to your personal repository and include your p
 
 Aim to commit something every day. Employers often look at the green squares on your profile!
 
-## JS30
+## JavaScript30
 
 Work through _Playing with CSS Variables and JS_ && _Array Cardio 1_ on [JavaScript30](https://javascript30.com/).
 
