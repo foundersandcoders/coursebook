@@ -11,8 +11,6 @@ Your requests section should:
 - Ask the user to give an email address and validate the email
 - Limit the length of requests to 149 characters
 
-### User Stories
-
 ## User Stories
 
 _**A [user story](https://www.visual-paradigm.com/guide/agile-software-development/what-is-user-story/) is a description of one or more features of a piece of software.**_
