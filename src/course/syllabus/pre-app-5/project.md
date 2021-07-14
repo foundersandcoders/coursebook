@@ -11,7 +11,11 @@ _**A [user story](https://www.visual-paradigm.com/guide/agile-software-developme
 
 ### Core Stories
 
-Together, you and your partner should decide who will lead on each user story. You may need to rely on each other for parts of the project. Try to split the work evenly between you both.
+Together, you and your partner should decide who will lead on each user story. You may need to rely on each other for parts of the project. Split the work evenly between you both.
+
+We have estimated each user story to give you a rough idea of how long it might take. We are assuming each developer's velocity for this sprint is 5 story points.
+
+For more information and definitions of these terms, see our [project management page](./handbook/project-management).
 
 **As a potential client, I want to:**
 

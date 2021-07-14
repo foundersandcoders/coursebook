@@ -1,6 +1,6 @@
 ## Checking our code
 
-What are all the different ways to make sure our code is correct?
+What different ways can we make sure our code is consistent?
 
 ### Questions to consider
 
