@@ -19,7 +19,7 @@ Coders is on learning to write code, programmers generally spend more time readi
 Make sure your own project is ready to be reviewed:
 
 - [ ] Push the latest changes to GitHub
-- [ ] Make sure the code you want reviewed is merged into the Master branch
+- [ ] Make sure the code you want reviewed is merged into the Main branch
 - [ ] If possible deploy the latest version so it can be viewed online
 - [ ] Make sure there's a `README.md` that describes the project
 - [ ] The readme should contain instructions on running the project locally

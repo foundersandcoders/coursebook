@@ -30,7 +30,7 @@ Together, you and your partner should decide who will lead on each user story. Y
 
 We have estimated each user story to give you a rough idea of how long it might take. We are assuming each developer's velocity for this sprint is 10 story points. Use your velocity from last week to estimate how many points you will complete this week.
 
-For more information and definitions of these terms, see our [project management page](./handbook/project-management).
+For more information and definitions of these terms, see our [project management page](/course/handbook/project-management).
 
 **As a potential client, I want to:**
 
