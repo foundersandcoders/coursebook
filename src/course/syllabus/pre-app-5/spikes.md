@@ -1,17 +1,14 @@
-## Advanced DOM
+## Checking our code
 
-How can we use advanced DOM features to make rendering complex UIs easier.
+What are all the different ways to make sure our code is correct?
 
 ### Questions to consider
 
-1. What is a NodeList?
-   - How is it different from an array?
-   - What's the different between "live" and "static" NodeLists?
-1. What is the `<template>` element?
-   - How can we use this to render dynamic UI?
+1. What is Prettier? How might it help us write better code?
+1. How can a linter help us avoid bugs?
 
 ### Useful resources
 
-- [NodeList | MDN](https://developer.mozilla.org/en-US/docs/Web/API/NodeList)
-- [The Content Template Element | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template)
-- [Template element example](https://codepen.io/oliverjam/pen/yLNEOQO?editors=1010)
+- [How To Format Code with Prettier in Visual Studio Code](https://www.digitalocean.com/community/tutorials/how-to-format-code-with-prettier-in-visual-studio-code)
+- [ESLint Getting Started](https://eslint.org/docs/user-guide/getting-started)
+- [ESLint About](https://eslint.org/docs/about/)

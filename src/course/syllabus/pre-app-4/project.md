@@ -1,43 +1,5 @@
-Your challenge for the next two weeks is to build an agency website for your team.
+Your project for these two weeks is to build a _Projects Gallery_ using what you've learnt. The gallery should have an image of the project, a title and a short description.
 
-Your website should give potential clients:
+Create an `index.html` in your existing learnings repo on GitHub. You can create the gallery in here, with links to all the projects in the repo, and then deploy the repo to GitHub Pages.
 
-- An introduction to your agency
-- Information about each member of your team
-
-## User Stories
-
-_**A [user story](https://www.visual-paradigm.com/guide/agile-software-development/what-is-user-story/) is a description of one or more features of a piece of software.**_
-
-### Core Stories
-
-Together, you and your partner should decide who will lead on each user story. You may need to rely on each other for parts of the project. Try to split the work evenly between you both.
-
-**As a potential client, I want to:**
-
-- See information about each member of your team so that I can know who you are (E1)
-- Browse your website on mobile, tablet, and desktop devices (E3)
-- Click to navigate to different sections of your webpage (E1)
-- Visit your website at a publicly accessible domain name (E2)
-
-**Additionally, as a visually impaired user, I want to:**
-
-- Navigate your website using keyboard controls (E2)
-- Hear my screen reader describe the content on your website (E1)
-
-## Acceptance Criteria
-
-_**User stories come with [acceptance criteria](https://blog.easyagile.com/how-to-write-good-user-stories-in-agile-software-development-d4b25356b604?gi=dc603f56ed77) - a detailed scope of a user’s requirements.**_
-
-- Navigation menu
-- ‘About us’ section
-- Images, text and external links
-- Semantic HTML elements
-
-### Stretch Goal
-
-Use the automatic trigger functionality of your [GitHub project board](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards).
-
----
-
-Finally, feel free to get creative with the content of your website! Good luck!
+**This week:** Refactor your code this week to include your learnings about CSS architecture, variables and responsive design.

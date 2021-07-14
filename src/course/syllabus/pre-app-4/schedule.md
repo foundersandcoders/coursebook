@@ -1,28 +1,38 @@
 ## Git and GitHub
 
-Continue to expand your learning repository and keep committing at least once a day.
+Upload your learnings to your GitHub learning repository.
 
-## Linting and formatting
+This week, focus on adding some reflections on:
 
-Install [Prettier](https://www.digitalocean.com/community/tutorials/how-to-format-code-with-prettier-in-visual-studio-code) and [ESLint](https://eslint.org/docs/user-guide/getting-started). Ensure both are running by default and keep a consistent coding standard across your project.
-
-## Project
-
-Your [project](../project) this week is to work together with your assigned partner on a set of user stories. We've estimated how long each one should take.
-
-Focus on reading and reviewing each others' code before merging pull requests. Reflect on the challenges of working together and what you've learnt from pairing on a project asynchronously.
+- CSS Architecture
+- Responsive Design
+- Advanced CSS
 
 ## Spikes
 
-This week there is one [tech spike on checking our code](../spikes).
+During the course, each week you'll do [technical spikes](course/handbook/spikes) with members of other project teams.
 
-## Execute Program
+This week, these three topics are your spikes. Each person should learn every topic and be able to talk about it, how you research them is up to you and we'd love to see you working together.
 
-Continue working on the modules you've started.
+Visit the [spikes](../spikes) tab for some questions to consider and resources to help you.
+
+## Project
+
+The focus of the [project](../project) this week is to refactor your site with what you've learnt this week in mind.
+
+Add reflections to your learnings repository on:
+
+- How you found looking at code you'd written and refactoring
+- Any challenges you encouter with updating the layout of a site to be responsive
 
 ## JavaScript30
 
-Work on:
+Work through _Array Cardio 2_ and build a _Flex Panels Image Gallery_.
 
-- 14 Must Know Dev Tools Tricks
-- Hold Shift to Check Multiple Checkboxes
+## Execute Program
+
+Continue working on _Modern JavaScript_, _Arrays_ and _Concurrency_.
+
+The final two sections are _Regular Expressions_ and _SQL_.
+
+You'll be working on all of the available exercises and we won't be assigning more in the coming weeks. Decide on how you will structure your time so you can balance working on all five over the coming weeks.

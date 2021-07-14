@@ -1,15 +1,9 @@
-Your project for this week is to continue working on your [digital agency website](../../pre-app-4/project).
+Your challenge for the next two weeks is to build an agency website for your team.
 
-You'll add a way to get in touch if they are interested in working with you. When the user clicks submit on the form, their request should be added to a visible backlog on the page. The backlog does not need to be preserved when the user refreshes the page.
+Your website should give potential clients:
 
-Use what you've learnt in this week's DOM workshops to code an efficient and robust solution.
-
-Your requests section should:
-
-- Allow users to leave comments requesting to work with your agency
-- Attach a visible user name to each request
-- Ask the user to give an email address and validate the email
-- Limit the length of requests to 149 characters
+- An introduction to your agency
+- Information about each member of your team
 
 ## User Stories
 
@@ -21,27 +15,29 @@ Together, you and your partner should decide who will lead on each user story. Y
 
 **As a potential client, I want to:**
 
-- Input my name, email address and a description of the job to complete (E1)
-- Be notified if my email address doesn't look right (E2)
-- Be notified if the content I'm writing is too long (E2)
-- See my request on the page once I click a button (E3)
-
-**Stretch Goals**
-
-- Click a button to delete a request (E2)
-- Click a button to mark a request as complete (E2)
+- See information about each member of your team so that I can know who you are (E1)
+- Browse your website on mobile, tablet, and desktop devices (E3)
+- Click to navigate to different sections of your webpage (E1)
+- Visit your website at a publicly accessible domain name (E2)
 
 **Additionally, as a visually impaired user, I want to:**
 
-- Navigate your website using keyboard controls (E1)
+- Navigate your website using keyboard controls (E2)
 - Hear my screen reader describe the content on your website (E1)
 
 ## Acceptance Criteria
 
 _**User stories come with [acceptance criteria](https://blog.easyagile.com/how-to-write-good-user-stories-in-agile-software-development-d4b25356b604?gi=dc603f56ed77) - a detailed scope of a user’s requirements.**_
 
-- Input boxes for name, email and request
-- Visible feedback when inputs are not valid
-- A submit button
-- A user cannot submit a form without filling out all of the mandatory fields (name, email address, request)
-- Information from the form appears on the page after clicking submit
+- Navigation menu
+- ‘About us’ section
+- Images, text and external links
+- Semantic HTML elements
+
+### Stretch Goal
+
+Use the automatic trigger functionality of your [GitHub project board](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards).
+
+---
+
+Finally, feel free to get creative with the content of your website! Good luck!

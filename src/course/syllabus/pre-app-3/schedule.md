@@ -1,38 +1,35 @@
+## CSS Layouts
+
+Work through the [CSS Layouts](https://learn.foundersandcoders.com/workshops/css-layout/) workshop.
+
+And build a [projects gallery](../project).
+
+## CSS Grid
+
+CSS Grid offers two-dimensional layouts for our pages. We define a series of rows and columns and fit our content inside these.
+
+Work through [Grid Garden](https://cssgridgarden.com/) picking up where you left off in the workshop.
+
+Have a go at [recreating a BBC News style homepage](https://github.com/bobbysebolao/learn-css-grid) using CSS Grid.
+
+## A11y
+
+Look into [ARIA Labels](https://css-tricks.com/why-how-and-when-to-use-semantic-html-and-aria/) and learn [why they're used](https://www.24a11y.com/2019/what-a-year-of-learning-and-teaching-accessibility-taught-me/). Try to use them in your project when they're needed.
+
 ## Git and GitHub
 
-Upload your learnings to your GitHub learning repository.
+Continue to upload your learnings to your personal repository and include your projects from last week. Have a look at others' to see how they've structure the site and their code!
 
-This week, focus on adding some reflections on:
-
-- CSS Architecture
-- Responsive Design
-- Advanced CSS
-
-## Spikes
-
-During the course, each week you'll do [technical spikes](course/handbook/spikes) with members of other project teams.
-
-This week, these three topics are your spikes. Each person should learn every topic and be able to talk about it, how you research them is up to you and we'd love to see you working together.
-
-Visit the [spikes](../spikes) tab for some questions to consider and resources to help you.
-
-## Project
-
-The focus of the [project](../project) this week is to refactor your site with what you've learnt this week in mind.
-
-Add reflections to your learnings repository on:
-
-- How you found looking at code you'd written and refactoring
-- Any challenges you encouter with updating the layout of a site to be responsive
+Aim to commit something every day. Employers often look at the green squares on your profile!
 
 ## JavaScript30
 
-Work through _Array Cardio 2_ and build a _Flex Panels Image Gallery_.
+Work through _Playing with CSS Variables and JS_ && _Array Cardio 1_ on [JavaScript30](https://javascript30.com/).
 
 ## Execute Program
 
-Continue working on _Modern JavaScript_, _Arrays_ and _Concurrency_.
+Continue with Modern JavaScript and Arrays. Started working on Concurrency. Try to do at least one problem a day.
 
-The final two sections are _Regular Expressions_ and _SQL_.
+## Employment
 
-You'll be working on all of the available exercises and we won't be assigning more in the coming weeks. Decide on how you will structure your time so you can balance working on all five over the coming weeks.
+Tbc.

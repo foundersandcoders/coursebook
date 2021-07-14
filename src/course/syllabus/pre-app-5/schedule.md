@@ -1,26 +1,28 @@
-## GitHub
+## Git and GitHub
 
-Upload your learnings from this week onto your learning repository.
+Continue to expand your learning repository and keep committing at least once a day.
 
-Now that you've code reviewed someone else's code, you might like to refactor your own site. Consider the architecture of the site and what you want the focus of the site to be.
+## Linting and formatting
 
-You're welcome to pair up and review one another sites too.
+Install [Prettier](https://www.digitalocean.com/community/tutorials/how-to-format-code-with-prettier-in-visual-studio-code) and [ESLint](https://eslint.org/docs/user-guide/getting-started). Ensure both are running by default and keep a consistent coding standard across your project.
 
 ## Project
 
-Continue working on your site in pairs. Have a look at the [new User Stories](../project) and work on them this week.
+Your [project](../project) this week is to work together with your assigned partner on a set of user stories. We've estimated how long each one should take.
 
-## Execute Program
-
-Keep up with your daily practice on Execute Program.
-
-## JavaScript30
-
-Continue working on JavaScript30 Projects. We suggest taking a look at these two:
-
-- JS30: Object and Arrays - Reference VS Copy
-- JS30: Sorting Band Names without articles
+Focus on reading and reviewing each others' code before merging pull requests. Reflect on the challenges of working together and what you've learnt from pairing on a project asynchronously.
 
 ## Spikes
 
-This week, there is one [tech spike on Advanced DOM](../spikes).
+This week there is one [tech spike on checking our code](../spikes).
+
+## Execute Program
+
+Continue working on the modules you've started.
+
+## JavaScript30
+
+Work on:
+
+- 14 Must Know Dev Tools Tricks
+- Hold Shift to Check Multiple Checkboxes
