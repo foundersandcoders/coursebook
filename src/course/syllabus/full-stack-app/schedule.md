@@ -13,7 +13,7 @@ schedule:
     - name: Learn Next.js
       start: 14:00
       end: 17:45
-      url: https://nextjs.org/learn/basics/
+      url: https://nextjs.org/learn/
       type: workshop
   tuesday:
     - name: Project setup
