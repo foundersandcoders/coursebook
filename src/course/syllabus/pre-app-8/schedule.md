@@ -1,0 +1,2 @@
+- spike: debugging network requests
+- Project: make a site that uses two API calls
