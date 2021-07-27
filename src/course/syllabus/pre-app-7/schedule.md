@@ -1,14 +1,25 @@
-This week will focus on completing workshops to prepare for your project next week
+In this Wednesday's workshop we looked at [functions, callbacks and asynchronous JavaScript](https://learn.foundersandcoders.com/workshops/functions-callbacks-async/).
 
-- Set up project repository with HTML, CSS and JS files (30 mins)
-- HTML Forms (60 mins)
-- Learn Fetch (135 mins)
-- Promise practice (120 mins)
-- Real-world fetch (30)
-  total of 5.75 hours
+## HTML Forms
 
-Spikes:
+_60 minutes_
 
-- Debugging JS
-- Async JS
-- Research an API
+Learn more about what happens when we submit HTML forms and how to collect their data by complete [this workshop](https://learn.foundersandcoders.com/workshops/html-forms/).
+
+## Promises
+
+_120 minutes_
+
+Learn about promises in [this workshop](https://learn.foundersandcoders.com/workshops/promise-practice/).
+
+## Tech spikes
+
+_60 minutes_
+
+See the two tech spikes in the [spikes](spikes.md) section.
+
+## Project
+
+_60 minutes_
+
+Work on getting your [project](project.md) repository set up ready for making API calls next week.
