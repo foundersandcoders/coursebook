@@ -1,0 +1,2 @@
+- [First-class Function | MDN](https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function)
+- [What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ) (video)
