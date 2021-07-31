@@ -16,7 +16,7 @@ An inexperienced group can be led by a facilitator, who can ensure that everyone
 - 00:05 Round #1
 - 00:25 Round #2
 - 00:45 Round #3
-- 00:65 Group feedback #TIL 
+- 00:65 Group reflection  
 - 00:70 Check-out
 - 00:75 End
 
@@ -57,8 +57,7 @@ After checking-in, the group can agree on their roles for the first round.
 
 ## Ending
 
-At the end of the third and final round, if the group is reporting back to a larger group, they can nominate a spokeperson and agree their most significant learnings from the group before checking out.
-
+At the end of the third and final round, the group can take 5 minutes to offer final reflections on each of the rounds. If the group is reporting back to a larger group, then each person can rehearse a 20-second reflection from the Observer's point of view, before checking out. 
 
 ## Tools
 
