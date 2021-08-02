@@ -1,6 +1,7 @@
 # Learning circles
 
 ## Set up
+
 - Groups of 4. Typically, lasting 90 minutes, with four 20-minute rounds;
 - Start with a check-in and end with a check-out;
 - Inexperienced groups should have a facilitator present.
@@ -18,6 +19,7 @@
 - When the round comes to an end, the next group member takes on the role of presenter and the process is repeated until each member of the group has presented.
 
 Aims:
+
 1. To give each participant an opportunity to get the support of the group with a problem that they are working on;
 2. To give each participant practice in developing questioning strategies to aid problem solving;
 3. To give each participant practice at communicating proposed solutions;
@@ -27,6 +29,5 @@ Aims:
 
 ## Tools
 
-- [Question crib sheet](problem-solving-questions.md), that each respondent can use as a scaffold for their questioning;
-- [Glossary](glossary.md) of terms.
-
+- [Question crib sheet](../problem-solving-questions/), that each respondent can use as a scaffold for their questioning;
+- [Glossary](../glossary/) of terms.

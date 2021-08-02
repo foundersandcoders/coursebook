@@ -16,4 +16,4 @@ Learn about promises in [this workshop](https://learn.foundersandcoders.com/work
 
 _45 minutes_
 
-Work on getting your [project](project.md) repository set up ready for making API calls next week.
+Work on getting your [project](../project/) repository set up ready for making API calls next week.

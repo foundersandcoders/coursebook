@@ -10,7 +10,7 @@ Practise what you learnt in the workshop with this [real-world fetch workshop](h
 
 _90 minutes_
 
-Complete the three [Tech Spikes](spikes.md) on debugging JavaScript, asynchronous JavaScript, and debugging network requests.
+Complete the three [Tech Spikes](../spikes) on debugging JavaScript, asynchronous JavaScript, and debugging network requests.
 
 ## Project
 
