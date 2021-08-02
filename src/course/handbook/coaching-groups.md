@@ -61,6 +61,6 @@ At the end of the third and final round, the group can take 5 minutes to offer f
 
 ## Tools
 
-- [Question crib sheet](problem-solving-questions.md), that each respondent can use as a scaffold for their questioning;
-- [Glossary](glossary.md) of terms.
+- [Question crib sheet](/course/handbook/problem-solving-questions/), that each respondent can use as a scaffold for their questioning;
+- [Glossary](/course/handbook/glossary/) of terms.
 
