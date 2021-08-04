@@ -2,9 +2,9 @@ In this Wednesday's workshop we looked at [HTML Forms](https://learn.foundersand
 
 ## Fetch
 
-_30 minutes_
+_120 minutes_
 
-Practise what you learnt in the workshop with this [real-world fetch workshop](https://learn.foundersandcoders.com/workshops/real-world-fetch).
+Practice what you learnt in last week's `fetch` workshop with this [real-world fetch workshop](https://learn.foundersandcoders.com/workshops/real-world-fetch).
 
 ## Tech Spike
 
