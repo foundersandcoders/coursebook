@@ -31,7 +31,7 @@ test("TDD explanation: map() should transform a one element array using the fn a
 
 //   function map(array, fn) {
 //     const item = array[0];
-//     const mappedItem = fn(firstThing);
+//     const mappedItem = fn(item);
 //     const result = [mappedItem];
 //     return result;
 //   }

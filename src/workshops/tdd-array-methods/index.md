@@ -183,7 +183,7 @@ The function is called with the current value of the accumulator and the current
 const arr = [1, 2, 3];
 const finalTotal = arr.reduce((total, x) => total + x, 0);
 // 1st loop (total = 0, x = 1) => 0 + 1; returns new total: 1
-// 2nd loop (total = 1, x = 2) => 1 = 2; returns new total: 3
+// 2nd loop (total = 1, x = 2) => 1 + 2; returns new total: 3
 // 3rd loop (total = 3, x = 3) => 3 + 3; returns new total: 6
 ```
 
