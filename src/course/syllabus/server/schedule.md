@@ -22,31 +22,41 @@ schedule:
       url: /workshops/node-express-server/
       type: workshop
   tuesday:
-    - name: Anni's talk
-      start: 11:00
-      end: 12:30
     - name: Server-side forms
-      start: 12:30
+      start: 11:00
       end: 13:00
       url: /workshops/server-side-forms/
       type: workshop
-    - name: Server-side forms
+    - name: Tech for Better - Introduction
       start: 14:00
-      end: 15:30
-      url: /workshops/server-side-forms/
-      type: workshop
+      end: 14:45
     - name: Mentoring chat
-      start: 15:30
-      end: 15:45
+      start: 14:45
+      end: 15:00
     - name: Testing with Cypress
-      start: 15:45
-      end: 17:45
+      start: 15:00
+      end: 17:00
       url: /workshops/cypress-testing/
       type: workshop
+    - name: Project intro
+      start: 17:00
+      end: 17:15
+    - name: Project set up
+      start: 17:15
+      end: 17:45
+      type: project
   wednesday:
-    - name: Node scripting challenge
+    - name: Web science talk
       start: 10:00
-      end: 11:00
+      end: 10:45
+      type: presentation
+    - name: Node scripting challenge
+      start: 10:45
+      end: 11:45
       url: /workshops/node-scripting-challenge/
       type: challenge
+    - name: Project
+      start: 11:45
+      end: 13:00
+      type: project
 ---
