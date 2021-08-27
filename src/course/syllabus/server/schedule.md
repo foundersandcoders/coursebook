@@ -38,27 +38,10 @@ schedule:
       end: 17:00
       url: /workshops/cypress-testing/
       type: workshop
-    - name: Project intro
-      start: 17:00
-      end: 17:15
-      url: ../project
-    - name: Project set up, estimation and testing
-      start: 17:15
-      end: 17:45
-      type: project
-      url: ../project
   wednesday:
-    - name: Web science talk
-      start: 10:00
-      end: 10:45
-      type: presentation
     - name: Node scripting challenge
       start: 10:45
       end: 11:45
       url: /workshops/node-scripting-challenge/
       type: challenge
-    - name: Project
-      start: 11:45
-      end: 13:00
-      type: project
 ---
