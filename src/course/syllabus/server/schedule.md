@@ -41,10 +41,12 @@ schedule:
     - name: Project intro
       start: 17:00
       end: 17:15
-    - name: Project set up
+      url: ../project
+    - name: Project set up, estimation and testing
       start: 17:15
       end: 17:45
       type: project
+      url: ../project
   wednesday:
     - name: Web science talk
       start: 10:00
