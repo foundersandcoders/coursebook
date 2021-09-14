@@ -61,7 +61,11 @@ This article about [building for Safari Reader Mode](https://medium.com/@mandy.m
 
 This is also very important for _accessibility_. The web is for everyone, including people who use other types of software to browse. For example visually-impaired users often use "screen readers", which read the page out loud.
 
-Screen readers rely on semantics, otherwise everything just looks like a div to them. For example using heading tags (`<h1>`, `<h2>` etc) creates a page structure that lets a user quickly jump from section to section to find what they need (without waiting for the entire page to be read out loud).
+Human brains are great at "pattern-matching"—e.g. if you see a rectangle with a blue background and rounded corners you assume it's something you can click on to trigger an action (i.e. a button). Your brain doesn't know or care if the underlying element was a div.
+
+Computer programs like screen readers are not so good at this—they can't guess at behaviour based on how something is rendered. So instead they must use the underlying markup semantics to figure out what things are.
+
+For example using heading tags (`<h1>`, `<h2>` etc) creates a page structure that lets a user quickly jump from section to section to find what they need (without waiting for the entire page to be read out loud).
 
 <figure>
   <img src="vo-headings.jpg" alt="Voiceover allows quick navigation to each section of this page via the headings" width="1680" height="1720">
