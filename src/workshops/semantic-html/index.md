@@ -16,7 +16,7 @@ HTML is a _markup language_. It is used to "mark up" a document with extra infor
 
 When we describe markup as "semantic" we mean it describes the structure of the document. It tells the browser _what things are_ (rather than what content they contain or how they are styled).
 
-For example we can make a `<div>` look like a button using CSS:
+For example we can make a `<span>` look like a button using CSS:
 
 ```html
 <style>
@@ -27,7 +27,7 @@ For example we can make a `<div>` look like a button using CSS:
     background-color: grey;
   }
 </style>
-<div class="button">Click me</button>
+<span class="button">Click me</span>
 ```
 
 We could even add some JavaScript event handlers to it so it _behaved_ like a button when clicked. However from the browser's perspective it has no meaning—it's not actually a button.
@@ -64,7 +64,7 @@ This is also very important for _accessibility_. The web is for everyone, includ
 Screen readers rely on semantics, otherwise everything just looks like a div to them. For example using heading tags (`<h1>`, `<h2>` etc) creates a page structure that lets a user quickly jump from section to section to find what they need (without waiting for the entire page to be read out loud).
 
 <figure>
-  <img src="vo-headings.jpg" alt="Voiceover allows quick navigation to each section of this page via the headings">
+  <img src="vo-headings.jpg" alt="Voiceover allows quick navigation to each section of this page via the headings" width="1680" height="1720">
   <figcaption>Screenshot of Voiceover's headings menu for this page</figcaption>
 </figure>
 
@@ -103,25 +103,25 @@ First you need to download the starter files. There's a box at the top of this p
 
 Once you've downloaded the files you can move into that directory in your Terminal by running:
 
-```bash
+```shell
 cd semantic-html
 ```
 
 You can see what's in there by listing the files with:
 
-```bash
+```shell
 ls
 ```
 
 You can open the challenge file in VS Code with:
 
-```bash
+```shell
 code challenge.html
 ```
 
 And you can open the page in your default browser with:
 
-```bash
+```shell
 open challenge.html
 ```
 
@@ -133,4 +133,4 @@ Don't peek at the solution before you try the challenge!
 
 There are a few missing things that aren't necessarily related to _semantics_, but are important for the page to have anyway. Try to find and fix some of these issues.
 
-There's some usual info in [my article on how web pages are structured](https://oliverjam.es/blog/complete-guide-to-making-web-pages/).
+There's some useful info in [this article on how web pages are structured](https://oliverjam.es/blog/complete-guide-to-making-web-pages/).
