@@ -38,10 +38,4 @@ schedule:
       end: 17:00
       url: /workshops/cypress-testing/
       type: workshop
-  wednesday:
-    - name: Node scripting challenge
-      start: 10:45
-      end: 11:45
-      url: /workshops/node-scripting-challenge/
-      type: challenge
 ---
