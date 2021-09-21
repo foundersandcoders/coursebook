@@ -39,17 +39,7 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/handbook/project-management/">Project Management</${Link}></li>
         </${Section}>
         <${Section} title="Syllabus" url=${url} subpath="course/syllabus">
-          <li><${Link} url=${url} href="/course/syllabus/pre-app-1/schedule/">Pre-apprenticeship 1</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/pre-app-3/schedule/">Pre-apprenticeship 3</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/pre-app-4/schedule/">Pre-apprenticeship 4</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/pre-app-5/schedule/">Pre-apprenticeship 5</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/pre-app-6/schedule/">Pre-apprenticeship 6</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/pre-app-7/schedule/">Pre-apprenticeship 7</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/pre-app-8/schedule/">Pre-apprenticeship 8</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/pre-app-9/schedule/">Pre-apprenticeship 9</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/pre-app-10/schedule/">Pre-apprenticeship 10</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/pre-app-11/schedule/">Pre-apprenticeship 11</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/pre-app-12/schedule/">Pre-apprenticeship 12</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/introduction/schedule/">Introduction</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/teamwork/schedule/">Teamwork</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/http/schedule/">HTTP</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/testing/schedule/">Testing</${Link}></li>
