@@ -22,7 +22,7 @@ schedule:
       end: 13:00
       url: /workshops/database-testing
       type: workshop
-    - name: Tech for Better - Product pitches
+    - name: TFB - Product pitches
       start: 14:00
       end: 15:00
     - name: Error-handling

@@ -27,7 +27,7 @@ schedule:
       end: 13:00
       url: /workshops/server-side-forms/
       type: workshop
-    - name: Tech for Better - Introduction
+    - name: TFB - Introduction
       start: 14:00
       end: 14:45
     - name: Mentoring chat
