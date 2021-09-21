@@ -1,6 +1,5 @@
 .timetable {
   display: grid;
-  row-gap: 0.5rem;
 }
 
 .day {
@@ -20,9 +19,9 @@
   display: grid;
   gap: 0.25rem;
   align-content: start;
-  border-bottom: 2px solid hsl(var(--hue), var(--sat), 80%);
-  padding: clamp(0.5rem, 0.5rem + 1vw, 1rem);
-  background-color: hsl(var(--hue), var(--sat), 90%);
+  border-top: 2px solid hsl(var(--hue), var(--sat), 82%);
+  padding: clamp(0.5rem, 0.5rem + 1vw, 1.125rem);
+  background-color: hsl(var(--hue), var(--sat), 92%);
   color: hsl(var(--hue), calc(var(--sat) / 4), 15%);
   line-height: 1.2;
   transition: transform 0.1s ease-out;
@@ -92,7 +91,7 @@
   }
   .timetable {
     grid-template-columns: repeat(5, minmax(0, 1fr));
-    column-gap: clamp(0.025rem, 0.025rem + 2vw, 2rem);
+    column-gap: clamp(0.025rem, 0.025rem + 1vw, 1.5rem);
   }
   .entry {
     grid-row: var(--row);
