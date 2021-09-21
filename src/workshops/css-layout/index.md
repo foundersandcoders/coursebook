@@ -479,7 +479,7 @@ Layouts usually require some space between each element. CSS has a handy propert
   <figcaption>Flex gap example</figcaption>
 </figure>
 
-Note that the gap is maintained even when the children wrap. Unfortunately `gap` is not supported for flexbox in Safari yet (it works fine for grid). You can [approximate the same effect using margins](https://web.dev/flexbox-gap/#flexbox-gap), but it's more complex to make sure it handles wrapping.
+Note that the gap is maintained even when the children wrap. Using `gap` for flexbox is quite new, but it is [supported by all modern browsers](https://caniuse.com/flexbox-gap). If you need to support older browsers you can [approximate the same effect using margins](https://web.dev/flexbox-gap/#flexbox-gap), but it's more complex to make sure it handles wrapping.
 
 ### Alignment
 
