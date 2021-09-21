@@ -22,24 +22,27 @@ schedule:
       end: 13:00
       url: /workshops/database-testing
       type: workshop
-    - name: Error-handling
+    - name: TFB - Product pitches
       start: 14:00
-      end: 16:00
+      end: 15:00
+    - name: Error-handling
+      start: 15:00
+      end: 17:00
       url: /workshops/node-error-handling
       type: workshop
   wednesday:
     - name: Heroku SQL challenge
-      start: 10:00
-      end: 11:00
+      start: 10:45
+      end: 11:45
       url: /workshops/heroku-sql-challenge
       type: challenge
     - name: Ceremonies & pair programming
-      start: 11:00
-      end: 11:15
+      start: 11:45
+      end: 12:00
       url: https://hackmd.io/@fac/ryDzAOabv
       type: talk
     - name: Project
-      start: 11:00
+      start: 12:00
       end: 12:45
       type: project
     - name: Role circles
