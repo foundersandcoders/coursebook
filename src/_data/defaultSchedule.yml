@@ -56,10 +56,10 @@ wednesday:
   - start: 9:45
     end: 10:00
     name: Check-in
-  - start: 10:00
-    end: 10:45
-    name: Web Science talk
-    type: presentation
+  # - start: 10:00
+  #   end: 10:45
+  #   name: Web Science talk
+  #   type: presentation
   - start: 11:45
     end: 13:00
     name: Project
