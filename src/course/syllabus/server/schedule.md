@@ -38,4 +38,10 @@ schedule:
       end: 17:00
       url: /workshops/cypress-testing/
       type: workshop
+  wednesday:
+    - start: 10:00
+      end: 11:00
+      name: Debugging challenge
+      url: /workshops/scope-challenge
+      type: challenge
 ---
