@@ -1,100 +1,17 @@
----
-layout: schedule
-schedule:
-  monday:
-    - name: Welcome talk
-      start: 10:00
-      end: 10:30
-    - name: Course resources
-      start: 10:30
-      end: 10:45
-    - name: Code of Conduct
-      url: /course/code-of-conduct/
-      start: 10:45
-      end: 11:00
-    - name: Allyship
-      url: https://hackmd.io/@fac/SkMwhF0qU
-      start: 11:00
-      end: 11:30
-    - name: Pastoral care
-      start: 11:30
-      end: 12:00
-    - name: Cohort expectations
-      url: https://github.com/foundersandcoders/master-reference/blob/master/coursebook/week-1/cohort-code-of-conduct.md
-      start: 12:00
-      end: 12:45
-    - name: Discord
-      start: 12:45
-      end: 13:00
-    - name: Intro to pair programming
-      url: /course/handbook/pair-programming/
-      start: 14:00
-      end: 15:00
-    - name: Intro to accessibility
-      url: /workshops/learn-a11y/
-      start: 15:00
-      end: 16:00
-    - name: Project & spikes intro
-      url: ../project
-      start: 16:00
-      end: 16:15
-    - name: Tech spikes research
-      url: ../spikes
-      start: 16:15
-      end: 17:15
-    - name: Tech spikes presentation prep
-      start: 17:15
-      end: 17:45
-  tuesday:
-    - name: Anni's talk
-      start: 11:00
-      end: 12:30
-    - name: User manuals
-      url: https://github.com/fac21/user-manuals
-      start: 12:30
-      end: 13:00
-    - name: Colour design burst
-      url: http://facresources.com/slides/design-burst-week1.html
-      start: 14:00
-      end: 14:30
-    - name: Colour design workshop
-      url: https://github.com/bobbysebolao/learn-css-variables
-      start: 14:30
-      end: 15:30
-    - name: Git workshop
-      url: /workshops/git-workflow/
-      start: 15:30
-      end: 17:30
-    - name: Pastoral care
-      start: 17:30
-      end: 17:45
-  wednesday:
-    - name: HTML forms
-      url: /workshops/html-forms/
-      start: 10:00
-      end: 11:00
-    - name: Project management intro
-      url: https://hackmd.io/@fac/S1wGfV2M8#/
-      start: 11:00
-      end: 11:30
-    - name: Project
-      url: ../project
-      start: 11:30
-      end: 13:00
-      type: project
-  thursday:
-  friday:
-    - start: 10:00
-      end: 10:30
-      name: Live code review
-    - start: 10:30
-      end: 11:15
-      name: Team code review
-    - name: Respond to issues
-      start: 11:15
-      end: 12:00
-    - name: Project presentations intro
-      url: /course/handbook/projects/#project-presentation
-      start: 12:00
-      end: 12:15
----
+This topic is focused on working together effectively using Git and GitHub. Since it's your first week as a cohort it'll include some introductory material from the core team as well.
+
+## Week 1
+
+1. [Command-line primer](https://www.digitalocean.com/community/tutorials/a-linux-command-line-primer) (1h)
+
+   Digital Ocean's Command Line Primer is a great intro to using your terminal. It says it's for Linux but it's applicable for Macs and Windows if you're using something like WSL or Git Bash.
+
+   Try to practice using your Terminal to navigate your computer as you're working on other tasks.
+
+1. [Markdown](https://guides.github.com/features/mastering-markdown/) (0.5h)
+
+   GitHub's Markdown introduction introduces using the Markdown language to quickly write simple HTML. Practice your Markdown by writing `README.md` files for your GitHub repositories. Try to include some headings, lists, images, and maybe even a table.
+
+1. [Git workflow](/workshops/git-workflow/) (2h)
+
+   Learn how to collaborate on a project using Git and GitHub, including using pull requests.

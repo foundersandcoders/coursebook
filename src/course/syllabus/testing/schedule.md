@@ -1,68 +1,47 @@
----
-layout: schedule
-schedule:
-  monday:
-    - start: 10:00
-      end: 10:10
-      name: Feedback survey
-    - start: 10:10
-      end: 10:30
-      name: Intro presentation
-      type: slides
-      url: https://fac-slides.netlify.app/slides/testing/
-    - start: 10:30
-      end: 11:30
-      name: Build a testing library
-      type: workshop
-      url: /workshops/learn-testing/
-    - start: 11:30
-      end: 13:00
-      name: Unit testing
-      type: workshop
-      url: /workshops/learn-unit-testing/
-    - start: 14:00
-      end: 16:00
-      name: Integration testing
-      type: workshop
-      url: /workshops/learn-integration-testing/
-  tuesday:
-    - start: 11:00
-      end: 13:00
-      name: TDD Array methods
-      type: workshop
-      url: /workshops/tdd-array-methods/
-    - start: 14:00
-      end: 15:00
-      name: Interview practice
-    - start: 15:00
-      end: 15:30
-      name: Grid design burst
-      type: workshop
-      url: https://hackmd.io/@fac/S1-95B9r8#/
-    - start: 15:30
-      end: 17:00
-      type: workshop
-      name: Grid workshop
-      url: https://github.com/bobbysebolao/learn-css-grid
-  wednesday:
-    - start: 10:00
-      end: 11:00
-      name: Scope challenge
-      type: challenge
-      url: /workshops/scope-challenge/
-    - start: 14:00
-      end: 17:30
-      name: Project
-      type: project
-    - start: 17:30
-      end: 18:30
-      name: Q&A
-  thursday:
-    - start: 14:00
-      end: 17:30
-      name: Project
-      type: project
-    - start: 17:30
-      end: 18:30
-      name: Q&A
----
+Learn how to make sure your code works correctly by creating automated tests.
+
+## Week 1
+
+1. [Intro presentation](https://fac-slides.netlify.app/slides/testing/) (0.5h)
+
+   Learn what testing is and why it's so important.
+
+1. [Build a testing library](/workshops/learn-testing/) (0.5h)
+
+   Build some helper functions for testing, to see how it really works.
+
+1. [Unit testing](/workshops/learn-unit-testing/) (1.5h)
+
+   Learn how to test simple functions in isolation.
+
+1. [Integration testing](/workshops/learn-integration-testing/) (2h)
+
+   Learn how to test whole features of your app in one go.
+
+## Week 2
+
+1. [TDD array methods](/workshops/tdd-array-methods/) (2h)
+
+   Practice test-driven development whilst learning more about array methods.
+
+1. [Scope challenge](/workshops/scope-challenge/) (1h)
+
+   Learn about JS variable scoping and practice your debugging.
+
+1. [Spikes](../spikes/) (1h)
+
+   Research a new related topic to prepare for your projects.
+
+1. [Project](../project/) (2h)
+
+   Plan your project and make sure your GitHub repository is ready for you to start working on it.
+
+## Week 3
+
+1. [Project](../project/) (7h)
+
+   Build your project!
+
+1. [Code review](/course/handbook/code-review/) (1h)
+
+   Swap projects with someone and leave GitHub issues with feedback on the code.
