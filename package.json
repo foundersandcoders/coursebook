@@ -4,7 +4,7 @@
   "description": "Our open source web development curriculum",
   "private": true,
   "scripts": {
-    "dev": "eleventy --serve --quiet --incremental",
+    "dev": "eleventy --serve --quiet",
     "build": "ELEVENTY_ENV=production eleventy",
     "pre-commit": "lint-staged",
     "postinstall": "git config core.hooksPath .githooks",

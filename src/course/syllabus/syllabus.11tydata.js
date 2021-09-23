@@ -2,8 +2,8 @@ module.exports = {
   layout: "syllabus",
   eleventyComputed: {
     topic: (data) => {
-      // get whatever comes after syllabus in path. e.g. /syllabus/{this}/stuff
-      const [, topic] = data.page.inputPath.match(/\/syllabus\/(.+)\//);
+      // get whatever comes after syllabus in path. e.g. /syllabus/apprenticeship/{this}/stuff
+      const [, topic] = data.page.inputPath.match(/\/syllabus\/.+\/(.+)\//);
       return titleCase(topic);
     },
     section: (data) => {
