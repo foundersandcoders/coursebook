@@ -1,0 +1,15 @@
+[[redirects]]
+  from = "/course/syllabus/teamwork/*"
+  to = "/course/syllabus/pre-apprenticeship/teamwork/:splat/"
+
+[[redirects]]
+  from = "/course/syllabus/http/*"
+  to = "/course/syllabus/pre-apprenticeship/http/:splat/"
+
+[[redirects]]
+  from = "/course/syllabus/testing/*"
+  to = "/course/syllabus/pre-apprenticeship/testing/:splat/"
+
+[[redirects]]
+  from = "/course/syllabus/:topic/:section"
+  to = "/course/syllabus/apprenticeship/:topic/:section/"
