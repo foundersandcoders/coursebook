@@ -85,7 +85,17 @@ We can use the `send` method of the response object to tell Express to send the 
 
 ## Starting the server
 
-Our Node program has a functioning server, but that server isn't currently listening for requests. We need to tell it to do so, and what port it should listen on:
+Our Node program has a functioning server, but that server isn't currently listening for requests. Servers need to connect to the internet and listen for incoming HTTP requests on via a "port".
+
+{% box %}
+
+A "port" is an entry/exit point on a computer to allow network connections (like an airport allows people in/out of a country). HTTP uses port 80 by default (and HTTP uses 443), so you don't normally see them in URLs on the web. E.g. when you visit `https://google.com` you are really going to `https://google.com:443`.
+
+When you're running a server locally in development it's common to use a random number like 3000 or 8080. You can access a port by adding it to a URL like this: `http://localhost:3000`.
+
+{% endbox %}
+
+We can tell our server to listen on a port like this:
 
 ```js
 const express = require("express");
@@ -113,7 +123,7 @@ The server will start and you should see "Server listening on http://localhost:3
 
 {% box "error" %}
 
-**Note**: The Node process will continue running until you tell it to stop by typing <kbd>control</kbd> + <kbd>c</kbd> in your terminal. Every time you change your code you must stop the old process and start a new one by running `node server.js` again.
+**Important**: The Node process will continue running until you tell it to stop by typing <kbd>control</kbd> + <kbd>c</kbd> in your terminal. Every time you change your code you must stop the old process and start a new one by running `node server.js` again.
 
 {% endbox %}
 
