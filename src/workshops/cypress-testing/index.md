@@ -24,6 +24,14 @@ cd cypress-testing
 npm init -y
 ```
 
+{% box %}
+
+### Linux users
+
+If you're on Linux you may need to install additional dependencies. You can find the commands you need [in Cypress's docs](https://docs.cypress.io/guides/getting-started/installing-cypress#Linux).
+
+{% endbox %}
+
 Once you're inside your new directory and have generated a `package.json` file you can install Cypress as a dev dependency:
 
 ```shell
