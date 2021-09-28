@@ -32,19 +32,19 @@ schedule:
       type: workshop
   wednesday:
     - name: Heroku SQL challenge
-      start: 10:45
-      end: 11:45
+      start: 10:00
+      end: 11:00
       url: /workshops/heroku-sql-challenge
       type: challenge
+    - name: Project
+      start: 11:00
+      end: 12:30
+      type: project
     - name: Ceremonies & pair programming
-      start: 11:45
-      end: 12:00
+      start: 12:30
+      end: 12:45
       url: https://hackmd.io/@fac/ryDzAOabv
       type: talk
-    - name: Project
-      start: 12:00
-      end: 12:45
-      type: project
     - name: Role circles
       start: 12:45
       end: 13:00
