@@ -43,9 +43,10 @@ function Section({ url, subpath, title, children }) {
   `;
 }
 
-function Link({ href, url, children }) {
+function Link({ href, url, children, ...rest }) {
   return html`
     <a
+      ...${rest}
       class="sidebar-nav__link"
       href="${href}"
       aria-current="${url.includes(href)

@@ -18,7 +18,7 @@ exports.render = ({ page: { url }, content }) => {
     <aside>
       <${Nav}>
         <${Link} url=${url} href="/course/introduction">Introduction</${Link}>
-        <${Link} url=${url} href="/course/code-of-conduct/">Code of Conduct</${Link}>
+        <${Link} url=${url} href="https://www.foundersandcoders.com/code-of-conduct/" target="_blank" rel="noreferrer">Code of Conduct</${Link}>
         <${Section} title="Handbook" url=${url} subpath="course/handbook">
           <li><${Link} url=${url} href="/course/handbook/system-requirements/">System Requirements</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/installation/">Installation Guide</${Link}></li>
