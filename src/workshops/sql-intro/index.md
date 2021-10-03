@@ -301,11 +301,10 @@ Would return:
 | id  | username  |
 | --- | --------- |
 | 1   | oliverjam |
-| 2   | oli       |
 
 {% box "error" %}
 
-`RETURNING` is a Postgres-specific feature, so it won't work in other databses (like MySQL).
+`RETURNING` is a Postgres-specific feature, so it won't work in other databases (like MySQL).
 
 {% endbox %}
 
