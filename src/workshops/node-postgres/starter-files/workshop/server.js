@@ -1,6 +1,6 @@
 const express = require("express");
 const home = require("./routes/home.js");
-const createUser = require("./routes/createUser.js");
+const createUser = require("./routes/create-user.js");
 
 const server = express();
 
