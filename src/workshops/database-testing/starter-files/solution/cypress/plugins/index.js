@@ -1,9 +1,10 @@
-const build = require("../../database/build.js");
+// const build = require("../../database/build.js");
+const { execFileSync } = require("child_process");
 
 module.exports = (on, config) => {
   on("task", {
     resetDb: () => {
-      return build();
+      return execFileSync("./scripts/populate_db");
     },
   });
 };

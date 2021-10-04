@@ -13,25 +13,17 @@ Most interesting apps are _stateful_. They save information for later in some ki
 
 ## Setup
 
-We're going to start with the server from the [Postgres & Node workshop](/workshops/node-postgres). If you completed that you should already have a database to connect to. If not it contains instructions on setting up a new database and user.
-
 1. Download the starter files
-1. Add a `.env` file to the root of the project (where the `package.json` is)
-   - This should set a `DATABASE_URL` environment variable pointing to your database. For example:
-   ```shell
-   DATABASE_URL='postgres://myuser:password@localhost:5432/learn_node_postgres'
-   ```
+1. Change into the `workshop` directory
+1. Create a local DB by running: `./scripts/create_db`
+1. Populate the DB by running: `./scripts/populate_db`
 1. Start the server with `npm run dev` and check it's working
 
-{% box %}
-
-If you get an error about the env var not being defined it probably means your `.env` file is in the wrong place. The `dotenv` module looks in the directory where you started the server. This should be the root where the `package.json` is. Make sure you don't `cd` into `workshop/` before starting the server.
-
-{% endbox %}
+There is a very minimal Cypress testing setup. You can start Cypress with `npm test`—you should see the single example test from `cypress/integration/test.js`.
 
 ## Isolating tests
 
-It's easy to create tests that rely on each other. For example here are two tests; one checks that creating a dog works, and one checks that deleting a dog works:
+It's easy to create tests that rely on each other. For example imagine we had an app for managing different types of dogs. Here are two example tests; one checks that creating a dog works, and one checks that deleting a dog works:
 
 ```js
 describe("Dog forms", () => {
@@ -49,7 +41,7 @@ describe("Dog forms", () => {
 });
 ```
 
-These tests work fine, but if we ran the delete test on its own it would fail. It expects there to already be a dog called "Rover" in the database, but this only happens if the create test runs first.
+These tests work fine _together_, but if we ran the delete test on its own it would fail. It expects there to already be a dog called "Rover" in the database, but this only happens if the creation test runs first.
 
 This is a bad idea since it makes tests brittle. If somebody comes along later and swaps the order of the tests (or removes a test) it could break things. Tests should always be self-contained and able to run on their own.
 
@@ -69,7 +61,7 @@ describe("Dog forms", () => {
 
 We can use this to reset our database before each new test runs.
 
-Unfortunately there's a slight complication: all the code inside our tests runs _in the browser_. The browser doesn't have access to our Node environment, so it can't talk to our database directly.
+Unfortunately there's a slight complication: all the code inside our test runs _in the browser_. The browser doesn't have access to our Node environment, so it can't talk to our database directly.
 
 However Cypress provides a way to execute code in your Node environment: "tasks". These are special functions you can create and then call from inside tests. Tasks are defined inside `cypress/plugins/index.js`:
 
@@ -95,82 +87,26 @@ beforeEach(() => {
 
 Try creating this task now, and make sure you can call it from inside a test. You should see the log show up in your terminal, not the test browser (remember tasks are for running Node code _outside_ the browser).
 
-## Database build script
+#### Running the populate_db script
 
-We need to write a JS function that uses `init.sql` to reset the DB. We will then import and call it in our Cypress task.
+We already have a script that can reset our DB back to its initial state: `./scripts/populate_db`. We can re-use this within our Cypress task using Node's `child_process` module. This allows us to run terminal commands from inside Node.
 
-Create a `workshop/database/build.js` file. We need to read the contents of `init.sql`, so we can send it to our database as a query:
-
-```js
-const fs = require("fs");
-const path = require("path");
-
-const initPath = path.join(__dirname, "init.sql");
-const initSQL = fs.readFileSync(initPath, "utf-8");
-```
-
-First we get the path to the file we want to read. Node's built-in `path.join` creates a cross-platform path (e.g. Windows uses backslashes instead of slashes). The `__dirname` variable always refers to the directory the current file is in. So on most machines this variable will be `"./workshop/database/init.sql`.
-
-Then we read the contents of the file using the built-in `fs` module. This will give us the text content of the file as a string.
-
-Then we can import our `db` object from `connection.js` and use it send the SQL query to the database:
-
-```js
-const fs = require("fs");
-const path = require("path");
-const db = require("./connection.js");
-
-const initPath = path.join(__dirname, "init.sql");
-const initSQL = fs.readFileSync(initPath, "utf-8");
-
-function build() {
-  return db.query(initSQL);
-}
-
-module.exports = build;
-```
-
-{% box "error" %}
-
-**Do not run this in production: it will delete all your users' data.**
-
-{% endbox %}
-
-Now we can import this function in our Cypress task and use it to reset the database.
+In this case we want to use the `execFileSync` method to execute a given file:
 
 ```js
 // cypress/plugins/index.js
 
-const build = require("../../database/build.js");
+const { execFileSync } = require("child_process");
 
 module.exports = (on, config) => {
   on("task", {
     resetDb: () => {
-      return build();
+      console.log("Resetting DB...");
+      return execFileSync("./scripts/populate_db");
     },
   });
 };
 ```
-
-<!-- ## Creating a separate test database
-
-It's a bit annoying to use the same DB for testing and development. Since we're resetting the data before each test we'll keep losing any data we add in the course of development.
-
-Instead let's create a separate test database owned by the same user. Type `psql` to enter the Postgres CLI, then run this command:
-
-```sql
-CREATE DATABASE test_node_postgres WITH OWNER myuser;
-```
-
-We don't need to worry about initialising the test database with data since our build script will do that before each test.
-
-However we do need to make sure `node-postgres` connects to this different database when our tests are running. We can override the `DATABASE_URL` environment variable by setting it when we run our test script:
-
-```shell
-DATABASE_URL='postgres://myuser:password@localhost:5432/test_node_postgres' npm test
-```
-
-Now our server will use the `test_node_postgres` database while these tests are running. -->
 
 ## Challenge 1: write some tests
 
