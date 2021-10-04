@@ -1,10 +1,10 @@
-const db = require("../database/connection.js");
+const { createUser } = require("../database/model.js");
 const layout = require("../layout.js");
 
 function get(request, response) {
   const html = layout(
     "Create user",
-    `
+    /*html*/ `
     <form method="POST">
       <p>
         <label for="username">Username</label>
@@ -28,12 +28,7 @@ function get(request, response) {
 }
 
 function post(request, response) {
-  const data = request.body;
-  const values = Object.values(data);
-  db.query(
-    "INSERT INTO users(username, age, location) VALUES($1, $2, $3)",
-    values
-  ).then(() => {
+  createUser(request.body).then(() => {
     response.redirect("/");
   });
 }

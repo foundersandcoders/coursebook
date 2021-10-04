@@ -4,7 +4,7 @@ const layout = require("../layout.js");
 function get(request, response) {
   const html = layout(
     "Create user",
-    `
+    /*html*/ `
     <form method="POST">
       <p>
         <label for="username">Username</label>
@@ -28,12 +28,11 @@ function get(request, response) {
 }
 
 function post(request, response) {
-  const data = request.body;
-  const values = Object.values(data);
-  db.query(
-    "INSERT INTO users(username, age, location) VALUES($1, $2, $3)",
-    values
-  ).then(() => {
+  const insert_user = /*sql*/ `
+    INSERT INTO users(username, age, location) VALUES($1, $2, $3)
+  `;
+  const { username, age, location } = request.body;
+  db.query(insert_user, [username, age, location]).then(() => {
     response.redirect("/");
   });
 }

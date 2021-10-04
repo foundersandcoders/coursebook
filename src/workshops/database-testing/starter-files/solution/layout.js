@@ -1,5 +1,5 @@
 function layout(title, content) {
-  return `<!DOCTYPE html>
+  return /*html*/ `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">

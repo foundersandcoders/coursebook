@@ -4,25 +4,23 @@ const layout = require("../layout.js");
 function get(request, response) {
   db.query("SELECT * FROM users").then((result) => {
     const users = result.rows;
-    let userList = "";
-    for (const user of users) {
-      const { id, username } = user;
-      userList += `
-        <li>
-          <span>${username}</span>
-          <form action="/users/delete/" method="POST" class="inline">
-            <button name="id" value="${id}" aria-label="Delete ${username}">
-              &times;
-            </button>
-          </form>
-        </li>
-      `;
-    }
+    const userList = users.map((user) => {
+      return /*html*/ `
+      <li>
+        <span>${user.username}</span>
+        <form action="/users/delete/" method="POST" class="inline">
+          <button name="id" value="${user.id}" aria-label="Delete ${username}">
+            &times;
+          </button>
+        </form>
+      </li>
+    `;
+    });
     const html = layout(
       "Users",
-      `
+      /*html*/ `
       <h2>Users</h2>
-      <ul>${userList}</ul>
+      <ul>${userList.join("")}</ul>
       <a href="/users/create">New user +</a>
     `
     );
