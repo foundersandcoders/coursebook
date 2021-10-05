@@ -9,7 +9,7 @@ function get(request, response) {
       <li>
         <span>${user.username}</span>
         <form action="/users/delete/" method="POST" class="inline">
-          <button name="id" value="${user.id}" aria-label="Delete ${username}">
+          <button name="id" value="${user.id}" aria-label="Delete ${user.username}">
             &times;
           </button>
         </form>
