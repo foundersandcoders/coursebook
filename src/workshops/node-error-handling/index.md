@@ -45,7 +45,7 @@ function square(x) {
 
 The `throw` keyword causes an exception in your code (just like when a built-in JS method breaks). You can `throw` anything (`throw 5`, `throw "hello"` etc), but it's most common to create a new `Error` object and throw that. Error objects have a "stack trace", which tells the user what line of code the error occurred on.
 
-So now our `double` function behaves similarly to built-in JS methods: execution will stop if it encounters an invalid value. We can make this more specific by using a `TypeError` and passing a more useful message:
+So now our `square` function behaves similarly to built-in JS methods: execution will stop if it encounters an invalid value. We can make this more specific by using a `TypeError` and passing a more useful message:
 
 ```js
 function square(x) {
