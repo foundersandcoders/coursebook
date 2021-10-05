@@ -43,7 +43,6 @@ schedule:
     - name: Ceremonies & pair programming
       start: 12:30
       end: 12:45
-      url: https://hackmd.io/@fac/ryDzAOabv
       type: talk
     - name: Role circles
       start: 12:45
