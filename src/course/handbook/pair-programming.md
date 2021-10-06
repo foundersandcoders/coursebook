@@ -9,7 +9,7 @@
 
 1. You and your partner will work from one screen together
 2. Choose a 8kyu kata on codewars, preferably one that neither of you have completed before
-3. Read through the pair programming method below
+3. Read through the pair programming methods below and pick one to try out
 4. Attempt the kata, using this pair programming method.
    - Pair for up to 30 minutes
    - Swap roles after 15 minutes
@@ -17,7 +17,7 @@
 
 Don't worry if you don't finish the kata. The aim is to learn the process. 15 minutes before the end, we will come together and discuss how you found it.
 
-## Method
+## Methods
 
 **Ping pong.** Take turns writing code. How much code you write depends on the context. Maybe, one developer writes a line of code and then the other writes a line of code. In another case, one developer starts by creating a single failing test and then each developer takes it in turns to first write code to make the test pass and then to write a new failing test before passing the keyboard back to their partner.
 
@@ -38,11 +38,3 @@ Don't worry if you don't finish the kata. The aim is to learn the process. 15 mi
 - Are you using sensible names for all your variables?
 - Is it obvious at first glance what each of them is being used for?
 - As you work through the problem, are you working from the outside in or are you trying to solve the problem in a linear sequence from top to bottom? (try working from the outside in, always thinking about the inputs and outputs of the code block you are working on)
-
-### Tests
-
-- What's a sensible first test for a function?
-- Is this the simplest possible test that you can think of?
-- As you work through the problem, are all your passing tests still passing? If not, why not?
-- Are you adding tests as you go?
-- What test are you going to add next?
