@@ -11,9 +11,12 @@ schedule:
       end: 13:00
       url: /workshops/express-middleware/
       type: workshop
-    - name: Project spikes
+    - name: TFB - Discovery
       start: 14:00
-      end: 16:00
+      end: 15:00
+    - name: Project spikes
+      start: 15:00
+      end: 17:00
       url: ../project
       type: project
   wednesday:
@@ -25,12 +28,4 @@ schedule:
       start: 12:45
       end: 13:00
       url: /course/handbook/role-circles
-    - name: Projects
-      start: 14:00
-      end: 16:30
-      type: project
-    - name: Interview Prep - Code Writing
-      start: 16:30
-      end: 17:45
-      url: https://www.notion.so/foundersandcoders/Code-Writing-5f37dabeebc149309d8b8198304288b9/
 ---

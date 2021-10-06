@@ -22,9 +22,12 @@ schedule:
       end: 13:00
       url: /workshops/session-auth
       type: workshop
-    - name: Client-side validation
+    - name: TFB - Product Pitches
       start: 14:00
-      end: 16:00
+      end: 15:00
+    - name: Client-side validation
+      start: 15:00
+      end: 17:00
       url: /workshops/form-validation/
       type: workshop
   wednesday:
@@ -45,12 +48,4 @@ schedule:
     - name: Role circles
       start: 12:45
       end: 13:00
-    - name: Project
-      start: 14:00
-      end: 16:45
-      type: project
-    - name: "Employment: LinkedIn"
-      start: 16:45
-      end: 17:45
-      url: https://hackmd.io/@fac/Bku_c9zMw
 ---
