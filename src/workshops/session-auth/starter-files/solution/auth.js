@@ -2,19 +2,19 @@ const crypto = require("crypto");
 const bcrypt = require("bcryptjs");
 const model = require("./database/model");
 
-console.log(bcrypt.hashSync("hunter2", 10));
-
 function verifyUser(email, password) {
-  return model.getUser(email).then((user) => {
-    return bcrypt.compare(password, user.password).then((match) => {
+  return model
+    .getUser(email)
+    .then((user) => bcrypt.compare(password, user.password))
+    .then((match) => {
       if (!match) {
         throw new Error("Password mismatch");
       } else {
+        // make sure we never return the password
         delete user.password;
         return user;
       }
     });
-  });
 }
 
 function createUser(email, password, name) {

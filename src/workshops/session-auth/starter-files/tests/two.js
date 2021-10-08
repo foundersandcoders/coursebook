@@ -19,32 +19,41 @@ test("can create a user", async (t) => {
   t.equal(returnedUser.email, email, "Should return user email");
   t.equal(typeof returnedUser.id, "number", "Should return user ID");
   t.equal(returnedUser.password, undefined, "Should NOT return user password");
+
   const dbUser = await db
     .query("SELECT * FROM users WHERE email=$1", [email])
     .then((result) => result.rows[0]);
   t.equal(dbUser.name, name, "Should store user name in DB");
   t.equal(dbUser.email, email, "Should store user email in DB");
   t.equal(typeof dbUser.id, "number", "Should store user ID");
-  t.true(dbUser.password.startsWith("$"), "Should store user password in DB");
+  t.true(
+    dbUser.password.startsWith("$"),
+    "Should store hashed user password in DB"
+  );
 });
 
-test("can create a user", async (t) => {
+test("can save a user session", async (t) => {
   await resetDB();
+
   t.equal(
     typeof auth.saveUserSession,
     "function",
     "A saveUserSession function should be exported"
   );
+
   const data = { name: "testy", email: "t@t.co.uk" };
   const returnedSid = await auth.saveUserSession(data);
+
   t.equal(typeof returnedSid, "string", "Should return a session ID string");
   t.true(
     returnedSid.length > 16,
     "Session ID should be at least 16 characters"
   );
+
   const dbSession = await db
     .query("SELECT * FROM sessions WHERE sid=$1", [returnedSid])
     .then((result) => result.rows[0]);
+
   t.equal(dbSession.sid, returnedSid, "Should store session ID in DB");
   t.deepEqual(
     dbSession.data,
@@ -53,8 +62,11 @@ test("can create a user", async (t) => {
   );
 });
 
-test("signUp route handler sets cookie and redirects", (t) => {
+test("signUp route handler sets cookie and redirects", async (t) => {
   t.plan(4);
+  await resetDB();
+
+  // mock the Node req/res objects
   const body = { email: "test@t.com", name: "testy", password: "hunter2" };
   const request = { body };
   const response = {
@@ -74,5 +86,7 @@ test("signUp route handler sets cookie and redirects", (t) => {
       t.equal(path, "/", "Should redirect to home page");
     },
   };
+
+  // call the handler directly with mock req/res objects
   signUp.post(request, response);
 });

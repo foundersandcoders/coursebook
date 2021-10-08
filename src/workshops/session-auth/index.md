@@ -24,7 +24,7 @@ The starter files include two scripts to help with database setup.
 Create a new Postgres user and database using:
 
 ```shell
-npm run db:setup
+./scripts/create_db
 ```
 
 This script will also create a `.env` file containing the `DATABASE_URL` environment variable, so your server knows how to connect to the local DB.
@@ -32,7 +32,7 @@ This script will also create a `.env` file containing the `DATABASE_URL` environ
 Insert example data into the database using:
 
 ```shell
-npm run db:build
+./populate_db
 ```
 
 This will recreate all the tables from scratch each time you run it, so it can be handy to "reset" everything if you mess up during the workshop.
