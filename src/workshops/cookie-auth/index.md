@@ -229,7 +229,7 @@ server.get("/", (request, response) => {
   console.log(request.signedCookies);
 });
 
-server.get("/set-cookie", (request, response) => {
+server.get("/example", (request, response) => {
   response.cookie("hello", "this is my cookie", { signed: true });
   response.redirect("/");
 });
