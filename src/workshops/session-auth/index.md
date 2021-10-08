@@ -32,7 +32,7 @@ This script will also create a `.env` file containing the `DATABASE_URL` environ
 Insert example data into the database using:
 
 ```shell
-./populate_db
+./scripts/populate_db
 ```
 
 This will recreate all the tables from scratch each time you run it, so it can be handy to "reset" everything if you mess up during the workshop.
