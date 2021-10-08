@@ -82,19 +82,19 @@ Lets see how to set and read cookies using Node.
 
 #### Setting a cookie
 
-First lets set a cookie by adding a "set-cookie" header to the response manually. Edit your home handler:
+First lets set a cookie by adding a "set-cookie" header to a response manually. Add a new handler for the `GET /example` route:
 
 ```js
-server.get("/", (request, response) => {
+server.get("/example", (request, response) => {
   response.set(
     "set-cookie",
     "hello=this is my cookie; HttpOnly; Max-Age=60; SameSite=Lax"
   );
-  response.send("<h1>Hello</h1>");
+  response.redirect("/");
 });
 ```
 
-Visit http://localhost:3000 then open dev tools and look at the "Application" tab. Click on "Cookies" in the sidebar and you should be able to see the cookie you just set.
+Visit http://localhost:3000/example. You should be redirected back to the homepage. Open dev tools and look at the "Application" tab. Click on "Cookies" in the sidebar and you should be able to see the cookie you just set.
 
 #### Reading a cookie
 
@@ -104,10 +104,6 @@ You can _read_ the cookie on the server by looking at the "cookie" header. Edit 
 server.get("/", (request, response) => {
   const cookies = request.get("cookie");
   console.log(cookies);
-  response.set(
-    "set-cookie",
-    "hello=this is my cookie; HttpOnly; Max-Age=60; SameSite=Lax"
-  );
   response.send("<h1>Hello</h1>");
 });
 ```
@@ -128,18 +124,16 @@ Confusingly the Express cookie handler expects the max-age to be specified in **
 
 {% endbox %}
 
-Update your home handler:
+Update your `/example` handler to use Express' cookie helper:
 
 ```js
-server.get("/", (request, response) => {
-  const cookies = request.get("cookie");
-  console.log(cookies);
+server.get("/example", (request, response) => {
   response.cookie("hello", "this is my cookie", {
     httpOnly: true,
     maxAge: 1000 * 60, // 60,000ms (60s)
     sameSite: "lax",
   });
-  response.send("<h1>Hello</h1>");
+  response.redirect("/");
 });
 ```
 
@@ -233,7 +227,11 @@ server.use(cookieParser("alongrandomstringnobodyelseknows"));
 
 server.get("/", (request, response) => {
   console.log(request.signedCookies);
-  response.cookie("userid", "123", { signed: true });
+});
+
+server.get("/set-cookie", (request, response) => {
+  response.cookie("hello", "this is my cookie", { signed: true });
+  response.redirect("/");
 });
 ```
 
