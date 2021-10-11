@@ -5,7 +5,7 @@ schedule:
     - name: Intro presentation
       start: 10:10
       end: 10:45
-      # url: https://fac-slides.netlify.app/slides/databases/
+      url: https://fac-slides.netlify.app/slides/authentication/
     - name: Cookie authentication
       start: 10:30
       end: 13:00
