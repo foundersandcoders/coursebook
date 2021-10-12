@@ -3,10 +3,8 @@ const bcrypt = require("bcryptjs");
 const model = require("./database/model");
 
 function verifyUser(email, password) {
-  return model
-    .getUser(email)
-    .then((user) => bcrypt.compare(password, user.password))
-    .then((match) => {
+  return model.getUser(email).then((user) =>
+    bcrypt.compare(password, user.password).then((match) => {
       if (!match) {
         throw new Error("Password mismatch");
       } else {
@@ -14,7 +12,8 @@ function verifyUser(email, password) {
         delete user.password;
         return user;
       }
-    });
+    })
+  );
 }
 
 function createUser(email, password, name) {
