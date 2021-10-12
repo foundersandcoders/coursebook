@@ -1,11 +1,10 @@
-const fs = require("fs/promises");
+const { execFileSync } = require("child_process");
 const { join } = require("path");
-const db = require("../workshop/database/connection.js");
 
-const BUILD_PATH = join(__dirname, "..", "workshop", "database", "init.sql");
+const script_path = join(__dirname, "..", "scripts", "populate_db");
 
 function resetDB() {
-  return fs.readFile(BUILD_PATH, "utf-8").then((sql) => db.query(sql));
+  return execFileSync(script_path);
 }
 
 module.exports = resetDB;

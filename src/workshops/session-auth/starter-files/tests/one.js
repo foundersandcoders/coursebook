@@ -4,7 +4,7 @@ const model = require("../workshop/database/model.js");
 const db = require("../workshop/database/connection.js");
 
 test("Can create a user", async (t) => {
-  await resetDB();
+  resetDB();
   t.equal(
     typeof model.createSession,
     "function",
@@ -20,3 +20,7 @@ test("Can create a user", async (t) => {
     .then((result) => result.rows[0]);
   t.deepEqual(dbSession, { sid, data }, "Should store sid and data");
 });
+
+// close DB pool immediately after tests finish
+// otherwise it hangs for 10 seconds in the terminal
+test.onFinish(() => db.end());

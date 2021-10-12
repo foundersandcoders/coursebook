@@ -5,7 +5,7 @@ const logIn = require("../workshop/routes/logIn.js");
 const db = require("../workshop/database/connection.js");
 
 test("can verify a user's password", async (t) => {
-  await resetDB();
+  resetDB();
   t.equal(
     typeof auth.verifyUser,
     "function",
@@ -23,7 +23,7 @@ test("can verify a user's password", async (t) => {
 });
 
 test("errors if user's password is wrong", async (t) => {
-  await resetDB();
+  resetDB();
   const email = "test@gmail.com";
   const password = "incorrect";
   try {
@@ -38,6 +38,8 @@ test("errors if user's password is wrong", async (t) => {
 
 test("logIn route handler sets cookie and redirects", (t) => {
   t.plan(4);
+  resetDB();
+
   const body = { email: "test@gmail.com", password: "hunter2" };
   const request = { body };
   const response = {
@@ -59,3 +61,7 @@ test("logIn route handler sets cookie and redirects", (t) => {
   };
   logIn.post(request, response);
 });
+
+// close DB pool immediately after tests finish
+// otherwise it hangs for 10 seconds in the terminal
+test.onFinish(() => db.end());

@@ -5,7 +5,7 @@ const signUp = require("../workshop/routes/signUp.js");
 const db = require("../workshop/database/connection.js");
 
 test("can create a user", async (t) => {
-  await resetDB();
+  resetDB();
   t.equal(
     typeof auth.createUser,
     "function",
@@ -33,7 +33,7 @@ test("can create a user", async (t) => {
 });
 
 test("can save a user session", async (t) => {
-  await resetDB();
+  resetDB();
 
   t.equal(
     typeof auth.saveUserSession,
@@ -62,10 +62,9 @@ test("can save a user session", async (t) => {
   );
 });
 
-test("signUp route handler sets cookie and redirects", async (t) => {
+test("signUp route handler sets cookie and redirects", (t) => {
   t.plan(4);
-  await resetDB();
-
+  resetDB();
   // mock the Node req/res objects
   const body = { email: "test@t.com", name: "testy", password: "hunter2" };
   const request = { body };
@@ -90,3 +89,7 @@ test("signUp route handler sets cookie and redirects", async (t) => {
   // call the handler directly with mock req/res objects
   signUp.post(request, response);
 });
+
+// close DB pool immediately after tests finish
+// otherwise it hangs for 10 seconds in the terminal
+test.onFinish(() => db.end());
