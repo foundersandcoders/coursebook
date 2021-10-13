@@ -2,22 +2,30 @@
 layout: schedule
 schedule:
   monday:
-    - name: Bank holiday!
-      start: 9:45
-      end: 18:00
-  tuesday:
     - name: Express middleware
-      start: 10:00
+      start: 10:10
       end: 13:00
       url: /workshops/express-middleware/
       type: workshop
+    - name: Project intro
+      start: 14:00
+      end: 14:15
+      url: ../project
+    - name: Spike research
+      start: 14:15
+      end: 17:45
+      url: ../spikes
+  tuesday:
+    - name: Projects
+      start: 10:00
+      end: 13:00
+      type: project
     - name: TFB - Discovery
       start: 14:00
       end: 15:00
-    - name: Project spikes
+    - name: Projects
       start: 15:00
-      end: 17:00
-      url: ../project
+      end: 17:45
       type: project
   wednesday:
     - name: Projects

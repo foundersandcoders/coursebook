@@ -39,8 +39,9 @@ exports.render = ({ defaultSchedule, schedule }) => {
         .map(([weekday, day], i) =>
           day.map(({ start, end, name, type = "", url }, j) => {
             const START_TIME = 585;
-            const rowStart = (start - START_TIME) / 15 + 1;
-            const rowEnd = (end - START_TIME) / 15 + 1;
+            const TIME_BLOCK = 5;
+            const rowStart = (start - START_TIME) / TIME_BLOCK + 1;
+            const rowEnd = (end - START_TIME) / TIME_BLOCK + 1;
             const col = `${i + 1} / ${i + 2}`;
             const row = `${rowStart} / ${rowEnd}`;
             return html`
