@@ -1,3 +1,5 @@
+Try to create a working MVP on glitch.com or stackblitz.com. This will be helpful to show during your presentation and to reference in your projects.
+
 ## File uploads
 
 Allow users to upload files to your server (like images or audio clips).  
