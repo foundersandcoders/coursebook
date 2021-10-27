@@ -33,17 +33,8 @@ video {
 
 ul,
 ol {
-  list-style-position: inside;
-  -webkit-padding-start: 0;
-  padding-inline-start: 0;
-}
-
-ul ul,
-ul ol,
-ol ul,
-ol ol {
-  -webkit-padding-start: revert;
-  padding-inline-start: revert;
+  -webkit-padding-start: 1.15em;
+  padding-inline-start: 1.15em;
 }
 
 ul[role="list"],
