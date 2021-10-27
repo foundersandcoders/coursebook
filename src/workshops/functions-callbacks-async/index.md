@@ -56,8 +56,7 @@ Lets try passing a function as an argument to another function. Since we're just
 
 What does the browser print?
 
-<details class="disclosure flow pad-md border-xl">
-<summary class="button">Toggle answer</summary>
+{% disclosure %}
 
 ```js
 function logger(thing) {
@@ -90,7 +89,7 @@ logger(num);
 
 This would log `1` to the console.
 
-</details>
+{% enddisclosure %}
 
 ## Functions are callable
 
@@ -153,8 +152,7 @@ Calling or not calling a function is often a source of confusion when passing fu
 
 1. Edit `logger` to log the _type_ of the value using the `typeof` operator
 
-<details class="disclosure flow pad-md border-xl">
-<summary class="button">Toggle answer</summary>
+{% disclosure %}
 
 ```js
 function logger(thing) {
@@ -206,7 +204,7 @@ logger(returnsOne());
 // Logs: "number"
 ```
 
-</details>
+{% enddisclosure %}
 
 ## Inline functions
 
@@ -242,8 +240,7 @@ window.addEventListener("click", (event) => {
 
 The event listener should work the same whether your function is inlined or defined as a separate variable.
 
-<details class="disclosure flow pad-md border-xl">
-<summary class="button">Toggle answer</summary>
+{% disclosure %}
 
 ```js
 const handleClick = (event) => {
@@ -277,7 +274,7 @@ Since `handleClick` doesn't return anything this is equivalent to:
 window.addEventListener("click", undefined);
 ```
 
-</details>
+{% enddisclosure %}
 
 ## Callbacks
 
@@ -289,12 +286,11 @@ Functions are a way to _delay_ a block of code. Without them all our statements 
 
 ### Mini-challenge 4
 
-1. Write a function named `one` that takes a function as an argument
+1. Write a function named `one` that takes a function as a parameter
 1. It should call that function with `1`
 1. Call your `one` function and pass in a function that logs its argument
 
-<details class="disclosure flow pad-md border-xl">
-<summary class="button">Toggle answer</summary>
+{% disclosure %}
 
 ```js
 function one(callback) {
@@ -302,7 +298,7 @@ function one(callback) {
 }
 ```
 
-The `one` function has a single argument: `callback`. Since we know `callback` is going to be a function we can call it using parentheses, and pass in `1`.
+The `one` function has a single parameter: `callback`. Since we know `callback` is going to be a function we can call it using parentheses, and pass in `1`.
 
 To use our `one` function we need to pass in a function (the callback):
 
@@ -317,7 +313,7 @@ const log = (x) => console.log(x);
 one(log);
 ```
 
-</details>
+{% enddisclosure %}
 
 ## Asynchronous callbacks
 
@@ -340,12 +336,12 @@ When something needs to happen out of this order, we call it "asynchronous" ("as
 
 ```javascript
 console.log(1);
-setTimeout(() => console.log(2), 1000);
+window.setTimeout(() => console.log(2), 1000);
 console.log(3);
 // This logs 1, then 3, then (after about 1 second) logs 2
 ```
 
-`setTimeout` is a global function that lets you run some code after a specified wait time.
+`setTimeout` is a built-in function that lets you run some code after a specified wait time.
 
 It's intuitive that the above example logs `2` last, because JS has to wait a whole second before running the function passed to `setTimeout`.
 
@@ -353,7 +349,7 @@ What's less intuitive is that the order is the same even with a timeout of 0ms.
 
 ```javascript
 console.log(1);
-setTimeout(() => console.log(2), 0);
+window.setTimeout(() => console.log(2), 0);
 console.log(3);
 // This logs 1, then 3, then (as soon as possible) logs 2
 ```
@@ -366,7 +362,7 @@ Callbacks let us access values that may not be ready yet. Imagine ordering food 
 
 However if your food needs to be cooked you might give them your phone number, so they can text you when it's ready. This is "asynchronous"—they can move on to the next person in the queue, and "call you back" to collect your food later.
 
-Our `addEventListener` example from above can't _return_ the click event, since it hasn't happened yet. It won't know where the user clicked until the click happens. So instead we pass a callback that the browser will run for us when the user clicks somewhere. It calls this callback with the event object containing the info we need.
+Our `addEventListener` example from above can't _return_ the click event, since it hasn't happened yet. The browser won't know where the user clicked until the click happens. So instead we pass a callback that the browser will run for us when the user clicks somewhere. It calls this callback with the event object containing the info we need.
 
 ### Mini-challenge 5
 
@@ -376,12 +372,11 @@ Our `addEventListener` example from above can't _return_ the click event, since 
 1. Call `asyncDouble` with `10` and a callback that logs whatever it is passed. You should see `20` logged after 1 second.
 1. Can you see why `asyncDouble` can't just return the doubled value?
 
-<details class="disclosure flow pad-md border-xl">
-<summary class="button">Toggle answer</summary>
+{% disclosure %}
 
 ```js
 function asyncDouble(num, callback) {
-  setTimeout(() => callback(num * 2), 1000);
+  window.setTimeout(() => callback(num * 2), 1000);
 }
 
 asyncDouble(10, (x) => console.log(x));
@@ -396,7 +391,7 @@ It can't _return_ the doubled number since JS code executes synchronously in ord
 
 (Obviously we _could_ double a number synchronously—the timeout is for example's sake. Imagine we're sending a request over a slow Wi-Fi network and it takes a whole second to get the result back)
 
-</details>
+{% enddisclosure %}
 
 ---
 
@@ -404,8 +399,8 @@ It can't _return_ the doubled number since JS code executes synchronously in ord
 
 Let's use callbacks to make some traffic lights. Download the starter files using the command at the top of this workshop. Open `challenge/index.html` in your editor.
 
-1. Inside the `script` tag write a function `light` that takes two arguments: a string and a callback
-1. It should wait 1 second, log the string and then call its callback argument
+1. Inside the `script` tag write a function `light` that takes two parameters: a string and a callback
+1. It should wait 1 second, log the string and then call its callback parameter
 1. Use `light` to log each colour of a traffic light sequence, in order, followed by `"finished"`
    - e.g. It should log:
    ```
@@ -417,3 +412,9 @@ Let's use callbacks to make some traffic lights. Download the starter files usin
    finished
    ```
    with a 1 second pause before each colour
+
+{% box %}
+
+**Hint**: to runs async tasks one after the other remember that you can _nest_ function calls.
+
+{% endbox %}
