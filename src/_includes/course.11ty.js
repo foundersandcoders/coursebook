@@ -51,12 +51,12 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/syllabus/apprenticeship/server-side-app/schedule/">Server-side app</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/apprenticeship/client-side-app/schedule/">Client-side app</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/apprenticeship/full-stack-app/schedule/">Full-stack app</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/apprenticeship/projects/design-1/schedule">Design Sprint</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/apprenticeship/projects/build-1/schedule">Build Sprint 1</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/apprenticeship/projects/build-2/schedule">Build Sprint 2</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/apprenticeship/projects/design-2/schedule">Design Sprint (TFB)</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/apprenticeship/projects/build-3/schedule">Build Sprint 1 (TFB)</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/apprenticeship/projects/build-4/schedule">Build Sprint 2 (TFB)</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/apprenticeship/projects/in-house-design/schedule">Design Sprint</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/apprenticeship/projects/in-house-build-1/schedule">Build Sprint 1</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/apprenticeship/projects/in-house-build-2/schedule">Build Sprint 2</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/apprenticeship/projects/TFB-design/schedule">TFB Design Sprint</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/apprenticeship/projects/TFB-build-1/schedule">TFB Build Sprint 1</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/apprenticeship/projects/TFB-build-2/schedule">TFB Build Sprint 2</${Link}></li>
         </${Section}>
       </${Nav}>
     </aside>
