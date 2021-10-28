@@ -51,9 +51,12 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/syllabus/apprenticeship/server-side-app/schedule/">Server-side app</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/apprenticeship/client-side-app/schedule/">Client-side app</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/apprenticeship/full-stack-app/schedule/">Full-stack app</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/apprenticeship/final-project/design/">Design Week</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/apprenticeship/final-project/build-1/">Build Sprint 1</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/apprenticeship/final-project/build-2/">Build Sprint 2</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/apprenticeship/projects/design-1/schedule">Design Sprint</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/apprenticeship/projects/build-1/schedule">Build Sprint 1</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/apprenticeship/projects/build-2/schedule">Build Sprint 2</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/apprenticeship/projects/design-2/schedule">Design Sprint (TFB)</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/apprenticeship/projects/build-3/schedule">Build Sprint 1 (TFB)</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/apprenticeship/projects/build-4/schedule">Build Sprint 2 (TFB)</${Link}></li>
         </${Section}>
       </${Nav}>
     </aside>
