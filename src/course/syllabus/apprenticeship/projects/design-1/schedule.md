@@ -22,7 +22,7 @@ schedule:
       type: presentation
     - name: Discovery workshop part two
       start: 11:40
-      end: 12:40
+      end: 12:20
       type: workshop
     - name: Conduct user research
       start: 14:00
@@ -33,7 +33,7 @@ schedule:
       url: https://docs.google.com/presentation/d/15c3DstgW4W-cFAjTV3LRNuvS9D7Ny5_UMOMYqW-Nvj0/edit?usp=sharing
     - name: Definition workshop part one
       start: 16:15
-      end: 17:45
+      end: 17:30
       type: workshop
   tuesday:
     - name: Definition workshop part two
