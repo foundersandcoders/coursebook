@@ -1,5 +1,5 @@
 # Project
 
-Your project in Design Week is to create a wireframe in Figma and to test it.
+This week is the first build sprint of your in-house project build.
 
-In each build week you'll be consistently working on your final project.
+Work through your sprint backlog, assigning user stories to members of the team.
