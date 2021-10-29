@@ -42,10 +42,10 @@ schedule:
       end: 17:45
       type: project
   friday:
-    - name: Sprint Review and Presentation Prep
+    - name: Handover documentation
+      start: 10:00
+      end: 11:00
+    - name: Product handover
       start: 11:00
-      end: 12:00
-    - name: Sprint Planning
-      start: 12:00
-      end: 13:00
+      end: 12:15
 ---
