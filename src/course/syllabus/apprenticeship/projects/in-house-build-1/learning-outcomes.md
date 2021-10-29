@@ -1,30 +1,26 @@
 # Learning Outcomes
 
-## UX and Design
+## UX
 
-- Understand the place of UX in software development
-- Where user testing fits in the cycle
-- Understand the value of involving your users at every stage
-- Learn how to conduct user testing interviews
-- Use design thinking techniques to solve a problem
-- Learn to scope big problems into steps to find a viable solution
+- Build an intuitive user experience
+- Build an application from a set of user stories
 
 ## Agile Workflow
 
-- What is Agile?
-- What is Scrum?
-- What is a sprint?
-- Sprint planning
+- Experience an agile workflow
+- Understand how agile methodology can provide benefit in the software development cycle
+- Follow a sprint plan
+- Fulfil a role within agile development
+- Appreciate the responsibilities of other roles and support their fulfilment
+- Have an understanding of agile principles
+- Know how to conduct and participate in a team standup
 
-### Agile Development (SCRUM)
+## Sprints
 
-- Awareness of the different roles in Agile Development.
-- Appreciation of what each role adds to a project.
-- Understanding of Agile principles & how they provide benefit to the software development cycle
-
-### Sprints
-
-- **Planning** Working with the client/PO to create _user stories_ and putting them into a prioritied _backlog_, then _estimating_ the capacity of the team using _story points_ and _sprint velocity_ to decide on realistic _sprint goals_.
-- **Standup** (i.e. the _scrum_) a regular time each day for structured team feedback.
-- **Review** Demonstrating a working iteration of the product and comparing that to the planned sprint goals.
-- **Retrospective** A Stop, Go, Continue session for the team, without the client present.
+- Assign yourself to and fulfil user stories
+- Work from a sprint backlog
+- Manage a backlog of user stories
+- Know techniques for recording the actual complexity of a user story
+- Understand and calculate velocity for a sprint
+- Know how to participate in a sprint review
+- Know how to participate in a sprint retrospective
