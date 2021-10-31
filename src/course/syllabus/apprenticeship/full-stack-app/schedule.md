@@ -5,6 +5,7 @@ schedule:
     - name: Intro presentation
       start: 10:10
       end: 10:30
+      url: https://fac-slides.netlify.app/slides/full-stack-app/
     - name: Learn Next.js
       start: 10:30
       end: 13:00
