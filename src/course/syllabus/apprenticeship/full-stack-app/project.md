@@ -1,23 +1,29 @@
-This week you'll be building an e-commerce shopping site for a fake brand. It doesn't need to actually take payments or have a checkout, but it should have product listings and the ability to add items to a shopping basket.
+This week you'll be building an e-commerce shopping site for a fake brand. It doesn't need to actually take payments or have a checkout, but it should have product listings.
 
 Here's a very polished example (with more features than you need to implement): https://demo.vercel.store/
 
-You'll be provided with a Postgres database hosted on AWS RDS, so you don't have to worry about that. You can take the database URL and run any SQL you like to create your tables etc.
+Rather than worry about your own database, instead create a free one on https://www.elephantsql.com. It will provide a connection string you can connect to.
+
+{% box %}
+
+Remember that Next doesn't work that differently to the Express apps you've built so far. You still have access to requests/responses and can talk to the DB and set cookies on the server.
+
+{% endbox %}
 
 ## Acceptance criteria
 
 - Server-rendered with Next.js
 - Hosted on Vercel
-- Data stored in AWS Postgres
+- Data stored in ElephantSQL Postgres
 - Homepage with product listings
 - Individual product pages, containing:
   - Quantity/colour/variant pickers
-  - "Add to basket" button
-- Basket page showing all items being purchased
-  - Basket contents saved for future visits
 
 ## Stretch criteria
 
+- "Add to basket" button on product pages
+- Basket page showing all saved items
+  - Basket contents persisted for future visits
 - Filter products by category
 - Sort products by price
 - "Featured" products on homepage
@@ -69,43 +75,17 @@ If you refresh the GitHub repo after pushing you should see your files and readm
 
 ### Set up ESLint
 
-ESLint is a very helpful tool for catching errors while you code. It will find typos, unused variables and other mistakes before they cause errors in your code.
-
-You can use Oli's [minimal React config](https://github.com/oliverjam/eslint-config-react-minimal), which contains just the useful rules to catch common errors in React apps.
-
-Install the config and ESLint plugins with:
-
-```shell
-npm install -D eslint eslint-config-react-minimal eslint-plugin-import eslint-plugin-react
-```
-
-Then create an `.eslintrc` file at the root of your project to enable the config:
+Since version 11 [Next has ESLint built in](https://nextjs.org/docs/basic-features/eslint). Make sure you have an npm script to run it:
 
 ```json
-{
-  "extends": ["eslint:recommended", "react-minimal"],
-  "rules": {
-    "react/react-in-jsx-scope": "off"
-  }
+"scripts": {
+  "lint": "next lint"
 }
 ```
 
-{% box %}
+When you run this script for the first time it'll ask you what config you want to use.
 
-We have to turn off the `react-in-jsx-scope` rule, since Next automatically includes React in our components (so we don't need to import it manually).
-
-{% endbox %}
-
-If you install the [ESLint VS Code extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) you should now see errors highlighted in your editor.
-
-You can also run the linter in your terminal using:
-
-```shell
-# lint everything
-npx eslint .
-# or lint one file
-npx eslint ./pages/index.js
-```
+If you have the [ESLint VS Code extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) installed you should also see errors highlighted in your editor.
 
 ### Set up Prettier
 
@@ -135,7 +115,7 @@ Set up Cypress by following their [install guide](https://docs.cypress.io/guides
 
 ### Set up database
 
-You should set up a local database on your machine to use during development. Reference this via a `DATABASE_URL` environment variable. This will allow you to provide the production DB on AWS when you deploy your app. You can read about [how Next.js works with `.env` files](https://nextjs.org/docs/basic-features/environment-variables).
+You should set up a local database on your machine to use during development. Reference this via a `DATABASE_URL` environment variable. This will allow you to provide the production DB when you deploy your app to Vercel. You can read about [how Next.js works with `.env` files](https://nextjs.org/docs/basic-features/environment-variables).
 
 If you want to automate this for each team member take a look at the DB setup/build scripts in [this example repo](https://github.com/oliverjam/express-postgres-example/tree/main/scripts).
 
@@ -145,16 +125,10 @@ Once you've written your schema SQL you'll need to run that against your product
 psql postgres://user:pw@test.amazonaws.com/dbname -f "./database/init.sql"
 ```
 
-{% box %}
-
-Each team will be given their production DB URL on Discord, to keep the password secret.
-
-{% endbox %}
-
 ### Deploy your app
 
 You should make sure your app deploys correctly before starting to work on it.
 
-We'll be hosting our app on [Vercel](https://vercel.com/) (the company that make Next.js). This platform is designed specifically for Next, but is otherwise very similar to Netlify.
+We'll be hosting our apps on [Vercel](https://vercel.com/) (the company that makes Next.js). This platform is designed specifically for Next, but is otherwise very similar to Netlify.
 
 Follow the [official deployment guide](https://nextjs.org/docs/deployment#vercel-recommended) to get started. You will also need to add your production `DATABASE_URL` as [an environment variable in your Vercel dashboard](https://vercel.com/docs/environment-variables).
