@@ -1,55 +1,37 @@
-## Approaching problems
+# Approaching problems
 
-A four-step approach
+When approaching coding problems, it can be helpful to follow a process. We recommend a four-step approach:
 
----
+1. Understand the problem
+1. Write Pseudocode
+1. Write JavaScript
+1. Refactor
 
-### 1. Understand the problem
+## Understand the problem
 
-What is it asking you to do? What are the inputs and outputs?
+First, make sure you understand the problem you're working on. What is it asking you to do? Look at the parts of the problem and break it down into manageable steps.
 
----
+### Write Pseudocode
 
-### 2. Write Pseudocode
+Break the problem down into key steps - each one should be one or two sentences.
 
-Break the problem down into key steps
+Use JavaScript comments to write out these steps in order. Translate the problem into steps that you understand.
 
-Use JavaScript Comments
+### Write JavaScript
 
----
+Following your pseudocode, code each step. Translate the pseudocode into JavaScript.
 
-### 3. Write JavaScript
+### Refactor
 
-Following your pseudocode, code each step. Remember to `console.log()` to check your code along the way.
-
----
-
-### 4. Refactor
+Once you've coded a solution, reflect on what you wrote.
 
 What can you change about your code to make it more efficient? How might you solve the problem differently?
 
----
-
-<!-- {.primary} -->
-
 ## Tips
 
----
-
-Use `console.log()` often
-
----
-
-Re-read the problem
-
----
-
-Check your inputs and outputs
-
----
-
-Check for syntax errors
-
----
-
-Read any error messages
+- Use `console.log()` often
+- Re-read the problem
+- Check your inputs and outputs
+- Check for syntax errors
+- Look at documentation such as [W3 Schools](https://www.w3schools.com/) or [MDN](https://developer.mozilla.org/en-US/)
+- Read any error messages
