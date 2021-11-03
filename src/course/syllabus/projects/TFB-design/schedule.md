@@ -25,40 +25,40 @@ schedule:
       end: 17:45
       type: project
   wednesday:
-    - name: Usability Testing
+    - name: Web Science
       start: 10:00
-      end: 12:00
-    - name: Synthesise feedback
-      start: 12:00
+      end: 11:00
+      type: presentation
+    - name: Usability Testing
+      start: 11:00
       end: 13:00
+    - name: Synthesise feedback
+      start: 14:00
+      end: 15:00
       type: project
     - name: Technical spikes
-      start: 14:00
-      end: 16:00
+      start: 15:00
+      end: 17:00
       url: "./../spikes"
     - name: Spike presentation prep
-      start: 16:00
-      end: 16:30
-    - name: Spike presentations
-      start: 16:30
+      start: 17:00
       end: 17:45
-      type: presentation
   thursday:
-    - name: Project planning
+    - name: Spike presentations
       start: 10:00
-      end: 12:00
+      end: 11:00
+      type: presentation
+    - name: Project planning
+      start: 11:00
+      end: 13:00
       url: https://hackmd.io/@fac/SkyPKSwBw#/
       type: project
     - name: Sprint Planning
-      start: 12:00
-      end: 13:00
-      url: https://hackmd.io/@fac/S1ZTP6UcI#/
-    - name: Sprint Planning
       start: 14:00
-      end: 15:00
+      end: 16:00
       url: https://hackmd.io/@fac/S1ZTP6UcI#/
     - name: Project set-up
-      start: 15:00
+      start: 16:00
       end: 17:45
       type: project
   friday:

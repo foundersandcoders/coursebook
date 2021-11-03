@@ -20,8 +20,12 @@ schedule:
       end: 17:45
       type: project
   wednesday:
-    - name: Build
+    - name: Web Science
       start: 10:00
+      end: 11:00
+      type: presentation
+    - name: Build
+      start: 11:00
       end: 12:45
       type: project
     - name: Role circles
