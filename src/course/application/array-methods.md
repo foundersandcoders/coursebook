@@ -4,7 +4,7 @@ Build a front-end which interacts with a set of functions. Each function focuses
 
 Below is a suggested approach, you're encouraged to experiment with other approaches to build a similar tool.
 
-### Set-up
+## Set-up
 
 Open a new project in Stackblitz or VS Code. Set up HTML, CSS and JavaScript files and ensure they are connected with one another.
 
@@ -16,7 +16,7 @@ In your HTML, you'll need to have:
 - A `button` for the user to click
 - Somewhere to output the result
 
-### JavaScript
+## JavaScript
 
 Add JavaScript so that when the user clicks the button, one of the functions is run and the result is shown on the page.
 
@@ -26,7 +26,7 @@ Based on which radio button is selected, choose which function to run. Pass an a
 
 Finally, return the result from the function and display it on the page.
 
-### User experience
+## User experience
 
 Add CSS to give the user an intuitive experience
 

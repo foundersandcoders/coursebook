@@ -7,21 +7,21 @@ When approaching coding problems, it can be helpful to follow a process. We reco
 1. Write JavaScript
 1. Refactor
 
-### Understand the problem
+## Understand the problem
 
 First, make sure you understand the problem you're working on. What is it asking you to do? Look at the parts of the problem and break it down into manageable steps.
 
-### Write Pseudocode
+## Write Pseudocode
 
 Break the problem down into key steps - each one should be one or two sentences.
 
 Use JavaScript comments to write out these steps in order. Translate the problem into steps that you understand.
 
-### Write JavaScript
+## Write JavaScript
 
 Following your pseudocode, code each step. Translate the pseudocode into JavaScript.
 
-### Refactor
+## Refactor
 
 Once you've coded a solution, reflect on what you wrote.
 

@@ -1,8 +1,6 @@
-## Number functions
+# Number functions
 
-**Week 2: Number functions**
-
-Check the** :pushpin: pinned messages** for our **how to...**
+This set of functions will give you a further introduction to some key features in JavaScript. Use [Replit](https://replit.com) to code your solutions.
 
 :one: Write a function which accepts two numbers as arguments. The function should return the sum of the two numbers.
 
