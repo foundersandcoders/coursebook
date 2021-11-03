@@ -9,17 +9,18 @@
     <script>
       /* TASK 1 */
 
-      const getUser = (username) =>
-        fetch(`https://api.github.com/users/${username}`).then((response) =>
-          response.json()
-        );
+      function getUser(username) {
+        const user_url = `https://api.github.com/users/${username}`;
+        return fetch(user_url).then((response) => response.json());
+      }
 
       getUser("oliverjam").then(console.log).catch(console.error);
 
       /* TASK 2 */
 
-      const getRepos = (user) =>
-        fetch(user.repos_url).then((response) => response.json());
+      function getRepos(user) {
+        return fetch(user.repos_url).then((response) => response.json());
+      }
 
       getUser("oliverjam")
         .then(getRepos)
