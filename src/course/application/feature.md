@@ -1,4 +1,4 @@
-## Build a feature
+# Build a feature
 
 This is an open-ended project where you'll create a feature to include on your website.
 
