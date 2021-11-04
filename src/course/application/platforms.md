@@ -16,4 +16,4 @@ Stackblitz doesn't save your work automatically so remember to click Save in the
 
 [VS Code](https://code.visualstudio.com/) is a code editor widely used in Software Development. Using VS Code allows you to save your code to your local machine.
 
-VS Code has numerous advantages such as source control, extentions, and keyboard shortcuts.
+VS Code has numerous advantages such as source control, extensions, and keyboard shortcuts.
