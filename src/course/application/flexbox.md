@@ -1,12 +1,24 @@
 ## Flexbox
 
-Create a project gallery using Flex (making use of justify-content, align-items, flex-wrap etc.)
+Flexbox allows us to create dynamic and responsive one-dimensional layouts.
 
-## Justify-content
+## Axes
 
-## Align-items
+The flexbox layout positions elements across two axes: main and cross. Depending on the flex-direction of the container, elements will align in rows or columns.
 
-## Wrapping content
+## The flex container
+
+To use flexbox, we contain the elements we'd like to lay out on the page within a container. The container's `display` property should be set to `flex`.
+
+## Alignment and justification
+
+Elements will be aligned and justified on the main and cross axes. We can use different values of the `justify-content` and `align-items` properties to define our layout.
+
+## Project Gallery
+
+Create a project gallery which uses a flexbox layout. You'll need to add a container to keep each element and use properties such as `justify-content`, `align-items`, and `flex-wrap` to display the elements on the page.
+
+Your project gallery could feature some of the websites you've built already while working through the application requirements.
 
 ## Learn more
 

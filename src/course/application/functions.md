@@ -4,7 +4,7 @@ This set of functions will give you an introduction to some key features in Java
 
 ## Hello user
 
-Write a function which greets the user. The function should receive one argument, a string. We can assume the string is a person's name. We'd like the function to return "Hello " and then the name. We should be able to see the outputs in the console.
+Write a function which greets the user. The function should receive one argument, a string. We can assume the string is a person's name. We'd like the function to return "Hello " and then the name. We should be able to see the output in the console.
 
 Examples:
 
@@ -38,7 +38,7 @@ Write a function which returns the length of the string we pass in.
 
 ```js
 const theLength = checkLength("Around the World");
-console.log(checkLength(theLength));
+console.log(theLength);
 // outputs: 16
 
 console.log(checkLength("One More Time"));

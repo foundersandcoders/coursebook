@@ -2,7 +2,7 @@
 
 Building your first website can seem daunting. Break the task down into features, or sections, and build them one at a time.
 
-Follow [the requirements](https://www.foundersandcoders.com/requirements/website) listed on our website when applying to our programme.
+Follow [the requirements](https://www.foundersandcoders.com/requirements/website) listed on our website.
 
 ## HTML
 
@@ -18,9 +18,9 @@ Think about the colour scheme; the layout of your content; and how a user will v
 
 ## JavaScript
 
-With JavaScript you can use DOM Manipulation to make your site dynamic and interactive. Include features which allow you to practise with the JavaScript you've learnt throughout completing the course requirements.
+Use DOM Manipulation to make your site dynamic and interactive. Include features to practise the JavaScript you've learnt throughout completing the application requirements.
 
-Structure your code in a way that makes sense. Include meaningful variable names; modular functions and comments where appropriate.
+Structure your code in a way that makes sense. Include meaningful variable names; modular functions and annotate your code with comments.
 
 Think about how you will update and change content on your site; what parts of the site the user can interact with; and how you can keep your JavaScript efficient and readable.
 

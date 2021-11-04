@@ -1,8 +1,10 @@
 # Number functions
 
-This set of functions will give you a further introduction to some key features in JavaScript. Use [Replit](https://replit.com) to code your solutions.
+This set of functions will give you a further introduction to key features in JavaScript. Use [Replit](https://replit.com) to code your solutions.
 
-:one: Write a function which accepts two numbers as arguments. The function should return the sum of the two numbers.
+## Sum of two numbers
+
+Write a function which accepts two numbers as arguments. The function should return the sum of the two numbers.
 
 For example:
 
@@ -20,7 +22,9 @@ console.log(addTwoNumbers(result, newNum));
 // Outputs to the console: 32;
 ```
 
-:two: Write a function that accepts four arguments, each will be a number. The function should add the first two numbers together; add the third and fourth numbers; and return the result of multiplying both sums together.
+## Add and multiply
+
+Write a function that accepts four arguments, each will be a number. The function should add the first two numbers together; add the third and fourth numbers; and return the result of multiplying both sums together.
 
 Examples:
 
@@ -34,7 +38,9 @@ console.log(addAndMultiply(1,1,1,1);
 // Logs 4
 ```
 
-:three: Write a function which accepts two numbers. The function should return the larger number.
+## Return larger
+
+Write a function which accepts two numbers. The function should return the larger number.
 
 Examples:
 
@@ -46,7 +52,9 @@ checkLarger(44, 33);
 // Returns 44
 ```
 
-:four: Write a function which accepts an array as an argument. Each item in the array will be a number. The function should add all the numbers in the array and return the result.
+## Sum of elements
+
+Write a function which accepts an array as an argument. Each item in the array will be a number. The function should add all the numbers in the array and return the result.
 
 ```js
 let total = addArrNums([4, 7, 12, 11]);
@@ -63,17 +71,13 @@ console.log(total - total);
 // Logs 0
 ```
 
-Remember to share your learnings on Discord and ask any questions in the relevant channels!
-
-### Squaring a number
+## Squaring a number
 
 Write a function which accepts one input, a number.
 
 The function should return the square of that number.
 
----
-
-### Odd or Even
+## Odd or Even
 
 Write a function which accepts a number as an argument.
 
@@ -81,9 +85,7 @@ The function should determine whether the number is even or odd.
 
 Return 'Even' or 'Odd' based on the parity of the number.
 
----
-
-### Sum of positive
+## Sum of positive
 
 Write a function which accepts an array as an argument.
 

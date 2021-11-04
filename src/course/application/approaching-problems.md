@@ -13,9 +13,9 @@ First, make sure you understand the problem you're working on. What is it asking
 
 ## Write Pseudocode
 
-Break the problem down into key steps - each one should be one or two sentences.
+Break the problem down into key steps - each one should be one or two sentences. Translate the problem into steps that you understand.
 
-Use JavaScript comments to write out these steps in order. Translate the problem into steps that you understand.
+Use JavaScript comments to write out these steps in order.
 
 ## Write JavaScript
 
@@ -33,5 +33,5 @@ What can you change about your code to make it more efficient? How might you sol
 - Re-read the problem
 - Check your inputs and outputs
 - Check for syntax errors
-- Look at documentation such as [W3 Schools](https://www.w3schools.com/) or [MDN](https://developer.mozilla.org/en-US/)
 - Read any error messages
+- Look at documentation such as [W3 Schools](https://www.w3schools.com/) or [MDN](https://developer.mozilla.org/en-US/)

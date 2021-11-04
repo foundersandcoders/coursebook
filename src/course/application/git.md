@@ -10,7 +10,7 @@ Open up your terminal and navigate to the folder where you've saved your files. 
 
 ## Staging and committing
 
-Staging is a step before committing changes. When you stage changes you can continue to make changes in the working directory and control which files or changes you'd like to include in a commit.
+Staging tells git which files we'd like to add to our next commit. When you stage changes you can continue to make changes in the working directory and control which files or changes you'd like to include in a commit.
 
 When staging, you can specify files to stage, or using the `.` you can stage all the files in your current directory.
 
@@ -19,7 +19,7 @@ git add index.html
 git add .
 ```
 
-Commiting is like saving your progress. You are telling git that all the changes made should be tracked. The repository will be saved at the point in time you commit.
+Commiting is like saving your progress or taking a snapshot of the current codebase. You are telling git that all the changes made should be tracked. The repository will be saved at the point in time you commit.
 
 Running the command without the `-m` flag will open up an editor in your terminal where you can write a commit message. Exit this by hitting `esc` and typing `:wq`.
 
@@ -49,15 +49,15 @@ git push -u origin main
 
 Deploy your site to GitHub Pages in the repository settings. You'll receive a link to the live version of your site.
 
-Add this url to your README and repository description.
+Add this url to your `README.md` and repository description.
 
 It can take a few minutes for GitHub to deploy the repository for the first time. You might need to wait a little while before you see your changes live.
 
 ## Making changes
 
-Once you have a local and remote repository connected, you'll be able to keep both in sync by regularly staging, committing and pushing your changes to GitHub. Getting into the habit of doing this regularly will help you make sure your codebase is backed up and version-controlled.
+Once you have a local and remote repository connected, you'll be able to keep both in sync by regularly staging, committing and pushing your changes to GitHub.
 
-There's no hard and fast rule for how often you should commit. This might be after every 20 lines of code; every 30 or 60 minutes; or after each feature you complete. Getting into the habit of small commits often will give you a good level of practice with _git flow_ as well as GitHub activity on your profile (green squares).
+There's no hard and fast rule for how often you should commit. This might be after every 20 lines of code; every 30 or 60 minutes; or after each feature you complete. Getting into the habit of making small commits often will give you a good level of practice with _git flow_ as well as GitHub activity on your profile (green squares). Regularly pushing your changes will ensure your codebase is backed up and version-controlled.
 
 Once you have a local and remote repository connected, keep them in sync by regularly staging, commiting and pushing your changes.
 

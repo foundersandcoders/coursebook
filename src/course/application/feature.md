@@ -1,30 +1,49 @@
 ## Build a feature
 
-Create a project that uses user input and a timer - e.g. tortoise racer or image carousel
+This is an open-ended project where you'll create a feature to include on your website.
+
+The requirements are that the feature takes some user input and updates the DOM based on that input. In this case, user input refers to an event which can be listened for in the DOM.
 
 ## Steps to build a feature
 
-Plan it out
-Break it down into steps
-Write pseudocode
-Test parts as you go
+When building a feature for your site, you'll want to follow a process. Diving straight into coding can lead to the feature taking longer to complete or having untidy structure. We suggest following these steps:
+
+1. Plan out the feature
+1. Break it down into smaller parts
+1. Write pseudocode
+1. Write JavaScript
+1. Test each part as you build
+1. Refactor
 
 ## The image carousel
 
-This used to be a requirement
-We want to give space for you to be creative
-It touches on interesting things: having timed events, changing what is displayed on a page, responding to clicks and keyboard inputs
+Building an image carousel used to be a requirement to apply to our programme. We removed it as a requirement to give space for creativity when building features.
+
+Although this isn't required, it is still an interesting thing to build and involves interesting JavaScript functionality.
+
+An image carousel shows one image at a time, with buttons to move between a set of images.
+
+Complexity can be added to the carousel with any or all of the following additions:
+
+- An autoplay feature and a button to pause and unpause the carousel
+- Reponding to the user pressing arrow keys to move between slides
+- A set of dots which tell the user which image is showing and can be clicked to skip to a particular image
 
 ## The tortoise race
 
-This uses similar features to the image carousel
-Gives an introduction to timed events, moving elements across a page, responding to user input
+This is a simple game triggered by clicking a button to start a race across the screen between a set of tortoises. When the user clicks a button, the race should begin. Once the race is over, the user should be told which tortoise won.
+
+Complexity can be added with the following features:
+
+- Variable speeds for each racer
+- Ability to add more tortoises to the race
+- Tortoises moving based on key presses from the user
 
 ## Build something you find exciting
 
-We're looking for creative features that you have built yourself
-Think about what you'd find interesting to build
-Is there something you've always wanted to see on a website? A type of game you enjoy? Something that would add additional functionality to your site?
+The above examples give you a sense of the kind of feature we're looking for. It's up to you to build something that you find interesting.
+
+We're looking for creative features that you have built yourself. Is there something you've always wanted to see on a website? A type of game you enjoy? Something that would add additional functionality to your site?
 
 ## Finding help
 
