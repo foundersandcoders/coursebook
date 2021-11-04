@@ -26,4 +26,4 @@ If both functions return `true` give visual feedback to the user that the codena
 
 `Gregor23` is a valid username, and so is `a88aFan`.
 
-An invalid input would be `d0g` as it's too short and has no uppercase letters or numbers; or `902101` since it has no letters. `HELLOworld` is not since it doesn't contain numbers
+An invalid input would be `d0g` as it's too short and has no uppercase letters or numbers; or `902101` since it has no letters. `HELLOworld` is not since it doesn't contain numbers.
