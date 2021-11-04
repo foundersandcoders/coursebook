@@ -38,6 +38,21 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/handbook/one-day-projects/">One Day Projects</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/project-management/">Project Management</${Link}></li>
         </${Section}>
+        <${Section} title="Application" url=${url} subpath="course/application">
+          <li><${Link} url=${url} href="/course/application/how-to">How to</${Link}></li>
+          <li><${Link} url=${url} href="/course/application/platforms">Platforms</${Link}></li>
+          <li><${Link} url=${url} href="/course/application/approaching-problems">Approaching problems</${Link}></li>
+          <li><${Link} url=${url} href="/course/application/functions">Functions</${Link}></li>
+          <li><${Link} url=${url} href="/course/application/number-functions">Number functions</${Link}></li>
+          <li><${Link} url=${url} href="/course/application/dom">DOM</${Link}></li>
+          <li><${Link} url=${url} href="/course/application/array-methods">Arrays</${Link}></li>
+          <li><${Link} url=${url} href="/course/application/git">git and GitHub</${Link}></li>
+          <li><${Link} url=${url} href="/course/application/flexbox">Flexbox</${Link}></li>
+          <li><${Link} url=${url} href="/course/application/building-a-site">Build a website</${Link}></li>
+          <li><${Link} url=${url} href="/course/application/objects">Objects</${Link}></li>
+          <li><${Link} url=${url} href="/course/application/feature">Feature</${Link}></li>
+          <li><${Link} url=${url} href="/course/application/debugging">Debugging</${Link}></li>
+        </${Section}>
         <${Section} title="Pre-apprenticeship" url=${url} subpath="course/syllabus/pre-apprenticeship">
           <li><${Link} url=${url} href="/course/syllabus/pre-apprenticeship/teamwork/schedule/">Teamwork</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/pre-apprenticeship/markup/schedule/">Markup</${Link}></li>
