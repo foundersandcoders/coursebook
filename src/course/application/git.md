@@ -1,4 +1,4 @@
-# git and GitHub
+# Git and GitHub
 
 This week, you'll practise with **git flow**. Follow these steps to connect a local repository to a remote one on GitHub. Before following these steps, you'll need to [install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
