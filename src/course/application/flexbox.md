@@ -1,4 +1,4 @@
-## Flexbox
+# Flexbox
 
 Flexbox allows us to create dynamic and responsive one-dimensional layouts.
 
