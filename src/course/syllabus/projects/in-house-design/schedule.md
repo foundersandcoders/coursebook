@@ -19,13 +19,8 @@ schedule:
     - name: Break
       start: 11:20
       end: 11:30
-    - name: User research presentation
-      start: 11:30
-      end: 11:50
-      type: presentation
-      url: https://docs.google.com/presentation/d/10t83KG0ZHP5jKpxdL5HX8hkQDqvf2f01qJs-NkeqjX8/edit?usp=sharing
     - name: Discovery workshop part two
-      start: 11:50
+      start: 11:30
       end: 13:00
       type: workshop
     - name: Conduct user research
