@@ -95,15 +95,14 @@ schedule:
       end: 16:00
       url: https://hackmd.io/@fac/SkyPKSwBw#/
       type: project
-    - name: Sprint Planning
+    - name: Code planning
       start: 16:00
       end: 17:45
-      url: https://hackmd.io/@fac/S1ZTP6UcI#/
   friday:
-    - name: Project set-up
+    - name: Sprint Planning
       start: 10:00
       end: 12:00
-      type: project
+      url: https://hackmd.io/@fac/S1ZTP6UcI#/
     - name: Presentation prep
       start: 12:00
       end: 13:00
