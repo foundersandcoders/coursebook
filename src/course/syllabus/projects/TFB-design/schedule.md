@@ -53,11 +53,11 @@ schedule:
       end: 13:00
       url: https://hackmd.io/@fac/SkyPKSwBw#/
       type: project
-    - name: Sprint Planning
+    - name: Code Planning
       start: 14:00
       end: 16:00
-      url: https://hackmd.io/@fac/S1ZTP6UcI#/
-    - name: Project set-up
+      url: https://fac-slides.netlify.app/slides/project-architecture/#2
+    - name: Sprint Planning
       start: 16:00
       end: 17:45
       type: project
