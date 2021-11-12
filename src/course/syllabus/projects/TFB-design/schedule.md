@@ -56,7 +56,7 @@ schedule:
     - name: Code Planning
       start: 14:00
       end: 16:00
-      url: https://fac-slides.netlify.app/slides/project-architecture/#2
+      url: https://fac-slides.netlify.app/slides/project-architecture/
     - name: Sprint Planning
       start: 16:00
       end: 17:45
