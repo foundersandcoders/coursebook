@@ -41,10 +41,10 @@ schedule:
       end: 17:45
       type: project
   friday:
-    - name: Sprint Review and Presentation Prep
+    - name: Sprint Review and Planning
       start: 11:00
       end: 12:00
-    - name: Sprint Planning
+    - name: Presentation Prep
       start: 12:00
       end: 13:00
 ---
