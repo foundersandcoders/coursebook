@@ -51,5 +51,12 @@ schedule:
       end: 11:00
     - name: Product handover
       start: 11:00
-      end: 12:15
+      end: 12:00
+    - name: Product documentation
+      start: 12:00
+      end: 12:30
+      url: /course/handbook/project-documentation
+    - name: Presentation Prep
+      start: 12:30
+      end: 13:00
 ---

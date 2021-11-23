@@ -52,6 +52,7 @@ schedule:
     - name: Product Documentation
       start: 11:30
       end: 12:15
+      url: /course/handbook/project-documentation
     - name: Presentation Prep
       start: 12:15
       end: 13:00
