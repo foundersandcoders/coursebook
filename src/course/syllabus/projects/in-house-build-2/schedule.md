@@ -46,10 +46,14 @@ schedule:
       end: 17:45
       type: project
   friday:
+    - name: Sprint Review
+      start: 10:45
+      end: 11:30
     - name: Product Documentation
-      start: 11:00
-      end: 12:00
-    - name: Sprint Review and Presentation Prep
-      start: 12:00
+      start: 11:30
+      end: 12:15
+      url: /course/handbook/project-documentation
+    - name: Presentation Prep
+      start: 12:15
       end: 13:00
 ---
