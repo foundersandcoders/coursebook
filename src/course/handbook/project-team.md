@@ -27,7 +27,7 @@
 - Sprint planning
   - Prioritise issues
   - Break down larger issues into manageable chunks
-- Lead standups
+- Lead standups and Sprint Planning
 - Clear blockers
 
 ## UX Lead
@@ -38,3 +38,22 @@
 - Create a style guide
 - Ensure design heuristics are followed
 - Lead on user testing
+
+## PO Liaison
+
+### Responsibilities
+
+- Lead conversations with the Product Owner
+- Listen to and mediate Product Owner needs
+- Balance needs of the Product Owner with the needs of the Product Team
+- Provide a daily rundown of work completed
+- Lead Sprint Review
+
+## Project Documenter
+
+### Responsibilities
+
+- Lead on project documentation
+- Ensure regular attention is given to thorough documentation
+- Consider all parts of the [project documentation](../project-documentation)
+- Provide support to the team in writing documentation
