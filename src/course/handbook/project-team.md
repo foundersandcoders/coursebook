@@ -57,3 +57,4 @@
 - Ensure regular attention is given to thorough documentation
 - Consider all parts of the [project documentation](../project-documentation)
 - Provide support to the team in writing documentation
+- Ensure completion of handover documentation for the Product Owner
