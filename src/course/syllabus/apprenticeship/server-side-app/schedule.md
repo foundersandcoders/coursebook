@@ -18,8 +18,12 @@ schedule:
   tuesday:
     - name: Projects
       start: 10:00
-      end: 13:00
+      end: 12:45
       type: project
+    - name: Intro to In-House Final Projects
+      start: 12:45
+      end: 13:00
+      url: https://hackmd.io/@jamdelion/Skhetr0dF#/
     - name: TFB - Discovery
       start: 14:00
       end: 15:00
