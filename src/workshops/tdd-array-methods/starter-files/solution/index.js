@@ -75,10 +75,9 @@ function find(array, fn) {
     const match = fn(el, i);
     if (match) {
       return el;
-    } else {
-      return undefined;
     }
   }
+  return undefined;
 }
 
 // function reduce(array, fn, initialAccumulator) {

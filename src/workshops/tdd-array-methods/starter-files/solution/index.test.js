@@ -64,10 +64,12 @@ test("some() should return false if every element fails the test", () => {
 
 test("find() should return the first element that passes the test", () => {
   const result = find([100, 200], (x) => x > 10);
-  equal(result, 100);
+  equal(result, 100, "Should be able to find first element");
+  const result2 = find([100, 200, 300], (x) => x > 150);
+  equal(result2, 200, "Should be able to find elements that are not first");
 });
 
-test("find() should return the undefined if no element passes the test", () => {
+test("find() should return undefined if no element passes the test", () => {
   const result = find([1, 2], (x) => x > 10);
   equal(result, undefined);
 });
