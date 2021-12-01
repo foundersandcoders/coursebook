@@ -80,23 +80,32 @@ function find(array, fn) {
   return undefined;
 }
 
-// function reduce(array, fn, initialAccumulator) {
-//   let newAccumulator = initialAccumulator; // starting value
+// function reduce(array, fn, accumulator) {
 //   for (let i = 0; i < array.length; i++) {
 //     const el = array[i];
-//     newAccumulator = fn(newAccumulator, el, i); // fn should return new acc each time
+//     accumulator = fn(accumulator, el, i); // fn should return new acc each time
 //   }
-//   return newAccumulator;
+//   return accumulator;
 // }
 
+// Reduce is actually a little more complicated:
+// you can optionally not pass an initial accumulator value
+// in this case it will use the first array value as the start
+// and skip the first iteration
+// e.g. [1, 2, 3].reduce((total, x) => total + x)
+// the total starts at 1 and the loop starts at the second index
 function reduce(array, fn, initialAccumulator) {
-  let newAccumulator = initialAccumulator || array[0]; // starting value
-  let startCount = initialAccumulator ? 0 : 1; // if no acc passed we skip first iteration
-  for (let i = startCount; i < array.length; i++) {
-    const el = array[i];
-    newAccumulator = fn(newAccumulator, el, i); // fn should return new acc each time
+  let accumulator = initialAccumulator;
+  let i = 0;
+  if (initialAccumulator == undefined) {
+    accumulator = array[0]; // default to first value
+    i = 1; // skip first loop
   }
-  return newAccumulator;
+  for (; i < array.length; i++) {
+    const el = array[i];
+    accumulator = fn(accumulator, el, i); // fn should return new acc each time
+  }
+  return accumulator;
 }
 
 // function flat(array) {

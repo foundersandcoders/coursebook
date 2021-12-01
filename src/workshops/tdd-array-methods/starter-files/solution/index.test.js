@@ -81,7 +81,7 @@ test("reduce() should call the fn for each element and use the return value as t
   equal(result, 6);
 });
 
-test("reduce() should use the first element of array if no accumulator passed", () => {
+test("reduce() should use the first element of array if no accumulator is provided", () => {
   const result = reduce([1, 2, 3], (total, x) => total + x);
   equal(result, 6);
 });
