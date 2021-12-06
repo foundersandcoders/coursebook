@@ -3,7 +3,7 @@ layout: schedule
 schedule:
   monday:
     - name: Build
-      start: 10:00
+      start: 10:10
       end: 13:00
       type: project
     - name: Build
