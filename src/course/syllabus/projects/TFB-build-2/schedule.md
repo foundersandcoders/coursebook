@@ -74,5 +74,4 @@ schedule:
     - start: 16:55
       end: 17:00
       name: Weekly Feedback
-      url: https://airtable.com/shrtZxxxk7nQo4xsT
 ---
