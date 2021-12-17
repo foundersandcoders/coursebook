@@ -59,4 +59,19 @@ schedule:
     - name: Presentation Prep
       start: 12:30
       end: 13:00
+    - name: Presentations
+      type: presentation
+      start: 14:00
+      end: 14:45
+    - start: 14:45
+      end: 15:05
+      name: Team SGCs
+      url: /course/handbook/retrospectives/#team-retrospectives
+    - start: 15:05
+      end: 16:55
+      name: Super Cohort SGC
+      url: /course/handbook/retrospectives/
+    - start: 16:55
+      end: 17:00
+      name: Weekly Feedback
 ---
