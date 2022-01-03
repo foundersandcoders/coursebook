@@ -6,7 +6,7 @@ exports.data = {
   layout: "course",
 };
 
-exports.render = ({ section, topic, page, content }) => {
+exports.render = ({ section, topic, page, content, tabs }) => {
   return html`
     <div class="vstack gap-xl">
       <header class="vstack gap-lg">
@@ -14,10 +14,22 @@ exports.render = ({ section, topic, page, content }) => {
         <h1 class="highlight bg-primary">${topic} <span class="vh">${section}</span></h1>
         <${Tabs}>
           <${Tab} page=${page} href="schedule">Schedule</${Tab}>
-          <${Tab} page=${page} href="learning-outcomes">Learnings</${Tab}>
-          <${Tab} page=${page} href="spikes">Spikes</${Tab}>
-          <${Tab} page=${page} href="project">Project</${Tab}>
-          <${Tab} page=${page} href="resources">Resources</${Tab}>
+          ${
+            tabs.learnings !== false &&
+            html`<${Tab} page=${page} href="learning-outcomes">Learnings</${Tab}>`
+          }
+          ${
+            tabs.spikes !== false &&
+            html`<${Tab} page=${page} href="spikes">Spikes</${Tab}>`
+          }
+          ${
+            tabs.project !== false &&
+            html`<${Tab} page=${page} href="project">Project</${Tab}>`
+          }
+          ${
+            tabs.resources !== false &&
+            html`<${Tab} page=${page} href="resources">Resources</${Tab}>`
+          }
         </${Tabs}>
       </header>
       <${RawContent} class="flow">${content}</${RawContent}>
