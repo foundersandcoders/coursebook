@@ -6,7 +6,7 @@ exports.data = {
   layout: "course",
 };
 
-exports.render = ({ section, topic, page, content, tabs }) => {
+exports.render = ({ section, topic, page, content, tabs = {} }) => {
   return html`
     <div class="vstack gap-xl">
       <header class="vstack gap-lg">
