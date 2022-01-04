@@ -55,7 +55,7 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/application/debugging">Debugging</${Link}></li>
         </${Section}>
         <${Section} title="Pre-apprenticeship" url=${url} subpath="course/syllabus/pre-apprenticeship">
-          <li><${Link} url=${url} href="/course/syllabus/pre-apprenticeship/teamwork/schedule/">Teamwork</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/pre-apprenticeship/pre-course/schedule/">Pre-course</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/pre-apprenticeship/markup/schedule/">Markup</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/pre-apprenticeship/http/schedule/">HTTP</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/pre-apprenticeship/testing/schedule/">Testing</${Link}></li>
