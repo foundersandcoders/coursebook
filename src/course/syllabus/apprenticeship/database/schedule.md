@@ -30,6 +30,14 @@ schedule:
       end: 17:00
       url: /workshops/node-error-handling
       type: workshop
+    - name: Issue management
+      start: 17:00
+      end: 17:15
+      url: https://fac-slides.netlify.app/slides/estimation
+    - name: Project setup
+      start: 17:15
+      end: 17:45
+      url: ../project
   wednesday:
     - name: Heroku SQL challenge
       start: 10:00

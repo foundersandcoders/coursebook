@@ -35,6 +35,15 @@ schedule:
       end: 17:00
       url: /workshops/cypress-testing/
       type: workshop
+    - name: Intro to Project Management
+      start: 17:00
+      end: 17:15
+      url: https://fac-slides.netlify.app/slides/proj-mgmt
+    - name: Project setup
+      start: 17:15
+      end: 17:45
+      url: ../project
+      type: project
   wednesday:
     - start: 10:00
       end: 11:00
