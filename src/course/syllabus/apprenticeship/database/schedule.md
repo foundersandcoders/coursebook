@@ -7,7 +7,7 @@ schedule:
       end: 10:45
       url: https://fac-slides.netlify.app/slides/databases/
     - name: SQL intro
-      start: 10:30
+      start: 10:45
       end: 13:00
       url: /workshops/sql-intro/
       type: workshop
@@ -48,4 +48,23 @@ schedule:
       start: 12:45
       end: 13:00
       url: /course/handbook/role-circles
+  thursday:
+    - name: Digital 101
+      start: 10:00
+      end: 11:30
+    - name: Project
+      start: 11:30
+      end: 13:00
+      type: project
+  friday:
+    - name: Respond to issues
+      start: 11:15
+      end: 13:00
+    - name: Presentation prep
+      start: 14:00
+      end: 14:45
+      url: /course/handbook/projects/#project-presentation
+    - name: Presentations
+      start: 14:45
+      end: 15:15
 ---
