@@ -2,38 +2,73 @@ This topic is focused on the fundamental building blocks of web pages—accessib
 
 ## Week 1
 
-1. [Semantic HTML](/workshops/semantic-html/) (1h)
+### Mon 10th Jan
 
-   Learn why it's important to use the right HTML element for each thing on a page.
+- 17:00-17:15 Check-in
+- 17:15-18:15 Intro talks
+- 18:15-19:45 Git workflow workshop
+- 19:45-20:00 Git workflow workshop discussion
 
-1. [CSS layout](/workshops/css-layout/) (2h)
+Homework for Mon 17th Jan:
 
-   Learn several different ways to control how a page is laid out using CSS.
+- [CSS Layout workshop](/workshops/css-layout/) (3 hours)
 
-1. [Accessibility](/workshops/learn-a11y/) (1h)
+### Thu 13th Jan
 
-   Learn why it's important to make your pages accessible to as many different kinds of users as possible.
+- Intro + screening questions
+- CV
+- GitHub profile
+
+Homework for Thu 20th Jan:
+
+- TBC
 
 ## Week 2
 
-1. [HTML forms](/workshops/html-forms/) (1h)
+### Mon 17th Jan
 
-   Learn how to build forms using the right HTML elements, and control how they submit user data.
+- 17:00-17:15 Check-in/feedback form
+- 17:15-17:30 CSS Layout workshop discussion
+- 17:30-18:30 [Semantic HTML workshop](/workshops/semantic-html/)
+- 18:30-18:45 Semantic HTML workshop discussion
+- 18:45-19:45 [Accessibility workshop](/workshops/learn-a11y/)
+- 19:45-20:00 Accessibility workshop discussion
 
-1. [Spikes](../spikes/) (1h)
+Homework for Thu 20th Jan:
 
-   Research a new related topic to prepare for your projects.
+- [HTML Forms workshop](/workshops/html-forms/) (1.5 hours)
 
-1. [Project](../project/) (2h)
+### Thu 20th Jan
 
-   Plan your project and make sure your GitHub repository is ready for you to start working on it.
+- HTML Forms workshop discussion
+- Screening questions
+- Employer Q&A
+- LinkedIn
+
+Homework for Thu 27th Jan:
+
+- [Project](../project/)
 
 ## Week 3
 
-1. [Project](../project/) (7h)
+### Mon 24th Jan
 
-   Build your project!
+- CV
+- Employer Q&A
+- Employer Q&A
 
-1. [Code review](/course/handbook/code-review/) (1h)
+Homework for Thu 3rd Feb:
 
-   Swap projects with someone and leave GitHub issues with feedback on the code.
+- TBC
+
+### Thu 27th Jan
+
+- 17:00-17:15 Check-in/feedback form
+- 17:15-17:45 Live project code review
+- 17:45-18:30 Peer project code review
+- 18:30-20:00 Project presentations
+
+Homework for Mon 31st Jan:
+
+- Revision quiz
+- Side project
