@@ -115,7 +115,7 @@ input[type="search"] {
   border: 0;
   padding: 0.25rem 1.25rem;
   font: inherit;
-  background-color: hsl(200deg 100% 45%);
+  background-color: hsl(200deg, 100%, 45%);
   color: white;
 }
 
