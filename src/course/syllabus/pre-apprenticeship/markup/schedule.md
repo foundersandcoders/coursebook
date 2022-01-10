@@ -6,7 +6,7 @@ This topic is focused on the fundamental building blocks of web pages—accessib
 
 - 17:00-17:15 Check-in
 - 17:15-18:15 Intro talks
-- 18:15-19:45 Git workflow workshop
+- 18:15-19:45 [Git workflow workshop](/workshops/git-workflow/)
 - 19:45-20:00 Git workflow workshop discussion
 
 Homework for Mon 17th Jan:
