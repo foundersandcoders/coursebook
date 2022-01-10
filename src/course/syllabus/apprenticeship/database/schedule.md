@@ -47,12 +47,8 @@ schedule:
       type: challenge
     - name: Project
       start: 11:00
-      end: 12:30
-      type: project
-    - name: Ceremonies & pair programming
-      start: 12:30
       end: 12:45
-      type: talk
+      type: project
     - name: Role circles
       start: 12:45
       end: 13:00
@@ -73,7 +69,22 @@ schedule:
       start: 14:00
       end: 14:45
       url: /course/handbook/projects/#project-presentation
-    - name: Presentations
+    - name: Project documentation
       start: 14:45
       end: 15:15
+      url: /course/handbook/project-documentation
+    - name: Presentations
+      start: 15:15
+      end: 16:00
+      type: presentation
+    - name: Cohort SGC
+      start: 16:00
+      end: 16:45
+    - name: Team SGC
+      start: 16:45
+      end: 17:30
+    - name: Update user manuals
+      start: 17:30
+      end: 17:45
+      url: /course/handbook/user-manuals/
 ---

@@ -2,8 +2,6 @@
 
 Personal user manuals! Keep them updated, read them well 📒
 
-![Spongebob reading a book](https://media.giphy.com/media/WoWm8YzFQJg5i/giphy.gif)
-
 ## How do I edit my user manual?
 
 Click on the 'issues' tab above to create a new issue, by clicking 'New Issue'.
