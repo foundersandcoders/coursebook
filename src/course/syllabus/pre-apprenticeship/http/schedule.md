@@ -2,46 +2,72 @@ Learn how to manage asynchronous tasks and send HTTP requests using JavaScript.
 
 ## Week 1
 
-1. [Intro presentation](https://fac-slides.netlify.app/slides/http/) (0.5h)
+### Mon 31st Jan
 
-   Learn about HTTP, the protocol the World Wide Web is built on.
+- 17:00-17:15 Check-in
+- 17:15-17:45 [Intro talk](https://fac-slides.netlify.app/slides/http/)
+- 17:45-19:45 [Asynchronous JS workshop](/workshops/functions-callbacks-async/)
+- 19:45-20:00 Asynchronous JS workshop discussion
 
-1. [Functions, callbacks & async](/workshops/functions-callbacks-async/) (2h)
+Homework for Mon 7th Jan:
 
-   Learn why JS doesn't always execute your code in the order you wrote it.
+- [Promises & fetch workshop](/workshops/learn-fetch/) (2 hours)
+- [DOM Challenge](/workshops/dom-challenge/) (1 hour)
 
-1. [Promises & fetch](/workshops/learn-fetch/) (2h)
+### Thu 3rd Feb
 
-   Learn how to send HTTP requests using the built-in `fetch` function.
+- GitHub profile
+- Employer Q&A
+- Employer Q&A
 
-1. [DOM challenge](/workshops/dom-challenge/) (1h)
+Homework for Thu 10th Feb:
 
-   Practice your DOM manipulation.
+- TBC
 
 ## Week 2
 
-1. [Promise practice](/workshops/promise-practice/) (2h)
+### Mon 7th Feb
 
-   Use advanced techniques to make working with async code and promises easier.
+- 17:00-17:15 Check-in/feedback form
+- 17:15-17:30 Promises & fetch workshop discussion
+- 17:30-19:30 [Real-world fetch workshop](/workshops/real-world-fetch)
+- 19:30-20:00 Real-world fetch workshop discussion
 
-1. [Real-world fetch](/workshops/real-world-fetch) (2h)
+Homework for Thu 10th Feb:
 
-   Learn how to handle more complex `fetch` requests, and deal with errors.
+- [Promise practice workshop](/workshops/promise-practice/) (2 hours)
 
-1. [Spikes](../spikes/) (1h)
+### Thu 10th Feb
 
-   Research a new related topic to prepare for your projects.
+- Promise practice workshop discussion
+- LinkedIn
+- Employer Q&A
+- Employer Q&A
 
-1. [Project](../project/) (2h)
+Homework for Thu 17th Feb:
 
-   Plan your project and make sure your GitHub repository is ready for you to start working on it.
+- [Project](../project/)
 
 ## Week 3
 
-1. [Project](../project/) (7h)
+### Mon 14th Feb
 
-   Build your project!
+- Code Reading
+- Employer Q&A
+- Employer Q&A
 
-1. [Code review](/course/handbook/code-review/) (1h)
+Homework for Thu 17th Feb:
 
-   Swap projects with someone and leave GitHub issues with feedback on the code.
+- TBC
+
+### Thu 17th Feb
+
+- 17:00-17:15 Check-in/feedback form
+- 17:15-17:45 Live project code review
+- 17:45-18:30 Peer project code review
+- 18:30-20:00 Project presentations
+
+Homework for Mon 21st Feb:
+
+- Revision quiz
+- Side project

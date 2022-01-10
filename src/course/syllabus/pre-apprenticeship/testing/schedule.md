@@ -2,46 +2,72 @@ Learn how to make sure your code works correctly by creating automated tests.
 
 ## Week 1
 
-1. [Intro presentation](https://fac-slides.netlify.app/slides/testing/) (0.5h)
+### Mon 21st Feb
 
-   Learn what testing is and why it's so important.
+- 17:00-17:15 Check-in
+- 17:15-17:45 [Intro talk](https://fac-slides.netlify.app/slides/testing/)
+- 17:45-18:15 [Build a testing library](/workshops/learn-testing/)
+- 18:15-19:45 [Unit testing workshop](/workshops/learn-unit-testing/)
+- 19:45-20:00 Unit testing workshop discussion
 
-1. [Build a testing library](/workshops/learn-testing/) (0.5h)
+Homework for Mon 28th Feb:
 
-   Build some helper functions for testing, to see how it really works.
+- [Integration testing workshop](/workshops/learn-integration-testing/) (2 hours)
+- [Scope Challenge](/workshops/scope-challenge/) (1 hour)
 
-1. [Unit testing](/workshops/learn-unit-testing/) (1.5h)
+### Thu 3rd Mar
 
-   Learn how to test simple functions in isolation.
+- Code reading
+- Employer Q&A
+- Employer Q&A
 
-1. [Integration testing](/workshops/learn-integration-testing/) (2h)
+Homework for Mon 7th Mar:
 
-   Learn how to test whole features of your app in one go.
+- TBC
 
 ## Week 2
 
-1. [TDD array methods](/workshops/tdd-array-methods/) (2h)
+### Mon 7th Mar
 
-   Practice test-driven development whilst learning more about array methods.
+- 17:00-17:15 Check-in/feedback form
+- 17:15-17:30 Integration testing workshop discussion
+- 17:30-19:30 [TDD workshop](/workshops/tdd-array-methods/)
+- 19:30-20:00 TDD workshop discussion
 
-1. [Scope challenge](/workshops/scope-challenge/) (1h)
+Homework for Thu 10th Mar:
 
-   Learn about JS variable scoping and practice your debugging.
+- Finish the [TDD workshop](/workshops/tdd-array-methods/) (2 hours)
 
-1. [Spikes](../spikes/) (1h)
+### Thu 10th Mar
 
-   Research a new related topic to prepare for your projects.
+- Code writing
+- Code reading
+- Employer Q&A
 
-1. [Project](../project/) (2h)
+Homework for Thu 17th Mar:
 
-   Plan your project and make sure your GitHub repository is ready for you to start working on it.
+- [Project](../project/)
 
 ## Week 3
 
-1. [Project](../project/) (7h)
+### Mon 17th Mar
 
-   Build your project!
+- Code reading
+- Code writing
+- Employer Q&A?
 
-1. [Code review](/course/handbook/code-review/) (1h)
+Homework for Thu 20th Mar:
 
-   Swap projects with someone and leave GitHub issues with feedback on the code.
+- TBC
+
+### Thu 20th Mar
+
+- 17:00-17:15 Check-in/feedback form
+- 17:15-17:45 Live project code review
+- 17:45-18:30 Peer project code review
+- 18:30-20:00 Project presentations
+
+Homework for Mon 21st Feb:
+
+- Revision quiz
+- Side project
