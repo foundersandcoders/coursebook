@@ -38,6 +38,7 @@ schedule:
       start: 17:15
       end: 17:45
       url: ../project
+      type: project
   wednesday:
     - name: Heroku SQL challenge
       start: 10:00

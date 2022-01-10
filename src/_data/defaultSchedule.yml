@@ -109,6 +109,10 @@ friday:
     end: 14:00
     name: Lunch
   - start: 14:00
+    end: 14:30
+    name: Project documentation
+    url: /course/handbook/project-documentation
+  - start: 14:30
     end: 15:15
     name: Presentations
     type: presentation
