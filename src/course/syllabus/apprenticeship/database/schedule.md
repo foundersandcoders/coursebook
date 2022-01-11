@@ -7,7 +7,7 @@ schedule:
       end: 10:45
       url: https://fac-slides.netlify.app/slides/databases/
     - name: SQL intro
-      start: 10:30
+      start: 10:45
       end: 13:00
       url: /workshops/sql-intro/
       type: workshop
@@ -30,6 +30,15 @@ schedule:
       end: 17:00
       url: /workshops/node-error-handling
       type: workshop
+    - name: Issue management
+      start: 17:00
+      end: 17:15
+      url: https://fac-slides.netlify.app/slides/estimation
+    - name: Project setup
+      start: 17:15
+      end: 17:45
+      url: ../project
+      type: project
   wednesday:
     - name: Heroku SQL challenge
       start: 10:00
@@ -38,14 +47,44 @@ schedule:
       type: challenge
     - name: Project
       start: 11:00
-      end: 12:30
-      type: project
-    - name: Ceremonies & pair programming
-      start: 12:30
       end: 12:45
-      type: talk
+      type: project
     - name: Role circles
       start: 12:45
       end: 13:00
       url: /course/handbook/role-circles
+  thursday:
+    - name: Digital 101
+      start: 10:00
+      end: 11:30
+    - name: Project
+      start: 11:30
+      end: 13:00
+      type: project
+  friday:
+    - name: Respond to issues
+      start: 11:15
+      end: 13:00
+    - name: Presentation prep
+      start: 14:00
+      end: 14:45
+      url: /course/handbook/projects/#project-presentation
+    - name: Project documentation
+      start: 14:45
+      end: 15:15
+      url: /course/handbook/project-documentation
+    - name: Presentations
+      start: 15:15
+      end: 16:00
+      type: presentation
+    - name: Cohort SGC
+      start: 16:00
+      end: 16:45
+    - name: Team SGC
+      start: 16:45
+      end: 17:30
+    - name: Update user manuals
+      start: 17:30
+      end: 17:45
+      url: /course/handbook/user-manuals/
 ---

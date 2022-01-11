@@ -7,7 +7,7 @@ schedule:
       end: 10:45
       url: https://fac-slides.netlify.app/slides/authentication/
     - name: Cookie authentication
-      start: 10:30
+      start: 10:45
       end: 13:00
       url: /workshops/cookie-auth/
       type: workshop
