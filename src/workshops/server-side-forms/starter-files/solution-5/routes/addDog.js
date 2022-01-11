@@ -20,7 +20,7 @@ function get(request, response) {
     </body>
   </html>
   `;
-  response.end(html);
+  response.send(html);
 }
 
 function post(request, response) {

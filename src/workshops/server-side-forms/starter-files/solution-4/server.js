@@ -40,7 +40,7 @@ server.get("/", (request, response) => {
     </body>
   </html>
   `;
-  response.end(html);
+  response.send(html);
 });
 
 server.get("/add-dog", (request, response) => {
@@ -63,7 +63,7 @@ server.get("/add-dog", (request, response) => {
     </body>
   </html>
   `;
-  response.end(html);
+  response.send(html);
 });
 
 const bodyParser = express.urlencoded({ extended: false });

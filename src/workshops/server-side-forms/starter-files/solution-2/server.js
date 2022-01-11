@@ -31,7 +31,7 @@ server.get("/", (request, response) => {
     </body>
   </html>
   `;
-  response.end(html);
+  response.send(html);
 });
 
 const PORT = 3333;
