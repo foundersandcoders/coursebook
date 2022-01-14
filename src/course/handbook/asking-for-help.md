@@ -1,6 +1,6 @@
 # Asking for help
 
-Learning how to ask for help effectively is important. Every developer needs help at some point, especially when they're learning new things. You can make it easier for people to help you, and increase the likelihood of solving your problem.
+Learning how to ask for help is important. Every developer needs help at some point, especially when they're learning new things. By structuring your question effectively you can make it easier for people to help you, and increase the likelihood of solving your problem.
 
 ## Quick summary
 
@@ -26,7 +26,7 @@ Once you're sure you have a problem you cannot quickly solve on your own you sho
 
 ### Describe the problem
 
-A good message should describe the problem, and especially what you want to happen. Often people describe a specific syntax issue, when really their problem is with their whole approach. For example for "how can I run these three functions one after the other?" the most helpful solution might be "do it all in a single SQL query instead".
+A good message should describe the problem, and especially what you want to happen. Often people describe a specific syntax issue, when really their problem is with their whole approach. For example for "how can I swap two numbers in this date string?" the most helpful solution might be "use the built-in date internationalisation method instead".
 
 You should also include anything you have already tried. That way someone helping you can skip over solutions that you already know won't work.
 
