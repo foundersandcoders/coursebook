@@ -1,4 +1,4 @@
-## HTTPS
+<!-- ## HTTPS
 
 How does HTTPS keep websites secure?
 
@@ -11,6 +11,7 @@ How does HTTPS keep websites secure?
 
 - [How HTTPS works](https://howhttps.works/)
 - [What Is Transport Layer Security (TLS)?](https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/)
+ -->
 
 ## Stateless vs stateful authentication
 

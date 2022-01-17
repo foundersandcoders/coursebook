@@ -15,7 +15,8 @@ Allow users to log in using 3rd party accounts like Google or GitHub.
 Show temporary messages after successful/failed form submissions to help the user understand what's happening. Note that this is a little complex to manage on your own: you may want to use a session middleware library from npm.  
  [View flash message example](https://express-flash-message-example.glitch.me) | [View code](https://glitch.com/edit/#!/express-flash-message-example)
 
+<!--
 ## Sending emails
 
-Send emails from your server for notifying the user. E.g. sign up success, to verify email addresses or reset passwords.  
- **Important:** since spam is a huge problem with email all email-sending services (like Mailgun or Sendgrid) require a credit card/your real address. Bear this in mind before you choose this option!
+Send emails from your server for notifying the user. E.g. sign up success, to verify email addresses or reset passwords.
+ **Important:** since spam is a huge problem with email all email-sending services (like Mailgun or Sendgrid) require a credit card/your real address. Bear this in mind before you choose this option! -->
