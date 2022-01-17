@@ -15,59 +15,59 @@ Homework for Mon 28th Feb:
 - [Integration testing workshop](/workshops/learn-integration-testing/) (2 hours)
 - [Scope Challenge](/workshops/scope-challenge/) (1 hour)
 
-### Thu 3rd Mar
+### Thu 24th Feb
 
 - Code reading
 - Employer Q&A
 - Employer Q&A
 
-Homework for Mon 7th Mar:
+Homework for Thu 3rd Mar:
 
 - TBC
 
 ## Week 2
 
-### Mon 7th Mar
+### Mon 28th Feb
 
 - 17:00-17:15 Check-in/feedback form
 - 17:15-17:30 Integration testing workshop discussion
 - 17:30-19:30 [TDD workshop](/workshops/tdd-array-methods/)
 - 19:30-20:00 TDD workshop discussion
 
-Homework for Thu 10th Mar:
+Homework for Thu 3rd Mar:
 
 - Finish the [TDD workshop](/workshops/tdd-array-methods/) (2 hours)
 
-### Thu 10th Mar
+### Thu 3rd Mar
 
 - Code writing
 - Code reading
 - Employer Q&A
 
-Homework for Thu 17th Mar:
+Homework for Thu 10th Mar:
 
 - [Project](../project/)
 
 ## Week 3
 
-### Mon 17th Mar
+### Mon 7th Mar
 
 - Code reading
 - Code writing
 - Employer Q&A?
 
-Homework for Thu 20th Mar:
+Homework for Thu 17th Mar:
 
 - TBC
 
-### Thu 20th Mar
+### Thu 10th Mar
 
 - 17:00-17:15 Check-in/feedback form
 - 17:15-17:45 Live project code review
 - 17:45-18:30 Peer project code review
 - 18:30-20:00 Project presentations
 
-Homework for Mon 21st Feb:
+Homework for Mon 14th Feb:
 
 - Revision quiz
 - Side project
