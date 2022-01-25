@@ -16,13 +16,13 @@ Homework for Mon 7th Jan:
 
 ### Thu 3rd Feb
 
-- GitHub profile
-- Employer Q&A
-- Employer Q&A
+- Q&A
+- Mock interviews
+- Take-home challenge
 
 Homework for Thu 10th Feb:
 
-- TBC
+- The take-home challenge
 
 ## Week 2
 
@@ -39,26 +39,26 @@ Homework for Thu 10th Feb:
 
 ### Thu 10th Feb
 
-- Promise practice workshop discussion
-- LinkedIn
-- Employer Q&A
-- Employer Q&A
+- Q&A
+- Mock interviews
+- Take-home challenge
 
 Homework for Thu 17th Feb:
 
 - [Project](../project/)
-
+- The take-home challenge
+- 
 ## Week 3
 
 ### Mon 14th Feb
 
-- Code Reading
-- Employer Q&A
-- Employer Q&A
+- Q&A
+- Mock interviews
+- Take-home challenge
 
 Homework for Thu 17th Feb:
 
-- TBC
+- The take-home challenge
 
 ### Thu 17th Feb
 
