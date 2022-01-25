@@ -15,13 +15,13 @@ Homework for Mon 17th Jan:
 
 ### Thu 13th Jan
 
-- Intro + screening questions
-- CV
-- GitHub profile
+- About the programme
+- Take-home challenge practice
+- Mock interviews
 
 Homework for Thu 20th Jan:
 
-- TBC
+- Execute Program (and every week)
 
 ## Week 2
 
@@ -42,24 +42,23 @@ Homework for Thu 20th Jan:
 
 - HTML Forms workshop discussion
 - Screening questions
-- Employer Q&A
-- LinkedIn
+- Projects 
+- GitHub profiles
 
 Homework for Thu 27th Jan:
-
 - [Project](../project/)
 
 ## Week 3
 
 ### Mon 24th Jan
 
-- CV
-- Employer Q&A
-- Employer Q&A
+- Q&A
+- GitHub profiles
+- Take-home challenge
 
 Homework for Thu 3rd Feb:
 
-- TBC
+- See slides
 
 ### Thu 27th Jan
 
