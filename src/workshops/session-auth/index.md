@@ -146,7 +146,7 @@ function createUser(email, password, name) {
 
 function saveUserSession(user) {
   const sid = crypto.randomBytes(18).toString("base64");
-  return model.updateSession(sid, { user });
+  return model.createSession(sid, { user });
 }
 
 module.exports = { createUser, saveUserSession, COOKIE_OPTIONS };
