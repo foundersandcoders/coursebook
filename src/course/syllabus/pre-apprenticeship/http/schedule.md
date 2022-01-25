@@ -47,7 +47,7 @@ Homework for Thu 17th Feb:
 
 - [Project](../project/)
 - The take-home challenge
-- 
+
 ## Week 3
 
 ### Mon 14th Feb
