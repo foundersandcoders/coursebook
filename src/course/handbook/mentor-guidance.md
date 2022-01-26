@@ -4,7 +4,7 @@ title: Mentoring
 
 # Mentoring guidance
 
-A guide to leading and supporting peer learning using [our coursebook](https://founders-and-coders.gitbook.io/coursebook/)
+A guide to leading and supporting peer learning using [our coursebook](https://learn.foundersandcoders.com)
 
 _This is a live document that mentors are encouraged to feedback on._
 
@@ -50,8 +50,6 @@ You are ultimately responsible for timings, which will be up to date in the cour
 Make sure the cohort is getting regular breaks, from their screens and chairs. When you come back together after a workshop, suggest 3-5 minutes to turn off their video, stretch, go for a walk, get water, etc.
 
 ## You presenting
-
-You will be introducing the week at 10am Monday on your week's topic. As this will be their first impression of you, please do make sure you’ve read the slides ahead of time to know who is going to cover what and in how much detail. If you fancy adding sparkle, consider a Kahoot or informal quiz at the end of your talk.
 
 Monday afternoon you will introduce the week’s projects - starting with learning outcomes for the week (only need to read those that are highlighted), and then going through user stories, assessment criteria and stretch goals. This also frames the spikes, and so you will also cover each of the four topics, before putting project teams in Zoom rooms so they can each decide which topic they’ll take. Then back in the main room you can shout out each topic and they can tell you their names for each one.
 

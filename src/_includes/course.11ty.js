@@ -23,19 +23,20 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/handbook/system-requirements/">System Requirements</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/installation/">Installation Guide</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/course-rules/">Course Rules</${Link}></li>
+           <li><${Link} url=${url} href="/course/handbook/user-manuals/">User manuals</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/pair-programming/">Pair programming</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/debugging/">Debugging</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/asking-for-help/">Asking for help</${Link}></li>
-          <li><${Link} url=${url} href="/course/handbook/spikes/">Spikes</${Link}></li>
+          <li><${Link} url=${url} href="/course/handbook/spikes/">Tech Spikes</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/projects/">Projects</${Link}></li>
+          <li><${Link} url=${url} href="/course/handbook/project-team/">Project Roles</${Link}></li>
+           <li><${Link} url=${url} href="/course/handbook/role-circles/">Role circles</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/code-review/">Code review</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/retrospectives/">Retrospectives</${Link}></li>
-          <li><${Link} url=${url} href="/course/handbook/user-manuals/">User manuals</${Link}></li>
-          <li><${Link} url=${url} href="/course/handbook/mentor-guidance/">Mentoring</${Link}></li>
-          <li><${Link} url=${url} href="/course/handbook/mentor-roles/">Mentor roles</${Link}></li>
+         
+          <li><${Link} url=${url} href="/course/handbook/mentor-guidance/">Mentoring guidance</${Link}></li>
+          <li><${Link} url=${url} href="/course/handbook/mentor-roles/">What to expect from your mentors</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/coaching-groups/">Coaching groups</${Link}></li>
-          <li><${Link} url=${url} href="/course/handbook/role-circles/">Role circles</${Link}></li>
-          <li><${Link} url=${url} href="/course/handbook/project-team/">Project Roles</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/one-day-projects/">One Day Projects</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/project-management/">Project Management</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/user-research/">User Research</${Link}></li>
