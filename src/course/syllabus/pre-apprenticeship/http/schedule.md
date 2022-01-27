@@ -22,7 +22,7 @@ Homework for Mon 7th Jan:
 
 Homework for Thu 10th Feb:
 
-- The take-home challenge
+- Screening questions and coding challenge
 
 ## Week 2
 
@@ -46,7 +46,6 @@ Homework for Thu 10th Feb:
 Homework for Thu 17th Feb:
 
 - [Project](../project/)
-- The take-home challenge
 
 ## Week 3
 
@@ -58,7 +57,7 @@ Homework for Thu 17th Feb:
 
 Homework for Thu 17th Feb:
 
-- The take-home challenge
+- Screening questions and coding challenge
 
 ### Thu 17th Feb
 
