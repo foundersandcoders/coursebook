@@ -13,13 +13,14 @@ Each team then has 12 minutes to present, with 5 additional minutes for question
    - How did your team split up the work?
    - How did your team choose to pair? How often did you swap pairs?
 2. Briefly demo your project and explain how it conforms to your brief i.e. the user stories and acceptance criteria
-3. Show your project board and (from Week 2) report on estimated vs actual velocity
-4. Walk us through your code. Emphasise the **things you learnt** that were new to you, which the rest of your cohort could benefit from hearing about:
+3. Talk about each [project role](../project-team/), and how you divided up the work.
+4. Show your project board and (from Week 2) report on estimated vs actual velocity
+5. Walk us through your code. Emphasise the **things you learnt** that were new to you, which the rest of your cohort could benefit from hearing about:
    - something you're proud of
    - something that you found really hard / struggled with
    - anything you don't understand yet, or don't understand fully
-5. Have the people who didn't write a piece of code talk through it - this is a great way to demonstrate knowledge of learning and collaboration. Your whole team should be able to explain the whole codebase - in other words, everyone is responsible for writing code the whole team understands.
-6. Avoid talking through the project brief for a long time - each team has the same brief and your time will be better spent talking about what was unique about your presentation
+6. Have the people who didn't write a piece of code talk through it - this is a great way to demonstrate knowledge of learning and collaboration. Your whole team should be able to explain the whole codebase - in other words, everyone is responsible for writing code the whole team understands.
+7. Avoid talking through the project brief for a long time - each team has the same brief and your time will be better spent talking about what was unique about your presentation
 
 ### Preparing for presenting
 
@@ -32,7 +33,6 @@ Spend some time revisiting your codebase and understanding the code. Are there s
 ### Make it interactive
 
 - **Ask your audience questions** and keep them on their toes.
-- You could even introduce a quiz element to your presentation. Check out [Kahoot!](https://kahoot.com)
 
 ### Include code snippets
 
