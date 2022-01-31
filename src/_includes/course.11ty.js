@@ -43,8 +43,8 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/application/how-to">How to</${Link}></li>
           <li><${Link} url=${url} href="/course/application/platforms">Platforms</${Link}></li>
           <li><${Link} url=${url} href="/course/application/approaching-problems">Approaching problems</${Link}></li>
+          <li><${Link} url=${url} href="/course/application/tribute">Tribute page</${Link}></li>
           <li><${Link} url=${url} href="/course/application/functions">Functions</${Link}></li>
-          <li><${Link} url=${url} href="/course/application/number-functions">Number functions</${Link}></li>
           <li><${Link} url=${url} href="/course/application/dom">DOM</${Link}></li>
           <li><${Link} url=${url} href="/course/application/array-methods">Arrays</${Link}></li>
           <li><${Link} url=${url} href="/course/application/git">git and GitHub</${Link}></li>
