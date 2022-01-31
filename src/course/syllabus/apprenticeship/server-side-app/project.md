@@ -4,7 +4,7 @@ This week is the culmination of your Express learning, so focus on doing everyth
 
 ## Technical spikes
 
-Your project should include at least one of these [four new topics](../spikes). You'll have to spend some time researching them in your group, figuring out how exactly to implement them before you start working on your project. There are minimal examples provided, but they are only one way to approach it—you should look for tutorials/blog posts etc with alternative solutions and find one you like.
+Your project should include at least one of these [new topics](../spikes). You'll have to spend some time researching them in your group, figuring out how exactly to implement them before you start working on your project. There are minimal examples provided, but they are only one way to approach it—you should look for tutorials/blog posts etc with alternative solutions and find one you like.
 
 ## Technical criteria
 
