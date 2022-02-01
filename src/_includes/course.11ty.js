@@ -29,6 +29,7 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/handbook/asking-for-help/">Asking for help</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/spikes/">Tech Spikes</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/projects/">Projects</${Link}></li>
+          <li><${Link} url=${url} href="/course/handbook/project-presentations/">Project Presentations</${Link}></li>
            <li><${Link} url=${url} href="/course/handbook/project-management/">Project Management</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/project-team/">Project Roles</${Link}></li>
            <li><${Link} url=${url} href="/course/handbook/role-circles/">Role circles</${Link}></li>
@@ -44,8 +45,8 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/application/how-to">How to</${Link}></li>
           <li><${Link} url=${url} href="/course/application/platforms">Platforms</${Link}></li>
           <li><${Link} url=${url} href="/course/application/approaching-problems">Approaching problems</${Link}></li>
+          <li><${Link} url=${url} href="/course/application/tribute">Tribute page</${Link}></li>
           <li><${Link} url=${url} href="/course/application/functions">Functions</${Link}></li>
-          <li><${Link} url=${url} href="/course/application/number-functions">Number functions</${Link}></li>
           <li><${Link} url=${url} href="/course/application/dom">DOM</${Link}></li>
           <li><${Link} url=${url} href="/course/application/array-methods">Arrays</${Link}></li>
           <li><${Link} url=${url} href="/course/application/git">git and GitHub</${Link}></li>

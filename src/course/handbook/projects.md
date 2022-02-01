@@ -1,75 +1,68 @@
-# Project
+# Projects
 
-Each week, you will be split into teams of 4 for weekly projects. These teams will be change throughout the course, giving you a chance to work with every other member of your cohort.
+Each week, you will be split into teams for weekly projects. These teams will be change throughout the course, giving you a chance to work with every other member of your cohort.
 
-The teams stay together for the following weeks:
+The Founders and Coders learning environment is all about collaboration, and this is a great opportunity to practise your workflow in a development team.
 
-- First team = weeks 1 & 2
-- Second team = weeks 3 & 4
-- Third team = weeks 5 & 6
-- Fourth team = weeks 7, 8 & 9
-- Fifth team = weeks 10, 11 & 12
+Project teams for each week are posted in your cohort repo, under the pairs-and-teams folder.
 
-Your teams are posted on the wall by the door or can be found in your cohort's repository in your GitHub organisation. Remember to read each other's user manuals when you start working with a new team.
+Remember to read each other's user manuals when you start working with a new team!
 
-## Creating repositories for each project
+### Project Setup
 
-When you create repositories for your weekly projects, please follow this naming convention:  
-`week1-<name of team1>`  
-`week1-<name of team2>`  
-`week1-<name of team3>`  
-`week1-<name of team4>`
+Utilize your project setup time to do the following:
 
-`week2-<name of team1>`  
-`week2-<name of team2>`  
-`week2-<name of team3>`  
-`week2-<name of team4>`
+- Name your GitHub repo in the format
 
-etc.
+  `week#-<topic>-<team members' names or initials>`
 
-This will make it much easier to find your projects in future.
+  for example:
 
-## Project Presentation
+  `week2-database-reuben-gregor-oli-dan`
 
-Your timetable includes 45 mins for your team to write your presentation and discuss how you are going to present your project together.
+- Decide on key user stories and finalise the end goal for the project
+- Create a set of GitHub issue labels to make it easier to plan your sprints
+- Split up the user stories into issues, and assign your first day's work.
+- Create a GitHub project board. The simplest structure for this is three columns of to-do, in progress and done.
+- - From week 2, decide who takes on each [project role](../project-team/)
 
-**Remember: We want to hear from everyone during your presentation!**
+### Team workflow
 
-Each team then has 12 minutes to present, with 5 additional minutes for questions. This means each person has about 3 minutes of speaking time. We will be strict with you on timing, so make sure you use your time effectively.
+- Pair program as much as possible - two brains are better than one, support each other!
+- Decide how frequently you take breaks, and take them together!
+- Don't always work on the same person's machine. Watching someone write code is very different to writing it yourself!
+- Swap pairs every half-day. This means that you will break up work into more manageable chunks, but also that the team will work across different parts of the project, and with different people.
+- Update your kanban board as you finish working on issues. Measuring your project velocity will be very beneficial during standups, so you can decide how to best use the remaining time in the sprint.
+- Avoid focussing on a specific area too much (eg: if you're known as the CSS whiz, try not to find yourself single handedly fixing styling towards the end of the project). Challenge yourself, and pick tasks that make you uncomfortable!
 
-### Structure
+### GitHub workflow
 
-1. Show your process:
-   - Talk through the Why, What, How of your project
-   - How did your team split up the work?
-   - How did your team choose to pair? How often did you swap pairs?
-2. Briefly demo your project and explain how it conforms to your brief i.e. the user stories and acceptance criteria
-3. Show your project board and (from Week 2) report on estimated vs actual velocity
-4. Walk us through your code. Emphasise the **things you learnt** that were new to you, which the rest of your cohort could benefit from hearing about:
-   - something you're proud of
-   - something that you found really hard / struggled with
-   - anything you don't understand yet, or don't understand fully
-5. Have the people who didn't write a piece of code talk through it - this is a great way to demonstrate knowledge of learning and collaboration. Your whole team should be able to explain the whole codebase - in other words, everyone is responsible for writing code the whole team understands.
-6. Avoid talking through the project brief for a long time - each team has the same brief and your time will be better spent talking about what was unique about your presentation
+A good GitHub workflow is essential to keeping a project organised and easy to maintain. The larger the project, the more important it becomes to track changes and be aware of who worked on what.
 
-### Preparing for presenting
+Some things to keep in mind:
 
-Your team should spend some time preparing what you'll present. Alongside creating a slide deck, this means preparing which parts of the presentation you'll each talk through and ensuring your presentation fits within the time available.
+- Make sure everyone has the same code formatter ([prettier](https://prettier.io/docs/en/install.html)) set up, so you can avoid merge conflicts due to weird spaces/extra commas etc.
+- Never work on the main branch. Before you start work, make sure you pull main and create a new branch.
 
-Decide together which sections each person will talk through. Who will share the screen for the demo? Who will talk and who will click through? Choose someone on your team to keep time for the team.
+```git
+   git pull
+   git checkout -b "new-feature"
+```
 
-Spend some time revisiting your codebase and understanding the code. Are there sections which you couldn't talk about? If so, spend time reading through the code **together** to ensure you are all on the same page, especially for code you didn't write yourself. Everyone is responsible for this.
+- Commit often. This makes it easier to undo specific changes. If you've been coding for half a day and forgot to commit, VSCode lets you [stage selected lines](https://stackoverflow.com/questions/34730585/how-can-i-commit-some-changes-to-a-file-but-not-others-in-vscode) from the source control panel.
+- Write meaningful commit messages. A good convention to follow for commit messages is that they should be imperative, i.e: "add tests for signup form"
 
-### Make it interactive
+- Your commit messages should make sense if read in this format:
+  `"If applied, this commit will: <your commit message>"`
 
-- **Ask your audience questions** and keep them on their toes.
-- You could even introduce a quiz element to your presentation. Check out [Kahoot!](https://kahoot.com)
+- When you pair, don't forget to co-commit! (you can find more information in the [GitHub Docs](https://docs.github.com/en/github/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors))
 
-### Include code snippets
+- When you finish working on your branch, make sure it's up-to-date with main before pushing
 
-- But keep them concise!
-- We want to hear about something novel in your project, give the audience an understanding - without overwhelming them with line by line detail.
+```git
+   git pull origin main
+```
 
-### ... and use gifs
+- [Link PRs to issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue), and close issues as you finish working on them.
 
-- Jazz it up with emojis, images and gifs!
+- Review PRs as a team, and merge together. In smaller weekly projects where there isn't time for code review on every PR, make sure the other pair has seen your work and any implications it has on their code.
