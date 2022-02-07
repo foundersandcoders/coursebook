@@ -16,16 +16,13 @@ schedule:
       end: 13:00
       url: /workshops/dom-rendering
       type: workshop
-    - name: React intro
-      start: 14:00
-      end: 14:30
     - name: React components
-      start: 14:30
-      end: 15:45
+      start: 14:00
+      end: 15:30
       url: /workshops/react-components
       type: workshop
     - name: React state & effects
-      start: 15:45
+      start: 15:30
       end: 17:45
       url: /workshops/react-state-effects
       type: workshop
