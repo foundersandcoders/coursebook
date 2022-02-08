@@ -17,13 +17,13 @@ Homework for Mon 28th Feb:
 
 ### Thu 24th Feb
 
-- Code reading
-- Employer Q&A
-- Employer Q&A
+- Q&A
+- Mock interviews
+- Take-home challenge
 
 Homework for Thu 3rd Mar:
 
-- TBC
+- Screening questions and coding challenge
 
 ## Week 2
 
@@ -40,9 +40,9 @@ Homework for Thu 3rd Mar:
 
 ### Thu 3rd Mar
 
-- Code writing
-- Code reading
-- Employer Q&A
+- Q&A
+- Mock interviews
+- Take-home challenge
 
 Homework for Thu 10th Mar:
 
@@ -52,13 +52,13 @@ Homework for Thu 10th Mar:
 
 ### Mon 7th Mar
 
-- Code reading
-- Code writing
-- Employer Q&A?
+- Q&A
+- Mock interviews
+- Take-home challenge
 
 Homework for Thu 17th Mar:
 
-- TBC
+- Screening questions and coding challenge
 
 ### Thu 10th Mar
 
