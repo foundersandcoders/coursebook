@@ -48,10 +48,15 @@ schedule:
       type: challenge
     - name: Projects
       start: 11:00
-      end: 12:45
-      type: project
-    - name: Role circles
-      start: 12:45
       end: 13:00
+      type: project
+  thursday:
+    - name: Role circles
+      start: 10:00
+      end: 10:15
       url: /course/handbook/role-circles
+    - name: Projects
+      start: 10:15
+      end: 13:00
+      type: project
 ---

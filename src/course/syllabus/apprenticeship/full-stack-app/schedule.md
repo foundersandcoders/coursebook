@@ -32,14 +32,14 @@ schedule:
       end: 17:45
       type: project
   wednesday:
-    - name: Project
-      start: 10:00
-      end: 12:45
-      type: project
     - name: Role circles
-      start: 12:45
-      end: 13:00
+      start: 10:00
+      end: 10:15
       url: /course/handbook/role-circles
+    - name: Project
+      start: 10:15
+      end: 13:00
+      type: project
   thursday:
     - name: Project
       start: 10:00
