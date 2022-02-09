@@ -1,28 +1,14 @@
 # User Research & Usability Testing
 
-During in-house project design sprint (week 7) you will be conducting two types of research.
-
-**[User research](https://designsprintkit.withgoogle.com/methodology/phase1-understand/user-interviews)** is a way of injecting first-hand user perspectives into the Sprint. The goal of the interview is to gain empathy for the user’s experience and through that empathy, we can shape the design solutions to fit the use better.
-
-**[Usability testing](https://designsprintkit.withgoogle.com/methodology/phase6-validate/usability-study_1)** is a Design Sprint method used to identify any usability issues and determine the user’s satisfaction with the product prototype. This involves observing the user attempting to complete a task or set of tasks while using your product. Typically, the user is presented with different scenarios and asked to think aloud as they try to complete the tasks.
-
-## Overview
-
-- You will need **four** volunteers **each** to participate.
-  - User research (2 people) on **Monday** between **2-4pm**.
-  - Usability testing (2 people) on **Thursday** between **10-12pm** .
-- Each research session will last 2 hours whereby each interview will take around **20-30 minutes** to conduct.
-- It will be **1-1 interviews** over zoom, or face to face wherever possible.
-- You will conduct the research in **pairs**, where one person will be taking the **lead** and asking the questions, whereas the other person will be taking **notes** on the volunteers answers.
-- You will swap roles between interviews so that each pair has the opportunity to lead and take notes.
+The design sprint process at Founders and Coders has been adapted from the [Google Ventures design sprint](https://designsprintkit.withgoogle.com/methodology/overview). There are two kinds of user feedback sessions in the design sprint: User Research, and Usability Testing.
 
 ## User Research
 
-This will take place on **Monday** between **2-4pm** of design week after the [Discovery Workshop](https://docs.google.com/presentation/d/10t83KG0ZHP5jKpxdL5HX8hkQDqvf2f01qJs-NkeqjX8/edit).
+**[User research](https://designsprintkit.withgoogle.com/methodology/phase1-understand/user-interviews)** gives us an opportunity to validate whether we’re on the right track, or if we’re designing something that wouldn’t address user needs.
 
-- We develop products with the user's needs in mind, so that the services we design must respond to the needs of the user.
-- The purpose of this research is to find out how our users perceive the problem we are aiming to solve. It gives us an opportunity to validate whether we’re on the right track or we’re designing something that wouldn’t address the user's needs.
-- You'll be asking the participant questions from a script prepared ahead of time and taking notes of their answers.
+- When conducting user research it’s important to keep an open mind and to be unafraid of readdressing our approach.
+- Critical feedback is incredibly useful to us so we want to encourage our users to be open and honest.
+- You'll be asking the participant questions from a script prepared ahead of time, and taking notes of their answers.
 - It is important that you help the user feel comfortable and ask open questions as well as giving the user space to share their own thoughts.
 - Users might not have participated in research before so there often is a tendency to tell us what we’re expecting to hear. But critical feedback is incredibly useful to us so we want to encourage our users to be open and honest.
 - Wherever possible, we want to avoid including our own biases in questions and conversations as part of user research.
@@ -31,11 +17,31 @@ This will take place on **Monday** between **2-4pm** of design week after the [D
 
 ## Usability Testing
 
-[Usability testing](https://docs.google.com/presentation/d/10VxYiFBmwLevEH3V6AP74ibf_JRt51Gd-295TICrWQU/edit#slide=id.g87e8f70714_0_133) will take place on **Thursday** between **10-12pm** of design week after [Figma wireframing](https://learn.foundersandcoders.com/course/syllabus/projects/in-house-design/schedule/).
+**[Usability testing](https://designsprintkit.withgoogle.com/methodology/phase6-validate/usability-study_1)** is a process for getting feedback from real people in order to inform the decisions we make on designing and building a digital product.
 
-- The purpose of usability testing is to get feedback from real people so that we make better informed decisions regarding designing and building our digital product.
-- You are testing the usability of your app not the user.
-- You will be conducting interview where you will ask the user to navigate through your Figma prototype.
-- You will be assessing the ease at which they are able to complete tasks such as login, search, use a particular feature.
-- You will be getting feedback on your Figma prototype and find out about how someone unfamiliar with the idea interacts with the app
-- This will inform which features to prioritise during the build of the app.
+- 'User Testing' and 'Usability Testing' refer to the same thing. The phrase ‘usability’ encourages us to remember it is not the user who we’re testing but the usability of our app or product. Do _not_ blame the user, instead take the opportunity to rethink your app.
+- You will be conducting an interview where you will ask the user to navigate through your Figma prototype.
+- Do not give them too much instruction. Introduce them to the project idea, give them a few tasks to complete, and observe how they interact with the prototype.
+- Their feedback will give you an idea of how someone unfamiliar with the project idea interacts with the app.
+- This will inform your decisions on which features to prioritise when building.
+
+## Process
+
+During the in-house project design sprint (week 7) you will be conducting both
+user research and usability testing.
+
+The Tech for Better product owners will conduct their own user research, but you will be conducting a usability testing session for your Tech for Better projects.
+
+- Check the design week schedules for exact timings:
+
+  [Student Project Schedule ](../course/syllabus/projects/in-house-design/schedule/)
+
+  [Tech for Better Project Schedule](../course/syllabus/projects/tfb-design/schedule/)
+
+- You will need atleast **four** volunteers **each** to participate.
+- User research (2 people)
+- Usability testing (2 people)
+- Each research session will last 2 hours whereby each interview will take around **20-30 minutes** to conduct.
+- They will be **1-1 interviews** over zoom, or face to face wherever possible.
+- You will conduct the research in **pairs**, where one person will be taking the **lead** and asking questions, whereas the other person will be taking **notes** on the volunteers answers.
+- Please swap roles between interviews so that everyone gets a chance to ask questions.

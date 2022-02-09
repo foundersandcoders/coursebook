@@ -37,7 +37,7 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/handbook/mentor-guidance/">Mentoring guidance</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/mentor-roles/">What to expect of mentors</${Link}></li>
           <!-- <li><${Link} url=${url} href="/course/handbook/one-day-projects/">One Day Projects</${Link}></li> -->
-          <li><${Link} url=${url} href="/course/handbook/user-research/">User Research</${Link}></li>
+          <li><${Link} url=${url} href="/course/handbook/user-research/">User  Research & Usability Testing</${Link}></li>
         </${Section}>
         <${Section} title="Application" url=${url} subpath="course/application">
           <li><${Link} url=${url} href="/course/application/how-to">How to</${Link}></li>
