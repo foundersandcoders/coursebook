@@ -53,8 +53,6 @@ Make sure the cohort is getting regular breaks, from their screens and chairs. W
 
 Monday afternoon you will introduce the week’s projects - starting with learning outcomes for the week (only need to read those that are highlighted), and then going through user stories, assessment criteria and stretch goals. This also frames the spikes, and so you will also cover each of the four topics, before putting project teams in Zoom rooms so they can each decide which topic they’ll take. Then back in the main room you can shout out each topic and they can tell you their names for each one.
 
-Same for design bursts.
-
 ## Them presenting
 
 On Tuesdays they present their technical spike to the group - start promptly at 10.10am and try your best to allow them 8 minutes of presenting and no more than 12 minutes total incl questions. Also think up some questions in case no one has any. Prioritise questions from people who may not always ask questions, your CF can help with this in preparation for your week.
