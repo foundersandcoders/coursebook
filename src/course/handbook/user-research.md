@@ -1,10 +1,10 @@
 # User Research & Usability Testing
 
-The design sprint process at Founders and Coders has been adapted from the [Google Ventures design sprint](https://designsprintkit.withgoogle.com/methodology/overview). There are two kinds of user feedback sessions in the design sprint: User Research, and Usability Testing.
+There are two kinds of user feedback sessions in the design sprint: User Research, and Usability Testing.
 
 ## User Research
 
-**[User research](https://designsprintkit.withgoogle.com/methodology/phase1-understand/user-interviews)** gives us an opportunity to validate whether we’re on the right track, or if we’re designing something that wouldn’t address user needs.
+**User research** gives us an opportunity to validate whether we’re on the right track, or if we’re designing something that wouldn’t address user needs.
 
 - When conducting user research it’s important to keep an open mind and to be unafraid of readdressing our approach.
 - Critical feedback is incredibly useful to us so we want to encourage our users to be open and honest.
@@ -17,28 +17,28 @@ The design sprint process at Founders and Coders has been adapted from the [Goog
 
 ## Usability Testing
 
-**[Usability testing](https://designsprintkit.withgoogle.com/methodology/phase6-validate/usability-study_1)** is a process for getting feedback from real people in order to inform the decisions we make on designing and building a digital product.
+**Usability testing** is a process for getting feedback from real people in order to inform the decisions we make on designing and building a digital product.
 
-- 'User Testing' and 'Usability Testing' refer to the same thing. The phrase ‘usability’ encourages us to remember it is not the user who we’re testing but the usability of our app or product. Do _not_ blame the user, instead take the opportunity to rethink your app.
+- 'User Testing' and 'Usability Testing' refer to the same thing. The phrase ‘usability’ encourages us to remember it is not the user who we’re testing but the usability of our app or product. Do take the opportunity to rethink your app, and take all criticism constructively!
 - You will be conducting an interview where you will ask the user to navigate through your Figma prototype.
-- Do not give them too much instruction. Introduce them to the project idea, give them a few tasks to complete, and observe how they interact with the prototype.
-- Their feedback will give you an idea of how someone unfamiliar with the project idea interacts with the app.
-- This will inform your decisions on which features to prioritise when building.
+- Keep your explanation brief. Introduce them to the project idea in one or two sentences and explain how usability testing works.
+- Giving them a few tasks to complete and observing how they interact with the prototype will give you an idea of how intuitive it is to interact with the product you're creating.
+- Feedback from testing will help inform your decisions on which features to prioritise when building.
 
 ## Process
 
 During the in-house project design sprint (week 7) you will be conducting both
 user research and usability testing.
 
-The Tech for Better product owners will conduct their own user research, but you will be conducting a usability testing session for your Tech for Better projects.
+The Tech for Better Product Owners will conduct their own user research, but you will be conducting a usability testing session with their user group
 
 - Check the design week schedules for exact timings:
 
-  [Student Project Schedule ](../course/syllabus/projects/in-house-design/schedule/)
+  [In-House Project Schedule ](../course/syllabus/projects/in-house-design/schedule/)
 
   [Tech for Better Project Schedule](../course/syllabus/projects/tfb-design/schedule/)
 
-- You will need atleast **four** volunteers **each** to participate.
+- You will need at least **four** volunteers **per person** to participate.
 - User research (2 people)
 - Usability testing (2 people)
 - Each research session will last 2 hours whereby each interview will take around **20-30 minutes** to conduct.
