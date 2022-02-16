@@ -16,7 +16,7 @@ schedule:
       end: 17:45
       url: ../spikes
   tuesday:
-    - name: Projects
+    - name: Project
       start: 10:00
       end: 12:45
       type: project
@@ -27,7 +27,7 @@ schedule:
     - name: TFB - Discovery
       start: 14:00
       end: 15:00
-    - name: Projects
+    - name: Project
       start: 15:00
       end: 17:45
       type: project
@@ -36,8 +36,13 @@ schedule:
       start: 10:00
       end: 10:15
       url: /course/handbook/role-circles
-    - name: Projects
+    - name: Project
       start: 10:15
+      end: 13:00
+      type: project
+  thursday:
+    - name: Project
+      start: 10:00
       end: 13:00
       type: project
 ---
