@@ -29,7 +29,6 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/handbook/spikes/">Tech Spikes</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/projects/">Projects</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/project-presentations/">Project Presentations</${Link}></li>
-           <li><${Link} url=${url} href="/course/handbook/project-management/">Project Management</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/project-team/">Project Roles</${Link}></li>
            <li><${Link} url=${url} href="/course/handbook/role-circles/">Role circles</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/code-review/">Code review</${Link}></li>
