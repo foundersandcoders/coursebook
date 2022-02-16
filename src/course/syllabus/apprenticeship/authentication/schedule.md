@@ -43,9 +43,6 @@ schedule:
       type: talk
     - name: Project
       start: 11:00
-      end: 12:45
-      type: project
-    - name: Role circles
-      start: 12:45
       end: 13:00
+      type: project
 ---

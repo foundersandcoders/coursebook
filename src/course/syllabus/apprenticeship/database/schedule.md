@@ -47,18 +47,18 @@ schedule:
       type: challenge
     - name: Project
       start: 11:00
-      end: 12:45
-      type: project
-    - name: Role circles
-      start: 12:45
       end: 13:00
-      url: /course/handbook/role-circles
+      type: project
   thursday:
     - name: Digital 101
       start: 10:00
       end: 11:30
-    - name: Project
+    - name: Role circles
       start: 11:30
+      end: 11:45
+      url: /course/handbook/role-circles
+    - name: Project
+      start: 11:45
       end: 13:00
       type: project
   friday:

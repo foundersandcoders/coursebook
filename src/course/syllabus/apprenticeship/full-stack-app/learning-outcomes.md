@@ -1,2 +1,3 @@
+- [ ] We can learn new technology from external resources/documentation
 - [ ] We can use the Next.js framework to make server-rendered React apps
 - [ ] We can create real-world projects with complex requirements

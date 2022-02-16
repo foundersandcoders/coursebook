@@ -73,7 +73,11 @@ thursday:
   - start: 9:45
     end: 10:00
     name: Check-in
-  - start: 10:00
+  - name: Role circles
+    start: 10:00
+    end: 10:15
+    url: /course/handbook/role-circles
+  - start: 10:15
     end: 13:00
     name: Project
     type: project
