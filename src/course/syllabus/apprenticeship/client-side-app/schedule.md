@@ -46,12 +46,8 @@ schedule:
       end: 11:00
       url: /workshops/react-refactor-classes/
       type: challenge
-    - name: Projects
+    - name: Project
       start: 11:00
-      end: 12:45
-      type: project
-    - name: Role circles
-      start: 12:45
       end: 13:00
-      url: /course/handbook/role-circles
+      type: project
 ---
