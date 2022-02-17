@@ -70,9 +70,9 @@ _**Workshops**_
 
 - Create breakout rooms(if the CF is unavailable).
 - Set these to "allow participants to choose room". Pairs can be found in `cohort/pairs-and-teams/pairs.md`
-- Keep an eye on `#help-and-solutions` in the discord! discord allows per channel notifications so you can mute the rest of the server while allowing notifications from this channel.
+- Keep an eye on `#help-and-solutions` in the Discord! Discord allows per channel notifications so you can mute the rest of the server while allowing notifications from this channel.
 - Keep any communication with the CF/other mentors public if possible - in the `#mentors` channel.
-- Wherever possible, notify learners on discord before entering breakout rooms to avoid disrupting their focus.
+- Notify learners on Discord or by broadcast before entering breakout rooms to avoid disrupting their focus or unexpected surprises!
 - Remind the cohort to come back 20 mins before the scheduled end of the workshop, to discuss solutions.
 - Close breakout rooms for discussion time.
 - Facilitate discussion - pick someone to share their screen using the [name picker](/lollipop/).
@@ -81,7 +81,7 @@ _**Workshops**_
 - Do your best to get one person from each pair to contribute something.
 - Make time on Thursday to go back through each workshop and raise issues (or pull requests!) from your first hand feedback.
 
-_**Lunch - make sure everyone stops at 13:00!**_
+_**Lunch - make sure everyone stops at 13:00 and is back at 14:00!**_
 
 _**Tech Spikes**_
 
@@ -103,14 +103,14 @@ _**Workshops - same as above**_
 _**Tech for Better**_
 
 - Gregor and the CF will facilitate these sessions.
-- Feel free to ask questions to the Product Owners drawing from your TFB experience, but prioritise the cohort's questions.
+- Feel free to ask questions to the Product Owners drawing from your TFB experience. Remember that we'll prioritise the cohort's questions.
 
 ## Wednesday & Thursday
 
 _**Projects**_
 
 - Create two breakout rooms per project to allow learners to split up into pairs.
-- Be available on discord, wednesdays and thursdays are usually more unstructured but the cohort will need help with their project work.
+- Be available on Discord, wednesdays and thursdays are usually more unstructured but the cohort will need help with their project work.
 
 _**Role circles (from week 2)**_
 
