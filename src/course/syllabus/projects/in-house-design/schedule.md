@@ -32,15 +32,18 @@ schedule:
       start: 11:30
       end: 13:00
       type: presentation
-    - name: Usability testing introduction
+    - name: Tech for Better
       start: 14:00
-      end: 14:20
+      end: 15:00
+    - name: Wireframing
+      start: 15:00
+      end: 17:30
+      type: project
+    - name: Usability testing introduction
+      start: 17:30
+      end: 17:45
       url: https://docs.google.com/presentation/d/10VxYiFBmwLevEH3V6AP74ibf_JRt51Gd-295TICrWQU/edit?usp=sharing
       type: presentation
-    - name: Wireframing
-      start: 14:20
-      end: 17:45
-      type: project
   wednesday:
     - name: Introduction to project roles
       start: 10:00

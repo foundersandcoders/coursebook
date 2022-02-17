@@ -11,9 +11,16 @@ schedule:
       end: 17:45
       type: project
   tuesday:
-    - name: Employment day
+    - name: Employment morning
       start: 9:45
-      end: 18:00
+      end: 13:00
+    - name: Tech for Better
+      start: 14:00
+      end: 15:00
+    - name: Build
+      start: 15:00
+      end: 17:45
+      type: project
   wednesday:
     - name: Web Science
       start: 10:00

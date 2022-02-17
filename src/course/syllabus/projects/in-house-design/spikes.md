@@ -16,7 +16,7 @@ You might instead like to look at a new testing framework that we haven't covere
 
 ## UX
 
-There are many different approaches to designing intuitive user experiences. You might like to look at practices or
+There are many different approaches to designing intuitive user experiences.
 
 You might like to look at design practices, systems or a particular library such as Styled Components.
 

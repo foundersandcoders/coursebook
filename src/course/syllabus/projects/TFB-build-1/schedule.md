@@ -11,9 +11,17 @@ schedule:
       end: 17:45
       type: project
   tuesday:
-    - name: Employment day
+    - name: Employment morning
       start: 9:45
-      end: 18:00
+      end: 13:00
+    - name: Mentoring reflections
+      start: 14:00
+      end: 15:30
+      url: /course/handbook/project-docs/mentoring
+    - name: Build
+      start: 15:30
+      end: 17:45
+      type: project
   wednesday:
     - name: Web Science
       start: 10:00
