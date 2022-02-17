@@ -39,7 +39,7 @@ schedule:
     - name: Technical spikes
       start: 15:00
       end: 17:00
-      url: "./../spikes"
+      url: ../spikes
     - name: Spike presentation prep
       start: 17:00
       end: 17:45

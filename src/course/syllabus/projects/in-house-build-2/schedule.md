@@ -31,7 +31,7 @@ schedule:
     - name: Role circles
       start: 12:45
       end: 13:00
-      url: "/course/handbook/role-circles"
+      url: /course/handbook/role-circles
     - name: Build
       start: 14:00
       end: 17:45
