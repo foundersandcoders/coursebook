@@ -46,27 +46,31 @@ schedule:
       url: https://docs.google.com/presentation/d/10VxYiFBmwLevEH3V6AP74ibf_JRt51Gd-295TICrWQU/edit?usp=sharing
       type: presentation
   wednesday:
-    - name: Introduction to project roles
+    - name: Web Science
       start: 10:00
-      end: 10:20
-      url: /course/handbook/project-team
+      end: 11:00
       type: presentation
-    - name: Choose roles
-      start: 10:20
-      end: 10:40
     - name: Wireframing
       start: 10:40
       end: 13:00
       type: project
-    - name: Technical spikes
+    - name: Introduction to project roles
       start: 14:00
-      end: 16:00
+      end: 14:10
+      url: /course/handbook/project-team
+      type: presentation
+    - name: Choose roles
+      start: 14:10
+      end: 14:20
+    - name: Technical spikes
+      start: 14:20
+      end: 16:20
       url: ../spikes
     - name: Spike presentation prep
-      start: 16:00
-      end: 16:30
+      start: 16:20
+      end: 16:50
     - name: Spike presentations
-      start: 16:30
+      start: 16:50
       end: 17:45
       type: presentation
   thursday:
