@@ -1,9 +1,10 @@
 ---
-title: Presentations
+title: Tech Spikes
 ---
 
-# Presentation guidance
+# Tech Spikes
 
+Every week, you will have some time set aside on monday evening to research a set of topics in groups, and make a presentation for tuesday morning.
 Time spent researching might seem like it should be the priority, but if the presentation of your material is half-baked then it'll difficult for the rest of the cohort to follow! In this context, **your research is only as good as your presentation**. :sun_with_face: You will have 8 minutes to present and 4 for fielding questions.
 
 ## How to do good research

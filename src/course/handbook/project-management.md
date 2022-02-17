@@ -38,7 +38,7 @@ _CONTROVERSY ALERT:_ Some people prefer to estimate in _absolute_ time, expresse
 
 The team capacity, expressed in points, for each sprint.
 
-## Backlog
+### Backlog
 
 All uncompleted user stories are listed in the project backlog. Each week, during _sprint planning_ the team reprioritises user stories and agrees the next _sprint backlog_. The sprint backlog is then a prioritised backlog of all the user stories that we estimate will be completed in the next sprint.
 
@@ -62,21 +62,17 @@ The Kanban columns are usually something like:
 - `doing`
 - `done`
 
-### Note
+### Zero-point issues
 
 Not all issues raised in the project board contribute to the velocity estimate. **Chores**, **bugs**, **refactors** and **spikes** are all zero-point issues, even though they will (seriously) impact your sprint velocity.
-
-### Zero-point issues
 
 - **Chore** Something that needs to be done, not directly related to a user story
 - **Bug** Something broken
 - **Refactor** An improvement to the code that delivers no change to user experience
 - **Spike** Researching a potential solution to a problem by creating the simplest possible implementation of it
 
-#### CONTROVERSY ALERT
+_CONTROVERSY ALERT:_ Some people prefer to estimate chores, bugs, refactors and spikes just like user stories, however they might better be thought of as _non-negotiable_ and therefore outside the scope of the sprint planning process.
 
-Some people prefer to estimate chores, bugs, refactors and spikes just like user stories, however they might better be thought of as _non-negotiable_ and therefore outside the scope of the sprint planning process.
+### Labels
 
-## Labels
-
-Labels can be added to issues to give a clearer indication of the time estimate, the actual time that was needed and what part of the project
+Labels can be added to issues to give a clearer indication of the time estimate, the actual time that was needed, and what part of the project the issue relates to.
