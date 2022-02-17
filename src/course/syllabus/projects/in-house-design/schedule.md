@@ -26,6 +26,7 @@ schedule:
     - name: Conduct user research
       start: 14:00
       end: 16:00
+      url: "/course/syllabus/projects/in-house-design/user-research/"
     - name: Definition presentation
       start: 16:00
       end: 16:15
