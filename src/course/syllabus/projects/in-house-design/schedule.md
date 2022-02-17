@@ -95,6 +95,7 @@ schedule:
     - name: Sprint Planning
       start: 10:00
       end: 12:00
+      url: /course/handbook/project-docs/sprint-planning
     - name: Presentation prep
       start: 12:00
       end: 13:00

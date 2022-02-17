@@ -52,6 +52,7 @@ schedule:
     - name: Sprint Review and Planning
       start: 11:00
       end: 12:00
+      url: /course/handbook/project-docs/sprint-planning
     - name: Presentation Prep
       start: 12:00
       end: 13:00

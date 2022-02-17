@@ -61,6 +61,7 @@ schedule:
       start: 16:00
       end: 17:45
       type: project
+      url: /course/handbook/project-docs/sprint-planning
   friday:
     - name: Project set-up
       start: 10:00

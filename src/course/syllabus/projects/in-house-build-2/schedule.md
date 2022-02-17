@@ -52,6 +52,7 @@ schedule:
     - name: Sprint Review
       start: 10:45
       end: 11:30
+      url: /course/handbook/project-docs/sprint-planning
     - name: Product Documentation
       start: 11:30
       end: 12:15
