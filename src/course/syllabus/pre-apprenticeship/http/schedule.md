@@ -62,9 +62,10 @@ Homework for Thu 17th Feb:
 ### Thu 17th Feb
 
 - 17:00-17:15 Check-in/feedback form
-- 17:15-17:45 Live project code review
+- 17:15-17:45 Presentation/code review prep
 - 17:45-18:30 Peer project code review
-- 18:30-20:00 Project presentations
+- 18:30-19:00 Live project code review
+- 19:00-20:00 Project presentations
 
 Homework for Mon 21st Feb:
 
