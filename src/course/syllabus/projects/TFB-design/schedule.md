@@ -39,7 +39,7 @@ schedule:
     - name: Technical spikes
       start: 15:00
       end: 17:00
-      url: "./../spikes"
+      url: ../spikes
     - name: Spike presentation prep
       start: 17:00
       end: 17:45
@@ -61,6 +61,7 @@ schedule:
       start: 16:00
       end: 17:45
       type: project
+      url: /course/handbook/project-docs/sprint-planning
   friday:
     - name: Project set-up
       start: 10:00

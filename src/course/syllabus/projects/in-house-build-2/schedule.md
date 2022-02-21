@@ -15,8 +15,11 @@ schedule:
       start: 10:00
       end: 13:00
       type: project
-    - name: Build
+    - name: Tech for Better
       start: 14:00
+      end: 15:00
+    - name: Build
+      start: 15:00
       end: 17:45
       type: project
   wednesday:
@@ -31,7 +34,7 @@ schedule:
     - name: Role circles
       start: 12:45
       end: 13:00
-      url: "/course/handbook/role-circles"
+      url: /course/handbook/role-circles
     - name: Build
       start: 14:00
       end: 17:45
@@ -49,6 +52,7 @@ schedule:
     - name: Sprint Review
       start: 10:45
       end: 11:30
+      url: /course/handbook/project-docs/sprint-planning
     - name: Product Documentation
       start: 11:30
       end: 12:15

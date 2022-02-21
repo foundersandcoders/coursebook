@@ -11,9 +11,16 @@ schedule:
       end: 17:45
       type: project
   tuesday:
-    - name: Employment day
+    - name: Employment morning
       start: 9:45
-      end: 18:00
+      end: 13:00
+    - name: Tech for Better
+      start: 14:00
+      end: 15:00
+    - name: Build
+      start: 15:00
+      end: 17:45
+      type: project
   wednesday:
     - name: Web Science
       start: 10:00
@@ -26,7 +33,7 @@ schedule:
     - name: Role circles
       start: 12:45
       end: 13:00
-      url: "/course/handbook/role-circles"
+      url: /course/handbook/role-circles
     - name: Build
       start: 14:00
       end: 17:45
@@ -44,6 +51,7 @@ schedule:
     - name: Sprint Review and Planning
       start: 11:00
       end: 12:00
+      url: /course/handbook/project-docs/sprint-planning
     - name: Presentation Prep
       start: 12:00
       end: 13:00
