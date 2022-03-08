@@ -58,22 +58,17 @@ schedule:
       start: 14:00
       end: 16:00
       url: https://docs.google.com/presentation/d/10VxYiFBmwLevEH3V6AP74ibf_JRt51Gd-295TICrWQU/edit?usp=sharing
-    - name: Synthesise Feedback
+    - name: Synthesise feedback
       start: 16:00
-      end: 17:00
+      end: 17:30
     - name: Introduction to project roles
-      start: 17:00
-      end: 17:10
+      start: 17:30
+      end: 17:35
       url: /course/handbook/project-team
       type: presentation
     - name: Choose roles
-      start: 17:10
-      end: 17:20
-    - name: Build sprint presentation
-      start: 17:20
+      start: 17:35
       end: 17:45
-      url: https://fac-slides.netlify.app/slides/build-sprint/#0
-      type: presentation
   thursday:
     - name: Project planning
       start: 10:00
@@ -100,8 +95,13 @@ schedule:
       end: 17:45
       type: presentation
   friday:
-    - name: Sprint Planning
+    - name: Build sprint presentation
       start: 10:00
+      end: 10:15
+      url: https://fac-slides.netlify.app/slides/build-sprint/#0
+      type: presentation
+    - name: Sprint Planning
+      start: 10:15
       end: 12:00
       url: /course/handbook/project-docs/sprint-planning
     - name: Presentation prep

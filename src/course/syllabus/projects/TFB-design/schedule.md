@@ -38,11 +38,15 @@ schedule:
       type: project
     - name: Project Planning
       start: 15:00
-      end: 17:00
+      end: 16:30
       type: project
       url: https://hackmd.io/@fac/SkyPKSwBw#/
-    - name: Code Planning + Choose Roles
-      start: 17:00
+    - name: Choose Roles
+      start: 16:30
+      end: 16:45
+      url: /course/handbook/project-team
+    - name: Code Planning
+      start: 16:45
       end: 17:45
       type: project
       url: https://fac-slides.netlify.app/slides/project-architecture/
