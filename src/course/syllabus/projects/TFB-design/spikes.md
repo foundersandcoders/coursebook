@@ -1,29 +1,14 @@
 # Design Week Spikes
 
-This week, spikes will be in your role groups. Your role mentor might be able to give advice on what to focus on. Use this as an opportunity to read and explore documentation on a new technology or practice. Take a look at our suggestions below for inspiration.
+This week, spikes will be in your project groups.
 
-## DevOps
+Use this as an opportunity to read and explore documentation on a new technology that you might need for your project, or to find a definitive answer for some of the "How might we" questions that came up during the definition workshop.
 
-In real world apps there will usually be separate environments for staging, testing and production. Look into setting up and maintaining these separate environments.
+If you are looking into new tech, here's a checklist to keep in mind during your research.
 
-## QA
-
-Continuous Integration was a [spike in database week](../../database/spikes).
-
-Using this in your project can help to keep consistency in your codebase. What GitHub Actions could you set up for a smooth working process?
-
-You might instead like to look at a new testing framework that we haven't covered on the course.
-
-## UX
-
-There are many different approaches to designing intuitive user experiences.
-
-You might like to look at design practices, systems or a particular library such as Styled Components.
-
-## Scrum
-
-It will be important to have a good idea of how you'll work together as a team during the projects. There are systems and processes to make working together a smooth process.
-
-You might like to look at techniques for time estimations, such as PERT Estimation Technique.
-
-Or you might like to take a deep dive into the Scrum Methodology and the ceremonies which accompany it.
+- List out your needs, and compare them to a list of the pros and cons of the technology you're looking at.
+- How popular is it? How well maintained is it?
+- How good is the documentation? What is the learning curve compared to things you have already used?
+- Are there good external learning resources? (look into different media types - eg: video)
+- How much time would go into learning vs implementing?
+- Does it require payment/ does it have limits on usage that would hinder your project?
