@@ -39,14 +39,9 @@ schedule:
     - name: Project Planning
       start: 15:00
       end: 17:00
-<<<<<<< Updated upstream
-      url: ../spikes
-    - name: Spike presentation prep
-=======
       type: project
       url: https://hackmd.io/@fac/SkyPKSwBw#/
     - name: Code Planning + Choose Roles
->>>>>>> Stashed changes
       start: 17:00
       end: 17:45
       type: project
