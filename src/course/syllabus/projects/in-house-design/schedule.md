@@ -51,53 +51,57 @@ schedule:
       end: 11:00
       type: presentation
     - name: Wireframing
-      start: 10:40
+      start: 11:00
       end: 13:00
       type: project
-    - name: Introduction to project roles
+    - name: Usability testing
       start: 14:00
-      end: 14:10
+      end: 16:00
+      url: https://docs.google.com/presentation/d/10VxYiFBmwLevEH3V6AP74ibf_JRt51Gd-295TICrWQU/edit?usp=sharing
+    - name: Synthesise feedback
+      start: 16:00
+      end: 17:30
+    - name: Introduction to project roles
+      start: 17:30
+      end: 17:35
       url: /course/handbook/project-team
       type: presentation
     - name: Choose roles
-      start: 14:10
-      end: 14:20
-    - name: Technical spikes
-      start: 14:20
-      end: 16:20
-      url: ../spikes
-    - name: Spike presentation prep
-      start: 16:20
-      end: 16:50
-    - name: Spike presentations
-      start: 16:50
+      start: 17:35
       end: 17:45
-      type: presentation
   thursday:
-    - name: Usability testing
+    - name: Project planning
       start: 10:00
       end: 12:00
-      url: https://docs.google.com/presentation/d/10VxYiFBmwLevEH3V6AP74ibf_JRt51Gd-295TICrWQU/edit?usp=sharing
-    - name: Synthesise feedback
-      start: 12:00
-      end: 13:00
-    - name: Build sprint presentation
-      start: 14:00
-      end: 14:15
-      url: https://fac-slides.netlify.app/slides/build-sprint/#0
-      type: presentation
-    - name: Project planning
-      start: 14:15
-      end: 16:00
       url: https://hackmd.io/@fac/SkyPKSwBw#/
       type: project
     - name: Code planning
-      start: 16:00
-      end: 17:45
+      start: 12:00
+      end: 13:00
       url: https://fac-slides.netlify.app/slides/project-architecture/
+    - name: Code planning
+      start: 14:00
+      end: 14:45
+      url: https://fac-slides.netlify.app/slides/project-architecture/
+    - name: Technical spikes
+      start: 14:45
+      end: 16:30
+      url: ../spikes
+    - name: Spike presentation prep
+      start: 16:30
+      end: 17:00
+    - name: Spike presentations
+      start: 17:00
+      end: 17:45
+      type: presentation
   friday:
-    - name: Sprint Planning
+    - name: Build sprint presentation
       start: 10:00
+      end: 10:15
+      url: https://fac-slides.netlify.app/slides/build-sprint/#0
+      type: presentation
+    - name: Sprint Planning
+      start: 10:15
       end: 12:00
       url: /course/handbook/project-docs/sprint-planning
     - name: Presentation prep
