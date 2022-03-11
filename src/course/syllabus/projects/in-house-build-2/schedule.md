@@ -49,15 +49,15 @@ schedule:
       end: 17:45
       type: project
   friday:
+    - name: Team code review
+      start: 10:00
+      end: 11:00
+      url: /course/handbook/code-review/
     - name: Sprint Review
-      start: 10:45
-      end: 11:30
+      start: 11:00
+      end: 12:00
       url: /course/handbook/project-docs/sprint-planning
-    - name: Product Documentation
-      start: 11:30
-      end: 12:15
-      url: /course/handbook/project-documentation
     - name: Presentation Prep
-      start: 12:15
+      start: 12:00
       end: 13:00
 ---
