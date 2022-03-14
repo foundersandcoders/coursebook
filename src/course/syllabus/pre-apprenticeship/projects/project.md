@@ -53,7 +53,7 @@ All projects should have their source code hosted on GitHub and be published to 
 
 1. ### GitHub profile analyser
 
-   Search for a GitHub username to see information about their profile. Figure out what interest data you can pull out of a profile using the [GitHub API docs](https://docs.github.com/en/rest/).
+   Search for a GitHub username to see information about their profile. Figure out what interesting data you can pull out of a profile using the [GitHub API docs](https://docs.github.com/en/rest/).
 
    #### Features
 
@@ -82,14 +82,14 @@ All projects should have their source code hosted on GitHub and be published to 
 
    #### Features
 
-   - Control a snake using the keyboard
-   - Game ends if snake touches itself
-   - Touching "food" makes snake grow longer/score go up
+   - Control a snake using the keyboard.
+   - Game ends if snake touches itself.
+   - Touching "food" makes snake grow longer/score go up.
 
    #### Stretch goals
 
-   - Save scores in localStorage to show best attempts
-   - Speed game up as score gets higher
+   - Save scores in localStorage to show best attempts.
+   - Speed game up as score gets higher.
 
    #### Learning outcomes
 
