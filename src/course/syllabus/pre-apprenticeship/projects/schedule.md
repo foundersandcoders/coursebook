@@ -1,4 +1,4 @@
-Learn how to make sure your code works correctly by creating automated tests.
+Reinforce your learning by building something fun.
 
 ## Week 1
 
