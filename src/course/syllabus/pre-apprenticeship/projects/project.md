@@ -91,7 +91,7 @@ All projects should have their source code hosted on GitHub and be published to 
    - Save scores in localStorage to show best attempts.
    - Speed game up as score gets higher.
 
-   #### Learning outcomes
+   #### Learning outcomes
 
    - [ ] Keyboard event handlers
    - [ ] Managing complex game state
