@@ -44,12 +44,20 @@ schedule:
       start: 10:00
       end: 13:00
       type: project
-    - name: Build
+    - name: Team code review
       start: 14:00
+      end: 15:00
+      url: /course/handbook/code-review/
+    - name: Respond to issues / Build
+      start: 15:00
       end: 17:45
       type: project
   friday:
-    - name: Sprint Review and Planning
+    - name: Build
+      start: 10:00
+      end: 11:00
+      type: project
+    - name: Sprint Review
       start: 11:00
       end: 12:00
       url: /course/handbook/project-docs/sprint-planning
