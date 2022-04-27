@@ -28,45 +28,45 @@ In order to run our app locally we'll need a Postgres database running on our ma
 
 ### Creating a local database
 
-Setting up a new DB can be frustrating, so this repo includes a script do it automatically. You can run it in your terminal with:
+You can create a new Postgres user and a new Postgres database owned by that user with these two commands:
 
 ```shell
-./scripts/create_db
+createuser learn_pg_user &&
+createdb learn_pg --owner learn_pg_user
 ```
 
-{% disclosure "If you get a connection error" "error" %}
+If this succeeds you shouldn't see any output in your terminal. You can check it worked properly by listing your databases with this command:
 
 ```shell
-psql: error: could not connect to server: FATAL: database "oliver" does not exist
+psql --list
 ```
 
-This happens because `psql` by default tries to connect to a database with the same name as your user account. If this is missing you should create it with:
+You should see the new `learn_pg` database in the list, like this:
 
-```shell
-createdb $(whoami)
 ```
-
-`whoami` will insert your username automatically.
-
-{% enddisclosure %}
-
-The `create_db` script will run a few terminal commands in a row:
-
-1. Create a new database user
-1. Create a new database owned by that user
-1. Create a `.env` file containing a "connection string" so your app knows where to reach the DB
-
-After successfully running this script you should have a new database named `learn_pg`. You can check by running `psql --list` to view all your DBs.
+                                  List of databases
+   Name    |  Owner        | Encoding |   Collate   |    Ctype    |   Access privileges
+-----------+----------+----------+-------------+-------------+-----------------------
+ learn_pg  | learn_pg_user | UTF8     | en_US.UTF-8 | en_US.UTF-8 |
+```
 
 ### Populating the database
 
-Our database is currently empty. The repo includes a script for populating the DB. You can run it in your terminal with:
+You can list all the tables in your new database with this command:
 
 ```shell
-./scripts/populate_db
+psql learn_pg --command "\dt"
 ```
 
-This script executes the SQL commands inside `/database/init.sql` against your DB. These create the tables we want, and insert some example data. You can re-run it to wipe your DB and start from scratch whenever you need to.
+You should see "Did not find any relations." This is because our database is empty—we haven't created any tables or inserted any data.
+
+You can populate your database by running SQL commands to create tables and insert data. Doing this manually would be slow and repetitive, however you can run them from a file in the repo instead:
+
+```shell
+psql learn_pg --file "./database/init.sql"
+```
+
+The `/database/init.sql` file contains SQL commands to create the tables we want, then insert some example data. You can re-run this command to wipe your DB and start from scratch whenever you need to.
 
 {% box  "error" %}
 
@@ -76,27 +76,47 @@ This script executes the SQL commands inside `/database/init.sql` against your D
 
 ### Connecting to the database
 
-We can query our DB manually from the terminal using `psql`, but that doesn't help us build an app. We need a way for our Node server to connect to the DB.
+We can query our DB manually from the terminal using `psql`, but that doesn't help us build an app. We need a way for our Node server to connect to the DB. To do this we use the [`node-postgres`](https://node-postgres.com) library. You need to install this into the project with:
 
-To do this we use the [`node-postgres`](https://node-postgres.com) library (called `pg` on npm). It's listed as a dependency in the `package.json` file, so was automatically downloaded when you ran `npm install`.
-
-Take a look at `/database/connection.js`. We import the `pg` library, then connect to the right DB by passing in a "connection string" (a URL identifying the DB and user).
-
-{% disclosure "More info about the connection string" %}
-
-The connection string is a URL pointing to your exact Postgres DB, including the user and password. It is structured like this:
-
-```
-postgres://username:password@localhost:5432/database_name
+```shell
+npm install pg
 ```
 
-We read it from an environment variable in `connection.js`—this is because we want the DB password to stay secret, and so that different environments can connect to different DBs. E.g. we want to use a local DB during development but one on Heroku when we deploy our app.
+Our app needs to know the database's address. Postgres runs a local server so you can talk to the DB. The full URL (also known as the "connection string") for your database will be:
 
-When we run `npm run dev` to start the server it will execute `nodemon -r dotenv/config server.js`. This tells Node to use the [`dotenv`](https://www.npmjs.com/package/dotenv) library to load env vars _before_ our server starts. This will read the `.env` file and load all the env vars automatically.
+```
+postgres://learn_pg_user:@localhost:5432/learn_pg
+```
 
-{% enddisclosure %}
+You _could_ hard-code this URL into our app code, but this address is only correct for the database running on your computer. When someone else clones your repo they'll have their own DB set up.
 
-The `/database/connection.js` file exports a "pool" of connections for our app to use. This helps handle multiple requests at the same time. We can import the `db` variable in any other file to send requests to the DB.
+### Environment variables
+
+It's best to read configuration like this from an "environment variable" (env vars). This is like a JS variable, but set in your terminal before a program runs. You can set them before you start your application, like this `PORT=3000 node server.js`. You server can then read this value to know what port your app should listen on.
+
+Take a look at the `/database/connection.js` file. It imports the `pg` library, then connects to the right DB by passing in the connection string. It reads this from the `DATABASE_URL` env var, which means we must make sure this is set before starting our server.
+
+Rather than type `DATABASE_URL=postgres://... npm run dev` every time, we can rely on the popular `dotenv` library. This allows us to define env vars in a file named `.env`. We gitignore this file so each person who clones the repo can make their own with their own personal DB URL.
+
+First install `dotenv` as a dev dependency:
+
+```shell
+npm install --save-dev dotenv
+```
+
+Then create a `.env` file at the root of your project containing:
+
+```shell
+DATABASE_URL='postgres://learn_pg_user:@localhost:5432/learn_pg'
+```
+
+Then change your `dev` npm script in the `package.json` file to this:
+
+```
+"nodemon -r dotenv/config server.js"
+```
+
+The `-r dotenv/config` bit tells the `dotenv` library to read the `.env` file and pass all the values inside it to your application. You can then access them in your JS code with `process.env.VAR_NAME`.
 
 ## Using the database
 
