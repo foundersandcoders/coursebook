@@ -92,7 +92,7 @@ You _could_ hard-code this URL into our app code, but this address is only corre
 
 ### Environment variables
 
-It's best to read configuration like this from an "environment variable" (env vars). This is a value set in the shell before you start your application. For example it's common to read the `PORT` env var to know what port your app should listen on.
+It's best to read configuration like this from an "environment variable" (env vars). This is like a JS variable, but set in your terminal before a program runs. You can set them before you start your application, like this `PORT=3000 node server.js`. You server can then read this value to know what port your app should listen on.
 
 Take a look at the `/database/connection.js` file. It imports the `pg` library, then connects to the right DB by passing in the connection string. It reads this from the `DATABASE_URL` env var, which means we must make sure this is set before starting our server.
 
@@ -116,7 +116,7 @@ Then change your `dev` npm script in the `package.json` file to this:
 "nodemon -r dotenv/config server.js"
 ```
 
-The `-r dotenv/config` bit tells the `dotenv` library to read the `.env` file and pass all the values inside it to your application. They will then be accessible via `process.env.VAR_NAME`.
+The `-r dotenv/config` bit tells the `dotenv` library to read the `.env` file and pass all the values inside it to your application. You can then access them in your JS code with `process.env.VAR_NAME`.
 
 ## Using the database
 
