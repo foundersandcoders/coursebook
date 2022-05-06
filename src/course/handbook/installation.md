@@ -140,32 +140,13 @@ The easiest way to install Postgres on a Mac is via [postgres.app](https://postg
 
 ## Checking everything
 
-You can copy/paste these commands into your Terminal to output all the version numbers, then compare those against the minimum-version-list below.
+You can run our installation checker script to make sure everything is installed correctly:
 
-```
-git --version
-echo "node $(node --version)"
-echo "npm $(npm --version)"
-psql --version
-echo "vs code $(code --version)"
+```shell
+sh -c "$(curl -s https://learn.foundersandcoders.com/installation-checker.sh)"
 ```
 
-This should output something like:
-
-```bash
-git version 2.28.0
-node v14.15.1
-npm 6.14.8
-psql (PostgreSQL) 13.1
-vs code 1.52.1
-cd9ea6488829f560dc949a8b2fb789f3cdc05f5d
-x64
-```
-
-You want at least these minimum versions:
-Node: 14
-npm: 6
-psql: 11
+This will tell you what version (if any) you have of each required program. You want at least these minimum versions: **Node 16, npm 8, psql 14**.
 
 ## Troubleshooting
 

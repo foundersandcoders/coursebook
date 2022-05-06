@@ -1,0 +1,64 @@
+---
+layout: false
+permalink: installation.sh
+---
+
+#! /usr/bin/env sh
+
+set -e
+
+red() {
+  echo "⚠️  \x1b[31m$1\x1b[39m"
+}
+
+dim() {
+  echo "\x1b[2m$1\x1b[22m"
+}
+
+echo "\nChecking Git..."
+if [ -x "$(command -v git)" ]
+  then git --version
+  else
+    red "Is Git installed?"
+    dim "https://learn.foundersandcoders.com/course/handbook/installation/#git"
+fi
+
+echo "\nChecking Volta..."
+if [ -x "$(command -v volta)" ]
+  then echo "Volta v$(volta --version)"
+  else
+    red "Is Volta installed?"
+    dim "https://learn.foundersandcoders.com/course/handbook/installation/#volta"
+fi
+
+echo "\nChecking Node..."
+if [ -x "$(command -v node)" ]
+  then echo "Node $(node --version)"
+  else
+    red "Is Node installed?"
+    dim "https://learn.foundersandcoders.com/course/handbook/installation/#volta"
+fi
+
+echo "\nChecking npm..."
+if [ -x "$(command -v npm)" ]
+  then echo "npm v$(npm --version)"
+  else
+    red "Is npm installed?"
+    dim "https://learn.foundersandcoders.com/course/handbook/installation/#npm"
+fi
+
+echo "\nChecking Postgres..."
+if [ -x "$(command -v psql)" ]
+  then psql --version
+  else
+    red "Is Postgres installed?"
+    dim "https://learn.foundersandcoders.com/course/handbook/installation/#postgres"
+fi
+
+echo "\nChecking VS Code..."
+if [ -x "$(command -v code)" ]
+  then echo "VS Code $(code --version | head -n 1)"
+  else
+    red "Are VS Code's command-line tools installed?"
+    dim "https://learn.foundersandcoders.com/course/handbook/installation/#code-editor"
+fi
