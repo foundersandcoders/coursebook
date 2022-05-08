@@ -2,19 +2,20 @@
 layout: schedule
 schedule:
   monday:
-    - name: Welcome talks
-      start: 10:00
-      end: 12:00
-      type: presentation
     - name: Intro presentation
-      start: 12:00
-      end: 12:30
+      start: 10:00
+      end: 10:30
       url: https://fac-slides.netlify.app/slides/servers/
       type: presentation
     - name: Node & npm intro
-      start: 12:30
-      end: 13:00
+      start: 10:30
+      end: 12:00
       url: /workshops/node-npm-intro/
+      type: workshop
+    - name: Node & Express server
+      start: 12:00
+      end: 13:00
+      url: /workshops/node-express-server/
       type: workshop
     - name: Node & Express server
       start: 14:00
