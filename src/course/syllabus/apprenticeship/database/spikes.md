@@ -1,4 +1,4 @@
-<!-- ## Relational vs non-relational databases
+## Relational vs non-relational databases
 
 What's the difference between relational (SQL) and non-relational (NoSQL) databases?
 
@@ -11,7 +11,7 @@ What's the difference between relational (SQL) and non-relational (NoSQL) databa
 
 - [Databases: how they work, a a brief history](https://seldo.com/posts/databases_how_they_work_and_a_brief_history) (just the first part of relation and NoSQL)
 - [NoSQL explained | MongoDB](https://www.mongodb.com/nosql-explained)
-- [Why You Should Never Use MongoDB](http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb/) -->
+- [Why You Should Never Use MongoDB](http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb/)
 
 ## Database security
 
