@@ -12,7 +12,7 @@ How can we deploy our Node server to a cloud provider like Heroku?
 
 - [How Heroku Works](https://devcenter.heroku.com/articles/how-heroku-works)
 - [Deploying Node.js Apps on Heroku](https://devcenter.heroku.com/articles/deploying-nodejs)
-- [GitHub Integration (Heroku GitHub Deploys)](https://devcenter.heroku.com/articles/github-integration)
+<!-- - [GitHub Integration (Heroku GitHub Deploys)](https://devcenter.heroku.com/articles/github-integration) -->
 
 ## Client vs Server
 
