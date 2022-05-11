@@ -63,7 +63,7 @@ schedule:
       type: project
   friday:
     - name: Respond to issues
-      start: 11:15
+      start: 10:30
       end: 13:00
     - name: Presentation prep
       start: 14:00
