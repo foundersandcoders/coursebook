@@ -85,9 +85,16 @@ thursday:
     end: 14:00
     name: Lunch
   - start: 14:00
-    end: 17:45
+    end: 16:30
     name: Project
     type: project
+  - start: 16:30
+    end: 16:45
+    name: Update READMEs
+  - start: 16:45
+    end: 17:45
+    name: Team Code Review
+    url: /course/handbook/code-review/
   - start: 17:45
     end: 18:00
     name: Check-out
@@ -96,13 +103,10 @@ friday:
     end: 10:00
     name: Check-in
   - start: 10:00
-    end: 10:45
-    name: Team code review
+    end: 10:30
+    name: Live Code Review
     url: /course/handbook/code-review/
-  - start: 10:45
-    end: 11:15
-    name: Live code review
-  - start: 11:15
+  - start: 10:30
     end: 12:15
     name: Respond to issues
   - start: 12:15
