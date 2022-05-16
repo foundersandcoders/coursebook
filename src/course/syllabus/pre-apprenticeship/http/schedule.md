@@ -19,11 +19,12 @@ Homework:
 
 - 17:00-17:15 Check-in
 - 17:15-18:00 Workshop discussion & solutions
-- 17:30-19:45 [Real-world fetch workshop](/workshops/real-world-fetch)
+- 18:00-19:45 [Real-world fetch workshop](/workshops/real-world-fetch)
 - 19:45-20:00 Check-out
 
 Homework:
 
+- Finish Real-world fetch workshop
 - [Promise practice workshop](/workshops/promise-practice/) (2 hours)
 
 ## Week 2

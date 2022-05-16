@@ -2,72 +2,71 @@ Learn how to make sure your code works correctly by creating automated tests.
 
 ## Week 1
 
-### Mon 21st Feb
+### Monday
 
 - 17:00-17:15 Check-in
 - 17:15-17:45 [Intro talk](https://fac-slides.netlify.app/slides/testing/)
 - 17:45-18:15 [Build a testing library](/workshops/learn-testing/)
 - 18:15-19:45 [Unit testing workshop](/workshops/learn-unit-testing/)
-- 19:45-20:00 Unit testing workshop discussion
+- 19:45-20:00 Check-out
 
 Homework for Mon 28th Feb:
 
+- Finish Unit testing workshop
 - [Integration testing workshop](/workshops/learn-integration-testing/) (2 hours)
-- [Scope Challenge](/workshops/scope-challenge/) (1 hour)
+<!-- - [Scope Challenge](/workshops/scope-challenge/) (1 hour) -->
 
-### Thu 24th Feb
+### Thursday
 
-- Q&A
-- Mock interviews
-- Take-home challenge
+- 17:00-17:15 Check-in
+- 17:15-18:00 Workshop discussion & solutions
+- 18:00-19:45 [TDD workshop](/workshops/tdd-array-methods/)
+- 19:45-20:00 Check-out
 
 Homework for Thu 3rd Mar:
 
-- Screening questions and coding challenge
+- Finish TDD workshop
 
 ## Week 2
 
-### Mon 28th Feb
+### Monday
 
-- 17:00-17:15 Check-in/feedback form
-- 17:15-17:30 Integration testing workshop discussion
-- 17:30-19:30 [TDD workshop](/workshops/tdd-array-methods/)
-- 19:30-20:00 TDD workshop discussion
+- 17:00-17:15 Check-in
+- 17:15-18:00 Workshop discussion & solutions
+- 18:00-19:45 [Project](../project/) introduction
+- 19:45-20:00 Check-out
 
 Homework for Thu 3rd Mar:
 
-- Finish the [TDD workshop](/workshops/tdd-array-methods/) (2 hours)
+- [Project](../project/)
 
-### Thu 3rd Mar
+### Thursday
 
 - Q&A
-- Mock interviews
-- Take-home challenge
+- Employment preparation
 
 Homework for Thu 10th Mar:
 
-- [Project](../project/)
+- Screening questions and coding challenge
 
 ## Week 3
 
-### Mon 7th Mar
+### Monday
 
 - Q&A
-- Mock interviews
-- Take-home challenge
+- Employment preparation
 
 Homework for Thu 17th Mar:
 
 - Screening questions and coding challenge
 
-### Thu 10th Mar
+### Thursday
 
-- 17:00-17:15 Check-in/feedback form
-- 17:15-17:45 Live project code review
-- 17:45-18:30 Peer project code review
-- 18:30-20:00 Project presentations
+- Q&A
+- Project presentations
+- Employment preparation
 
 Homework for Mon 14th Feb:
 
 - Revision quiz
-- Side project
+- Complete take-home challenge
