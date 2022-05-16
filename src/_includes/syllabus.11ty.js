@@ -13,7 +13,10 @@ exports.render = ({ section, topic, page, content, tabs = {} }) => {
         <!-- visually hide section since it's duplicated in the tabs below -->
         <h1 class="highlight bg-primary">${topic} <span class="vh">${section}</span></h1>
         <${Tabs}>
-          <${Tab} page=${page} href="schedule">Schedule</${Tab}>
+          ${
+            tabs.schedule !== false &&
+            html`<${Tab} page=${page} href="schedule">Schedule</${Tab}>`
+          }
           ${
             tabs.learnings !== false &&
             html`<${Tab} page=${page} href="learning-outcomes">Learnings</${Tab}>`

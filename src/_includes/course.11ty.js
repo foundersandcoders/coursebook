@@ -36,20 +36,13 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/handbook/mentor-guidance/">Mentoring guidance</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/mentor-roles/">What to expect of mentors</${Link}></li>
         </${Section}>
-        <${Section} title="Application" url=${url} subpath="course/application">
-          <li><${Link} url=${url} href="/course/application/how-to">How to</${Link}></li>
-          <li><${Link} url=${url} href="/course/application/platforms">Platforms</${Link}></li>
-          <li><${Link} url=${url} href="/course/application/approaching-problems">Approaching problems</${Link}></li>
-          <li><${Link} url=${url} href="/course/application/tribute">Tribute page</${Link}></li>
-          <li><${Link} url=${url} href="/course/application/functions">Functions</${Link}></li>
-          <li><${Link} url=${url} href="/course/application/dom">DOM</${Link}></li>
-          <li><${Link} url=${url} href="/course/application/array-methods">Arrays</${Link}></li>
-          <li><${Link} url=${url} href="/course/application/git">git and GitHub</${Link}></li>
-          <li><${Link} url=${url} href="/course/application/flexbox">Flexbox</${Link}></li>
-          <li><${Link} url=${url} href="/course/application/building-a-site">Build a website</${Link}></li>
-          <li><${Link} url=${url} href="/course/application/objects">Objects</${Link}></li>
-          <li><${Link} url=${url} href="/course/application/feature">Feature</${Link}></li>
-          <li><${Link} url=${url} href="/course/application/debugging">Debugging</${Link}></li>
+        <${Section} title="Application" url=${url} subpath="course/syllabus/application">
+          <li><${Link} url=${url} href="/course/syllabus/application/one/learning-outcomes">One</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/application/two/learning-outcomes">Two</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/application/three/learning-outcomes">Three</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/application/four/learning-outcomes">Four</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/application/five/learning-outcomes">Five</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/application/six/learning-outcomes">Six</${Link}></li>
         </${Section}>
         <${Section} title="Pre-apprenticeship" url=${url} subpath="course/syllabus/pre-apprenticeship">
           <li><${Link} url=${url} href="/course/syllabus/pre-apprenticeship/pre-course/schedule/">Pre-course</${Link}></li>
