@@ -23,13 +23,16 @@ You're working in a team of two on a project for a new client. Steps 1 to 8 in t
 
 Programmer 1 creates a new GitHub repo and clones it.
 
-1. Go to your cohort's GitHub organisation and create a new repo, initialising it with a `README.md`.
+<!-- 1. Go to your cohort's GitHub organisation and create a new repo, initialising it with a `README.md`. -->
+
+1. Create a new GitHub repo on Programmer 1's profile
+1. Go to "Settings > Collaborators" and add Programmer 2 so they can access the repo
 1. Clone this new repository using your terminal.
-   ```bash
+   ```shell
    git clone 'PASTE THE URL OF YOUR REPOSITORY HERE'
    ```
 1. Move into the newly created directory.
-   ```bash
+   ```shell
    cd your-repo-name-here
    ```
    This is what your remote and local repositories look like after this. HEAD is a reference to your current location.</br>
@@ -51,19 +54,19 @@ For the sake of this exercise, we're just going to [add one issue](https://help.
 There are many types of workflow. At FAC we use [GitHub flow](https://guides.github.com/introduction/flow/), where the `main` branch is always deployable. In this flow, each branch is used for a separate feature.
 
 1. Create a branch with a unique and descriptive name. For example, `create-heading-with-shadow`.
-   ```bash
+   ```shell
    git branch create-heading-with-shadow
    ```
    <img src="images/step3(1)GitFlow.png" width="398" height="302" alt="repo visual after step 1">
 1. Leave the main branch by switching to the new branch you have just created.
-   ```bash
+   ```shell
    git checkout create-heading-with-shadow
    ```
    <img src="images/step3(2)GitFlow.png" width="480" height="296" alt="repo visual after step 1">
 
 Alternatively you can do this in a single step by using the `-b` flag to tell the `git checkout` command to create the new branch:
 
-```bash
+```shell
 git checkout -b create-heading-with-shadow
 ```
 
@@ -127,13 +130,13 @@ Now we need to write some code to add the new feature.
 
 1. Add `index.html` and `style.css` to the [staging area](http://softwareengineering.stackexchange.com/questions/119782/what-does-stage-mean-in-git).
 
-```bash
+```shell
 git add index.html style.css
 ```
 
 If you know you definitely want to stage _all_ your current changes you can save some typing and use:
 
-```bash
+```shell
 git add .
 ```
 
@@ -152,7 +155,7 @@ Here are some [great guidelines](https://chris.beams.io/posts/git-commit/) on wr
 It's also important to link your code changes to the issues that track them. GitHub lets you use a hash symbol followed by a number to [connect a commit to an issue](https://help.github.com/articles/autolinked-references-and-urls/). For example if the message includes `Relates #1` it will show this commit in issue number 1 on the GitHub repo. If a commit totally _fixes_ an issue you can use `Closes #1`, and GitHub will automatically close the issue when the commit is pushed to GitHub.
 
 1. Commit the files that are in the staging area.
-   ```bash
+   ```shell
    git commit -m 'Add new page heading element with styles' -m 'Relates #1'
    ```
    Here we're using a second `-m` flag to add another line to our commit message with the extra issue info.
@@ -165,7 +168,7 @@ It's also important to link your code changes to the issues that track them. Git
 At this point your remote repo on GitHub hasn't changed yet. You need to push your changes.
 
 1. Push the `create-heading-with-shadow` branch up to the "origin" (the GitHub repo that you cloned from).
-   ```bash
+   ```shell
    git push origin create-heading-with-shadow
    ```
 
@@ -218,7 +221,7 @@ Your quality assurance engineer has just noticed some problems with the recent c
 ### Step 1: clone the repo (Programmer 2)
 
 1. Programmer 2 also needs a copy of the repo, since they haven't worked on it yet
-   ```bash
+   ```shell
    git clone 'PASTE THE URL OF YOUR REPOSITORY HERE'
    ```
 
@@ -253,11 +256,11 @@ It's important to avoid making unrelated changes as you work. It can be tempting
 
 1. Both programmers save their `index.html` files.
 1. Both programmers check the status of their files, to confirm that `index.html` has been modified.
-   ```bash
+   ```shell
    git status
    ```
 1. Both programmers add their modified `index.html` file to the staging area.
-   ```bash
+   ```shell
    git add index.html
    ```
 
@@ -274,19 +277,19 @@ It's important to avoid making unrelated changes as you work. It can be tempting
 On a real project there might be lots of other people contributing code simultaneously. It's a good idea to regularly incorporate changes from the remote `main` branch into your branch (especially if you've been working on this branch for a long time). You usually want to check for remote changes before pushing your branch.
 
 1. Programmer 1 switches to `main` branch.
-   ```bash
+   ```shell
    git checkout main
    ```
 1. Programmer 1 pulls any changes from the `main` branch of the remote (GitHub repo). There should be no changes since neither of you has pushed any changes yet.
-   ```bash
+   ```shell
    git pull origin main
    ```
    On the default branch you can use a shorthand, since Git knows which remote branch to use:
-   ```bash
+   ```shell
    git pull
    ```
 1. Programmer 1 switches back to the `fix-typo-heading` branch.
-   ```bash
+   ```shell
    git checkout fix-typo-heading
    ```
    Since there were no new changes to deal with Programmer 1 can move on to pushing.
@@ -294,7 +297,7 @@ On a real project there might be lots of other people contributing code simultan
 ### Step 8: push changes (Programmer 1)
 
 1. Programmer 1 pushes their `fix-typo-heading` branch to remote
-   ```bash
+   ```shell
    git push origin fix-typo-heading
    ```
 
@@ -326,21 +329,21 @@ On a real project there might be lots of other people contributing code simultan
 Remember it's always a good idea to check for any new changes on the remote before pushing your branch. In this case we know that Programmer 1's branch was just merged, so there _will_ be changes. Once we've pulled them to the local `main` branch we'll need to _merge_ them into the `update-class-heading` branch.
 
 1. Programmer 2 switches to `main` branch.
-   ```bash
+   ```shell
    git checkout main
    ```
 1. Programmer 2 pulls the remote `main` branch
-   ```bash
+   ```shell
    git pull
    ```
    <img src="images/2step13(1)GitFlow.png" width="519" height="703" alt="repo visual after step 1">
 1. Programmer 2 switches back to the `update-class-heading` branch.
-   ```bash
+   ```shell
    git checkout update-class-heading
    ```
 1. Programmer 2 tries to merge `main` branch into `update-class-heading` branch.
 
-   ```bash
+   ```shell
    git merge main
    ```
 
@@ -373,7 +376,7 @@ You can resolve the conflict by manually editing the code to leave only the chan
    ```
 1. Programmer 2 adds the `index.html` file to staging area and commits the merge changes.
 
-```bash
+```shell
 git add index.html
 git commit -m 'Merge main and resolve conflicts'
 ```
@@ -384,7 +387,7 @@ git commit -m 'Merge main and resolve conflicts'
 
 1. Programmer 2 pushes the `update-class-heading` branch to remote.
 
-```bash
+```shell
   git push origin update-class-heading
 ```
 
