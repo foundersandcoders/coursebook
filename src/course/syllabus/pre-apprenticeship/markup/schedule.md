@@ -2,72 +2,67 @@ This topic is focused on the fundamental building blocks of web pages—accessib
 
 ## Week 1
 
-### Mon 10th Jan
+### Monday
 
 - 17:00-17:15 Check-in
 - 17:15-18:15 Intro talks
 - 18:15-19:45 [Git workflow workshop](/workshops/git-workflow/)
-- 19:45-20:00 Git workflow workshop discussion
+- 19:45-20:00 Check-out
 
-Homework for Mon 17th Jan:
+Homework:
 
+- Finish Git workflow workshop
 - [CSS Layout workshop](/workshops/css-layout/) (3 hours)
 
-### Thu 13th Jan
+### Thursday
 
-- About the programme
-- Take-home challenge practice
-- Mock interviews
+- 17:00-17:15 Check-in
+- 17:15-18:00 Workshop discussion & solutions
+- 17:30-18:45 [Semantic HTML workshop](/workshops/semantic-html/)
+- 18:45-19:45 [Accessibility workshop](/workshops/learn-a11y/)
+- 19:45-20:00 Check-out
 
-Homework for Thu 20th Jan:
+Homework:
 
-- Execute Program (and every week)
+- Finish HTML & Accessibility workshops
+- [HTML Forms workshop](/workshops/html-forms/) (1.5 hours)
 
 ## Week 2
 
-### Mon 17th Jan
+### Monday
 
-- 17:00-17:15 Check-in/feedback form
-- 17:15-17:30 CSS Layout workshop discussion
-- 17:30-18:30 [Semantic HTML workshop](/workshops/semantic-html/)
-- 18:30-18:45 Semantic HTML workshop discussion
-- 18:45-19:45 [Accessibility workshop](/workshops/learn-a11y/)
-- 19:45-20:00 Accessibility workshop discussion
+- 17:00-17:15 Check-in
+- 17:15-18:00 Workshop discussion & solutions
+- 18:00-20:00 [Project](../project/) introduction
 
-Homework for Thu 20th Jan:
-
-- [HTML Forms workshop](/workshops/html-forms/) (1.5 hours)
-
-### Thu 20th Jan
-
-- HTML Forms workshop discussion
-- Screening questions
-- Projects 
-- GitHub profiles
-
-Homework for Thu 27th Jan:
 - [Project](../project/)
+
+### Thursday
+
+- Screening questions
+- Projects
+- GitHub profiles
+- Take-home challenge practice
+- Mock interviews
+
+Homework:
+
+- Execute Program (and every week)
 
 ## Week 3
 
-### Mon 24th Jan
+### Monday
 
+- Project code review
 - Q&A
 - GitHub profiles
 - Take-home challenge
 
-Homework for Thu 3rd Feb:
+### Thursday
 
-- See slides
+- Project presentations
 
-### Thu 27th Jan
-
-- 17:00-17:15 Check-in/feedback form
-- 17:15-17:45 Live project code review
-- 17:45-18:30 Peer project code review
-- 18:30-20:00 Project presentations
-
-Homework for Mon 31st Jan:
+Homework:
 
 - Revision quiz
 - Side project
