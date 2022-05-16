@@ -34,7 +34,10 @@ Homework:
 
 - 17:00-17:15 Check-in
 - 17:15-18:00 Workshop discussion & solutions
-- 18:00-20:00 [Project](../project/) introduction
+- 18:00-19:45 [Project](../project/) introduction
+- 19:45-20:00 Check-out
+
+Homework:
 
 - [Project](../project/)
 
