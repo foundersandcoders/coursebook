@@ -34,4 +34,4 @@
 - [ ] Be able to upload to GitHub using the GitHub desktop app
 - [ ] Know how to deploy a site using GitHub pages
 - [ ] Understand what a repository is
-- [ ] Know the difference between local and remote repositoris
+- [ ] Know the difference between local and remote repositories
