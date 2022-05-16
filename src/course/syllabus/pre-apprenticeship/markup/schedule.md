@@ -11,6 +11,7 @@ This topic is focused on the fundamental building blocks of web pages—accessib
 
 Homework:
 
+- Get started on Execute Program
 - Finish Git workflow workshop
 - [CSS Layout workshop](/workshops/css-layout/) (3 hours)
 
@@ -39,30 +40,32 @@ Homework:
 
 ### Thursday
 
-- Screening questions
-- Projects
-- GitHub profiles
-- Take-home challenge practice
-- Mock interviews
+- Employment preparation
 
 Homework:
 
-- Execute Program (and every week)
+- CVs, LinkedIn and GitHub profiles
+- Continue with project
 
 ## Week 3
 
 ### Monday
 
 - Project code review
-- Q&A
-- GitHub profiles
-- Take-home challenge
-
-### Thursday
-
-- Project presentations
+- Employment preparation
 
 Homework:
 
 - Revision quiz
-- Side project
+- Screening questions
+- Finish project
+
+### Thursday
+
+- Project presentations
+- Employment preparation
+
+Homework:
+
+- Revision quiz
+- Complete take-home challenge
