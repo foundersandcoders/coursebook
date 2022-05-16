@@ -27,6 +27,7 @@ Programmer 1 creates a new GitHub repo and clones it.
 
 1. Create a new GitHub repo on Programmer 1's profile
 1. Go to "Settings > Collaborators" and add Programmer 2 so they can access the repo
+1. Programmer 2 should check their email and accept the invite to collaborate
 1. Clone this new repository using your terminal.
    ```shell
    git clone 'PASTE THE URL OF YOUR REPOSITORY HERE'
