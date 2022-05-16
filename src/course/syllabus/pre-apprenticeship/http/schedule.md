@@ -2,72 +2,71 @@ Learn how to manage asynchronous tasks and send HTTP requests using JavaScript.
 
 ## Week 1
 
-### Mon 31st Jan
+### Monday
 
 - 17:00-17:15 Check-in
 - 17:15-17:45 [Intro talk](https://fac-slides.netlify.app/slides/http/)
 - 17:45-19:45 [Asynchronous JS workshop](/workshops/functions-callbacks-async/)
-- 19:45-20:00 Asynchronous JS workshop discussion
+- 19:45-20:00 Check-out
 
-Homework for Mon 7th Jan:
+Homework:
 
+- Finish Asynchronous JS workshop
 - [Promises & fetch workshop](/workshops/learn-fetch/) (2 hours)
-- [DOM Challenge](/workshops/dom-challenge/) (1 hour)
+<!-- - [DOM Challenge](/workshops/dom-challenge/) (1 hour) -->
 
-### Thu 3rd Feb
+### Thursday
 
-- Q&A
-- Mock interviews
-- Take-home challenge
+- 17:00-17:15 Check-in
+- 17:15-18:00 Workshop discussion & solutions
+- 18:00-19:45 [Real-world fetch workshop](/workshops/real-world-fetch)
+- 19:45-20:00 Check-out
 
-Homework for Thu 10th Feb:
+Homework:
 
-- Screening questions and coding challenge
+- Finish Real-world fetch workshop
+- [Promise practice workshop](/workshops/promise-practice/) (2 hours)
 
 ## Week 2
 
-### Mon 7th Feb
+### Monday
 
-- 17:00-17:15 Check-in/feedback form
-- 17:15-17:30 Promises & fetch workshop discussion
-- 17:30-19:30 [Real-world fetch workshop](/workshops/real-world-fetch)
-- 19:30-20:00 Real-world fetch workshop discussion
+- 17:00-17:15 Check-in
+- 17:15-18:00 Workshop discussion & solutions
+- 18:00-19:45 [Project](../project/) introduction
+- 19:45-20:00 Check-out
 
-Homework for Thu 10th Feb:
-
-- [Promise practice workshop](/workshops/promise-practice/) (2 hours)
-
-### Thu 10th Feb
-
-- Q&A
-- Mock interviews
-- Take-home challenge
-
-Homework for Thu 17th Feb:
+Homework:
 
 - [Project](../project/)
 
-## Week 3
-
-### Mon 14th Feb
+### Thursday
 
 - Q&A
-- Mock interviews
-- Take-home challenge
+- Employment preparation
 
-Homework for Thu 17th Feb:
+Homework:
 
 - Screening questions and coding challenge
 
-### Thu 17th Feb
+## Week 3
 
-- 17:00-17:15 Check-in/feedback form
-- 17:15-17:45 Presentation/code review prep
-- 17:45-18:30 Peer project code review
-- 18:30-19:00 Live project code review
-- 19:00-20:00 Project presentations
+### Monday
 
-Homework for Mon 21st Feb:
+- Project code review
+- Employment preparation
+
+Homework:
+
+- Screening questions and coding challenge
+
+### Thursday
+
+- Q&A
+- Project presentations
+- Employment preparation
+
+Homework:
 
 - Revision quiz
-- Side project
+- Complete take-home challenge
