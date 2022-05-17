@@ -35,9 +35,9 @@ schedule:
       type: presentation
     - name: Tech for Better
       start: 14:00
-      end: 15:00
+      end: 15:30
     - name: Wireframing
-      start: 15:00
+      start: 15:30
       end: 17:30
       type: project
     - name: Usability testing introduction

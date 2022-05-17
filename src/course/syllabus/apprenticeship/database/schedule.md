@@ -24,21 +24,16 @@ schedule:
       type: workshop
     - name: TFB - Product pitches
       start: 14:00
-      end: 15:00
+      end: 15:30
+    - name: Issue management
+      start: 15:30
+      end: 15:45
+      url: https://fac-slides.netlify.app/slides/estimation
     - name: Error-handling
-      start: 15:00
-      end: 17:00
+      start: 15:45
+      end: 17:45
       url: /workshops/node-error-handling
       type: workshop
-    - name: Issue management
-      start: 17:00
-      end: 17:15
-      url: https://fac-slides.netlify.app/slides/estimation
-    - name: Project setup
-      start: 17:15
-      end: 17:45
-      url: ../project
-      type: project
   wednesday:
     - name: Heroku SQL challenge
       start: 10:00

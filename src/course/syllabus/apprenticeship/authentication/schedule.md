@@ -24,10 +24,10 @@ schedule:
       type: workshop
     - name: TFB - Product Pitches
       start: 14:00
-      end: 15:00
+      end: 15:30
     - name: Client-side validation
-      start: 15:00
-      end: 17:00
+      start: 15:30
+      end: 17:45
       url: /workshops/form-validation/
       type: workshop
   wednesday:
@@ -36,11 +36,6 @@ schedule:
       end: 11:00
       url: /workshops/creating-promises/
       type: challenge
-    - name: Ceremonies & pair programming
-      start: 11:00
-      end: 11:15
-      url: https://hackmd.io/@fac/ryDzAOabv
-      type: talk
     - name: Project
       start: 11:00
       end: 13:00
