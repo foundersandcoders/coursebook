@@ -19,8 +19,8 @@
 
 - [ ] Be able to use `querySelector` to assign an HTML element to a variable
 - [ ] Be able to create an HTML element in JavaScript
-- [ ] Be able to append a new element to an existing HTML element
 - [ ] Be able to append a JavaScript date to an element existing in JavaScript
+- [ ] Be able to append a new element to an existing HTML element
 
 ## Asking for help
 
