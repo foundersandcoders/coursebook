@@ -34,10 +34,10 @@ schedule:
       type: workshop
     - name: TFB - Discovery
       start: 14:00
-      end: 15:00
+      end: 15:30
     - name: React fetching data
-      start: 15:00
-      end: 17:00
+      start: 15:30
+      end: 17:45
       url: /workshops/react-fetch
       type: workshop
   wednesday:

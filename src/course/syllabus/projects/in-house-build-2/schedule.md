@@ -17,9 +17,9 @@ schedule:
       type: project
     - name: Tech for Better
       start: 14:00
-      end: 15:00
+      end: 15:30
     - name: Build
-      start: 15:00
+      start: 15:30
       end: 17:45
       type: project
   wednesday:
