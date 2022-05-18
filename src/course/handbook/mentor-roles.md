@@ -12,8 +12,6 @@ The types of mentors you'll meet are:
 - Pastoral care mentors
 - Project mentors
 - Role mentors
-- Employment mentors
-- Coaches
 
 ## Week mentors
 
@@ -40,13 +38,3 @@ These mentors will support you throughout your final project(s). They will suppo
 These mentors will have completed the course, it may have been recently or may have been a longer time ago.
 
 These mentors will be working and may not always be available, reach out early and be clear about when you may need their help.
-
-## Employment mentors
-
-These mentors will give you support in your career journey. They have been on this journey themselves and we'll try out best to pair you with someone who works in a similar role to what you may like to pursue.
-
-Employment mentors will give you advice on tailoring your CV, interviewing and the steps towards getting a job as a developer. 
-
-## Coaches
-
-Coaches support you through the prerequisites. They are there to facilitate conversation and study between you and your fellow coachees. They will help you with learning to code and give advice on best practices for learning and starting your journey as a developer.
