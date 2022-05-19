@@ -10,7 +10,7 @@ keywords:
   - middleware
 ---
 
-Learn how to write your own Express middleware to do logging, authentication and error-handling.
+Learn how to write your own Express middleware to do logging and authentication.
 
 ## Middleware
 
@@ -183,7 +183,7 @@ server.get("/profile/settings", checkAuth, (req, res) => {
 
 {% enddisclosure %}
 
----
+<!--
 
 ## Error-handling
 
@@ -337,4 +337,4 @@ function handleErrors(error, req, res, next) {
 server.use(handleErrors);
 ```
 
-{% enddisclosure %}
+{% enddisclosure %} -->
