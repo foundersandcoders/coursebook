@@ -10,7 +10,7 @@ keywords:
   - middleware
 ---
 
-Learn how to write your own Express middleware to do logging, authentication and error-handling.
+Learn how to write your own Express middleware to do logging and authentication.
 
 ## Middleware
 
@@ -59,7 +59,7 @@ This tells Express to run the logger handler before every request, then move on 
 
 {% box %}
 
-**Note:** we are just storing all the session info about the user in an object in-memory. In a real app you'd want this top live in a persistent store like a database.
+**Note:** we are just storing all the session info about the user in an object in-memory. In a real app you'd want this to live in a persistent store like a database.
 
 {% endbox %}
 
@@ -183,7 +183,7 @@ server.get("/profile/settings", checkAuth, (req, res) => {
 
 {% enddisclosure %}
 
----
+<!--
 
 ## Error-handling
 
@@ -337,4 +337,4 @@ function handleErrors(error, req, res, next) {
 server.use(handleErrors);
 ```
 
-{% enddisclosure %}
+{% enddisclosure %} -->
