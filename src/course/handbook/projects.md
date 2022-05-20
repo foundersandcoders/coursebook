@@ -8,6 +8,16 @@ Project teams for each week are posted in your cohort repo, under the pairs-and-
 
 Remember to read each other's user manuals when you start working with a new team!
 
+{% box "error" %}
+
+**Please do not work on your projects outside of course time**
+
+This puts extra stress on everyone else. Remember that you are not expected to have a finished, polished project. It's about the learning journey, not the final outcome.
+
+If you have the spare time and energy to code outside the course, focus on reviewing workshops or building side projects.
+
+{% endbox %}
+
 ### Project Setup
 
 Utilize your project setup time to do the following:
