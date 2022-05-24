@@ -37,4 +37,6 @@
 - [ ] Know how to deploy a site using GitHub pages (without a theme)
 - [ ] Understand what a repository is
 - [ ] Know the difference between local and remote repositories
+- [ ] Know the difference between stage and committing
 - [ ] Be able to stage and commit changes using VS Code
+- [ ] Be able to synchronise a local and remote respository
