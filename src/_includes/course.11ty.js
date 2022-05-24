@@ -38,7 +38,7 @@ exports.render = ({ page: { url }, content }) => {
         </${Section}>
         <${Section} title="Application" url=${url} subpath="course/syllabus/application">
           <li><${Link} url=${url} href="/course/syllabus/application/tribute-page/learning-outcomes">Tribute Page</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/application/two/learning-outcomes">Two</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/application/project-gallery/learning-outcomes">Project gallery</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/application/three/learning-outcomes">Three</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/application/four/learning-outcomes">Four</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/application/five/learning-outcomes">Five</${Link}></li>
