@@ -1,5 +1,6 @@
 # Resources
 
+- Semantic HTML
 - Flexbox froggy
 - csstricks guide to flexbox
 - netninja flexbox videos
@@ -10,3 +11,4 @@
 - addEventListener
 - click event
 - writing meaningful commit messages link (imperative)
+- READMEs
