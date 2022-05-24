@@ -1,6 +1,20 @@
-# Git and GitHub
+---
+title: Git introduction
+description: This workshop is an introduction to using Git for version control; GitHub for hosting a codebase and deploying a website; and the terminal for creating files and moving between directories.
+tags:
+  - workshop
+  - git
+keywords:
+  - git
+  - introduction
+starter: false
+---
 
 This workshop will help you practise **Git flow**. Follow these steps to connect a local repository to a remote one on GitHub. Before following these steps, you'll need to [install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+
+This workshop is an advancement on concepts covered in [our Git introduction](../applicant-git-1/). Completing that workshop is not a requirement to understand this one, however you might prefer to focus on the fundamentals there before diving into this workshop.
+
+This workshop assumes you have a working knowledge of [using the terminal](../terminal-intro/).
 
 ## Local repository
 

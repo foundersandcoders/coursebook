@@ -1,3 +1,15 @@
+---
+title: Git introduction
+description: This workshop is an introduction to using Git for version control; GitHub for hosting a codebase and deploying a website; and VS Code for writing and editing code, as well as version control.
+tags:
+  - workshop
+  - git
+keywords:
+  - git
+  - introduction
+starter: false
+---
+
 ## Git
 
 Git is a a language for controlling versions of a project. Git allows you to track changes you make on files across time.
