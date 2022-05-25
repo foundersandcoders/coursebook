@@ -4,11 +4,10 @@
 
 ### Objects
 
-- [ ] Be able to create a complex object to keep track of multiple values
+- [ ] Be able to use objects to keep track of values
 - [ ] Know how to access values from within objects
-- [ ] Understand how to add and remove properties from objects
 - [ ] Know how to convert an object's keys to an array and iterate over them
-- [ ] Be able to write reusable functions to perform repeatable tasks on an object (eg: incrementing and decrementing a number value)
+- [ ] Understand the value of writing reusable functions for repetitive tasks
 
 ### Data types
 
@@ -25,13 +24,13 @@
 ## DOM
 
 - [ ] Be able to create and update elements on the page that depend on an object for content
-- [ ] Be able to re-use an event listener callback function for different buttons (eg adding to cart)
+- [ ] Be able to re-use an event listener callback function for different buttons
 
 ## Terminal/Command Line
 
 - [ ] Know how to use the terminal to navigate through a file system
-- [ ] Know how to create a directory or create a file
 - [ ] Know how to list the contents of a directory
+- [ ] Know how to create a directory or file
 
 ## Git & GitHub
 
