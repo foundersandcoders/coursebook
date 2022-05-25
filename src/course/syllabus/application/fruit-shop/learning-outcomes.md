@@ -36,4 +36,3 @@
 
 - [ ] Be able to initialise a git repository from the terminal
 - [ ] Be able to use git commands to stage, commit and push from the terminal
-- [ ] Know how to use branches to work on different features of your project
