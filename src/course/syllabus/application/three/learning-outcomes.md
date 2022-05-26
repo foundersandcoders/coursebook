@@ -12,7 +12,7 @@
 - [ ] Be able to use relevant styles to give the user feedback based on their inputs
 - [ ] Understand how to lay out a form to give a clear user experience
 
-## **DOM**
+## DOM
 
 - [ ] Be able to retrieve HTML elements by tag, class, or id
 - [ ] Be able to run a function when a user submits a form

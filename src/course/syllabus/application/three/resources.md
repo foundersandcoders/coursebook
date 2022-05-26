@@ -1,8 +1,8 @@
 # Resources
 
 - Html forms
-- e.preventDefault
+- preventDefault()
 - how to show an error message
 - form accessibility
-- how to read error messages blog post
+- how to read error messages on the console
 - js methods
