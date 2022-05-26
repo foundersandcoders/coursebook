@@ -1,22 +1,8 @@
 ## Planning
 
-- [ ] Be confident in planning layout, styling, and featurs of a a website
+- [ ] Be confident in planning layout, styling, and features of a a website
 - [ ] Be able to plan a workflow for building a website
 - [ ] Be able to break a website into distinct sections to build
-
-## HTML
-
-- [ ] Be confident in using HTML tags to build a website
-- [ ] Use semantic HTML tags on a website
-
-## CSS
-
-- [ ] Be confident in applying styles using CSS
-- [ ] Be able to organise a stylesheet
-- [ ] Be confident in sizing elements in CSS
-- [ ] Be able to use CSS to achieve a consistent design across a site
-- [ ] Be able to use media queries to build a responsive website
-- [ ] Understand and be able to implement the CSS Box Model on a website
 
 ## JavaScript
 
@@ -46,10 +32,10 @@
 
 ## Git
 
+- [ ] Be able to use Git for source control, in the terminal
 - [ ] Be able to stage files using `git add`
 - [ ] Be confident in writing commit messages and creating a readable commit history
 - [ ] Be confident in using `git push` to synchronise with a remote repository
-- [ ] Be able to use Git for source control, in the terminal
 
 ## GitHub
 
