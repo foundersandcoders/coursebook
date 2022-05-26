@@ -3,16 +3,8 @@
 - [ ] Be able to break a feature into smaller parts
 - [ ] Be confident in writing pseudocode for each part of a feature
 - [ ] Be able to design an intuitive user interface
-
-## HTML
-
-- [ ] Be aware of different elements for accepting user input
-- [ ] Be able to structure an HTML page using semantic elements
-
-## CSS
-
-- [ ] Be able to structure a CSS stylesheet
-- [ ] Be aware of CSS technologies to provide page layouts
+- [ ] Be confident in researching JavaScript features
+- [ ] Have confidence in implementing JavaScript features
 
 ## DOM
 

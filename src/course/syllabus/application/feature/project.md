@@ -30,9 +30,9 @@ A user can click a button to see a race between multiple tortoises from one side
 
 ### An image carousel
 
-A slideshow of images automatically plays on the page. The user can pause the carousel and click buttons to see the next or previous image in the cycle. The carousel might include a set of dots under the shown image which show which image in the sequence is visible, or can be clicked to navigate to a certain image.
+A slideshow of images automatically plays on the page. The user can pause the carousel and click buttons to see the next or previous image in the cycle. Include a set of dots under the carousel indicating which image in the sequence is visible, and can be clicked to navigate to a certain image.
 
-### A fortunte teller
+### A fortune teller
 
 The user can ask a question and receive a response from the _fortune teller_. After a certain amount of idle time, an animation is played, or a message pops up to notify the user the teller is available for fortunes. There are a fixed number of responses, that are randomised whenever the teller is used and give a variety of outputs.
 
