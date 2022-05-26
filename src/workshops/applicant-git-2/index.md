@@ -35,7 +35,7 @@ git add .
 
 Commiting is like saving your progress or taking a snapshot of the current codebase. You are telling Git that all the changes made should be tracked. The repository will be saved at the point in time you commit.
 
-Running the command without the `-m` flag will open up an editor in your terminal where you can write a commit message. Exit this by hitting `esc` and typing `:wq`.
+Running the command without the `-m` flag will open up an editor in your terminal where you can write a commit message. Exit this by hitting `esc` and typing `:wq`. You can [update your default editor](https://oliverjam.es/blog/make-your-terminal-nicer/#set-your-default-editor) to avoid this.
 
 ```
 git commit
@@ -79,4 +79,4 @@ After you've saved your changes, stage them using `git add`.
 
 Commit your staged files using `git commit -m "What you did..."`.
 
-Push your changes to your repository using `git push origin main`. You can batch multiple commits and push them all together.
+Push your changes to your repository using `git push -u origin main`. The `-u` flag here will set the default remote branch so when you make your next push, you'll only need to type `git push`. You can batch multiple commits and push them all together.

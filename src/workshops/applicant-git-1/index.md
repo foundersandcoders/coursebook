@@ -30,9 +30,9 @@ We'll describe repositories in terms of local and remote versions.
 
 A _local_ repository is a folder on your computer which you save files to. A _remote_ repository is a folder online which your files can be duplicated to.
 
-## Git Flow
+## Worflow
 
-_Git flow_ refers to the process of synchronising code between a local and remote repository.
+When working with Git, you'll need to establish a worflow for synchronising code between a local and remote repository.
 
 For example, if I change files on my computer, I'd like to then update the live version of a website by pushing my files to the remote repository. Or, if I'd like to download a project and create my own version, I might clone a remote repository to my local machine.
 
@@ -84,4 +84,4 @@ And that's all! You'll now have published the files to GitHub. If you visit your
 
 From here, you can continue to stage, commit and push your changes.
 
-There's no hard and fast rule for how often you should commit. This might be after every 20 lines of code; every 30 or 60 minutes; or after each feature you complete. Getting into the habit of making small commits often will give you a good level of practice with _Git flow_ as well as GitHub activity on your profile (green squares). Regularly pushing your changes will ensure your codebase is backed up and version-controlled.
+You should commit once you have completed a change or feature, not after writing certain amount of code, and don't wait until a project is complete. Getting into the habit of making small commits often will give you a good level of practice with Git. Regularly pushing your changes will ensure your codebase is backed up and version-controlled. Additonally, you'll have GitHub activity on your profile (green squares).
