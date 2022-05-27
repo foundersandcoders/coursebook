@@ -1,44 +1,44 @@
 ## Planning
 
-- [ ] Be confident in planning layout, styling, and features of a a website
-- [ ] Be able to plan a workflow for building a website
-- [ ] Be able to break a website into distinct sections to build
+- [ ] Plan layout, styling, and features of a website
+- [ ] Plan a workflow for building a website
+- [ ] Break a website into distinct sections to build
 
 ## JavaScript
 
-- [ ] Be confident in using arrays and array methods
-- [ ] Be able to use objects to store data and be able to retreive data from them
-- [ ] Be able to convert between different data types (e.g. string -> array, object -> array)
-- [ ] Be confident in using for loops
-- [ ] Be confident in using if, else, and else if statements
-- [ ] Be confident in declaring and calling functions
+- [ ] Use arrays and array methods
+- [ ] Use objects to store data and retreive data from them
+- [ ] Convert between different data types (e.g. string -> array, object -> array)
+- [ ] Use for loops
+- [ ] Use if, else, and else if statements
+- [ ] Declare and call functions
 - [ ] Be aware of ES6 syntax for writing functions
 
 ## DOM
 
-- [ ] Be able to update a user interface upon user input
-- [ ] Be able to respond to click events
-- [ ] Be able to respond to key presses
-- [ ] Be able to get elements by tag, class or id
-- [ ] Be confident in using `querySelector` and `querySelectorAll`
-- [ ] Be able to reference a function within an event listener
+- [ ] Update a user interface upon user input
+- [ ] Respond to click events
+- [ ] Respond to key presses
+- [ ] Get elements by tag, class or id
+- [ ] Use `querySelector()` and `querySelectorAll()`
+- [ ] Reference a function within an event listener
 
 ## Debugging
 
-- [ ] Be confident using an error message to approach a solution
-- [ ] Be able to identify line numbers in an error message
-- [ ] Be able to use Google to find answers to development problems
-- [ ] Be confident in asking for help on Discord
+- [ ] Use an error message to approach a solution
+- [ ] Identify line numbers in an error message
+- [ ] Use Google to find answers to development problems
+- [ ] Ask for help on Discord
 
 ## Git
 
-- [ ] Be able to use Git for source control, in the terminal
-- [ ] Be able to stage files using `git add`
-- [ ] Be confident in writing commit messages and creating a readable commit history
-- [ ] Be confident in using `git push` to synchronise with a remote repository
+- [ ] Use Git for source control, in the terminal
+- [ ] Stage files
+- [ ] Write commit messages and create a readable commit history
+- [ ] Use `git push` to synchronise with a remote repository
 
 ## GitHub
 
-- [ ] Be confident in using GitHub repositories to organise projects
-- [ ] Be able to deploy a site to GitHub pages
+- [ ] Use GitHub repositories to publish projects
+- [ ] Deploy sites to GitHub pages
 - [ ] Use clear naming conventions for GitHub repositories

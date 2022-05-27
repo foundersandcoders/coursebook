@@ -1,30 +1,27 @@
-# Learning Outcomes
+## Data types
 
-## JavaScript
+- [ ] Check what type a value is in your code
+- [ ] Convert from one type to another (e.g. object → array)
+- [ ] Understand roughly what methods are available for strings, arrays and objects
 
-### Objects
+## Objects
 
-- [ ] Be able to use objects to keep track of values
+- [ ] Use objects to keep track of values
 - [ ] Know how to access values from within objects
 - [ ] Know how to convert an object's keys to an array and iterate over them
-- [ ] Understand the value of writing reusable functions for repetitive tasks
-
-### Data types
-
-- [ ] Be able to check what type a value is in your code
-- [ ] Be able to convert from one type to another. E.g. array → string, number → string, object → array
-- [ ] Understand roughly what methods are available for each type (and where they differ)
 
 ## Code Quality
 
 - [ ] Understand the need for refactoring
-- [ ] Be able to separate reusable code into functions
-- [ ] Be able to leave meaningful comments about your javascript code
+- [ ] Understand the value of writing reusable functions for repetitive tasks
+- [ ] Separate repeated code into functions
+- [ ] Leave meaningful comments in your javascript code
 
 ## DOM
 
-- [ ] Be able to create and update elements on the page that depend on an object for content
-- [ ] Be able to re-use an event listener callback function for different buttons
+- [ ] Create and update elements on the page based on their values in a JavaScript object
+- [ ] Use a loop to assign the same event listener to multiple elements
+- [ ] Accept arguments to a function which help generalise the function's purpose
 
 ## Terminal/Command Line
 
@@ -34,5 +31,5 @@
 
 ## Git & GitHub
 
-- [ ] Be able to initialise a git repository from the terminal
-- [ ] Be able to use git commands to stage, commit and push from the terminal
+- [ ] Initialise a git repository from the terminal
+- [ ] Use git commands to stage, commit and push from the terminal
