@@ -1,28 +1,21 @@
 {
-  "name": "session-auth",
-  "version": "1.0.0",
-  "description": "",
-  "private": true,
   "scripts": {
-    "dev": "nodemon workshop/server.js",
+    "dev": "nodemon -r dotenv/config workshop/server.js",
     "start": "node workshop/server.js",
-    "test:one": "node tests/one.js | tap-spec",
-    "test:two": "node tests/two.js | tap-spec",
-    "test:three": "node tests/three.js | tap-spec"
+    "test:one": "node -r dotenv/config tests/one.js | tap-arc",
+    "test:two": "node -r dotenv/config tests/two.js | tap-arc",
+    "test:three": "node -r dotenv/config tests/three.js | tap-arc"
   },
-  "keywords": [],
-  "author": "Oliver Phillips <hello@oliverjam.es> (https://oliverjam.es/)",
-  "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "cookie-parser": "^1.4.5",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "pg": "^8.6.0"
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "pg": "^8.7.3"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7",
-    "tap-spec": "^5.0.0",
-    "tape": "^5.2.2"
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.16",
+    "tap-arc": "^0.3.4",
+    "tape": "^5.5.3"
   }
 }
