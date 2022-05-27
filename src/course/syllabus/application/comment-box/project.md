@@ -1,4 +1,4 @@
-## Comment box UI
+## Comment Box User Interface
 
 Your project this week is to build a "leave a comment" feature as seen on popular social media or news sites.
 
