@@ -12,7 +12,7 @@
 - [ ] Use for loops
 - [ ] Use if, else, and else if statements
 - [ ] Declare and call functions
-- [ ] Be aware of ES6 syntax for writing functions
+- [ ] Write functions using traditional and arrow syntax
 
 ## DOM
 

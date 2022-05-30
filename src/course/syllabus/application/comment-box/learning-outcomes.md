@@ -30,6 +30,6 @@
 ## Finding help
 
 - [ ] Know a few good resources to look at when you're stuck
-- [ ] use `console.log()` to inspect what JavaScript is doing and identify errors
+- [ ] Use `console.log()` to inspect what JavaScript is doing and identify errors
 - [ ] Understand how to interpret error messages and use line numbers to debug code
 - [ ] Break a problem down into pseudocode and implement it step by step

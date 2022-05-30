@@ -1,5 +1,7 @@
 Your project this week is to build gallery which displays the projects you've been working on. You might include this in your [application website](../../website/project) to showcase what you've learnt and created while completing our requirements.
 
+Like your last project, please push your changes to GitHub and host your site live using GitHub Pages.
+
 ## Requirements
 
 - [ ] Have a section or card for each project

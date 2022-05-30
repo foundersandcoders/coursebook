@@ -3,6 +3,7 @@
 - [Setting up a web page](https://oliverjam.es/blog/complete-guide-to-making-web-pages/)
 - [freeCodeCamp: Responsive web design](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
   > Note: sections of freeCodeCamp's curriculum used to be a part of our application requirements. The curriculum doesn't cover JavaScript and they estimate it as 300 hours of work in total. Although completing it is not required, it will give you a fantastic foundation in building websites.
+- [MDN: Getting started with the web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)
 
 ## HTML
 
