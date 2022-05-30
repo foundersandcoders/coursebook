@@ -38,10 +38,11 @@ The Tech for Better Product Owners will conduct their own user research, but you
 
   [Tech for Better Project Schedule](../course/syllabus/projects/tfb-design/schedule/)
 
-- You will need at least **four** volunteers **per person** to participate.
-- User research (2 people)
-- Usability testing (2 people)
+You will need **2-3** volunteers **per person** to participate:
+- User research (2 volunteers each, 8 per team)
+- Usability testing (1-2 volunteers each, 6 per team)
+
 - Each research session will last 2 hours whereby each interview will take around **20-30 minutes** to conduct.
-- They will be **1-1 interviews** over zoom, or face to face wherever possible.
+- They will be **2-1 interviews** over zoom (2 developers interview one participant) , or face to face wherever possible.
 - You will conduct the research in **pairs**, where one person will be taking the **lead** and asking questions, whereas the other person will be taking **notes** on the volunteers answers.
 - Please swap roles between interviews so that everyone gets a chance to ask questions.
