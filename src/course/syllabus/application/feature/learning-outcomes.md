@@ -28,3 +28,9 @@
 - [ ] Identify issues and research solutions
 - [ ] Ask questions on Discord, giving context to others who might like to help you
 - [ ] Use `console.log()` to inspect values of variables, arguments and the outputs of functions when debugging
+
+## Documentation
+
+- [ ] Understand the purpose of a `README.md`
+- [ ] Include a `README.md` in a project
+- [ ] Write a Markdown document

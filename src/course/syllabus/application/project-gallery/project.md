@@ -1,16 +1,12 @@
-# Project Gallery
-
-Your project this week is to build a responsive project gallery using flexbox!
-You may want to use this gallery later on in your [application website](../../website/project) to showcase all the work you've done so far!
+Your project this week is to build gallery which displays the projects you've been working on. You might include this in your [application website](../../website/project) to showcase what you've learnt and created while completing our requirements.
 
 ## Requirements
 
-The project gallery should:
-
-- [ ] Contain reusable project cards
+- [ ] Have a section or card for each project
 - [ ] Each card should have a title, an image of your project, and a description
 - [ ] Use Flexbox to arrange the cards on the page
-- [ ] Resize appropriately based on screen width
+- [ ] Resize cards based on screen width
+- [ ] Adapt the layout of the gallery when the browser window resizes
 - [ ] Display the cards in a single column on mobile devices
-- [ ] Have a "Read More" button on each card that opens and closes the description text
+- [ ] Have a button on each card that opens and closes the description text
   > Use your knowledge of JS functions, loops and DOM manipulation to implement this feature

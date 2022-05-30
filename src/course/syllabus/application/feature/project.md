@@ -8,7 +8,7 @@ Break your feature down into it's constituent parts, don't try to code it all as
 
 ## Building
 
-Focus on building one part at a time, and test it as you go. You'll likely use `console.log()` often as you work through the project to check what is happening in your code. You might use tutorials for different parts, if you are - we recommend trying to write all the code yourself and refactoring it until it makes sense to you.
+Focus on building one part at a time, and test it as you go. You might use tutorials for different parts, if you are - we recommend trying to write all the code yourself and refactoring it until it makes sense to you.
 
 If you're offered an interview with Founders and Coders, we'll usually ask you to talk through some of your code. Being able to explain what the code does in conversational English is an important skill for any developer.
 
@@ -20,7 +20,13 @@ You will face errors, challenges and bugs as you build a feature. This all part 
 
 [Rubber Ducking](https://en.wikipedia.org/wiki/Rubber_duck_debugging) is explaining code aloud to debug and gain a fuller understanding of what is happening.
 
+You'll likely use `console.log()` often as you work through the project to check what is happening in your code.
+
 Using Google, resources, articles, and asking for help on Discord will all help you when you're in a pickle. Even taking a walk around the block, or sleeping on something can be all you need to resolve a tricky bug.
+
+## Documenting
+
+We'd like to hear about what you created, and how you created it. For this project, you're required to include a `README.md` file. These are written in [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) and give an overview of the project. You might like to include sections which follow the three headings above: planning; building; and debugging.
 
 ## Examples
 
