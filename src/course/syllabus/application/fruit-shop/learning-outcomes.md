@@ -10,18 +10,18 @@
 - [ ] Know how to access values from within objects
 - [ ] Know how to convert an object's keys to an array and iterate over them
 
+## DOM
+
+- [ ] Create and update elements on the page based on their values in a JavaScript object
+- [ ] Use a loop to assign the same event listener to multiple elements
+- [ ] Accept arguments to a function which help generalise the function's purpose
+
 ## Code Quality
 
 - [ ] Understand the need for refactoring
 - [ ] Understand the value of writing reusable functions for repetitive tasks
 - [ ] Separate repeated code into functions
 - [ ] Leave meaningful comments in your javascript code
-
-## DOM
-
-- [ ] Create and update elements on the page based on their values in a JavaScript object
-- [ ] Use a loop to assign the same event listener to multiple elements
-- [ ] Accept arguments to a function which help generalise the function's purpose
 
 ## Terminal/Command Line
 

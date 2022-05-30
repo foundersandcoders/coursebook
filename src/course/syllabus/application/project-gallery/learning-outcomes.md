@@ -13,7 +13,7 @@
 - [ ] Apply styles to elements, classes and id’s
 - [ ] Use media queries and responsive units in CSS to make the content adapt to different screen sizes
 
-## JS
+## JavaScript
 
 - [ ] Understand what a Javascript function is, and how to write one
 - [ ] Reuse a function to perform repeated tasks in your code
