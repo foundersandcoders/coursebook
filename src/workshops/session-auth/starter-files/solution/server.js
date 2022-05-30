@@ -1,7 +1,5 @@
 const express = require("express");
 const cookieParser = require("cookie-parser");
-const dotenv = require("dotenv");
-dotenv.config();
 
 const home = require("./routes/home.js");
 const logIn = require("./routes/logIn.js");
