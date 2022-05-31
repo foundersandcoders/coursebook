@@ -12,7 +12,7 @@
 
 ## DOM
 
-- [ ] Create and update elements on the page based on their values in a JavaScript object
+- [ ] Create and update elements on the page based on values in a JavaScript object
 - [ ] Use a loop to assign the same event listener to multiple elements
 - [ ] Accept arguments to a function which help generalise the function's purpose
 
@@ -21,7 +21,7 @@
 - [ ] Understand the need for refactoring
 - [ ] Understand the value of writing reusable functions for repetitive tasks
 - [ ] Separate repeated code into functions
-- [ ] Leave meaningful comments in your javascript code
+- [ ] Leave meaningful comments in your JavaScript code
 
 ## Terminal/Command Line
 
@@ -31,5 +31,5 @@
 
 ## Git & GitHub
 
-- [ ] Initialise a git repository from the terminal
-- [ ] Use git commands to stage, commit and push from the terminal
+- [ ] Initialise a Git repository from the terminal
+- [ ] Use Git commands to stage, commit and push from the terminal

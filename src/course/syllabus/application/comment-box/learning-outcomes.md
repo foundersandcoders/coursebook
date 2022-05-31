@@ -10,7 +10,7 @@
 
 ## DOM
 
-- [ ] Retrieve HTML elements by tag, class, or id
+- [ ] Retrieve HTML elements by tag, class, or ID
 - [ ] Run a function when a user submits a form
 - [ ] Access the value of an HTML element
 - [ ] Access properties of HTML elements

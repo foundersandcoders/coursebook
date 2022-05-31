@@ -10,12 +10,12 @@
 
 - [ ] Understand how to structure a stylesheet
 - [ ] Use CSS Flexbox to build a dynamic layout
-- [ ] Apply styles to elements, classes and id’s
+- [ ] Apply styles to elements, classes and IDs
 - [ ] Use media queries and responsive units in CSS to make the content adapt to different screen sizes
 
 ## JavaScript
 
-- [ ] Understand what a Javascript function is, and how to write one
+- [ ] Understand what a JavaScript function is, and how to write one
 - [ ] Reuse a function to perform repeated tasks in your code
 - [ ] Assign values to variables
 - [ ] Reassign a value to an already declared variable
@@ -25,8 +25,8 @@
 ## DOM
 
 - [ ] Select elements from the DOM and store them in variables
-- [ ] Select elements based on tag name, classes, or id's
-- [ ] Edit styles using Javascript
+- [ ] Select elements based on tag name, classes, or IDs
+- [ ] Edit styles using JavaScript
 - [ ] Add and remove classes from an element
 - [ ] Understand events, and how to add event listeners
 - [ ] Run a function when the user clicks a button

@@ -4,7 +4,7 @@
 - [ ] Write pseudocode for each part of a feature
 - [ ] Design an intuitive user interface
 - [ ] Research JavaScript features
-- [ ] Implementing JavaScript features
+- [ ] Implement JavaScript features
 
 ## DOM
 

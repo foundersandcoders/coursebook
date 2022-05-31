@@ -32,7 +32,7 @@ A _local_ repository is a folder on your computer which you save files to. A _re
 
 ## Workflow
 
-When working with Git, you'll need to establish a worflow for synchronising code between a local and remote repository.
+When working with Git, you'll need to establish a workflow for synchronising code between a local and remote repository.
 
 For example, if I change files on my computer, I'd like to then update the live version of a website by pushing my files to the remote repository. Or, if I'd like to download a project and create my own version, I might clone a remote repository to my local machine.
 
@@ -46,43 +46,28 @@ Finally, you'll _push_ your local changes to the remote repository.
 
 ## VS Code
 
-A programme you can download which lets you write and edit code on your computer. VS Code is one of the most popular text editors and offers a number of extensions which can be helpful to you as a developer.
+A program you can download which lets you write and edit code on your computer. VS Code is one of the most popular text editors and offers a number of extensions which can be helpful to you as a developer.
 
 ### VS Code's source control tab
 
 The _source control tab_ in VS Code allows you to use Git within your text editor. It's offers the ability to stage, commit and push changes between your local machine and a remote repository.
 
 1. Make a new folder on your computer
-
-![A new folder on my computer](./images/git-1.jpg)
-
+   ![A new folder on my computer](./images/git-1.jpg)
 1. Open this in VS Code
-
-![VS Code menu showing file selector](./images/git-2.jpg)
-
+   ![VS Code menu showing file selector](./images/git-2.jpg)
 1. Navigate to the source control tab and click 'Initialise repository'
-
-![VS Code open on the source control tab](./images/git-3.jpg)
-
+   ![VS Code open on the source control tab](./images/git-3.jpg)
 1. Make your changes - here we've created files for HTML, CSS and JavaScript and linked them all together. Back on the source control tab, you can view which files have unstaged changes.
-
-![VS code open showing the source control tab](./images/git-4.jpg)
-
+   ![VS code open showing the source control tab](./images/git-4.jpg)
 1. Click the add button to stage your files, this will move them to 'Staged Changes'
-
-![VS Code shows the files changed under 'staged changes'](./images/git-5.jpg)
-
+   ![VS Code shows the files changed under 'staged changes'](./images/git-5.jpg)
 1. Click the commit button (represented with a tick) to commit those files to your Git history
-
-![Writing a commit message](./images/git-6.jpg)
-
+   ![Writing a commit message](./images/git-6.jpg)
 1. VS Code will prompt you to publish the branch once you've staged all changes. The first time you click this, you'll need to connect to your GitHub account.
-
-![The side panel on VS code now shows a button with the text 'publish branch'](./images/git-7.jpg)
-
+   ![The side panel on VS code now shows a button with the text 'publish branch'](./images/git-7.jpg)
 1. Finally, publish to a new repository
-
-![VS Code offers the user to publish to a private or public repository on GitHub](./images/git-8.jpg)
+   ![VS Code offers the user to publish to a private or public repository on GitHub](./images/git-8.jpg)
 
 And that's all! You'll now have published the files to GitHub. If you visit your profile on [GitHub](https://www.github.com) you should now see your repository.
 
