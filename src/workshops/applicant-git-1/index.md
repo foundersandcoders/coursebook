@@ -30,7 +30,7 @@ We'll describe repositories in terms of local and remote versions.
 
 A _local_ repository is a folder on your computer which you save files to. A _remote_ repository is a folder online which your files can be duplicated to.
 
-## Worflow
+## Workflow
 
 When working with Git, you'll need to establish a worflow for synchronising code between a local and remote repository.
 
