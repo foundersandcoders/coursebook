@@ -19,7 +19,8 @@
 
 - [ ] Use JavaScript to find the length of a string
 - [ ] Understand what a JavaScript method is
-- [ ] Be aware of methods used on strings and arrays
+- [ ] Use string methods
+- [ ] Use arrays and array methods
 - [ ] Understand how to prevent the default behaviour of a form
 
 {% box %}

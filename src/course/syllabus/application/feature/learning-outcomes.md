@@ -10,9 +10,13 @@
 
 - [ ] Use JavaScript to respond to user input
 - [ ] Use JavaScript to update a user interface
+
 - [ ] Be able use time intervals in JavaScript
-- [ ] Use Event Listeners to respond to user input
-- [ ] Use `querySelector()` to gather HTML elements
+- [ ] Use event listeners to respond to user input
+- [ ] Respond to click events
+- [ ] Respond to key presses
+- [ ] Reference a function within an event listener
+- [ ] Use `querySelector()` and `querySelectorAll()` to gather HTML elements
 
 ## JavaScript
 
@@ -21,6 +25,7 @@
 - [ ] Define a function
 - [ ] Call a function
 - [ ] Know how to define arguments in a function and how to pass values in
+- [ ] Write functions using traditional and arrow syntax
 
 ## Debugging
 

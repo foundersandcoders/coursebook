@@ -33,8 +33,8 @@
 
 ## Asking for help
 
-- [ ] Ask questions about HTML, CSS and DOM Manipulation
-- [ ] Ask for help with Git and GitHub
+- [ ] Ask questions on Discord about HTML, CSS and DOM Manipulation
+- [ ] Ask for help with Git and GitHub on Discord
 - [ ] Know what to Google for answers to questions about JavaScript
 
 ### Git and GitHub

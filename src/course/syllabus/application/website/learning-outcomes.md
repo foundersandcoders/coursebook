@@ -4,25 +4,6 @@
 - [ ] Plan a workflow for building a website
 - [ ] Break a website into distinct sections to build
 
-## JavaScript
-
-- [ ] Use arrays and array methods
-- [ ] Use objects to store data and retreive data from them
-- [ ] Convert between different data types (e.g. string -> array, object -> array)
-- [ ] Use for loops
-- [ ] Use if, else, and else if statements
-- [ ] Declare and call functions
-- [ ] Write functions using traditional and arrow syntax
-
-## DOM
-
-- [ ] Update a user interface upon user input
-- [ ] Respond to click events
-- [ ] Respond to key presses
-- [ ] Get elements by tag, class or id
-- [ ] Use `querySelector()` and `querySelectorAll()`
-- [ ] Reference a function within an event listener
-
 ## Debugging
 
 - [ ] Use an error message to approach a solution
