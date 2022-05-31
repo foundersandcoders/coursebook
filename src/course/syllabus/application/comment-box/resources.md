@@ -6,7 +6,6 @@
 
 ## JavaScript
 
-- [MDN: Sending form data](https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data)
 - [MDN: preventDefault()](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
 - [W3: Input text value](https://www.w3schools.com/jsref/prop_text_value.asp)
 - [MDN: String length](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length)
@@ -14,6 +13,7 @@
 
 ## Finding help
 
+- [Debugging](/course/handbook/debugging/)
 - [Wikipedia: Pseudocode](https://en.wikipedia.org/wiki/Pseudocode)
 - [5toCode: Pseudocode [video]](https://youtu.be/HhBrkpTqzqg?t=51)
 - [MDN: Error handling guide](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong)

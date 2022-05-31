@@ -33,7 +33,6 @@
 
 ## Asking for help
 
-- [ ] Post a code snippet on Discord
 - [ ] Ask questions about HTML, CSS and DOM Manipulation
 - [ ] Ask for help with Git and GitHub
 - [ ] Know what to Google for answers to questions about JavaScript

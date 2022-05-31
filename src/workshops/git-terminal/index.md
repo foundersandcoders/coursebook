@@ -1,6 +1,6 @@
 ---
-title: Git introduction
-description: This workshop is an introduction to using Git for version control; GitHub for hosting a codebase and deploying a website; and the terminal for creating files and moving between directories.
+title: Using Git in the terminal
+description: This workshop is an introduction to using Git from the terminal
 tags:
   - workshop
   - git
@@ -18,11 +18,13 @@ This workshop assumes you have a working knowledge of [using the terminal](https
 
 ## Getting started
 
-Create a folder on your computer and add files for HTML, CSS and JavaScript. Add some content to the HTML, link the CSS and add a script tag which points to your JS file.
+Create a folder on your computer and give it a name relevant to your project. Your local folder should share a name with the repository you create on GitHub.
 
 Open up your terminal and navigate to the folder where you've saved your files.
 
-Initialise this folder as a Git repository. You can do this by running the command `git init` in the working directory.
+Initialise this folder as a Git repository. You can do this by running the command `git init`.
+
+Add files for HTML, CSS and JavaScript. Add some content to the HTML, link the CSS and add a script tag which points to your JS file.
 
 ## Staging
 

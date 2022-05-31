@@ -2,8 +2,6 @@
 
 - [ ] Set up a `form` element with inputs and a submit button
 - [ ] Be aware of the `type` attribute of inputs
-- [ ] Understand the default behaviour of a form
-- [ ] Understand how to prevent the default behaviour of a form
 - [ ] Be aware of the different kinds of Javascript events
 - [ ] Be aware of attributes of inputs other than their `type`
 - [ ] Understand how to lay out a form to give a clear user experience
@@ -19,9 +17,16 @@
 
 ## JavaScript
 
-- [ ] Use JavaScript to interpret strings
+- [ ] Use JavaScript to find the length of a string
 - [ ] Understand what a JavaScript method is
 - [ ] Be aware of methods used on strings and arrays
+- [ ] Understand how to prevent the default behaviour of a form
+
+{% box %}
+
+We don't ask at this stage for you to understand the default behaviour of forms. When we look at servers on our full-time programme we cover this. For now, being able to prevent that default behaviour will allow you to complete this project.
+
+{% endbox %}
 
 ## Git and GitHub
 

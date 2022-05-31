@@ -14,7 +14,7 @@
 
 - [ ] Create and update elements on the page based on values in a JavaScript object
 - [ ] Use a loop to assign the same event listener to multiple elements
-- [ ] Accept arguments to a function which help generalise the function's purpose
+- [ ] Use function parameters to customise their behaviour
 
 ## Code Quality
 
