@@ -12,7 +12,7 @@ starter: false
 
 ## Git
 
-Git is a a language for controlling versions of a project. Git allows you to track changes you make on files across time.
+Git is a a program for controlling versions of a project. It allows you to track changes you make to files over time.
 
 To make an analogy, it's like having a save button on your project. At any time, you can save what you've written and mark that point in time. This means you can review versions of the code or go back to a previous version.
 
