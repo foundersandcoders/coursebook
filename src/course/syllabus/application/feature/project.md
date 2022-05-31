@@ -1,5 +1,19 @@
 Build a feature to include on your application website. This project is open-ended and a chance for you to explore creating something with different complex parts that interact with each other.
 
+## Examples
+
+### A Tortoise Race
+
+A user can click a button to see a race between multiple tortoises from one side of the screen to the other. The tortoises move at different speeds in each race, and the user is notified who finished first. The user can alter the race in some way - by naming the tortoises; changing their speeds; or adding additional racers.
+
+### An image carousel
+
+A slideshow of images automatically plays on the page. The user can pause the carousel and click buttons to see the next or previous image in the cycle. Include a set of dots under the carousel indicating which image in the sequence is visible, and can be clicked to navigate to a certain image.
+
+### A fortune teller
+
+The user can ask a question and receive a response from the _fortune teller_. After a certain amount of idle time, an animation is played, or a message pops up to notify the user the teller is available for fortunes. There are a fixed number of responses, that are randomised whenever the teller is used and give a variety of outputs.
+
 ## Planning
 
 Before building the feature, you might like to spend some time planning exactly what it it should do. You might like to draw out the user interface on paper or create some [wireframes](https://balsamiq.com/learn/articles/what-are-wireframes/).
@@ -27,20 +41,6 @@ Using Google, resources, articles, and asking for help on Discord will all help 
 ## Documenting
 
 We'd like to hear about what you created, and how you created it. For this project, you're required to include a `README.md` file. These are written in [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) and give an overview of the project. You might like to include sections which follow the three headings above: planning; building; and debugging.
-
-## Examples
-
-### A Tortoise Race
-
-A user can click a button to see a race between multiple tortoises from one side of the screen to the other. The tortoises move at different speeds in each race, and the user is notified who finished first. The user can alter the race in some way - by naming the tortoises; changing their speeds; or adding additional racers.
-
-### An image carousel
-
-A slideshow of images automatically plays on the page. The user can pause the carousel and click buttons to see the next or previous image in the cycle. Include a set of dots under the carousel indicating which image in the sequence is visible, and can be clicked to navigate to a certain image.
-
-### A fortune teller
-
-The user can ask a question and receive a response from the _fortune teller_. After a certain amount of idle time, an animation is played, or a message pops up to notify the user the teller is available for fortunes. There are a fixed number of responses, that are randomised whenever the teller is used and give a variety of outputs.
 
 ## Build something you find interesting
 

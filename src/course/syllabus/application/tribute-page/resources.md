@@ -1,9 +1,14 @@
 ## Getting started
 
 - [Setting up a web page](https://oliverjam.es/blog/complete-guide-to-making-web-pages/)
-- [freeCodeCamp: Responsive web design](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
-   Note: sections of freeCodeCamp's curriculum used to be a part of our application requirements. The curriculum doesn't cover JavaScript and they estimate it as 300 hours of work in total. Although completing it is not required, it will give you a fantastic foundation in building websites.
 - [MDN: Getting started with the web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)
+- [freeCodeCamp: Responsive web design](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
+
+{% box %}
+
+Sections of freeCodeCamp's curriculum used to be a part of our application requirements. The curriculum doesn't cover JavaScript and they estimate it as 300 hours of work in total. Although completing it is not required, it will give you a fantastic foundation in building websites.
+
+{% endbox %}
 
 ## HTML
 
@@ -26,10 +31,15 @@
 ## Git
 
 - [Git](https://git-scm.com/)
-   Git has a number of features available, and we're not expecting you to learn them all. During the application stage, we ask that you focus on learning to `add`, `commit`, and `push` your changes using VS Code.
 - [Git intro videos](https://git-scm.com/videos)
 - [Version control in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
 - [GitHub's guide to set up Git](https://docs.github.com/en/get-started/quickstart/set-up-git)
+
+{% box %}
+
+Git has a number of features available, and we're not expecting you to learn them all. During the application stage, we ask that you focus on learning to `add`, `commit`, and `push` your changes.
+
+{% endbox %}
 
 ## GitHub
 

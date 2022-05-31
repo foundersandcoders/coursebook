@@ -9,4 +9,9 @@ Your project this week is to build a comment form for a website. The form will a
 - [ ] Display the number of characters as the user types (e.g. 87/140)
 - [ ] Give user feedback with custom styling on the comment box, when the user exceeds the character limit (e.g. with a coloured border)
 - [ ] Show the comment on the page when submitted
-  > Note: we do not expect the comments to stay on the page when you refresh
+
+{% box %}
+
+We do not expect the comments to stay on the page when you refresh
+
+{% endbox %}
