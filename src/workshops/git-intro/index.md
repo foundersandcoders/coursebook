@@ -66,10 +66,10 @@ The _source control tab_ in VS Code allows you to use Git within your text edito
    ![Writing a commit message](./images/git-6.jpg)
 1. VS Code will prompt you to publish the branch once you've staged all changes. The first time you click this, you'll need to connect to your GitHub account.
    ![The side panel on VS code now shows a button with the text 'publish branch'](./images/git-7.jpg)
-1. Finally, publish to a new repository
+1. Finally, publish to a new public repository
    ![VS Code offers the user to publish to a private or public repository on GitHub](./images/git-8.jpg)
 
-And that's all! You'll now have published the files to GitHub. If you visit your profile on [GitHub](https://www.github.com) you should now see your repository.
+And that's all! You'll now have published the files to GitHub. If you visit your profile on [GitHub](https://www.github.com) you should now see your repository. You'll need to make your repositories public so that we can view them when you make your application. This does mean they'll be available to anyone who uses the web - so be careful what personal information you share.
 
 ![A repository on GitHub](./images/git-9.jpg)
 
