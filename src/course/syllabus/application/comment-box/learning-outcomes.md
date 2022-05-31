@@ -2,7 +2,7 @@
 
 - [ ] Set up a `form` element with inputs and a submit button
 - [ ] Be aware of the `type` attribute of inputs
-- [ ] Be aware of the different kinds of Javascript events
+- [ ] Be aware of the different kinds of JavaScript events
 - [ ] Be aware of attributes of inputs other than their `type`
 - [ ] Understand how to lay out a form to give a clear user experience
 
@@ -12,7 +12,7 @@
 - [ ] Run a function when a user submits a form
 - [ ] Access the value of an HTML element
 - [ ] Access properties of HTML elements
-- [ ] Update properties of HTML elements in JS
+- [ ] Update properties of HTML elements in JavaScript
 - [ ] Update HTML elements based on user input
 
 ## JavaScript
