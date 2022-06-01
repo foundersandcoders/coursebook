@@ -41,37 +41,38 @@ schedule:
       start: 10:00
       end: 13:00
       type: project
-    - name: Build
-      start: 14:00
-      end: 17:45
-      type: project
-  friday:
-    - name: Handover documentation
-      start: 10:00
-      end: 11:00
-    - name: Product handover
-      start: 11:00
-      end: 12:00
-    - name: Product documentation
-      start: 12:00
-      end: 12:30
-      url: /course/handbook/project-documentation
-    - name: Presentation Prep
-      start: 12:30
-      end: 13:00
-    - name: Presentations
-      type: presentation
+    - name: Sprint review
       start: 14:00
       end: 14:45
-    - start: 14:45
-      end: 15:05
-      name: Team SGCs
-      url: /course/handbook/retrospectives/#team-retrospectives
-    - start: 15:05
-      end: 16:55
-      name: Super Cohort SGC
-      url: /course/handbook/retrospectives/
-    - start: 16:55
+    - name: Handover documentation
+      start: 14:45
+      end: 15:30
+    - name: Product handover
+      start: 15:30
+      end: 16:15
+    - name: Presentation prep
+      start: 16:15
       end: 17:00
-      name: Weekly Feedback
+    - name: Presentations (practice run)
+      start: 17:00
+      end: 17:45
+  friday:
+    - name: Weekly feedback
+      start: 10:00
+      end: 10:15
+    - name: Super cohort SGC
+      start: 10:15
+      end: 11:30
+    - name: Team SGC
+      start: 11:30
+      end: 12:00
+    - name: Project documentation
+      start: 12:00
+      end: 13:00
+    - name: Presentation practice
+      start: 14:00
+      end: 16:00
+    - name: TFB Showcase
+      start: 16:00
+      end: 17:00
 ---
