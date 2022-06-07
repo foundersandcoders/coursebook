@@ -1,4 +1,4 @@
-Your final project is to build a website showcasing your application. Your website should:
+Your project is to build a website showcasing your application. Your website should:
 
 - Tell us about you
 - Talk about why you'd like to move into a career as a web developer
