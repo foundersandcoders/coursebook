@@ -75,4 +75,7 @@ schedule:
     - name: TFB Showcase
       start: 16:00
       end: 17:00
+    - name: Graduation party
+      start: 17:00
+      end: 18:00
 ---
