@@ -56,6 +56,7 @@ schedule:
     - name: Presentations (practice run)
       start: 17:00
       end: 17:45
+      type: presentation
   friday:
     - name: Weekly feedback
       start: 10:00
@@ -75,6 +76,7 @@ schedule:
     - name: TFB Showcase
       start: 16:00
       end: 17:00
+      type: presentation
     - name: Graduation party
       start: 17:00
       end: 18:00
