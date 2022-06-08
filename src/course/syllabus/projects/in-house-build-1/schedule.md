@@ -6,19 +6,19 @@ schedule:
       start: 10:10
       end: 13:00
       type: project
-    - name: Build
+    - name: Tech for Better
       start: 14:00
+      end: 15:30
+    - name: Build
+      start: 15:30
       end: 17:45
       type: project
   tuesday:
     - name: Employment morning
       start: 9:45
       end: 13:00
-    - name: Tech for Better
-      start: 14:00
-      end: 15:30
     - name: Build
-      start: 15:30
+      start: 14:00
       end: 17:45
       type: project
   wednesday:
