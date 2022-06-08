@@ -1,4 +1,4 @@
-### GitHub workflow
+# GitHub Workflow
 
 A good GitHub workflow is essential to keeping a project organised and easy to maintain. The larger the project, the more important it becomes to track changes and be aware of who worked on what.
 
