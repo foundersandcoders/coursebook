@@ -9,6 +9,7 @@ function getPokemon(name) {
     })
     .then((res) => res.json());
 }
+
 class Pokemon extends React.Component {
   state = {
     data: null,

@@ -1,5 +1,4 @@
 import React from "react";
-import { getPokemon } from "./utils";
 
 function Pokemon({ name }) {
   const [data, setData] = React.useState(null);
