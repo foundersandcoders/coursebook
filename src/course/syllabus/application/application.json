@@ -2,5 +2,6 @@
   "tabs": {
     "schedule": false,
     "spikes": false
-  }
+  },
+  "isApplicationPage": true
 }

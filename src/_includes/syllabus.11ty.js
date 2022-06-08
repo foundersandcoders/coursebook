@@ -6,7 +6,14 @@ exports.data = {
   layout: "course",
 };
 
-exports.render = ({ section, topic, page, content, tabs = {} }) => {
+exports.render = ({
+  section,
+  topic,
+  page,
+  content,
+  tabs = {},
+  isApplicationPage = false,
+}) => {
   return html`
     <div class="vstack gap-xl">
       <header class="vstack gap-lg">
@@ -19,6 +26,7 @@ exports.render = ({ section, topic, page, content, tabs = {} }) => {
           }
           ${
             tabs.learnings !== false &&
+            !isApplicationPage &&
             html`<${Tab} page=${page} href="learning-outcomes">Learnings</${Tab}>`
           }
           ${
@@ -28,6 +36,11 @@ exports.render = ({ section, topic, page, content, tabs = {} }) => {
           ${
             tabs.project !== false &&
             html`<${Tab} page=${page} href="project">Project</${Tab}>`
+          }
+          ${
+            tabs.learnings !== false &&
+            isApplicationPage &&
+            html`<${Tab} page=${page} href="learning-outcomes">Learnings</${Tab}>`
           }
           ${
             tabs.resources !== false &&
