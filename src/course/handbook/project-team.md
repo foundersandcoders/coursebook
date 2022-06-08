@@ -29,6 +29,11 @@
   - Break down larger issues into manageable chunks
 - Lead standups and Sprint Planning
 - Clear blockers
+- Lead conversations with the Product Owner
+- Listen to and mediate Product Owner needs
+- Balance needs of the Product Owner with the needs of the Product Team
+- Provide a daily rundown of work completed
+- Lead Sprint Review
 
 ## UX Lead
 
@@ -38,22 +43,8 @@
 - Create a style guide
 - Ensure design heuristics are followed
 - Lead on user testing
-
-## PO Liaison
-
-### Responsibilities
-
-- Lead conversations with the Product Owner
-- Listen to and mediate Product Owner needs
-- Balance needs of the Product Owner with the needs of the Product Team
-- Provide a daily rundown of work completed
-- Lead Sprint Review
-
-## Project Documenter
-
-### Responsibilities
-
 - Lead on project documentation
+  > Note: the following additional responsibilities are listed under the UX Lead role, but are not UX related. If someone else on the team has additional capacity - feel free to delegate these.
 - Ensure regular attention is given to thorough documentation
 - Consider all parts of the [project documentation](../project-documentation)
 - Provide support to the team in writing documentation
