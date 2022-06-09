@@ -16,8 +16,7 @@ If you're new to web development, we recommend you check out the [resources](../
 - [ ] Everything on the page fits on any screen size, without content overflowing or being cut off
 - [ ] A user can click on a link that takes them to another website
 - [ ] The page has a header element, and a footer element
-- [ ] Somewhere on the page, the user can see today's date
-      Note: the date should always be correct. You'll need to use JavaScript to generate the date, and DOM manipulation to display it.
+- [ ] Somewhere on the page, the user can see today's date. The date should always be correct. You'll need to use JavaScript to generate the date, and DOM manipulation to display it.
 
 {% box %}
 
