@@ -2,7 +2,7 @@ Your first project is to create a _Tribute Page_. This can be about an interest 
 
 {% box %}
 
-If you're new to web development, we recommend you check out the [resources](./resources.md) before you get started. You might like to spend some time learning the fundamentals of HTML and CSS before you dive in. You don't need to know a lot about JavaScript to complete this project and our projects intend to guide your learning through it.
+If you're new to web development, we recommend you check out the [resources](../resources) before you get started. You might like to spend some time learning the fundamentals of HTML and CSS before you dive in. You don't need to know a lot about JavaScript to complete this project and our projects intend to guide your learning through it.
 
 {% endbox %}
 
@@ -17,10 +17,10 @@ If you're new to web development, we recommend you check out the [resources](./r
 - [ ] A user can click on a link that takes them to another website
 - [ ] The page has a header element, and a footer element
 - [ ] Somewhere on the page, the user can see today's date
-   Note: the date should always be correct. You'll need to use JavaScript to generate the date, and DOM manipulation to display it.
+      Note: the date should always be correct. You'll need to use JavaScript to generate the date, and DOM manipulation to display it.
 
 {% box %}
 
-Your code should be in a remote repository on [GitHub](http://www.github.com) and your site deployed live with [GitHub Pages](https://pages.github.com/). If you're new to using Git and GitHub, we recommend following [our tutorial](/workshops/applicant-git-1/) to get started.
+Your code should be in a remote repository on [GitHub](http://www.github.com) and your site deployed live with [GitHub Pages](https://pages.github.com/). If you're new to using Git and GitHub, we recommend following [our tutorial](/workshops/git-intro/) to get started.
 
 {% endbox %}
