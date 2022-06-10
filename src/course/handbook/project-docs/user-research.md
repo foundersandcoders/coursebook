@@ -27,7 +27,7 @@ There are two kinds of user feedback sessions in the design sprint: User Researc
 
 ## Process
 
-During the in-house project design sprint (week 7) you will be conducting both
+During the In-House project design sprint (week 7) you will be conducting both
 user research and usability testing.
 
 The Tech for Better Product Owners will conduct their own user research, but you will be conducting a usability testing session with their user group
@@ -38,7 +38,8 @@ The Tech for Better Product Owners will conduct their own user research, but you
 
   [Tech for Better Project Schedule](../course/syllabus/projects/tfb-design/schedule/)
 
-You will need **2-3** volunteers **per person** to participate:
+For the In-House project, you will need **2-3** volunteers **per person** to participate:
+
 - User research (2 volunteers each, 8 per team)
 - Usability testing (1-2 volunteers each, 6 per team)
 
