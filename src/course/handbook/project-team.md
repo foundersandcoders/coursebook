@@ -1,5 +1,11 @@
 # Project roles
 
+While working in project teams of four, you will each pick one of the roles below.
+
+We have listed a set of responsibilities for each role - but do keep in mind that your main role on the project is as a developer. The project roles are areas of focus that you should ensure get done **as a team**
+
+For example - If you are the UX Lead, do not feel obliged to do all the CSS/styling work. Your role is to make sure that the project as a whole is well designed and styled, and that the whole team works towards that goal.
+
 ## QA
 
 ### Responsibilities
@@ -44,7 +50,7 @@
 - Ensure design heuristics are followed
 - Lead on user testing
 - Lead on project documentation
-  > Note: the following additional responsibilities are listed under the UX Lead role, but are not UX related. If someone else on the team has additional capacity - feel free to delegate these.
+  > Note: The following are shared responsibilities that are not specific to the UX role. One person from the team should lead on ensuring project documentation gets done, but everyone should participate in writing it.
 - Ensure regular attention is given to thorough documentation
 - Consider all parts of the [project documentation](../project-documentation)
 - Provide support to the team in writing documentation
