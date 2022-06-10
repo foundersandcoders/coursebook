@@ -60,26 +60,30 @@ schedule:
     - name: Respond to issues
       start: 10:30
       end: 13:00
-    - name: Presentation prep
+    - name: Respond to issues
       start: 14:00
-      end: 14:45
-      url: /course/handbook/projects/#project-presentation
-    - name: Project documentation
-      start: 14:45
-      end: 15:15
+      end: 14:30
+    - start: 14:30
+      end: 15:00
+      name: Project documentation
       url: /course/handbook/project-documentation
-    - name: Presentations
-      start: 15:15
+    - start: 15:00
+      end: 15:30
+      name: Presentation prep
+      url: /course/handbook/projects/#project-presentation
+    - start: 15:30
       end: 16:00
-      type: presentation
-    - name: Cohort SGC
-      start: 16:00
+      name: Team SGC
+      url: /course/handbook/retrospectives/#team-retrospectives
+    - start: 16:00
       end: 16:45
-    - name: Team SGC
-      start: 16:45
-      end: 17:30
-    - name: Update user manuals
-      start: 17:30
+      name: Presentations
+      type: presentation
+    - start: 16:45
       end: 17:45
-      url: /course/handbook/user-manuals/
+      name: Cohort SGC
+      url: /course/handbook/retrospectives/#cohort-retrospective
+    - start: 17:45
+      end: 18:00
+      name: Check-out
 ---
