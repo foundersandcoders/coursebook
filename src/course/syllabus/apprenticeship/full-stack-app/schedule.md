@@ -25,11 +25,8 @@ schedule:
       start: 12:00
       end: 13:00
       type: project
-    - name: TFB - Selection
-      start: 14:00
-      end: 15:30
     - name: Project
-      start: 15:30
+      start: 14:00
       end: 17:45
       type: project
   wednesday:
@@ -46,4 +43,31 @@ schedule:
       start: 10:00
       end: 13:00
       type: project
+    - name: Digital 101
+      start: 14:00
+      end: 15:30
+    - name: Project
+      start: 15:30
+      end: 16:30
+      type: project
+  friday:
+    - name: TFB - Selection
+      start: 14:00
+      end: 15:00
+    - name: Project documentation
+      start: 15:00
+      end: 15:30
+    - name: Presentation prep
+      start: 15:30
+      end: 16:00
+    - name: Team SGC
+      start: 16:00
+      end: 16:30
+    - name: Presentations
+      start: 16:30
+      end: 17:15
+      type: presentation
+    - name: Cohort SGC
+      start: 17:15
+      end: 17:45
 ---
