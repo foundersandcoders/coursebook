@@ -47,10 +47,10 @@ schedule:
     - name: Handover documentation
       start: 14:45
       end: 15:30
-    - name: Product handover
+    - name: Presentation prep
       start: 15:30
       end: 16:15
-    - name: Presentation prep
+    - name: Product handover
       start: 16:15
       end: 17:00
     - name: Presentations (practice run)

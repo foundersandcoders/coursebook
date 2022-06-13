@@ -11,7 +11,7 @@ schedule:
       end: 17:45
       type: project
   tuesday:
-    - name: Employment morning
+    - name: Build
       start: 9:45
       end: 13:00
     - name: Mentoring reflections
