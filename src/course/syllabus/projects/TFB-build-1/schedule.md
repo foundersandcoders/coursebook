@@ -12,8 +12,9 @@ schedule:
       type: project
   tuesday:
     - name: Build
-      start: 9:45
+      start: 10:00
       end: 13:00
+      type: project
     - name: Mentoring reflections
       start: 14:00
       end: 15:30
