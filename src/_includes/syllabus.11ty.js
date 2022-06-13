@@ -6,16 +6,27 @@ exports.data = {
   layout: "course",
 };
 
-exports.render = ({ section, topic, page, content, tabs = {} }) => {
+exports.render = ({
+  section,
+  topic,
+  page,
+  content,
+  tabs = {},
+  isApplicationPage = false,
+}) => {
   return html`
     <div class="vstack gap-xl">
       <header class="vstack gap-lg">
         <!-- visually hide section since it's duplicated in the tabs below -->
         <h1 class="highlight bg-primary">${topic} <span class="vh">${section}</span></h1>
         <${Tabs}>
-          <${Tab} page=${page} href="schedule">Schedule</${Tab}>
+          ${
+            tabs.schedule !== false &&
+            html`<${Tab} page=${page} href="schedule">Schedule</${Tab}>`
+          }
           ${
             tabs.learnings !== false &&
+            !isApplicationPage &&
             html`<${Tab} page=${page} href="learning-outcomes">Learnings</${Tab}>`
           }
           ${
@@ -25,6 +36,11 @@ exports.render = ({ section, topic, page, content, tabs = {} }) => {
           ${
             tabs.project !== false &&
             html`<${Tab} page=${page} href="project">Project</${Tab}>`
+          }
+          ${
+            tabs.learnings !== false &&
+            isApplicationPage &&
+            html`<${Tab} page=${page} href="learning-outcomes">Learnings</${Tab}>`
           }
           ${
             tabs.resources !== false &&

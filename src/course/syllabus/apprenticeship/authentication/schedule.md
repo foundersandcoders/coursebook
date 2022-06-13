@@ -31,13 +31,13 @@ schedule:
       url: /workshops/form-validation/
       type: workshop
   wednesday:
-    - name: Express middleware
+    - name: Promise creation challenge
       start: 10:00
-      end: 12:00
-      url: /workshops/express-middleware/
-      type: workshop
+      end: 11:00
+      url: /workshops/creating-promises/
+      type: challenge
     - name: Project
-      start: 12:00
+      start: 11:00
       end: 13:00
       type: project
 ---

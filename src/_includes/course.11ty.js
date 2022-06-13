@@ -28,6 +28,7 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/handbook/asking-for-help/">Asking for help</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/spikes/">Tech Spikes</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/projects/">Projects</${Link}></li>
+          <li><${Link} url=${url} href="/course/handbook/github-workflow/">GitHub Workflow</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/project-presentations/">Project Presentations</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/project-team/">Project Roles</${Link}></li>
            <li><${Link} url=${url} href="/course/handbook/role-circles/">Role circles</${Link}></li>
@@ -36,20 +37,13 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/handbook/mentor-guidance/">Mentoring guidance</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/mentor-roles/">What to expect of mentors</${Link}></li>
         </${Section}>
-        <${Section} title="Application" url=${url} subpath="course/application">
-          <li><${Link} url=${url} href="/course/application/how-to">How to</${Link}></li>
-          <li><${Link} url=${url} href="/course/application/platforms">Platforms</${Link}></li>
-          <li><${Link} url=${url} href="/course/application/approaching-problems">Approaching problems</${Link}></li>
-          <li><${Link} url=${url} href="/course/application/tribute">Tribute page</${Link}></li>
-          <li><${Link} url=${url} href="/course/application/functions">Functions</${Link}></li>
-          <li><${Link} url=${url} href="/course/application/dom">DOM</${Link}></li>
-          <li><${Link} url=${url} href="/course/application/array-methods">Arrays</${Link}></li>
-          <li><${Link} url=${url} href="/course/application/git">git and GitHub</${Link}></li>
-          <li><${Link} url=${url} href="/course/application/flexbox">Flexbox</${Link}></li>
-          <li><${Link} url=${url} href="/course/application/building-a-site">Build a website</${Link}></li>
-          <li><${Link} url=${url} href="/course/application/objects">Objects</${Link}></li>
-          <li><${Link} url=${url} href="/course/application/feature">Feature</${Link}></li>
-          <li><${Link} url=${url} href="/course/application/debugging">Debugging</${Link}></li>
+        <${Section} title="Application" url=${url} subpath="course/syllabus/application">
+          <li><${Link} url=${url} href="/course/syllabus/application/tribute-page/project">Tribute page</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/application/project-gallery/project">Project gallery</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/application/comment-box/project">Comment box</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/application/fruit-shop/project">Fruit shop</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/application/website/project">Website</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/application/feature/project">Feature</${Link}></li>
         </${Section}>
         <${Section} title="Pre-apprenticeship" url=${url} subpath="course/syllabus/pre-apprenticeship">
           <li><${Link} url=${url} href="/course/syllabus/pre-apprenticeship/pre-course/schedule/">Pre-course</${Link}></li>
