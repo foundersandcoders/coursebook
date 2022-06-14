@@ -13,7 +13,8 @@ exports.render = ({ title, description, page: { url }, content }) => {
   <${Nav}>
       <${Section} title="Design week" url=${url}>
        <${Link} url=${url} href="/mentoring/discovery">Discovery</${Link}>
-       <${Link} url=${url} href="/mentoring/definition">Definition</${Link}>
+       <${Link} url=${url} href="/mentoring/definition-1">Definition 1</${Link}>
+       <${Link} url=${url} href="/mentoring/definition-2">Definition 2</${Link}>
       </${Section}>
   </${Nav}>
   </aside>

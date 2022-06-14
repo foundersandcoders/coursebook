@@ -1,5 +1,5 @@
 ---
-title: Discovery Workshop Pt. I
+title: Definition Workshop Pt. I
 description: Facilitating the first Definition workshop
 layout: mentor-notes
 ---
@@ -8,10 +8,10 @@ layout: mentor-notes
 
 _We usually allocate a little longer than needed in the schedule to give time for running behind and having a break._
 
-00:00 - Synthesise Research
-00:40 - Mapping
-01:00 - HMW
-01:15 - End
+- 00:00 - [Synthesise Research](#synthesise-research)
+- 00:40 - [Mapping](#mapping-the-journey)
+- 01:00 - [How Might We...?](#how-might-we)
+- 01:15 - End
 
 ## Synthesise research
 
@@ -38,6 +38,6 @@ There's three main phases here:
 
 There might be a few different avenues, or choices made along the way. But by the end of the exercise, the team should have a broad idea of what the app will do and the order the user will perform actions in.
 
-## How Might We
+## How Might We...?
 
 This is a speculative exercise which intends to get developers thinking about the challenges of building a Product which will respond to the needs they've identified so far. Asking questions, and not worrying about the answers, will help to shape the key challenges of building this product.
