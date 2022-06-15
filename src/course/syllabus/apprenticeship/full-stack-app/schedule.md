@@ -38,6 +38,13 @@ schedule:
       start: 10:15
       end: 13:00
       type: project
+    - name: TFB - Selection
+      start: 14:00
+      end: 15:00
+    - name: Project
+      start: 15:00
+      end: 17:45
+      type: project
   thursday:
     - name: Project
       start: 10:00
@@ -51,7 +58,7 @@ schedule:
       end: 16:30
       type: project
   friday:
-    - name: TFB - Selection
+    - name: Respond to Issues
       start: 14:00
       end: 15:00
     - name: Project documentation
