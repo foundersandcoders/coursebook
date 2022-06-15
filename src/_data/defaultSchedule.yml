@@ -1,49 +1,41 @@
 monday:
   - start: 9:45
-    end: 10:00
-    name: Check-in
-  - start: 10:00
-    end: 10:10
-    name: Feedback survey
-  - start: 13:00
-    end: 14:00
-    name: Lunch
-  - start: 16:00
-    end: 16:15
-    name: Project & Spikes intro
-    url: ../project
-  - start: 16:15
-    end: 17:15
-    name: Technical spikes
-    type: spike
-    url: ../spikes
-  - start: 17:15
-    end: 17:45
-    name: Spike presentation preparation
-    url: /course/handbook/spikes/#what-makes-a-good-research-presentation
-  - start: 17:45
     end: 18:00
-    name: Check-out
+    name: Workshops
+    type: workshop
 tuesday:
   - start: 9:45
     end: 10:00
     name: Check-in
   - start: 10:00
-    end: 10:15
-    name: Spike prep
-    url: /course/handbook/spikes/#what-makes-a-good-research-presentation
-  - start: 10:15
     end: 11:00
-    name: Spike presentations
-    type: presentation
+    name: Morning challenge
+    type: challenge
+  - start: 11:00
+    end: 12:30
+    name: Group discussion
+    type: workshop
+  - start: 12:30
+    end: 13:00
+    name: Cohort discussion
+    type: workshop
   - start: 13:00
     end: 14:00
     name: Lunch
-  - name: Project setup
-    start: 17:00
-    end: 17:45
+  - name: Tech for Better
+    start: 14:00
+    end: 15:30
+  - name: Project intro
+    start: 15:45
+    end: 16:00
     type: project
     url: ../project
+  - name: Tech spikes
+    start: 16:00
+    end: 17:15
+  - name: Presentation prep
+    start: 17:15
+    end: 17:45
   - start: 17:45
     end: 18:00
     name: Check-out
@@ -51,11 +43,11 @@ wednesday:
   - start: 9:45
     end: 10:00
     name: Check-in
-  # - start: 10:00
-  #   end: 10:45
-  #   name: Web Science talk
-  #   type: presentation
-  - start: 11:00
+  - start: 10:00
+    end: 10:45
+    name: Tech spike presentations
+    type: presentation
+  - start: 10:45
     end: 13:00
     name: Project
     type: project
