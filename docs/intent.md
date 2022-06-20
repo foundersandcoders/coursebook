@@ -4,7 +4,7 @@ This document explains the high-level intent behind our curriculum—the motivat
 
 ## Scope
 
-Our programme has limited time to get learners from understanding the basics to working as professional software developers in a Level 5 apprenticeship. This means we have to make strict decisions regarding what concepts to cover in the curriculum.
+Our programme has limited time to get learners from understanding the basics to working as professional software developers in a Level 4 apprenticeship. This means we have to make strict decisions regarding what concepts to cover in the curriculum.
 
 Software development is a hugely broad discipline, with hundreds of different programming languages and paradigms to write code within. Our curriculum is specifically focused on writing software for the (World Wide) Web. This means we exclusively use the languages native to the web—HTML, CSS and JavaScript (with a little SQL included as it is the closest thing to a standardised language for data access).
 
@@ -14,9 +14,9 @@ We focus on full-stack web development, which means primarily _application_ code
 
 One of Founders and Coders' founding principles is to improve access to the tech industry. Our curriculum is therefore designed to be as accessible as possible. All of the languages and technology we use and recommend are free and open source. All a learner should need to get started is access to a computer and an internet connection. Our resources are explicitly focused on people without an existing technical background, and should never require prior expertise or academic qualifications in computer science.
 
-## Meta learning outcomes
+## Broader learning outcomes
 
-Each topic in our curriculum has specific learning outcomes that directly relate to it. However the curriculum as a whole has some broader learning outcomes that are encouraged through its structure.
+Each topic in our curriculum has specific learning outcomes that directly relate to it. Since it is unusual for even a full-stack software developer to be an expert in every area of their role we treat each curriculum topic as an introduction to the fundamentals that can give a learner insight into whether they would like to move deeper into that area. However the curriculum as a whole has some broader learning outcomes that are encouraged through its structure that are important and relevant no matter what a learner's eventual focus becomes.
 
 ### Self-sufficiency in learning
 
