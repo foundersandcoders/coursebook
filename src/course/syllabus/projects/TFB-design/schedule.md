@@ -78,7 +78,7 @@ schedule:
       start: 10:00
       end: 12:00
       type: project
-    - name: Presentation prep
+    - name: Portfolio Evidence Gathering
       start: 12:00
       end: 13:00
 ---
