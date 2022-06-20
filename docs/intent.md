@@ -16,7 +16,7 @@ One of Founders and Coders' founding principles is to improve access to the tech
 
 ## Meta learning outcomes
 
-Each topic in our curriculum has specific learning outcomes that directly relate to it. However the curriculum as a whole has some broader learning outcomes that are encourage through its structure.
+Each topic in our curriculum has specific learning outcomes that directly relate to it. However the curriculum as a whole has some broader learning outcomes that are encouraged through its structure.
 
 ### Self-sufficiency in learning
 
@@ -32,7 +32,7 @@ Our programme includes very little individual work. Workshops are often complete
 
 ## Balance
 
-As an apprenticeship training provider it is important our curriculum meets the needs of the industry our learners end up working within. At the same time we are aware there is a tension between what might be best for a learners journey and fundamental understanding versus what is most immediately useful for a business.
+As an apprenticeship training provider it is important our curriculum meets the needs of the industry our learners end up working within. At the same time we are aware there is a tension between what might be best for a learner's journey and fundamental understanding versus what is most immediately useful for a business.
 
 We try to strike a balance between focusing on lower-level fundamental learning and higher-level abstractions like frameworks that allow junior developers to be more immediately productive at work. We believe some coding bootcamp curriculums are too focused on employability and compromise their learners' longer-term understanding for short-term employment wins. Since the majority of our learners begin our full-time programme already employed as an apprentice this is less of a concern for us.
 
