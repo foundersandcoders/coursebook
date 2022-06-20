@@ -34,7 +34,7 @@ Our programme includes very little individual work. Workshops are often complete
 
 As an apprenticeship training provider it is important our curriculum meets the needs of the industry our learners end up working within. At the same time we are aware there is a tension between what might be best for a learner's journey and fundamental understanding versus what is most immediately useful for a business.
 
-We try to strike a balance between focusing on lower-level fundamental learning and higher-level abstractions like frameworks that allow junior developers to be more immediately productive at work. We believe some coding bootcamp curriculums are too focused on employability and compromise their learners' longer-term understanding for short-term employment wins. Since the majority of our learners begin our full-time programme already employed as an apprentice this is less of a concern for us.
+We try to strike a balance between focusing on lower-level fundamental learning and higher-level abstractions like frameworks that allow junior developers to be more immediately productive at work. We do not want a focus on employability to compromise our learners' longer-term conceptual understanding.
 
 Our policy is to teach one or two "levels of abstraction" below the industry. For example a lot of modern web development uses "meta frameworks" like Next.js, Sveltekit, Remix etc that are built on top of an existing framework like React or Svelte. Whilst our curriculum touches on meta frameworks it focuses more on the fundamentals directly below this—understanding the React framework, and the browser DOM below that.
 
