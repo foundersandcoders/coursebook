@@ -1,8 +1,8 @@
 Learn how to manage asynchronous tasks and send HTTP requests using JavaScript.
 
-## Week 1
+## Week 4
 
-### Monday
+### Session 1
 
 - 17:00-17:15 Check-in
 - 17:15-17:45 [Intro talk](https://fac-slides.netlify.app/slides/http/)
@@ -15,7 +15,7 @@ Homework:
 - [Promises & fetch workshop](/workshops/learn-fetch/) (2 hours)
 <!-- - [DOM Challenge](/workshops/dom-challenge/) (1 hour) -->
 
-### Thursday
+### Session 2
 
 - 17:00-17:10 Check-in
 - 17:10-18:00 Q&A
@@ -27,11 +27,10 @@ Homework:
 
 - Finish Real-world fetch workshop
 - [Promise practice workshop](/workshops/promise-practice/) (2 hours)
-- Screening questions and coding challenge
 
-## Week 2
+## Week 5
 
-### Monday
+### Session 1
 
 - 17:00-17:15 Check-in
 - 17:15-18:00 Workshop discussion & solutions
@@ -42,7 +41,7 @@ Homework:
 
 - [Project](../project/)
 
-### Thursday
+### Session 2
 
 - Q&A
 - Employment preparation
@@ -50,11 +49,10 @@ Homework:
 Homework:
 
 - [Project](../project/)
-- Screening questions and coding challenge
 
-## Week 3
+## Week 6
 
-### Monday
+### Session 1
 
 - Project code review
 - Employment preparation
@@ -62,15 +60,16 @@ Homework:
 Homework:
 
 - [Project](../project/)
-- Screening questions and coding challenge
 
-### Thursday
+### Session 2
 
 - Q&A
 - Project presentations
-- Employment preparation
+- [Intro to testing](https://fac-slides.netlify.app/slides/testing)
 
 Homework:
 
 - Revision quiz
-- Screening questions and coding challenge
+- [Build a testing library](https://learn.foundersandcoders.com/workshops/learn-testing/)
+- [Unit testing workshop](https://learn.foundersandcoders.com/workshops/learn-unit-testing/)
+
