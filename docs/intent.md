@@ -2,7 +2,7 @@
 
 This document explains the high-level intent behind our curriculum—the motivations behind decisions and trade-offs we have made, and what we expect learners to get out of it.
 
-## Scope
+## Scope
 
 Our programme has limited time to get learners from understanding the basics to working as professional software developers in a Level 4 apprenticeship. This means we have to make strict decisions regarding what concepts to cover in the curriculum.
 
