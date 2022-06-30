@@ -19,7 +19,7 @@ schedule:
     - name: Usability testing
       start: 10:00
       end: 12:00
-    - name: Build
+    - name: Synthesise feedback
       start: 12:00
       end: 13:00
       type: project
@@ -32,35 +32,23 @@ schedule:
       start: 10:00
       end: 11:00
       type: presentation
-    - name: Build
+    - name: Project planning
       start: 11:00
       end: 13:00
-    - name: Synthesise feedback
-      start: 14:00
-      end: 15:00
-      type: project
-    - name: Project Planning
-      start: 15:00
-      end: 16:30
-      type: project
       url: https://hackmd.io/@fac/SkyPKSwBw#/
+      type: project
     - name: Choose Roles
-      start: 16:30
-      end: 16:45
+      start: 14:00
+      end: 14:15
       url: /course/handbook/project-team
     - name: Code Planning
-      start: 16:45
+      start: 14:15
       end: 17:45
       type: project
       url: https://fac-slides.netlify.app/slides/project-architecture/
   thursday:
-    - name: Code Planning
-      start: 10:00
-      end: 11:00
-      type: project
-      url: https://fac-slides.netlify.app/slides/project-architecture/
     - name: Technical Spikes
-      start: 11:00
+      start: 10:00
       end: 13:00
       url: "./../spikes"
     - name: Spike presentation prep
