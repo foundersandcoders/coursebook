@@ -16,8 +16,11 @@ schedule:
       end: 17:45
       type: project
   tuesday:
-    - name: Wireframing
+    - name: Usability testing
       start: 10:00
+      end: 12:00
+    - name: Build
+      start: 12:00
       end: 13:00
       type: project
     - name: Wireframing
@@ -29,7 +32,7 @@ schedule:
       start: 10:00
       end: 11:00
       type: presentation
-    - name: Usability Testing
+    - name: Build
       start: 11:00
       end: 13:00
     - name: Synthesise feedback
