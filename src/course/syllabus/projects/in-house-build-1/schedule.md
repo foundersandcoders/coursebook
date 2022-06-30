@@ -48,11 +48,16 @@ schedule:
       end: 17:45
       type: project
   friday:
-    - name: Sprint Review and Planning
+    - name: Portfolio Evidence Gathering
+      start: 10:00
+      end: 11:00
+      url: https://fac-standard.netlify.app/portfolio/
+    - name: Team code review
       start: 11:00
       end: 12:00
-      url: /course/handbook/project-docs/sprint-planning
-    - name: Portfolio Evidence Gathering
+      url: /course/handbook/code-review/
+    - name: Sprint Review and Planning
       start: 12:00
       end: 13:00
+      url: /course/handbook/project-docs/sprint-planning
 ---

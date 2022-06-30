@@ -65,4 +65,5 @@ schedule:
     - name: Portfolio Evidence Gathering
       start: 12:00
       end: 13:00
+      url: https://fac-standard.netlify.app/portfolio/
 ---
