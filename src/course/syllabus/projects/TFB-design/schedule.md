@@ -36,6 +36,7 @@ schedule:
       start: 11:00
       end: 13:00
       url: https://hackmd.io/@fac/SkyPKSwBw#/
+      type: project
     - name: Choose Roles
       start: 14:00
       end: 14:15
