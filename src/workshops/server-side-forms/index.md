@@ -130,8 +130,11 @@ You can use `string.includes` to check if a string contains a given substring. E
 
 ```js
 const search = "rov";
-const dog = "rover"
-if (dog.includes(search)) ...
+const name = "rover";
+const match = name.toLowerCase().includes(search.toLowerCase());
+if (match) {
+  items += `<li>${name}</li>`;
+}
 ```
 
 Don't forget this is case sensitive!
