@@ -2,7 +2,14 @@ You'll be working on a solo project in your free time for the last 3 weeks. We e
 
 These projects are designed to help you revise the fundamentals you have learnt during the first 9 weeks of the course. We recommend you pick one that involves something you are uncomfortable with. For example if you struggled using fetch and promises then pick a project that will force you to practice that.
 
-All projects should have their source code hosted on GitHub and be published to GitHub Pages to make code review easier.
+## Technical requirements
+
+- Configure dev tooling:
+  - [ ] Prettier formatting
+  - [ ] ESLint linting
+  - [ ] Live-reloading local dev server
+- Publish code to GitHub
+- Deploy app to GitHub Pages
 
 ## Project options
 
@@ -13,7 +20,7 @@ All projects should have their source code hosted on GitHub and be published to 
    <figure>
       <video style="aspect-ratio: 1440 / 808;" width="1440" height="808" src="/assets/videos/pomodoro.mp4" autoplay muted controls loop type="video/mp4"></video>
       <figcaption>An example of a Pomodoro timer</figcaption>
-    </figure>
+   </figure>
 
    #### Features
 
