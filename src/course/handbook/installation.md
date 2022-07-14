@@ -84,13 +84,17 @@ curl https://get.volta.sh | bash
 
 You may have to restart your Terminal afterwards.
 
-You can now use Volta to install different versions of Node:
+You can now use Volta to install different versions of Node. We require Node version 18 for our programme, so you need to specify that:
 
 ```bash
-volta install node
+volta install node@18
 ```
 
-This will automatically pick the current "Long-Term Support" (LTS) version of Node, which is usually what you want.
+Volta should install Node 18 and automatically start using it. You can check it worked by running this command:
+
+```shell
+node --version
+```
 
 #### npm
 
