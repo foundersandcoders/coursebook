@@ -18,7 +18,7 @@ Node is basically the JS engine from the Chrome web browser, plus some extra fea
 
 Since Node uses the JS language it has the same syntax, keywords and features as JS in the browser. However (just like browsers) different versions of Node support different new language features. Something that was added to JS in Chrome may not be available in Node yet (and vice versa).
 
-The main difference to browser-JS is that Node has no `window` or `document` global objects (and so none of the things inside them like `querySelector`), since those concepts don't exist on a server.
+The main difference to browser-JS is that Node has no `window` or `document` global objects (and so none of the things inside them like `querySelector`), since those concepts only make sense in a browser.
 
 ## Installation
 
@@ -28,13 +28,17 @@ You'll need to have Node installed on your computer to follow this workshop. Che
 node --version
 ```
 
-You should see a version number printed. Ideally you want at least the current Long-term Support (LTS) version listed on [Node's homepage](https://nodejs.org/en/).
+You should see a version number printed. If you get an error that means Node isn't installed. Follow [our installation guide](/course/handbook/installation/#node) then try again.
 
-If you get an error that means Node isn't installed. Follow [our installation guide](/course/handbook/installation/#node) then try again.
+Our programme relies on some features that were only added in Node version 18 (the current version), so if you have an older version than that you should install the newer one with:
+
+```shell
+volta install node@18
+```
 
 ## Using Node
 
-The Node installation on your computer is a command-line program. You can use the `node` command in your Terminal to run JS code.
+The Node installation on your computer comes with a command-line program called `node`. This allows you to use the `node` command in your Terminal to run JS code.
 
 ### REPL
 
@@ -49,21 +53,12 @@ node
 You should see something like:
 
 ```
-Welcome to Node.js v14.15.5.
+Welcome to Node.js v18.5.0.
 Type ".help" for more information.
 >
 ```
 
 You can type JS code in here, then hit "Enter" to execute it (just like a browser console).
-
-{% box %}
-
-#### Try it
-
-1. Use the REPL to define a function that adds two numbers
-1. Call that function to add together `1234` and `4321`
-
-{% endbox %}
 
 ### JS files
 
@@ -73,7 +68,7 @@ The REPL is mostly for playing around. To write a real program you need `.js` fi
 node my-file.js
 ```
 
-Node will parse the JS code in the file, execute it, and (if there are any logs) show the logs in the Terminal.
+Node will parse the JS code in the file, execute it, and display anything logged in your terminal.
 
 {% box %}
 
@@ -81,9 +76,11 @@ Node will parse the JS code in the file, execute it, and (if there are any logs)
 
 1. Create a folder called `node-intro`
 1. Create a file inside named `add.js`
-1. Copy over your `add` function from the REPL
+1. Define an `add` function that can add two numbers
 1. Call the function and log the result
 1. Run your file in your Terminal
+
+You should see the result printed in your terminal.
 
 {% disclosure %}
 
@@ -111,149 +108,29 @@ node add.js
 
 {% endbox %}
 
-### Modules
+## Node package manager
 
-Modules are used to isolate code. In the browser by default all JS has access to the same global scope, even if loaded via separate script tags.
+Node comes with a "package manager" called npm. This is a way to easily install and use code written by other people. This is generally more robust than just copy/pasting code from the internet.
 
-Although browsers do now have [Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) Node was created before they were added to JavaScript. This means it has its own system (called "CommonJS").
-
-#### Exporting code
-
-By default all files are self-contained in Node. Code in one file cannot access anything in another file.
-
-To use something in another file you must "export" it. You can do so by assigning the value to `module.exports`:
-
-```js
-// messages.js
-const message1 = "hello";
-const message2 = "goodbye";
-
-module.exports = message1;
-```
-
-#### Importing code
-
-To access code that is exported from another file you must "import" it. You can do so by calling the `require` function with the path to the file:
-
-```js
-// index.js
-const whateverNameWeWant = require("./messages.js");
-
-console.log(whateverNameWeWant); // Logs: "hello"
-console.log(message2); // Error: message2 is not defined
-```
-
-Note: the file extension is optional—if you leave it off Node will assume it's a `.js` file. This is quite common in the Node ecosystem.
-
-#### Multiple exports
-
-You can export multiple values by assigning an object to `module.exports`:
-
-```js
-// messages.js
-const message1 = "hello";
-const message2 = "goodbye";
-
-module.exports = {
-  message1: message1,
-  message2: message2,
-};
-```
-
-```js
-// index.js
-const messages = require("./messages.js");
-// or using destructuring:
-// const { message1, message2 } = require("./messages.js");
-
-console.log(messages.message1); // Logs: "hello"
-console.log(messages.message2); // Logs: "goodbye"
-```
-
-{% box %}
-
-#### Try it
-
-1. Amend your `add.js` file to export your function
-1. Create a new file `index.js`, import the `add` function, call it and log the result
-1. Run `node index.js` to test it
-1. Add a second variable to `add.js`
-1. Try to import and log it in `index.js`
-1. Make sure you export it and import it to make this work
-
-{% disclosure %}
-
-```js
-// add.js
-function add(x, y) {
-  return x + y;
-}
-
-const another = "hi";
-
-module.exports = { add, another };
-```
-
-```js
-// index.js
-const { add, another } = require("./add.js");
-
-console.log((add(2 + 4)); // Logs: 6
-console.log(another); // Logs: "hi"
-```
+The npm company maintain a registry that anyone can upload code to, containing thousands of 3rd party modules. They also have a command-line program for managing those modules in your project. This comes with Node, so you should already have this CLI available:
 
 ```shell
-node index.js
+npm --version
 ```
 
-{% enddisclosure %}
+### `package.json` file
 
-{% endbox %}
-
-### Built-in modules
-
-Node provides some extra built-in modules that provide features JS doesn't have. You can import these just like your own modules, only without the path (just using their name). For example to use the built-in "fs" (filesystem) module:
-
-```js
-const fs = require("fs");
-
-fs.readFile("my-file.txt");
-```
-
-{% box %}
-
-#### Try it
-
-1. Use `require` to import the built-in `"os"` module
-1. Use the `os.cpus()` method to log what processors your computers has
-
-{% disclosure %}
-
-```js
-const os = require("os");
-
-console.log(os.cpus());
-```
-
-```shell
-node index.js
-```
-
-{% enddisclosure %}
-
-{% endbox %}
-
-## Node Package Manager
-
-Node comes with a "package manager" called npm. This is a way to easily install and use code written by other people.
-
-npm is a registry containing thousands of 3rd party modules. It's also a command-line program for managing those modules in your project. There are a few useful commands.
+Node projects usually have a configuration file called `package.json`. This is a special file that lists information about the project, including any _dependencies_. These are modules installed from npm that your project uses.
 
 ### `npm init`
 
-This will "initialise" your project by asking you some questions then creating a `package.json` file. This file records information about the project, including which 3rd party modules it depends on.
+This command will "initialise" your project by asking you some questions then creating the `package.json`.
 
-You can pass the `-y` flag to skip all the questions and create the `package.json` with the defaults. You can edit the JSON file by hand later if you need to.
+You can pass the `-y` flag to skip all the questions and create the `package.json` with the defaults. You can edit the JSON file by hand later if you need to. You also don't _have_ to use this command—you can manually create an empty `package.json` if you'd prefer:
+
+```shell
+echo "{}" > package.json
+```
 
 ### `npm install`
 
@@ -273,15 +150,15 @@ npm will list the module in the `"dependencies"` field in your `package.json`:
 }
 ```
 
-Now if another developer clones your repo they can just run `npm install`, and npm will automatically download all the 3rd party modules required to run your code.
+Now when another developer needs to work on your project they can clone your repo then run just this command:
+
+```shell
+npm install
+```
+
+npm will read the dependencies listed in the `package.json` and automatically download all the 3rd party modules required to run the project.
 
 npm will also create a directory named `node_modules` and put all the 3rd party code in there. This will be quite large, since modules you install can have their own dependencies (and those dependencies can depend on _other_ modules...). Since this directory gets so big it's common to add it to the `.gitignore` file.
-
-You can import these modules just like built-in Node modules. When you `require` a non-path Node will look in the `node_modules` folder to find the module to import.
-
-```js
-const cowsay = require("cowsay");
-```
 
 #### Development dependencies
 
@@ -301,17 +178,19 @@ You shouldn't use global modules in your Node apps, since they aren't listed in 
 
 ### npm scripts
 
-npm installs packages that have command-line interfaces into `/node_modules/.bin/`. This means we can run the `cowsay` CLI in our terminal like this:
+It's common for modules you install to have command-line programs you can run in your terminal. E.g. the popular ESLint linter installs a CLI so you can check your code by running a command like `eslint add.js`.
+
+npm installs dependency CLIs into `node_modules/.bin/`. This means you can run the `cowsay` CLI we just installed in our terminal like this:
 
 ```shell
-./node_modules/.bin/cowsay hello
+node_modules/.bin/cowsay hello
 ```
 
 However this is pretty awkward to type, especially if it's a command we need to use a lot (like "start the dev server"). Luckily npm scripts make this nicer.
 
 npm automatically creates a field called `"scripts"` in your `package.json`. These are shortcuts for different tasks you might want to do while developing your app. They're like per-project command-line aliases.
 
-You can reference dependencies directly in a script (without the `/node_modules/.bin/` bit). So we could add a "greet" script like so:
+npm will automatically add `./node_modules/.bin` to the path of any command you use in these scripts. So you could add a "greet" script like so:
 
 ```json
 {
@@ -321,7 +200,11 @@ You can reference dependencies directly in a script (without the `/node_modules/
 }
 ```
 
-You can run npm scripts in your terminal with `npm run <name>`. So in this case `npm run greet`.
+You can run npm scripts in your terminal with `npm run <name>`. So in this case:
+
+```shell
+npm run greet
+```
 
 {% box %}
 
@@ -330,7 +213,7 @@ You can run npm scripts in your terminal with `npm run <name>`. So in this case 
 1. Initialise your project to create a `package.json`
 1. Install the `cowsay` module as a dev dependency
 1. Look in the `node_modules` folder—can you see `cowsay`?
-1. Run `./node_modules/.bin/cowsay hello` in your terminal
+1. Run `node_modules/.bin/cowsay hello` in your terminal
 1. Add `"greet": "cowsay hello"` to your npm scripts
 1. Run `npm run greet` in your terminal
 
