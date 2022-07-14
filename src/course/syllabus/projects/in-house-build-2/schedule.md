@@ -2,14 +2,26 @@
 layout: schedule
 schedule:
   monday:
-    - name: Build
+    - start: 9:45
+      end: 10:00
+      name: Check-in
+    - start: 10:00
+      end: 10:10
+      name: Feedback survey
+    - name: Respond to issues / Build
       start: 10:10
       end: 13:00
       type: project
+    - start: 13:00
+      end: 14:00
+      name: Lunch
     - name: Build
       start: 14:00
       end: 17:45
       type: project
+    - start: 17:45
+      end: 18:00
+      name: Check-out
   tuesday:
     - name: Build
       start: 10:00
@@ -57,7 +69,8 @@ schedule:
       start: 11:00
       end: 12:00
       url: /course/handbook/project-docs/sprint-planning
-    - name: Presentation Prep
+    - name: Portfolio evidence gathering
       start: 12:00
       end: 13:00
+      url: https://fac-standard.netlify.app/portfolio/
 ---

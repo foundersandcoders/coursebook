@@ -2,79 +2,9 @@
 layout: schedule
 schedule:
   monday:
-    - name: Intro presentation
-      start: 10:10
-      end: 10:30
-      url: https://fac-slides.netlify.app/slides/full-stack-app/
-    - name: Learn Next.js
-      start: 10:30
-      end: 13:00
-      url: https://nextjs.org/learn/
-      type: workshop
-    - name: Learn Next.js
-      start: 14:00
-      end: 17:45
-      url: https://nextjs.org/learn/
-      type: workshop
   tuesday:
-    - name: Project setup
-      start: 10:00
-      end: 12:00
-      url: ../project
-    - name: Project
-      start: 12:00
-      end: 13:00
-      type: project
-    - name: Project
-      start: 14:00
-      end: 17:45
-      type: project
-  wednesday:
-    - name: Role circles
-      start: 10:00
-      end: 10:15
-      url: /course/handbook/role-circles
-    - name: Project
-      start: 10:15
-      end: 13:00
-      type: project
-    - name: TFB - Selection
-      start: 14:00
-      end: 15:00
-    - name: Project
-      start: 15:00
-      end: 17:45
-      type: project
-  thursday:
-    - name: Project
-      start: 10:00
-      end: 13:00
-      type: project
-    - name: Digital 101
-      start: 14:00
-      end: 15:30
-    - name: Project
-      start: 15:30
-      end: 16:30
-      type: project
-  friday:
-    - name: Respond to Issues
-      start: 14:00
-      end: 15:00
-    - name: Project documentation
-      start: 15:00
-      end: 15:30
-    - name: Presentation prep
-      start: 15:30
+    - name: Schedule research and testing
+      start: 15:45
       end: 16:00
-    - name: Team SGC
-      start: 16:00
-      end: 16:30
-    - name: Presentations
-      start: 16:30
-      end: 17:15
-      type: presentation
-    - name: Cohort SGC
-      start: 17:15
-      end: 17:45
+      url: https://hackmd.io/@kd32zKu_SymvWskEr4gE3g/HyHzaEYy9
 ---
