@@ -13,7 +13,8 @@ _We usually allocate a little longer than needed in the schedule to give time fo
 - 00:00 - [Synthesise Research](#synthesise-research)
 - 00:40 - [Mapping](#mapping-the-journey)
 - 01:00 - [How Might We...?](#how-might-we)
-- 01:15 - End
+- 01:15 - [Consequence Scanning](#consequence-scanning)
+- 01:30 - End
 
 ## Synthesise research
 
@@ -43,3 +44,11 @@ There might be a few different avenues, or choices made along the way. But by th
 ## How Might We...?
 
 This is a speculative exercise which intends to get developers thinking about the challenges of building a Product which will respond to the needs they've identified so far. Asking questions, and not worrying about the answers, will help to shape the key challenges of building this product.
+
+## Consequence scanning
+
+Developers are encouraged to think about the effects of building a product like the one they have in mind. What good could it do? And what harm might it cause?
+
+Create a table with two rows and two columns. The rows can be labelled "Intentended" and "Unintended"; and the columns labelled "Positive" and "Negative". You'll then have four squares for the developers to add notes.
+
+Developers should add notes to the relevant sections for different intended/unintedend and positive/negative consequences of the app. The consequences might be broad, and can be imminent or distant. The main idea here is to consider the impact of a certain digital product.

@@ -13,8 +13,7 @@ _We usually allocate a little longer than needed in the schedule to give time fo
 - 00:30 - [Research: Assumptions](#assumptions)
 - 00:50 - [Research: Brain Dump](#brain-dump)
 - 01:10 - [Research: Organise](#organise)
-- 01:30 - [Consequence Scanning](#consequence-scanning)
-- 01:50 - End
+- 01:30 - End
 
 ## Problem Statement
 
@@ -83,11 +82,3 @@ When asking research questions, it can be helpful to _look for stories_. Frame t
 The questions should be organised into a conversational flow which can be followed in each interview.
 
 Developers should write a brief introduction which they'll start off the interview with. It should include a one-sentence summary of what the idea is, without hinting at what the product will be. All interviews should begin without bias, in order to get honest and genuine feedback from a user.
-
-## Consequence scanning
-
-Developers are encouraged to think about the effects of building a product like the one they have in mind. What good could it do? And what harm might it cause?
-
-Create a table with two rows and two columns. The rows can be labelled "Intentended" and "Unintended"; and the columns labelled "Positive" and "Negative". You'll then have four squares for the developers to add notes.
-
-Developers should add notes to the relevant sections for different intended/unintedend and positive/negative consequences of the app. The consequences might be broad, and can be imminent or distant. The main idea here is to consider the impact of a certain digital product.
