@@ -1,8 +1,8 @@
 Reinforce your learning by building something fun.
 
-## Week 1
+## Week 10
 
-### Mon 14th Mar
+### Session 1
 
 - 17:00-17:10 Check-in/feedback form
 - 17:10-19:00 Employer Q&As
@@ -11,9 +11,11 @@ Reinforce your learning by building something fun.
 
 Homework:
 
-- Continue with projects
+- [Node & npm intro](/workshops/node-npm-intro/)
+- [Dev tooling](/workshops/dev-tooling/)
+- [Projects](../project/)
 
-### Thu 17th Mar
+### Session 2
 
 - Q&A
 - Mock interviews
