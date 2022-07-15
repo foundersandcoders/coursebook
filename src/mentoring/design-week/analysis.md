@@ -1,8 +1,10 @@
 ---
-title: Definition Workshop Pt. I
-description: Facilitating the first Definition workshop
+title: Analysis Workshop
+description: Facilitating the Analysis workshop
 layout: mentor-notes
 ---
+
+_Note: this was previously 'Definition workshop - part one'_
 
 ## Schedule
 

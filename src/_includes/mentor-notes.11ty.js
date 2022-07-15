@@ -12,9 +12,10 @@ exports.render = ({ title, description, page: { url }, content }) => {
   <aside>
   <${Nav}>
       <${Section} title="Design week" url=${url}>
-       <${Link} url=${url} href="/mentoring/discovery">Discovery</${Link}>
-       <${Link} url=${url} href="/mentoring/definition-1">Definition 1</${Link}>
-       <${Link} url=${url} href="/mentoring/definition-2">Definition 2</${Link}>
+       <${Link} url=${url} href="/mentoring/design-week/discovery">Discovery</${Link}>
+       <${Link} url=${url} href="/mentoring/design-week/analysis">Analysis</${Link}>
+       <${Link} url=${url} href="/mentoring/design-week/definition">Definition</${Link}>
+       <${Link} url=${url} href="/mentoring/design-week/user-research">User research</${Link}>
       </${Section}>
   </${Nav}>
   </aside>
