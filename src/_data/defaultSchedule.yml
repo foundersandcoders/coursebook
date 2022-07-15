@@ -15,10 +15,10 @@ tuesday:
     name: Morning challenge
     type: challenge
   - start: 11:00
-    end: 12:30
+    end: 12:20
     name: Group discussion
     type: workshop
-  - start: 12:30
+  - start: 12:20
     end: 13:00
     name: Cohort discussion
     type: workshop
