@@ -27,12 +27,8 @@ schedule:
       start: 10:00
       end: 13:00
       type: project
-    - name: Mentoring reflections
-      start: 14:00
-      end: 15:30
-      url: /course/handbook/project-docs/mentoring
     - name: Build
-      start: 15:30
+      start: 14:00
       end: 17:45
       type: project
   wednesday:
