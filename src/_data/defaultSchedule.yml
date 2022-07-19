@@ -98,32 +98,35 @@ friday:
     name: Live code review
     url: /course/handbook/code-review/
   - start: 10:30
-    end: 13:00
+    end: 12:00
     name: Respond to issues
     type: project
+  - start: 12:00
+    end: 12:30
+    name: Project documentation
+    url: /course/handbook/project-documentation
+  - start: 12:30
+    end: 13:00
+    name: Presentation prep
+    url: /course/handbook/projects/#project-presentation
   - start: 13:00
     end: 14:00
     name: Lunch
   - start: 14:00
     end: 14:30
-    name: Project documentation
-    url: /course/handbook/project-documentation
-  - start: 14:30
-    end: 15:00
-    name: Presentation prep
-    url: /course/handbook/projects/#project-presentation
-  - start: 15:00
-    end: 15:30
     name: Team SGC
     url: /course/handbook/retrospectives/#team-retrospectives
-  - start: 15:30
-    end: 16:15
+  - start: 14:30
+    end: 15:30
     name: Presentations
     type: presentation
-  - start: 16:15
-    end: 17:00
+  - start: 15:30
+    end: 16:30
     name: Cohort SGC
     url: /course/handbook/retrospectives/#cohort-retrospective
+  - start: 16:30
+    end: 17:00
+    name: Introduce next week
   - start: 17:00
     end: 17:45
     name: Speaker

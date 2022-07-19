@@ -81,12 +81,8 @@ schedule:
       start: 10:00
       end: 12:00
       type: project
-<<<<<<< HEAD
     - name: Portfolio evidence gathering
-=======
-    - name: Portfolio Evidence Gathering
->>>>>>> main
       start: 12:00
-      end: 13:00
+      end: 12:30
       url: https://fac-standard.netlify.app/portfolio/
 ---
