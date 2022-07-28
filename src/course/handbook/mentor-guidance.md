@@ -82,7 +82,7 @@ _**Tech for Better**_
 
 _**Projects**_
 
-- On remote days, Create two breakout rooms per project to allow learners to split up into pairs.
+- On remote days, create two breakout rooms per project to allow learners to split up into pairs.
 - Be available on Discord, Wednesdays and Thursdays are usually more unstructured but the cohort will need help with their project work.
 
 _**Role circles (from week 2)**_
