@@ -258,13 +258,14 @@ Now we need to send a request to the server. As of Node 18 we can use `fetch` to
 ```js
 test("home route returns expected page", async () => {
   const app = server.listen(9876);
-
   const response = await fetch("http://localhost:9876");
+  app.close();
+
   assert.equal(response.status, 200);
 });
 ```
 
-Here we're sending a request, waiting for the server to respond, then checking that the response was successful.
+Here we're sending a request, waiting for the server to respond, closing the server, then checking that the response was successful. We need to close the server _before_ any assertions, since the test will stop executing as soon as an assertion fails. If that happened before we closed it the server would never stop listening.
 
 {% box %}
 
@@ -279,18 +280,16 @@ Finally we need to get the response body and check that it is correct:
 ```js
 test("home route returns expected page", async () => {
   const app = server.listen(9876);
-
   const response = await fetch("http://localhost:9876");
-  assert.equal(response.status, 200);
+  app.close();
 
+  assert.equal(response.status, 200);
   const body = await response.text();
   assert.equal(body, "hello");
-
-  app.close();
 });
 ```
 
-Here we're using the `.text()` method to get the raw text content of the response body, then checking it matches what we expect. Now that we're finished with this instance of the server we use the `.close()` method to stop it listening. Otherwise we'd end up with lots of rogue servers in the background using up port numbers.
+Here we're using the `.text()` method to get the raw text content of the response body, then checking it matches what we expect.
 
 Now that we know how to test our server we can get back to learning a bit more about Express.
 
@@ -364,14 +363,12 @@ Try creating a test for this new route in `tests/server.test.js`: it should chec
 ```js
 test("/uh-oh route returns error message", async () => {
   const app = server.listen(9876);
-
   const response = await fetch("http://localhost:9876/uh-oh");
-  assert.equal(response.status, 500);
+  app.close();
 
+  assert.equal(response.status, 500);
   const body = await response.text();
   assert.equal(body, "something went wrong");
-
-  app.close();
 });
 ```
 
@@ -511,14 +508,12 @@ Let's write a test _first_ before we try to implement this. Our route is going t
 
 test("/search returns message including keyword", async () => {
   const app = server.listen(9876);
-
   const response = await fetch("http://localhost:9876/search?keyword=bananas");
-  assert.equal(response.status, 200);
+  app.close();
 
+  assert.equal(response.status, 200);
   const body = await response.text();
   assert.match(body, /You searched for bananas/);
-
-  app.close();
 });
 ```
 
@@ -577,18 +572,12 @@ Reload http://localhost:3000/asdfg and you should now see your custom response. 
 
 test("missing routes return 404 response", async () => {
   const app = server.listen(9876);
-
-  const response = await fetch("http://localhost:9876/lndfklkj");
-  assert.equal(response.status, 404);
-  const body = await response.text();
-  assert.match(body, /Not found/);
-
   const response = await fetch("http://localhost:9876/definitely-not-real");
+  app.close();
+
   assert.equal(response.status, 404);
   const body = await response.text();
   assert.match(body, /Not found/);
-
-  app.close();
 });
 ```
 
@@ -701,15 +690,14 @@ We can't make a `POST` request as easily in our browser, since that would requir
 
 test("/submit route responds to POST requests", async () => {
   const app = server.listen(9876);
-
   const response = await fetch("http://localhost:9876/submit", {
     method: "POST",
   });
+  app.close();
+
   assert.equal(response.status, 200);
   const body = await response.text();
   assert.match(body, /thanks for submitting/);
-
-  app.close();
 });
 ```
 
@@ -747,12 +735,11 @@ test("/submit route responds to POST requests", async () => {
       "content-type": "application/x-www-form-urlencoded",
     },
   });
-  assert.equal(response.status, 200);
+  app.close();
 
+  assert.equal(response.status, 200);
   const body = await response.text();
   assert.match(body, /thanks for submitting, oli/);
-
-  app.close();
 }
 ```
 
