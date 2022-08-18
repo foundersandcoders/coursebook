@@ -296,6 +296,42 @@ Now that we know how to test our server we can get back to learning a bit more a
 
 ---
 
+## Port flexibility
+
+We are currently hard-coding the port our server listens on to `3000`. This works fine, but we could make it more flexible. When you deploy this code to a hosting provider like Heroku they will run your code on their computer. This computer may have lots of different programs running that all need to use ports. Ideally the host can tell your server which port to listen to.
+
+This is usually achieve with [environment variables](https://en.wikipedia.org/wiki/Environment_variable). These are like global variables that are set _before_ your program runs. For example we can set a variable named `TEST` in our terminal like this:
+
+```shell
+TEST=123 node index.js
+```
+
+Node makes environment variables available via the global `process.env` object. So we could read that `TEST` variable using this JS:
+
+```js
+console.log(process.env.TEST); // Logs: 123
+```
+
+We can tweak our server code in `index.js` to use a `PORT` environment variable if it's set, otherwise fallback to `3000`:
+
+```js
+// index.js
+const server = require("./server.js");
+
+const PORT = process.env.PORT || 3000;
+server.listen(PORT);
+```
+
+Now we can control what port our server listens on without editing the code. E.g. to start it using a different port:
+
+```shell
+PORT=8080 node index.js
+```
+
+When you deploy to a hosting provider like Heroku they will use this to start your server with a random available port.
+
+---
+
 ## The response
 
 HTTP responses need a few different things:
