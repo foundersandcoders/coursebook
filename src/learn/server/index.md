@@ -127,7 +127,7 @@ It would be nice see a log so we know our server started correctly. Luckily the 
 We can use this to log a message:
 
 ```js
-server.listen(3000, () => console.log("Listening on http://localhost:3000"));
+server.listen(3000, () => console.log("Listening at http://localhost:3000"));
 ```
 
 Stop the previous process, re-run your file, and you should see "Listening on http://localhost:3000" logged.
@@ -319,7 +319,7 @@ We can tweak our server code in `index.js` to use a `PORT` environment variable 
 const server = require("./server.js");
 
 const PORT = process.env.PORT || 3000;
-server.listen(PORT);
+server.listen(PORT, () => console.log(`Listening at http://localhost:${PORT}`));
 ```
 
 Now we can control what port our server listens on without editing the code. E.g. to start it using a different port:
