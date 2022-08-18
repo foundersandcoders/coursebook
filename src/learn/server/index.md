@@ -7,6 +7,7 @@ keywords:
   - js
   - express
   - server
+challenge: https://github.com/foundersandcoders/server-challenge
 ---
 
 Node is often used to create HTTP servers for the web. It's a bit fiddly to do this with just the built-in modules, so we're going to use the Express library to help create our server.
