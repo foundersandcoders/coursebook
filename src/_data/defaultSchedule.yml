@@ -28,6 +28,9 @@ tuesday:
   - name: Tech for Better
     start: 14:00
     end: 15:30
+  - name: Break
+    start: 15:30
+    end: 15:45
   - name: Final project prep
     start: 15:45
     end: 16:00
