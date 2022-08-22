@@ -9,5 +9,12 @@ schedule:
     - name: Intro to final projects
       start: 15:45
       end: 16:00
-      url: https://hackmd.io/@jamdelion/Skhetr0dF#/
+      url: https://fac-slides.netlify.app/slides/final-projects/#0
+  wednesday:
+  thursday:
+  friday:
+    - name: Cohort SGC
+      start: 15:30
+      end: 17:00
+      url: /course/handbook/retrospectives/#cohort-retrospective
 ---

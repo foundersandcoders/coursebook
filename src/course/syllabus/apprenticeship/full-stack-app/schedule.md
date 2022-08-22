@@ -6,7 +6,7 @@ schedule:
     - name: Schedule research and testing
       start: 15:45
       end: 16:00
-      url: https://hackmd.io/@kd32zKu_SymvWskEr4gE3g/HyHzaEYy9
+      url: https://fac-slides.netlify.app/slides/research-and-testing/
   wednesday:
   thursday:
   friday:
