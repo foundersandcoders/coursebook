@@ -1,6 +1,9 @@
 .button {
   --bg: var(--bg-400);
   --bg-hover: var(--bg-200);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   max-width: max-content;
   padding: 0.75rem 1rem;
   cursor: pointer;

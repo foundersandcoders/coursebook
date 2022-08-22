@@ -13,6 +13,7 @@ exports.render = ({
   page,
   content,
   starter = true,
+  challenge,
 }) => {
   return html`
     <header class="vstack gap-xl pad-xl stripes">
@@ -38,6 +39,34 @@ exports.render = ({
         }
       </div>
       ${starter && html`<${Copy} ...${page} />`}
+      ${
+        challenge &&
+        html`
+          <a
+            href="${challenge}"
+            target="_blank"
+            rel="noopener"
+            class="button"
+            style="--bg: var(--primary); --bg-hover: var(--primary-dark)"
+          >
+            View challenge repo
+            <svg
+              viewBox="0 0 32 32"
+              width="16"
+              height="16"
+              fill="none"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="4"
+                d="M14 9 L3 9 3 29 23 29 23 18 M18 4 L28 4 28 14 M28 4 L14 18"
+              ></path>
+            </svg>
+          </a>
+        `
+      }
     </header>
     <${RawContent} style="margin: 4rem 0" class="flow">${content}</${RawContent}>
   `;
