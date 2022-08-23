@@ -13,7 +13,7 @@ schedule:
   thursday:
   friday:
     - name: Full-stack Intro
-      start: 16:30
-      end: 17:00
+      start: 16:20
+      end: 16:50
       url: https://fac-slides.netlify.app/slides/full-stack-app/
 ---

@@ -15,6 +15,6 @@ schedule:
   friday:
     - name: Cohort SGC
       start: 15:30
-      end: 17:00
+      end: 16:50
       url: /course/handbook/retrospectives/#cohort-retrospective
 ---

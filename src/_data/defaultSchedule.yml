@@ -8,9 +8,6 @@ tuesday:
     end: 10:00
     name: Check-in
   - start: 10:00
-    end: 10:10
-    name: Feedback survey
-  - start: 10:10
     end: 11:00
     name: Morning challenge
     type: challenge
@@ -125,12 +122,15 @@ friday:
     name: Presentations
     type: presentation
   - start: 15:30
-    end: 16:30
+    end: 16:20
     name: Cohort SGC
     url: /course/handbook/retrospectives/#cohort-retrospective
-  - start: 16:30
-    end: 17:00
+  - start: 16:20
+    end: 16:50
     name: Introduce next week
+  - start: 16:50
+    end: 17:00
+    name: Feedback survey
   - start: 17:00
     end: 17:45
     name: Speaker
