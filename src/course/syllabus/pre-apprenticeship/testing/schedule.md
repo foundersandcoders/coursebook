@@ -11,6 +11,7 @@ Learn how to make sure your code works correctly by creating automated tests.
 - 19:45-20:00 Check-out
 
 Homework:
+
 - Complete [Integration testing workshop](/workshops/learn-integration-testing/)
 - [TDD workshop](/workshops/tdd-array-methods/)
 
@@ -33,6 +34,7 @@ Homework:
 - 19:45-20:00 Check-out
 
 Homework:
+
 - [Project](../project/)
 
 ### Session 2
@@ -44,6 +46,7 @@ Homework:
 - 19:45-20:00 Check-out
 
 Homework:
+
 - [Project](../project/)
 
 ## Week 9
@@ -56,6 +59,7 @@ Homework:
 - 19:45-20:00 Check-out
 
 Homework:
+
 - [Project](../project/)
 
 ### Session 2
@@ -67,4 +71,5 @@ Homework:
 - 19:45-20:00 Check-out
 
 Homework:
+
 - Revision quiz

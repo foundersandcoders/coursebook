@@ -2,6 +2,12 @@
 layout: schedule
 schedule:
   monday:
+    - start: 9:45
+      end: 10:00
+      name: Check-in
+    - start: 10:00
+      end: 10:10
+      name: Feedback survey
     - name: Definition presentation
       start: 10:10
       end: 10:30
@@ -11,10 +17,16 @@ schedule:
       start: 10:30
       end: 13:00
       type: workshop
+    - start: 13:00
+      end: 14:00
+      name: Lunch
     - name: Wireframing
       start: 14:00
       end: 17:45
       type: project
+    - start: 17:45
+      end: 18:00
+      name: Check-out
   tuesday:
     - name: Usability testing
       start: 10:00
@@ -69,8 +81,8 @@ schedule:
       start: 10:00
       end: 12:00
       type: project
-    - name: Portfolio Evidence Gathering
+    - name: Portfolio evidence gathering
       start: 12:00
-      end: 13:00
+      end: 12:30
       url: https://fac-standard.netlify.app/portfolio/
 ---
