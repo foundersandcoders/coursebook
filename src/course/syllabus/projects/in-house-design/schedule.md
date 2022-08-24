@@ -2,6 +2,12 @@
 layout: schedule
 schedule:
   monday:
+    - start: 9:45
+      end: 10:00
+      name: Check-in
+    - start: 10:00
+      end: 10:10
+      name: Feedback survey
     - name: The Design Sprint
       start: 10:10
       end: 10:40
@@ -11,6 +17,9 @@ schedule:
       start: 10:40
       end: 13:00
       type: workshop
+    - start: 13:00
+      end: 14:00
+      name: Lunch
     - name: Conduct user research
       start: 14:00
       end: 16:00
@@ -24,6 +33,9 @@ schedule:
       start: 16:15
       end: 17:45
       type: workshop
+    - start: 17:45
+      end: 18:00
+      name: Check-out
   tuesday:
     - name: Definition workshop part two
       start: 10:00
@@ -46,12 +58,8 @@ schedule:
       url: https://docs.google.com/presentation/d/10VxYiFBmwLevEH3V6AP74ibf_JRt51Gd-295TICrWQU/edit?usp=sharing
       type: presentation
   wednesday:
-    - name: Web Science
-      start: 10:00
-      end: 11:00
-      type: presentation
     - name: Wireframing
-      start: 11:00
+      start: 10:00
       end: 13:00
       type: project
     - name: Usability testing
@@ -104,7 +112,8 @@ schedule:
       start: 10:15
       end: 12:00
       url: /course/handbook/project-docs/sprint-planning
-    - name: Presentation prep
+    - name: Portfolio evidence gathering
       start: 12:00
-      end: 13:00
+      end: 12:30
+      url: https://fac-standard.netlify.app/portfolio/
 ---

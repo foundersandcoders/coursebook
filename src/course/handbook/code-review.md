@@ -65,8 +65,8 @@ Don't feel like you have to look at all the code that's written. Take your time 
 
 When _receiving_ reviews try to remember that the reviewer has your best interests at heart. They want to help you become a better developer, so assume they have good intent. You are not your code.
 
----
+<!--
 
 You should strive to write code that makes it obvious _what_ is happening. This means use descriptive variable names (`articles` is better than `data`). Try naming complex conditionals (`if (articles && articles.length > 1)` becomes `if (atLeastOneArticle)`).
 
-It's harder to include _why_ something is necessary in the code. This is when comments are useful—they let you provide context you had at the time of writing that the person reading the code in the future might not.
+It's harder to include _why_ something is necessary in the code. This is when comments are useful—they let you provide context you had at the time of writing that the person reading the code in the future might not. -->

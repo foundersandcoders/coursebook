@@ -37,7 +37,7 @@ It's important to get your project setup done as early as possible, so your team
 Generate a Next app with:
 
 ```shell
-npx create-next-app
+npx create-next-app --use-npm
 ```
 
 {% box %}

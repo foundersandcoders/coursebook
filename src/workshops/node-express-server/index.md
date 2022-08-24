@@ -89,7 +89,7 @@ Our Node program has a functioning server, but that server isn't currently liste
 
 {% box %}
 
-A "port" is an entry/exit point on a computer to allow network connections (like an airport allows people in/out of a country). HTTP uses port 80 by default (and HTTP uses 443), so you don't normally see them in URLs on the web. E.g. when you visit `https://google.com` you are really going to `https://google.com:443`.
+A "port" is an entry/exit point on a computer to allow network connections (like an airport allows people in/out of a country). HTTP uses port 80 by default (and HTTPS uses 443), so you don't normally see them in URLs on the web. E.g. when you visit `https://google.com` you are really going to `https://google.com:443`.
 
 When you're running a server locally in development it's common to use a random number like 3000 or 8080. You can access a port by adding it to a URL like this: `http://localhost:3000`.
 

@@ -1,72 +1,75 @@
 Learn how to make sure your code works correctly by creating automated tests.
 
-## Week 1
+## Week 7
 
-### Monday
+### Session 1
 
 - 17:00-17:15 Check-in
-- 17:15-17:45 [Intro talk](https://fac-slides.netlify.app/slides/testing/)
-- 17:45-18:15 [Build a testing library](/workshops/learn-testing/)
-- 18:15-19:45 [Unit testing workshop](/workshops/learn-unit-testing/)
+- 17:15-18:15 Peer-led tutorial groups
+- 18:15-19:00 Class discussion & solutions
+- 19:00-19:45 Start on [Integration testing workshop](/workshops/learn-integration-testing/)
 - 19:45-20:00 Check-out
 
-Homework for Mon 28th Feb:
+Homework:
 
-- Finish Unit testing workshop
-- [Integration testing workshop](/workshops/learn-integration-testing/) (2 hours)
+- Complete [Integration testing workshop](/workshops/learn-integration-testing/)
+- [TDD workshop](/workshops/tdd-array-methods/)
+
 <!-- - [Scope Challenge](/workshops/scope-challenge/) (1 hour) -->
 
-### Thursday
+### Session 2
 
-- 17:00-17:15 Check-in
-- 17:15-18:00 Workshop discussion & solutions
-- 18:00-19:45 [TDD workshop](/workshops/tdd-array-methods/)
+- 17:00-17:10 Check-in
+- 17:10-18:00 Employer Q&A
+- 18:00-19:00 Peer-led tutorial groups
+- 19:00-19:45 Class discussion & solutions
 - 19:45-20:00 Check-out
 
-Homework for Thu 3rd Mar:
+## Week 8
 
-- Finish TDD workshop
-
-## Week 2
-
-### Monday
+### Session 1
 
 - 17:00-17:15 Check-in
-- 17:15-18:00 Workshop discussion & solutions
-- 18:00-19:45 [Project](../project/) introduction
+- 17:15-19:45 [Project](../project/) introduction
 - 19:45-20:00 Check-out
 
-Homework for Thu 3rd Mar:
+Homework:
 
 - [Project](../project/)
 
-### Thursday
+### Session 2
 
-- Q&A
-- Employment preparation
+- 17:00-17:10 Check-in
+- 17:10-18:00 Employer Q&A
+- 18:00-18:30 [Project](../project/) preview
+- 18:30-19:45 Mock interviews
+- 19:45-20:00 Check-out
 
-Homework for Thu 10th Mar:
+Homework:
 
-- Screening questions and coding challenge
+- [Project](../project/)
 
-## Week 3
+## Week 9
 
-### Monday
+### Session 1
 
-- Q&A
-- Employment preparation
+- 17:00-17:15 Check-in
+- 17:15-18:30 [Project](../project/) code review
+- 18:30-19:45 Mock interviews
+- 19:45-20:00 Check-out
 
-Homework for Thu 17th Mar:
+Homework:
 
-- Screening questions and coding challenge
+- [Project](../project/)
 
-### Thursday
+### Session 2
 
-- Q&A
-- Project presentations
-- Employment preparation
+- 17:00-17:15 Check-in
+- 17:15-18:00 [Project](../project/) presentations
+- 18:00-19:15 Mock interviews
+- 19:15-19:45 Q&A
+- 19:45-20:00 Check-out
 
-Homework for Mon 14th Feb:
+Homework:
 
 - Revision quiz
-- Complete take-home challenge

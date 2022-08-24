@@ -2,48 +2,16 @@
 layout: schedule
 schedule:
   monday:
-    - name: Intro presentation
-      start: 10:10
-      end: 10:30
-      url: https://fac-slides.netlify.app/slides/full-stack-app/
-    - name: Learn Next.js
-      start: 10:30
-      end: 13:00
-      url: https://nextjs.org/learn/
-      type: workshop
-    - name: Learn Next.js
-      start: 14:00
-      end: 17:45
-      url: https://nextjs.org/learn/
-      type: workshop
   tuesday:
-    - name: Project setup
-      start: 10:00
-      end: 12:00
-      url: ../project
-    - name: Project
-      start: 12:00
-      end: 13:00
-      type: project
-    - name: TFB - Selection
-      start: 14:00
-      end: 15:30
-    - name: Project
-      start: 15:30
-      end: 17:45
-      type: project
+    - name: Schedule research and testing
+      start: 15:45
+      end: 16:00
+      url: https://fac-slides.netlify.app/slides/research-and-testing/
   wednesday:
-    - name: Role circles
-      start: 10:00
-      end: 10:15
-      url: /course/handbook/role-circles
-    - name: Project
-      start: 10:15
-      end: 13:00
-      type: project
   thursday:
-    - name: Project
-      start: 10:00
-      end: 13:00
-      type: project
+  friday:
+    - name: Design Week Intro
+      start: 16:20
+      end: 16:50
+      url: https://fac-slides.netlify.app/slides/design-sprint/
 ---
