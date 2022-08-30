@@ -62,7 +62,7 @@ The _source control tab_ in VS Code allows you to use Git within your text edito
    ![VS code open showing the source control tab](./images/git-4.jpg)
 1. Click the add button to stage your files, this will move them to 'Staged Changes'
    ![VS Code shows the files changed under 'staged changes'](./images/git-5.jpg)
-1. Click the commit button (represented with a tick) to commit those files to your Git history
+1. Write a meaningful commit message, which summarises the work you've completed. Then, click the commit button (represented with a tick) to commit those files to your Git history.
    ![Writing a commit message](./images/git-6.jpg)
 1. VS Code will prompt you to publish the branch once you've staged all changes. The first time you click this, you'll need to connect to your GitHub account.
    ![The side panel on VS code now shows a button with the text 'publish branch'](./images/git-7.jpg)
@@ -76,3 +76,7 @@ And that's all! You'll now have published the files to GitHub. If you visit your
 From here, you can continue to stage, commit and push your changes.
 
 You should commit once you have completed a change or feature, not after writing certain amount of code, and don't wait until a project is complete. Getting into the habit of making small commits often will give you a good level of practice with Git. Regularly pushing your changes will ensure your codebase is backed up and version-controlled. Additonally, you'll have GitHub activity on your profile (green squares).
+
+## Deploying your website
+
+Each of your projects, should be live on the web. GitHub offers a free, and easy way to get your site deployed online. Have a read through their [documentation on getting started](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site). Please note, GitHub mention using Jekyll to create default themes for projects, we ask that you do not use any custom themes, and configure all your styling using CSS.

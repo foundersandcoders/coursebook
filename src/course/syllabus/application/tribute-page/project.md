@@ -2,7 +2,7 @@ Your first project is to create a _Tribute Page_. This can be about an interest 
 
 {% box %}
 
-If you're new to web development, we recommend you check out the [resources](../resources) before you get started. You might like to spend some time learning the fundamentals of HTML and CSS before you dive in. You don't need to know a lot about JavaScript to complete this project and our projects intend to guide your learning through it.
+If you're new to web development, we recommend you check out the [resources](../resources) before you get started. You might like to spend some time learning the fundamentals of HTML and CSS before you dive in. You don't need to know a lot about JavaScript to complete this project and our projects intend to guide your learning through it. Before starting the project, have a read through our [guide to getting started](/course/getting-started/).
 
 {% endbox %}
 

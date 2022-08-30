@@ -1,4 +1,4 @@
-For this project, we're giving you a set of data in a JavaScript object. Create an interface where the user can interact with and change what is displayed on your webpage. Interacting with page will alter and update the data stored in the object.
+For this project, we're giving you some data in a JavaScript object. Create an interface where the user can interact with and change what is displayed on your webpage. Interacting with page will alter and update the data stored in the object.
 
 What you build and how you interpret the data is up to you. We are looking to see your own way of displaying and interacting with the data.
 
