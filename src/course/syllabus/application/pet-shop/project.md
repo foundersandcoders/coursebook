@@ -12,7 +12,7 @@ What you build and how you interpret the data is up to you. We are looking to se
 
 Your data is stored in the following object:
 
-```
+```js
 let dataObject = {
   1: {
     name: "Fido",
