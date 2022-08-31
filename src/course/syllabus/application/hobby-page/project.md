@@ -1,4 +1,4 @@
-Your first project is to create a _Tribute Page_. This can be about an interest of yours or a public figure you admire. You are not required to make this about yourself or disclose anything personal. The page will be built with HTML, styled with CSS and use a bit of JavaScript.
+Your first project is to create a _Hobby Page_. This can be about one of your hobbies, a particular interest of yours, or a public figure you admire. You are not required to make this about yourself or disclose anything personal. The page will be built with HTML, styled with CSS and use a bit of JavaScript.
 
 {% box %}
 
