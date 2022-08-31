@@ -79,4 +79,4 @@ You should commit once you have completed a change or feature, not after writing
 
 ## Deploying your website
 
-Each of your projects, should be live on the web. GitHub offers a free, and easy way to get your site deployed online. Have a read through their [documentation on getting started](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site). Please note, GitHub mention using Jekyll to create default themes for projects, we ask that you do not use any custom themes, and configure all your styling using CSS.
+Each of your projects should be live on the web. GitHub offers a free, and easy way to get your site deployed online. Have a read through their [documentation on getting started](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site). Please note, GitHub mention using Jekyll to create default themes for projects, we ask that you do not use any custom themes, and configure all your styling using CSS.
