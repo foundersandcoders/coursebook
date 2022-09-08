@@ -2,7 +2,17 @@
 layout: schedule
 schedule:
   monday:
+    - name: Server workshop
+      url: /learn/server
+      type: workshop
+      start: 9:45
+      end: 18:00
   tuesday:
+    - name: Sanitize & validate challenge
+      url: https://github.com/foundersandcoders/sanitize-validate-challenge
+      type: challenge
+      start: 10:00
+      end: 11:00
     - name: Intro to project managment
       start: 15:45
       end: 16:00
