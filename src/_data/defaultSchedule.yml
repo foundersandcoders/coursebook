@@ -36,10 +36,10 @@ tuesday:
     end: 16:15
     type: project
     url: ../project
-  - name: Tech spikes
+  - name: Project spike
     start: 16:15
     end: 17:45
-    url: ../spikes
+    url: ../project#spike
   - start: 17:45
     end: 18:00
     name: Check-out

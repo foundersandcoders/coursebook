@@ -1,5 +1,22 @@
 Your project this week is to build a web app that authenticates users and stores user-specific data in a PostgreSQL database.
 
+## Spike
+
+Before you start writing features you need to create a security plan. This should a section in your `README.md` that describes how you will secure your app and mitigate different potential attacks.
+
+### Questions to consider
+
+- Will you store session info in a cookie (stateless) or in your database (stateful)?
+- How will you check a user's identity (authentication)?
+- How will you control what actions a user can take (authorization)?
+- How will you mitigate Cross-site Request Forgery (CSRF) attacks?
+
+### Useful resources
+
+- [What really is the difference between session and token based authentication](https://dev.to/thecodearcher/what-really-is-the-difference-between-session-and-token-based-authentication-2o39)
+- [JSON Web Tokens suck](https://www.youtube.com/watch?v=JdGOb7AxUo0)
+- [CSRF prevention](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)
+
 ## User stories
 
 ### Core
