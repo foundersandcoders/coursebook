@@ -1,4 +1,4 @@
-Your project this week is to build a web app that stores data in a PostgreSQL database.
+Your project this week is to build a web app that stores data in a SQLite database.
 
 ## Spike
 
@@ -28,7 +28,7 @@ Since this project is open-ended you'll need to write your own more specific use
 - [ ] A form for users to submit data
 - [ ] A page showing all the data
 - [ ] Semantic form elements with correctly associated labels
-- [ ] A Postgres database hosted on Heroku
+- [ ] A SQLite database
 - [ ] A schema describing your database in your README
 - [ ] Tests for server routes and database access
 - [ ] Not process user input as SQL commands

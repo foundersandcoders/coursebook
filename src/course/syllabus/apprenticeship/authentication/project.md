@@ -1,4 +1,4 @@
-Your project this week is to build a web app that authenticates users and stores user-specific data in a PostgreSQL database.
+Your project this week is to build a web app that authenticates users and stores user-specific data in a SQLite database.
 
 ## Spike
 
@@ -34,7 +34,7 @@ Since this project is open-ended you'll need to write your own more specific use
 - [ ] A page showing all the data
 - [ ] A way for logged in users to delete their own data
 - [ ] Semantic form elements with correctly associated labels
-- [ ] A Postgres database hosted on Heroku
+- [ ] A SQLite database
 - [ ] Hidden environment variables (i.e. not on GitHub)
 
 #### Stretch criteria

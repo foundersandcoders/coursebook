@@ -1,4 +1,4 @@
-Your project this week is to build anything you like as long as it meets the technical criteria below. It should still be a Node/Express server-rendered application with a Postgres database, but feel free to get creative with the ideas.
+Your project this week is to build anything you like as long as it meets the technical criteria below. It should still be a Node/Express server-rendered application with a SQLite database, but feel free to get creative with the ideas.
 
 This week is the culmination of your Express learning, so focus on doing everything as professionally as you can. Your app should have validation, error-handling, good user-experience etc.
 
@@ -25,7 +25,7 @@ Show temporary messages after successful/failed form submissions to help the use
 
 - Express server
 - Well-organised modular codebase
-- Postgres database
+- SQLite database
 - Hosted on Heroku
 - One of the spike topics
 - Validate user-submitted data on the server
