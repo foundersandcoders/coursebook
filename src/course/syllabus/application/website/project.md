@@ -14,9 +14,9 @@ Your website must meet the following criteria:
 - [ ] No external libraries (e.g. no Bootstrap, React or GitHub Pages themes, but external fonts/icons are fine)
 - [ ] Tells us about who you are
 - [ ] Tells us about why you are applying for the programme
+- [ ] Shows your progress through the application projects (e.g. links to your deployed projects)
 - [ ] Hosted on GitHub Pages
 - [ ] Links back to the GitHub repository that contains the code for your site
-- [ ] Shows your progress through the application projects (e.g. links to repos, as a project gallery, or in an image carousel)
 
 To demonstrate your learning your site must have at least one example of each of these:
 

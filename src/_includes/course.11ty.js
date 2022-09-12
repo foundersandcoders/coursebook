@@ -39,10 +39,10 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/handbook/mentor-roles/">What to expect of mentors</${Link}></li>
         </${Section}>
         <${Section} title="Application" url=${url} subpath="course/syllabus/application">
-          <li><${Link} url=${url} href="/course/syllabus/application/tribute-page/project">Tribute page</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/application/hobby-page/project">Hobby page</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/application/project-gallery/project">Project gallery</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/application/comment-box/project">Comment box</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/application/fruit-shop/project">Fruit shop</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/application/movie-data/project">Movie data</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/application/website/project">Website</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/application/feature/project">Feature</${Link}></li>
         </${Section}>
