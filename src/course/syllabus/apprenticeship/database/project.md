@@ -2,7 +2,7 @@ Your project this week is to build a web app that stores data in a SQLite databa
 
 ## Spike
 
-Before you start writing features you need to design the schema for your data. Think about what different things your app needs to store, how they relate to each other, and how you can avoid duplicating information. Record your schema in your `README.md` using Markdown tables.
+Before you start writing features you need to design the schema for your data. Think about what different things your app needs to store, how they relate to each other, and how you can avoid duplicating information. Record your schema in your `README.md` using Markdown tables. Consider embedding a [diagram](https://dbdiagram.io/) to help visualise the relationships.
 
 ### Questions to consider
 
