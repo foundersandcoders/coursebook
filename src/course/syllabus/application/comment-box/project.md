@@ -9,7 +9,7 @@ Your project is to build a comment form for a website. The form will allow a use
 - [ ] Display the number of characters as the user types (e.g. 87/140)
 - [ ] Give user feedback with custom styling on the comment box, when the user exceeds the character limit (e.g. with a coloured border)
 - [ ] Show each comment on the page when submitted
-- [ ] Allow the user to submit additional comments, and view previous comments should stay visible
+- [ ] Allow the user to submit additional comments, while previous comments remain visible
 
 {% box %}
 

@@ -6,7 +6,7 @@ Like your last project, please push your changes to GitHub and host your site li
 
 - [ ] Have a section or card for each project
 - [ ] Each card should have a title, an image of your project, and a description
-- [ ] Use Flexbox to arrange the cards on the page
+- [ ] Use [flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) to arrange the cards on the page
 - [ ] Resize cards based on screen width
 - [ ] Adapt the layout of the gallery when the browser window resizes
 - [ ] Display the cards in a single column on mobile devices

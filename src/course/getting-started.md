@@ -18,9 +18,9 @@ Commit regularly while you build your site, and write meaningful commit messages
 
 ## Writing code
 
-Build the projects is going to be challenging, and a lot of this material is likely to be new to you. It's okay to struggle, it's just part of being a developer.
+Building the projects is going to be challenging, and a lot of this material might be new to you. It's okay to struggle, it's just part of being a developer.
 
-Using tutorials and resources to help you is absolutely the right thing to do when learning to code. However, relying heavily on the code written in a tutorial, or copying and pasting code from external sources, will limit your learning. When following a tutorial, try first to code along with the video, and then rebuild your site from memory with less reference to the tutorial you've looked at.
+Using tutorials and resources to help you is absolutely the right thing to do when learning to code. However, relying heavily on the code written in a tutorial, or copying and pasting code from external sources, will limit your learning. When following a tutorial, try first to code along with the video, and then build the sit again from memory with less reference to the tutorial you've looked at.
 
 When you're building a website, it's important that you understand what the code you write is doing. Interact with it, and change things to see what effect that has. Break down problems into smaller steps and tackle each step one at a time.
 

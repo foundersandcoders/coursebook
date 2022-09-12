@@ -9,13 +9,13 @@ This week, we'd like you to start using [Git](#git) in your terminal.
 ## Requirements
 
 - [ ] Store the object below in a JavaScript file in your codebase
-- [ ] Render the data into HTML using DOM Manipulation
+- [ ] Render the data onto the webpage with DOM Manipulation
 - [ ] Allow the user to affect the display of the data by interacting with the webpage
 - [ ] Allow the user to update the data stored in the object by interacting with the webpage
 
 ## Data
 
-In your JavaScript file, start by including the `movieData` object. Here we have four films, which are keys in the `movieData` object (e.g. "The Darjeeling Limited"). Each of the values of the `movieData` object gives more detail about a particular movie.
+In your JavaScript file, start by including the `movieData` object. Here we have four films, which are keys in the `movieData` object (e.g. "The Darjeeling Limited"). Each of these keys relates to a value with more detail about that particular movie.
 
 ```js
 let movieData = {
