@@ -13,10 +13,10 @@ Please read these notes and check with the course facilitator before your week s
 ## To do before your week
 
 - Make sure you’re an owner of the cohort's GitHub organisation.
-- Decide who will lead which bits of your week - Refer to the day by day checklist below for a detailed breakdown of your responsibilities.
 - Read your week's workshops and solutions, as well as learning objectives. These may have changed after your cohort!
 - Check in with the course facilitator. They are there to support you before, during and after your week.
-- Have a look at the cohort's most recent projects, and ask the course facilitator about any relevant feedback from the previous week's SGC
+- Decide who will lead which bits of your week - Refer to the day by day checklist below for a detailed breakdown of your responsibilities.
+- Have a look at the cohort's most recent projects, and ask the course facilitator about any relevant feedback from the previous week's SGC.
 - Read their cohort expectations at `GitHub` > `fac#` > `cohort` > `expectations.md`.
 - Read the cohort's user manuals - find these as issues raised on the `GitHub` > `fac#`> `user-manuals`.
 
@@ -45,7 +45,7 @@ Note: People may be frustrated with you, especially at the beginning of the cour
 
 You are ultimately responsible for timings, which will be up to date in the course schedule before your week.
 
-The clearer and sharper you are with timings, the happier everyone will be. Please try not to compromise timings during the week, e.g. shortening SGCs, since each part is important for different reasons.
+The clearer and sharper you are with timings, the happier everyone will be. Please try not to compromise timings during the week, e.g. shortening or extending a session, since each part is important for different reasons.
 
 For any remote days: As Zoom host, you can broadcast messages (e.g. “Rooms closing in 60 seconds”), and close rooms - which starts the 60 second timer.
 
@@ -87,12 +87,12 @@ _**Projects**_
 
 _**Role circles (from week 2)**_
 
-- Make a breakout room for each role (QA, UX, Scrum, Devops).
+- If remote, make a breakout room for each role (QA, UX, Scrum, Devops).
 - Bring the cohort back and recreate project breakout rooms once done.
 
 _**Code Review**_
 
-- Pick one project to code review and raise issues from 10:00 to 10:45.
+- Pick one project to code review and raise issues from 16:45 to 17:45.
 - Be complimentary, keep it focused around the acceptance criteria and learning objectives for the week, of course highlighting improved ways of writing code, especially concerning topics covered in previous weeks.
 - Ideally keep it brief and where appropriate link to resources (MDN, W3, etc).
 - You will review two weeks: your week and the week after.
