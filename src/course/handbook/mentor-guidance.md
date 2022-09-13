@@ -13,10 +13,10 @@ Please read these notes and check with the course facilitator before your week s
 ## To do before your week
 
 - Make sure you’re an owner of the cohort's GitHub organisation.
-- Decide who will lead which bits of your week - Refer to the day by day checklist below for a detailed breakdown of your responsibilities.
 - Read your week's workshops and solutions, as well as learning objectives. These may have changed after your cohort!
 - Check in with the course facilitator. They are there to support you before, during and after your week.
-- Have a look at the cohort's most recent projects, and read their most recent SGC in `GitHub` > `fac#` > `cohort` > `retrospective` > `week-x.md`.
+- Decide who will lead which bits of your week - Refer to the day by day checklist below for a detailed breakdown of your responsibilities.
+- Have a look at the cohort's most recent projects, and ask the course facilitator about any relevant feedback from the previous week's SGC.
 - Read their cohort expectations at `GitHub` > `fac#` > `cohort` > `expectations.md`.
 - Read the cohort's user manuals - find these as issues raised on the `GitHub` > `fac#`> `user-manuals`.
 
@@ -43,11 +43,15 @@ Note: People may be frustrated with you, especially at the beginning of the cour
 
 ## Timings
 
-You are ultimately responsible for timings, which will be up to date in the course schedule before your week. As Zoom host, you can broadcast messages (e.g. “Rooms closing in 60 seconds”), and close rooms - which starts the 60 second timer. The clearer and sharper you are with timings, the happier everyone will be. Please try not to compromise timings during the week, e.g. shortening SGCs, since each part is important for different reasons.
+You are ultimately responsible for timings, which will be up to date in the course schedule before your week.
+
+The clearer and sharper you are with timings, the happier everyone will be. Please try not to compromise timings during the week, e.g. shortening or extending a session, since each part is important for different reasons.
+
+For any remote days: As Zoom host, you can broadcast messages (e.g. “Rooms closing in 60 seconds”), and close rooms - which starts the 60 second timer.
 
 ## Breaks
 
-Make sure the cohort is getting regular breaks, from their screens and chairs. When you come back together after a workshop, suggest 3-5 minutes to turn off their video, stretch, go for a walk, get water, etc.
+Make sure the cohort is getting regular breaks, from their screens and chairs. In between longer activities, suggest 3-5 minutes to stretch, go for a walk, get water, etc.
 
 ---
 
@@ -59,46 +63,15 @@ Some weeks may have an extra project day on tuesday - treat this the same as wed
 
 Please reach out to the CF if you have any specific questions about your week.
 
-## Monday
-
-_**Checkin**_
-
-- Check if you are on the rota, you can find this on the cohort's`#sst` channel or the github organisation under `cohort/check-in-rota.md`.
-- Remind the CF to make you co-host if they have not already.
-
-_**Workshops**_
-
-- Create breakout rooms(if the CF is unavailable).
-- Set these to "allow participants to choose room". Pairs can be found in `cohort/pairs-and-teams/pairs.md`
-- Keep an eye on `#help-and-solutions` in the Discord! Discord allows per channel notifications so you can mute the rest of the server while allowing notifications from this channel.
-- Keep any communication with the CF/other mentors public if possible - in the `#mentors` channel.
-- Notify learners on Discord or by broadcast before entering breakout rooms to avoid disrupting their focus or unexpected surprises!
-- Remind the cohort to come back 20 mins before the scheduled end of the workshop, to discuss solutions.
-- Close breakout rooms for discussion time.
-- Facilitate discussion - pick someone to share their screen using the [name picker](/lollipop/).
-
-- Make sure to pick someone new for different sections of the workshop.
-- Do your best to get one person from each pair to contribute something.
-- Make time on Thursday to go back through each workshop and raise issues (or pull requests!) from your first hand feedback.
-
-_**Lunch - make sure everyone stops at 13:00 and is back at 14:00!**_
-
-_**Tech Spikes**_
-
-- Share your screen and talk through the project and tech spikes for the week.
-- Create 1 breakout room for each project team, and an additional breakout room for each spike topic.
-- Instruct the cohort to first go into their project teams, then pick a spike topic each. Everyone who picked the same spike topic then moves into the breakout room for that topic.
-- Remind the cohort to begin preparing spike presentations at 17:15.
-
 ## Tuesday
 
-_**Spike Presentations**_
+**Morning Challenge**
 
-- The CF usually facilitates these, but be prepared to facilitate if needed.
-- Allow 12 mins each : 8 for presenting and 4 for questions.
-- Think up some questions in case no one has any. Prioritise questions from people who may not always ask questions, your CF can help with this in preparation for your week.
+Introduce the morning challenge - share your screen and give a brief description of the exercise.
 
-_**Workshops - same as above**_
+_**Workshop Discussions**_
+
+Discussion happens in two stages - in small groups of 3 for 80 minutes, and then a larger group facilitated by mentors for 40 minutes. Talk through their solutions, and facilitate discussion - prompt the learners to explain what they did!
 
 _**Tech for Better**_
 
@@ -109,35 +82,25 @@ _**Tech for Better**_
 
 _**Projects**_
 
-- Create two breakout rooms per project to allow learners to split up into pairs.
-- Be available on Discord, wednesdays and thursdays are usually more unstructured but the cohort will need help with their project work.
+- On remote days, create two breakout rooms per project to allow learners to split up into pairs.
+- Be available on Discord, Wednesdays and Thursdays are usually more unstructured but the cohort will need help with their project work.
 
 _**Role circles (from week 2)**_
 
-- Make a breakout room for each role (QA, UX, Scrum, Devops).
+- If remote, make a breakout room for each role (QA, UX, Scrum, Devops).
 - Bring the cohort back and recreate project breakout rooms once done.
-
-## Friday
 
 _**Code Review**_
 
-- Pick one project to code review and raise issues from 10:00 to 10:45.
+- Pick one project to code review and raise issues from 16:45 to 17:45.
 - Be complimentary, keep it focused around the acceptance criteria and learning objectives for the week, of course highlighting improved ways of writing code, especially concerning topics covered in previous weeks.
 - Ideally keep it brief and where appropriate link to resources (MDN, W3, etc).
 - You will review two weeks: your week and the week after.
 - For more info, refer to our [code review guidance](https://learn.foundersandcoders.com/course/handbook/code-review/)
 
-_**Project Presentations**_
+## Friday
 
-- The CF may be available to facilitate these, but be prepared to facilitate if needed. Keep an eye on timings.
-- These will be 12 minutes each and no more than 18 minutes total incl questions.
-- All that being said, allow extra time for technical difficulties.
-
-_**SGC**_
-
-- Feedback from mentors can be very useful for the cohort and FAC staff during SGC.
-- You may find it helpful to keep a personal record of things to bring up at SGC throughout the week, as thinking of SGC points on the spot can be challenging.
-- You may be asked to facilitate or take notes for SGC if you are mentoring one of the earlier weeks. Members of the cohort will be facilitating/note taking in later weeks however.
+- You aren't expected to be available on fridays, but feel free to attend project presentations if you're free!
 
 _**Feedback form**_
 
