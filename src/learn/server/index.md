@@ -59,6 +59,86 @@ We're going to learn how to use Node to create an HTTP server that can respond t
 
 Follow along with each example in your own editor.
 
+---
+
+## CommonJS modules
+
+Before we start creating a server we need to learn how Node manages code in different files. Modules are used to isolate code. In the browser by default all JS has access to the same global scope, even if loaded via separate script tags.
+
+Although browsers do now have [Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) Node was created before they were added to JavaScript. This means it has its own system (called "CommonJS").
+
+Confusingly Node has recently added support for these standard JS modules (ESM), however most server code has not yet been updated, so we must learn the older system.
+
+### Exporting code
+
+By default all files are self-contained in Node. Code in one file cannot access anything in another file. To use something in another file you must "export" it. You can do so by assigning the value to `module.exports`:
+
+```js
+// messages.js
+const message1 = "hello";
+const message2 = "goodbye";
+
+module.exports = message1;
+```
+
+### Importing code
+
+To access code that is exported from another file you must "import" it. You can do so by calling the `require` function with the path to the file:
+
+```js
+// index.js
+const whateverNameWeWant = require("./messages.js");
+
+console.log(whateverNameWeWant); // Logs: "hello"
+console.log(message2); // Error: message2 is not defined
+```
+
+Note: the file extension is optional—if you leave it off Node will assume it's a `.js` file. This is quite common in the Node ecosystem.
+
+### Multiple exports
+
+You can export multiple values by assigning an object to `module.exports`:
+
+```js
+// messages.js
+const message1 = "hello";
+const message2 = "goodbye";
+
+module.exports = {
+  message1: message1,
+  message2: message2,
+};
+```
+
+```js
+// index.js
+const messages = require("./messages.js");
+// or using destructuring:
+// const { message1, message2 } = require("./messages.js");
+
+console.log(messages.message1); // Logs: "hello"
+console.log(messages.message2); // Logs: "goodbye"
+```
+
+### Built-in & 3rd party modules
+
+Node provides some built-in modules. You can import these just like your own modules, only without the path (just using their name). Recent versions of Node allow you to add the `node:` prefix to make it more explicit that this is a built-in. For example to use the built-in "fs" (filesystem) module:
+
+```js
+const fs = require("node:fs");
+fs.readFile("my-file.txt");
+```
+
+The same applies to modules you installed via npm. Node will check in your `node_modules` directory to find any imports that aren't relative file paths. For example to import the Express library:
+
+```js
+const express = require("express");
+```
+
+Now we know how to manage our modules let's take a look at using Express to build a server.
+
+---
+
 ## Creating a server
 
 We can create a new server object using the `express` library:
