@@ -4,5 +4,5 @@ These resources are helpful extra reading that may clarify or enhance concepts y
   Official counterpart to the Node docs. Useful for getting realistic examples of features when the docs are overwhelming and confusing.
 - ### [Art of Node](https://github.com/maxogden/art-of-node)
   Popular (if slightly outdated) overview of what Node is and how it works.
-- ### [Node server example](https://glitch.com/~vanilla-node-templating)
-  An example Node server using ES6 template strings to send dynamic HTML responses.
+- ### [What is a web server?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server)
+  General background info on how servers work
