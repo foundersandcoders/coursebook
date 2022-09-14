@@ -44,9 +44,9 @@ We're going to learn how to use Node to create an HTTP server that can respond t
    ```shell
    cd node-server-intro
    ```
-1. Initialise the project to create a `package.json`
+1. Create an empty `package.json`
    ```shell
-   npm init -y
+   echo "{}" > package.json
    ```
 1. Install the Express library
    ```shell
