@@ -11,8 +11,8 @@ schedule:
     - name: Sanitize & validate challenge
       url: https://github.com/foundersandcoders/sanitize-validate-challenge
       type: challenge
-      start: 10:00
-      end: 11:00
+      start: 12:00
+      end: 13:00
     - name: Intro to project managment
       start: 15:45
       end: 16:00

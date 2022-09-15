@@ -8,17 +8,17 @@ tuesday:
     end: 10:00
     name: Check-in
   - start: 10:00
-    end: 11:00
-    name: Morning challenge
-    type: challenge
-  - start: 11:00
-    end: 12:20
+    end: 11:20
     name: Group discussion
     type: workshop
-  - start: 12:20
-    end: 13:00
+  - start: 11:20
+    end: 12:00
     name: Cohort discussion
     type: workshop
+  - start: 12:00
+    end: 13:00
+    name: Morning challenge
+    type: challenge
   - start: 13:00
     end: 14:00
     name: Lunch
