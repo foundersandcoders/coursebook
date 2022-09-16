@@ -16,7 +16,7 @@ It is also a wonderful idea to leave feedback as a comment on other people's use
 
 ## Updating your user manual
 
-You'll have time every Friday afternoon (16:45-17:00) to update your user manual with any reflections on what you found out about yourself that week.
+Please update your user manual with any reflections on what you found out about yourself each week.
 
 ## Example
 
