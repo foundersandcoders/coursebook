@@ -51,6 +51,7 @@ wednesday:
     end: 13:00
     name: Project
     type: project
+    url: /course/handbook/projects/
   - start: 13:00
     end: 14:00
     name: Lunch
@@ -58,6 +59,7 @@ wednesday:
     end: 17:45
     name: Project
     type: project
+    url: /course/handbook/projects/
   - start: 17:45
     end: 18:00
     name: Check-out
@@ -73,6 +75,7 @@ thursday:
     end: 13:00
     name: Project
     type: project
+    url: /course/handbook/projects/
   - start: 13:00
     end: 14:00
     name: Lunch
@@ -80,6 +83,7 @@ thursday:
     end: 16:30
     name: Project
     type: project
+    url: /course/handbook/projects/
   - start: 16:30
     end: 16:45
     name: Update READMEs
@@ -109,7 +113,7 @@ friday:
   - start: 12:30
     end: 13:00
     name: Presentation prep
-    url: /course/handbook/projects/#project-presentation
+    url: /course/handbook/project-presentations/
   - start: 13:00
     end: 14:00
     name: Lunch
