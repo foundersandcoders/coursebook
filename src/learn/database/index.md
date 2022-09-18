@@ -310,6 +310,138 @@ function createTask(task) {
 
 When passed an object like `createTask({ content: "stuff", complete: 1 })` the statement will map each key to the corresponding `$param` in the query.
 
+{% box %}
+
+### Syntax highlighting SQL strings
+
+Now that we have more complex SQL queries it is getting a bit hard to read them. If you have the [es6-string-html](https://marketplace.visualstudio.com/items?itemName=Tobermory.es6-string-html) VS Code extension installed you can use a JS comment to tell it to highlight these strings as SQL:
+
+```js
+const insert_task = db.prepare(/*sql*/ `...`);
+```
+
+{% endbox %}
+
+## Listing rows
+
+Our app is going to need a way to read all the tasks from the DB. We need to write a new model function that selects all rows from the `tasks` table:
+
+```js
+const select_tasks = db.prepare(/*sql*/ `
+  SELECT id, content, created_at FROM tasks
+`);
+
+function listTasks() {
+  return select_tasks.all();
+}
+```
+
+Run this function to check that it shows all the tasks you have inserted so far.
+
+{% box %}
+
+It's tempting to use `SELECT *` to list _every_ column for each row, however it's a good idea to list just the ones you need. In future this table may have many more columns added that this particular feature does not need (and they could be very large, or secret), and you would end up returning them all without meaning to.
+
+{% endbox %}
+
+### Formatting columns
+
+Our `created_at` column is a full timestamp, with a date and time, which is not particularly human-readable. Let's imagine our app is only for tracking tasks on the same day, so we only care about the time part. We can amend our query to use the `TIME`
+
+```js
+const select_tasks = db.prepare(/*sql*/ `
+  SELECT
+    id,
+    content,
+    TIME(created_at)
+  FROM tasks
+`);
+```
+
+If you log the result of this query you should see the task objects change:
+
+```json
+[{ "id": 2, "content": "Send mum flowers", "TIME(created_at)": "08:52:30" }]
+```
+
+However the column name has changed to represent this. Ideally we would keep the same name (`created_at`). We can rename columns using the `AS` SQL operator:
+
+```js
+const select_tasks = db.prepare(/*sql*/ `
+  SELECT
+    id,
+    content,
+    TIME(created_at) AS created_at
+  FROM tasks
+`);
+```
+
+If you run this again you should see the object key is now `created_at` like before.
+
+```json
+[{ "id": 2, "content": "Send mum flowers", "created_at": "08:52:30" }]
+```
+
+## Deleting a row
+
+Let's add another model function that can delete a task from our `tasks` table. It should take an ID parameter and delete just the row that matches.
+
+```js
+const delete_task = db.prepare(/*sql*/ `
+  DELETE FROM tasks WHERE id = ?
+`);
+
+function removeTask(id) {
+  return delete_task.run(id);
+}
+```
+
+{% box "error" %}
+
+SQL queries act on **every row** by default. This makes deletion and updates very dangerous. Without a `WHERE` clause or other condition they will delete/update _every_ row.
+
+{% endbox %}
+
+Test this by calling `removeTasks(1)` to delete the first task you created earlier. You can call `listTasks` to check that a task has been removed.
+
+## Updating a row
+
+It's likely we'll need to be able to change the content of a task if a user wants to edit it. We need to write a function that can take a task object and update the row with a matching ID:
+
+```js
+const update_content = db.prepare(/*sql*/ `
+  UPDATE tasks
+  SET content = $content
+  WHERE id = $id
+  RETURNING id, content, created_at, complete
+`);
+
+function editTask(task) {
+  return update_content.get(task);
+}
+```
+
+We return the edited task for convenience.
+
+## Toggling a boolean
+
+When a user marks a task as complete (or incomplete) we need to update that row to match. We can easily toggle our "fake boolean" integer column using `NOT`:
+
+```js
+const update_complete = db.prepare(/*sql*/ `
+  UPDATE tasks
+  SET complete = NOT complete
+  WHERE id = ?
+  RETURNING id, content, created_at, complete
+`);
+
+function toggleTask(id) {
+  return update_complete.get(id);
+}
+```
+
+This function will flip the `complete` column from `0` to `1`, or from `1` to `0`.
+
 <!--
 Let's create a Node server that uses our new database. First install `express`:
 
