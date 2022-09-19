@@ -442,14 +442,17 @@ function toggleTask(id) {
 
 This function will flip the `complete` column from `0` to `1`, or from `1` to `0`.
 
-<!--
+## Integrating a UI
+
+We now have all the functionality for our app contained in the model. All that's left is to build a UI that calls these functions, so that a user can interact with them.
+
 Let's create a Node server that uses our new database. First install `express`:
 
 ```shell
 npm install express
 ```
 
-Then create a `server.js`:
+Then we'll create the boilerplate we need to get an HTTP server going. First we need a `server.js` file:
 
 ```js
 const express = require("express");
@@ -457,7 +460,7 @@ const express = require("express");
 const server = express();
 
 server.get("/", (req, res) => {
-  res.send("hi");
+  res.send("hello world");
 });
 
 module.exports = server;
@@ -475,15 +478,16 @@ server.listen(PORT, () => console.log(`Listening on http://localhost:${PORT}`));
 
 Check this is working by running `node index.js` in your terminal.
 
+### Submitting new tasks
+
 Now we need a form to add new tasks to our database. Edit `server.js`:
 
 ```js
 server.get("/", (req, res) => {
-  const body = /*html*/`
+  const body = /*html*/ `
     <!doctype html>
     <form method="POST">
-      <label for="content">New task</label>
-      <input id="content" name="content">
+      <input id="content" name="content" aria-label="New task" required>
       <button>Add task +</button>
     </form>
   `;
@@ -491,20 +495,92 @@ server.get("/", (req, res) => {
 });
 ```
 
-Then add a `/ POST` handler to receive the submission:
+Then add a `/ POST` handler to receive the submission a insert the new task:
 
 ```js
+const model = require("./model/tasks.js");
+
 server.post("/", express.urlencoded({ extended: false }), (req, res) => {
-  console.log(req.body);
+  model.createTask(req.body.content);
   res.redirect("/");
-})
+});
 ```
 
-Restart your server and try submitting the form: you should see an object logged with a `content` property.
+### Rendering tasks
 
-Now we can insert a new task. Import the `db` object and create a new statement:
+Now that we can insert tasks we need to show them on the page. Edit the `GET /` handler to get the list and render them:
 
 ```js
-const db = require("./database/db.js");
+server.get("/", (req, res) => {
+  const tasks = listTasks();
+  const body = /*html*/ `
+    <!doctype html>
+    <form method="POST">
+      <input id="content" name="content" aria-label="New task" required>
+      <button>Add task +</button>
+      <ul>${tasks.map((t) => `<li>${t.content}</li>`).join("")}</ul>
+    </form>
+  `;
+  res.send(body);
+});
+```
 
-const insert_task = db.prepare("INSERT ") -->
+### Updating tasks
+
+We need to be able to toggle and delete each task. This will mean each task `<li>` needs to contain a `<form>` that can send a POST telling the server to either toggle or remove the task.
+
+Let's write a `POST /update` handler _first_. This is what will carry out the changes when a task is toggled or removed. Writing this first will help us know what our form should include.
+
+Our handler is going to need to know two things: which action should it take (toggle or remove), and which task should it update. Both will need to be submitted by the form as part of the request body:
+
+```js
+server.post("/update", express.urlencoded({ extended: false }), (req, res) => {
+  const { action, id } = req.body;
+  if (action === "remove") removeTask(id);
+  if (action === "toggle") toggleTask(id);
+  res.redirect("/");
+});
+```
+
+Since all our "business logic" is contained in the model our route handler ends up pretty simple.
+
+Now we need to update the list render to add a form to each task. It'll two submit buttons—one for each action—and a hidden input with the ID. Since it will get a bit long to embed inline we'll create a separate function to render this HTML:
+
+```js
+function Task(task) {
+  return /*html*/ `
+    <li>
+      <form method="POST" action="/update">
+        <input type="hidden" name="id" value="${task.id}">
+        <button name="action" value="toggle" aria-label="Toggle complete">
+          ${task.complete ? "☑︎" : "☐"}
+        </button>
+        <span style="${task.complete ? "text-decoration: line-through" : ""}">
+          ${task.content}
+        </span>
+        <button name="action" value="remove">&times;</button>
+      </form>
+    </li>
+  `;
+}
+
+server.get("/", (req, res) => {
+  const tasks = listTasks();
+  const list = tasks.map(Task);
+  const body = /*html*/ `
+    <!doctype html>
+    <form method="POST">
+      <input id="content" name="content" aria-label="New task" required>
+      <button>Add task +</button>
+      <ul>${list.join("")}</ul>
+    </form>
+  `;
+  res.send(body);
+});
+```
+
+{% box %}
+
+This example is missing validation and other important things in order to keep it brief.
+
+{% endbox %}
