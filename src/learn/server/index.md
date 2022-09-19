@@ -259,7 +259,7 @@ Making requests manually in the browser or terminal is fine for quick checks, bu
 
 As of version 18 Node has a built-in test runner. It works in a similar way to the popular Tape testing library (most testing libraries are quite similar).
 
-Let's try an example test. Create a new directory called `tests/`, and then a new file inside called `server.test.js`. We can create a simple test like this:
+Let's try an example test. Create a new directory called `test/`, and then a new file inside called `server.test.js`. We can create a simple test like this:
 
 ```js
 const test = require("node:test");
@@ -273,7 +273,7 @@ test("the test works", () => {
 Since this is a normal Node JS file we can run it from our terminal like any other JS file:
 
 ```shell
-node tests/server.test.js
+node test/server.test.js
 ```
 
 You should see some logs showing the status of your test.
@@ -281,10 +281,10 @@ You should see some logs showing the status of your test.
 Node also has a special way to run all the tests in your project:
 
 ```shell
-node --tests
+node --test
 ```
 
-It will find and run any files in a folder named `tests`, and also any file ending in `.test.js`. This is handy when you want to divide your tests up into different files but run them all in one go.
+It will find and run any files in a folder named `test`, and also any file ending in `.test.js`. This is handy when you want to divide your tests up into different files but run them all in one go.
 
 ### Testing our server
 
