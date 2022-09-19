@@ -10,9 +10,9 @@ keywords:
 challenge: https://github.com/foundersandcoders/database-challenge
 ---
 
-Most applications need to _persist_ data—that is keep it around for future use. This means it will be available even if your server process restarts. A database is a program designed specifically for efficiently and robustly storing information, and making it accessible to your app.
+Most applications need to _persist_ data—that is keep it around for future use. This means it will be available even if your server process restarts. A database is a program designed for efficiently and robustly storing information, and making it accessible to your app.
 
-SQLite is a relational database that is relatively simple to get started with. It runs in the same process as your server, unlike other popular databases like PostgreSQL or MySQL. These run as a separate server that needs to be managed separately from your app. As we will see SQLite stores data in a single file, which makes it convenient to work with for simple apps.
+SQLite is a relational database that is quite simple to get started with. It runs in the same process as your server, unlike other popular databases like PostgreSQL or MySQL. These run as a separate server that needs to be managed separately from your app. As we will see SQLite stores data in a single file, which makes it convenient to work with for simple apps.
 
 ## Using SQLite
 
@@ -32,7 +32,7 @@ Then install `better-sqlite3` from npm:
 npm install better-sqlite3
 ```
 
-This should be added to the `dependencies` object in your `package.json`. Now you can use it to initialise a SQLite database. You'll need a JS file to do this—since there will be a few database related files create a new `database` directory for them. Then create a `database/db.js` file where you can initialise the DB:
+This will be added to the `dependencies` object in your `package.json`. Now you can use it to initialise a SQLite database. You'll need a JS file to do this—since there will be a few database related files create a new `database` directory for them all. Then create a `database/db.js` file where you can initialise the DB:
 
 ```js
 const Database = require("better-sqlite3");
@@ -47,11 +47,11 @@ The `better-sqlite3` library exports a constructor function that expects to be p
 node database/db.js
 ```
 
-You should see a new file called "db.sqlite" appear at the root of your project. You should also see the [Database object](https://github.com/WiseLibs/better-sqlite3/blob/master/docs/api.md#class-database) you logged in your terminal. This object provides several methods for accessing your data.
+You should see a new file called `db.sqlite` appear at the root of your project. You should also see the [Database object](https://github.com/WiseLibs/better-sqlite3/blob/master/docs/api.md#class-database) you logged in your terminal. This object provides several methods for accessing your data.
 
 {% box %}
 
-This file is where SQLite stores all your data. In a real project you should add it to your `.gitignore` so each team member can have their own local copy.
+The `db.sqlite` file is where SQLite stores all your data. In a real project you should add it to your `.gitignore` so each team member can have their own local copy.
 
 If you want to start over at any point you can delete this file—it will be recreated (but with all the data deleted!) when you next use the `db.js` file.
 
@@ -59,7 +59,7 @@ If you want to start over at any point you can delete this file—it will be rec
 
 ## Using prepared statements
 
-Accessing data is a two-step process with `better-sqlite3`. For performance reasons all queries must first be "prepared" before they can be run. This way the library can re-use the same query over and over. You can create a statement with the `db.prepare` method. This takes a SQL string and returns a [Statement](https://github.com/WiseLibs/better-sqlite3/blob/master/docs/api.md#class-statement) object:
+Accessing data is a two-step process with `better-sqlite3`. For performance reasons all queries must first be "prepared" before they can be run. This way the library can re-use the same query over and over. You create a statement with the `db.prepare` method. This takes a SQL string and returns a [Statement](https://github.com/WiseLibs/better-sqlite3/blob/master/docs/api.md#class-statement) object:
 
 ```js
 const select_date = db.prepare("SELECT DATE()");
@@ -84,7 +84,7 @@ Run this again in your terminal and you should see an object logged with the cur
 
 ## Setting up your schema
 
-Relational databases need a defined schema to tell them how to organise your data. This helps them structure your data effectively. A simple schema is a collection of `CREATE TABLE` statements that you run against your database to create the tables and columns you need. You could write all this inside strings in a `.js` file, but it's nicer to use a separate `.sql` file.
+Relational databases need a defined schema to tell them how to organise your data. This helps them structure your data effectively. A simple schema is a collection of `CREATE TABLE` statements that you run against your database to create the tables and columns it needs. You could write all this inside strings in a `.js` file, but it's nicer to use a separate `.sql` file.
 
 Let's create a simple schema that will let us store tasks for a to-do list. Create a new file `database/schema.sql`:
 
@@ -102,13 +102,13 @@ COMMIT;
 
 {% box %}
 
-We're using a SQL "transaction". Every statement after `BEGIN` will be attempted, then assuming there were no errors the `COMMIT` statement will persist all changes. If any statement in the transaction fails everything is reverted—this prevents your DB from getting into a broken state.
+We're using a SQL "transaction". Every statement after `BEGIN` will be attempted, then assuming there were no errors the `COMMIT` statement will persist all changes. If anything in the transaction fails everything is reverted—this prevents your DB from getting into a broken state.
 
 {% endbox %}
 
 We're creating a new table called `tasks` with three columns: `id` will be an automatically incrementing integer generated by the DB, `content` will be the text content of each task, and `created_at` will be an auto-generated timestamp.
 
-Note the `IF NOT EXISTS`; a good schema should be [_idempotent_](https://en.wikipedia.org/wiki/Idempotence)—you should be able to run it against your DB multiple times without changing the result. Without this running our schema a second time would result in a "table already exists" error.
+Note the `IF NOT EXISTS`; a good schema should be [_idempotent_](https://en.wikipedia.org/wiki/Idempotence)—you should be able to run it against your DB multiple times without changing the result. Running our schema a second time would result in a "table already exists" error if we didn't have this.
 
 Let's run this schema against our DB in JS. We need to read the `.sql` file contents, then pass them into the `db.exec` method, which is designed to run one-off queries containing multiple statements like this. Edit `database/db.js`:
 
