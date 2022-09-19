@@ -241,6 +241,42 @@ console.log(result);
 { "id": 2, "content": "Send mum flowers", "created_at": "2022-09-14 08:52:30" }
 ```
 
+## Seeding example data
+
+It's a bit awkward to have to manually call functions to insert data when we want to check our DB is working. It would be nice if we had a script to run that could "seed" the DB with some pre-defined example data.
+
+Let's start by writing some SQL to insert example tasks. Create a `database/seed.sql` file:
+
+```sql
+BEGIN;
+
+INSERT INTO tasks VALUES
+  (1, 'Create my first todo', '2022-09-16 01:01:01', 1),
+  (2, 'Buy milk', '2022-09-16 11:10:07', 0),
+  (3, 'Become a 10x developer', '2022-09-16 23:59:59', 1)
+ON CONFLICT(id) DO NOTHING;
+
+COMMIT;
+```
+
+We use a transaction to ensure all the inserts succeed, similar to in our schema. There's one new addition: the `ON CONFLICT` ensures that we can run this script multiple times without getting duplicate ID errors.
+
+Now we need a JS script that reads this file and runs it against the DB. This will be very similar to `schema.js`. Create a `database/seed.js` file:
+
+```js
+const { readFileSync } = require("node:fs");
+const { join } = require("node:path");
+const db = require("./db.js");
+
+const seedPath = join("database", "seed.sql");
+const seed = readFileSync(seedPath, "utf-8");
+db.exec(seed);
+
+console.log("DB seeded with example data");
+```
+
+Now you can run this script with `node database/seed.js` to insert example data.
+
 ## Amending the schema
 
 A task app needs to track whether each task is completed. To do this our `tasks` table will need a `completed` column. There are two approaches to amending the schema. We won't be using the first, but it's here for completeness if you're curious.
