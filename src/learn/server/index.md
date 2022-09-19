@@ -777,7 +777,3 @@ server.get("/submit/success", (request, response) => {
 ```
 
 This route reads the name from the URL search parameters, then returns the same HTML response as before.
-
----
-
-That's it, you've learnt the basics of using Node and Express to create an HTTP server.
