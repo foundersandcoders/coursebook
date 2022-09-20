@@ -460,6 +460,52 @@ SQL queries act on **every row** by default. This makes deletion and updates ver
 
 Test this by calling `removeTasks(1)` to delete the first task you created earlier. You can call `listTasks` to check that a task has been removed.
 
+## Testing the model
+
+So far we've been manually testing things by calling our model functions. It would be better to write some automated tests to make this reproducible and reusable. That way we can catch reversions if the code breaks later on.
+
+Let's write a test to verify several of our model functions. Create a new file `test/tasks.test.js`:
+
+```js
+const test = require("node:test");
+const assert = require("node:assert");
+const model = require("../model/tasks.js");
+const db = require("../database/db.js");
+
+test("can create, remove & list tasks", () => {
+  db.exec("DELETE FROM tasks");
+
+  const task = model.createTask("test task");
+  assert.equal(task.id, 1);
+  assert.equal(task.content, "test task");
+  assert.equal(task.complete, 0);
+
+  model.removeTask(task.id);
+  const tasks = model.listTasks();
+  assert.equal(tasks.length, 0);
+});
+```
+
+We can run the test directly with:
+
+```shell
+node test/tasks.test.js
+```
+
+Or we can run all our tests with:
+
+```shell
+node --test
+```
+
+Note we are **not** setting the `DB_FILE` environment variable. This means our DB will be _in-memory_ for our tests, so none of the changes will be persisted or effect the dev DB we've been using.
+
+{% box %}
+
+**Important**: we empty the `tasks` table at the start of each test to ensure any leftovers from other tests don't effect this one. This ensures tests are not dependent on each other, so they can be run in any order (or in parallel) without affecting the results.
+
+{% endbox %}
+
 ## Updating a row
 
 It's likely we'll need to be able to change the content of a task if a user wants to edit it. We need to write a function that can take a task object and update the row with a matching ID:
