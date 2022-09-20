@@ -37,21 +37,39 @@ This will be added to the `dependencies` object in your `package.json`. Now you 
 ```js
 const Database = require("better-sqlite3");
 
-const db = new Database("db.sqlite");
+const db = new Database();
 console.log(db);
 ```
 
-The `better-sqlite3` library exports a constructor function that expects to be passed the filename you'd like to use for your database. Here we've named the file "db.sqlite". When you run this code it'll create this file if it doesn't exist, or re-use an existing one if it does. Try running your JS file now:
+The `better-sqlite3` library exports a constructor function that creates a new SQLite database and returns a [JS object](https://github.com/WiseLibs/better-sqlite3/blob/master/docs/api.md#class-database) with methods for talking to that DB. Try running your JS file now and you should see this object logged:
 
 ```shell
 node database/db.js
 ```
 
-You should see a new file called `db.sqlite` appear at the root of your project. You should also see the [Database object](https://github.com/WiseLibs/better-sqlite3/blob/master/docs/api.md#class-database) you logged in your terminal. This object provides several methods for accessing your data.
+By default if we don't pass any arguments to `new Database()` it'll create an "in-memory" DB. This means the data won't be persisted—this is useful for testing as you can't permanently break anything. If you want to persist data you can pass the name of the file you want to use.
+
+```js
+const db = new Database("db.sqlite");
+```
+
+If you run this code it'll create the file if it doesn't exist, or re-use an existing one if it does. However hard-coding isn't the best idea—there are situations where we might want to use an in-memory DB, like running tests. Instead we can use an _environment variable_ to set the filename.
+
+```js
+const db = new Database(process.env.DB_FILE);
+```
+
+Now if we run our code without setting this env var we'll get a temporary in-memory DB. If we set the env var we will persist data to the file we chose. For example if you run this file with:
+
+```shell
+DB_FILE=db.sqlite node database/db.js
+```
+
+you should see a new file called `db.sqlite` appear at the root of your project.
 
 {% box %}
 
-The `db.sqlite` file is where SQLite stores all your data. In a real project you should add it to your `.gitignore` so each team member can have their own local copy.
+This file is where SQLite stores all your data. In a real project you should add it to your `.gitignore` so each team member can have their own local copy.
 
 If you want to start over at any point you can delete this file—it will be recreated (but with all the data deleted!) when you next use the `db.js` file.
 
@@ -117,7 +135,7 @@ const { readFileSync } = require("node:fs");
 const { join } = require("node:path");
 const Database = require("better-sqlite3");
 
-const db = new Database("db.sqlite");
+const db = new Database(process.env.DB_FILE);
 
 const schemaPath = join("database", "schema.sql");
 const schema = readFileSync(schemaPath, "utf-8");
@@ -138,7 +156,7 @@ You should see your new `tasks` table in the array:
 [ { name: 'tasks' }, ... ]
 ```
 
-Your database is now ready to use. We just need to make it available to other parts of our application by exporting the `db` object. Here's the full `database/db.js` file:
+Your database is now ready to use. We just need to make it available to other parts of our application by exporting the `db` object. Here's the full `database/db.js` file you need, with explanatory comments:
 
 ```js
 const { readFileSync } = require("node:fs");
@@ -146,9 +164,11 @@ const { join } = require("node:path");
 const Database = require("better-sqlite3");
 
 /**
- * Create a new DB file, or use an existing one
+ * If we do not set DB_FILE env var creates an in-memory temp DB.
+ * Otherwise connect to the DB contained in the file we specified (if it exists).
+ * If it does not exist create a new DB file and connect to it.
  */
-const db = new Database("db.sqlite");
+const db = new Database(process.env.DB_FILE);
 
 /**
  * Make sure DB has the right structure by running schema.sql
