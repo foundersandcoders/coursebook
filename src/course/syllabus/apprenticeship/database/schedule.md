@@ -2,6 +2,11 @@
 layout: schedule
 schedule:
   monday:
+    - name: Database workshop
+      url: /learn/database
+      type: workshop
+      start: 9:45
+      end: 18:00
   tuesday:
     - name: Issue management and estimation
       start: 15:45
