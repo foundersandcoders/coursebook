@@ -53,13 +53,13 @@ By default if we don't pass any arguments to `new Database()` it'll create an "i
 const db = new Database("db.sqlite");
 ```
 
-If you run this code it'll create the file if it doesn't exist, or re-use an existing one if it does. However hard-coding isn't the best idea—there are situations where we might want to use an in-memory DB, like running tests. Instead we can use an _environment variable_ to set the filename.
+If you run this code it'll create the file if it doesn't exist, or re-use an existing one if it does. However hard-coding isn't the best idea—there are situations where we might want to use a different DB, like running tests. Instead we can use an _environment variable_ to set the filename.
 
 ```js
 const db = new Database(process.env.DB_FILE);
 ```
 
-Now if we run our code without setting this env var we'll get a temporary in-memory DB. If we set the env var we will persist data to the file we chose. For example if you run this file with:
+Now we can choose what DB file to use without changing the code. For example if you run this file with:
 
 ```shell
 DB_FILE=db.sqlite node database/db.js
@@ -295,7 +295,17 @@ db.exec(seed);
 console.log("DB seeded with example data");
 ```
 
-Now you can run this script with `node database/seed.js` to insert example data.
+Now you can run this script with `DB_FILE=db.sqlite node database/seed.js` to insert example data. It's worth adding an npm script to your `package.json` to make this reusable for other team members in your project:
+
+```json
+{
+  "scripts": {
+    "seed": "DB_FILE=db.sqlite node database/seed.js"
+  }
+}
+```
+
+Now anyone cloning the project can run `npm install` then `npm run seed` to have everything up and running quickly.
 
 ## Amending the schema
 
@@ -486,25 +496,25 @@ test("can create, remove & list tasks", () => {
 });
 ```
 
-We can run the test directly with:
-
-```shell
-node test/tasks.test.js
-```
-
-Or we can run all our tests with:
-
-```shell
-node --test
-```
-
-Note we are **not** setting the `DB_FILE` environment variable. This means our DB will be _in-memory_ for our tests, so none of the changes will be persisted or effect the dev DB we've been using.
-
 {% box %}
 
-**Important**: we empty the `tasks` table at the start of each test to ensure any leftovers from other tests don't effect this one. This ensures tests are not dependent on each other, so they can be run in any order (or in parallel) without affecting the results.
+**Important**: we must empty the `tasks` table at the start of each test to ensure any leftovers from other tests don't effect this one. This ensures tests are not dependent on each other, so they can be run in any order (or in parallel) without affecting the results.
 
 {% endbox %}
+
+Ideally our tests shouldn't mess with our dev environment (where we may have changes to the DB we don't want to overwrite). We can run the tests with a separate DB file by specifying a different value for the env var:
+
+```shell
+DB_FILE=test.sqlite node test/tasks.test.js
+```
+
+We should make sure to add `test.sqlite` to our `.gitgnore` too, since we don't want random DBs floating around on GitHub.
+
+It's not necessary in this case, but if we wanted to seed the test DB (so we can assert against the example data) we can tell Node to require `seed.js` before running the test:
+
+```shell
+DB_FILE=test.sqlite node -r ./database/seed.js test/tasks.test.js
+```
 
 ## Updating a row
 
