@@ -25,7 +25,8 @@ Programmer 1 creates a new GitHub repo and clones it.
 
 <!-- 1. Go to your cohort's GitHub organisation and create a new repo, initialising it with a `README.md`. -->
 
-1. Create a new GitHub repo on Programmer 1's profile
+1. Create a new GitHub repo on Programmer 1's profile, making sure to initialise it with a `README.md`
+   <img src="images/init-repo-with-readme.png" width="455" height="100" alt="initialise repo with readme">
 1. Go to "Settings > Collaborators" and add Programmer 2 so they can access the repo
 1. Programmer 2 should check their email and accept the invite to collaborate
 1. Clone this new repository using your terminal.
