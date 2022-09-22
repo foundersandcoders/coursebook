@@ -570,6 +570,19 @@ function editTask(task) {
 
 We return the edited task for convenience.
 
+Let's write a quick test in `test/tasks.test.js` to make sure this works:
+
+```js
+test("can update a task", () => {
+  reset();
+
+  const task = model.createTask({ content: "test task", complete: 0 });
+  const updated = model.editTask({ id: 1, content: "this is updated" });
+  assert.equal(updated.id, 1);
+  assert.equal(updated.content, "this is updated");
+});
+```
+
 ## Toggling a boolean
 
 When a user marks a task as complete (or incomplete) we need to update that row to match. We can easily toggle our "fake boolean" integer column using `NOT`:
@@ -588,6 +601,18 @@ function toggleTask(id) {
 ```
 
 This function will flip the `complete` column from `0` to `1`, or from `1` to `0`.
+
+Let's add a test for this function too:
+
+```js
+test("can complete a task", () => {
+  reset();
+
+  const task = model.createTask({ content: "test task", complete: 0 });
+  const updated = model.toggleTask(1);
+  assert.equal(updated.complete, 1);
+});
+```
 
 ## Integrating a UI
 
