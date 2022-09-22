@@ -486,7 +486,7 @@ const delete_task = db.prepare(/*sql*/ `
 `);
 
 function removeTask(id) {
-  return delete_task.run(id);
+  delete_task.run(id);
 }
 ```
 
@@ -496,7 +496,7 @@ SQL queries act on **every row** by default. This makes deletion and updates ver
 
 {% endbox %}
 
-Test this by calling `removeTasks(1)` to delete the first task you created earlier. You can call `listTasks` to check that a task has been removed.
+Test this by calling `removeTask(1)` to delete the first task. You can call `listTasks` to check that it has been removed.
 
 ## Testing the model
 
