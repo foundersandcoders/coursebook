@@ -16,7 +16,7 @@ SQLite is a relational database that is quite simple to get started with. It run
 
 ## Using SQLite
 
-If you have the SQLite command-line program you can create and manipulate databases in your terminal. However since we're building a Node app we'll use a library to do this in JS. There several to choose from, but the simplest is `better-sqlite3`.
+If you have the SQLite command-line program you can create and manipulate databases in your terminal. However since we're building a Node app we'll use a library to do this in JS. There are several to choose from, but the simplest is `better-sqlite3`.
 
 Let's start a new Node project and set it up to use a database. First create a new directory and a `package.json`:
 
@@ -260,6 +260,18 @@ console.log(result);
 ```json
 { "id": 2, "content": "Send mum flowers", "created_at": "2022-09-14 08:52:30" }
 ```
+
+---
+
+{% box %}
+
+## Graphical preview
+
+Sometimes it's nice to see what data is in the DB without writing code. The [SQLite Viewer](https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer) VS Code extension allows you to click the DB file to preview tables. If you want a more fully featured app [Beekeeper Studio](https://www.beekeeperstudio.io) is nice.
+
+{% endbox %}
+
+---
 
 ## Seeding example data
 
