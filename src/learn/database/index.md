@@ -510,13 +510,20 @@ const assert = require("node:assert");
 const model = require("../model/tasks.js");
 const db = require("../database/db.js");
 
-test("can create, remove & list tasks", () => {
-  db.exec("DELETE FROM tasks");
+// Delete all tasks and reset ID counter
+function reset() {
+  db.exec(/*sql*/ `
+    DELETE FROM tasks;
+    DELETE FROM sqlite_sequence WHERE name='tasks';
+  `);
+}
 
-  const task = model.createTask("test task");
+test("can create, remove & list tasks", () => {
+  reset();
+
+  const task = model.createTask({ content: "test task", complete: 0 });
   assert.equal(task.id, 1);
   assert.equal(task.content, "test task");
-  assert.equal(task.complete, 0);
 
   model.removeTask(task.id);
   const tasks = model.listTasks();
@@ -526,7 +533,7 @@ test("can create, remove & list tasks", () => {
 
 {% box %}
 
-**Important**: we must empty the `tasks` table at the start of each test to ensure any leftovers from other tests don't effect this one. This ensures tests are not dependent on each other, so they can be run in any order (or in parallel) without affecting the results.
+**Important**: we must empty the `tasks` table at the start of each test to ensure any leftovers from other tests don't affect this one. This ensures tests are not dependent on each other, so they can be run in any order (or in parallel) without affecting the results.
 
 {% endbox %}
 
