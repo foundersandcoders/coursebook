@@ -327,7 +327,7 @@ Migrations are a bit complicated, so we won't worry about them for now—they're
 
 {% enddisclosure %}
 
-The simpler way is just to delete our database, change the `schema.sql`, then regenerate the DB. This is fine while we're still working on a feature, but if we tried this on our production DB we'd lose all our users' data.
+The simpler way is just to delete our database, change the `schema.sql`, then regenerate the DB. This is fine while we're still working on a feature, but if we tried this on our production DB we'd **lose all our users' data**.
 
 So you can just delete your `db.sqlite` file, then amend your `schema.sql` file:
 
