@@ -311,7 +311,7 @@ Now anyone cloning the project can run `npm install` then `npm run seed` to have
 
 ## Amending the schema
 
-A task app needs to track whether each task is completed. To do this our `tasks` table will need a `completed` column. There are two approaches to amending the schema. We won't be using the first, but it's here for completeness if you're curious.
+A task app needs to track whether each task is completed. To do this our `tasks` table will need a `complete` column. There are two approaches to amending the schema. We won't be using the first, but it's here for completeness if you're curious.
 
 {% disclosure "Read about migrations" "info" %}
 
