@@ -673,9 +673,29 @@ Then add a `/ POST` handler to receive the submission a insert the new task:
 const model = require("./model/tasks.js");
 
 server.post("/", express.urlencoded({ extended: false }), (req, res) => {
-  model.createTask(req.body.content);
+  const task = {
+    content: req.body.content,
+    complete: 0,
+  };
+  model.createTask(task);
   res.redirect("/");
 });
+```
+
+If we want our app to persist data we need to start it with the `DB_FILE` env var set:
+
+```shell
+DB_FILE=db.sqlite node index.js
+```
+
+Since we'll want to run this a lot we should add an npm script to save on typing:
+
+```json
+{
+  "scripts": {
+    "dev": "DB_FILE=db.sqlite node index.js"
+  }
+}
 ```
 
 ### Rendering tasks
@@ -684,7 +704,7 @@ Now that we can insert tasks we need to show them on the page. Edit the `GET /` 
 
 ```js
 server.get("/", (req, res) => {
-  const tasks = listTasks();
+  const tasks = model.listTasks();
   const body = /*html*/ `
     <!doctype html>
     <form method="POST">
@@ -708,15 +728,15 @@ Our handler is going to need to know two things: which action should it take (to
 ```js
 server.post("/update", express.urlencoded({ extended: false }), (req, res) => {
   const { action, id } = req.body;
-  if (action === "remove") removeTask(id);
-  if (action === "toggle") toggleTask(id);
+  if (action === "remove") model.removeTask(id);
+  if (action === "toggle") model.toggleTask(id);
   res.redirect("/");
 });
 ```
 
-Since all our "business logic" is contained in the model our route handler ends up pretty simple.
+Since all our "business logic" is contained in the model our route handler ends up fairly small.
 
-Now we need to update the list render to add a form to each task. It'll two submit buttons—one for each action—and a hidden input with the ID. Since it will get a bit long to embed inline we'll create a separate function to render this HTML:
+Now we need to update the list render to add a form to each task. It'll have two submit buttons—one for each action—and a hidden input with the ID. Since it will get a bit long to embed inline we'll create a separate function to render this HTML:
 
 ```js
 function Task(task) {
@@ -737,7 +757,7 @@ function Task(task) {
 }
 
 server.get("/", (req, res) => {
-  const tasks = listTasks();
+  const tasks = model.listTasks();
   const list = tasks.map(Task);
   const body = /*html*/ `
     <!doctype html>
@@ -756,3 +776,17 @@ server.get("/", (req, res) => {
 This example is missing validation and other important things in order to keep it brief.
 
 {% endbox %}
+
+Now the request body sent by the form will look like this if the toggle button was clicked:
+
+```
+id=1&action=toggle
+```
+
+or like this if the remove button was clicked:
+
+```
+id=1&action=remove
+```
+
+The `POST /update` handler will call the right model method depending on the action.
