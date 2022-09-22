@@ -346,6 +346,16 @@ SQLite does not support booleans natively. Instead you must use integers (`0` is
 
 {% endbox %}
 
+You'll also need to amend the `seed.sql` file before running it again. It needs the `complete` column, otherwise you'll get an error like `table tasks has 4 columns but 3 values were supplied`.
+
+```sql
+INSERT INTO tasks VALUES
+  (1, 'Create my first todo', '2022-09-16 01:01:01', 1),
+  (2, 'Buy milk', '2022-09-16 11:10:07', 0),
+  (3, 'Become a 10x developer', '2022-09-16 23:59:59', 1)
+ON CONFLICT(id) DO NOTHING;
+```
+
 ### Named SQL parameters
 
 Now our schema has changed we need to update the `createTask` function, since we may want to create a new task that is already completed. This means the function needs to set both columns. We _could_ use multiple parameters like this:
