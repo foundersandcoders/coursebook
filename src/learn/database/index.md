@@ -722,8 +722,8 @@ server.get("/", (req, res) => {
     <form method="POST">
       <input id="content" name="content" aria-label="New task" required>
       <button>Add task +</button>
-      <ul>${tasks.map((t) => `<li>${t.content}</li>`).join("")}</ul>
     </form>
+    <ul>${tasks.map((t) => `<li>${t.content}</li>`).join("")}</ul>
   `;
   res.send(body);
 });
@@ -776,8 +776,8 @@ server.get("/", (req, res) => {
     <form method="POST">
       <input id="content" name="content" aria-label="New task" required>
       <button>Add task +</button>
-      <ul>${list.join("")}</ul>
     </form>
+    <ul>${list.join("")}</ul>
   `;
   res.send(body);
 });
