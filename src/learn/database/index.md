@@ -406,7 +406,7 @@ Our app is going to need a way to read all the tasks from the DB. We need to wri
 
 ```js
 const select_tasks = db.prepare(/*sql*/ `
-  SELECT id, content, created_at FROM tasks
+  SELECT id, content, created_at, complete FROM tasks
 `);
 
 function listTasks() {
@@ -431,7 +431,8 @@ const select_tasks = db.prepare(/*sql*/ `
   SELECT
     id,
     content,
-    TIME(created_at)
+    TIME(created_at),
+    complete
   FROM tasks
 `);
 ```
@@ -439,7 +440,14 @@ const select_tasks = db.prepare(/*sql*/ `
 If you log the result of this query you should see the task objects change:
 
 ```json
-[{ "id": 2, "content": "Send mum flowers", "TIME(created_at)": "08:52:30" }]
+[
+  {
+    "id": 2,
+    "content": "Send mum flowers",
+    "TIME(created_at)": "08:52:30",
+    "complete": 0
+  }
+]
 ```
 
 However the column name has changed to represent this. Ideally we would keep the same name (`created_at`). We can rename columns using the `AS` SQL operator:
@@ -449,7 +457,8 @@ const select_tasks = db.prepare(/*sql*/ `
   SELECT
     id,
     content,
-    TIME(created_at) AS created_at
+    TIME(created_at) AS created_at,
+    complete
   FROM tasks
 `);
 ```
@@ -457,7 +466,14 @@ const select_tasks = db.prepare(/*sql*/ `
 If you run this again you should see the object key is now `created_at` like before.
 
 ```json
-[{ "id": 2, "content": "Send mum flowers", "created_at": "08:52:30" }]
+[
+  {
+    "id": 2,
+    "content": "Send mum flowers",
+    "created_at": "08:52:30",
+    "complete": 0
+  }
+]
 ```
 
 ## Deleting a row
