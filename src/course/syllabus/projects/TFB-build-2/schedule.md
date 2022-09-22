@@ -79,10 +79,6 @@ schedule:
     - name: Team SGC
       start: 11:30
       end: 12:00
-    - name: Portfolio evidence gathering
-      start: 12:00
-      end: 13:00
-      url: https://fac-standard.netlify.app/portfolio/
     - name: Presentation practice
       start: 14:00
       end: 16:00

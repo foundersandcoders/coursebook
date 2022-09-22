@@ -70,8 +70,4 @@ schedule:
       start: 11:00
       end: 12:00
       url: /course/handbook/project-docs/sprint-planning
-    - name: Portfolio evidence gathering
-      start: 12:00
-      end: 12:30
-      url: https://fac-standard.netlify.app/portfolio/
 ---
