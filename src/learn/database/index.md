@@ -265,7 +265,9 @@ console.log(result);
 
 It's a bit awkward to have to manually call functions to insert data when we want to check our DB is working. It would be nice if we had a script to run that could "seed" the DB with some pre-defined example data.
 
-Let's start by writing some SQL to insert example tasks. Create a `database/seed.sql` file:
+Delete your existing `db.sqlite` file, so we don't have to worry about any data already inserted.
+
+Let's write some SQL to insert example tasks. Create a `database/seed.sql` file:
 
 ```sql
 BEGIN;
@@ -305,7 +307,7 @@ Now you can run this script with `DB_FILE=db.sqlite node database/seed.js` to in
 }
 ```
 
-Now anyone cloning the project can run `npm install` then `npm run seed` to have everything up and running quickly.
+Now anyone cloning the project can run `npm install` then `npm run seed` to have everything up and running quickly. If you ever want to start over you can delete your DB file and re-run the seed script.
 
 ## Amending the schema
 
