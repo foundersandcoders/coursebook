@@ -2,7 +2,17 @@
 layout: schedule
 schedule:
   monday:
+    - name: Database workshop
+      url: /learn/database
+      type: workshop
+      start: 9:45
+      end: 18:00
   tuesday:
+    - name: SQL challenge
+      url: https://github.com/foundersandcoders/sql-challenge
+      type: challenge
+      start: 10:00
+      end: 11:00
     - name: Issue management and estimation
       start: 15:45
       end: 16:00
