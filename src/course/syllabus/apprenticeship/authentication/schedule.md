@@ -10,8 +10,8 @@ schedule:
   wednesday:
   thursday:
   friday:
-    - name: Cohort SGC
-      start: 15:30
+    - name: Portfolio review
+      start: 16:20
       end: 16:50
-      url: /course/handbook/retrospectives/#cohort-retrospective
+      url: /course/handbook/portfolio
 ---

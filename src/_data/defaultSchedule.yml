@@ -108,8 +108,8 @@ friday:
     type: project
   - start: 12:00
     end: 12:30
-    name: Project documentation
-    url: /course/handbook/project-documentation
+    name: Portfolio building
+    url: /course/handbook/portfolio
   - start: 12:30
     end: 13:00
     name: Presentation prep
