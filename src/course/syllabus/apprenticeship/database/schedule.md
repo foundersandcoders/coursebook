@@ -11,8 +11,8 @@ schedule:
     - name: SQL challenge
       url: https://github.com/foundersandcoders/sql-challenge
       type: challenge
-      start: 10:00
-      end: 11:00
+      start: 12:00
+      end: 13:00
     - name: Issue management and estimation
       start: 15:45
       end: 16:00

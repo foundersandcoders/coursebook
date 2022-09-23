@@ -15,10 +15,6 @@ tuesday:
     end: 12:00
     name: Cohort discussion
     type: workshop
-  - start: 12:00
-    end: 13:00
-    name: Morning challenge
-    type: challenge
   - start: 13:00
     end: 14:00
     name: Lunch
