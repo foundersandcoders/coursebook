@@ -1,6 +1,6 @@
 ---
-title: Authenticating users with sessions
-description: Learn how to safely store passwords, and identify returning users with cookies
+title: Authenticating web apps
+description: Learn how to safely store passwords, and identify returning users with cookies and sessions
 tags:
   - workshop
 keywords:
