@@ -302,6 +302,10 @@ Here's roughly how this might be implemented. First we need a table to store our
 
 ```sql
 -- schema.sql
+CREATE TABLE IF NOT EXISTS users (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  -- plus other columns...
+);
 
 CREATE TABLE IF NOT EXISTS sessions (
   id TEXT PRIMARY KEY,
@@ -316,9 +320,10 @@ Then we need a function to generate a random session ID and insert the session:
 
 ```js
 // model.js
+const crypto = require("node:crypto");
 
 // Sets the expiry to current date + 7 days
-const insert_session = db.prepare(`INSERT INTO sessions (
+const insert_session = db.prepare(`INSERT INTO sessions VALUES (
   $id,
   $user_id,
   DATE('now', '+7 days')
@@ -355,15 +360,13 @@ Now handlers can read the session cookie to find out which user (if any) made th
 
 function get(req, res) {
   const sid = req.signedCookies.sid;
-  if (sid) {
-    const session = model.getSession(sid);
-    if (session.user_id) {
-      // we have a logged in user
-      res.send("<h1>Private stuff</h1>");
-    } else {
-      // request is not authenticated
-      res.status(401).send("<h1>Please log in to view this page</h1>");
-    }
+  const session = model.getSession(sid);
+  if (session && session.user_id) {
+    // we have a logged in user
+    res.send("<h1>Private stuff</h1>");
+  } else {
+    // request is not authenticated
+    res.status(401).send("<h1>Please log in to view this page</h1>");
   }
 }
 ```
