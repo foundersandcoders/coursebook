@@ -12,6 +12,12 @@ challenge: https://github.com/foundersandcoders/auth-challenge
 
 Applications often store information specific to individual users. It is important to only allow access to the correct people, to avoid potentially malicious actors stealing or deleting private data. The term _authentication_ refers to the process of verifying the identity of a specific user; _authorization_ refers to verifying that this user is allowed to do something.
 
+{% box "info" %}
+
+Authentication is a complex topic with serious repercussions for getting it wrong. To keep this workshop focused we are going to focus on the necessary concepts to get a simple signup/login system working. This means we will be skipping over the "glue code" (e.g. the actual server, HTML forms etc).
+
+{% endbox %}
+
 ## Verifying users with passwords
 
 The simplest way to verify a user is by asking them for a secret when they create an account. They can then provide this secret when they want access—since only they should know it you can trust that they are who they say they are.
