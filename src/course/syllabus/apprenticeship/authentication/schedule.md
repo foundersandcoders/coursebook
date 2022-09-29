@@ -2,6 +2,11 @@
 layout: schedule
 schedule:
   monday:
+    - name: Authentication workshop
+      url: /learn/auth
+      type: workshop
+      start: 9:45
+      end: 18:00
   tuesday:
     - name: Intro to final projects
       start: 15:45
