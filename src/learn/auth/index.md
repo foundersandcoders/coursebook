@@ -87,30 +87,20 @@ It is now impossible for any of these hashes to be pre-computed, since the hacke
 
 Our sign up/log in process has gotten quite complex. There are many moving parts to get right, and any flaw could be exploited by a hacker. It is a good idea to rely on a popular battle-tested library to implement these features for us instead of trying to write them ourselves.
 
-The `bcryptjs` npm library provides simple methods for hashing a password (with salt) and comparing a password to a hash. Let's try it out. First create a new directory and install Express and BCrypt:
-
-```shell
-mkdir learn-auth
-cd learn-auth
-echo "{}" > package.json
-npm install express bcryptjs
-```
-
-Create a new file `auth.js` and try using BCrypt to hash a password:
+The [`bcryptjs`](https://github.com/dcodeIO/bcrypt.js) npm package provides simple methods for hashing a password (with salt) and comparing a password to a hash. Let's see how we'd use it to hash a password:
 
 ```js
 const bcrypt = require("bcryptjs");
 
 const password = "hunter2";
-const cost = 10; // How slow/hard to compute the hash should be
 
-bcrypt.hash(password, cost).then((hash) => console.log(hash));
+bcrypt.hash(password, 12).then((hash) => console.log(hash));
 // $2a$10$n1etzOWCrAtJGQIDoaw0mun1ojnIjA2UaiJ8DkL76ljhGa/cZCQtq
 ```
 
-Run this with `node auth.js` to see your hash logged. Since BCrypt is designed to be slow it returns a promise—you need to wait for this to resolve before you can access the hash.
+The `.hash` method is designed to be slow, to make brute-force attacks harder. You control how slow it should be using the second argument (`12` is a good compromise between speed and security). It returns a promise—you need to wait for this to resolve before you can access the hash.
 
-Now try comparing the hash to passwords to see if they match:
+The `.compare` method lets us compare the hash to passwords to see if they match:
 
 ```js
 //...
@@ -123,7 +113,7 @@ bcrypt.hash(password, cost).then((hash) => {
 });
 ```
 
-The `.compare` method returns a promise that resolves with a boolean telling you whether the password matches the hash.
+This method returns a promise that resolves with a boolean telling you whether the password matches the hash.
 
 {% box %}
 
