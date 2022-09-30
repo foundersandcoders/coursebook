@@ -280,7 +280,7 @@ Ideally we need a system that lets us keep track of who is logged in on the serv
 
 ## Session authentication flow
 
-Instead of storing all the user info in the cookie, we can just stored a random "session ID" that corresponds to info stored in our DB. Now the cookie itself has no power, the _server_ decides whether the user is logged in based on the session info.
+Instead of storing all the user info in the cookie, we can just store a random "session ID" that corresponds to info stored in our DB. Now the cookie itself has no power, the _server_ decides whether the user is logged in based on the session info.
 
 Here's a modified auth flow:
 
