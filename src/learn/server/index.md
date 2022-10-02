@@ -801,7 +801,7 @@ server.post("/submit", bodyParser, (request, response) => {
 });
 ```
 
-No we can update our test to send a URL-encoded body as part of the POST request. We need to make sure we add the right content-type header to the request, as this is how Express knows how to decode the body. We'll also change the assertion to expect the right response:
+Now we can update our test to send a URL-encoded body as part of the POST request. We need to make sure we add the right content-type header to the request, as this is how Express knows how to decode the body. We'll also change the assertion to expect the right response:
 
 ```js
 // tests/server.test.js
