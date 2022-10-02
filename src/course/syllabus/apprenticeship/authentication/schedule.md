@@ -8,6 +8,11 @@ schedule:
       start: 9:45
       end: 18:00
   tuesday:
+    - name: Promise creation challenge
+      start: 12:00
+      end: 13:00
+      url: /workshops/creating-promises/
+      type: challenge
     - name: Intro to final projects
       start: 15:45
       end: 16:00
