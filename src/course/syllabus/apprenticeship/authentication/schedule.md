@@ -11,7 +11,7 @@ schedule:
     - name: Promise creation challenge
       start: 12:00
       end: 13:00
-      url: /workshops/creating-promises/
+      url: https://github.com/foundersandcoders/promise-creation-challenge
       type: challenge
     - name: Intro to final projects
       start: 15:45
