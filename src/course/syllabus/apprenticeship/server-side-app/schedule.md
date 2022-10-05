@@ -2,19 +2,19 @@
 layout: schedule
 schedule:
   monday:
-  tuesday:
-    - name: Client-side validation
-      start: 10:00
-      end: 12:15
-      url: /workshops/form-validation/
+    - name: Validation workshop
+      url: /workshops/form-validation
       type: workshop
+      start: 9:45
+      end: 18:00
+  tuesday:
     - name: Project and spike intro
-      start: 12:15
-      end: 12:30
+      start: 12:00
+      end: 12:15
       type: project
       url: ../project
     - name: Project spike
-      start: 12:30
+      start: 12:15
       end: 13:00
       url: ../project#spike
     - name: Draft a project idea
