@@ -2,13 +2,32 @@
 layout: schedule
 schedule:
   monday:
-    - name: Employer day
+    - name: Validation workshop
+      url: /workshops/form-validation
+      type: workshop
       start: 9:45
+      end: 12:00
+    - name: Workshop revision
+      type: workshop
+      start: 12:00
       end: 18:00
   tuesday:
+    - name: Project and spike intro
+      start: 12:00
+      end: 12:15
+      type: project
+      url: ../project
+    - name: Project spike
+      start: 12:15
+      end: 13:00
+      url: ../project#spikes
     - name: Draft a project idea
       start: 15:45
       end: 16:00
+    - name: Project spike
+      start: 16:00
+      end: 17:45
+      url: ../project#spikes
   wednesday:
   thursday:
   friday:
