@@ -8,7 +8,7 @@ schedule:
       end: 18:00
   tuesday:
     - name: Validation workshop
-      url: /workshops/form-validation
+      url: /learn/form-validation
       type: workshop
       start: 10:00
       end: 12:15
