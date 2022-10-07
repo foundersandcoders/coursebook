@@ -2,23 +2,23 @@
 layout: schedule
 schedule:
   monday:
-    - name: Validation workshop
-      url: /workshops/form-validation
+    - name: Bank Holiday
       type: workshop
       start: 9:45
-      end: 12:00
-    - name: Workshop revision
-      type: workshop
-      start: 12:00
       end: 18:00
   tuesday:
-    - name: Project and spike intro
-      start: 12:00
+    - name: Validation workshop
+      url: /learn/form-validation
+      type: workshop
+      start: 10:00
       end: 12:15
+    - name: Project and spike intro
+      start: 12:15
+      end: 12:30
       type: project
       url: ../project
     - name: Project spike
-      start: 12:15
+      start: 12:30
       end: 13:00
       url: ../project#spikes
     - name: Draft a project idea
