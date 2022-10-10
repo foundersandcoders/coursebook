@@ -142,7 +142,7 @@ Our "enhancement" is currently _worse_ than the default, since it prevents submi
 First we need to tell the browser/assistive tech whether the field is valid or not. We can use the `aria-invalid` attribute for this. Each field should have `aria-invalid="false"` set at first, since it can't be invalid until we check it.
 
 ```js
-const fields = form.querySelector("input"); // you probably want to include <select>, <textarea> etc too
+const fields = form.querySelectorAll("input"); // you probably want to include <select>, <textarea> etc too
 fields.forEach((field) => {
   field.setAttribute("aria-invalid", "false");
 });
