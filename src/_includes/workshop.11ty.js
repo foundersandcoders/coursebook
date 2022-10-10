@@ -38,13 +38,16 @@ exports.render = ({
           `
         }
       </div>
-      ${starter && html`<${Copy} ...${page} />`}
-      ${
-        challenge &&
-        html`
-        <${Challenge} url=${challenge}>View challenge repo</${Challenge}>
-      `
-      }
+      <div class="hstack wrap">
+        ${starter && html`<${Copy} ...${page} />`}
+        ${
+          challenge &&
+          html`
+          <${Challenge} url=${challenge}>View challenge repo</${Challenge}>
+        `
+        }
+        <${Feedback} url=${page.url}>Leave feedback</${Feedback}>
+      </div>
     </header>
     <${RawContent} style="margin: 4rem 0" class="flow">${content}</${RawContent}>
     ${
@@ -122,19 +125,41 @@ function Challenge({ url, children }) {
       style="--bg: var(--primary); --bg-hover: var(--primary-dark)"
     >
       ${children}
-      <svg
-        viewBox="0 0 32 32"
-        width="16"
-        height="16"
-        fill="none"
-        stroke="currentColor"
-      >
+      <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16">
         <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="4"
-          d="M14 9 L3 9 3 29 23 29 23 18 M18 4 L28 4 28 14 M28 4 L14 18"
-        ></path>
+          fill-rule="evenodd"
+          d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z"
+          clip-rule="evenodd"
+        />
+        <path
+          fill-rule="evenodd"
+          d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z"
+          clip-rule="evenodd"
+        />
+      </svg>
+    </a>
+  `;
+}
+
+function Feedback({ url, children }) {
+  if (!url) {
+    return "";
+  }
+  const href = new URL(
+    "https://github.com/foundersandcoders/coursebook/issues/new"
+  );
+  const slug = url.replace(/^\/|\/$/g, "");
+  href.searchParams.set("title", "[" + slug + "]");
+  href.searchParams.set("labels", "feedback");
+  return html`
+    <a href="${href.toString()}" target="_blank" rel="noopener" class="button">
+      ${children}
+      <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16">
+        <path
+          fill-rule="evenodd"
+          d="M10 2c-2.236 0-4.43.18-6.57.524C1.993 2.755 1 4.014 1 5.426v5.148c0 1.413.993 2.67 2.43 2.902 1.168.188 2.352.327 3.55.414.28.02.521.18.642.413l1.713 3.293a.75.75 0 001.33 0l1.713-3.293a.783.783 0 01.642-.413 41.102 41.102 0 003.55-.414c1.437-.231 2.43-1.49 2.43-2.902V5.426c0-1.413-.993-2.67-2.43-2.902A41.289 41.289 0 0010 2zM6.75 6a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5zm0 2.5a.75.75 0 000 1.5h3.5a.75.75 0 000-1.5h-3.5z"
+          clip-rule="evenodd"
+        />
       </svg>
     </a>
   `;
