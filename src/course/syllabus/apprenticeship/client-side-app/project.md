@@ -27,13 +27,14 @@ The goal is to build an interactive game-like thing that uses data from an API.
 
 We'll be using [Vite](https://vitejs.dev/) to handle bundling our app and providing a dev server. You can quickly scaffold a new app using their CLI:
 
-1. `npm init @vitejs/app`
-1. Follow the instructions in your Terminal (pick the `react` option)
-1. `cd [my-app-name]`
+**Do not create a new directory—Vite will do this for you**
+
+1. `npm create vite myapp -- --template react`
+1. `cd myapp`
 1. `npm install` to install the dependencies
 1. `npm run dev` start the dev server
 
-Open the project in your editor—you should see an example app setup. Feel free to delete the logo/CSS files that you won't be using.
+Open the project in your editor—you should see an example app. Feel free to delete the logo/CSS files that you won't be using.
 
 ### Static assets
 
