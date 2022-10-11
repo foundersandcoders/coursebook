@@ -10,7 +10,7 @@ keywords:
 challenge: https://github.com/foundersandcoders/react-challenge
 ---
 
-React makes dealing with the DOM in JavaScript more like writing HTML. It helps package up elements into "components" so you can divide your UI up into reusable pieces. You can try out the examples online by creating a new [React playground](https://react.new).
+React makes dealing with the DOM in JavaScript more like writing HTML. It helps package up elements into "components" so you can divide your UI up into reusable pieces. You can try out the examples online by creating a new [React playground](https://vite.new/react).
 
 ## Quick summary
 
