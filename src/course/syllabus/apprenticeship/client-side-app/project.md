@@ -1,13 +1,16 @@
-The goal is to build an interactive game-like thing that uses data from an API.
+Your project this week is to build an interactive game-like thing using React.
+
+## Spike
+
+Now that you're using a framework there is a bit more initial environment setup involved before you can start writing code. Make sure you get this [setup](#setup) done and [deployed](#deployment) to Netlify at the beginning.
 
 ## Criteria
 
-- Accept some user input (e.g. a username)
-- Query an API (e.g. the [Github API](https://developer.github.com/v3/), or any other [fun one](https://www.potterapi.com/))
-- Populate the UI with API data
+- Accept at least 2 kinds of user input
 - Have some form of persistent state and interactivity, e.g.
-  - A hunger bar that decreases over time and is topped up when you feed them stars
-  - A button to add more users to your collection
+  - Countdown timer
+  - Score tracker
+  - Previous guesses
 
 ### Stretch criteria
 
@@ -23,11 +26,17 @@ The goal is to build an interactive game-like thing that uses data from an API.
 - [Oli's Tamagotchi](https://tamagotchi.netlify.com)
 - [Zooey's Drake thing](https://fuckin-yolo.netlify.com/)
 
+If you're struggling for inspiration consider adapting a simple board/card/arcade game that you like.
+
 ## Setup
 
-We'll be using [Vite](https://vitejs.dev/) to handle bundling our app and providing a dev server. You can quickly scaffold a new app using their CLI:
+We'll be using [Vite](https://vitejs.dev/) to handle bundling our app and providing a local dev server. You can quickly scaffold a new app using their CLI:
 
-**Do not create a new directory—Vite will do this for you**
+{% box %}
+
+Do not create a new directory—Vite will do this for you
+
+{% endbox %}
 
 1. `npm create vite myapp -- --template react`
 1. `cd myapp`
@@ -78,9 +87,9 @@ Since this app runs entirely client-side **you cannot keep secrets**. Everything
 
 {% endbox %}
 
-That said, if you have a token you want to keep off GitHub, but don't mind people potentially finding using dev tools (i.e. **not** a token attached to your credit card!) you can use a `.env` file.
+That said, if you have a token you want to keep off GitHub, but don't mind people potentially finding using dev tools (i.e. **not** a token attached to your credit card!) you can use a `.env.local` file.
 
-Vite will [automatically read any environment variables](https://vitejs.dev/guide/env-and-mode.html#env-files) prefixed with `VITE_` and make them available to your code on `import.meta.env`. E.g. if you have a `.env` like this:
+Vite will [automatically read any environment variables](https://vitejs.dev/guide/env-and-mode.html#env-files) prefixed with `VITE_` and make them available to your code on `import.meta.env`. E.g. if you have a `.env.local` file like this:
 
 ```
 VITE_APP_API_KEY='123'
@@ -88,6 +97,6 @@ VITE_APP_API_KEY='123'
 
 You can access that using `import.meta.env.VITE_APP_API_KEY`.
 
-Make sure you add `.env` to your `.gitignore` file so it doesn't end up on GitHub.
+Vite also generates a `.gitignore` that stops `.local` files from ending up on GitHub.
 
 You will also need to configure Netlify to inject this value when it deploys your site too (just like Heroku). You can do this under "Site settings" > "Build & deploy" > "Environment" > "Environment variables".
