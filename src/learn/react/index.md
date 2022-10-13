@@ -584,7 +584,7 @@ function ChooseRating() {
 
 ## Side effects
 
-So far we've seen how React keeps your UI in sync with your data. Your components describe the UI using JSX and React updates the DOM as required. However apps sometimes your app needs to sync with something else, like fetching from an API or setting up a timer.
+So far we've seen how React keeps your UI in sync with your data. Your components describe the UI using JSX and React updates the DOM as required. However apps sometimes need to sync with something else, like fetching from an API or setting up a timer.
 
 These are known as "side effects", and they can't be represented with JSX. This means we need a different way to ensure our side effects stay in sync just like our UI.
 
