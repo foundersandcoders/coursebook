@@ -239,7 +239,7 @@ Most people name this object "props" in their component function:
 ```jsx
 function Title(props) {
   console.log(props); // { name: "oli" }
-  return <div className="title">Hello world</div>;
+  return <h1 className="title">Hello world</h1>;
 }
 ```
 
@@ -247,7 +247,7 @@ We can use these props within your components to customise them. For example we 
 
 ```jsx
 function Title(props) {
-  return <div className="title">Hello {props.name}</div>;
+  return <h1 className="title">Hello {props.name}</h1>;
 }
 ```
 
@@ -310,7 +310,7 @@ You can then access and use it exactly like any other prop.
 
 ```jsx
 function Title(props) {
-  return <div className="title">{props.children}</div>;
+  return <h1 className="title">{props.children}</h1>;
 }
 ```
 
