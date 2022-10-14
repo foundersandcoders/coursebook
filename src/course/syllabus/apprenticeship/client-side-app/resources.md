@@ -2,17 +2,17 @@
 
 ### React docs
 
-Disclaimer: the offical docs haven't been re-written with the "new" (2 year old) hooks API, so you may see older syntax using classes in their example code. We recommend using this community-run fork with the same content translated to the new syntax:
+Disclaimer: the offical docs haven't been re-written with the "new" (3 year old) hooks API, so you may see older syntax using classes in their example code. We recommend using the new Beta docs, which are nearly complete:
 
-https://reactwithhooks.netlify.app
+https://beta.reactjs.org/learn
 
 There's a lot more to React than we could cover in a week. Definitely have a read through and see what else you can do.
 
 The docs have a few good articles about general React philosophy:
 
-- [Lifting State Up](https://reactwithhooks.netlify.app/docs/lifting-state-up.html)
-- [Composition vs Inheritance](https://reactwithhooks.netlify.app/docs/composition-vs-inheritance.html)
-- [Thinking in React](https://reactwithhooks.netlify.app/docs/thinking-in-react.html)
+- [Lifting State Up](https://beta.reactjs.org/learn/sharing-state-between-components)
+- [Composition vs Inheritance](https://reactjs.org/docs/composition-vs-inheritance.html)
+- [Thinking in React](https://beta.reactjs.org/learn/thinking-in-react)
 
 ## Videos
 
