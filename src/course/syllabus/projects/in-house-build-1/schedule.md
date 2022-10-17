@@ -23,9 +23,10 @@ schedule:
       end: 18:00
       name: Check-out
   tuesday:
-    - name: Employment morning
-      start: 9:45
+    - name: Build
+      start: 10:00
       end: 13:00
+      type: project
     - name: Tech for Better
       start: 14:00
       end: 15:30
