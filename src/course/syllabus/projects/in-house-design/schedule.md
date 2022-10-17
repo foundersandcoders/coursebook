@@ -112,4 +112,8 @@ schedule:
       start: 10:15
       end: 12:00
       url: /course/handbook/project-docs/sprint-planning
+    - name: Project documentation
+      start: 16:20
+      end: 16:50
+      url: /course/handbook/project-documentation/
 ---

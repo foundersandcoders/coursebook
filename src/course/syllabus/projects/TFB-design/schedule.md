@@ -81,4 +81,8 @@ schedule:
       start: 10:00
       end: 12:00
       type: project
+    - name: Project documentation
+      start: 16:20
+      end: 16:50
+      url: /course/handbook/project-documentation/
 ---
