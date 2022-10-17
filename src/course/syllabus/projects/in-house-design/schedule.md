@@ -58,8 +58,12 @@ schedule:
       url: https://docs.google.com/presentation/d/10VxYiFBmwLevEH3V6AP74ibf_JRt51Gd-295TICrWQU/edit?usp=sharing
       type: presentation
   wednesday:
-    - name: Wireframing
+    - name: Web Science
       start: 10:00
+      end: 11:00
+      type: presentation
+    - name: Wireframing
+      start: 11:00
       end: 13:00
       type: project
     - name: Usability testing
