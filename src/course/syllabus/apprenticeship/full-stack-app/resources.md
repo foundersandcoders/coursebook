@@ -1,3 +1,2 @@
 - [Next.js Docs](https://nextjs.org/docs/getting-started)
-- [Next.js Deployment](https://nextjs.org/docs/deployment)
-- [Next.js cookie auth example](https://github.com/oliverjam/next-cookie-auth)
+- [Next.js cookie auth example](https://github.com/oliverjam/next-cookie-auth) (including Fly.io deployment)

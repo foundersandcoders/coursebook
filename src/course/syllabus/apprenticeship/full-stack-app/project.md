@@ -2,8 +2,6 @@ This week you'll be building an e-commerce shopping site for a fake brand. It do
 
 Here's a very polished example (with more features than you need to implement): https://demo.vercel.store/
 
-Rather than worry about your own database, instead create a free one on https://www.elephantsql.com. It will provide a connection string you can connect to.
-
 {% box %}
 
 Remember that Next doesn't work that differently to the Express apps you've built so far. You still have access to requests/responses and can talk to the DB and set cookies on the server.
@@ -13,11 +11,8 @@ Remember that Next doesn't work that differently to the Express apps you've buil
 ## Acceptance criteria
 
 - Server-rendered with Next.js
-- Hosted on Vercel
-- Data stored in ElephantSQL Postgres
 - Homepage with product listings
-- Individual product pages, containing:
-  - Quantity/colour/variant pickers
+- Individual product pages, containing quantity/colour/variant pickers
 
 ## Stretch criteria
 
@@ -26,7 +21,6 @@ Remember that Next doesn't work that differently to the Express apps you've buil
   - Basket contents persisted for future visits
 - Filter products by category
 - Sort products by price
-- "Featured" products on homepage
 
 ## Project setup
 
@@ -47,31 +41,6 @@ This will create a new directory for you—you **do not** need to make one manua
 {% endbox %}
 
 This command will scaffold a basic starting app structure in a new directory. You can `cd` in and run `npm run dev` to see what you've got.
-
-### Push to GitHub
-
-Now you can prepare your project to share on GitHub. Next will already have initialised your directory as a git repository and made an initial commit (you can verify this by running `git log`).
-
-{% box %}
-
-Certain versions of Git will default to creating a `master` branch. If this happens you can rename it to `main` with:
-
-```shell
-git branch -M main
-```
-
-{% endbox %}
-
-You'll need an empty repository on GitHub to push this to. Go to GitHub, create a new repo and **do not** add a readme or gitignore. You need the repo to be empty.
-
-GitHub should show you instructions for pushing an existing repo. It will be something like:
-
-```shell
-git remote add origin <your-git-url-here>
-git push -u origin main
-```
-
-If you refresh the GitHub repo after pushing you should see your files and readme appear.
 
 ### Set up ESLint
 
@@ -107,28 +76,14 @@ An empty config will make Prettier use the default rules. If you want to [custom
 }
 ```
 
-### Set up tests
+### Deployment
 
-You should set your testing environment up early to ensure you don't put off writing tests until the end of the project.
+Next apps are Node servers just like Express apps. The only difference is they must be "built" before deploying: this means running `npm run build` to generate the final app before running `npm run start` to start the server.
 
-Set up Cypress by following their [install guide](https://docs.cypress.io/guides/getting-started/installing-cypress), then run it to initialise all the Cypress files you need.
+You can deploy Next apps to Heroku without any extra work, since Heroku [automatically runs `npm run build` scripts](https://devcenter.heroku.com/articles/nodejs-support#customizing-the-build-process).
 
-### Set up database
+If you want to deploy to a platform that supports persisting your database across deploys you can try [Fly.io](https://fly.io/docs/languages-and-frameworks/nextjs/). You'll need to add a [Volume](https://fly.io/docs/reference/volumes/) to persist data.
 
-You should set up a local database on your machine to use during development. Reference this via a `DATABASE_URL` environment variable. This will allow you to provide the production DB when you deploy your app to Vercel. You can read about [how Next.js works with `.env` files](https://nextjs.org/docs/basic-features/environment-variables).
+### Testing
 
-If you want to automate this for each team member take a look at the DB setup/build scripts in [this example repo](https://github.com/oliverjam/express-postgres-example/tree/main/scripts).
-
-Once you've written your schema SQL you'll need to run that against your production database to make sure that has all the right tables and initial data. You can connect to it using `psql` and run a SQL file like this:
-
-```shell
-psql postgres://user:pw@test.amazonaws.com/dbname -f "./database/init.sql"
-```
-
-### Deploy your app
-
-You should make sure your app deploys correctly before starting to work on it.
-
-We'll be hosting our apps on [Vercel](https://vercel.com/) (the company that makes Next.js). This platform is designed specifically for Next, but is otherwise very similar to Netlify.
-
-Follow the [official deployment guide](https://nextjs.org/docs/deployment#vercel-recommended) to get started. You will also need to add your production `DATABASE_URL` as [an environment variable in your Vercel dashboard](https://vercel.com/docs/environment-variables).
+You can follow Next's guide to [testing with Playwright](https://nextjs.org/docs/testing#playwright) if you want to experiment with end-to-end tests.
