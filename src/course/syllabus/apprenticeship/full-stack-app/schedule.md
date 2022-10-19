@@ -2,6 +2,11 @@
 layout: schedule
 schedule:
   monday:
+    - name: Learn Next.js
+      url: https://nextjs.org/learn/basics/create-nextjs-app
+      type: workshop
+      start: 9:45
+      end: 18:00
   tuesday:
     - name: Schedule research and testing
       start: 15:45
