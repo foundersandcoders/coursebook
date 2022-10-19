@@ -1,4 +1,5 @@
 - [How Next.js works](https://nextjs.org/learn/foundations/how-nextjs-works)
-- [Next.js cookie auth example](https://github.com/oliverjam/next-cookie-auth) (including Fly.io deployment)
+- [Next.js + SQLite example](https://github.com/oliverjam/next-cookie-auth) (including Fly.io deployment)
 - [Deploy Next.js to Fly.io](https://fly.io/docs/languages-and-frameworks/nextjs/)
 - [Persistent Volumes on Fly.io](https://fly.io/docs/reference/volumes/)
+- [Testing Next.js](https://nextjs.org/docs/testing/)
