@@ -20,7 +20,7 @@ schedule:
     - name: Project
       url: ../project/
       type: project
-      start: 16:15
+      start: 16:00
       end: 17:45
   wednesday:
   thursday:
