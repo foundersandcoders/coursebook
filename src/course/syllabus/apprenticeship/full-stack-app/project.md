@@ -13,6 +13,7 @@ Remember that Next doesn't work that differently to the Express apps you've buil
 - Server-rendered with Next.js
 - Homepage with product listings
 - Individual product pages, containing quantity/colour/variant pickers
+- Data stored in a SQLite database
 
 ## Stretch criteria
 
@@ -21,6 +22,7 @@ Remember that Next doesn't work that differently to the Express apps you've buil
   - Basket contents persisted for future visits
 - Filter products by category
 - Sort products by price
+- End-to-end tests
 
 ## Project setup
 
