@@ -23,7 +23,7 @@ schedule:
     - name: Conduct user research
       start: 14:00
       end: 16:00
-      url: "/course/syllabus/projects/in-house-design/user-research/"
+      url: https://fac-slides.netlify.app/slides/research-and-testing/#0
     - name: Analysis presentation
       start: 16:00
       end: 16:15
