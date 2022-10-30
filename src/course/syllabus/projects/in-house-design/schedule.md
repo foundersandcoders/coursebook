@@ -41,7 +41,7 @@ schedule:
       start: 10:00
       end: 10:15
       type: presentation
-      url: http://localhost:8081/slides/definition1/#0
+      url: https://fac-slides.netlify.app/slides/definition1/#0
     - name: Definition workshop
       start: 10:15
       end: 11:30
