@@ -24,12 +24,12 @@ schedule:
       start: 14:00
       end: 16:00
       url: "/course/syllabus/projects/in-house-design/user-research/"
-    - name: Definition presentation
+    - name: Analysis presentation
       start: 16:00
       end: 16:15
       type: presentation
-      url: https://docs.google.com/presentation/d/15c3DstgW4W-cFAjTV3LRNuvS9D7Ny5_UMOMYqW-Nvj0/edit?usp=sharing
-    - name: Definition workshop part one
+      url: https://fac-slides.netlify.app/slides/analysis/#0
+    - name: Analysis workshop
       start: 16:15
       end: 17:45
       type: workshop
@@ -37,8 +37,13 @@ schedule:
       end: 18:00
       name: Check-out
   tuesday:
-    - name: Definition workshop part two
+    - name: Definition presentation
       start: 10:00
+      end: 10:15
+      type: presentation
+      url: https://fac-slides.netlify.app/slides/definition1/#0
+    - name: Definition workshop
+      start: 10:15
       end: 11:30
       type: workshop
     - name: Figma introduction
