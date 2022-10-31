@@ -23,7 +23,7 @@ schedule:
     - name: Conduct user research
       start: 14:00
       end: 16:00
-      url: "/course/syllabus/projects/in-house-design/user-research/"
+      url: https://learn.foundersandcoders.com/course/handbook/project-docs/user-research/
     - name: Analysis introduction
       start: 16:00
       end: 16:15
@@ -47,21 +47,21 @@ schedule:
       end: 11:30
       type: workshop
     - name: Figma introduction
-      start: 11:30
+      start: 12:00
       end: 13:00
       type: presentation
     - name: Tech for Better
       start: 14:00
       end: 15:30
-    - name: Wireframing
-      start: 15:30
-      end: 17:30
-      type: project
     - name: Usability testing introduction
-      start: 17:30
-      end: 17:45
+      start: 15:30
+      end: 15:45
       url: https://fac-slides.netlify.app/slides/usability-testing/#0
       type: presentation
+    - name: Wireframing
+      start: 15:45
+      end: 17:45
+      type: project
   wednesday:
     - name: Web Science
       start: 10:00
