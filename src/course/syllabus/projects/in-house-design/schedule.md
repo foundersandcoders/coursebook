@@ -8,13 +8,13 @@ schedule:
     - start: 10:00
       end: 10:10
       name: Feedback survey
-    - name: The Design Sprint
+    - name: Discovery introduction
       start: 10:10
-      end: 10:40
-      url: https://fac-slides.netlify.app/slides/design-sprint/#0
+      end: 10:25
+      url: https://fac-slides.netlify.app/slides/discovery-inhouse/#0
       type: presentation
     - name: Discovery workshop
-      start: 10:40
+      start: 10:25
       end: 13:00
       type: workshop
     - start: 13:00
@@ -23,8 +23,8 @@ schedule:
     - name: Conduct user research
       start: 14:00
       end: 16:00
-      url: "/course/syllabus/projects/in-house-design/user-research/"
-    - name: Analysis presentation
+      url: https://learn.foundersandcoders.com/course/handbook/project-docs/user-research/
+    - name: Analysis introduction
       start: 16:00
       end: 16:15
       type: presentation
@@ -37,7 +37,7 @@ schedule:
       end: 18:00
       name: Check-out
   tuesday:
-    - name: Definition presentation
+    - name: Definition introduction
       start: 10:00
       end: 10:15
       type: presentation
@@ -47,21 +47,21 @@ schedule:
       end: 11:30
       type: workshop
     - name: Figma introduction
-      start: 11:30
+      start: 12:00
       end: 13:00
       type: presentation
     - name: Tech for Better
       start: 14:00
       end: 15:30
-    - name: Wireframing
-      start: 15:30
-      end: 17:30
-      type: project
     - name: Usability testing introduction
-      start: 17:30
-      end: 17:45
-      url: https://docs.google.com/presentation/d/10VxYiFBmwLevEH3V6AP74ibf_JRt51Gd-295TICrWQU/edit?usp=sharing
+      start: 15:30
+      end: 15:45
+      url: https://fac-slides.netlify.app/slides/usability-testing/#0
       type: presentation
+    - name: Wireframing
+      start: 15:45
+      end: 17:45
+      type: project
   wednesday:
     - name: Web Science
       start: 10:00
@@ -74,9 +74,14 @@ schedule:
     - name: Usability testing
       start: 14:00
       end: 16:00
-      url: https://docs.google.com/presentation/d/10VxYiFBmwLevEH3V6AP74ibf_JRt51Gd-295TICrWQU/edit?usp=sharing
-    - name: Synthesise feedback
+      url: https://fac-slides.netlify.app/slides/usability-testing/#0
+    - name: Synthesis feedback introduction
       start: 16:00
+      end: 16:10
+      url: https://fac-slides.netlify.app/slides/ut-synthesis/#0
+      type: presentation
+    - name: Synthesise feedback
+      start: 16:10
       end: 17:30
     - name: Introduction to project roles
       start: 17:30
@@ -87,19 +92,19 @@ schedule:
       start: 17:35
       end: 17:45
   thursday:
-    - name: Project planning
+    - name: Code planning introduction
       start: 10:00
-      end: 12:00
-      url: https://hackmd.io/@fac/SkyPKSwBw#/
-      type: project
+      end: 10:15
+      url: https://fac-slides.netlify.app/slides/code-planning/#0
+      type: presentation
     - name: Code planning
-      start: 12:00
+      start: 10:15
       end: 13:00
-      url: https://fac-slides.netlify.app/slides/project-architecture/
+      url: https://fac-slides.netlify.app/slides/code-planning/#0
     - name: Code planning
       start: 14:00
       end: 14:45
-      url: https://fac-slides.netlify.app/slides/project-architecture/
+      url: https://fac-slides.netlify.app/slides/code-planning/#0
     - name: Technical spikes
       start: 14:45
       end: 16:30
