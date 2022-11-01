@@ -44,7 +44,7 @@ schedule:
       url: https://fac-slides.netlify.app/slides/definition1/#0
     - name: Definition workshop
       start: 10:15
-      end: 11:30
+      end: 12:00
       type: workshop
     - name: Figma introduction
       start: 12:00
