@@ -51,6 +51,13 @@ schedule:
       start: 14:00
       end: 17:45
       type: project
+    - name: Update READMEs
+      start: 16:00
+      end: 16:15
+    - name: Team code review
+      start: 16:15
+      end: 17:45
+      url: /course/handbook/code-review/
   thursday:
     - name: Build
       start: 10:00
@@ -58,21 +65,24 @@ schedule:
       type: project
     - name: Build
       start: 14:00
-      end: 15:45
+      end: 17:30
       type: project
-    - name: Team code review
-      start: 15:45
-      end: 16:45
-      url: /course/handbook/code-review/
-    - name: Sprint Review
-      start: 16:45
+    - name: Update READMEs
+      start: 17:30
       end: 17:45
-      url: /course/handbook/project-docs/sprint-planning
   friday:
-    - name: Respond to issues
+    - name: Sprint Review
       start: 10:00
-      end: 12:00
-      type: project
+      end: 11:30
+      url: /course/handbook/project-docs/sprint-planning
+    - start: 11:30
+      end: 12:15
+      name: Portfolio building
+      url: /course/handbook/portfolio
+    - start: 12:15
+      end: 13:00
+      name: Presentation prep
+      url: /course/handbook/project-presentations/
     - name: Project documentation
       start: 16:20
       end: 16:50
