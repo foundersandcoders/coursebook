@@ -49,7 +49,7 @@ schedule:
       url: /course/handbook/role-circles
     - name: Build
       start: 14:00
-      end: 17:45
+      end: 16:00
       type: project
     - name: Update READMEs
       start: 16:00
