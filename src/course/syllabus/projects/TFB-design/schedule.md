@@ -11,12 +11,17 @@ schedule:
     - name: Definition presentation
       start: 10:10
       end: 10:30
-      url: https://docs.google.com/presentation/d/15c3DstgW4W-cFAjTV3LRNuvS9D7Ny5_UMOMYqW-Nvj0/edit?usp=sharing
+      url: https://fac-slides.netlify.app/slides/definition/#0
       type: presentation
     - name: Definition workshop
       start: 10:30
-      end: 13:00
+      end: 12:30
       type: workshop
+    - name: Usability Testing presentation
+      start: 12:30
+      end: 13:00
+      type: presentation
+      url: https://fac-slides.netlify.app/slides/usability-testing/#0
     - start: 13:00
       end: 14:00
       name: Lunch
