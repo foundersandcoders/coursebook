@@ -9,7 +9,6 @@ Most of the mentors you will interact with on the course have recently graduated
 The types of mentors you'll meet are:
 
 - Week mentors
-- Pastoral care mentors
 - Project mentors
 
 ## Week mentors
@@ -17,10 +16,6 @@ The types of mentors you'll meet are:
 For the first 6 weeks of the course, there will be two weekly mentors in each week. These are members of the cohort immediately prior to yours.
 
 Each week, they'll join your cohort workshop discussions and support you during your projects. These mentors are familiar with the curriculum as they've recently completed it. They won't always give you the answer but will help you get there. They may advise you on ways to debug your code, talk about the challenges they had on the course, or give advice on how to get the most out of the course.
-
-## Pastoral care mentors
-
-These mentors are here to give you guidance and advice throughout the course. You'll meet with your pastoral care mentor four times throughout the course. Aside from these times, you are always welcome to reach out to your pastoral care mentor if you have questions or are struggling on the course. We don't expect pastoral carers to provide mental health support.
 
 ## Project mentors
 
