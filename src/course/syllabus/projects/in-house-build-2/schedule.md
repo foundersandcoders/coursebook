@@ -2,27 +2,6 @@
 layout: schedule
 schedule:
   monday:
-    - start: 9:45
-      end: 10:00
-      name: Check-in
-    - start: 10:00
-      end: 10:10
-      name: Feedback survey
-    - name: Respond to issues / Build
-      start: 10:10
-      end: 13:00
-      type: project
-    - start: 13:00
-      end: 14:00
-      name: Lunch
-    - name: Build
-      start: 14:00
-      end: 17:45
-      type: project
-    - start: 17:45
-      end: 18:00
-      name: Check-out
-  tuesday:
     - name: Build
       start: 10:00
       end: 13:00
@@ -34,7 +13,7 @@ schedule:
       start: 15:30
       end: 17:45
       type: project
-  wednesday:
+  tuesday:
     - name: Web Science
       start: 10:00
       end: 11:00
@@ -58,7 +37,7 @@ schedule:
       start: 16:15
       end: 17:45
       url: /course/handbook/code-review/
-  thursday:
+  wednesday:
     - name: Build
       start: 10:00
       end: 13:00
@@ -70,7 +49,7 @@ schedule:
     - name: Update READMEs
       start: 17:30
       end: 17:45
-  friday:
+  thursday:
     - name: Sprint Review
       start: 10:00
       end: 11:30
@@ -87,4 +66,35 @@ schedule:
       start: 16:20
       end: 16:50
       url: /course/handbook/project-documentation/
+  friday:
+    - start: 9:45
+      end: 10:00
+      name: Check-in
+    - start: 10:00
+      end: 10:10
+      name: Feedback survey
+    - name: Definition presentation
+      start: 10:10
+      end: 10:30
+      url: https://fac-slides.netlify.app/slides/definition/#0
+      type: presentation
+    - name: Definition workshop
+      start: 10:30
+      end: 12:30
+      type: workshop
+    - name: Usability Testing presentation
+      start: 12:30
+      end: 13:00
+      type: presentation
+      url: https://fac-slides.netlify.app/slides/usability-testing/#0
+    - start: 13:00
+      end: 14:00
+      name: Lunch
+    - name: Wireframing
+      start: 14:00
+      end: 17:45
+      type: project
+    - start: 17:45
+      end: 18:00
+      name: Check-out
 ---

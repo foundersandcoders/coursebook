@@ -2,27 +2,6 @@
 layout: schedule
 schedule:
   monday:
-    - start: 9:45
-      end: 10:00
-      name: Check-in
-    - start: 10:00
-      end: 10:10
-      name: Feedback survey
-    - name: Build
-      start: 10:10
-      end: 13:00
-      type: project
-    - start: 13:00
-      end: 14:00
-      name: Lunch
-    - name: Build
-      start: 14:00
-      end: 17:45
-      type: project
-    - start: 17:45
-      end: 18:00
-      name: Check-out
-  tuesday:
     - name: Build
       start: 10:00
       end: 13:00
@@ -35,7 +14,7 @@ schedule:
       start: 15:30
       end: 17:45
       type: project
-  wednesday:
+  tuesday:
     - name: Web Science
       start: 10:00
       end: 11:00
@@ -52,7 +31,7 @@ schedule:
       start: 14:00
       end: 17:45
       type: project
-  thursday:
+  wednesday:
     - name: Build
       start: 10:00
       end: 13:00
@@ -69,7 +48,7 @@ schedule:
       start: 16:45
       end: 17:45
       url: /course/handbook/project-docs/sprint-planning
-  friday:
+  thursday:
     - name: Respond to issues
       start: 10:00
       end: 12:00

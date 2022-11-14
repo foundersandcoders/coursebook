@@ -1,10 +1,5 @@
 monday:
   - start: 9:45
-    end: 18:00
-    name: Workshops
-    type: workshop
-tuesday:
-  - start: 9:45
     end: 10:00
     name: Check-in
   - start: 10:00
@@ -39,7 +34,7 @@ tuesday:
   - start: 17:45
     end: 18:00
     name: Check-out
-wednesday:
+tuesday:
   - start: 9:45
     end: 10:00
     name: Check-in
@@ -59,7 +54,7 @@ wednesday:
   - start: 17:45
     end: 18:00
     name: Check-out
-thursday:
+wednesday:
   - start: 9:45
     end: 10:00
     name: Check-in
@@ -90,7 +85,7 @@ thursday:
   - start: 17:45
     end: 18:00
     name: Check-out
-friday:
+thursday:
   - start: 9:45
     end: 10:00
     name: Check-in
@@ -137,3 +132,7 @@ friday:
   - start: 17:45
     end: 18:00
     name: Check-out
+friday:
+  - name: Workshop
+    start: 9:45
+    end: 18:00

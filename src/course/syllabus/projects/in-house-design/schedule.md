@@ -2,41 +2,6 @@
 layout: schedule
 schedule:
   monday:
-    - start: 9:45
-      end: 10:00
-      name: Check-in
-    - start: 10:00
-      end: 10:10
-      name: Feedback survey
-    - name: Discovery introduction
-      start: 10:10
-      end: 10:25
-      url: https://fac-slides.netlify.app/slides/discovery-inhouse/#0
-      type: presentation
-    - name: Discovery workshop
-      start: 10:25
-      end: 13:00
-      type: workshop
-    - start: 13:00
-      end: 14:00
-      name: Lunch
-    - name: Conduct user research
-      start: 14:00
-      end: 16:00
-      url: https://learn.foundersandcoders.com/course/handbook/project-docs/user-research/
-    - name: Analysis introduction
-      start: 16:00
-      end: 16:15
-      type: presentation
-      url: https://fac-slides.netlify.app/slides/analysis/#0
-    - name: Analysis workshop
-      start: 16:15
-      end: 17:45
-      type: workshop
-    - start: 17:45
-      end: 18:00
-      name: Check-out
-  tuesday:
     - name: Definition introduction
       start: 10:00
       end: 10:15
@@ -62,7 +27,7 @@ schedule:
       start: 15:45
       end: 17:45
       type: project
-  wednesday:
+  tuesday:
     - name: Web Science
       start: 10:00
       end: 11:00
@@ -91,7 +56,7 @@ schedule:
     - name: Choose roles
       start: 17:35
       end: 17:45
-  thursday:
+  wednesday:
     - name: Code planning introduction
       start: 10:00
       end: 10:15
@@ -116,7 +81,7 @@ schedule:
       start: 17:00
       end: 17:45
       type: presentation
-  friday:
+  thursday:
     - name: Build sprint presentation
       start: 10:00
       end: 10:15
@@ -130,4 +95,25 @@ schedule:
       start: 16:20
       end: 16:50
       url: /course/handbook/project-documentation/
+  friday:
+    - start: 9:45
+      end: 10:00
+      name: Check-in
+    - start: 10:00
+      end: 10:10
+      name: Feedback survey
+    - name: Build
+      start: 10:10
+      end: 13:00
+      type: project
+    - start: 13:00
+      end: 14:00
+      name: Lunch
+    - name: Build
+      start: 14:00
+      end: 17:45
+      type: project
+    - start: 17:45
+      end: 18:00
+      name: Check-out
 ---

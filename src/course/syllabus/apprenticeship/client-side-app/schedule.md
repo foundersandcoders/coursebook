@@ -2,12 +2,6 @@
 layout: schedule
 schedule:
   monday:
-    - name: React workshop
-      url: /learn/react
-      type: workshop
-      start: 9:45
-      end: 18:00
-  tuesday:
     - name: React state challenge
       start: 12:00
       end: 13:00
@@ -19,11 +13,17 @@ schedule:
     - name: Choose a project idea
       start: 15:45
       end: 16:00
+  tuesday:
   wednesday:
   thursday:
-  friday:
     - name: Full-stack Intro
       start: 16:20
       end: 16:50
       url: https://fac-slides.netlify.app/slides/full-stack-app/
+  friday:
+    - name: Learn Next.js
+      url: https://nextjs.org/learn/basics/create-nextjs-app
+      type: workshop
+      start: 9:45
+      end: 18:00
 ---
