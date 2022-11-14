@@ -55,7 +55,7 @@ schedule:
       start: 10:00
       end: 11:00
       type: project
-    - name: Sprint Review and Planning
+    - name: Sprint review and planning
       start: 11:00
       end: 12:00
       url: /course/handbook/project-docs/sprint-planning

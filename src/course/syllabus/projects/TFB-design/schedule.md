@@ -27,7 +27,7 @@ schedule:
       start: 14:00
       end: 14:15
       url: /course/handbook/project-team
-    - name: Code Planning
+    - name: Code planning
       start: 14:15
       end: 17:45
       type: project
@@ -41,11 +41,11 @@ schedule:
       start: 14:00
       end: 14:45
       url: https://fac-slides.netlify.app/slides/project-architecture/
-    - name: Spike Presentations
+    - name: Spike presentations
       start: 14:45
       end: 15:45
       type: presentation
-    - name: Sprint Planning
+    - name: Sprint planning
       start: 15:45
       end: 17:45
       type: project

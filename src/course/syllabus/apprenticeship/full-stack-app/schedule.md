@@ -19,7 +19,7 @@ schedule:
   tuesday:
   wednesday:
   thursday:
-    - name: Design Week Intro
+    - name: Design week intro
       start: 16:20
       end: 16:50
       url: https://fac-slides.netlify.app/slides/design-sprint/

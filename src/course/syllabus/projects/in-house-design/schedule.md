@@ -87,7 +87,7 @@ schedule:
       end: 10:15
       url: https://fac-slides.netlify.app/slides/build-sprint/#0
       type: presentation
-    - name: Sprint Planning
+    - name: Sprint planning
       start: 10:15
       end: 12:00
       url: /course/handbook/project-docs/sprint-planning

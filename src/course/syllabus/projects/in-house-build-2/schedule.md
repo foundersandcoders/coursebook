@@ -82,7 +82,7 @@ schedule:
       start: 10:30
       end: 12:30
       type: workshop
-    - name: Usability Testing presentation
+    - name: Usability testing presentation
       start: 12:30
       end: 13:00
       type: presentation

@@ -26,7 +26,7 @@ schedule:
   tuesday:
   wednesday:
   thursday:
-    - name: Client-Side Intro
+    - name: Client-side intro
       start: 16:20
       end: 16:50
       url: https://fac-slides.netlify.app/slides/spa-react/

@@ -2,31 +2,31 @@
 layout: schedule
 schedule:
   monday:
-    - name: No Schedule
+    - name: No schedule
       start: 9:45
       end: 18:00
   tuesday:
-    - name: No Schedule
+    - name: No schedule
       start: 9:45
       end: 18:00
   wednesday:
-    - name: No Schedule
+    - name: No schedule
       start: 9:45
       end: 18:00
   thursday:
-    - name: No Schedule
+    - name: No schedule
       start: 9:45
       end: 15:30
     - name: Check-in
       start: 15:30
       end: 15:45
-    - name: Course Intro
+    - name: Course intro
       start: 15:45
       end: 16:15
-    - name: Server Intro
+    - name: Server intro
       start: 16:15
       end: 16:45
-    - name: Pre-Apprentices Meet Up
+    - name: Pre-apprentices meet-up
       start: 16:45
       end: 18:00
   friday:

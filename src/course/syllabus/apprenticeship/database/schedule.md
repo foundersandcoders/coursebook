@@ -14,7 +14,7 @@ schedule:
   tuesday:
   wednesday:
   thursday:
-    - name: Authentication Intro
+    - name: Authentication intro
       start: 16:20
       end: 16:50
       url: https://fac-slides.netlify.app/slides/authentication/

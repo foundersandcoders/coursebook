@@ -6,7 +6,7 @@ schedule:
       start: 10:00
       end: 13:00
       type: project
-    - name: Mentoring reflections & Mentor Scheduling
+    - name: Mentoring reflections & mentor scheduling
       start: 14:00
       end: 15:30
       url: /course/handbook/project-docs/mentoring
@@ -44,7 +44,7 @@ schedule:
       start: 15:45
       end: 16:45
       url: /course/handbook/code-review/
-    - name: Sprint Review and Planning
+    - name: Sprint review and planning
       start: 16:45
       end: 17:45
       url: /course/handbook/project-docs/sprint-planning
@@ -57,4 +57,25 @@ schedule:
       start: 16:20
       end: 16:50
       url: /course/handbook/project-documentation/
+  friday:
+    - start: 9:45
+      end: 10:00
+      name: Check-in
+    - start: 10:00
+      end: 10:10
+      name: Feedback survey
+    - name: Respond to issues / Build
+      start: 10:10
+      end: 13:00
+      type: project
+    - start: 13:00
+      end: 14:00
+      name: Lunch
+    - name: Build
+      start: 14:00
+      end: 17:45
+      type: project
+    - start: 17:45
+      end: 18:00
+      name: Check-out
 ---
