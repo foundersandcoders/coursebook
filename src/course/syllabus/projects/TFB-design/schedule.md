@@ -19,9 +19,14 @@ schedule:
       type: workshop
     - name: Usability Testing presentation
       start: 12:30
-      end: 13:00
+      end: 12:45
       type: presentation
       url: https://fac-slides.netlify.app/slides/usability-testing/#0
+    - name: Synthesise feedback presentation
+      start: 12:45
+      end: 13:00
+      type: presentation
+      url: https://fac-slides.netlify.app/slides/ut-synthesis/#0
     - start: 13:00
       end: 14:00
       name: Lunch
