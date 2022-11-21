@@ -40,6 +40,7 @@ schedule:
       start: 12:00
       end: 13:00
       type: project
+      url: https://fac-slides.netlify.app/slides/ut-synthesis/#0
     - name: Wireframing
       start: 14:00
       end: 17:45
