@@ -129,7 +129,7 @@ schedule:
   friday:
     - start: 9:45
       end: 10:00
-      name: Check-in
+      name: Feedback survey
     - start: 10:00
       end: 10:30
       name: Portfolio building
@@ -151,11 +151,8 @@ schedule:
       url: /course/handbook/project-docs/sprint-planning
     - name: Build
       start: 15:45
-      end: 17:35
-      type: project
-    - start: 17:35
       end: 17:45
-      name: Feedback survey
+      type: project
     - start: 17:45
       end: 18:00
       name: Check-out

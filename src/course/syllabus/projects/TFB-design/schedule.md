@@ -94,9 +94,10 @@ schedule:
       end: 17:45
       name: Speaker
   friday:
-    - start: 9:45
+    - name: Feedback survey
+      start: 9:45
       end: 10:00
-      name: Check-in
+      type: presentation
     - start: 10:00
       end: 10:30
       name: Portfolio building
@@ -119,12 +120,8 @@ schedule:
       type: project
     - name: Build
       start: 16:00
-      end: 17:35
-      type: project
-    - name: Feedback survey
-      start: 17:35
       end: 17:45
-      type: presentation
+      type: project
     - start: 17:45
       end: 18:00
       name: Check-out
