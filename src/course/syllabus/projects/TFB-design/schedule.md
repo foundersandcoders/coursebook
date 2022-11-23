@@ -6,24 +6,20 @@ schedule:
       end: 10:00
       name: Check-in
     - start: 10:00
-      end: 10:10
-      name: Feedback survey
-    - name: Definition presentation
-      start: 10:10
-      end: 10:30
+      end: 10:20
       url: https://fac-slides.netlify.app/slides/definition/#0
       type: presentation
     - name: Definition workshop
-      start: 10:30
-      end: 12:30
+      start: 10:20
+      end: 12:20
       type: workshop
     - name: Usability testing presentation
-      start: 12:30
-      end: 12:45
+      start: 12:20
+      end: 12:40
       type: presentation
       url: https://fac-slides.netlify.app/slides/usability-testing/#0
     - name: Synthesise feedback presentation
-      start: 12:45
+      start: 12:40
       end: 13:00
       type: presentation
       url: https://fac-slides.netlify.app/slides/ut-synthesis/#0

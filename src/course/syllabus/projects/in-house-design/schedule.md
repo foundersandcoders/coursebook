@@ -5,16 +5,13 @@ schedule:
     - start: 9:45
       end: 10:00
       name: Check-in
-    - start: 10:00
-      end: 10:10
-      name: Feedback survey
     - name: Discovery introduction
-      start: 10:10
-      end: 10:25
+      start: 10:00
+      end: 10:15
       url: https://fac-slides.netlify.app/slides/discovery-inhouse/#0
       type: presentation
     - name: Discovery workshop
-      start: 10:25
+      start: 10:15
       end: 13:00
       type: workshop
     - start: 13:00
