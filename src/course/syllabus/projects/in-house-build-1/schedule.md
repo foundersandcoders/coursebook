@@ -46,10 +46,6 @@ schedule:
       start: 16:15
       end: 17:45
       url: /course/handbook/code-review/
-    # - name: Sprint Review and Planning
-    #   start: 16:45
-    #   end: 17:45
-    #   url: /course/handbook/project-docs/sprint-planning
   thursday:
     - name: Review Issues
       start: 10:00

@@ -2,6 +2,41 @@
 layout: schedule
 schedule:
   monday:
+    - start: 9:45
+      end: 10:00
+      name: Check-in
+    - start: 10:00
+      end: 10:10
+      name: Feedback survey
+    - name: Discovery introduction
+      start: 10:10
+      end: 10:25
+      url: https://fac-slides.netlify.app/slides/discovery-inhouse/#0
+      type: presentation
+    - name: Discovery workshop
+      start: 10:25
+      end: 13:00
+      type: workshop
+    - start: 13:00
+      end: 14:00
+      name: Lunch
+    - name: Conduct user research
+      start: 14:00
+      end: 16:00
+      url: https://learn.foundersandcoders.com/course/handbook/project-docs/user-research/
+    - name: Analysis introduction
+      start: 16:00
+      end: 16:15
+      type: presentation
+      url: https://fac-slides.netlify.app/slides/analysis/#0
+    - name: Analysis workshop
+      start: 16:15
+      end: 17:45
+      type: workshop
+    - start: 17:45
+      end: 18:00
+      name: Check-out
+  tuesday:
     - name: Definition introduction
       start: 10:00
       end: 10:15
@@ -27,7 +62,7 @@ schedule:
       start: 15:45
       end: 17:45
       type: project
-  tuesday:
+  wednesday:
     - name: Web Science
       start: 10:00
       end: 11:00
@@ -56,7 +91,7 @@ schedule:
     - name: Choose roles
       start: 17:35
       end: 17:45
-  wednesday:
+  thursday:
     - name: Code planning introduction
       start: 10:00
       end: 10:15
@@ -70,49 +105,57 @@ schedule:
       start: 14:00
       end: 14:45
       url: https://fac-slides.netlify.app/slides/code-planning/#0
-    - name: Technical spikes
-      start: 14:45
-      end: 16:30
-      url: ../spikes
-    - name: Spike presentation prep
-      start: 16:30
-      end: 17:00
-    - name: Spike presentations
-      start: 17:00
-      end: 17:45
+    - start: 14:45
+      end: 15:15
+      name: Presentation prep
+      url: /course/handbook/project-presentations/
+    - start: 15:15
+      end: 15:45
+      name: Team SGC
+      url: /course/handbook/retrospectives/#team-retrospectives
+    - start: 15:45
+      end: 16:45
+      name: Presentations
       type: presentation
-  thursday:
+    - start: 16:45
+      end: 17:30
+      name: Cohort SGC
+      url: /course/handbook/retrospectives/#cohort-retrospective
     - name: Build sprint presentation
-      start: 10:00
-      end: 10:15
+      start: 17:30
+      end: 17:45
       url: https://fac-slides.netlify.app/slides/build-sprint/#0
       type: presentation
-    - name: Sprint planning
-      start: 10:15
-      end: 12:00
-      url: /course/handbook/project-docs/sprint-planning
-    - name: Project documentation
-      start: 16:20
-      end: 16:50
-      url: /course/handbook/project-documentation/
   friday:
     - start: 9:45
       end: 10:00
       name: Check-in
     - start: 10:00
-      end: 10:10
-      name: Feedback survey
-    - name: Build
-      start: 10:10
+      end: 10:30
+      name: Portfolio building
+      url: /course/handbook/portfolio
+    - name: Project documentation
+      start: 10:30
+      end: 11:00
+      url: /course/handbook/project-documentation/
+    - name: Technical spikes
+      start: 11:00
       end: 13:00
-      type: project
+      url: ../spikes
     - start: 13:00
       end: 14:00
       name: Lunch
-    - name: Build
+    - name: Sprint planning
       start: 14:00
-      end: 17:45
+      end: 15:45
+      url: /course/handbook/project-docs/sprint-planning
+    - name: Build
+      start: 15:45
+      end: 17:35
       type: project
+    - start: 17:35
+      end: 17:45
+      name: Feedback survey
     - start: 17:45
       end: 18:00
       name: Check-out
