@@ -19,9 +19,14 @@ schedule:
       type: workshop
     - name: Usability testing presentation
       start: 12:30
-      end: 13:00
+      end: 12:45
       type: presentation
       url: https://fac-slides.netlify.app/slides/usability-testing/#0
+    - name: Synthesise feedback presentation
+      start: 12:45
+      end: 13:00
+      type: presentation
+      url: https://fac-slides.netlify.app/slides/ut-synthesis/#0
     - start: 13:00
       end: 14:00
       name: Lunch
@@ -40,6 +45,7 @@ schedule:
       start: 12:00
       end: 13:00
       type: project
+      url: https://fac-slides.netlify.app/slides/ut-synthesis/#0
     - name: Wireframing
       start: 14:00
       end: 17:45
@@ -49,20 +55,20 @@ schedule:
       start: 10:00
       end: 11:00
       type: presentation
-    - name: Project planning
-      start: 11:00
-      end: 13:00
-      url: https://hackmd.io/@fac/SkyPKSwBw#/
-      type: project
     - name: Choose Roles
-      start: 14:00
-      end: 14:15
+      start: 11:00
+      end: 11:15
       url: /course/handbook/project-team
-    - name: Code planning
-      start: 14:15
+    - name: Code Planning
+      start: 11:15
+      end: 13:00
+      url: https://fac-slides.netlify.app/slides/code-planning/#0
+      type: project
+    - name: Code Planning
+      start: 14:00
       end: 17:45
       type: project
-      url: https://fac-slides.netlify.app/slides/project-architecture/
+      url: https://fac-slides.netlify.app/slides/code-planning/#0
   thursday:
     - name: Technical Spikes
       start: 10:00
