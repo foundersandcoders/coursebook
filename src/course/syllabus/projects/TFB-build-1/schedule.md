@@ -58,14 +58,8 @@ schedule:
       end: 16:50
       url: /course/handbook/project-documentation/
   friday:
-    - start: 9:45
-      end: 10:00
-      name: Check-in
-    - start: 10:00
-      end: 10:10
-      name: Feedback survey
     - name: Respond to issues / Build
-      start: 10:10
+      start: 9:45
       end: 13:00
       type: project
     - start: 13:00

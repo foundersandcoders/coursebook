@@ -5,7 +5,8 @@ schedule:
     - start: 9:45
       end: 10:00
       name: Check-in
-    - start: 10:00
+    - name: Definition presentation
+      start: 10:00
       end: 10:20
       url: https://fac-slides.netlify.app/slides/definition/#0
       type: presentation
