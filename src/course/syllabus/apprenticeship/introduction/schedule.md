@@ -23,9 +23,11 @@ schedule:
     - name: Course intro
       start: 15:45
       end: 16:15
+      url: https://fac-slides.netlify.app/slides/welcome-talk/#0
     - name: Server intro
       start: 16:15
       end: 16:45
+      url: https://fac-slides.netlify.app/slides/servers/#0
     - name: Pre-apprentices meet-up
       start: 16:45
       end: 18:00
