@@ -11,15 +11,6 @@ schedule:
       end: 17:45
       type: project
   tuesday:
-    - name: Build
-      start: 10:00
-      end: 13:00
-      type: project
-    - name: Build
-      start: 14:00
-      end: 17:45
-      type: project
-  wednesday:
     - name: Web Science
       start: 10:00
       end: 11:00
@@ -36,7 +27,7 @@ schedule:
       start: 14:00
       end: 17:45
       type: project
-  thursday:
+  wednesday:
     - name: Build
       start: 10:00
       end: 13:00
@@ -55,10 +46,7 @@ schedule:
       start: 17:00
       end: 17:45
       type: presentation
-  friday:
-    - start: 9:45
-      end: 10:00
-      name: Check-in
+  thursday:
     - name: Weekly feedback
       start: 10:00
       end: 10:15
@@ -69,9 +57,6 @@ schedule:
       start: 11:30
       end: 13:00
       url: /course/handbook/project-docs/product-handover
-    - start: 13:00
-      end: 14:00
-      name: Lunch
     - name: Product handover
       start: 14:00
       end: 14:45
@@ -87,4 +72,8 @@ schedule:
       start: 17:00
       end: 18:00
       type: presentation
+  friday:
+    - name: No schedule
+      start: 9:45
+      end: 18:00
 ---
