@@ -24,7 +24,7 @@ schedule:
       end: 16:50
       url: https://fac-slides.netlify.app/slides/design-sprint/
   friday:
-    - name: TBC
+    - name: Consolidation day
       start: 9:45
       end: 18:00
 ---

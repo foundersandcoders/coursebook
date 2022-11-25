@@ -67,7 +67,7 @@ schedule:
       end: 16:50
       url: /course/handbook/project-documentation/
   friday:
-    - name: TBC
+    - name: Consolidation day
       start: 9:45
       end: 18:00
 ---
