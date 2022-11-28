@@ -35,16 +35,24 @@ schedule:
       end: 18:00
       name: Check-out
   tuesday:
-    - name: Usability testing
+    - name: Wireframe review with Product Owner
       start: 10:00
-      end: 12:00
-    - name: Synthesise feedback
-      start: 12:00
+      end: 10:30
+      type: project
+    - name: Wireframing
+      start: 10:30
       end: 13:00
+      type: project
+    - name: Usability testing
+      start: 14:00
+      end: 16:00
+    - name: Synthesise feedback
+      start: 16:00
+      end: 17:00
       type: project
       url: https://fac-slides.netlify.app/slides/ut-synthesis/#0
     - name: Wireframing
-      start: 14:00
+      start: 17:00
       end: 17:45
       type: project
   wednesday:
