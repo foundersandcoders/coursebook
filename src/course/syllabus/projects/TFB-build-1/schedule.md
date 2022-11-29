@@ -29,7 +29,7 @@ schedule:
       type: project
     - name: Build
       start: 14:00
-      end: 16:15
+      end: 16:30
       type: project
     - name: Mentoring reflections & Mentor Scheduling
       start: 16:30
