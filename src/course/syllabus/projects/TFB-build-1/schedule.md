@@ -32,7 +32,7 @@ schedule:
       end: 16:15
       type: project
     - name: Mentoring reflections & Mentor Scheduling
-      start: 16:15
+      start: 16:30
       end: 17:45
       url: /course/handbook/project-docs/mentoring
   wednesday:
