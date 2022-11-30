@@ -23,8 +23,12 @@ schedule:
       end: 18:00
       name: Check-out
   tuesday:
-    - name: Build
+    - name: Mentoring reflections & Mentor Scheduling
       start: 10:00
+      end: 11:30
+      url: /course/handbook/project-docs/mentoring
+    - name: Build
+      start: 11:30
       end: 13:00
       type: project
     - name: Build
