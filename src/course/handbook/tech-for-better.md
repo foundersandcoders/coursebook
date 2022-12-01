@@ -58,7 +58,7 @@ During the first half of TfB Design Week, the Product Team (software developers)
 
 **[Wireframing](https://www.figma.com/blog/how-to-wireframe/#types-of-wireframes):** Product Teams work together to create a high fildelity prototype of their app, refining it following feedback from there PO and end users.
 
-**[User Testing](https://fac-slides.netlify.app/slides/ut-synthesis/#0):** Product Teams conduct user testing with real users scheduled by their PO, using their high fidelity protoype.
+**[Usability Testing](https://fac-slides.netlify.app/slides/usability-testing/#0):** Product Teams conduct user testing with real users scheduled by their PO, using their high fidelity protoype.
 
 During the second part of the week, the Product Teams turn their attention to the technical apsects of their product. Sessions include:
 
