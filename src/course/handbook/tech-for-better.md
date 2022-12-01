@@ -62,7 +62,7 @@ During the first half of TfB Design Week, the Product Team (software developers)
 
 During the second part of the week, the Product Teams turn their attention to the technical apsects of their product. Sessions include:
 
-**[Code Planning](https://fac-slides.netlify.app/slides/code-planning/#0):** This in two parts. During Service Blueprinting the Product Teams identify points of interation between users and their app, and document what should happen in the back end. During Teck Stacks, the Product Teams then identify potential technical options for their project's requirements.
+**[Code Planning](https://fac-slides.netlify.app/slides/code-planning/#0):** Create a Service Blueprint which identifies points of interaction between your users and the app, and how the app will respond to user input. Identify a tech stack to meet the project requirements.
 
 **[Technical Spikes](../../syllabus/projects/TFB-design/spikes/):** Product Teams read and explore documentation on technologies that might be used for their project, or to find a definitive answer for some of the "How might we" questions that came up during the Definition Workshop.
 
