@@ -18,7 +18,7 @@ A session held with software developers only, introducing the Tech for Better (T
 
 PO's meet with the developers in groups and introduce their idea for a digital product. By the end of the session all developers will have an initial understanding of who each PO's user group is, the problem that the user group is facing, and how a digital product will benefit their users.
 
-#### [Week 3](../../syllabus/apprenticeship/authentication/schedule/) / [Week 4](../../syllabus/apprenticeship/server-side-app/schedule/) - [Discovery Workshops](https://fac-slides.netlify.app/slides/discovery/#0)
+#### Week 3 & 4 - [Discovery Workshops](https://fac-slides.netlify.app/slides/discovery/#0)
 
 The Discovery Workshop is repeated, with half the Product Owners attending each week. This allows more developers to explore each product, including the user group it supports and the problem that it seeks to address.
 
