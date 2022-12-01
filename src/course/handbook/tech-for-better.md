@@ -1,4 +1,4 @@
-# Tech for Better Project
+# Tech for Better
 
 ## Introduction
 
