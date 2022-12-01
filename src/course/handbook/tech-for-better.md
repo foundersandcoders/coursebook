@@ -70,4 +70,4 @@ During the second part of the week, the Product Teams turn their attention to th
 
 Build your MVP across two build sprints, in partnership with your Product Owners. You'll have support and code reviews from [Project Mentors](/course/handbook/mentor-roles/).
 
-At the end of Build Week 2, the Product Teams and PO's present their products to local leaders in the social tech sector and alumni from Founders and Coders at the Tech for Better Showcase.
+At the end of Build Week 2, you'll present your MVP at the Tech for Better Showcase.
