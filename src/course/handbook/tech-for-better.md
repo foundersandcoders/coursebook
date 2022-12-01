@@ -68,6 +68,6 @@ During the second part of the week, the Product Teams turn their attention to th
 
 #### [Week 11](../../syllabus/projects/tfb-build-1/schedule/) / [Week 12](../../syllabus/projects/tfb-build-2/schedule/) - TfB Build Week 1 / TfB Build Week 2
 
-Product Teams build their MVP across two build weeks, in partnership with their Product Owners. Each Product Team is also supported through check-in calls and code reviews with volunteer Project Mentors from apprentice employers and FAC alumni.
+Build your MVP across two build sprints, in partnership with your Product Owners. You'll have support and code reviews from [Project Mentors](/course/handbook/mentor-roles/).
 
 At the end of Build Week 2, the Product Teams and PO's present their products to local leaders in the social tech sector and alumni from Founders and Coders at the Tech for Better Showcase.
