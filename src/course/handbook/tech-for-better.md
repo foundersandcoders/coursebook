@@ -6,7 +6,7 @@ Tech for Better (TfB) is a programme for social entrepreneurs, charities and ear
 
 There is a single TfB session held during each of the first 9 weeks of the course, as outlined below. Software developers then focus full-time on Tech for Better during the last 3 weeks of the course. Grouped into Product Teams, they work in partnership with one Product Owner to deliver an MVP\* for a real-life product idea.
 
-\*An ["MVP"](https://en.wikipedia.org/wiki/Minimum_viable_product), or Minimum Viable Product, is a version of a product with just enough features to be usable by early customers who can then provide feedback for future product development.
+\*An MVP, or Minimum Viable Product, is a version of a product with just enough features to be usable by early customers who can then provide feedback for future product development.
 
 ## Schedule
 
