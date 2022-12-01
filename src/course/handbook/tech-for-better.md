@@ -64,7 +64,7 @@ During the second part of the week, the Product Teams turn their attention to th
 
 **[Code Planning](https://fac-slides.netlify.app/slides/code-planning/#0):** Create a Service Blueprint which identifies points of interaction between your users and the app, and how the app will respond to user input. Identify a tech stack to meet the project requirements.
 
-**[Technical Spikes](../../syllabus/projects/TFB-design/spikes/):** Product Teams read and explore documentation on technologies that might be used for their project, or to find a definitive answer for some of the "How might we" questions that came up during the Definition Workshop.
+**[Technical Spikes](../../syllabus/projects/TFB-design/spikes/):** Product Teams read and explore documentation on technologies that might answer some of the "How might we..." questions from the Definition Workshop.
 
 #### [Week 11](../../syllabus/projects/tfb-build-1/schedule/) / [Week 12](../../syllabus/projects/tfb-build-2/schedule/) - TfB Build Week 1 / TfB Build Week 2
 
