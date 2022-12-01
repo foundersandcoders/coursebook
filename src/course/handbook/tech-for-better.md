@@ -22,7 +22,7 @@ PO's meet with the developers in groups and introduce their idea for a digital p
 
 The Discovery Workshop is repeated, with half the Product Owners attending each week. This allows more developers to explore each product, including the user group it supports and the problem that it seeks to address.
 
-For each product, the PO and a group of software developers define a Problem Statement that answers who the products users are, what they need, and how responding to their need will benefit them. They then create user personas, before writing up questions that form the basis of user interviews to be conducted in week 5.
+For each product, the PO and a group of software developers refine the Problem Statement that answers who the products users are, what they need, and how responding to their need will benefit them. You'll create user personas, before writing up questions that form the basis of user interviews which Product Owners conduct in week 5.
 
 #### [Week 5](../../syllabus/apprenticeship/client-side-app/schedule/) - User Research (Product Owners Only)
 
