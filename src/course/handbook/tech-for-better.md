@@ -28,7 +28,7 @@ For each product, the PO and a group of software developers refine the Problem S
 
 Product Owners conduct user interviews independently with their user group.
 
-There is no TfB scheduled for software developers in week 5. Instead, the software developers look ahead to their seperate [In-house project](), discussing project ideas as a group and confirming their individual preferences.
+We take this week to discuss project ideas as a cohort for the In-House Project and confirm individual project preferences.
 
 #### [Week 6](../../syllabus/apprenticeship/full-stack-app/schedule/) - [Research Synthesis](https://fac-slides.netlify.app/slides/research-analysis/#0)??
 
