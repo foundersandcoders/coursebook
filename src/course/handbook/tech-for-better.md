@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Tech for Better(TfB) is a programme for entrepreneurs, charities and early start-ups to plan and manage the process of building a digital product as Product Owners. This is achieved by working alongside software developers on the Founders and Coders full-time apprenticeship course.
+Tech for Better (TfB) is a programme for social entrepreneurs, charities and early start-ups to plan and manage the process of building a digital product. We invite Product Owners to work alongside developers on the apprenticeship training.
 
 There is a single TfB session held during each of the first 9 weeks of the course, as outlined below. Software developers then focus full-time on Tech for Better during the last 3 weeks of the course. Grouped into Product Teams, they work in partnership with one Product Owner to deliver an MVP\* for a real-life product idea.
 
