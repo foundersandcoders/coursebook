@@ -44,7 +44,7 @@ Review all Tech for Better Product ideas as a cohort (without Product Owners pre
 
 #### [Week 9](../../syllabus/projects/in-house-build-2/schedule/) - [Analysis Workshop](https://fac-slides.netlify.app/slides/analysis/#0)
 
-Following the shorlisting and selection of products in weeks 8, Product Owners work with their assigned Product Team (software developers) to take a closer look at their product idea.
+Following your selection of Products in week 8, chosen Product Owners work with their assigned Product Team to analyse the product idea.
 
 Together they plan the main path through their application - considering how users will find their service, how users will learn what the service offers and how to use it, as well as what steps users will take when using the app.
 
