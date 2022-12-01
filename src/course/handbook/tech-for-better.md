@@ -40,7 +40,7 @@ For each product, a group of developers and the PO write notes on what came out 
 
 #### [Week 8](../../syllabus/projects/in-house-build-1/schedule/) - Selection (Software Developers only)
 
-Software developers review all Tech for Better Product ideas as a group and shortlist by confirming their individual preferences.
+Review all Tech for Better Product ideas as a cohort (without Product Owners present) and shortlist your individual preferences.
 
 #### [Week 9](../../syllabus/projects/in-house-build-2/schedule/) - [Analysis Workshop](https://fac-slides.netlify.app/slides/analysis/#0)
 
