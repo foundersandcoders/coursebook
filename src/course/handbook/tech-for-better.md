@@ -26,7 +26,7 @@ For each product, the PO and a group of software developers refine the Problem S
 
 #### [Week 5](../../syllabus/apprenticeship/client-side-app/schedule/) - User Research (Product Owners Only)
 
-Product Owners conduct user interviews independently during week 5, using the questions from week 3 and 4 as a basis.
+Product Owners conduct user interviews independently with their user group.
 
 There is no TfB scheduled for software developers in week 5. Instead, the software developers look ahead to their seperate [In-house project](), discussing project ideas as a group and confirming their individual preferences.
 
