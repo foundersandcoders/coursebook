@@ -12,7 +12,7 @@ There is a single TfB session held during each of the first 9 weeks of the cours
 
 #### [Week 1](../../syllabus/apprenticeship/server/schedule/) - [Introduction](https://fac-slides.netlify.app/slides/dev-intro/#0)
 
-A session held with software developers only, introducing the Tech for Better(TfB) programme, reviewing the TfB schedule, and introducing the role of Product Owner(PO).
+A session held with software developers only, introducing the Tech for Better (TfB) programme, reviewing the TfB schedule, and introducing the role of Product Owner(PO).
 
 #### [Week 2](../../syllabus/apprenticeship/database/schedule/) - [Product Pitches](https://fac-slides.netlify.app/slides/pitches/#0)
 
