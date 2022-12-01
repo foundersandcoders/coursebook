@@ -8,4 +8,4 @@ A ["spike"](<https://en.wikipedia.org/wiki/Spike_(software_development)>) is a m
 
 Every week your project will begin with a spike. There will be some aspect of the project that you need to research and plan as a group before starting to work on your app. There is dedicated time in the schedule for this.
 
-Spikes will include some example questions to kickstart your research. Please include your findings in your project presentations at the end of the week—it's useful for each group to share their specific knowledge with the others.
+During the first 6 weeks, spikes will include some example questions to kickstart your research. During the longer In-house and Tech for Better projects, project teams will decide their own Technical Spikes. Please include your findings in your project presentations at the end of the week—it's useful for each group to share their specific knowledge with the others.
