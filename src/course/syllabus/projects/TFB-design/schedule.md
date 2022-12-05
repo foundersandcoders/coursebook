@@ -71,14 +71,23 @@ schedule:
       type: project
     - name: Code Planning
       start: 14:00
-      end: 17:45
+      end: 16:00
       type: project
       url: https://fac-slides.netlify.app/slides/code-planning/#0
+    - name: Technical Spikes
+      start: 16:00
+      end: 17:45
+      url: "./../spikes"
   thursday:
     - name: Technical Spikes
       start: 10:00
-      end: 13:00
+      end: 11:00
       url: "./../spikes"
+    - name: Sprint planning
+      start: 11:00
+      end: 13:00
+      type: project
+      url: /course/handbook/project-docs/sprint-planning
     - start: 14:00
       end: 14:30
       name: Presentation prep
@@ -111,20 +120,15 @@ schedule:
       start: 10:30
       end: 11:00
       url: /course/handbook/project-documentation/
-    - name: Sprint planning
+    - name: Project set-up
       start: 11:00
       end: 13:00
       type: project
-      url: /course/handbook/project-docs/sprint-planning
     - start: 13:00
       end: 14:00
       name: Lunch
-    - name: Project set-up
-      start: 14:00
-      end: 16:00
-      type: project
     - name: Build
-      start: 16:00
+      start: 14:00
       end: 17:45
       type: project
     - start: 17:45
