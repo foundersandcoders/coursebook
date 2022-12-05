@@ -16,20 +16,21 @@ schedule:
   thursday:
     - name: No schedule
       start: 9:45
-      end: 15:30
-    - name: Check-in
-      start: 15:30
-      end: 15:45
+      end: 14:00
+    - name: Communal lunch with pre-apprentices
+      start: 14:00
+      end: 15:00
     - name: Course intro
-      start: 15:45
-      end: 16:15
+      start: 15:00
+      end: 15:30
       url: https://fac-slides.netlify.app/slides/welcome-talk/#0
     - name: Server intro
-      start: 16:15
-      end: 16:45
+      start: 15:30
+      end: 16:00
       url: https://fac-slides.netlify.app/slides/servers/#0
-    - name: Pre-apprentices meet-up
-      start: 16:45
+    - name: Installation & social
+      url: /course/handbook/installation/
+      start: 16:00
       end: 18:00
   friday:
     - name: Server workshop
