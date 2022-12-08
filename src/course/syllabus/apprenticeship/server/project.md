@@ -4,19 +4,19 @@ Your project this week is to build a microblogging site. It should allow users t
 
 ## Spike
 
-Before you start implementing features you need to figure out how to deploy a Node app to Heroku.
+Before you start implementing features you need to figure out how to deploy a Node app to Fly.io.
+
+Fly is a "Platform-as-a-service" provider (PaaS). PaaS is a type of cloud computing service that provides users with a platform for deploying and managing apps. They provide a convenient way for developers to quickly get their apps up and running without having to worry about the technical details of the infrastructure and resources they need.
 
 ### Questions to consider
 
-1. What is Heroku?
 1. What are environment variables and why might we want to hide them?
-1. How can we automatically deploy commits to our `main` branch?
+2. How can we automatically deploy commits to our `main` branch?
 
 ### Useful resources
 
-- [How Heroku Works](https://devcenter.heroku.com/articles/how-heroku-works)
-- [Deploying Node.js Apps on Heroku](https://devcenter.heroku.com/articles/deploying-nodejs)
-- [GitHub Integration (Heroku GitHub Deploys)](https://devcenter.heroku.com/articles/github-integration)
+- [Deploying web apps to Fly.io](https://oliverjam.es/articles/deploying-to-fly) (you don't need to worry about the "Persistent Volumes" section for this week's spike)
+- [Continuous Deployment with Fly and GitHub Actions](https://fly.io/docs/app-guides/continuous-deployment-with-github-actions/)
 
 ## User stories
 
@@ -31,7 +31,7 @@ Before you start implementing features you need to figure out how to deploy a No
 
 ### Acceptance Criteria
 
-- Deployed to Heroku
+- Deployed to Fly.io
 - A page with a form to submit posts, and a page showing all posts
 - No `.html` files (all HTML responses should be created dynamically within Node)
 - No client-side JavaScript (all logic should happen on the server)
