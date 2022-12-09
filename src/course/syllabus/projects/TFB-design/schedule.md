@@ -108,11 +108,7 @@ schedule:
       end: 17:45
       name: Speaker
   friday:
-    - name: Feedback survey
-      start: 9:45
-      end: 10:00
-      type: presentation
-    - start: 10:00
+    - start: 9:50
       end: 10:30
       name: Portfolio building
       url: /course/handbook/portfolio

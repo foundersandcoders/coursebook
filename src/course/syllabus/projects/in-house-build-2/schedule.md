@@ -68,6 +68,6 @@ schedule:
       url: /course/handbook/project-documentation/
   friday:
     - name: Consolidation day
-      start: 9:45
+      start: 9:50
       end: 18:00
 ---

@@ -22,6 +22,6 @@ schedule:
     - name: Authentication workshop
       url: /learn/auth
       type: workshop
-      start: 9:45
+      start: 9:50
       end: 18:00
 ---

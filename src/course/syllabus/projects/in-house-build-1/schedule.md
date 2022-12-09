@@ -61,7 +61,7 @@ schedule:
       url: /course/handbook/project-documentation/
   friday:
     - name: Respond to issues / Build
-      start: 9:45
+      start: 9:50
       end: 13:00
       type: project
     - start: 13:00

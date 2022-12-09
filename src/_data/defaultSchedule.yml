@@ -125,7 +125,7 @@ thursday:
     name: Introduce next week
   - start: 16:50
     end: 17:00
-    name: Feedback survey
+    name: Break
   - start: 17:00
     end: 17:45
     name: Speaker
@@ -133,6 +133,9 @@ thursday:
     end: 18:00
     name: Check-out
 friday:
+  - start: 9:45
+    end: 9:50
+    name: Feedback survey
   - name: Workshop
-    start: 9:45
+    start: 9:50
     end: 18:00

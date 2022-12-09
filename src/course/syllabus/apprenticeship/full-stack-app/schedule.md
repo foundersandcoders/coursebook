@@ -25,6 +25,6 @@ schedule:
       url: https://fac-slides.netlify.app/slides/design-sprint/
   friday:
     - name: Consolidation day
-      start: 9:45
+      start: 9:50
       end: 18:00
 ---
