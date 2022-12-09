@@ -148,9 +148,6 @@ schedule:
       url: /course/handbook/project-docs/sprint-planning
     - name: Build
       start: 15:45
-      end: 17:45
-      type: project
-    - start: 17:45
       end: 18:00
-      name: Check-out
+      type: project
 ---
