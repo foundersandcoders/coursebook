@@ -47,14 +47,6 @@ if [ -x "$(command -v npm)" ]
     dim "https://learn.foundersandcoders.com/course/handbook/installation/#npm"
 fi
 
-echo "\nChecking Postgres..."
-if [ -x "$(command -v psql)" ]
-  then psql --version
-  else
-    red "Is Postgres installed?"
-    dim "https://learn.foundersandcoders.com/course/handbook/installation/#postgres"
-fi
-
 echo "\nChecking VS Code..."
 if [ -x "$(command -v code)" ]
   then echo "VS Code $(code --version | head -n 1)"

@@ -136,12 +136,6 @@ As a web dev most of the software you write will run in a web browser. You'll ne
 
 It's a good idea to have a few different browsers installed for testing your websites, as they don't always work in exactly the same way.
 
-### Postgres
-
-[PostgreSQL](https://www.postgresql.org/) is a database program. It's used by lots of websites to save user information. You won't need it until Database Week in the full-time course, but it's best to make sure it's installed earlier.
-
-The easiest way to install Postgres on a Mac is via [postgres.app](https://postgresapp.com). If you're on Linux/Windows we have a [full installation guide](https://github.com/coding-wiki/learn-sql/blob/master/postgresql/setup.md).
-
 ## Checking everything
 
 You can run our installation checker script to make sure everything is installed correctly:
