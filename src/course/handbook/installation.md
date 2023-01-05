@@ -144,7 +144,7 @@ You can run our installation checker script to make sure everything is installed
 sh -c "$(curl -s https://learn.foundersandcoders.com/installation-checker.sh)"
 ```
 
-This will tell you what version (if any) you have of each required program. You want at least these minimum versions: **Node 16, npm 8, psql 14**.
+This will tell you what version (if any) you have of each required program. You want at least these minimum versions: **Node 16, npm 8**.
 
 ## Troubleshooting
 
