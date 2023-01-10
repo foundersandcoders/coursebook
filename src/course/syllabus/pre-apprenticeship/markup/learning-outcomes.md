@@ -1,8 +1,7 @@
 ## Accessibility
 
-- [ ] **Make a website that is accessible by people other than ourselves**
 - [ ] Structure a site using semantic HTML to aid accessibility
-- [ ] Use a screen reader to understand how people with visual impairments may experience our website
+- [ ] Ensure a web page is readable for screen readers
 - [ ] Design a UI without relying solely on colour, so that we don't exclude colour-blind users
 - [ ] Ensure our UI has sufficient colour contrast so that everyone can perceive it comfortably
 - [ ] Use various tools to check that our website meets accessibility criteria

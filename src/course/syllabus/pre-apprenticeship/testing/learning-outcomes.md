@@ -1,6 +1,5 @@
 ## Testing
 
-- [ ] **Test the functionality of our app**
 - [ ] Check that passing a given input into our tests returns the expected output
 - [ ] Write tests to mimic the behaviour of a user performing different actions
 
