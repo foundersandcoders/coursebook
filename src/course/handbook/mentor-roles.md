@@ -29,6 +29,6 @@ Your team should schedule specific slots to talk with project mentors.
 
 These mentors will support you with planning and managing the project, but are usually volunteering outside their work commitmments, so you are responsible for reaching out to them and scheduling specific time slots that work for them, and for you.
 
-You may want to use these meetings as checkpoints to discuss progress, and talk through anything that is particularly challenging for the team.
+You may want to use this time to discuss your tech stack, review your project scope, get code reviews, and talk through anything that is particularly challenging for the team.
 
 Reach out early and be clear about when and why you need support.
