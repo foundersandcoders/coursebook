@@ -1,10 +1,10 @@
 # Project Presentations
 
-Your timetable includes 45 mins for your team to write your presentation and discuss how you are going to present your project together.
+Your timetable includes time allocated for your team to write your presentation and discuss how you are going to present your project together.
 
 **Remember: We want to hear from everyone during your presentation!**
 
-Each team then has 12 minutes to present, with 5 additional minutes for questions. This means each person has about 3 minutes of speaking time. We will be strict with you on timing, so make sure you use your time effectively.
+Each team then has 12 minutes to present, with 5 additional minutes for questions. Depending on team size, this means each person has about 3/4 minutes of speaking time. We will be strict with you on timing, so make sure you use your time effectively.
 
 ### Structure
 
