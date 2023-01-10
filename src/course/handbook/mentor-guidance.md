@@ -13,7 +13,7 @@ Please read these notes and check with the course facilitator before your week s
 ## To do before your week
 
 - Make sure you’re an owner of the cohort's GitHub organisation.
-- Read your week's workshops and solutions, as well as learning objectives. These may have changed after your cohort!
+- Read your week's workshops and solutions, as well as the project and learning objectives. These may have changed after your cohort!
 - Check in with the course facilitator. They are there to support you before, during and after your week.
 - Decide who will lead which bits of your week - Refer to the day by day checklist below for a detailed breakdown of your responsibilities.
 - Have a look at the cohort's most recent projects, and ask the course facilitator about any relevant feedback from the previous week's SGC.
@@ -57,33 +57,35 @@ Make sure the cohort is getting regular breaks, from their screens and chairs. I
 
 # Day by Day Checklist
 
-This is a generalised checklist that is applicable for each week.
-
-Some weeks may have an extra project day on tuesday - treat this the same as wednesday and thursday.
+This is a generalised checklist that is applicable for each week. Some weeks may vary slightly.
 
 Please reach out to the CF if you have any specific questions about your week.
 
-## Tuesday
-
-**Morning Challenge**
-
-Introduce the morning challenge - share your screen and give a brief description of the exercise.
+## Monday
 
 _**Workshop Discussions**_
 
-Discussion happens in two stages - in small groups of 3 for 80 minutes, and then a larger group facilitated by mentors for 40 minutes. Talk through their solutions, and facilitate discussion - prompt the learners to explain what they did!
+The cohort will have completed the workshops independently on the previous Friday. Discussion on Monday happens in two stages - in small groups of 3 for 80 minutes, and then a larger group facilitated by mentors for 40 minutes. Talk through their solutions, and facilitate discussion - prompt the learners to explain what they did!
+
+**Morning Challenge**
+
+Introduce the Morning Challenge - share your screen and give a brief description of the exercise.
 
 _**Tech for Better**_
 
 - Gregor and the CF will facilitate these sessions.
 - Feel free to ask questions to the Product Owners drawing from your TFB experience. Remember that we'll prioritise the cohort's questions.
 
-## Wednesday & Thursday
+_**Projects**_
+
+- Introduce the Project and Spike - share your screen and give a brief description of the exercise
+
+## Tuesday & Wednesday
 
 _**Projects**_
 
 - On remote days, create two breakout rooms per project to allow learners to split up into pairs.
-- Be available on Discord, Wednesdays and Thursdays are usually more unstructured but the cohort will need help with their project work.
+- Be available on Discord, Tuesdays and Wednesdays are usually more unstructured but the cohort will need help with their project work.
 
 _**Role circles (from week 2)**_
 
@@ -92,15 +94,19 @@ _**Role circles (from week 2)**_
 
 _**Code Review**_
 
-- Pick one project to code review and raise issues from 16:45 to 17:45.
+- Please code review the cohort's projects and raise issues from 16:45 to 17:45 on Wednesdays.
 - Be complimentary, keep it focused around the acceptance criteria and learning objectives for the week, of course highlighting improved ways of writing code, especially concerning topics covered in previous weeks.
 - Ideally keep it brief and where appropriate link to resources (MDN, W3, etc).
 - You will review two weeks: your week and the week after.
 - For more info, refer to our [code review guidance](https://learn.foundersandcoders.com/course/handbook/code-review/)
 
+## Thursday
+
+- You aren't expected to be available on Thursdays, but feel free to attend project presentations if you're free!
+
 ## Friday
 
-- You aren't expected to be available on fridays, but feel free to attend project presentations if you're free!
+- You aren't expected to be available on Fridays. The cohort will be working independently on the following week's workshops.
 
 _**Feedback form**_
 
