@@ -57,7 +57,7 @@ To solve this we’re going to use Fly’s [Volume’s feature](https://fly.io/d
 
 ### Adding a volume to your app
 
-1. [Install the Fly CLI](https://oliverjam.es/articles/deploying-to-fly#how-do-you-deploy) if you haven’t already.
+1. [Install the Fly CLI and deploy your app](https://oliverjam.es/articles/deploying-to-fly#how-do-you-deploy) if you haven’t already.
 2. Create a volume by running the following command
 
    `flyctl volumes create data --region lhr --size 1`
@@ -68,10 +68,10 @@ To solve this we’re going to use Fly’s [Volume’s feature](https://fly.io/d
 
 3. You can use the volume you just created in your app by adding it to the `fly.toml`:
 
-   ```jsx
-   [mounts];
-   source = "data";
-   destination = "/data";
+   ```
+   [mounts]
+      source = "data"
+      destination = "/data"
    ```
 
    This will tell us the directory under which this volume can be used, i.e. the volume `data` that we created in the last step will be available on the path `/data` when our app runs on `Fly.io` 's servers.
@@ -80,7 +80,7 @@ To solve this we’re going to use Fly’s [Volume’s feature](https://fly.io/d
 
    `flyctl deploy`
 
-5. The last step is to set our environment variable which will point to the directory we referenced in our `fly.toml` file (ie `data/` )
+5. The last step is to set the environment variable which we use in the our app (i.e. in `database/db.js`). On fly, this needs to point to the directory we referenced in our `fly.toml` file (ie `data/`)
 
    `flyctl secrets set DB_FILE=/data/db.sqlite`
 
@@ -90,11 +90,26 @@ We might also want to seed our database with initial data in our deployment envi
 
 We’re going to do something similar to seed the remote data, but instead of running a command on our local terminal, we’re going to connect to the virtual machine that Fly has spun up for our app and run a command on that virtual machine’s terminal.
 
-1. To connect to the remote virtual machine we rung the following command. SSH stands for Secure Shell and is a way to securely connect to another computer over a network.
+1. Before we connecting to the virtual machine, we'll need to add the `volta` key to our `package.json`. [Volta](https://volta.sh/) is the tool that Fly uses to manage node versions.
+
+   Let's add the following to our `package.json` (making sure that the node version you specify is the same one as in the generated `Dockerfile`)
+
+   ```
+   {
+      ...
+      "volta": {
+         "node": "18.10.0"
+      }
+   }
+   ```
+
+   Then run `flyctl deploy` to get these changes onto our deployed app.
+
+1. To connect to the remote virtual machine we run the following command. SSH stands for Secure Shell and is a way to securely connect to another computer over a network.
 
    `flyctl ssh console`
 
-2. Once you’ve connected to the terminal you can find your files in the `app/` directory and from there you can run your script.
+1. Once you’ve connected to the terminal you can find your files in the `app/` directory and from there you can run your script.
 
    `cd app`
 
