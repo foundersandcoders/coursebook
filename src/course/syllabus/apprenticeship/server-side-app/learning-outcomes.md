@@ -1,6 +1,6 @@
 ## Server-side app
 
-- [ ] We can build a stable, professional app
-- [ ] We can handle errors without our server crashing
-- [ ] We can communicate problems to the user
-- [ ] We can research and implement complex new features on our own
+- [ ] Build a stable, professional app
+- [ ] Handle errors without our server crashing
+- [ ] Communicate problems to the user
+- [ ] Research and implement complex new features on our own
