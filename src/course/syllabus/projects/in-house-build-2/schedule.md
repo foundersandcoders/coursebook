@@ -63,8 +63,8 @@ schedule:
       name: Presentation prep
       url: /course/handbook/project-presentations/
     - name: Project documentation
-      start: 16:20
-      end: 16:50
+      start: 15:30
+      end: 16:00
       url: /course/handbook/project-documentation/
   friday:
     - name: Consolidation day

@@ -15,8 +15,8 @@ schedule:
   wednesday:
   thursday:
     - name: Portfolio review
-      start: 16:20
-      end: 16:50
+      start: 15:30
+      end: 16:00
       url: /course/handbook/portfolio
   friday:
     - name: Consolidation day
