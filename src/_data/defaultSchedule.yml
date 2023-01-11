@@ -1,10 +1,5 @@
 monday:
   - start: 9:45
-    end: 18:00
-    name: Workshops
-    type: workshop
-tuesday:
-  - start: 9:45
     end: 10:00
     name: Check-in
   - start: 10:00
@@ -39,7 +34,7 @@ tuesday:
   - start: 17:45
     end: 18:00
     name: Check-out
-wednesday:
+tuesday:
   - start: 9:45
     end: 10:00
     name: Check-in
@@ -59,7 +54,7 @@ wednesday:
   - start: 17:45
     end: 18:00
     name: Check-out
-thursday:
+wednesday:
   - start: 9:45
     end: 10:00
     name: Check-in
@@ -90,7 +85,7 @@ thursday:
   - start: 17:45
     end: 18:00
     name: Check-out
-friday:
+thursday:
   - start: 9:45
     end: 10:00
     name: Check-in
@@ -130,10 +125,17 @@ friday:
     name: Introduce next week
   - start: 16:50
     end: 17:00
-    name: Feedback survey
+    name: Break
   - start: 17:00
     end: 17:45
     name: Speaker
   - start: 17:45
     end: 18:00
     name: Check-out
+friday:
+  - start: 9:45
+    end: 9:50
+    name: Feedback survey
+  - name: Workshop
+    start: 9:50
+    end: 18:00

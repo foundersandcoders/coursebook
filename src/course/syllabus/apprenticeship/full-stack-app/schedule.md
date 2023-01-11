@@ -2,12 +2,6 @@
 layout: schedule
 schedule:
   monday:
-    - name: Learn Next.js
-      url: https://nextjs.org/learn/basics/create-nextjs-app
-      type: workshop
-      start: 9:45
-      end: 18:00
-  tuesday:
     - name: Project intro
       url: ../project/
       type: project
@@ -22,11 +16,15 @@ schedule:
       type: project
       start: 16:00
       end: 17:45
+  tuesday:
   wednesday:
   thursday:
-  friday:
-    - name: Design Week Intro
+    - name: Design week intro
       start: 16:20
       end: 16:50
       url: https://fac-slides.netlify.app/slides/design-sprint/
+  friday:
+    - name: Consolidation day
+      start: 9:50
+      end: 18:00
 ---

@@ -2,12 +2,6 @@
 layout: schedule
 schedule:
   monday:
-    - name: Server workshop
-      url: /learn/server
-      type: workshop
-      start: 9:45
-      end: 18:00
-  tuesday:
     - name: Sanitize & validate challenge
       url: https://github.com/foundersandcoders/sanitize-validate-challenge
       type: challenge
@@ -17,11 +11,17 @@ schedule:
       start: 15:45
       end: 16:00
       url: https://fac-slides.netlify.app/slides/proj-mgmt/
+  tuesday:
   wednesday:
   thursday:
-  friday:
-    - name: Database Intro
+    - name: Database intro
       start: 16:20
       end: 16:50
       url: https://fac-slides.netlify.app/slides/databases/
+  friday:
+    - name: Database workshop
+      url: /learn/database
+      type: workshop
+      start: 9:50
+      end: 18:00
 ---

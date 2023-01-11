@@ -2,11 +2,6 @@
 layout: schedule
 schedule:
   monday:
-    - name: Bank Holiday
-      type: workshop
-      start: 9:45
-      end: 18:00
-  tuesday:
     - name: Validation workshop
       url: /learn/form-validation
       type: workshop
@@ -28,11 +23,17 @@ schedule:
       start: 16:00
       end: 17:45
       url: ../project#spikes
+  tuesday:
   wednesday:
   thursday:
-  friday:
-    - name: Client-Side Intro
+    - name: Client-side intro
       start: 16:20
       end: 16:50
       url: https://fac-slides.netlify.app/slides/spa-react/
+  friday:
+    - name: React workshop
+      url: /learn/react
+      type: workshop
+      start: 9:50
+      end: 18:00
 ---

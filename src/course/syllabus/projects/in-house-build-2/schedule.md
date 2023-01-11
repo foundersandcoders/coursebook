@@ -2,27 +2,6 @@
 layout: schedule
 schedule:
   monday:
-    - start: 9:45
-      end: 10:00
-      name: Check-in
-    - start: 10:00
-      end: 10:10
-      name: Feedback survey
-    - name: Respond to issues / Build
-      start: 10:10
-      end: 13:00
-      type: project
-    - start: 13:00
-      end: 14:00
-      name: Lunch
-    - name: Build
-      start: 14:00
-      end: 17:45
-      type: project
-    - start: 17:45
-      end: 18:00
-      name: Check-out
-  tuesday:
     - name: Build
       start: 10:00
       end: 13:00
@@ -34,7 +13,7 @@ schedule:
       start: 15:30
       end: 17:45
       type: project
-  wednesday:
+  tuesday:
     - name: Web Science
       start: 10:00
       end: 11:00
@@ -58,24 +37,24 @@ schedule:
       start: 16:15
       end: 17:45
       url: /course/handbook/code-review/
-  thursday:
+  wednesday:
     - name: Build
       start: 10:00
       end: 13:00
       type: project
     - name: Build
       start: 14:00
-      end: 17:30
-      type: project
-    - name: Update READMEs
-      start: 17:30
       end: 17:45
-  friday:
+      type: project
+  thursday:
+    - name: Update READMEs
+      start: 10:10
+      end: 10:15
     - name: Sprint Review
-      start: 10:00
-      end: 11:30
+      start: 10:15
+      end: 11:45
       url: /course/handbook/project-docs/sprint-planning
-    - start: 11:30
+    - start: 11:45
       end: 12:15
       name: Portfolio building
       url: /course/handbook/portfolio
@@ -87,4 +66,8 @@ schedule:
       start: 16:20
       end: 16:50
       url: /course/handbook/project-documentation/
+  friday:
+    - name: Consolidation day
+      start: 9:50
+      end: 18:00
 ---

@@ -5,16 +5,13 @@ schedule:
     - start: 9:45
       end: 10:00
       name: Check-in
-    - start: 10:00
-      end: 10:10
-      name: Feedback survey
     - name: Discovery introduction
-      start: 10:10
-      end: 10:25
+      start: 10:00
+      end: 10:15
       url: https://fac-slides.netlify.app/slides/discovery-inhouse/#0
       type: presentation
     - name: Discovery workshop
-      start: 10:25
+      start: 10:15
       end: 13:00
       type: workshop
     - start: 13:00
@@ -101,33 +98,49 @@ schedule:
       start: 10:15
       end: 13:00
       url: https://fac-slides.netlify.app/slides/code-planning/#0
-    - name: Code planning
+    - name: Sprint planning
       start: 14:00
-      end: 14:45
-      url: https://fac-slides.netlify.app/slides/code-planning/#0
-    - name: Technical spikes
-      start: 14:45
-      end: 16:30
-      url: ../spikes
-    - name: Spike presentation prep
-      start: 16:30
+      end: 15:00
+      url: /course/handbook/project-docs/sprint-planning
+    - start: 15:00
+      end: 15:30
+      name: Presentation prep
+      url: /course/handbook/project-presentations/
+    - start: 15:30
+      end: 16:00
+      name: Team SGC
+      url: /course/handbook/retrospectives/#team-retrospectives
+    - start: 16:00
       end: 17:00
-    - name: Spike presentations
-      start: 17:00
-      end: 17:45
+      name: Presentations
       type: presentation
-  friday:
+    - start: 17:00
+      end: 17:30
+      name: Cohort SGC
+      url: /course/handbook/retrospectives/#cohort-retrospective
     - name: Build sprint presentation
-      start: 10:00
-      end: 10:15
+      start: 17:30
+      end: 17:45
       url: https://fac-slides.netlify.app/slides/build-sprint/#0
       type: presentation
-    - name: Sprint Planning
-      start: 10:15
-      end: 12:00
-      url: /course/handbook/project-docs/sprint-planning
+  friday:
+    - start: 9:50
+      end: 10:30
+      name: Portfolio building
+      url: /course/handbook/portfolio
     - name: Project documentation
-      start: 16:20
-      end: 16:50
+      start: 10:30
+      end: 11:00
       url: /course/handbook/project-documentation/
+    - name: Technical spikes
+      start: 11:00
+      end: 13:00
+      url: ../spikes
+    - start: 13:00
+      end: 14:00
+      name: Lunch
+    - name: Build
+      start: 14:00
+      end: 18:00
+      type: project
 ---
