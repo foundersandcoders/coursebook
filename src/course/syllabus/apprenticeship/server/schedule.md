@@ -15,8 +15,8 @@ schedule:
   wednesday:
   thursday:
     - name: Database intro
-      start: 16:20
-      end: 16:50
+      start: 15:30
+      end: 16:00
       url: https://fac-slides.netlify.app/slides/databases/
   friday:
     - name: Database workshop

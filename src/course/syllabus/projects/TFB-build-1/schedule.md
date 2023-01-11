@@ -54,8 +54,8 @@ schedule:
       end: 12:00
       type: project
     - name: Project documentation
-      start: 16:20
-      end: 16:50
+      start: 15:30
+      end: 16:00
       url: /course/handbook/project-documentation/
   friday:
     - name: Respond to issues / Build
