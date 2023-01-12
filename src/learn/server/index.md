@@ -742,7 +742,7 @@ server.get("/", (request, response) => {
       <head>
         <meta charset="utf-8">
         <title>Home</title>
-        <link rel="stylesheet" href="/style.css>
+        <link rel="stylesheet" href="/style.css">
       </head>
       <body>
         <h1>Hello</h1>
@@ -784,7 +784,7 @@ test("/submit route responds to POST requests", async () => {
 
 ### Request body
 
-A `POST` request that doesn't send any data isn't very useful. Usually a form would be submitting some user input. Let's imagine we have a form that asks a user's name. We want to get the name they submit and send back a message like "Thanks for submitting, oli".
+A `POST` request that doesn't send any data isn't very useful. Usually a form would be submitting some user input. Let's imagine we have a form that asks a user's name. We want to get the name they submit and send back a message like "thanks for submitting, oli".
 
 Since bodies can be large they are sent in small chunks—this means there's no simple way to read the body. Instead we must use a "body parser" middleware. This will wait for all the chunks to be received, then make the final body available to our route handler via the request object.
 
@@ -852,7 +852,7 @@ The next page needs to know the name that was submitted—we can pass that in th
 
 server.get("/submit/success", (request, response) => {
   const name = request.query.name;
-  response.send(`<p>Thanks for submitting, ${name}</p>`);
+  response.send(`<p>thanks for submitting, ${name}</p>`);
 });
 ```
 
