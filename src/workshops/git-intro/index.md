@@ -64,6 +64,17 @@ The _source control tab_ in VS Code allows you to use Git within your text edito
    ![VS Code shows the files changed under 'staged changes'](./images/git-5.jpg)
 1. Write a meaningful commit message, which summarises the work you've completed. Then, click the commit button (represented with a tick) to commit those files to your Git history.
    ![Writing a commit message](./images/git-6.jpg)
+
+   {% box %}
+
+   You may run into a GPG Error when using Git for the first time. If you do, have a look at the following documentation:
+
+   - [GPG commit signature verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#gpg-commit-signature-verification)
+   - [Adding a GPG key to your GitHub account](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account)
+   - [Stack Overflow: Git error - gpg failed to sign data](https://stackoverflow.com/questions/41052538/git-error-gpg-failed-to-sign-data)
+
+   {% endbox %}
+
 1. VS Code will prompt you to publish the branch once you've staged all changes. The first time you click this, you'll need to connect to your GitHub account.
    ![The side panel on VS code now shows a button with the text 'publish branch'](./images/git-7.jpg)
 1. Finally, publish to a new public repository
