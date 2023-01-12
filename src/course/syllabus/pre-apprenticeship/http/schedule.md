@@ -2,73 +2,36 @@ Learn how to manage asynchronous tasks and send HTTP requests using JavaScript.
 
 ## Week 4
 
-### Session 1
+### In advance
+- [HTTP topic intro](https://fac-slides.netlify.app/slides/http/)
 
-- 17:00-17:15 Check-in
-- 17:15-17:45 [Intro talk](https://fac-slides.netlify.app/slides/http/)
-- 17:45-19:45 [Asynchronous JS workshop](/workshops/functions-callbacks-async/)
-- 19:45-20:00 Check-out
+### Workshops
+- [Asynchronous JS workshop](/workshops/functions-callbacks-async/)
+- [Promises & fetch workshop](/workshops/learn-fetch/)
+- [Real-world fetch workshop](/workshops/real-world-fetch)
+- [Promise practice workshop](/workshops/promise-practice/)
 
-Homework:
 
-- Finish Asynchronous JS workshop
-- [Promises & fetch workshop](/workshops/learn-fetch/) (2 hours)
-<!-- - [DOM Challenge](/workshops/dom-challenge/) (1 hour) -->
+Updated schedule coming soon...
 
-### Session 2
+### Session 7
 
 - 17:00-17:10 Check-in
-- 17:10-18:00 Q&A
-- 18:00-18:45 Workshop discussion & solutions
-- 18:45-19:45 Start [Real-world fetch workshop](/workshops/real-world-fetch)
-- 19:45-20:00 Check-out
 
-Homework:
-
-- Finish Real-world fetch workshop
-- [Promise practice workshop](/workshops/promise-practice/) (2 hours)
+### Session 8
 
 ## Week 5
 
-### Session 1
+### Session 9
 
-- 17:00-17:15 Check-in
-- 17:15-18:00 Workshop discussion & solutions
-- 18:00-19:45 [Project](../project/) introduction
-- 19:45-20:00 Check-out
+- 17:00-17:10 Check-in
 
-Homework:
-
-- [Project](../project/)
-
-### Session 2
-
-- Q&A
-- Employment preparation
-
-Homework:
-
-- [Project](../project/)
+### Session 10
 
 ## Week 6
 
-### Session 1
+### Session 11
 
-- Project code review
-- Employment preparation
+- 17:00-17:10 Check-in
 
-Homework:
-
-- [Project](../project/)
-
-### Session 2
-
-- Q&A
-- Project presentations
-- [Intro to testing](https://fac-slides.netlify.app/slides/testing)
-
-Homework:
-
-- Revision quiz
-- [Build a testing library](https://learn.foundersandcoders.com/workshops/learn-testing/)
-- [Unit testing workshop](https://learn.foundersandcoders.com/workshops/learn-unit-testing/)
+### Session 12

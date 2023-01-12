@@ -2,73 +2,33 @@ This topic is focused on the fundamental building blocks of web pages—accessib
 
 ## Week 1
 
-### Monday
+### Workshops
+- [Git workflow workshop](/workshops/git-workflow/)
+- [CSS Layout workshop](/workshops/css-layout/)
+- [Semantic HTML workshop](/workshops/semantic-html/)
+- [Accessibility workshop](/workshops/learn-a11y/)
+- [HTML Forms workshop](/workshops/html-forms/)
 
-- 17:00-17:15 Check-in
-- 17:15-18:15 Intro talks
-- 18:15-19:45 [Git workflow workshop](/workshops/git-workflow/)
-- 19:45-20:00 Check-out
+Updated schedule coming soon...
 
-Homework:
+### Session 1
 
-- Get started on Execute Program
-- Finish Git workflow workshop
-- [CSS Layout workshop](/workshops/css-layout/) (3 hours)
+- 17:00-17:10 Check-in
 
-### Thursday
-
-- 17:00-17:15 Check-in
-- 17:15-18:00 Workshop discussion & solutions
-- 17:30-18:45 [Semantic HTML workshop](/workshops/semantic-html/)
-- 18:45-19:45 [Accessibility workshop](/workshops/learn-a11y/)
-- 19:45-20:00 Check-out
-
-Homework:
-
-- Finish HTML & Accessibility workshops
-- [HTML Forms workshop](/workshops/html-forms/) (1.5 hours)
+### Session 2
 
 ## Week 2
 
-### Monday
+### Session 1
 
-- 17:00-17:15 Check-in
-- 17:15-18:00 Workshop discussion & solutions
-- 18:00-19:45 [Project](../project/) introduction
-- 19:45-20:00 Check-out
+- 17:00-17:10 Check-in
 
-Homework:
-
-- [Project](../project/)
-
-### Thursday
-
-- Employment preparation
-
-Homework:
-
-- CVs, LinkedIn and GitHub profiles
-- Continue with project
+### Session 2
 
 ## Week 3
 
-### Monday
+### Session 1
 
-- Project code review
-- Employment preparation
+- 17:00-17:10 Check-in
 
-Homework:
-
-- Revision quiz
-- Screening questions
-- Finish project
-
-### Thursday
-
-- Project presentations
-- Employment preparation
-
-Homework:
-
-- Revision quiz
-- Complete take-home challenge
+### Session 2

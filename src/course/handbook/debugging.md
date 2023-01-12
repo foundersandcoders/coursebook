@@ -46,6 +46,10 @@ Learning to craft searches that return the most useful results is one of the mos
 
 Ideally this will return GitHub issues on the repo for the library you're using, or Stack Overflow questions from people who had the exact same problem. Try to prioritise recent stuff, since the JS ecosystem moves very fast. Usually a 2 year old issue won't be relevant anymore.
 
+### Ask an AI
+
+It's a brave new world. Try some [prompt engineering](https://en.wikipedia.org/wiki/Prompt_engineering) and give [Chat GPT](https://chat.openai.com/chat) a go. But be warned that these pre-trained transformer models have no idea what they are talking about and are (as of writing) prone to the occassional very lucid and convincing hallucination, so take any responses with a pinch of salt.
+
 ## Fixing the problem
 
 Once you understand what's wrong you need to fix your code. If you found an easy solution to your problem this might be simple, but sometimes it will require experimentation.
