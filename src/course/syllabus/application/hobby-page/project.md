@@ -23,3 +23,7 @@ If you're new to web development, we recommend you check out the [resources](../
 Your code should be in a remote repository on [GitHub](http://www.github.com) and your site deployed live with [GitHub Pages](https://pages.github.com/). If you're new to using Git and GitHub, we recommend following [our tutorial](/workshops/git-intro/) to get started.
 
 {% endbox %}
+
+## Documenting
+
+We'd like to hear about what you created, and how you created it. For this project, you're required to include a `README.md` file. These are written in [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) and give an overview of the project. You might like to include sections which follow the three headings above: planning; building; and debugging.

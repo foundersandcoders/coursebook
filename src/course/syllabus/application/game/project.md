@@ -1,18 +1,18 @@
-Build a feature to include on your application website. This project is open-ended and a chance for you to explore creating something with different complex parts that interact with each other.
+Build a game using HTML, CSS and JavaScript. This project is open-ended and a chance for you to explore creating something with different complex parts that interact with each other.
 
 ## Examples
 
-### A Tortoise Race
+### Tic Tac Toe
 
-A user can click a button to see a race between multiple tortoises from one side of the screen to the other. The tortoises move at different speeds in each race, and the user is notified who finished first. The user can alter the race in some way - by naming the tortoises; changing their speeds; or adding additional racers.
+Two players compete to get a line of noughts or crosses in a 3x3 grid. Players take turns to place a piece and the game ends when either player has three in a row, column, or diagonal. A draw occurs if no player has got a line of 3.
 
-### An image carousel
+### Rock, Paper, Scissors
 
-A slideshow of images automatically plays on the page. The user can pause the carousel and click buttons to see the next or previous image in the cycle. Include a set of dots under the carousel indicating which image in the sequence is visible, and can be clicked to navigate to a certain image.
+A player faces off against the computer choosing rock, paper or scissors as their move. Paper beats rock, rock beats scissors, and scissors beats paper.
 
-### A fortune teller
+### Matching Game
 
-The user can ask a question and receive a response from the _fortune teller_. After a certain amount of idle time, an animation is played, or a message pops up to notify the user the teller is available for fortunes. There are a fixed number of responses, that are randomised whenever the teller is used and give a variety of outputs.
+In a grid of tiles, a player flips tiles until they find two that match. Once all tiles have been flipped and matched, the game ends.
 
 ## Planning
 
