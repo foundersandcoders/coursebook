@@ -23,7 +23,7 @@ For example - If you are the UX Lead, do not feel obliged to do all the CSS/styl
 - Lead on setting up repo and file structure
 - Make sure separation of concerns is considered
 - Set up linting and check it works for everyone
-- Set up deployment to Heroku and take ongoing responsibility
+- Set up deployment, e.g. to fly.io, and take ongoing responsibility
 - set up environment variables for local and remote databases
 
 ## Scrum Facilitator
