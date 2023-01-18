@@ -10,7 +10,7 @@
 - [ ] Use CSS media queries to ensure our content is always presented effectively on screens of different sizes
 - [ ] Demonstrate a mobile-first approach to building a website
 - [ ] Use CSS variables to apply repeated colours to HTML elements
-- [ ] Use CSS Flex to style children in a single-direction layout (ie a row or a column)
+- [ ] Use CSS Flexbox to style children in a single-direction layout (ie a row or a column)
 - [ ] Use CSS Grid to style children in two-direction layout
 
 ## Workflow
