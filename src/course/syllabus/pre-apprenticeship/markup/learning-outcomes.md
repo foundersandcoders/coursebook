@@ -15,7 +15,7 @@
 
 ## Workflow
 
-- [ ] Ensure our git commit history tells a coherent story
+- [ ] Ensure our Git commit history tells a coherent story
 
 ## HTML Forms
 
