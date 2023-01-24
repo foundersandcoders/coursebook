@@ -12,7 +12,7 @@ Before you start writing features you need to design the schema for your data. T
 ### Useful resources
 
 - [Database Relationships](https://www.lifewire.com/database-relationships-p2-1019758)
-- [A beginner's guide to many-to-many relationships](https://support.airtable.com/hc/en-us/articles/218734758-A-beginner-s-guide-to-many-to-many-relationships)
+- [A beginner's guide to many-to-many relationships](https://support.airtable.com/docs/airtable-s-guide-to-many-to-many-relationships)
 
 ## User stories
 
