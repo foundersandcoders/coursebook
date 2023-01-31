@@ -17,10 +17,16 @@ schedule:
     - start: 13:00
       end: 14:00
       name: Lunch
-    - name: Conduct user research
+    - name: User research preparation
       start: 14:00
-      end: 16:00
+      end: 14:15
+    - name: Conduct user research
+      start: 14:15
+      end: 15:45
       url: https://learn.foundersandcoders.com/course/handbook/project-docs/user-research/
+    - name: Break
+      start: 15:45
+      end: 16:00
     - name: Analysis introduction
       start: 16:00
       end: 16:15
@@ -68,17 +74,20 @@ schedule:
       start: 11:00
       end: 13:00
       type: project
-    - name: Usability testing
-      start: 14:00
-      end: 16:00
-      url: https://fac-slides.netlify.app/slides/usability-testing/#0
     - name: Synthesis feedback introduction
-      start: 16:00
-      end: 16:10
+      start: 14:00
+      end: 14:15
       url: https://fac-slides.netlify.app/slides/ut-synthesis/#0
       type: presentation
+    - name: Usability testing preparation
+      start: 14:15
+      end: 14:30
+    - name: Usability testing
+      start: 14:30
+      end: 16:00
+      url: https://fac-slides.netlify.app/slides/usability-testing/#0
     - name: Synthesise feedback
-      start: 16:10
+      start: 16:00
       end: 17:30
     - name: Introduction to project roles
       start: 17:30
