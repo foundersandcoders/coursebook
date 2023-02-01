@@ -91,18 +91,14 @@ thursday:
     end: 10:00
     name: Check-in
   - start: 10:00
-    end: 10:30
+    end: 10:45
     name: Live code review
     url: /course/handbook/code-review/
-  - start: 10:30
-    end: 12:00
+  - start: 10:45
+    end: 12:15
     name: Respond to issues
     type: project
-  - start: 12:00
-    end: 12:30
-    name: Portfolio building
-    url: /course/handbook/portfolio
-  - start: 12:30
+  - start: 12:15
     end: 13:00
     name: Presentation prep
     url: /course/handbook/project-presentations/
