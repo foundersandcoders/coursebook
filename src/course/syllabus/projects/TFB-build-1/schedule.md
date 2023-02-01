@@ -51,7 +51,7 @@ schedule:
   thursday:
     - name: Respond to issues
       start: 10:00
-      end: 12:00
+      end: 12:15
       type: project
     - name: Project documentation
       start: 15:30
