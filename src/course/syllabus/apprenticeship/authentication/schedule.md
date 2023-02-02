@@ -13,11 +13,6 @@ schedule:
       url: https://fac-slides.netlify.app/slides/final-projects/#0
   tuesday:
   wednesday:
-  thursday:
-    - name: Portfolio review
-      start: 15:30
-      end: 16:00
-      url: /course/handbook/portfolio
   friday:
     - name: Consolidation day
       start: 9:50
