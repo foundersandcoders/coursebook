@@ -13,6 +13,7 @@ schedule:
       url: https://fac-slides.netlify.app/slides/final-projects/#0
   tuesday:
   wednesday:
+  thursday:
   friday:
     - name: Consolidation day
       start: 9:50
