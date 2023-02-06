@@ -26,7 +26,7 @@ Show temporary messages after successful/failed form submissions to help the use
 - Express server
 - Well-organised modular codebase
 - SQLite database
-- Hosted on Heroku
+- Hosted on Fly.io
 - One of the spike topics
 - Validate user-submitted data on the server
 - Handle errors and inform the user
