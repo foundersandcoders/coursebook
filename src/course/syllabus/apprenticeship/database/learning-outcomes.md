@@ -2,15 +2,13 @@
 
 - [ ] Design and document a database schema
 - [ ] Normalize our data to reduce duplication
-- [ ] Create a relational database
+- [ ] Create a relational database using SQLite
 - [ ] Create tables within the database
 - [ ] Link a record in one table to a record in another
 - [ ] Link a record in one table to multiple records in another
 - [ ] Link multiple records in one table to multiple records in another
-- [ ] Deploy a PSQL database locally on our own machine
-- [ ] Deploy a PSQL database to a live server
+- [ ] Deploy a SQLite database to a live server
 - [ ] Set up separate environments for production and testing
-- [ ] Use PSQL to manage Postgres from the command line
 
 ## SQL
 
@@ -21,6 +19,7 @@
 
 ## Node
 
+- [ ] Set enviroment variables and understand their use case
 - [ ] Handle database errors on our server without crashing
 
 ## Software Architecture
