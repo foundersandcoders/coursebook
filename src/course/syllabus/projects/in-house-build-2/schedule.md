@@ -14,12 +14,8 @@ schedule:
       end: 17:45
       type: project
   tuesday:
-    - name: Web Science
-      start: 10:00
-      end: 11:00
-      type: presentation
     - name: Build
-      start: 11:00
+      start: 10:00
       end: 12:45
       type: project
     - name: Role circles
@@ -38,8 +34,12 @@ schedule:
       end: 17:45
       url: /course/handbook/code-review/
   wednesday:
-    - name: Build
+    - name: Web Science
       start: 10:00
+      end: 11:00
+      type: presentation
+    - name: Build
+      start: 11:00
       end: 13:00
       type: project
     - name: Build
