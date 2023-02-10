@@ -107,31 +107,31 @@ schedule:
       start: 10:15
       end: 13:00
       url: https://fac-slides.netlify.app/slides/code-planning/#0
-    - name: Sprint planning
-      start: 14:00
-      end: 15:00
-      url: /course/handbook/project-docs/sprint-planning
-    - start: 15:00
-      end: 15:30
-      name: Presentation prep
-      url: /course/handbook/project-presentations/
-    - start: 15:30
-      end: 16:00
-      name: Team SGC
-      url: /course/handbook/retrospectives/#team-retrospectives
-    - start: 16:00
-      end: 17:00
-      name: Presentations
-      type: presentation
-    - start: 17:00
-      end: 17:30
-      name: Cohort SGC
-      url: /course/handbook/retrospectives/#cohort-retrospective
     - name: Build sprint presentation
-      start: 17:30
-      end: 17:45
+      start: 14:00
+      end: 14:15
       url: https://fac-slides.netlify.app/slides/build-sprint/#0
       type: presentation
+    - name: Sprint planning
+      start: 14:15
+      end: 15:15
+      url: /course/handbook/project-docs/sprint-planning
+    - start: 15:15
+      end: 15:45
+      name: Presentation prep
+      url: /course/handbook/project-presentations/
+    - start: 15:45
+      end: 16:15
+      name: Team SGC
+      url: /course/handbook/retrospectives/#team-retrospectives
+    - start: 16:15
+      end: 17:15
+      name: Presentations
+      type: presentation
+    - start: 17:15
+      end: 17:45
+      name: Cohort SGC
+      url: /course/handbook/retrospectives/#cohort-retrospective
   friday:
     - start: 9:50
       end: 10:30
