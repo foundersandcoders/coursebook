@@ -13,7 +13,7 @@ There are two kinds of user feedback sessions in the design sprint: User Researc
 - Users might not have participated in research before so there often is a tendency to tell us what we’re expecting to hear. But critical feedback is incredibly useful to us so we want to encourage our users to be open and honest.
 - Wherever possible, we want to avoid including our own biases in questions and conversations as part of user research.
 - Always be mindful of the participants right to privacy.
-- Once the interviews are all conducted you will synthesise the feedback in your project groups during the [Definition workshop](https://docs.google.com/presentation/d/15c3DstgW4W-cFAjTV3LRNuvS9D7Ny5_UMOMYqW-Nvj0/edit).
+- Once the interviews are all conducted you will synthesise the feedback in your project groups during the [Analysis workshop](https://fac-slides.netlify.app/slides/analysis-talk/#0).
 
 ## Usability Testing
 
@@ -30,20 +30,20 @@ There are two kinds of user feedback sessions in the design sprint: User Researc
 During the In-House project design sprint (week 7) you will be conducting both
 user research and usability testing.
 
-The Tech for Better Product Owners will conduct their own user research, but you will be conducting a usability testing session with their user group
+The Tech for Better Product Owners will conduct their own user research, but you will be conducting a usability testing session with their user group.
 
 - Check the design week schedules for exact timings:
 
-  [In-House Project Schedule ](../course/syllabus/projects/in-house-design/schedule/)
+  [In-House Project Schedule ](https://learn.foundersandcoders.com/course/syllabus/projects/in-house-design/schedule/)
 
-  [Tech for Better Project Schedule](../course/syllabus/projects/tfb-design/schedule/)
+  [Tech for Better Project Schedule](https://learn.foundersandcoders.com/course/syllabus/projects/tfb-design/schedule/)
 
-For the In-House project, you will need **2-3** volunteers **per person** to participate:
+For the In-House project, you will need **1-2** volunteers **per person** to participate:
 
-- User research (2 volunteers each, 8 per team)
+- User research (1-2 volunteers each, 6 per team)
 - Usability testing (1-2 volunteers each, 6 per team)
 
-- Each research session will last 2 hours whereby each interview will take around **20-30 minutes** to conduct.
+- Each research session will last 90 minutes, whereby each interview will take around **20-30 minutes** to conduct.
 - They will be **2-1 interviews** over zoom (2 developers interview one participant) , or face to face wherever possible.
 - You will conduct the research in **pairs**, where one person will be taking the **lead** and asking questions, whereas the other person will be taking **notes** on the volunteers answers.
 - Please swap roles between interviews so that everyone gets a chance to ask questions.
