@@ -47,12 +47,12 @@ schedule:
       name: Presentations
       type: presentation
     - start: 16:45
-      end: 17:35
+      end: 16:55
+      name: Break
+    - start: 16:55
+      end: 17:45
       name: Cohort SGC
       url: /course/handbook/retrospectives/#cohort-retrospective
-    - start: 16:50
-      end: 17:00
-      name: Break
   friday:
     - name: Learn Next.js
       url: https://nextjs.org/learn/basics/create-nextjs-app
