@@ -79,13 +79,13 @@ schedule:
       end: 14:15
       url: https://fac-slides.netlify.app/slides/ut-synthesis/#0
       type: presentation
-    - name: Usability testing preparation
-      start: 14:15
-      end: 14:30
     - name: Usability testing
-      start: 14:30
-      end: 16:00
+      start: 14:15
+      end: 15:45
       url: https://fac-slides.netlify.app/slides/usability-testing/#0
+    - name: Break
+      start: 15:45
+      end: 16:00
     - name: Synthesise feedback
       start: 16:00
       end: 17:30
