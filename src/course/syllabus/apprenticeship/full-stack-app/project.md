@@ -19,7 +19,7 @@ Remember that Next doesn't work that differently to the Express apps you've buil
 
 - "Add to basket" button on product pages
 - Basket page showing all saved items
-  - Basket contents persisted for future visits
+- Basket contents persisted for future visits (local storage)
 - Filter products by category
 - Sort products by price
 - End-to-end tests
@@ -78,13 +78,7 @@ An empty config will make Prettier use the default rules. If you want to [custom
 }
 ```
 
-### Deployment
-
-Next apps are Node servers just like Express apps. The only difference is they must be "built" before deploying: this means running `npm run build` to generate the final app before running `npm run start` to start the server.
-
-You can deploy Next apps to Heroku without any extra work, since Heroku [automatically runs `npm run build` scripts](https://devcenter.heroku.com/articles/nodejs-support#customizing-the-build-process).
-
-If you want to deploy to a platform that supports persisting your database across deploys you can try [Fly.io](https://fly.io/docs/languages-and-frameworks/nextjs/). You'll need to add a [Volume](https://fly.io/docs/reference/volumes/) to persist data.
+## Stretch setup
 
 ### Testing
 
