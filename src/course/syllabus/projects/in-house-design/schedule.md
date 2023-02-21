@@ -31,7 +31,7 @@ schedule:
       start: 16:00
       end: 16:15
       type: presentation
-      url: https://fac-slides.netlify.app/slides/analysis/#0
+      url: https://fac-slides.netlify.app/slides/analysis-talk/#0
     - name: Analysis workshop
       start: 16:15
       end: 17:45
