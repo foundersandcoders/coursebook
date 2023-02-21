@@ -19,9 +19,13 @@ schedule:
   tuesday:
   wednesday:
   thursday:
-    - name: Design week intro
+    - name: Cohort SGC
       start: 15:30
-      end: 16:00
+      end: 16:20
+      url: /course/handbook/retrospectives/#cohort-retrospective
+    - name: Design week intro
+      start: 16:20
+      end: 16:50
       url: https://fac-slides.netlify.app/slides/design-sprint/
   friday:
     - name: Consolidation day
