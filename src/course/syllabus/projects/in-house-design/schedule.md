@@ -121,13 +121,8 @@ schedule:
       end: 16:45
       url: /course/handbook/project-docs/sprint-planning
     - start: 16:45
-      end: 17:15
-      name: Team SGC
-      url: /course/handbook/retrospectives/#team-retrospectives
-    - start: 17:15
       end: 17:45
-      name: Cohort SGC
-      url: /course/handbook/retrospectives/#cohort-retrospective
+      name: Feedback Training
   friday:
     - name: Project documentation
       start: 9:50
