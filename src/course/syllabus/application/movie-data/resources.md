@@ -4,6 +4,7 @@
 - [freeCodeCamp: JavaScript Objects](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/build-javascript-objects)
 - [MDN: Object.values()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Object/values)
 - [MDN: Object.keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Object/keys)
+- [W3: Document createElement()](https://www.w3schools.com/jsref/met_document_createelement.asp)
 
 ## Code Quality
 
