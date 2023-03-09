@@ -59,13 +59,13 @@ schedule:
       start: 14:00
       end: 14:45
     - start: 14:45
-      end: 15:15
-      name: Team SGC
-      url: /course/handbook/retrospectives/#team-retrospectives
-    - start: 15:15
-      end: 16:15
+      end: 15:45
       name: Presentations
       type: presentation
+    - start: 15:45
+      end: 16:15
+      name: Team SGC
+      url: /course/handbook/retrospectives/#team-retrospectives
     - name: Project documentation
       start: 16:15
       end: 16:45
