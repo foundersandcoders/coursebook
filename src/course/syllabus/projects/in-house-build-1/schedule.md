@@ -55,28 +55,10 @@ schedule:
       start: 11:00
       end: 12:00
       url: /course/handbook/project-docs/sprint-planning
-    - name: Speaker
-      start: 14:00
-      end: 14:45
-    - start: 14:45
-      end: 15:45
-      name: Presentations
-      type: presentation
-    - start: 15:45
-      end: 16:15
-      name: Team SGC
-      url: /course/handbook/retrospectives/#team-retrospectives
     - name: Project documentation
-      start: 16:15
-      end: 16:45
+      start: 15:30
+      end: 16:00
       url: /course/handbook/project-documentation/
-    - start: 16:45
-      end: 16:55
-      name: Break
-    - start: 16:55
-      end: 17:45
-      name: Cohort SGC
-      url: /course/handbook/retrospectives/#cohort-retrospective
   friday:
     - name: Respond to issues / Build
       start: 9:50

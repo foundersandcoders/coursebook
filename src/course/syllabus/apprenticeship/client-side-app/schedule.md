@@ -19,40 +19,10 @@ schedule:
     - start: 9:45
       end: 10:00
       name: Check-in
-    - start: 10:00
-      end: 10:45
-      name: Speaker
-    - start: 10:45
-      end: 11:30
-      name: Live code review
-      url: /course/handbook/code-review/
-    - start: 11:30
-      end: 13:00
-      name: Respond to issues
-      type: project
-    - start: 14:00
-      end: 14:45
-      name: Presentation prep
-      url: /course/handbook/project-presentations/
-    - start: 14:45
-      end: 15:15
-      name: Team SGC
-      url: /course/handbook/retrospectives/#team-retrospectives
-    - start: 15:15
-      end: 15:45
+    - start: 15:30
+      end: 16:00
       name: Full-stack intro
       url: https://fac-slides.netlify.app/slides/full-stack-app/
-    - start: 15:45
-      end: 16:45
-      name: Presentations
-      type: presentation
-    - start: 16:45
-      end: 16:55
-      name: Break
-    - start: 16:55
-      end: 17:45
-      name: Cohort SGC
-      url: /course/handbook/retrospectives/#cohort-retrospective
   friday:
     - name: Learn Next.js
       url: https://nextjs.org/learn/basics/create-nextjs-app
