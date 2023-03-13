@@ -48,7 +48,7 @@ schedule:
       type: project
   thursday:
     - name: Update READMEs
-      start: 10:10
+      start: 10:00
       end: 10:15
     - name: Sprint Review
       start: 10:15

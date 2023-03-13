@@ -53,7 +53,7 @@ schedule:
       type: project
     - name: Sprint review and planning
       start: 11:00
-      end: 12:00
+      end: 12:15
       url: /course/handbook/project-docs/sprint-planning
     - name: Project documentation
       start: 15:30
