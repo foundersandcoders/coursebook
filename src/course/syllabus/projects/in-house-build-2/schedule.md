@@ -62,6 +62,9 @@ schedule:
       start: 15:30
       end: 16:00
       url: /course/handbook/project-documentation/
+    - name: Feedback Session
+      start: 16:00
+      end: 16:50
   friday:
     - name: Consolidation day
       start: 9:50

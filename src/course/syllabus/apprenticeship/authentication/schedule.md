@@ -14,6 +14,9 @@ schedule:
   tuesday:
   wednesday:
   thursday:
+    - name: Feedback Training
+      start: 15:30
+      end: 16:50
   friday:
     - name: Consolidation day
       start: 9:50
