@@ -87,8 +87,8 @@ schedule:
       end: 16:00
       name: Presentations
       type: presentation
-    - start: 16:10
-      end: 17:00
+    - start: 16:00
+      end: 16:50
       name: Cohort SGC
       url: /course/handbook/retrospectives/#cohort-retrospective
     - start: 17:00
