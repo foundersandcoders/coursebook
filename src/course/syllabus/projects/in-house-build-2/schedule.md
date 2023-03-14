@@ -55,10 +55,6 @@ schedule:
       end: 11:45
       url: /course/handbook/project-docs/sprint-planning
     - start: 11:45
-      end: 12:15
-      name: Portfolio building
-      url: /course/handbook/portfolio
-    - start: 12:15
       end: 13:00
       name: Presentation prep
       url: /course/handbook/project-presentations/
