@@ -57,16 +57,19 @@ schedule:
       start: 11:30
       end: 13:00
       url: /course/handbook/project-docs/product-handover
-    - name: Product handover
-      start: 14:00
-      end: 14:45
-      url: /course/handbook/project-docs/product-handover
     - name: Presentation prep
-      start: 14:45
-      end: 15:15
+      start: 14:00
+      end: 15:00
       url: /course/handbook/project-docs/tfb-presentations
+    - name: Product handover
+      start: 15:00
+      end: 15:45
+      url: /course/handbook/project-docs/product-handover
     - name: Presentation practice
-      start: 15:15
+      start: 15:45
+      end: 16:45
+    - name: Break
+      start: 16:45
       end: 17:00
     - name: TFB Showcase
       start: 17:00
