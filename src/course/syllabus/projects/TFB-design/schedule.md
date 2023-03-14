@@ -37,15 +37,11 @@ schedule:
       start: 14:00
       end: 16:00
       url: https://fac-slides.netlify.app/slides/usability-testing/#0
-    - name: Synthesise feedback
+    - name: Testing Analysis
       start: 16:00
-      end: 17:00
-      type: project
-      url: https://fac-slides.netlify.app/slides/ut-synthesis/#0
-    - name: Wireframing
-      start: 17:00
       end: 17:45
       type: project
+      url: https://fac-slides.netlify.app/slides/ut-synthesis/#0
   wednesday:
     - name: Web Science
       start: 10:00
