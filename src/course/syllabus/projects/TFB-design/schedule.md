@@ -95,16 +95,12 @@ schedule:
       end: 17:45
       name: Speaker
   friday:
-    - start: 9:50
-      end: 10:30
-      name: Portfolio building
-      url: /course/handbook/portfolio
     - name: Project documentation
-      start: 10:30
-      end: 11:00
+      start: 9:50
+      end: 10:30
       url: /course/handbook/project-documentation/
-    - name: Project set-up
-      start: 11:00
+    - name: Build
+      start: 10:30
       end: 13:00
       type: project
     - start: 13:00
