@@ -37,7 +37,7 @@ schedule:
       start: 14:00
       end: 16:00
       url: https://fac-slides.netlify.app/slides/usability-testing/#0
-    - name: Testing Analysis
+    - name: Usability Testing Analysis
       start: 16:00
       end: 17:45
       type: project
