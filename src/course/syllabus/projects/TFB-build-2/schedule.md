@@ -47,7 +47,7 @@ schedule:
       end: 17:45
       type: presentation
   thursday:
-    - name: Weekly feedback
+    - name: Feedback Survey
       start: 10:00
       end: 10:15
     - name: Super cohort SGC
