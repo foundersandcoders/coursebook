@@ -131,6 +131,7 @@ schedule:
     - name: Build
       start: 10:30
       end: 13:00
+      type: project
     - start: 13:00
       end: 14:00
       name: Lunch

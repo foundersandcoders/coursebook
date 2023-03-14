@@ -38,27 +38,31 @@ schedule:
       type: project
     - name: Build
       start: 14:00
-      end: 15:45
+      end: 16:00
       type: project
+    - name: Update READMEs
+      start: 16:00
+      end: 16:15
     - name: Team code review
-      start: 15:45
-      end: 16:45
-      url: /course/handbook/code-review/
-    - name: Sprint review and planning
-      start: 16:45
+      start: 16:15
       end: 17:45
-      url: /course/handbook/project-docs/sprint-planning
+      url: /course/handbook/code-review/
   thursday:
-    - name: Respond to issues
+    - name: Review issues
       start: 10:00
+      end: 11:00
+      type: project
+    - name: Sprint review and planning
+      start: 11:00
       end: 12:15
       type: project
+      url: /course/handbook/project-docs/sprint-planning
     - name: Project documentation
       start: 15:30
       end: 16:00
       url: /course/handbook/project-documentation/
   friday:
-    - name: Respond to issues / Build
+    - name: Build
       start: 9:50
       end: 13:00
       type: project

@@ -12,18 +12,8 @@ schedule:
       type: presentation
     - name: Definition workshop
       start: 10:20
-      end: 12:20
-      type: workshop
-    - name: Usability testing presentation
-      start: 12:20
-      end: 12:40
-      type: presentation
-      url: https://fac-slides.netlify.app/slides/usability-testing/#0
-    - name: Synthesise feedback presentation
-      start: 12:40
       end: 13:00
-      type: presentation
-      url: https://fac-slides.netlify.app/slides/ut-synthesis/#0
+      type: workshop
     - start: 13:00
       end: 14:00
       name: Lunch
@@ -46,15 +36,12 @@ schedule:
     - name: Usability testing
       start: 14:00
       end: 16:00
-    - name: Synthesise feedback
+      url: https://fac-slides.netlify.app/slides/usability-testing/#0
+    - name: Usability Testing Analysis
       start: 16:00
-      end: 17:00
-      type: project
-      url: https://fac-slides.netlify.app/slides/ut-synthesis/#0
-    - name: Wireframing
-      start: 17:00
       end: 17:45
       type: project
+      url: https://fac-slides.netlify.app/slides/ut-synthesis/#0
   wednesday:
     - name: Web Science
       start: 10:00
@@ -108,16 +95,12 @@ schedule:
       end: 17:45
       name: Speaker
   friday:
-    - start: 9:50
-      end: 10:30
-      name: Portfolio building
-      url: /course/handbook/portfolio
     - name: Project documentation
-      start: 10:30
-      end: 11:00
+      start: 9:50
+      end: 10:30
       url: /course/handbook/project-documentation/
-    - name: Project set-up
-      start: 11:00
+    - name: Build
+      start: 10:30
       end: 13:00
       type: project
     - start: 13:00

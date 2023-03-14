@@ -48,17 +48,13 @@ schedule:
       type: project
   thursday:
     - name: Update READMEs
-      start: 10:10
+      start: 10:00
       end: 10:15
     - name: Sprint Review
       start: 10:15
       end: 11:45
       url: /course/handbook/project-docs/sprint-planning
     - start: 11:45
-      end: 12:15
-      name: Portfolio building
-      url: /course/handbook/portfolio
-    - start: 12:15
       end: 13:00
       name: Presentation prep
       url: /course/handbook/project-presentations/
