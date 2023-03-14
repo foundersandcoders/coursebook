@@ -19,6 +19,10 @@ schedule:
   tuesday:
   wednesday:
   thursday:
+    - name: Design Week Intro
+      start: 15:30
+      end: 16:00
+      url: https://fac-slides.netlify.app/slides/design-sprint/
   friday:
     - name: Consolidation day
       start: 9:50
