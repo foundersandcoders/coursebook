@@ -122,7 +122,7 @@ schedule:
       url: /course/handbook/project-docs/sprint-planning
     - start: 16:45
       end: 17:45
-      name: Feedback Training
+      name: Feedback Session
   friday:
     - name: Project documentation
       start: 9:50
