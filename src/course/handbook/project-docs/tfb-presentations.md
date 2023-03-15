@@ -58,4 +58,4 @@ Share the speaking time evenly throughout your team. Each person, including the 
 
 The structure here is an outline, and you can adapt it to make the presentation your own.
 
-We recommend using [Canva](canva.com) for your slide deck ✨
+We recommend using [Canva](https://www.canva.com) for your slide deck ✨
