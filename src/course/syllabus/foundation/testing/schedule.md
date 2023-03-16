@@ -3,9 +3,11 @@ Learn how to make sure your code works correctly by creating automated tests.
 ## Week 7
 
 ### In advance
+
 - [Intro to testing](https://fac-slides.netlify.app/slides/testing)
 
 ### Workshops
+
 - [Build a testing library](/workshops/learn-testing/)
 - [Unit testing workshop](/workshops/learn-unit-testing/)
 - [Integration testing workshop](/workshops/learn-integration-testing/)

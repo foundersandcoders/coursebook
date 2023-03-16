@@ -47,21 +47,21 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/syllabus/application/website/project">Website</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/application/game/project">Game</${Link}></li>
         </${Section}>
-        <${Section} title="Pre-apprenticeship" url=${url} subpath="course/syllabus/pre-apprenticeship">
-          <li><${Link} url=${url} href="/course/syllabus/pre-apprenticeship/pre-course/schedule/">Pre-course</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/pre-apprenticeship/markup/schedule/">Markup</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/pre-apprenticeship/http/schedule/">HTTP</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/pre-apprenticeship/testing/schedule/">Testing</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/pre-apprenticeship/projects/schedule/">Projects</${Link}></li>
+        <${Section} title="Foundation" url=${url} subpath="course/syllabus/foundation">
+          <li><${Link} url=${url} href="/course/syllabus/foundation/pre-course/schedule/">Pre-course</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/foundation/markup/schedule/">Markup</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/foundation/http/schedule/">HTTP</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/foundation/testing/schedule/">Testing</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/foundation/projects/schedule/">Projects</${Link}></li>
         </${Section}>
-        <${Section} title="Apprenticeship" url=${url} subpath="course/syllabus/apprenticeship">
-          <li value="0"><${Link} url=${url} href="/course/syllabus/apprenticeship/introduction/schedule">Introduction</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/apprenticeship/server/schedule/">Server</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/apprenticeship/database/schedule/">Database</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/apprenticeship/authentication/schedule/">Authentication</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/apprenticeship/server-side-app/schedule/">Server-side app</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/apprenticeship/client-side-app/schedule/">Client-side app</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/apprenticeship/full-stack-app/schedule/">Full-stack app</${Link}></li>
+        <${Section} title="Developer" url=${url} subpath="course/syllabus/developer">
+          <li value="0"><${Link} url=${url} href="/course/syllabus/developer/introduction/schedule">Introduction</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/server/schedule/">Server</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/database/schedule/">Database</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/authentication/schedule/">Authentication</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/server-side-app/schedule/">Server-side app</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/client-side-app/schedule/">Client-side app</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/full-stack-app/schedule/">Full-stack app</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/projects/in-house-design/schedule">Design Sprint</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/projects/in-house-build-1/schedule">Build Sprint 1</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/projects/in-house-build-2/schedule">Build Sprint 2</${Link}></li>
