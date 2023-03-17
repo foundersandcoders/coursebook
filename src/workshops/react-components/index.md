@@ -40,7 +40,7 @@ Unfortunately we can't use HTML inside JavaScript files. HTML can't create eleme
 const title = <h1 className="title">Hello world!</h1>;
 ```
 
-This variable is a _React element_. It's created using a special syntax called [JSX](https://reactjs.org/docs/introducing-jsx.html) that lets us write HTML-like elements within our JavaScript.
+This variable is a _React element_. It's created using a special syntax called [JSX](https://react.dev/learn/writing-markup-with-jsx) that lets us write HTML-like elements within our JavaScript.
 
 {% box %}
 
@@ -69,7 +69,7 @@ const title = {
 };
 ```
 
-React builds up one big tree structure of all these element objects that represents your entire app. It then uses this tree to create the actual DOM elements for you. (This is called the [virtual DOM](https://reactjs.org/docs/reconciliation.html), but you don't need to worry about that right now)
+React builds up one big tree structure of all these element objects that represents your entire app. It then uses this tree to create the actual DOM elements for you. (This is called the virtual DOM, but you don't need to worry about that right now)
 
 It can be helpful to remember that the HTML-like syntax is really normal function calls that return objects.
 
@@ -158,7 +158,7 @@ function Thing() {
 }
 ```
 
-since the `Thing` function is trying to return _two_ objects. The solution to this is to wrap sibling elements in a parent `<div>` (or use a [Fragment](https://reactjs.org/docs/fragments.html)).
+since the `Thing` function is trying to return _two_ objects. The solution to this is to wrap sibling elements in a parent `<div>` (or use a [Fragment](https://react.dev/reference/react/Fragment#returning-multiple-elements)).
 
 {% endbox %}
 
