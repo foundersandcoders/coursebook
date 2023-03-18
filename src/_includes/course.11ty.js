@@ -40,12 +40,12 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/handbook/mentor-roles/">What to expect of mentors</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/tech-for-better/">Tech for Better</${Link}></li>
         </${Section}>
-        <${Section} title="Application" url=${url} subpath="course/syllabus/application">
-          <li><${Link} url=${url} href="/course/syllabus/application/hobby-page/project">Hobby page</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/application/project-gallery/project">Project gallery</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/application/movie-data/project">Movie data</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/application/website/project">Website</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/application/game/project">Game</${Link}></li>
+        <${Section} title="Portfolio" url=${url} subpath="course/syllabus/portfolio">
+          <li><${Link} url=${url} href="/course/syllabus/portfolio/hobby-page/project">Hobby page</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/portfolio/project-gallery/project">Project gallery</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/portfolio/movie-data/project">Movie data</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/portfolio/website/project">Website</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/portfolio/game/project">Game</${Link}></li>
         </${Section}>
         <${Section} title="Foundation" url=${url} subpath="course/syllabus/foundation">
           <li><${Link} url=${url} href="/course/syllabus/foundation/pre-course/schedule/">Pre-course</${Link}></li>
