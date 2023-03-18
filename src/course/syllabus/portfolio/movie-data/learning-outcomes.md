@@ -1,0 +1,3 @@
+- [ ] Understand data types in JavaScript, such as numbers, strings, arrays and **objects**
+- [ ] Make use of JavaScript methods and properties
+- [ ] Make use of conditional statements in JavaScript

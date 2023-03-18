@@ -1,0 +1,4 @@
+- [ ] Understand the purpose of HTML, CSS and JavaScript
+- [ ] Understand DOM Manipulation and what it can be used for
+- [ ] Write documentation of completed projects in the form of a README
+- [ ] Upload code to GitHub and deploy a website to GitHub Pages

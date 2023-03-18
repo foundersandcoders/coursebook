@@ -1,0 +1,4 @@
+- [ ] Follow a logical approach to solving problems (e.g. writing pseudocode)
+- [ ] Work through clear steps to resolve errors and debug code
+- [ ] Write documentation of completed projects in the form of a README
+- [ ] Refactor code and justify choices when refactoring
