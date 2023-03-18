@@ -1,4 +1,0 @@
-- [ ] Implement CSS Flexbox to create a responsive 1 Directional Layout
-- [ ] Implement responses to user input in JavaScript using event listeners
-- [ ] Understand the purpose and benefits of JavaScript functions
-- [ ] Write JavaScript functions, using parameters to pass in specific data
