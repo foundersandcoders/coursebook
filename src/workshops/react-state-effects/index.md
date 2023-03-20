@@ -243,7 +243,7 @@ We add an event listener to the `window`, and pass an empty array to `useEffect(
 
 #### Updates based on previous state
 
-It's important to note that we're passing [a function](https://reactjs.org/docs/hooks-reference.html#functional-updates) instead of a number to `setCount`. React will call this function with the old state value, and whatever you return will be set as the new state.
+It's important to note that we're passing [a function](https://react.dev/reference/react/useState#updating-state-based-on-the-previous-state) instead of a number to `setCount`. React will call this function with the old state value, and whatever you return will be set as the new state.
 
 This will ensure we always have the up-to-date current value of `count` when we update it. If we just referenced `count` directly (`setCount(count + 1)`) the value would always be `0`, since that's what it was when we created the event listener. So the count would update to `1`, then never change.
 
