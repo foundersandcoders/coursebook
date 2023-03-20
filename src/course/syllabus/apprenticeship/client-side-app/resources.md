@@ -1,21 +1,15 @@
 ## Articles
 
-### React docs
+There's a lot more to React than we could cover in a week. It's worth reading through the [official docs](https://react.dev/) to reinforce your learning and learn more interesting new features. The links below are the most important concepts you should cover.
 
-Disclaimer: the offical docs haven't been re-written with the "new" (3 year old) hooks API, so you may see older syntax using classes in their example code. We recommend using the new Beta docs, which are nearly complete:
+### React features
 
-https://beta.reactjs.org/learn
+- [Reusing Logic with Custom Hooks](https://react.dev/learn/reusing-logic-with-custom-hooks)
+- [Passing Data Deeply with Context](https://react.dev/learn/passing-data-deeply-with-context)
 
-There's a lot more to React than we could cover in a week. Definitely have a read through and see what else you can do.
+### React philosophy
 
-The docs have a few good articles about general React philosophy:
-
-- [Lifting State Up](https://beta.reactjs.org/learn/sharing-state-between-components)
-- [Composition vs Inheritance](https://reactjs.org/docs/composition-vs-inheritance.html)
-- [Thinking in React](https://beta.reactjs.org/learn/thinking-in-react)
-
-## Videos
-
-- [The Beginner's Guide to React](https://egghead.io/courses/the-beginner-s-guide-to-react) is what a lot of our Intro to the React API workshop was based on. It's great to quickly jump through to brush up on concepts.
-- [React Class Component Patterns](https://courses.reacttraining.com/p/advanced-react-free) is a great short series of videos introducing some more advanced React patterns. It's a little older now (and uses the old class syntax) but the concepts are still very important.
-- [Advanced Component Patterns](https://egghead.io/courses/advanced-react-component-patterns) goes into more depth about advanced React use.
+- [Keeping Components Pure](https://react.dev/learn/keeping-components-pure)
+- [Sharing State Between Components](https://react.dev/learn/sharing-state-between-components)
+- [Thinking in React](https://react.dev/learn/thinking-in-react)
+- [You Might Not Need an Effect](https://react.dev/learn/you-might-not-need-an-effect)

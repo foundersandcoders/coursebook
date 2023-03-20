@@ -156,7 +156,7 @@ function App() {
 
 {% box %}
 
-An input with both the `value` and `onChange` props set like this is called a ["controlled component"](https://reactjs.org/docs/forms.html#controlled-components). Our JS state is the source of truth, not the DOM element. Each time the user changes the input on the page we update our state, then that state updates the value of the input.
+An input with both the `value` and `onChange` props set like this is called a ["controlled component"](https://react.dev/reference/react-dom/components/input#controlling-an-input-with-a-state-variable). Our JS state is the source of truth, not the DOM element. Each time the user changes the input on the page we update our state, then that state updates the value of the input.
 
 {% endbox %}
 

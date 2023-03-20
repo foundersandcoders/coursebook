@@ -164,7 +164,7 @@ Unfortunately we can't use HTML inside JavaScript files. HTML is a static markup
 const title = <h1 className="title">Hello world!</h1>;
 ```
 
-This variable is a _React element_. It's created using a special syntax called [JSX](https://reactjs.org/docs/introducing-jsx.html) that lets us write HTML-like elements within our JavaScript.
+This variable is a _React element_. It's created using a special syntax called [JSX](https://react.dev/learn/writing-markup-with-jsx) that lets us write HTML-like elements within our JavaScript.
 
 {% box %}
 
@@ -261,7 +261,7 @@ function Title() {
 
 Your components don't _have_ to return JSX. A React element can be JSX, or a string, number, boolean, or array of elements. Returning `null`, `undefined`, `false` or `""` will cause your component to render nothing.
 
-Returning an array is especially useful for [rendering lists](https://beta.reactjs.org/learn/rendering-lists) from data:
+Returning an array is especially useful for [rendering lists](https://react.dev/learn/rendering-lists) from data:
 
 ```jsx
 const fruits = ["apple", "orange", "banana"];
@@ -272,7 +272,7 @@ function FruitList() {
 }
 ```
 
-Array items in JSX must have a special unique [`key` prop](https://beta.reactjs.org/learn/rendering-lists#keeping-list-items-in-order-with-key) so React can keep track of the order if the data changes.
+Array items in JSX must have a special unique [`key` prop](https://react.dev/learn/rendering-lists#keeping-list-items-in-order-with-key) so React can keep track of the order if the data changes.
 
 {% box %}
 
@@ -288,7 +288,7 @@ function Thing() {
 }
 ```
 
-since the `Thing` function is trying to return _two_ objects. The solution to this is to wrap sibling elements in a parent `<div>` (or use a [Fragment](https://reactjs.org/docs/fragments.html)).
+since the `Thing` function is trying to return _two_ objects. The solution to this is to wrap sibling elements in a parent `<div>` (or use a [Fragment](https://react.dev/reference/react/Fragment#returning-multiple-elements)).
 
 {% endbox %}
 
@@ -576,7 +576,7 @@ If we call `setCount(1)` React will re-run our `Counter` component, but this tim
 
 ### Lifting state up
 
-React components encapsulate their state—it lives inside that function and can't be accessed elsewhere. Sometimes however you need several components to read the same value. In these cases you should ["lift the state up"](https://beta.reactjs.org/learn/sharing-state-between-components) to a shared parent component:
+React components encapsulate their state—it lives inside that function and can't be accessed elsewhere. Sometimes however you need several components to read the same value. In these cases you should ["lift the state up"](https://react.dev/learn/sharing-state-between-components) to a shared parent component:
 
 ```jsx
 function Counter() {
@@ -609,7 +609,7 @@ Here `FancyButton` and `FancyText` both need access to the state, so we move it 
 
 ### Updates based on previous state
 
-Sometimes your update depends on the previous state value. For example updating the count inside an interval. In these cases you can [pass a _function_](https://beta.reactjs.org/apis/react/useState#updating-state-based-on-the-previous-state) to the state updater. React will call this function with the previous state, and whatever you return will be set as the new state.
+Sometimes your update depends on the previous state value. For example updating the count inside an interval. In these cases you can [pass a _function_](https://react.dev/apis/react/useState#updating-state-based-on-the-previous-state) to the state updater. React will call this function with the previous state, and whatever you return will be set as the new state.
 
 ```jsx
 // ...
@@ -688,7 +688,7 @@ These are known as "side effects", and they can't be represented with JSX. This 
 
 {% box %}
 
-Effects can be a little complicated, and devs [often use them unnecessarily](https://beta.reactjs.org/learn/you-might-not-need-an-effect). Try to prefer solving problems with state and event listeners, and save the Effects for things that cannot be done with JSX.
+Effects can be a little complicated, and devs [often use them unnecessarily](https://react.dev/learn/you-might-not-need-an-effect). Try to prefer solving problems with state and event listeners, and save the Effects for things that cannot be done with JSX.
 
 {% endbox %}
 
@@ -716,7 +716,7 @@ Calling `setCount` will trigger a re-render, which will cause the Effect to re-r
 
 {% box %}
 
-We can't just put the `document.title` line directly in our component body, because [React components should be "pure"](https://beta.reactjs.org/learn/keeping-components-pure). This means they should just return JSX and have no side-effects as a result of rendering.
+We can't just put the `document.title` line directly in our component body, because [React components should be "pure"](https://react.dev/learn/keeping-components-pure). This means they should just return JSX and have no side-effects as a result of rendering.
 
 {% endbox %}
 
@@ -775,4 +775,4 @@ useEffect(() => {
 // ...
 ```
 
-React helps you remember to do this by [running Effects _twice_ during development](https://beta.reactjs.org/learn/synchronizing-with-effects#how-to-handle-the-effect-firing-twice-in-development) (even if you pass an empty dependency array). This is designed to help you catch places where you forgot to clean up your Effect.
+React helps you remember to do this by [running Effects _twice_ during development](https://react.dev/learn/synchronizing-with-effects#how-to-handle-the-effect-firing-twice-in-development) (even if you pass an empty dependency array). This is designed to help you catch places where you forgot to clean up your Effect.
