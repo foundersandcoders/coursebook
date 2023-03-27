@@ -4,20 +4,17 @@ Your project this week is to build an interactive game-like thing using React.
 
 Now that you're using a framework there is a bit more initial environment setup involved before you can start writing code. Make sure you get this [setup](#setup) done and [deployed](#deployment) to Netlify at the beginning.
 
-## Criteria
+## Acceptance Criteria
 
-- Accept at least 2 kinds of user input
-- Have some form of persistent state and interactivity, e.g.
-  - Countdown timer
-  - Score tracker
-  - Previous guesses
+- [ ] Accept at least 2 kinds of user input
+- [ ] Persistent state and interactivity, e.g. countdown timer, score tracker, previous guesses
 
 ### Stretch criteria
 
-- Save your state to localstorage so you can leave the page and come back later
-- Make it look great
+- [ ] State saved to localstorage so you can leave the page and come back later
+- [ ] Make it look great
 
-## Examples
+### Example projects
 
 "Interactive game-like thing" is a bit vague, so here are some apps built previously:
 

@@ -27,7 +27,13 @@ Before you start writing features you need to create a security plan. This shoul
 
 Since this project is open-ended you'll need to write your own more specific user stories once you know what you want to build.
 
-### Acceptance Criteria
+### Example project ideas
+
+- Founders & Coders book sharing system
+- Food / coffee recommendations around Founders & Coders
+- Founders & Coders events calendar
+
+## Acceptance Criteria
 
 - [ ] Forms for users to sign up and log in
 - [ ] A form for users to submit data only accessible to logged in users
@@ -37,14 +43,8 @@ Since this project is open-ended you'll need to write your own more specific use
 - [ ] A SQLite database
 - [ ] Hidden environment variables (i.e. not on GitHub)
 
-#### Stretch criteria
+### Stretch criteria
 
 - [ ] Tests for all routes
 - [ ] A user page that shows everything posted by a single user
 - [ ] GitHub Actions CI setup to run your tests when you push
-
-## Example project ideas
-
-- Founders & Coders book sharing system
-- Food / coffee recommendations around Founders & Coders
-- Founders & Coders events calendar

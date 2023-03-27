@@ -23,27 +23,27 @@ Before you start writing features you need to design the schema for your data. T
 
 Since this project is open-ended you'll need to write your own more specific user stories once you know what you want to build.
 
-### Acceptance Criteria
+### Example project ideas
+
+- Founders & Coders book sharing system
+- Food / coffee recommendations around Founders & Coders
+- Founders & Coders events calendar
+
+## Acceptance Criteria
 
 - [ ] A form for users to submit data
 - [ ] A page showing all the data
 - [ ] Semantic form elements with correctly associated labels
-- [ ] A SQLite database
+- [ ] A SQLite database, deployed to fly.io as a [persistent volume](#deploying-persistent-volumes-to-fly-io)
 - [ ] A schema describing your database in your README
 - [ ] Tests for server routes and database access
 - [ ] Not process user input as SQL commands
 - [ ] Hidden environment variables (i.e. not on GitHub)
 
-#### Stretch criteria
+### Stretch criteria
 
 - [ ] A way to view filtered/sorted data, instead of just all of it
 - [ ] GitHub Actions CI setup to run your tests when you push
-
-## Example project ideas
-
-- Founders & Coders book sharing system
-- Food / coffee recommendations around Founders & Coders
-- Founders & Coders events calendar
 
 ## Deploying persistent volumes to Fly.io
 

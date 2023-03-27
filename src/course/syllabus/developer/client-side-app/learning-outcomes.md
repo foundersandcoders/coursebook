@@ -7,4 +7,3 @@
 - [ ] Use function components to organise our code
 - [ ] Use component state to manage DOM updates
 - [ ] Manage side effects in our components
-- [ ] Re-write class components with the newer hooks API

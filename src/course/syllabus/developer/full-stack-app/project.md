@@ -15,7 +15,7 @@ Remember that Next doesn't work that differently to the Express apps you've buil
 - Individual product pages, containing quantity/colour/variant pickers
 - Data stored in a SQLite database
 
-## Stretch criteria
+### Stretch criteria
 
 - "Add to basket" button on product pages
 - Basket page showing all saved items
@@ -24,7 +24,7 @@ Remember that Next doesn't work that differently to the Express apps you've buil
 - Sort products by price
 - End-to-end tests
 
-## Project setup
+## Setup
 
 It's important to get your project setup done as early as possible, so your team have a stable base to build on. You should follow this list as a team, before you do any other work on the project.
 
