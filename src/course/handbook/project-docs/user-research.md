@@ -34,9 +34,9 @@ The Tech for Better Product Owners will conduct their own user research, but you
 
 - Check the design week schedules for exact timings:
 
-  [In-House Project Schedule ](https://learn.foundersandcoders.com/course/syllabus/projects/in-house-design/schedule/)
+  [In-House Project Schedule ](/course/syllabus/developer/projects/in-house-design/schedule/)
 
-  [Tech for Better Project Schedule](https://learn.foundersandcoders.com/course/syllabus/projects/tfb-design/schedule/)
+  [Tech for Better Project Schedule](/course/syllabus/developer/projects/tfb-design/schedule/)
 
 For the In-House project, you will need **1-2** volunteers **per person** to participate:
 
