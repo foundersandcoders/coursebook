@@ -62,12 +62,12 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/syllabus/developer/server-side-app/schedule/">Server-side app</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/developer/client-side-app/schedule/">Client-side app</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/developer/full-stack-app/schedule/">Full-stack app</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/projects/in-house-design/schedule">Design Sprint</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/projects/in-house-build-1/schedule">Build Sprint 1</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/projects/in-house-build-2/schedule">Build Sprint 2</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/projects/TFB-design/schedule">TFB Design Sprint</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/projects/TFB-build-1/schedule">TFB Build Sprint 1</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/projects/TFB-build-2/schedule">TFB Build Sprint 2</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/projects/in-house-design/schedule">Design Sprint</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/projects/in-house-build-1/schedule">Build Sprint 1</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/projects/in-house-build-2/schedule">Build Sprint 2</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/projects/TFB-design/schedule">TFB Design Sprint</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/projects/TFB-build-1/schedule">TFB Build Sprint 1</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/projects/TFB-build-2/schedule">TFB Build Sprint 2</${Link}></li>
         </${Section}>
       </${Nav}>
     </aside>

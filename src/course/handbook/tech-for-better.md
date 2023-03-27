@@ -57,7 +57,7 @@ Following your selection, you'll work with a chosen Product Owner to map out the
 
 Together you'll plan the main path through their application and then come up with a set of user stories which describe the functionality of the product.
 
-#### Week 10 - [Design Week](../../syllabus/projects/tfb-design/schedule/)
+#### Week 10 - [Design Week](/course/syllabus/developer/projects/tfb-design/schedule/)
 
 During the first half of TfB Design Week, you'll work alongside your Product Owner to scope and wireframe a prototype. Starting with a [Definition Workshop](https://fac-slides.netlify.app/slides/definition/#0), you'll come up with ideas and sketches of what the product might look like. After you've decided on a direction with your PO, you'll have some time to create a wireframe in [Figma](https://figma.com/).
 
