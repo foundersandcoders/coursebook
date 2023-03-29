@@ -73,6 +73,9 @@ schedule:
       start: 16:15
       end: 16:45
       url: /course/handbook/project-documentation/
+    - name: Break
+      start: 16:45
+      end: 17:00
   friday:
     - name: Build
       start: 9:50
