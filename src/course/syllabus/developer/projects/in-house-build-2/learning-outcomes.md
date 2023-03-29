@@ -2,30 +2,30 @@
 
 ## UX
 
-- Build an intuitive user experience
-- Build an application from a set of user stories
+- [ ] Build an intuitive user experience
+- [ ] Build an application from a set of user stories
 
 ## Agile Workflow
 
-- Experience an agile workflow
-- Understand how agile methodology can provide benefit in the software development cycle
-- Follow a sprint plan
-- Fulfil a role within agile development
-- Appreciate the responsibilities of other roles and support their fulfilment
-- Have an understanding of agile principles
-- Know how to conduct and participate in a team standup
+- [ ] Experience an agile workflow
+- [ ] Understand how agile methodology can provide benefit in the software development cycle
+- [ ] Follow a sprint plan
+- [ ] Fulfil a role within agile development
+- [ ] Appreciate the responsibilities of other roles and support their fulfilment
+- [ ] Have an understanding of agile principles
+- [ ] Know how to conduct and participate in a team standup
 
 ## Sprints
 
-- Assign yourself to and fulfil user stories
-- Work from a sprint backlog
-- Manage a backlog of user stories
-- Know techniques for recording the actual complexity of a user story
-- Understand and calculate velocity for a sprint
-- Know how to participate in a sprint review
-- Know how to participate in a sprint retrospective
+- [ ] Assign yourself to and fulfil user stories
+- [ ] Work from a sprint backlog
+- [ ] Manage a backlog of user stories
+- [ ] Know techniques for recording the actual complexity of a user story
+- [ ] Understand and calculate velocity for a sprint
+- [ ] Know how to participate in a sprint review
+- [ ] Know how to participate in a sprint retrospective
 
 ## Documentation
 
-- Know how to write project documentation
-- Be aware of what to include in a product presentation
+- [ ] Know how to write project documentation
+- [ ] Be aware of what to include in a product presentation
