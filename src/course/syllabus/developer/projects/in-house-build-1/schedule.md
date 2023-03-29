@@ -47,18 +47,34 @@ schedule:
       end: 17:45
       url: /course/handbook/code-review/
   thursday:
-    - name: Review Issues
+    - name: Review issues
       start: 10:00
-      end: 11:00
+      end: 11:45
       type: project
     - name: Sprint review and planning
-      start: 11:00
-      end: 12:15
+      start: 11:45
+      end: 13:00
+      type: project
       url: /course/handbook/project-docs/sprint-planning
+    - name: Presentation prep
+      start: 14:00
+      end: 14:45
+      url: /course/handbook/project-presentations/
+    - name: Team SGC
+      start: 14:45
+      end: 15:15
+      url: /course/handbook/retrospectives/#team-retrospectives
+    - name: Presentations
+      start: 15:15
+      end: 16:15
+      type: presentation
     - name: Project documentation
-      start: 15:30
-      end: 16:00
+      start: 16:15
+      end: 16:45
       url: /course/handbook/project-documentation/
+    - name: Break
+      start: 16:45
+      end: 17:00
   friday:
     - name: Respond to issues / Build
       start: 9:50
