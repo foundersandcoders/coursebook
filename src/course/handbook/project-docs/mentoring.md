@@ -4,7 +4,7 @@ Towards the end of your cohort, you'll have the opportunity to reflect with the 
 
 ## The exercise
 
-You'll have 90 minutes to reflect and share your thoughts together.
+You'll have 75 minutes to reflect and share your thoughts together.
 
 Spend the first 10 minutes thinking individually and writing a list of things you found were good qualities, or behaviours which you saw from your mentors.
 
