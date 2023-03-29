@@ -79,21 +79,17 @@ schedule:
       end: 14:30
       name: Presentation prep
       url: /course/handbook/project-presentations/
-    - start: 14:30
+    - name: Team SGC
+      start: 14:30
       end: 15:00
-      name: Team SGC
       url: /course/handbook/retrospectives/#team-retrospectives
-    - start: 15:00
+    - name: Presentations
+      start: 15:00
       end: 16:00
-      name: Presentations
       type: presentation
-    - start: 16:00
+    - name: Feedback Session
+      start: 16:00
       end: 16:50
-      name: Cohort SGC
-      url: /course/handbook/retrospectives/#cohort-retrospective
-    - start: 17:00
-      end: 17:45
-      name: Speaker
   friday:
     - name: Project documentation
       start: 9:50
