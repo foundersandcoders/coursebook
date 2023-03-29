@@ -3,7 +3,7 @@
 ### Servers
 
 - [ ] Install libraries from npm
-- [ ] Understand when install a Dependency as a Dev Dependency
+- [ ] Understand when to install a Dependency as a Dev Dependency
 - [ ] Create a web server that responds to http requests
 - [ ] Conditionally set ports for our server based on the runtime environment
 - [ ] Prevent sensitive data from being pushed to GitHub

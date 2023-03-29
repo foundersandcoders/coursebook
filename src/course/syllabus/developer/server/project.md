@@ -29,13 +29,13 @@ Fly is a "Platform-as-a-service" provider (PaaS). PaaS is a type of cloud comput
 
 - **As an impulsive person, I want to:** delete my posts so no one can see them anymore
 
-### Acceptance Criteria
+## Acceptance Criteria
 
-- Deployed to Fly.io
-- A page with a form to submit posts, and a page showing all posts
-- No `.html` files (all HTML responses should be created dynamically within Node)
-- No client-side JavaScript (all logic should happen on the server)
-- All static assets served correctly (CSS, favicon etc)
-- Tests for each server route
-- A responsive, mobile-first design
-- Ensure your app is accessible to as many different users as possible
+- [ ] Deployed to Fly.io
+- [ ] A page with a form to submit posts, and a page showing all posts
+- [ ] No `.html` files (all HTML responses should be created dynamically within Node)
+- [ ] No client-side JavaScript (all logic should happen on the server)
+- [ ] All static assets served correctly (CSS, favicon etc)
+- [ ] Tests for each server route
+- [ ] A responsive, mobile-first design
+- [ ] Ensure your app is accessible to as many different users as possible

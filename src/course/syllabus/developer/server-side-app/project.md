@@ -21,13 +21,13 @@ Allow users to log in using 3rd party accounts like Google or GitHub.
 Show temporary messages after successful/failed form submissions to help the user understand what's happening. Note that this is a little complex to manage on your own: you may want to use a session middleware library from npm.  
  [View flash message example](https://express-flash-message-example.glitch.me) | [View code](https://glitch.com/edit/#!/express-flash-message-example)
 
-## Technical criteria
+## Acceptance criteria
 
-- Express server
-- Well-organised modular codebase
-- SQLite database
-- Hosted on Fly.io
-- One of the spike topics
-- Validate user-submitted data on the server
-- Handle errors and inform the user
-- Styled appropriately
+- [ ] Express server
+- [ ] SQLite database
+- [ ] Hosted on Fly.io
+- [ ] Include one of the spike topics
+- [ ] Validate user-submitted data on the server
+- [ ] Handle errors and inform the user
+- [ ] Well-organised modular codebase
+- [ ] Styled appropriately

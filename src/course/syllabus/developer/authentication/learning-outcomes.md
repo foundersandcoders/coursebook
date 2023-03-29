@@ -44,4 +44,4 @@
 
 ### Viewing browser cookies
 
-- [ ] **Uuse the Application tab in Chrome dev tools to view cookies**
+- [ ] **Use the Application tab in Chrome dev tools to view cookies**
