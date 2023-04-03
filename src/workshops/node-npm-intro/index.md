@@ -126,11 +126,13 @@ Node projects usually have a configuration file called `package.json`. This is a
 
 This command will "initialise" your project by asking you some questions then creating the `package.json`.
 
-You can pass the `-y` flag to skip all the questions and create the `package.json` with the defaults. You can edit the JSON file by hand later if you need to. You also don't _have_ to use this command—you can manually create an empty `package.json` if you'd prefer:
+You can pass the `-y` flag to skip all the questions and create the `package.json` with the defaults. You can edit the JSON file by hand later if you need to.
+
+<!-- You also don't _have_ to use this command—you can manually create an empty `package.json` if you'd prefer:
 
 ```shell
 echo "{}" > package.json
-```
+``` -->
 
 ### `npm install`
 

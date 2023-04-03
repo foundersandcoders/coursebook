@@ -23,7 +23,7 @@ Let's start a new Node project and set it up to use a database. First create a n
 ```shell
 mkdir learn-database
 cd learn-database
-echo "{}" > package.json
+npm init -y
 ```
 
 Then install `better-sqlite3` from npm:
