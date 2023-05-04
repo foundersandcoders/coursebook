@@ -45,11 +45,10 @@ This is important as extremism is an ongoing threat to the UK. Anything we can d
 
 ## 2023 Categories of extremism
 
-• Extreme right wing
-• Islamist
-• Mixed, unstable and
-unclear(MUU) subcategories include
-- Incel
+- Extreme right wing
+- Islamist
+- Mixed, unstable and unclear(MUU) subcategories include:
+   - Incel
 
 ## Extremist influences could include, but are not limited to:
 
