@@ -380,7 +380,7 @@ Now that we know how to test our server we can get back to learning a bit more a
 
 We are currently hard-coding the port our server listens on to `3000`. This works fine, but we could make it more flexible. When you deploy this code to a hosting provider like Heroku they will run your code on their computer. This computer may have lots of different programs running that all need to use ports. Ideally the host can tell your server which port to listen to.
 
-This is usually achieve with [environment variables](https://en.wikipedia.org/wiki/Environment_variable). These are like global variables that are set _before_ your program runs. For example we can set a variable named `TEST` in our terminal like this:
+This is usually achieved with [environment variables](https://en.wikipedia.org/wiki/Environment_variable). These are like global variables that are set _before_ your program runs. For example we can set a variable named `TEST` in our terminal like this:
 
 ```shell
 TEST=123 node index.js
