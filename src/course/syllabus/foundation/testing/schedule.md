@@ -63,9 +63,9 @@ Learn how to make sure your code works correctly by creating automated tests.
 
 ##### Session 1
 
-**18.00 - 19.00**: Code reviews
+**18.00 - 19.00**: Employer Q&A
 
-**19.00 - 20.00**: Live code review
+**19.00 - 20.00**: Code review
 
 **20.00 - 21.00**: Responding to issues
 
