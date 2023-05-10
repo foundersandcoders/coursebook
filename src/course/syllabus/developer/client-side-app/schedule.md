@@ -21,7 +21,7 @@ schedule:
       name: Check-in
     - start: 15:30
       end: 16:00
-      name: Full-stack intro
+      name: Reading for next topic
       url: https://fac-slides.netlify.app/slides/full-stack-app/
   friday:
     - name: Learn Next.js
