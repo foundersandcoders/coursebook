@@ -133,7 +133,7 @@ schedule:
       type: presentation
     - start: 15:30
       end: 16:00
-      name: Server-side app reading
+      name: Reading for next topic
     - start: 16:00
       end: 16:50
       name: Cohort SGC
