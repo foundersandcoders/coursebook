@@ -1,26 +1,71 @@
 Reinforce your learning by building something fun.
 
-## Week 10
+## Weeks 10 - 12
 
-### Session 1
+### Schedule
 
-- 17:00-17:10 Check-in/feedback form
-- 17:10-19:00 Employer Q&As
-- 19:00-19:45 [Revision quiz](../learning-outcomes/)
-- 19:45-20:00 [Projects introduction](../project/)
+#### Week 10
 
-Homework:
+##### Session 1
 
-- [Node & npm intro](/workshops/node-npm-intro/)
-- [Dev tooling](/workshops/dev-tooling/)
-- [Projects](../project/)
+**18.00 - 19.00**: Q&A
 
-### Session 2
+**19.00 - 20.00**: npm + node workshops + projects intro + getting started
 
-- Q&A
-- Mock interviews
-- Take-home challenge
+**20.00 - 21.00**: Portfolio
 
-Homework:
+**Homework**: Applications + npm and node workshops
 
-- Screening questions and coding challenge
+##### Session 2
+
+**18.00 - 19.00**: Q&A
+
+**19.00 - 20.00**: Mock interviews (reviewing mock applications)
+
+**20.00 - 21.00**: Small group mock interviews
+
+**Homework**: Applications
+
+#### Week 11
+
+##### Session 1
+
+**18.00 - 19.00**: Q&A
+
+**19.00 - 20.00**: Large group discussion on npm + node
+
+**20.00 - 21.00**: Small group mock interviews
+
+**Homework**: Applications
+
+##### Session 2
+
+**18.00 - 19.00**: Q&A
+
+**19.00 - 20.00**: Large group mock interviews
+
+**20.00 - 21.00**: Small group mock interviews
+
+**Homework**: Applications
+
+#### Week 12
+
+##### Session 1
+
+**18.00 - 19.00**: Q&A
+
+**19.00 - 20.00**: Exit check-ins
+
+**20.00 - 21.00**: Exit check-ins
+
+**Homework**: Applications
+
+##### Session 2
+
+**18.00 - 19.00**: Q&A
+
+**19.00 - 20.00**: Exit check-ins
+
+**20.00 - 21.00**: Exit check-ins
+
+**Homework**: Applications
