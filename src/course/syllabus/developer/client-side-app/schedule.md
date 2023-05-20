@@ -3,7 +3,7 @@ layout: schedule
 schedule:
   monday:
     - name: React state challenge
-      start: 12:00
+      start: 11:40
       end: 13:00
       url: https://github.com/foundersandcoders/react-state-challenge
       type: challenge
