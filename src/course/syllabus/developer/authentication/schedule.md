@@ -11,15 +11,15 @@ schedule:
       end: 10:00
       name: Check-in
     - start: 10:00
-      end: 11:20
+      end: 10:40
       name: Group discussion
       type: workshop
-    - start: 11:20
-      end: 12:00
+    - start: 10:40
+      end: 11:40
       name: Cohort discussion
       type: workshop
     - name: Promise creation challenge
-      start: 12:00
+      start: 11:40
       end: 13:00
       url: https://github.com/foundersandcoders/promise-creation-challenge
       type: challenge
