@@ -46,6 +46,10 @@ exports.render = ({
             tabs.resources !== false &&
             html`<${Tab} page=${page} href="resources">Resources</${Tab}>`
           }
+          ${
+            tabs.topicIntro !== false &&
+            html`<${Tab} page=${page} href="topicIntro">Topic Intro</${Tab}>`
+          }
         </${Tabs}>
       </header>
       <${RawContent} class="flow">${content}</${RawContent}>
