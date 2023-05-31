@@ -52,8 +52,9 @@
     "trailingComma": "es5"
   },
   "lint-staged": {
-    "*.{md,html,css,js}": "prettier --write alex .",
-    "*.md": "remark ."
+    "*.{md,html,css,js}": "prettier --write",
+    "*.md": "remark .",
+    "*": "npx alex"
   },
   "remarkConfig": {
     "plugins": [
