@@ -21,6 +21,7 @@ Each team then has 12 minutes to present, with 5 additional minutes for question
    - anything you don't understand yet, or don't understand fully
 6. Have the people who didn't write a piece of code talk through it - this is a great way to demonstrate knowledge of learning and collaboration. Your whole team should be able to explain the whole codebase - in other words, everyone is responsible for writing code the whole team understands.
 7. Avoid talking through the project brief for a long time - each team has the same brief and your time will be better spent talking about what was unique about your presentation
+8. [From week 4 onwards] talk about which [KSBs](https://fac-standard.netlify.app/portfolio/ksbs/) you've met in your projects that week
 
 ### Preparing for presenting
 

@@ -133,7 +133,8 @@ schedule:
       type: presentation
     - start: 15:30
       end: 16:00
-      name: Reading for next topic
+      name: EPA Introduction
+      url: https://fac-slides.netlify.app/slides/epa/
     - start: 16:00
       end: 16:50
       name: Cohort SGC
