@@ -1,34 +1,28 @@
 # Programming Paradigms
 
----
-
 A programming paradigm is a way of thinking and structuring code that provides guidelines and patterns for solving problems. It encompasses a set of principles and techniques that determine how software is designed, organized, and executed.
-
----
 
 ## The different programming Paradigms
 
-1. Imperative
-2. Procedural
-3. Object-Oriented
-4. Declarative
-5. Functional
-6. Logical
-7. Reactive
-8. Event-driven
-9. Concurrent
-10. Parallel
-11. Domain-Specific
+- Imperative
+- Procedural
+- Object-Oriented
+- Declarative
+- Functional
+- Logical
+- Reactive
+- Event-driven
+- Concurrent
+- Parallel
+- Domain-Specific
 
 This is not an exhaustive list of all the paradigms that exist, however they are some of the more popular ones.
 
 We will be focusing on the following 3:
 
-1. Imperative
-2. Declarative
-3. Reactive
-
----
+- Imperative
+- Declarative
+- Reactive
 
 ## Imperative Programming
 
@@ -38,12 +32,10 @@ Imperative programming is a programming paradigm where programs consist of a seq
 
 Let's say you have a recipe for making a sandwich. In an imperative programming paradigm, you would follow a sequence of steps explicitly stated in the recipe to achieve the desired outcome of making the sandwich.
 
-```
 - Gathering the necessary ingredients (bread, lettuce, tomatoes and mayonnaise)
 - Spread mayonnaise on the bread
 - Add the lettuce and tomatoes
 - Assemble the sandwich.
-```
 
 In this example, the recipe serves as the sequence of instructions, and you are following those instructions step by step to achieve the specific outcome of making the sandwich. Each action changes the state of the sandwich (adding ingredients, spreading condiments) until the desired state (a complete sandwich) is reached. This illustrates the imperative programming paradigm's characteristic of explicitly stating and executing a sequence of instructions to accomplish a specific task.
 
@@ -51,7 +43,7 @@ In this example, the recipe serves as the sequence of instructions, and you are 
 
 Let's look at a simple coding example that calculates the factorial of a number
 
-```javascript
+```js
 function factorial(n) {
   let result = 1;
 
@@ -71,8 +63,6 @@ In this example, the **factorial()** function calculates the factorial of a give
 
 The code follows a sequence of steps explicitly defined in the function, executing each instruction in order to achieve the desired outcome of calculating the factorial. It represents the imperative programming paradigm by explicitly stating how to accomplish the task and manipulating the program state (the result variable) to achieve the desired result.
 
----
-
 ## Declarative Programming
 
 Declarative programming is a programming paradigm where programs specify the desired outcome or goal without explicitly stating the control flow or steps to achieve it. It focuses on describing what should be done rather than how to do it.
@@ -81,37 +71,32 @@ Declarative programming is a programming paradigm where programs specify the des
 
 Consider a shopping list. Instead of specifying the exact steps to go to the store, navigate through aisles, pick up items, and pay at the counter, a declarative approach would be to simply list the items needed and let someone else handle the implementation details.
 
-```
 - Milk
 - Eggs
 - Bread
 - Orange Juice
-```
 
 ### Coding Example
 
 Let's look at a simple coding example that filters even numbers from an array
 
-```JavaScript
+```js
 const numbers = [1, 2, 3, 4, 5, 6];
 
-const evenNumbers = numbers.filter(num => num % 2 === 0);
+const evenNumbers = numbers.filter((num) => num % 2 === 0);
 
 console.log(evenNumbers);
-
 ```
 
 In this example, the **filter()** method is used to declaratively specify the desired outcome of extracting even numbers from the **numbers** array. By providing a callback function that checks if a number is even **(num % 2 === 0)**, the **filter()** method takes care of iterating over the array, executing the logic, and returning a new array with the filtered results.
 
 The code expresses the desired outcome (filtering even numbers) without explicitly stating how to perform the iteration or filtering. The declarative programming paradigm allows us to focus on the "what" (filtering) rather than the "how" (iteration and condition), letting the underlying implementation handle the details.
 
----
-
 ## Declarative vs Imperative Programming
 
 ** Imperative **
 
-```javascript
+```js
 function Box() {
   const div = document.createElement("div");
   div.classList.add("box");
@@ -124,15 +109,13 @@ Here you're giving the function specific instructions to create a div with the c
 
 ** Declarative **
 
-```javascript
+```js
 function Box() {
   return <div className="box">Hello world</div>;
 }
 ```
 
 Whereas, with declarative programming you define the div element's className as "box" yourself, without giving instructions on how that div should be created.
-
----
 
 ## The Pro and Cons of Declarative Programming
 
@@ -146,8 +129,6 @@ Cons:
 - Learning Curve: Declarative programming may require a shift in thinking and understanding higher-level abstractions, which can initially be challenging for developers more familiar with imperative paradigms.
 - Limited Control: Declarative code abstracts away control flow and implementation details, which can be limiting in certain scenarios where fine-grained control or performance optimizations are required.
 
----
-
 ## The Pro and Cons of Imperative Programming
 
 Pros:
@@ -159,8 +140,6 @@ Cons:
 
 - Complexity: Imperative code can become complex and harder to reason about as programs grow in size and complexity. The explicit control flow and mutable state can lead to code that is harder to understand and maintain.
 - Code Reusability: Imperative code often tightly couples the logic with the specific implementation, making it less reusable in different contexts or for different tasks.
-
----
 
 ## Reactive programming
 
@@ -182,20 +161,19 @@ const App = () => <Greeting name="John" />;
 
 In the above example, we utilize **JSX syntax**, which is commonly associated with **React**. JSX allows us to write **HTML-like code within JavaScript**, making it easier to define and render components. The Greeting component is defined as a function that receives a name prop and returns an HTML element. The App component renders the Greeting component with the name prop set to "John".
 
-```JavaScript
+```js
 // Vanilla JavaScript equivalent
 const Greeting = ({ name }) => {
-  const element = document.createElement('h1');
+  const element = document.createElement("h1");
   element.textContent = `Hello, ${name}!`;
   return element;
 };
 
 // Usage in vanilla JavaScript
 const App = () => {
-  const greetingElement = Greeting({ name: 'John' });
+  const greetingElement = Greeting({ name: "John" });
   document.body.appendChild(greetingElement);
 };
-
 ```
 
 The above code example is written using **vanilla JavaScript** but achieves the same result as the JSX example. The Greeting component is defined as a function that creates a new HTML element, sets its text content, and returns it. The App component creates an instance of the Greeting component, appends the returned HTML element to the document body.
@@ -205,8 +183,6 @@ Comparatively, the JSX approach provides a more intuitive and concise syntax, re
 In vanilla JavaScript, the equivalent code requires manual element creation, manipulation, and appending to the DOM.
 
 JSX, with the help of a tool like Babel, transpiles the code into plain JavaScript, but it enhances the readability and maintainability of the code for developers working with React or JSX-based frameworks.
-
----
 
 ## Further reading
 
