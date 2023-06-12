@@ -386,6 +386,12 @@ This is usually achieve with [environment variables](https://en.wikipedia.org/wi
 TEST=123 node index.js
 ```
 
+**Remember** if you are using **Windows (without WSL)** you will have to use the SET command and ampersands between commands like this:
+
+```shell
+SET TEST=123 & node index.js
+```
+
 Node makes environment variables available via the global `process.env` object. So we could read that `TEST` variable using this JS:
 
 ```js
