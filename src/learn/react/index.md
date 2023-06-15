@@ -41,7 +41,12 @@ function App() {
 }
 
 // React handles all DOM element creation/updates—you just call `render` once
-ReactDOM.render(<App />, document.querySelector("#root"));
+const root = ReactDOM.createRoot(document.querySelector("#root"));
+root.render(
+  <React.StrictMode>
+  <App />
+  <React.StrictMode>
+);
 ```
 
 ## ES Modules
