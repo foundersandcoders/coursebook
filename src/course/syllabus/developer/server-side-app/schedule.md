@@ -29,7 +29,7 @@ schedule:
     - name: Reading for next topic
       start: 15:30
       end: 16:00
-      url: https://fac-slides.netlify.app/slides/spa-react/
+      url: /course/syllabus/developer/server-side-app/topicIntro/
   friday:
     - name: React workshop
       url: /learn/react

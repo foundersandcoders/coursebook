@@ -17,7 +17,7 @@ schedule:
     - name: Reading for next topic
       start: 15:30
       end: 16:00
-      url: https://fac-slides.netlify.app/slides/databases/
+      url: /course/syllabus/developer/server/topicIntro/
   friday:
     - name: Database workshop
       url: /learn/database
