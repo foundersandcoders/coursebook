@@ -22,7 +22,7 @@ schedule:
     - start: 15:30
       end: 16:00
       name: Reading for next topic
-      url: https://fac-slides.netlify.app/slides/full-stack-app/
+      url: /course/syllabus/developer/client-side-app/topicIntro/
   friday:
     - name: Learn Next.js
       url: https://nextjs.org/learn/basics/create-nextjs-app
