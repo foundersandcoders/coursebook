@@ -27,7 +27,7 @@ schedule:
     - name: Reading for next topic & Installation
       start: 15:30
       end: 16:15
-      url: https://fac-slides.netlify.app/slides/servers/#0
+      url: /course/syllabus/developer/introduction/topicIntro/
     - name: Break
       url: /course/handbook/installation/
       start: 16:15
