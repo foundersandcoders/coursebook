@@ -69,6 +69,19 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/syllabus/developer/projects/TFB-build-1/schedule">TFB Build Sprint 1</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/developer/projects/TFB-build-2/schedule">TFB Build Sprint 2</${Link}></li>
         </${Section}>
+        <${Section} title="TfB" url=${url} subpath="course/syllabus/tfb">  
+        <li><${Link} url=${url} href="/course/syllabus/tfb/week 1/introduction">Week 1: Introductions</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 2/pitches">Week 2: Product Pitches</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 3/discovery">Week 3: Discovery Workshops</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 4/research">Week 4: User Research</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 5/research-analysis">Week 5: Research Analysis</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 6/product-managment">Week 6: Product Management</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 7/selection">Week 7: Selection Week</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 9/analysis-workshop">Week 9: Analysis workshop</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 10/design">Week 10: Design Week</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 11/build">Week 11: Build Week 1</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 12/showcase">Week 12: Build Week 2</${Link}></li>
+        </${Section}>
       </${Nav}>
     </aside>
     <main id="main">
