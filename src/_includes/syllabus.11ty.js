@@ -13,6 +13,7 @@ exports.render = ({
   content,
   tabs = {},
   isApplicationPage = false,
+  isFoundationPage = false,
 }) => {
   return html`
     <div class="vstack gap-xl">
@@ -48,6 +49,8 @@ exports.render = ({
           }
           ${
             tabs.topicIntro !== false &&
+            !isApplicationPage &&
+            !isFoundationPage &&
             html`<${Tab} page=${page} href="topicIntro">Topic Intro</${Tab}>`
           }
         </${Tabs}>
