@@ -2,7 +2,7 @@
 title: Mentoring
 ---
 
-# Mentoring guidance
+<!-- # Mentoring guidance
 
 A guide to leading and supporting peer learning using [our coursebook](https://learn.foundersandcoders.com)
 
@@ -110,4 +110,82 @@ _**Code Review**_
 
 _**Feedback form**_
 
-- The CF will send you a feedback form at the end of the week, please do fill this in!
+- The CF will send you a feedback form at the end of the week, please do fill this in! -->
+
+# Mentoring guidance
+
+A guide to leading and supporting peer learning using [our coursebook](https://learn.foundersandcoders.com)
+
+_This is a live document that mentors are encouraged to feedback on._
+
+Please read these notes and check with the course facilitator before your week starts with any clarifications, questions and/or thoughts.
+
+### Before Your Week:
+
+1. **Ensure Ownership**: Make sure you are an owner of the cohort's GitHub organization.
+
+2. **Familiarize Yourself**: Read the workshops, solutions, project details, and learning objectives for your week. Note any changes made since your cohort started.
+
+3. **Communicate with the Course Facilitator**: Check in with the course facilitator for support before, during, and after your week.
+
+### During Your Week:
+
+1. **Delegate Responsibilities**: Decide who will lead specific portions of your week. Refer to the day-by-day checklist for a detailed breakdown.
+
+2. **Review Recent Projects**: Take a look at the cohort's most recent projects and inquire about any relevant feedback from the previous week's SGC (Student-Generated Content).
+
+### Additional Preparation:
+
+1. **Understand Cohort Expectations**: Read the cohort expectations document located at `GitHub` > `fac#` > `cohort` > `expectations.md`.
+
+2. **Read User Manuals**: Familiarize yourself with the cohort's user manuals. Access them as raised issues on `GitHub` > `fac#` > `user-manuals.`
+
+### Being a Good Mentor:
+
+1. **Share Experiences Mindfully**: Avoid creating unnecessary expectations based on your own experience. Frame your experiences as such and only share when directly asked.
+
+2. **Avoid Negative Opinions**: Refrain from dismissing or criticizing course material. Present the curriculum and allow learners to form their own conclusions.
+
+3. **Empower Through Questions**: When approached with a problem, ask questions to guide learners in finding the answer themselves.
+
+4. **Focus on the Problem, Not the Solution**: Encourage learners to explain the purpose behind their actions and focus on the problem at hand rather than the specific solution.
+
+5. **Encourage Collaboration**: Suggest seeking input from team members or other teams who have encountered similar problems.
+
+6. **Visualize Solutions**: Keep a notepad and pen ready to visually aid explanations by drawing out problems and solutions.
+
+7. **Embrace Not Knowing**: If you don't know the answer, admit it honestly and collaborate with learners to find the answer together.
+
+8. **Break Down Big Problems**: Help learners tackle overwhelming tasks by breaking them down into smaller, manageable steps.
+
+9. **Allow Room for Mistakes**: Let learners stumble and learn from mistakes. Provide support and encouragement during their problem-solving journey.
+
+10. **Embrace Different Approaches**: Avoid immediately rejecting learners' methods. Be open to the possibility that their way could be right. Ask them to explain their steps to foster learning.
+
+11. **Collaborate with the Cohort**: Work with all members of the cohort and encourage those who understand a concept to assist others.
+
+Note: learners may initially expect you to have all the answers, which may lead to frustration. Clarify your role as a mentor and emphasize working through problems together.
+
+### What you will do through the week
+
+**Monday**
+
+- Join the conversation with the cohort about the previous Friday's Workshop
+- Introduce the Project and Spike - share your experience of how that project went for your cohort.
+
+**Tuesday**
+
+- Join the Zoom call in the morning and check in on the teams every 30/45 minutes to address any questions or concerns they are having throughout the day.
+
+**Wednesday**
+
+- Work your way around the room and ask the teams if there is anything they need help with.
+- At the end of the day you will be doing a code review of the two teams. It is best to spend 30 minutes on one and then move onto the other team.
+
+**Thursday**
+
+- You do not come in on Thursday
+
+**Friday**
+
+- You do not come in on Friday

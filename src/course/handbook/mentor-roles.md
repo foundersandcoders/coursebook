@@ -13,13 +13,25 @@ The types of mentors you'll meet are:
 
 ## Week mentors
 
-For the first 6 weeks of the course, there will be two weekly mentors in each week. These are members of the cohort immediately prior to yours.
+1. Cohort alumni who recently completed the course.
+2. Join workshop discussions and provide support during projects.
+3. Offer guidance without giving direct answers.
+4. Share experiences, debugging advice, and tips for maximizing the course.
 
-Each week, they'll join your cohort workshop discussions and support you during your projects. These mentors are familiar with the curriculum as they've recently completed it. They won't always give you the answer but will help you get there. They may advise you on ways to debug your code, talk about the challenges they had on the course, or give advice on how to get the most out of the course.
+<!-- For the first 6 weeks of the course, there will be two weekly mentors in each week. These are members of the cohort immediately prior to yours.
+
+Each week, they'll join your cohort workshop discussions and support you during your projects. These mentors are familiar with the curriculum as they've recently completed it. They won't always give you the answer but will help you get there. They may advise you on ways to debug your code, talk about the challenges they had on the course, or give advice on how to get the most out of the course. -->
 
 ## Project mentors
 
-These mentors will support you throughout your final project(s). They may be FAC alumni, or from your apprenticeship employers.
+1. Support during final project(s).
+2. Can be FAC alumni or apprenticeship employers.
+3. Provide technical advice on tech stack choices and recommended libraries.
+4. Not available for day-to-day debugging; use available resources like StackOverflow, cohort members, and the FAC community.
+5. Schedule specific slots to discuss project-related matters.
+6. Responsible for reaching out, scheduling time, and clearly communicating support needs.
+
+<!-- These mentors will support you throughout your final project(s). They may be FAC alumni, or from your apprenticeship employers.
 
 They will give you technical advice on things like tech stack choices, recommended libraries, etc.
 
@@ -31,4 +43,4 @@ These mentors will support you with planning and managing the project, but are u
 
 You may want to use this time to discuss your tech stack, review your project scope, get code reviews, and talk through anything that is particularly challenging for the team.
 
-Reach out early and be clear about when and why you need support.
+Reach out early and be clear about when and why you need support. -->
