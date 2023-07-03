@@ -19,7 +19,7 @@ Remember that Next doesn't work that differently to the Express apps you've buil
 
 - "Add to basket" button on product pages
 - Basket page showing all saved items
-- Basket contents persisted for future visits (local storage)
+- Basket contents persisted for future visits (cookies or local storage)
 - Filter products by category
 - Sort products by price
 - End-to-end tests

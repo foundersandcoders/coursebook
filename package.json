@@ -39,9 +39,12 @@
     "postcss-import": "^14.0.0",
     "postcss-preset-env": "^6.7.0",
     "preact": "^10.5.10",
-    "preact-render-to-string": "^5.1.12"
+    "preact-render-to-string": "^5.1.12",
+    "remark-cli": "^11.0.0",
+    "remark-preset-lint-recommended": "^6.1.3"
   },
   "devDependencies": {
+    "alex": "^11.0.0",
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1"
   },
@@ -49,6 +52,13 @@
     "trailingComma": "es5"
   },
   "lint-staged": {
-    "*.{md,html,css,js}": "prettier --write"
+    "*.{md,html,css,js}": "prettier --write",
+    "*.md": "remark .",
+    "*": "npx alex"
+  },
+  "remarkConfig": {
+    "plugins": [
+      "remark-preset-lint-recommended"
+    ]
   }
 }
