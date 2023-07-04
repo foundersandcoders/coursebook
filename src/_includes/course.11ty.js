@@ -39,14 +39,6 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/handbook/retrospectives/">Retrospectives</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/mentor-guidance/">Mentoring guidance</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/mentor-roles/">What to expect of mentors</${Link}></li>
-          <li><${Link} url=${url} href="/course/handbook/tech-for-better/">Tech for Better</${Link}></li>
-        </${Section}>
-        <${Section} title="Portfolio" url=${url} subpath="course/syllabus/portfolio">
-          <li><${Link} url=${url} href="/course/syllabus/portfolio/hobby-page/project">Hobby page</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/portfolio/project-gallery/project">Project gallery</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/portfolio/movie-data/project">Movie data</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/portfolio/website/project">Website</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/portfolio/game/project">Game</${Link}></li>
         </${Section}>
         <${Section} title="Foundation" url=${url} subpath="course/syllabus/foundation">
           <li><${Link} url=${url} href="/course/syllabus/foundation/pre-course/schedule/">Pre-course</${Link}></li>
@@ -70,7 +62,7 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/syllabus/developer/projects/TFB-build-1/schedule">TFB Build Sprint 1</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/developer/projects/TFB-build-2/schedule">TFB Build Sprint 2</${Link}></li>
         </${Section}>
-        <${Section} title="TfB" url=${url} subpath="course/syllabus/tfb">  
+        <${Section} title="Tech for Better" url=${url} subpath="course/syllabus/tfb">  
         <li><${Link} url=${url} href="/course/syllabus/tfb/week 1/introduction">Week 1: Introductions & Discovery Workshop</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/tfb/week 2/user-research">Week 2: User Research</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/tfb/week 3/analysis-definition">Week 3: Research Analysis & Definition Workshop</${Link}></li>
