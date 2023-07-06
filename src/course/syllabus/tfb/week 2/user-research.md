@@ -10,8 +10,8 @@ Feedback from your users will be analysed and inform the direction of the Produc
 
 There are two main avenues to analysing results from testing:
 
-Qualitative
-Quantitative
+- Qualitative
+- Quantitative
 
 **Qualitative research** seeks to understand subjective experiences and perspectives through non-numerical data.
 

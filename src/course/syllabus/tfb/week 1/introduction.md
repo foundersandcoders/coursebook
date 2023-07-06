@@ -8,7 +8,9 @@ The **"Tech for Better"** programme teaches **Product Management** to social ent
 
 ## What is Product Managment?
 
-_"Project management is the art of getting things done... Product management is the art of deciding what to do in the first place"_- Jennifer Pahlka, author of Recoding America, on [The Ezra Klein Show](https://www.nytimes.com/2023/06/06/podcasts/transcript-ezra-klein-interviews-jennifer-pahlka.html)
+![Balanced](https://media.giphy.com/media/Ry1MOAeAYXvRVQLPw3/giphy.gif)
+
+_"Project management is the art of getting things done... Product management is the art of deciding what to do in the first place"_- Jennifer Pahlka, author of Recoding America, on [The Ezra Klein Show](https://www.nytimes.com/2023/06/06/podcasts/transcript-ezra-klein-interviews-jennifer-pahlka.html).
 
 Meanwhile, **Product ownership** is the **art of balancing the needs of users with your team's capabilities.**
 
