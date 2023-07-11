@@ -1,5 +1,13 @@
 # Research Analysis & Definition (2.5 Hours)
 
+## How do we conduct research analysis?
+
+Research analysis is split into 3 - 15 minute sessions:
+
+1. **SUMMARISE** the notes your product owner shares with you from their user research.
+2. **REFLECT** on themes that summarise the notes from the first step.
+3. **ANALYSE** the themes from the second step and ask "What does this mean?"
+
 ## What will we do in this session?
 
 - Summarise the research under specific headings (15 minutes)
