@@ -21,10 +21,16 @@ Product management is a 30 minute exercise where you will:
 Definition focuses on moving from an idea to something we can prototype. It is broken down into a number of exercises:
 
 1. **INSPIRATIONS** - Draw from other sources (websites, mobile phone apps etc) to get an idea of what we might include in the app.
+   ![Inspirations example](image-1.png)
+   _This is what it should look like_
 2. **LIGHTNING TALKS** - Discuss, with your team, your rationale for the screens you have chosen from the previous step.
 3. **CRAZY EIGHTS** - Draw 8 lightning sketches in 8 minutes, 1 minute for each drawing.
+   ![Crazy eights example](image.png)
+   _This is what it should look like_
 4. **UPLOAD** - Take some time to upload your designs onto your miro board.
 5. **LOW FIDELITY WIREFRAMES** - Take a few of the screens from the _Crazy Eights_ step and recreate them as screens on Miro.
+   ![Wireframe example](image-2.png)
+   _This is what it should look like_
 6. **DOT VOTE** - Mark what draws your attention or interest on Miro.
 7. **DISCUSS** - Come together to discuss what you’ve created and what to move forward with.
 
