@@ -1,5 +1,9 @@
 ## Further reading
 
+[What is prototyping?](https://www.figma.com/resource-library/what-is-prototyping/)
+
+- An explanation of what prototyping is, why it is important and the difference between low fidelity and high fidelity prototyping.
+
 [Figma Resource Library](https://www.figma.com/resource-library/)
 
 - Figma's official documentation on how to get started when making a prototype.
