@@ -14,6 +14,7 @@ exports.render = ({
   tabs = {},
   isApplicationPage = false,
   isFoundationPage = false,
+  isDeveloperPage = false,
   isTechforBetterPage = false,
 }) => {
   return html`
@@ -47,9 +48,17 @@ exports.render = ({
             html`<${Tab} page=${page} href="learning-outcomes">Learnings</${Tab}>`
           }
           ${
+            tabs.content !== false &&
+            !isApplicationPage &&
+            !isFoundationPage &&
+            !isDeveloperPage &&
+            html`<${Tab} page=${page} href="content">Content</${Tab}>`
+          }
+          ${
             tabs.resources !== false &&
             html`<${Tab} page=${page} href="resources">Resources</${Tab}>`
           }
+          
           ${
             tabs.topicIntro !== false &&
             !isApplicationPage &&

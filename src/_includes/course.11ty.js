@@ -63,16 +63,17 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/syllabus/developer/projects/TFB-build-2/schedule">TFB Build Sprint 2</${Link}></li>
         </${Section}>
         <${Section} title="Tech for Better" url=${url} subpath="course/syllabus/tfb">  
-        <li><${Link} url=${url} href="/course/syllabus/tfb/week 1/introduction">Week 1: Introductions & Discovery Workshop</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/tfb/week 2/user-research">Week 2: User Research</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/tfb/week 3/analysis-definition">Week 3: Research Analysis & Definition Workshop</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/tfb/week 4/figma1">Week 4: Figma Prototype 1</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/tfb/week 5/figma2">Week 5: Figma Prototype 2</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/tfb/week 6/usability">Week 6: Usability testing</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/tfb/week 7/selection">Week 7: Product Pitches & Selection week</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/tfb/week 10/build1">Week 10: Build Week 1</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/tfb/week 11/build2">Week 11: Build Week 2</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/tfb/week 12/showcase">Week 12: Build Week 3</${Link}></li>
+        <li><${Link} url=${url} href="/course/syllabus/tfb/week 1/content">Week 1: Discover 1</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 2/content">Week 2: Discover 2</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 3/content">Week 3: Define 1</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 4/content">Week 4: Define 2</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 5/content">Week 5: Develop 1</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 6/content">Week 6: Develop 2</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 7/content">Week 7: Develop 3</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 8/content">Week 7: Develop 4</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 10/content">Week 10: Deliver 1</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 11/content">Week 11: Deliver 2</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 12/content">Week 12: Deliver 3</${Link}></li>
         </${Section}>
       </${Nav}>
     </aside>

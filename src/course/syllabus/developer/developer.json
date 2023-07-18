@@ -1,5 +1,6 @@
 {
   "tabs": {
     "spikes": false
-  }
+  },
+  "isDeveloperPage": true
 }
