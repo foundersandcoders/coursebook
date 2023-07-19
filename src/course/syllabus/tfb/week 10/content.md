@@ -1,5 +1,7 @@
 ## What will be doing this week?
 
+Refer to the schedule [**here**](/course/syllabus/developer/projects/TFB-design/schedule/)
+
 ### Monday
 
 - Choose Roles (15 minutes)

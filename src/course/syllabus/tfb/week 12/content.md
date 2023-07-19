@@ -1,1 +1,3 @@
-Time to show off what you've made!
+## What will be doing this week?
+
+Refer to the schedule [**here**](/course/syllabus/developer/projects/TFB-build-2/schedule/)
