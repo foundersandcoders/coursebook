@@ -11,8 +11,8 @@
 - Sprint planning (2 hours)
 - Presentation prep (0.5 hours)
 - Feedback session (1 hour)
-- Presentations (1 hour)
 - Sprint planning (1.5 hours)
+- Presentations (1 hour)
 
 ### Wednesday
 

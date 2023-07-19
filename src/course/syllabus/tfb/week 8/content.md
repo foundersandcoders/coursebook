@@ -1,7 +1,7 @@
-# Product pitches & Selection
+# Product Refinement
 
-Video goes here
+## What will we be doing in this session?
 
-- The product owners would send in a short video product pitch that collates all the information from the previous weeks to give a comprehensive summary of the product and why the devs should consider it.
+In this session you will spend 90 minutes refining your figma prototypes using the usability testing from the last week.
 
-- The devs would then have a discussion about the diffrent product pitches and express their prefrences for the one they want to work on.
+- **Remember** you do not have to take on-board all the feedback that you got.

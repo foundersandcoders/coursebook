@@ -2,6 +2,8 @@
 
 ## Why map the user journey?
 
+Mapping the user journey within the Double Diamond design model helps designers gain insights into thier user's needs, pain points, and opportunities for improvment.
+
 ## How does mapping work?
 
 The sessions is split into two halves. For the first half, you will:

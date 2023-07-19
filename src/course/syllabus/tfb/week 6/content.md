@@ -68,12 +68,13 @@ During this analysis you create a spreadsheet or table with tasks you asked the 
 - Struggled with the task
 - Did not complete the task
 
-![Traffic light analysis](image.png)
+![Traffic light analysis](/assets/images/image.png)
+
 _It should look like this_
 
 **Rainbow Analysis**
 
 During this analysis you create a spreadsheet and list observations in rows, and participants in columns. Where an observation occurs, mark the cell, giving each participant a different colour.
 
-![Rainbow chart](image-1.png)
+![Rainbow chart](/assets/images/image-1.png)
 _It should look like this_
