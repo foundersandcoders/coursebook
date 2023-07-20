@@ -39,14 +39,6 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/handbook/retrospectives/">Retrospectives</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/mentor-guidance/">Mentoring guidance</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/mentor-roles/">What to expect of mentors</${Link}></li>
-          <li><${Link} url=${url} href="/course/handbook/tech-for-better/">Tech for Better</${Link}></li>
-        </${Section}>
-        <${Section} title="Portfolio" url=${url} subpath="course/syllabus/portfolio">
-          <li><${Link} url=${url} href="/course/syllabus/portfolio/hobby-page/project">Hobby page</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/portfolio/project-gallery/project">Project gallery</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/portfolio/movie-data/project">Movie data</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/portfolio/website/project">Website</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/portfolio/game/project">Game</${Link}></li>
         </${Section}>
         <${Section} title="Foundation" url=${url} subpath="course/syllabus/foundation">
           <li><${Link} url=${url} href="/course/syllabus/foundation/pre-course/schedule/">Pre-course</${Link}></li>
@@ -69,6 +61,20 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/syllabus/developer/projects/TFB-design/schedule">TFB Design Sprint</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/developer/projects/TFB-build-1/schedule">TFB Build Sprint 1</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/developer/projects/TFB-build-2/schedule">TFB Build Sprint 2</${Link}></li>
+        </${Section}>
+        <${Section} title="Tech for Better" url=${url} subpath="course/syllabus/tfb">  
+        <li><${Link} url=${url} href="/course/syllabus/tfb/week 1/content">Week 1: Discover 1</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 2/content">Week 2: Discover 2</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 3/content">Week 3: Define 1</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 4/content">Week 4: Define 2</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 5/content">Week 5: Develop 1</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 6/content">Week 6: Develop 2</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 7/content">Week 7: Develop 3</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 8/content">Week 8: Develop 4</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 9/content">Week 9: Selection</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 10/content">Week 10: Deliver 1</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 11/content">Week 11: Deliver 2</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 12/content">Week 12: Deliver 3</${Link}></li>
         </${Section}>
       </${Nav}>
     </aside>
