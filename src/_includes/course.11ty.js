@@ -71,6 +71,7 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/syllabus/tfb/week 6/content">Week 6: Develop 2</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/tfb/week 7/content">Week 7: Develop 3</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/tfb/week 8/content">Week 8: Develop 4</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 9/content">Week 9: Selection</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/tfb/week 10/content">Week 10: Deliver 1</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/tfb/week 11/content">Week 11: Deliver 2</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/tfb/week 12/content">Week 12: Deliver 3</${Link}></li>

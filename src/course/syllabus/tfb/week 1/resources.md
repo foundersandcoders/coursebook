@@ -15,3 +15,7 @@
 ['A Study of the Design Process'](https://www.designcouncil.org.uk/fileadmin/uploads/dc/Documents/ElevenLessons_Design_Council%2520%25282%2529.pdf)
 
 - An official document from the Design Council looking at how different companies approach the Double Diamond Design Model.
+
+[Google Ventures](http://www.gv.com/sprint/)
+
+- A guide to design sprints by Google Ventures

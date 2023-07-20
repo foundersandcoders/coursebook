@@ -1,4 +1,4 @@
-# Usability testing (2.5 hours)
+# Usability testing (150 minutes)
 
 Video goes here
 
