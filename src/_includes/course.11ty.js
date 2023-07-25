@@ -23,6 +23,7 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/handbook/system-requirements/">System Requirements</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/installation/">Installation Guide</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/safeguarding/">Safeguarding</${Link}></li>
+          <li><${Link} url=${url} href="/course/handbook/inclusion/">Equality, Diversity and Inclusion</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/wellbeing/">Wellbeing</${Link}></li>
           <li><${Link} url=${url} href="/course/handbook/course-rules/">Course Rules</${Link}></li>
            <li><${Link} url=${url} href="/course/handbook/user-manuals/">User manuals</${Link}></li>
@@ -62,7 +63,7 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/syllabus/developer/projects/TFB-build-1/schedule">TFB Build Sprint 1</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/developer/projects/TFB-build-2/schedule">TFB Build Sprint 2</${Link}></li>
         </${Section}>
-        <${Section} title="Tech for Better" url=${url} subpath="course/syllabus/tfb">  
+        <${Section} title="Tech for Better" url=${url} subpath="course/syllabus/tfb">
         <li><${Link} url=${url} href="/course/syllabus/tfb/week 1/content">Week 1: Discover 1</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/tfb/week 2/content">Week 2: Discover 2</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/tfb/week 3/content">Week 3: Define 1</${Link}></li>
