@@ -54,8 +54,6 @@ How was your overall experience moving around the app?
 What else would you like it to do?
 Anything else you feel we should know?
 
-- Add in information about the two types of analysis, so that they can ask questions that help them analyse their feedback better.
-
 ## Traffic light & Rainbow analysis
 
 To help you think about the kinds of questions to ask your users when creating your scripts it is important to understand the analysis process looks.
