@@ -15,10 +15,12 @@ Definition focuses on moving from an idea to something we can prototype. It is b
 1. **INSPIRATIONS** - Draw from other sources (websites, mobile phone apps etc) to get an idea of what we might include in the app.
 2. **LIGHTNING TALKS** - Discuss, with your team, your rationale for the screens you have chosen from the previous step.
 3. **CRAZY EIGHTS** - Draw 8 lightning sketches in 8 minutes, 1 minute for each drawing.
-4. **UPLOAD** - Take some time to upload your designs onto your miro board.
-5. **LOW FIDELITY WIREFRAMES** - Take a few of the screens from the _Crazy Eights_ step and recreate them as screens on Miro.
-6. **DOT VOTE** - Mark what draws your attention or interest on Miro.
-7. **DISCUSS** - Come together to discuss what you’ve created and what to move forward with.
+4. **THE BIG IDEA** - Take _one_ design from your Crazy 8's and create a ore detailed sketch of it.
+5. **UPLOAD** - Take some time to upload your designs onto your miro board.
+6. **DISCUSS** - Come together to discuss your sketches and think about elements you want to take into the next step.
+7. **LOW FIDELITY WIREFRAMES** - Take a few of the screens from the _Crazy Eights_ step and recreate them as screens on Miro.
+8. **DOT VOTE** - Mark what draws your attention or interest on Miro.
+9. **DISCUSS** - Come together to discuss what you’ve created and what to move forward with.
 
 ## Session summary
 
@@ -29,9 +31,8 @@ Definition focuses on moving from an idea to something we can prototype. It is b
 - Lightning talks (10 minutes)
 - Crazy eights (8 minutes)
 - The Big Idea (4 minutes)
-- Discuss your crazy eights (10 minutes)
 - Upload (5 minutes)
+- Discuss your crazy eights (10 minutes)
 - Low fidelity wireframes (20 minutes)
-- Discuss your wireframes (15 minutes)
 - Dot vote (5 minutes)
-- Discussion (10 minutes)
+- Discussion (25 minutes)
