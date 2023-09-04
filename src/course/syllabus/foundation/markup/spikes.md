@@ -59,3 +59,13 @@ How do you design and build a webpage that looks good on any device?
 - [Units - Every Layout](https://every-layout.dev/rudiments/units/)
 - [The lengths of CSS](https://css-tricks.com/the-lengths-of-css/)
 - [How To Write Mobile-first CSS](https://zellwk.com/blog/how-to-write-mobile-first-css/)
+
+## Github projects (stretch)
+
+### Questions to consider
+
+1. How can we leverage Github projects to help us plan and track work?
+
+### Useful resources
+
+- [Quickstart for Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/quickstart-for-projects)

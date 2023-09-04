@@ -1,4 +1,4 @@
-Your challenge for the next couple of days is to build an agency website for your team.
+Your challenge is to build an agency website for your team.
 
 Your website should give potential clients:
 
@@ -37,7 +37,7 @@ _**User stories come with [acceptance criteria](https://blog.easyagile.com/how-t
 
 ### Stretch Goal
 
-Use the automatic trigger functionality of your [GitHub project board](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards).
+Use the automatic trigger functionality of your [GitHub project board](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects).
 
 ---
 
