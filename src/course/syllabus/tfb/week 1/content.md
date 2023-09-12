@@ -1,4 +1,4 @@
-# Introduction (120 minutes)
+# Introduction (45 minutes)
 
 ## What is the Tech for Better programme?
 
@@ -51,10 +51,3 @@ Starting with Week 10 you will enter the 'Deliver' phase.
 
 After selecting the projects you want to work on you go and build a MVP using your figma prototype as a blueprint. You will also be collaborating with your Product Owners throughout the process.
 
-## What will you do in this session?
-
-- Sit down with a different pair of devs and discuss your idea (10 minutes each)
-- Define a problem statement (10 minutes)
-- Create user personas (15 minutes)
-- Formulate questions that could be asked to the users (35 minutes)
-- Use the questions from the previous step to create a user research script (20 minutes)

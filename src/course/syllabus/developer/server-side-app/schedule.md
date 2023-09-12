@@ -2,10 +2,13 @@
 layout: schedule
 schedule:
   monday:
+    - name: Thought of the Week
+      start: 10:00
+      end: 10:45
     - name: Validation workshop
       url: /learn/form-validation
       type: workshop
-      start: 10:00
+      start: 10:45
       end: 12:15
     - name: Project and spike intro
       start: 12:15

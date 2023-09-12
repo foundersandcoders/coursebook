@@ -32,7 +32,7 @@ schedule:
       url: /course/handbook/installation/
       start: 16:15
       end: 16:30
-    - name: Support and Expectations
+    - name: Safeguarding prevent workshop
       url: https://fac-slides.netlify.app/slides/support-and-expectations/#0
       start: 16:30
       end: 17:15

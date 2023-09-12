@@ -7,11 +7,14 @@ schedule:
       name: Check-in
     - name: Definition presentation
       start: 10:00
-      end: 10:20
+      end: 10:15
       url: https://fac-slides.netlify.app/slides/definition/#0
       type: presentation
+    - name: Thought of the Week
+      start: 10:15
+      end: 11:00
     - name: Definition workshop
-      start: 10:20
+      start: 11:00
       end: 13:00
       type: workshop
     - start: 13:00

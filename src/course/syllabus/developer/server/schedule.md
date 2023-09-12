@@ -2,11 +2,23 @@
 layout: schedule
 schedule:
   monday:
+    - name: Healthy relationships and feedback workshop
+      type: workshop
+      start: 11:00
+      end: 11:45
     - name: Sanitize & validate challenge
       url: https://github.com/foundersandcoders/sanitize-validate-challenge
       type: challenge
-      start: 12:00
+      start: 11:45
       end: 13:00
+    - name: Tech for Better
+      type: workshop
+      start: 14:00
+      end: 14:45
+    - name: Introduction to Incels
+      type: workshop
+      start: 14:45
+      end: 15:30
     - name: Intro to project managment
       start: 15:45
       end: 16:00
