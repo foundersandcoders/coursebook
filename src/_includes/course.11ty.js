@@ -66,7 +66,7 @@ exports.render = ({ page: { url }, content }) => {
         </${Section}>
         <${Section} title="Tech for Better" url=${url} subpath="course/syllabus/tfb">
         <li><${Link} url=${url} href="/course/syllabus/tfb/week 1/content">Week 1: Introduction</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/tfb/week 2/content">Week 2: Discover</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/tfb/week 2/content">Week 2: Product Pitches</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/tfb/week 3/content">Week 3: Research Analysis</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/tfb/week 4/content">Week 4: Define 1</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/tfb/week 5/content">Week 5: Define 2 </${Link}></li>

@@ -10,8 +10,11 @@ schedule:
       end: 10:15
       url: https://fac-slides.netlify.app/slides/discovery-inhouse/#0
       type: presentation
-    - name: Discovery workshop
+    - name: Thought of the Week
       start: 10:15
+      end: 11:00
+    - name: Discovery workshop
+      start: 11:00
       end: 13:00
       type: workshop
     - start: 13:00

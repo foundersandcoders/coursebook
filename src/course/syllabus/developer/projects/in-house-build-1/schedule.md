@@ -11,8 +11,11 @@ schedule:
       end: 15:30
     - name: Build
       start: 15:30
-      end: 17:45
+      end: 17:15
       type: project
+    - name: Thought of the Week
+      start: 17:15
+      end: 18:00
   tuesday:
     - name: Build
       start: 10:00

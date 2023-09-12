@@ -2,24 +2,8 @@
 layout: schedule
 schedule:
   monday:
-    - name: No schedule
-      start: 9:45
-      end: 18:00
-
-  tuesday:
-    - start: 9:45
-      end: 10:00
-      name: Check-in
-    - start: 10:00
-      end: 10:40
-      name: Group discussion
-      type: workshop
-    - start: 10:40
-      end: 11:40
-      name: Cohort discussion
-      type: workshop
     - name: Promise creation challenge
-      start: 11:40
+      start: 11:45
       end: 13:00
       url: https://github.com/foundersandcoders/promise-creation-challenge
       type: challenge
@@ -53,7 +37,7 @@ schedule:
       end: 18:00
       name: Check-out
 
-  wednesday:
+  tuesday:
     - start: 9:45
       end: 10:00
       name: Check-in
@@ -73,7 +57,8 @@ schedule:
     - start: 17:45
       end: 18:00
       name: Check-out
-  thursday:
+
+  wednesday:
     - start: 9:45
       end: 10:00
       name: Check-in
@@ -104,7 +89,8 @@ schedule:
     - start: 17:45
       end: 18:00
       name: Check-out
-  friday:
+
+  thursday:
     - name: Check-in
       start: 9:45
       end: 10:00
@@ -148,4 +134,8 @@ schedule:
     - start: 17:45
       end: 18:00
       name: Check-out
+  friday:
+    - start: 9:50
+      end: 18:00
+      name: Consolidation
 ---
