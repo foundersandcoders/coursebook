@@ -32,8 +32,8 @@ schedule:
       url: /course/handbook/installation/
       start: 16:15
       end: 16:30
-    - name: Safeguarding prevent workshop
-      url: https://fac-slides.netlify.app/slides/support-and-expectations/#0
+    - name: Thought of the week (safeguarding)
+      url: https://www.notion.so/foundersandcoders/Personal-Development-91fe75c7e2cc4f989954108729a2c834
       start: 16:30
       end: 17:15
     - name: Social

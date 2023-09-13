@@ -2,7 +2,8 @@
 layout: schedule
 schedule:
   monday:
-    - name: Thought of the Week
+    - name: Thought of the week (CIAG)
+      url: https://www.notion.so/foundersandcoders/Personal-Development-91fe75c7e2cc4f989954108729a2c834
       start: 10:00
       end: 10:45
     - name: Validation workshop

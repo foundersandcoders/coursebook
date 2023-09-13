@@ -2,6 +2,11 @@
 layout: schedule
 schedule:
   monday:
+    - name: Thought of the week (extra-curricular)
+      url: https://www.notion.so/foundersandcoders/Personal-Development-91fe75c7e2cc4f989954108729a2c834
+      type: workshop
+      start: 11:00
+      end: 11:45
     - name: Promise creation challenge
       start: 11:45
       end: 13:00
