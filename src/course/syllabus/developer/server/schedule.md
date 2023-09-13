@@ -2,7 +2,7 @@
 layout: schedule
 schedule:
   monday:
-    - name: Healthy relationships and feedback workshop
+    - name: Thought of the week (safeguarding)
       type: workshop
       start: 11:00
       end: 11:45
@@ -15,7 +15,7 @@ schedule:
       type: workshop
       start: 14:00
       end: 14:45
-    - name: Introduction to Incels
+    - name: Thought of the week (British values)
       type: workshop
       start: 14:45
       end: 15:30
