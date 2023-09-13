@@ -10,7 +10,8 @@ schedule:
       end: 10:15
       url: https://fac-slides.netlify.app/slides/definition/#0
       type: presentation
-    - name: Thought of the Week
+    - name: Thought of the week (CIAG)
+      url: https://www.notion.so/foundersandcoders/Personal-Development-91fe75c7e2cc4f989954108729a2c834
       start: 10:15
       end: 11:00
     - name: Definition workshop
