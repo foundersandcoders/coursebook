@@ -15,6 +15,7 @@ schedule:
       type: project
     - name: Thought of the week (CIAG)
       url: https://www.notion.so/foundersandcoders/Personal-Development-91fe75c7e2cc4f989954108729a2c834
+      type: personal-development
       start: 17:15
       end: 18:00
   tuesday:

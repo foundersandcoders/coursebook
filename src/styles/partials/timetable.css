@@ -60,12 +60,17 @@
 }
 
 .entry.presentation {
-  --hue: 140;
+  --hue: 20;
   --sat: 60%;
 }
 
 .entry.challenge {
   --hue: 0;
+  --sat: 60%;
+}
+
+.entry.personal-development {
+  --hue: 100;
   --sat: 60%;
 }
 

@@ -33,6 +33,7 @@ schedule:
       start: 16:15
       end: 16:30
     - name: Thought of the week (safeguarding)
+      type: personal-development
       url: https://www.notion.so/foundersandcoders/Personal-Development-91fe75c7e2cc4f989954108729a2c834
       start: 16:30
       end: 17:15
