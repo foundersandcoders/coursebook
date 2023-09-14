@@ -29,7 +29,6 @@ schedule:
       end: 16:15
       url: /course/syllabus/developer/introduction/topicIntro/
     - name: Break
-      url: /course/handbook/installation/
       start: 16:15
       end: 16:30
     - name: Thought of the week (safeguarding)
