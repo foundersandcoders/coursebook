@@ -23,7 +23,7 @@ schedule:
     - name: Course intro
       start: 15:00
       end: 15:30
-      url: https://fac-slides.netlify.app/slides/welcome-talk/#0
+      url: ttps://hackmd.io/@-k0vCiCrQFKCyNvAyIXaPA/r1AOaIlka
     - name: Reading for next topic & Installation
       start: 15:30
       end: 16:15
@@ -33,6 +33,7 @@ schedule:
       start: 16:15
       end: 16:30
     - name: Thought of the week (safeguarding)
+      type: personal-development
       url: https://www.notion.so/foundersandcoders/Personal-Development-91fe75c7e2cc4f989954108729a2c834
       start: 16:30
       end: 17:15

@@ -12,6 +12,7 @@ schedule:
       type: presentation
     - name: Thought of the week (British values)
       url: https://www.notion.so/foundersandcoders/Personal-Development-91fe75c7e2cc4f989954108729a2c834
+      type: personal-development
       start: 10:15
       end: 11:00
     - name: Discovery workshop
