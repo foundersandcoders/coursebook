@@ -23,7 +23,7 @@ schedule:
     - name: Course intro
       start: 15:00
       end: 15:30
-      url: ttps://hackmd.io/@-k0vCiCrQFKCyNvAyIXaPA/r1AOaIlka
+      url: https://hackmd.io/@-k0vCiCrQFKCyNvAyIXaPA/r1AOaIlka
     - name: Reading for next topic & Installation
       start: 15:30
       end: 16:15
