@@ -17,7 +17,7 @@ schedule:
       name: Lunch
     - name: Tech for Better
       start: 14:00
-      end: 15:30
+      end: 16:30
       url: /course/handbook/tech-for-better/
     - name: Break
       start: 15:30

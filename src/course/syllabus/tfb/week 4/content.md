@@ -1,4 +1,9 @@
-# Mapping the user journey (120 minutes)
+# Mapping the user journey (90 minutes)
+
+## Session summary
+
+- Create multiple user stories of what the user should be able to do with the app, prioritize each task, and estimate the time (60 minutes)
+- Work with the chosen Product Owner to map out the product idea.(60 mins)
 
 ## Why map the user journey?
 
@@ -16,7 +21,4 @@ For the second half, you will:
 
 1. **MAP** out how your users will go through your application. Start by listing all your users on the left hand side and have your end goal (usually the main task the user should be able to complete) on the right hand side. Then draw in all the steps in between the two, with a maximum of 10-15 steps.
 
-## Session summary
 
-- Create multiple user stories of what the user should be able to do with the app, prioritize each task, and estimate the time (60 minutes)
-- Work with the chosen Product Owner to map out the product idea.(60 mins)

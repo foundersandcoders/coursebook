@@ -1,8 +1,8 @@
-# Figma Workshop 2
+# Figma Workshop 2 (90 minutes)
 
 ## What will we be doing in this session?
 
-You spend the first 75 minutes of the session iterating over your Figma prototype using the feedback from the PO's
+You spend the first 45 minutes of the session iterating over your Figma prototype using the feedback from the PO's
 
 For the remaining 45 minutes you will create a usability testing script for the Product owner to use the following week.
 
@@ -54,25 +54,3 @@ How was your overall experience moving around the app?
 What else would you like it to do?
 Anything else you feel we should know?
 
-## Traffic light & Rainbow analysis
-
-To help you think about the kinds of questions to ask your users when creating your scripts it is important to understand the analysis process looks.
-
-**Traffic light analysis**
-
-During this analysis you create a spreadsheet or table with tasks you asked the users to complete as rows; and participants as columns. You can then mark whether the user:
-
-- Completed the task
-- Struggled with the task
-- Did not complete the task
-
-![Traffic light analysis](/assets/images/image.png)
-
-_It should look like this_
-
-**Rainbow Analysis**
-
-During this analysis you create a spreadsheet and list observations in rows, and participants in columns. Where an observation occurs, mark the cell, giving each participant a different colour.
-
-![Rainbow chart](/assets/images/image-1.png)
-_It should look like this_
