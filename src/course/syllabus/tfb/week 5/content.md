@@ -1,4 +1,4 @@
-# Figma Workshop 1
+# Figma Workshop 1 (90 minutes)
 
 ## What is prototyping?
 
@@ -20,7 +20,7 @@ It's ok if you haven't used Figma before we've put together some resources, that
 
 ## For Product Owners
 
-This week you should start thinking about creating a short summary/product pitch video for the developers to watch and decide which project they would like to work on. Even if your project is not chosen in week 7 you can use this video to pitch your idea and research to stakeholders or developers in the future.
+This week you should start thinking about creating a short summary/product pitch video for the developers to watch and decide which project they would like to work on. Even if your project is not chosen in week 9 you can use this video to pitch your idea and research to stakeholders or developers in the future.
 
 Here are a few things to think about when creating your pitches:
 

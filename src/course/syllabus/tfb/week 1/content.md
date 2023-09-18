@@ -35,17 +35,21 @@ This is how the next few weeks will look based on the Framework for Innovation:
 
 | Week | Session                                                                                 |
 | :--: | :-------------------------------------------------------------------------------------- |
-|  1   | Discover 1: Introduction & Discovery Workshop (2 hours)                                 |
-|  2   | Discover 2: User research (Product Owners go off and do their research with real users) |
-|  3   | Define 1: Research Analysis & Definition (2.5 Hours)                                    |
-|  4   | Define 2: Mapping the user journey (2 hours)                                            |
-|  5   | Develop 1: Figma Protyping Week 1 (2 hours)                                             |
-|  6   | Develop 2: Figma Protoyping Week 2 (2 hours)                                            |
-|  7   | Develop 3: Usability testing (1 hour) + Testing analysis (1 hour)                       |
-|  8   | Develop 4: Product Refinement (2 hours)                                                 |
-|  9   | Selection Week                                                                          |
+|  1   | Introduction (90 minutes)                                 |
+|  2   | Product pitches and discovery workshop (90 minutes)
+|  2-3    | User research - Product Owners carry out research with real users
+|  3   | Research Analysis & Definition (150 minutes)                                    |
+|  4   | Mapping the user journey (90 minutes)      |
+|  5   | Figma Protyping Week 1 (90 minutes)        |
+|  6   | Figma Protoyping Week 2 (90 minutes)      |
+|  7   | Product Pitches and selection (90 minutes)   |
+|  8   | No TFB                        |
+|  9   | No TFB                                                                       |
+|  10  | Design Sprint |
+| 11   | Build Sprint |
+| 12   | Build Sprint |
 
-Starting with Week 10 you will enter the 'Deliver' phase.
+
 
 ## What happens after the Product Management Phase?
 

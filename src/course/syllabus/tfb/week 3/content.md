@@ -1,5 +1,20 @@
 # Research Analysis & Definition (90 minutes)
 
+## Session summary
+
+- Summarise the research under specific headings (15 minutes)
+- Theme your notes, try to find commmon themes e.g. Ease of use (15 minutes)
+- Insights looking at the themes ask what does this mean? (15 minutes)
+- Inspirations (15 minutes)
+- Lightning talks (10 minutes)
+- Crazy eights (8 minutes)
+- The Big Idea (4 minutes)
+- Upload (5 minutes)
+- Discuss your crazy eights (10 minutes)
+- Low fidelity wireframes (20 minutes)
+- Dot vote (5 minutes)
+- Discussion (25 minutes)
+
 # User research
 
 ## An Intro to research
@@ -18,15 +33,6 @@ There are two main avenues to analysing results from testing:
 **Qualitative research** seeks to understand subjective experiences and perspectives through non-numerical data.
 
 **Quantitative research** uses numerical data to analyze relationships and draw objective conclusions.
-
-## Things to remember when conducting Research
-
-- **User research is not “validation” or usability testing.**
-- Always introduce yourself and give context. WHAT are you conducting research for? WHY are you conducting research? HOW will their feedback help?
-- Try NOT to ask leading questions! e.g. "Do you agree that our app is the most user-friendly and efficient solution in the market?"
-- Try to keep your questions open-ended. e.g. "On a scale of 1 to 10, where 1 is very unlikely and 10 is very likely, How likely are you to take a recommendation for a film from a friend"
-- It's OK to go off script and ask questions that go with the flow of the conversation.
-- Remember to thank users for their time.
 
 ## How do we conduct research analysis?
 
@@ -50,17 +56,4 @@ Definition focuses on moving from an idea to something we can prototype. It is b
 8. **DOT VOTE** - Mark what draws your attention or interest on Miro.
 9. **DISCUSS** - Come together to discuss what you’ve created and what to move forward with.
 
-## Session summary
 
-- Summarise the research under specific headings (15 minutes)
-- Theme your notes, try to find commmon themes e.g. Ease of use (15 minutes)
-- Insights looking at the themes ask what does this mean? (15 minutes)
-- Inspirations (20 minutes)
-- Lightning talks (10 minutes)
-- Crazy eights (8 minutes)
-- The Big Idea (4 minutes)
-- Upload (5 minutes)
-- Discuss your crazy eights (10 minutes)
-- Low fidelity wireframes (20 minutes)
-- Dot vote (5 minutes)
-- Discussion (25 minutes)

@@ -12,12 +12,16 @@ schedule:
       end: 13:00
       url: https://github.com/foundersandcoders/react-state-challenge
       type: challenge
-    - name: Discuss project ideas
+    - name: Tech For Better
       start: 14:00
       end: 15:30
-    - name: Choose a project idea
+    - name: Present and choose in-house project idea
       start: 15:45
-      end: 16:00
+      end: 16:45
+    - name: Project and project spike 
+      url: https://learn.foundersandcoders.com/course/syllabus/developer/client-side-app/project/#spike
+      start: 16:45
+      end: 17:45
   tuesday:
   wednesday:
   thursday:
