@@ -2,12 +2,11 @@ monday:
   - start: 9:45
     end: 10:00
     name: Check-in
-    type: boo
   - start: 10:00
-    end: 10:30
+    end: 10:15
     name: Group discussion
     type: workshop
-  - start: 10:30
+  - start: 10:15
     end: 11:00
     name: Cohort discussion
     type: workshop
