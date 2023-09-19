@@ -23,8 +23,16 @@ schedule:
     - start: 13:00
       end: 14:00
       name: Lunch
-    - name: Usability Testing analysis and product refinement
+    - name: Usability Testing analysis
       start: 14:00
+      end: 15:30
+      url: https://fac-slides.netlify.app/slides/ut-synthesis/#0
+      type: project
+    - name: Break
+      start: 15:30
+      end: 15:45
+    - name: Product refinement
+      start: 15:45
       end: 17:45
       url: https://fac-slides.netlify.app/slides/ut-synthesis/#0
       type: project

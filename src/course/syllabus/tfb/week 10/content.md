@@ -31,13 +31,14 @@
 
 ### Friday
 
-- Build ( the whole day)
+- Project documentation
+- Build (the whole day)
 
 Refer to the schedule [**here**](/course/syllabus/developer/projects/TFB-design/schedule/)
 
-# Usability testing (90 minutes)
+# Usability testing (120 minutes)
 
-Video goes here
+<!-- Video goes here -->
 
 ## What is usability testing?
 
@@ -71,6 +72,8 @@ After 2 hours you should have oservations from 5-6 different users, you can then
 - Give users time to **work out things for themselves** before jumping in to help them out.
 - Remember to thank users for their time.
 
+# Usability testing analysis (90 minutes)
+
 ## Traffic light & Rainbow analysis
 
 To help you think about the kinds of questions to ask your users when creating your scripts it is important to understand the analysis process looks.
@@ -94,10 +97,10 @@ During this analysis you create a spreadsheet and list observations in rows, and
 ![Rainbow chart](/assets/images/image-1.png)
 _It should look like this_
 
-# Product Refinement
+# Product Refinement (120 minutes)
 
 ## What will we be doing in this session?
 
-In this session you will spend 90 minutes refining your figma prototypes using the usability testing from the last week.
+In this session you will refine your figma prototypes using the usability testing from this morning.
 
 - **Remember** you do not have to take on-board all the feedback that you got.
