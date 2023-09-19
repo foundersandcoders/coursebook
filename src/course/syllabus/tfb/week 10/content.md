@@ -1,5 +1,40 @@
 ## What will we be doing this week?
 
+### Monday
+
+- Usability testing
+- Usability testing analysis
+- Product refinement
+
+### Tuesday
+
+- Choose roles
+- Code planning
+- Technical Spike
+
+### Wednesday
+
+- Sprint planning
+- Build (rest of the day)
+
+<!-- - Project documentation (1 hour) -->
+
+### Thursday
+
+- Live code review
+- Sprint planning
+- Presentation prep
+- Team SGC
+- Presentations
+- Feedback session
+- Speaker @ 5pm
+
+### Friday
+
+- Build ( the whole day)
+
+Refer to the schedule [**here**](/course/syllabus/developer/projects/TFB-design/schedule/)
+
 # Usability testing (90 minutes)
 
 Video goes here
@@ -36,32 +71,33 @@ After 2 hours you should have oservations from 5-6 different users, you can then
 - Give users time to **work out things for themselves** before jumping in to help them out.
 - Remember to thank users for their time.
 
-Refer to the schedule [**here**](/course/syllabus/developer/projects/TFB-design/schedule/)
+## Traffic light & Rainbow analysis
 
-### Monday
+To help you think about the kinds of questions to ask your users when creating your scripts it is important to understand the analysis process looks.
 
-- Choose Roles (15 minutes)
-- Code planning/ Technical Spike (Rest of the day)
+**Traffic light analysis**
 
-### Tuesday
+During this analysis you create a spreadsheet or table with tasks you asked the users to complete as rows; and participants as columns. You can then mark whether the user:
 
-- Technical Spike (1 hour)
-- Sprint planning (2 hours)
-- Presentation prep (0.5 hours)
-- Feedback session (1 hour)
-- Sprint planning (1.5 hours)
-- Presentations (1 hour)
+- Completed the task
+- Struggled with the task
+- Did not complete the task
 
-### Wednesday
+![Traffic light analysis](/assets/images/image.png)
 
-- Project documentation (1 hour)
-- Build (rest of the day)
+_It should look like this_
 
-### Thursday
+**Rainbow Analysis**
 
-- Build ( the whole day)
-- Speaker @ 5pm
+During this analysis you create a spreadsheet and list observations in rows, and participants in columns. Where an observation occurs, mark the cell, giving each participant a different colour.
 
-### Friday
+![Rainbow chart](/assets/images/image-1.png)
+_It should look like this_
 
-- Build ( the whole day)
+# Product Refinement
+
+## What will we be doing in this session?
+
+In this session you will spend 90 minutes refining your figma prototypes using the usability testing from the last week.
+
+- **Remember** you do not have to take on-board all the feedback that you got.
