@@ -2,9 +2,9 @@
 layout: schedule
 schedule:
   monday:
-    - start: 9:45
+    - name: Check-in
+      start: 9:45
       end: 10:00
-      name: Check-in
     - name: Definition presentation
       start: 10:00
       end: 10:15
@@ -15,66 +15,72 @@ schedule:
       type: personal-development
       start: 10:15
       end: 11:00
-    - name: Definition workshop
+    - name: Tech For Better - Usability Testing
       start: 11:00
       end: 13:00
+      url: https://fac-slides.netlify.app/slides/usability-testing/#0
       type: workshop
     - start: 13:00
       end: 14:00
       name: Lunch
-    - name: Wireframing
+    - name: Usability Testing analysis
       start: 14:00
+      end: 15:30
+      url: https://fac-slides.netlify.app/slides/ut-synthesis/#0
+      type: project
+    - name: Break
+      start: 15:30
+      end: 15:45
+    - name: Product refinement
+      start: 15:45
       end: 17:45
+      url: https://fac-slides.netlify.app/slides/ut-synthesis/#0
       type: project
     - start: 17:45
       end: 18:00
       name: Check-out
   tuesday:
-    - name: Wireframe review with Product Owner
+    - name: Choose Roles
       start: 10:00
       end: 10:30
+      url: /course/handbook/project-team
       type: project
-    - name: Wireframing
+    - name: Code Planning
       start: 10:30
       end: 13:00
+      url: https://fac-slides.netlify.app/slides/code-planning/#0
       type: project
-    - name: Usability testing
+    - name: Code Planning
       start: 14:00
       end: 16:00
-      url: https://fac-slides.netlify.app/slides/usability-testing/#0
-    - name: Usability Testing Analysis
+      url: https://fac-slides.netlify.app/slides/code-planning/#0
+      type: project
+    - name: Technical Spikes
       start: 16:00
       end: 17:45
-      type: project
-      url: https://fac-slides.netlify.app/slides/ut-synthesis/#0
+      url: "./../spikes"
   wednesday:
     - name: Web Science
       start: 10:00
       end: 11:00
       type: presentation
-    - name: Choose Roles
+    - name: Sprint planning
       start: 11:00
-      end: 11:15
-      url: /course/handbook/project-team
-    - name: Code Planning
-      start: 11:15
       end: 13:00
-      url: https://fac-slides.netlify.app/slides/code-planning/#0
       type: project
-    - name: Code Planning
+      url: /course/handbook/project-docs/sprint-planning
+    - name: Build
       start: 14:00
-      end: 16:00
+      end: 15:45
       type: project
-      url: https://fac-slides.netlify.app/slides/code-planning/#0
-    - name: Technical Spikes
+    - name: Break
+      start: 15:45
+      end: 16:00
+    - name: Build
       start: 16:00
       end: 17:45
-      url: "./../spikes"
+      type: project
   thursday:
-    - name: Technical Spikes
-      start: 10:00
-      end: 11:00
-      url: "./../spikes"
     - name: Sprint planning
       start: 11:00
       end: 13:00

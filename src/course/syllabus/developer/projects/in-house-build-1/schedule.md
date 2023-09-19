@@ -6,11 +6,8 @@ schedule:
       start: 10:00
       end: 13:00
       type: project
-    - name: Tech for Better
-      start: 14:00
-      end: 15:30
     - name: Build
-      start: 15:30
+      start: 14:00
       end: 17:15
       type: project
     - name: Thought of the week (CIAG)
