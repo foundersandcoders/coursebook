@@ -135,8 +135,11 @@ thursday:
     name: Check-out
 friday:
   - start: 9:45
-    end: 9:50
+    end: 10:00
     name: Feedback survey
+  - start: 10:00
+    end: 10:30
+    name: Progress Log
   - name: Workshop
-    start: 9:50
+    start: 10:30
     end: 18:00
