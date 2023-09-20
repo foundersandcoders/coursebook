@@ -39,6 +39,6 @@ schedule:
     - name: React workshop
       url: /learn/react
       type: workshop
-      start: 9:50
+      start: 10:30
       end: 18:00
 ---

@@ -79,7 +79,7 @@ schedule:
       end: 17:00
   friday:
     - name: Respond to issues / Build
-      start: 9:50
+      start: 9:45
       end: 13:00
       type: project
     - start: 13:00

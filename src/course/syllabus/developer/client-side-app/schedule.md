@@ -18,7 +18,7 @@ schedule:
     - name: Present and choose in-house project idea
       start: 15:45
       end: 16:45
-    - name: Project and project spike 
+    - name: Project and project spike
       url: https://learn.foundersandcoders.com/course/syllabus/developer/client-side-app/project/#spike
       start: 16:45
       end: 17:45
@@ -36,6 +36,6 @@ schedule:
     - name: Learn Next.js
       url: https://nextjs.org/learn/basics/create-nextjs-app
       type: workshop
-      start: 9:50
+      start: 10:30
       end: 18:00
 ---

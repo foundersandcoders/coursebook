@@ -103,7 +103,7 @@ schedule:
       end: 16:50
   friday:
     - name: Project documentation
-      start: 9:50
+      start: 9:45
       end: 10:30
       url: /course/handbook/project-documentation/
     - name: Build

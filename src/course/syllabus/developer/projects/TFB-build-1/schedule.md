@@ -77,8 +77,11 @@ schedule:
       start: 16:45
       end: 17:00
   friday:
+    - name: Progress Log
+      start: 9:45
+      end: 10:15
     - name: Build
-      start: 9:50
+      start: 10:15
       end: 13:00
       type: project
     - start: 13:00
