@@ -2,7 +2,7 @@
 layout: schedule
 schedule:
   monday:
-    - name: Thought of the week (British values)
+    - name: Thought of the week (Misinformation, Disinformation and the threat to Democracy)
       url: https://www.notion.so/foundersandcoders/Personal-Development-91fe75c7e2cc4f989954108729a2c834
       type: personal-development
       start: 11:00
