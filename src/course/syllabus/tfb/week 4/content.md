@@ -2,8 +2,8 @@
 
 ## Session summary
 
-- Create multiple user stories of what the user should be able to do with the app, prioritize each task, and estimate the time (60 minutes)
-- Work with the chosen Product Owner to map out the product idea.(60 mins)
+- Create multiple user stories of what the user should be able to do with the app, prioritize each task, and estimate the time (50 minutes)
+- Work with the chosen Product Owner to map out the product idea (40 mins)
 
 ## Why map the user journey?
 
