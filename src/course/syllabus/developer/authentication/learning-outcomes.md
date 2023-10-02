@@ -35,13 +35,21 @@
 - [ ] **Configure ESLint to catch common JS errors**
 - [ ] Describe how a linter helps us write code
 
-## Developer Toolkit
+
+
+
+
+### Viewing browser cookies
+
+- [ ] **Use the Application tab in Chrome dev tools to view cookies**
+
+## DevOps
 
 ### Continuous Integration
 
 - [ ] **Set up a continuous integration server**
 - [ ] Run tests and linter in CI to prevent broken code reaching Master
 
-### Viewing browser cookies
-
-- [ ] **Use the Application tab in Chrome dev tools to view cookies**
+### Secure Deployment Pipeline
+- [ ] **Integrate security scanning or checks into the CI/CD pipeline**
+- [ ] Restrict access to the deployment process
