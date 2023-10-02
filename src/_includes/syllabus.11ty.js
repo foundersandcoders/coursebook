@@ -66,6 +66,10 @@ exports.render = ({
             !isTechforBetterPage &&
             html`<${Tab} page=${page} href="topicIntro">Topic Intro</${Tab}>`
           }
+          ${
+            tabs.devOps !== false &&
+            html`<${Tab} page=${page} href="devOps">DevOps</${Tab}>`
+          }
         </${Tabs}>
       </header>
       <${RawContent} class="flow">${content}</${RawContent}>
