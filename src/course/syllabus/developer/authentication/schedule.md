@@ -20,15 +20,12 @@ schedule:
       end: 16:30
       url: /course/handbook/tech-for-better/
     - name: Break
-      start: 15:30
-      end: 15:45
+      start: 16:30
+      end: 16:45
     - name: Intro to final projects
-      start: 15:45
-      end: 16:00
-      url: https://fac-slides.netlify.app/slides/final-projects/#0
-    - name: Feedback Training
-      start: 16:00
+      start: 16:45
       end: 17:00
+      url: https://fac-slides.netlify.app/slides/final-projects/#0
     - name: Project and spike intro
       start: 17:00
       end: 17:15
