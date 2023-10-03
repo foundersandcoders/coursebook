@@ -184,6 +184,13 @@ In vanilla JavaScript, the equivalent code requires manual element creation, man
 
 JSX, with the help of a tool like Babel, transpiles the code into plain JavaScript, but it enhances the readability and maintainability of the code for developers working with React or JSX-based frameworks.
 
+
+## DevOps
+
+- ## [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/)
+  Amazon CloudWatch is a monitoring tool used to collect and visualise real-time logs, metrics, and event data in automated dashboards.
+  
+
 ## Further reading
 
 - ### [Programming Paradigms – Paradigm Examples for Beginners](https://www.freecodecamp.org/news/an-introduction-to-programming-paradigms/)
