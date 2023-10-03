@@ -8,4 +8,4 @@ These resources are helpful extra reading that may clarify or enhance concepts y
 ## DevOps
 
 - ### [National Cyber Security Center](https://www.ncsc.gov.uk/collection/developers-collection)
-The 8 Principles of Secure Development & Deployment set out by the National Cyber Security Center designed to help you improve and evaluate your development practices
+  The 8 Principles of Secure Development & Deployment set out by the National Cyber Security Center 
