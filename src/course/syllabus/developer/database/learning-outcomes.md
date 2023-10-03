@@ -31,3 +31,8 @@
 
 - [ ] Create a separate database for testing
 - [ ] Test that our database access works correctly
+
+## Database
+
+- [ ] Understand the difference between SQL and NoSQL databases 
+- [ ] Understand and apply best practices for securing database access

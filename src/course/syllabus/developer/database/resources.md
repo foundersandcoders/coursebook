@@ -10,3 +10,9 @@ These resources are helpful extra reading that may clarify or enhance concepts y
   Summary of one of the most common ways web apps get hacked
 - ### [Express SQLite example](https://github.com/oliverjam/express-sqlite-example)
   An example of how you might structure a project using Express & SQlite
+
+
+## DevOps
+
+- ### [sql-vs-nosql](https://www.integrate.io/blog/the-sql-vs-nosql-difference/#:~:text=SQL%20databases%20are%20relational%2C%20and,NoSQL%20databases%20are%20horizontally%20scalable)
+  5 Critical Differences
