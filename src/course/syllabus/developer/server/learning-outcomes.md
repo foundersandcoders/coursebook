@@ -36,6 +36,13 @@
 - [ ] Write tests with the built-in Node Test Runner
 - [ ] Create package.json scripts that run our tests
 
+## DevOps
+
+- [ ] Set up continuous deployment using fly.io
+- [ ] Learn how automated builds are triggered by code changes.
+- [ ] Manage environment variables and secrets
+
+
 ## Developer Toolkit
 
 ### User stories
