@@ -24,3 +24,9 @@
 - [ ] Understand and calculate velocity for a sprint
 - [ ] Know how to participate in a sprint review
 - [ ] Know how to participate in a sprint retrospective
+
+## DevOps
+
+- [ ] Host your website with AWS
+- [ ] Use Terraform to customise deployment and manage of AWS resources
+- [ ] Configure monitoring tools to provide visible and actionable alerts

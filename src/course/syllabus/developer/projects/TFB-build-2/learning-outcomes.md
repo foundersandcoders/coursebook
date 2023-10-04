@@ -35,3 +35,9 @@
 
 - [ ] Know how to write project documentation
 - [ ] Be aware of what to include in a product presentation
+
+## DevOps
+
+- [ ] Host your website with AWS
+- [ ] Use Terraform to customise deployment and manage of AWS resources
+- [ ] Configure monitoring tools to provide visible and actionable alerts

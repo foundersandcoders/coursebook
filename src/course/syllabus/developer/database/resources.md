@@ -14,5 +14,5 @@ These resources are helpful extra reading that may clarify or enhance concepts y
 
 ## DevOps
 
-- ### [sql-vs-nosql](https://www.integrate.io/blog/the-sql-vs-nosql-difference/#:~:text=SQL%20databases%20are%20relational%2C%20and,NoSQL%20databases%20are%20horizontally%20scalable)
+- ### [SQL-vs-noSQL](https://www.integrate.io/blog/the-sql-vs-nosql-difference/#:~:text=SQL%20databases%20are%20relational%2C%20and,NoSQL%20databases%20are%20horizontally%20scalable)
   5 Critical Differences

@@ -36,3 +36,5 @@
 
 - [ ] Understand the difference between SQL and NoSQL databases 
 - [ ] Understand and apply best practices for securing database access
+- [ ] Customise deployment using deployment scripts
+- [ ] Set up fly.io volumes
