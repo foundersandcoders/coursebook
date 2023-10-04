@@ -33,5 +33,5 @@
 ## DevOps
 
 - [ ] Host your website with AWS
-- [ ] Use Terraform to customise deployment and manage of AWS resources
+- [ ] Use Terraform to customise deployment and manage AWS resources
 - [ ] Configure monitoring tools to provide visible and actionable alerts
