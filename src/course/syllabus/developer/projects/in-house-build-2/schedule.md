@@ -71,7 +71,7 @@ schedule:
     - name: Progress Log
       start: 9:45
       end: 10:30
-    - start: 11:30
+    - start: 10:30
       end: 11:30
       name: Progress Log Review
     - name: Consolidation day
