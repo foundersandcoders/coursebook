@@ -8,5 +8,5 @@
 ## DevOps
 
 ### Monitoring 
-- [ ] **Implement monitoring tools for collecting and analysing metrics and logs** and configure to provide actionable alerts
+- [ ] Implement monitoring tools for collecting and analysing metrics and logs and configure to provide actionable alerts
 
