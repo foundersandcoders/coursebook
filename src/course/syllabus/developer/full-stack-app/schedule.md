@@ -29,7 +29,10 @@ schedule:
       end: 16:00
       url: https://fac-slides.netlify.app/slides/design-sprint/
   friday:
+    - start: 10:30
+      end: 11:30
+      name: Progress Log Review
     - name: Consolidation day
-      start: 10:30
+      start: 11:30
       end: 18:00
 ---

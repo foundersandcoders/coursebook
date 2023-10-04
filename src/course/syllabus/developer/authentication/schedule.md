@@ -138,6 +138,9 @@ schedule:
       name: Check-out
   friday:
     - start: 10:30
+      end: 11:30
+      name: Progress Log Review
+    - start: 11:30
       end: 18:00
       name: Consolidation
 ---
