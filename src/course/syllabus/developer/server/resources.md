@@ -7,8 +7,7 @@ These resources are helpful extra reading that may clarify or enhance concepts y
 - ### [What is a web server?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server)
   General background info on how servers work
 
-
 ## DevOps
 
 - ### [What is continuous deployment?](https://www.gatsbyjs.com/docs/glossary/continuous-deployment/)
-  Gatsby is a React-based open source framework for creating websites.
+  Gatsby is a React-based open source framework for creating websites. They provide an outline continuous deployment.
