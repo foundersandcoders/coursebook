@@ -12,13 +12,14 @@ schedule:
       type: project
       start: 12:00
       end: 13:00
-    - name: Present and choose in-house project idea
+    - name: Schedule research and testing
       start: 15:45
-      end: 16:45
+      end: 16:00
+      url: https://fac-slides.netlify.app/slides/research-and-testing/
     - name: Project
       url: ../project/
       type: project
-      start: 16:45
+      start: 16:00
       end: 17:45
   tuesday:
   wednesday:
