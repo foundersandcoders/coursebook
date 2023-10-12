@@ -15,12 +15,13 @@ schedule:
     - name: Tech For Better
       start: 14:00
       end: 15:30
-    - name: Present and choose in-house project idea
+    - name: Schedule research and testing
       start: 15:45
-      end: 16:45
+      end: 16:00
+      url: https://fac-slides.netlify.app/slides/research-and-testing/
     - name: Project and project spike
       url: https://learn.foundersandcoders.com/course/syllabus/developer/client-side-app/project/#spike
-      start: 16:45
+      start: 16:00
       end: 17:45
   tuesday:
   wednesday:

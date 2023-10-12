@@ -43,11 +43,11 @@ button.icon > svg {
 }
 
 .stripes {
-  --stripe: var(--bg-400);
+  --stripe: hsl(226.5,94.4%,82%);
   background-image: repeating-linear-gradient(
     -45deg,
     var(--stripe),
-    var(--stripe) 2px,
+    var(--stripe) 1px,
     transparent 2px,
     transparent 8px
   );
@@ -55,7 +55,7 @@ button.icon > svg {
 
 .highlight {
   max-width: max-content;
-  background: var(--bg, white);
+  background: var(--bg, #ffe58a);
   padding: 0.25rem 0.5rem;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
@@ -155,7 +155,7 @@ copy-text > button {
 
 .box-default {
   --shadow: var(--primary-100);
-  --bg: var(--primary-700);
+  --bg: var(--primary-100);
 }
 
 .box-success {
@@ -165,5 +165,5 @@ copy-text > button {
 
 .box-error {
   --shadow: var(--quarternary-100);
-  --bg: var(--quarternary-700);
+  --bg: var(--quarternary-100);
 }

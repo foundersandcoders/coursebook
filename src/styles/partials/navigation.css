@@ -23,7 +23,7 @@ nav a {
   padding: var(--padding);
   font-size: 0.875rem;
   line-height: 1;
-  color: var(--text-300);
+  color: var(--text-200);
 }
 
 .sidebar-nav__content {
@@ -35,7 +35,7 @@ nav a {
   display: inline;
   text-transform: uppercase;
   font-size: inherit;
-  color: var(--text-400);
+  color: var(--text-300);
   letter-spacing: 1px;
   transition: color 0.2s;
 }
@@ -47,6 +47,7 @@ nav a {
 }
 
 .sidebar-nav__link:hover {
+  font-weight: 450;
   color: var(--text-100);
 }
 

@@ -6,7 +6,7 @@ exports.data = {
 };
 
 exports.render = () => html`
-  <header class="stripes pad-xxl">
+  <header class="pad-xxl">
     <div class="vstack ji-center tac">
       <h1 class="highlight">Founders and Coders Curriculum</h1>
       <p class="highlight fz-lg">
