@@ -18,7 +18,6 @@ schedule:
     - name: Present and choose in-house project idea
       start: 15:45
       end: 16:45
-      url: https://fac-slides.netlify.app/slides/research-and-testing/
     - name: Project and project spike
       url: https://learn.foundersandcoders.com/course/syllabus/developer/client-side-app/project/#spike
       start: 16:45
