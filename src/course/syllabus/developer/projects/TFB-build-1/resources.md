@@ -8,8 +8,9 @@ Why use Cloud APIs?
 * Flexibility: Customise per requirements.
 * Integration: Blend with CI/CD pipelines and other DevOps tools.
 
-### Interacting with Cloud APIs
-1. Setting Up:
+## Interacting with Cloud APIs
+
+### 1. Setting Up:
 
 Before making any requests to a cloud provider’s API, you need to ensure you have the correct permissions and authentication setup.
 
@@ -23,12 +24,12 @@ Before making any requests to a cloud provider’s API, you need to ensure you h
     - Hardcoding or manually handling credentials can lead to security breaches.
     - [AWS secrets manager](https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html) is a service that helps you protect access to your applications, services, and IT resources without the upfront infrastructure management. Secrets can be database credentials, passwords, third-party API keys, etc. AWS Secrets Manager Documentation.
 
-2. Choosing an SDK:
+### 2. Choosing an SDK:
     - Software Development Kits (SDKs) facilitate API interactions by providing pre-written code in various languages.
     - For AWS: The SDK is called Boto3. It offers Python interfaces to AWS services. With Boto3, you can create, configure, and manage AWS services.
     [Boto3 documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
     
-3. Making Requests:
+### 3. Making Requests:
 
 Here, you communicate with the cloud service, requesting various operations.
 
@@ -46,7 +47,7 @@ Here, you communicate with the cloud service, requesting various operations.
 - De-provisioning: When a resource is no longer required, it should be terminated or stopped to prevent incurring unnecessary charges.
     - E.g., Terminating an unused EC2 instance or deleting an obsolete S3 bucket.
 
-4. Handling Responses:
+### 4. Handling Responses:
 
 Every API call receives a response. Handling these responses correctly is crucial.
 
