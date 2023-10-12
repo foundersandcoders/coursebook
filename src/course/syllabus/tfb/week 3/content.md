@@ -1,4 +1,4 @@
-# Research Analysis & Definition (90 minutes)
+# Research Analysis & Definition (150 minutes)
 
 ## Session summary
 
