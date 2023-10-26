@@ -52,12 +52,8 @@ schedule:
       url: https://fac-slides.netlify.app/slides/definition1/#0
     - name: Definition workshop
       start: 10:15
-      end: 12:00
-      type: workshop
-    - name: Figma introduction
-      start: 12:00
       end: 13:00
-      type: presentation
+      type: workshop
     - name: Tech for Better
       start: 14:00
       end: 15:30
