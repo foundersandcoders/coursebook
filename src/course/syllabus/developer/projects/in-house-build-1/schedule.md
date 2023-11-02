@@ -58,17 +58,13 @@ schedule:
       end: 13:00
       type: project
       url: /course/handbook/project-docs/sprint-planning
-    - name: Presentation prep
+    - name: Tech For Better prototyping
       start: 14:00
-      end: 14:45
-      url: /course/handbook/project-presentations/
+      end: 15:45
     - name: Team SGC
-      start: 14:45
-      end: 15:15
-      url: /course/handbook/retrospectives/#team-retrospectives
-    - name: Presentations
-      start: 15:15
+      start: 15:45
       end: 16:15
+      url: /course/handbook/retrospectives/#team-retrospectives
       type: presentation
     - name: Project documentation
       start: 16:15
