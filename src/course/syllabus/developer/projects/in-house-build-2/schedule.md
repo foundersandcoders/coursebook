@@ -6,17 +6,17 @@ schedule:
       start: 10:00
       end: 13:00
       type: project
-    - name: Tech for Better
-      start: 14:00
-      end: 15:30
-    - name: Build
-      start: 15:30
-      end: 17:15
-      type: project
-    - name: Thought of the week (extra-curricular)
+    - name: Thought of the Week
       url: https://www.notion.so/foundersandcoders/Personal-Development-91fe75c7e2cc4f989954108729a2c834
       type: personal-development
-      start: 17:15
+      start: 14:00
+      end: 14:45
+    - name: Build
+      start: 14:45
+      end: 17:45
+      type: project
+    - name: Check out
+      start: 17:45
       end: 18:00
   tuesday:
     - name: Build
