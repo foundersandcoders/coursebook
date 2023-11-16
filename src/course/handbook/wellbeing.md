@@ -32,6 +32,7 @@ During these walks, your CF will:
 ### Foundation programme
 
 - Discuss employment expectations
+- Discuss any interpersonal challenges that have come up
 - Identify future plans
 - Ask questions about curriculum work (the structure and not the code)
 
@@ -46,5 +47,5 @@ During these walks, your CF will:
 
 After each pastoral walk, your CF will note down:
 
-- Any concerns you've shared during the walk. that need sharing What you've shared during the walk.
+- Any concerns that you've shared during the programme
 - Any agreed actions: Any advice or steps suggested, including follow-ups.
