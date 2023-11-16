@@ -47,4 +47,4 @@ During these walks, your CF will:
 After each pastoral walk, your CF will note down:
 
 - Any concerns you've shared during the walk. that need sharing What you've shared during the walk.
-- Proposed Actions/Solutions: Any advice or steps suggested, including follow-ups.
+- Any agreed actions: Any advice or steps suggested, including follow-ups.
