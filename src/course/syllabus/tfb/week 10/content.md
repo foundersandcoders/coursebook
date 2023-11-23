@@ -21,7 +21,7 @@
 
 ### Thursday
 
-- Live code review
+- Expert Feedback - Live code review
 - Sprint planning
 - Presentation prep
 - Team SGC

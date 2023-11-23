@@ -96,8 +96,9 @@ thursday:
     name: Check-in
   - start: 10:00
     end: 11:00
-    name: Live code review
+    name: Expert Feedback - Live code review
     url: /course/handbook/code-review/
+    type: expert-feedback
   - start: 11:00
     end: 12:00
     name: Respond to issues

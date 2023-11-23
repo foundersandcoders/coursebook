@@ -96,10 +96,6 @@ schedule:
     - name: Check-in
       start: 9:45
       end: 10:00
-    - start: 10:00
-      end: 11:00
-      name: Live code review
-      url: /course/handbook/code-review/
     - start: 11:00
       end: 12:00
       name: Respond to issues

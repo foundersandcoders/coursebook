@@ -78,6 +78,11 @@
   --sat: 60%;
 }
 
+.entry.expert-feedback {
+  --hue: 100;
+  --sat: 60%;
+}
+
 .entry dt {
   font-size: 0.75rem;
 }
