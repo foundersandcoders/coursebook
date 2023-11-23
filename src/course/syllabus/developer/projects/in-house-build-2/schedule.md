@@ -68,12 +68,10 @@ schedule:
       end: 16:00
       url: /course/handbook/project-documentation/
   friday:
-    - name: Progress Log
-      start: 9:45
-      end: 10:30
-    - start: 10:30
+    - name: Progress Log Review
+      start: 10:00
       end: 11:30
-      name: Progress Log Review
+      type: expert-feedback
     - name: Consolidation day
       start: 11:30
       end: 18:00
