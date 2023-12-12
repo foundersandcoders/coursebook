@@ -2,6 +2,6 @@
   "tabs": {
     "learnings": false,
     "spikes": false,
-    "resources": false
+    "resources": true
   }
 }

@@ -1,6 +1,6 @@
 {
   "tabs": {
-    "spikes": false,
+    "spikes": true,
     "resources": false
   }
 }
