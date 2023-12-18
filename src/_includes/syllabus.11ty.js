@@ -63,6 +63,7 @@ exports.render = ({
           }
           ${
             tabs.resources !== false &&
+            !isFoundationPage &&
             html`<${Tab} page=${page} href="resources">Resources</${Tab}>`
           }
           
