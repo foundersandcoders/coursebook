@@ -38,6 +38,13 @@ exports.render = ({
             html`<${Tab} page=${page} href="spikes">Spikes</${Tab}>`
           }
           ${
+            tabs.employability !== false &&
+            !isDeveloperPage &&
+            !isApplicationPage &&
+            !isTechforBetterPage &&
+            html`<${Tab} page=${page} href="employability">Employability</${Tab}>`
+          }
+          ${
             tabs.project !== false &&
             !isTechforBetterPage &&
             html`<${Tab} page=${page} href="project">Project</${Tab}>`

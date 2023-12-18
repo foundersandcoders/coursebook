@@ -1,6 +1,7 @@
 {
   "tabs": {
     "learnings": false,
+    "employability": false,
     "spikes": false,
     "resources": true
   }
