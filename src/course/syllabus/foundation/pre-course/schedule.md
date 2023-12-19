@@ -1,5 +1,6 @@
 We'd like you to spend some time before starting the course working on useful fundamentals.
 
+
 1. [Command-line primer](https://www.digitalocean.com/community/tutorials/a-linux-command-line-primer)
 
    Digital Ocean's Command Line Primer is a great intro to using your terminal. It says it's for Linux but it's applicable for Macs, and Windows if you're using something like WSL or Git Bash.
