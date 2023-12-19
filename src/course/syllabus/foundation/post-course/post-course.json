@@ -2,7 +2,7 @@
   "tabs": {
     "learnings": false,
     "spikes": false,
-    "resources": false,
-    "project": false
+    "project": false,
+    "homework": false
   }
 }

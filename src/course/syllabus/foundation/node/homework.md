@@ -14,10 +14,8 @@ This is a guide to what you should be doing for homework each week. Please reach
 
 ### Week 6
 
-<!-- - Q&A
-- Mock interviews
-- LinkedIn profile crit
-- Project planning and development
-- Live code session: Javascript object methods
-- Project Code Reviews
-- Project presentations -->
+- [Homework quiz]()
+- Complete portfolio Node section
+- Complete the Intro to testing, Build a testing library, Unit testing workshop, Integration testing workshop and TDD workshop workshops ahead of Week 7
+
+### UNSCHOOL

@@ -1,3 +1,7 @@
+## Learning Outcomes
+
+You should be focusing on meeting these learning outcomes over the three-week period. You will be tested on your learning in the [homework quiz]() at the end of learning block.
+
 ## Accessibility
 
 - [ ] Structure a site using semantic HTML to aid accessibility
@@ -20,3 +24,4 @@
 ## HTML Forms
 
 - [ ] Use the appropriate input types in HTML forms for gathering different types of information
+- [ ] Ensure that forms are accessible and include appropriate labeling for screen readers

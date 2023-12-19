@@ -19,3 +19,4 @@ We'd like you to spend some time before starting the course working on useful fu
 1. [Colour palette project](../project)
 
    If you'd like some extra practice we've put together an open-ended project that you can use to work on your HTML, CSS & JS fundamentals.
+
