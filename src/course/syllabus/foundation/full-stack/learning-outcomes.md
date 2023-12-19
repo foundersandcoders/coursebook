@@ -1,4 +1,4 @@
-These questions are designed to give you an idea of what concepts you might need to revisit. Write down your answers as you go, and try to answer honestly without looking things up. You're just trying to get a sense of what things you should focus revision on, it's not a test!
+<!-- These questions are designed to give you an idea of what concepts you might need to revisit. Write down your answers as you go, and try to answer honestly without looking things up. You're just trying to get a sense of what things you should focus revision on, it's not a test!
 
 ## Git
 
@@ -92,4 +92,4 @@ These questions are designed to give you an idea of what concepts you might need
 
 - [ ] What process would you take to find out why your code isn't working?
 - [ ] What tools do JS/dev tools have to help debug your code?
-- [ ] At what point should you ask for someone else's help?
+- [ ] At what point should you ask for someone else's help? -->
