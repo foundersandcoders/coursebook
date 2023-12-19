@@ -5,4 +5,4 @@ This is a guide to what you should be doing for homework each week. Please reach
 
 [Execute Program Modern Javascript Level 2](https://www.executeprogram.com)
 
-   Execute Program is an interactive code learning platform. We expect you to complete Modern Javascript Level 2 by the end of Week 9
+   We expect you to complete Modern Javascript Level 2 by the end of Week 9
