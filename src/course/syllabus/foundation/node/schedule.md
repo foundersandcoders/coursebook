@@ -21,6 +21,7 @@ Learn how to manage asynchronous tasks and send HTTP requests using JavaScript.
 - Mock interviews
 - Live code session: Introduction to CommonJS modules
 - [Node & npm introduction workshop](/workshops/node-npm-intro/)
+- Weekly Quiz
 
 
 ### Week 5
@@ -32,6 +33,7 @@ Learn how to manage asynchronous tasks and send HTTP requests using JavaScript.
 - Mock interviews 
 - Project updates
 - Project planning and development
+- Weekly Quiz
 
 ### Week 6
 - Q&A 
@@ -41,5 +43,6 @@ Learn how to manage asynchronous tasks and send HTTP requests using JavaScript.
 - Live code session: Javascript object methods
 - Project Code Reviews
 - Project presentations
+- Weekly Quiz
 
 

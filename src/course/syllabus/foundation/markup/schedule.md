@@ -18,6 +18,7 @@ This topic is focused on the fundamental building blocks of web pages—accessib
 - Intro to Git and GitHub
 - Safeguarding and Prevent
 - Workshops: Git, CSS, Semantic HTML, Accessibility, HTML forms
+- Weekly Quiz
 
 ### Week 1
 - Q&A
@@ -25,6 +26,7 @@ This topic is focused on the fundamental building blocks of web pages—accessib
 - Review workshops
 - Introduction to GitHub profiles
 - Project introduction
+- Weekly Quiz
 
 
 ### Week 2
@@ -34,12 +36,14 @@ This topic is focused on the fundamental building blocks of web pages—accessib
 - Project planning and development
 - Project updates
 - Introduction to mock interviews
+- Weekly Quiz
 
 ### Week 3
 - Project planning and development
 - Live code session: project code review
 - Project Code Reviews
 - Project presentations
+-- Weekly Quiz
 
 
 

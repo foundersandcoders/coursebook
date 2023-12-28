@@ -21,7 +21,6 @@ This is a guide to what you should be doing for homework each week. Please reach
 
 ### Week 3
 
-- [Homework quiz]()
 - Complete portfolio Markup section
 - Complete the Asynchronous JS, Promises & fetch, Real-world fetch and Promise practice workshops ahead of Week 4
 

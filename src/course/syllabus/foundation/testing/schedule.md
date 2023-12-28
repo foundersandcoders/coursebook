@@ -21,6 +21,7 @@ Learn how to make sure your code works correctly by creating automated tests.
 - Mock interviews
 - Project planning and development
 - LinkedIn profile crit
+- Weekly Quiz
 
 ### Week 8
 - Q&A  
@@ -28,6 +29,7 @@ Learn how to make sure your code works correctly by creating automated tests.
 - ChatBot unit test review
 - Group user testing
 - Mock interviews
+- Weekly Quiz
 
 
 
@@ -37,5 +39,4 @@ Learn how to make sure your code works correctly by creating automated tests.
 -
 -
 -
--
--
+- Weekly Quiz

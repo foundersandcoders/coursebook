@@ -12,7 +12,7 @@ Reinforce your learning by building something fun.
 -
 -
 -
--
+- Weekly Quiz
 
 ### Week 11
 - 
@@ -20,7 +20,7 @@ Reinforce your learning by building something fun.
 -
 -
 -
--
+- Weekly Quiz
 
 
 ### Week 12
@@ -30,7 +30,7 @@ Reinforce your learning by building something fun.
 -
 -
 -
--
+- Weekly Quiz
 
 
 
