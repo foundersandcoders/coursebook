@@ -1,4 +1,4 @@
-You'll be working on a solo project in your free time for the last 3 weeks. We expect you to focus primarily on employment—answering questions and completing take-home challenges. Any additional time you have left can be spent on your project.
+<!-- You'll be working on a solo project in your free time for the last 3 weeks. We expect you to focus primarily on employment—answering questions and completing take-home challenges. Any additional time you have left can be spent on your project.
 
 These projects are designed to help you revise the fundamentals you have learnt during the first 9 weeks of the course. We recommend you pick one that involves something you are uncomfortable with. For example if you struggled using fetch and promises then pick a project that will force you to practice that.
 
@@ -102,4 +102,4 @@ These projects are designed to help you revise the fundamentals you have learnt 
 
    - [ ] Keyboard event handlers
    - [ ] Managing complex game state
-   - [ ] Collision detection
+   - [ ] Collision detection -->

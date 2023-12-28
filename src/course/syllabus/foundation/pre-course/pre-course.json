@@ -1,7 +1,8 @@
 {
   "tabs": {
     "learnings": false,
-    "spikes": false,
-    "resources": false
+    "employability": false,
+    "homework": false,
+    "spikes": true
   }
 }
