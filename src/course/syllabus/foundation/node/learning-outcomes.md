@@ -1,3 +1,7 @@
+## Learning Outcomes
+
+You should be focusing on meeting these learning outcomes over the three-week period. You will be tested on your learning during weekly quizzes.
+
 ## JavaScript
 
 - [ ] Write code that executes asynchronously

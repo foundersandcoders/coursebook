@@ -1,3 +1,7 @@
+## Learning Outcomes
+
+You should be focusing on meeting these learning outcomes over the three-week period. You will be tested on your learning during weekly quizzes.
+
 <!-- These questions are designed to give you an idea of what concepts you might need to revisit. Write down your answers as you go, and try to answer honestly without looking things up. You're just trying to get a sense of what things you should focus revision on, it's not a test!
 
 ## Git

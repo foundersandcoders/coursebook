@@ -1,3 +1,7 @@
+## Learning Outcomes
+
+You should be focusing on meeting these learning outcomes over the three-week period. You will be tested on your learning during weekly quizzes.
+
 ## Testing
 
 - [ ] Check that passing a given input into our tests returns the expected output

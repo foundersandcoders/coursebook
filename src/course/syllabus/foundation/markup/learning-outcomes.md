@@ -1,6 +1,6 @@
 ## Learning Outcomes
 
-You should be focusing on meeting these learning outcomes over the three-week period. You will be tested on your learning in the [homework quiz]() at the end of learning block.
+You should be focusing on meeting these learning outcomes over the three-week period. You will be tested on your learning during weekly quizzes.
 
 ## Accessibility
 
