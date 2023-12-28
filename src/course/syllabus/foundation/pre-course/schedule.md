@@ -1,4 +1,14 @@
-We'd like you to spend some time before starting the course working on useful fundamentals.
+### Spring Term unschool workshop dates:
+
+- Saturday 27th January
+- Saturday 17th February
+- Saturday 2nd March
+- Saturday 16th March
+
+***Students on the foundation programme are expected to attend all unschool workshops***
+
+
+### We'd like you to spend some time before starting the course working on useful fundamentals.
 
 
 1. [Command-line primer](https://www.digitalocean.com/community/tutorials/a-linux-command-line-primer)

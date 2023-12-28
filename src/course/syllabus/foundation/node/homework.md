@@ -15,10 +15,8 @@ This is a guide to what you should be doing for homework each week. Please reach
 
 - Project work
 - Complete projects ahead of Week 6 code reviews
-
+c
 ### Week 6
 
 - Complete portfolio Node section
 - Complete the Intro to testing, Build a testing library, Unit testing workshop, Integration testing workshop and TDD workshop workshops ahead of Week 7
-
-### UNSCHOOL
