@@ -1,10 +1,8 @@
 Learn how to make sure your code works correctly by creating automated tests.
 
-
-
 ### Workshops
 
-*To be completed ahead of Week 7*
+_To be completed ahead of Week 7_
 
 - [Intro to testing](https://fac-slides.netlify.app/slides/testing)
 - [Build a testing library](/workshops/learn-testing/)
@@ -15,31 +13,32 @@ Learn how to make sure your code works correctly by creating automated tests.
 ## Weeks 7 - 9
 
 ### Week 7
-- Q&A  
+
+- Q&A
 - Review testing workshops
 - Incorporate unit test into chatBot project
 - Mock interviews
 - Project planning and development
 - LinkedIn profile crit
-- Weekly Quiz
+- Knowledge Quiz
 
 ### Week 8
-- Q&A  
-- CV workshop 
+
+- Q&A
+- CV workshop
 - ChatBot unit test review
 - Group user testing
 - Mock interviews
-- Weekly Quiz
+- Knowledge Quiz
 
 ### Unschool
 
-***Saturday 2nd March***
+**_Saturday 2nd March_**
 
 ### Week 9
-- 
-- 
--
--
--
-- Weekly Quiz
 
+-
+-
+-
+-
+-
