@@ -23,6 +23,7 @@ _To be completed ahead of Week 1_
 ### Week 1
 
 - Q&A
+- Feedback session
 - Employability introduction
 - Review workshops
 - Introduction to GitHub profiles
