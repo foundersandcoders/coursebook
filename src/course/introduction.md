@@ -14,7 +14,17 @@ Self-paced individual study through working on a portfolio of Web projects.
 
 ## Software Foundation
 
-Introduction to Git, HTTP, HTML/CSS, JavaScript, APIs and testing.
+**Software development**
+
+Front- and back-end development with Git, JavaScript, and HTML/CSS
+
+**DevOps engineering** 
+
+Using Amazon Web Services
+
+**AI Engineering** 
+
+Using the Open AI API
 
 ## Software Developer
 

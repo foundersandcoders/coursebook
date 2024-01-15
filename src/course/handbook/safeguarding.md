@@ -2,6 +2,17 @@
 
 This policy describes our approach to safeguarding and promoting the welfare of vulnerable adults. It applies to all of our work with learners (both apprentices and not), and includes our permanent core team and any part-time or volunteer contributors.
 
+## Reporting concerns
+
+We strive for our learners to both be and feel safe. If you have a Safeguarding or Prevent concern regarding yourself, another learner or a member of the FAC team, please speak with Anna, who is our Designated Safeguarding Lead.
+
+If you have a concern involving Anna, please speak to Dan: dan@foundersandcoders.com
+If you have a concern involving Dan, please speak with our board member, Anni: anni@intersticia.org
+
+Our core team understand safeguarding indicators and will respond proactively to any concerns that are raised.
+
+You can also raise concerns using our Safeguarding Concerns Form: [Safeguarding Concerns form](https://airtable.com/shr3X3AAoT8JJwyb7).
+
 ## What safeguarding is
 
 Safeguarding is protecting children, young people and adults at risk from abuse and neglect. It means protecting the physical and mental health of children, young people and adults at risk. Effective safeguarding should allow children, young people and adults at risk to get the best outcomes in life.
@@ -86,13 +97,4 @@ Pull factors could include an extremist or terrorist group, organisation or indi
 - encouraging the use of hatred and violent actions to get justice
 - encouraging ideas of supremacy
 
-## Reporting concerns
 
-We strive for our learners to both be and feel safe. If you have a Safeguarding or Prevent concern regarding yourself, another learner or a member of the FAC team, please speak with Anna, who is our Designated Safeguarding Lead.
-
-If you have a concern involving Anna, please speak to Dan: dan@foundersandcoders.com
-If you have a concern involving Dan, please speak with our board member, Anni: anni@intersticia.org
-
-Our core team understand safeguarding indicators and will respond proactively to any concerns that are raised.
-
-You can also raise concerns using our Safegaruding Concerns Form: [Safeguarding Concerns form](https://airtable.com/shr3X3AAoT8JJwyb7).
