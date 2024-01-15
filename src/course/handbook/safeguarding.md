@@ -11,7 +11,7 @@ If you have a concern involving Dan, please speak with our board member, Anni: a
 
 Our core team understand safeguarding indicators and will respond proactively to any concerns that are raised.
 
-You can also raise concerns using our Safegaruding Concerns Form: [Safeguarding Concerns form](https://airtable.com/shr3X3AAoT8JJwyb7).
+You can also raise concerns using our Safeguarding Concerns Form: [Safeguarding Concerns form](https://airtable.com/shr3X3AAoT8JJwyb7).
 
 ## What safeguarding is
 
