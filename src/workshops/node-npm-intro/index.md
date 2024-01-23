@@ -128,18 +128,13 @@ This command will "initialise" your project by asking you some questions then cr
 
 You can pass the `-y` flag to skip all the questions and create the `package.json` with the defaults. You can edit the JSON file by hand later if you need to.
 
-<!-- You also don't _have_ to use this command—you can manually create an empty `package.json` if you'd prefer:
-
-```shell
-echo "{}" > package.json
-``` -->
 
 ### `npm install`
 
-This is how you install 3rd party modules to use in your code. For example to install the very useless `cowsay` module:
+This is how you install 3rd party modules to use in your code. For example to install the `figlet` module:
 
 ```shell
-npm install cowsay
+npm install figlet
 ```
 
 npm will list the module in the `"dependencies"` field in your `package.json`:
@@ -147,7 +142,7 @@ npm will list the module in the `"dependencies"` field in your `package.json`:
 ```json
 {
   "dependencies": {
-    "cowsay": "^4.1.2"
+    "figlet": "^1.7.0"
   }
 }
 ```
@@ -162,12 +157,42 @@ npm will read the dependencies listed in the `package.json` and automatically do
 
 npm will also create a directory named `node_modules` and put all the 3rd party code in there. This will be quite large, since modules you install can have their own dependencies (and those dependencies can depend on _other_ modules...). Since this directory gets so big it's common to add it to the `.gitignore` file.
 
+
+{% box %}
+
+### Try it
+
+1. Copy the download script at the top of this page into your terminal
+2. Install the dev dependencies
+3. Run the script
+4. View the output in `asciiArt.txt`
+
+{% disclosure %}
+
+```shell
+npm install
+node asciiArtGenerator.js
+```
+
+```shell
+// You should see the following in the asciiArt.txt file
+_   _      _ _        __        __         _     _ 
+ | | | | ___| | | ___   \ \      / /__  _ __| | __| |
+ | |_| |/ _ \ | |/ _ \   \ \ /\ / / _ \| '__| |/ _` |
+ |  _  |  __/ | | (_) |   \ V  V / (_) | |  | | (_| |
+ |_| |_|\___|_|_|\___/     \_/\_/ \___/|_|  |_|\__,_|
+ ```
+
+{% enddisclosure %}
+
+{% endbox %}
+
 #### Development dependencies
 
 Some 3rd party modules are only used for development purposes. E.g. a testing library or a linter. You can mark a module as a dev dependency with the `-D` flag when you install:
 
 ```shell
-npm install -D cowsay
+npm install -D figlet
 ```
 
 This will put it under the `"devDependencies"` field in the `package.json`. This helps during deployment—it's quicker not to install a bunch of modules that aren't actually needed for your production server.
@@ -182,10 +207,10 @@ You shouldn't use global modules in your Node apps, since they aren't listed in 
 
 It's common for modules you install to have command-line programs you can run in your terminal. E.g. the popular ESLint linter installs a CLI so you can check your code by running a command like `eslint add.js`.
 
-npm installs dependency CLIs into `node_modules/.bin/`. This means you can run the `cowsay` CLI we just installed in our terminal like this:
+npm installs dependency CLIs into `node_modules/.bin/`. This means you can run the `figlet` CLI we just installed in our terminal like this:
 
 ```shell
-node_modules/.bin/cowsay hello
+node_modules/.bin/figlet hello
 ```
 
 However this is pretty awkward to type, especially if it's a command we need to use a lot (like "start the dev server"). Luckily npm scripts make this nicer.
@@ -197,7 +222,7 @@ npm will automatically add `./node_modules/.bin` to the path of any command you 
 ```json
 {
   "scripts": {
-    "greet": "cowsay hello"
+    "greet": "figlet hello"
   }
 }
 ```
@@ -212,24 +237,103 @@ npm run greet
 
 ### Try it
 
-1. Initialise your project to create a `package.json`
-1. Install the `cowsay` module as a dev dependency
-1. Look in the `node_modules` folder—can you see `cowsay`?
-1. Run `node_modules/.bin/cowsay hello` in your terminal
-1. Add `"greet": "cowsay hello"` to your npm scripts
-1. Run `npm run greet` in your terminal
+1. Update the ```package.json``` scripts
+2. Run the script in the terminal
 
-You should see something like this:
+{% disclosure %}
 
-```shell
- _______
-< hello >
- -------
-        \   ^__^
-         \  (oo)\_______
-            (__)\       )\/\
-                ||----w |
-                ||     ||
+```json
+// package.json
+{
+  "scripts": {
+    "greet": "figlet hello"
+  }
+}
 ```
 
+```shell
+npm run greet
+```
+
+You should see something like this in the terminal:
+```shell
+> figlet hello
+
+  _          _ _       
+ | |__   ___| | | ___  
+ | '_ \ / _ \ | |/ _ \ 
+ | | | |  __/ | | (_) |
+ |_| |_|\___|_|_|\___/ 
+ ```
+
+{% enddisclosure %}
+
 {% endbox %}
+
+{% box %}
+
+### Try it
+
+1. Create a folder called `npm-intro`
+2. Initialise a new Node.js project, creating a `package.json` file
+3. Install `figlet` 
+4. Create a file named `asciiArtGenerator.js`
+5. Copy the following script into `asciiArtGenerator`
+```javascript
+const figlet = require('figlet');
+const fs = require('fs');
+
+function createAsciiArt(text) {
+    return new Promise((resolve, reject) => {
+        figlet(text, (err, data) => {
+            if (err) {
+                reject('Something went wrong...');
+            } else {
+                resolve(data);
+            }
+        });
+    });
+}
+
+async function main() {
+    try {
+        const text = "Hello World"; // You can change this text
+        const asciiArt = await createAsciiArt(text);
+        fs.writeFileSync('asciiArt.txt', asciiArt);
+        console.log('ASCII Art has been written to asciiArt.txt');
+    } catch (error) {
+        console.error(error);
+    }
+}
+
+main();
+```
+6. Run the script using node, by typing `node asciiArtGenerator.js` in your terminal
+7. View the output in `asciiArt.txt`
+
+
+{% disclosure %}
+
+```shell
+mkdir npm-intro
+cd npm-intro
+npm init -y
+code .
+npm install figlet
+code asciiArtGenerator.js
+node asciiArtGenerator.js
+```
+You should see something like this in the asciiArt.txt file:
+```shell
+_   _      _ _        __        __         _     _ 
+ | | | | ___| | | ___   \ \      / /__  _ __| | __| |
+ | |_| |/ _ \ | |/ _ \   \ \ /\ / / _ \| '__| |/ _` |
+ |  _  |  __/ | | (_) |   \ V  V / (_) | |  | | (_| |
+ |_| |_|\___|_|_|\___/     \_/\_/ \___/|_|  |_|\__,_|
+```
+
+{% enddisclosure %}
+
+{% endbox %}
+
+
