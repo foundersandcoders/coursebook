@@ -20,30 +20,8 @@ exports.render = ({ page: { url }, content }) => {
         <${Link} url=${url} href="/course/introduction">Introduction</${Link}>
         <${Link} url=${url} href="https://www.foundersandcoders.com/code-of-conduct/" target="_blank" rel="noreferrer">Code of Conduct</${Link}>
         <${Section} title="Handbook" url=${url} subpath="course/handbook">
-          <li><${Link} url=${url} href="/course/handbook/system-requirements/">System Requirements</${Link}></li>
-          <li><${Link} url=${url} href="/course/handbook/installation/">Installation Guide</${Link}></li>
-          <li><${Link} url=${url} href="/course/handbook/safeguarding/">Safeguarding</${Link}></li>
-          <li><${Link} url=${url} href="/course/handbook/inclusion/">Equality, Diversity and Inclusion</${Link}></li>
-          <li><${Link} url=${url} href="/course/handbook/wellbeing/">Wellbeing</${Link}></li>
-          <li><${Link} url=${url} href="/course/handbook/course-rules/">Course Rules</${Link}></li>
-           <li><${Link} url=${url} href="/course/handbook/user-manuals/">User manuals</${Link}></li>
-          <li><${Link} url=${url} href="/course/handbook/debugging/">Debugging</${Link}></li>
-          <li><${Link} url=${url} href="/course/handbook/asking-for-help/">Asking for help</${Link}></li>
-          <li><${Link} url=${url} href="/course/handbook/pair-programming/">Pair programming</${Link}></li>
-          <li><${Link} url=${url} href="/course/handbook/spikes/">Tech Spikes</${Link}></li>
-          <li><${Link} url=${url} href="/course/handbook/projects/">Projects</${Link}></li>
-          <li><${Link} url=${url} href="/course/handbook/github-workflow/">GitHub Workflow</${Link}></li>
-          <li><${Link} url=${url} href="/course/handbook/project-presentations/">Project Presentations</${Link}></li>
-          <ul>
-            <li><${Link} url=${url} href="/course/handbook/in-house-project-presentations/">In-house Project Presentations</${Link}></li>
-          </ul>
-          <li><${Link} url=${url} href="/course/handbook/project-team/">Project Roles</${Link}></li>
-           <li><${Link} url=${url} href="/course/handbook/role-circles/">Role circles</${Link}></li>
-          <li><${Link} url=${url} href="/course/handbook/code-review/">Code review</${Link}></li>
-          <li><${Link} url=${url} href="/course/handbook/retrospectives/">Retrospectives</${Link}></li>
-          <li><${Link} url=${url} href="/course/handbook/mentor-guidance/">Mentoring guidance</${Link}></li>
-          <li><${Link} url=${url} href="/course/handbook/mentor-roles/">What to expect of mentors</${Link}></li>
-          <li><${Link} url=${url} href="/course/handbook/progress-logs/">Progress Logs</${Link}></li>
+        <li><${Link} url=${url} href="/course/handbook/software-foundation/">Software Foundation</${Link}></li>
+        <li><${Link} url=${url} href="/course/handbook/software-developer/">Software Developer</${Link}></li>
         </${Section}>
         <${Section} title="Foundation" url=${url} subpath="course/syllabus/foundation">
           <li><${Link} url=${url} href="/course/syllabus/foundation/pre-course/schedule/">Pre-course</${Link}></li>
