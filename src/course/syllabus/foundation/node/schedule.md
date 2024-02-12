@@ -28,6 +28,7 @@ _To be completed ahead of Week 4_
 - Node & npm workshop review
 - Discord chatbot project introduction
 - Project development
+- Live code session: Javascript object methods
 - Mock interviews
 - Project updates
 - Project planning and development
@@ -37,13 +38,12 @@ _To be completed ahead of Week 4_
 
 - Q&A
 - Mock interviews
-- LinkedIn profile crit
 - Project planning and development
-- Live code session: Javascript object methods
+- Live code session: Introduction to Testing
 - Project Code Reviews
 - Project presentations
 - Knowledge Quiz
 
-### Unschool
+### DevOps Unschool
 
 **_Saturday 17th February_**
