@@ -40,8 +40,8 @@ _To be completed ahead of Week 4_
 - Mock interviews
 - Project planning and development
 - Live code session: Introduction to Testing
-- Project Code Reviews
-- Project presentations
+- Live code session: project code review
+- Project code reviews
 - Knowledge Quiz
 
 ### DevOps Unschool

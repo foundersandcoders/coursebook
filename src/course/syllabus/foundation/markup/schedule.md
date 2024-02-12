@@ -44,7 +44,7 @@ _To be completed ahead of Week 1_
 
 - Project planning and development
 - Live code session: project code review
-- Project Code Reviews
+- Project code reviews
 - Project presentations
 - Knowledge Quiz
 
