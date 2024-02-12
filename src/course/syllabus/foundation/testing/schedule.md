@@ -28,7 +28,7 @@ _To be completed ahead of Week 7_
 - Q&A
 - Live code session: Introduction to Express
 - Review Express workshops
-- Unschool chatbot refactor using Express
+- Refactor Unschool chatBot using Express
 - Group user testing
 - Mock interviews
 
