@@ -21,6 +21,5 @@ During this module you should be working on: [Execute Program Modern Javascript 
 
 ### Week 3
 
-- Complete portfolio Markup section
 - Complete the Asynchronous JS, Promises & fetch, Real-world fetch and Promise practice workshops ahead of Week 4
 

@@ -15,8 +15,7 @@ During this module you should be working on: [Execute Program Modern Javascript 
 
 - Project work
 - Complete projects ahead of Week 6 code reviews
-c
+
 ### Week 6
 
-- Complete portfolio Node section
 - Complete the Intro to testing, Build a testing library, Unit testing workshop, Integration testing workshop and TDD workshop workshops ahead of Week 7
