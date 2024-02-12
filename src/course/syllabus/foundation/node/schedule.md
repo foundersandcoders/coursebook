@@ -42,6 +42,7 @@ _To be completed ahead of Week 4_
 - Live code session: Introduction to testing
 - Live code session: Project code review
 - Project code reviews
+- Intro to testing, Build a testing library, Unit testing, Integration testing and TDD workshops
 - Knowledge Quiz
 
 ### DevOps Unschool
