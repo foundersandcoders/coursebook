@@ -16,20 +16,21 @@ _To be completed ahead of Week 7_
 
 - Q&A
 - Review testing workshops
-- Incorporate unit test into chatBot project
-- Mock interviews
+- Discord bot user testing
+- Discord chatbot test integration
 - Project planning and development
-- LinkedIn profile crit
+- **CV workshop**
+- Project presentations
 - Knowledge Quiz
 
 ### Week 8
 
 - Q&A
-- CV workshop
-- ChatBot unit test review
+- Live code session: Introduction to Express
+- Review Express workshops
+- Unschool chatbot refactor using Express
 - Group user testing
 - Mock interviews
-- Knowledge Quiz
 
 ### Unschool
 
