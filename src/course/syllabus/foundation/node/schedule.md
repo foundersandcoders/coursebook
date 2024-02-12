@@ -17,7 +17,7 @@ _To be completed ahead of Week 4_
 - JavaScript concurrency workshop review
 - LinkedIn and online presence
 - Mock interviews
-- Live code session: Introduction to CommonJS modules
+- Live code session: Introduction to commonJS modules
 - [Node & npm introduction workshop](/workshops/node-npm-intro/)
 - Knowledge Quiz
 
@@ -39,8 +39,8 @@ _To be completed ahead of Week 4_
 - Q&A
 - Mock interviews
 - Project planning and development
-- Live code session: Introduction to Testing
-- Live code session: project code review
+- Live code session: Introduction to testing
+- Live code session: Project code review
 - Project code reviews
 - Knowledge Quiz
 
