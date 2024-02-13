@@ -48,6 +48,6 @@ _To be completed ahead of Week 1_
 - Project presentations
 - Knowledge Quiz
 
-### Unschool
+### OpenAi Unschool
 
 **_Saturday 27th January_**

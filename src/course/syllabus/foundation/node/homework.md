@@ -18,4 +18,4 @@ During this module you should be working on: [Execute Program Modern Javascript 
 
 ### Week 6
 
-- Complete the Intro to testing, Build a testing library, Unit testing workshop, Integration testing workshop and TDD workshop workshops ahead of Week 7
+- Complete the Intro to testing, Build a testing library, Unit testing, Integration testing and TDD workshops ahead of Week 7

@@ -16,30 +16,30 @@ _To be completed ahead of Week 7_
 
 - Q&A
 - Review testing workshops
-- Discord bot user testing
-- Discord chatbot test integration
-- Project planning and development
+- Discord chatBot group user testing
+- Discord chatBot test integration mini-project
 - **CV workshop**
-- Project presentations
+- Project planning and development
 - Knowledge Quiz
 
 ### Week 8
 
 - Q&A
-- Live code session: Introduction to Express
-- Review Express workshops
-- Refactor Unschool chatBot using Express
-- Group user testing
+- **Elevator pitch workshop**
+- Project planning and development
 - Mock interviews
+- Knowledge Quiz
 
-### Unschool
+### DevOps Unschool
 
 **_Saturday 2nd March_**
 
 ### Week 9
 
--
--
--
--
--
+- Q&A
+- Live code session: Project code review
+- Group code reviews
+- Live code session: Introduction to Express
+- Project planning and development
+- Project presentations
+- Knowledge Quiz
