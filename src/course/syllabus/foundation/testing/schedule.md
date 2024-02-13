@@ -16,8 +16,8 @@ _To be completed ahead of Week 7_
 
 - Q&A
 - Review testing workshops
-- Discord chatBot group user testing
 - Discord chatBot test integration mini-project
+- Discord chatBot group user testing
 - **CV workshop**
 - Project planning and development
 - Knowledge Quiz
@@ -27,6 +27,7 @@ _To be completed ahead of Week 7_
 - Q&A
 - **Elevator pitch workshop**
 - Project planning and development
+- Live code session:
 - Mock interviews
 - Knowledge Quiz
 
@@ -40,6 +41,5 @@ _To be completed ahead of Week 7_
 - Live code session: Project code review
 - Group code reviews
 - Live code session: Introduction to Express
-- Project planning and development
 - Project presentations
 - Knowledge Quiz
