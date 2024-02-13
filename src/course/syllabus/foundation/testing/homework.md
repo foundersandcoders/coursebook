@@ -9,13 +9,14 @@ During this module you should be working on: [Execute Program Modern Javascript 
 
 ### Week 7
 
-- Complete any incomplete testing workshops
+- Complete any outstanding testing workshops
 - Project planning and development
 
 
 ### Week 8
 
 - Project planning and development
+- Complete Elevator pitch
 
 ### Week 9
 

@@ -17,8 +17,8 @@ _To be completed ahead of Week 7_
 - Q&A
 - Review testing workshops
 - Discord chatBot test integration mini-project
-- Discord chatBot group user testing
 - **CV workshop**
+- Discord chatBot group user testing
 - Project planning and development
 - Knowledge Quiz
 
