@@ -16,11 +16,5 @@ You should be focusing on meeting these learning outcomes over the three-week pe
  
 - [ ] Write modular, single-responsibility functions that are easy to test in isolation
 
-## JavaScript
 
-- [ ] Write functions that add, remove or modify DOM nodes
-
-- [ ] Apply event listeners to HTML form elements
-
-- [ ] Use scope to control what variables are accessible inside functions and blocks
 

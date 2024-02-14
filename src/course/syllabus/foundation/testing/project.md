@@ -2,7 +2,7 @@ You are going to integrate testing into your Discord chatBot project.
 
 The following user stories are designed to guide you as you integrate testing into your Discord chatBot project. If there are some which are not appropriate to your project, you do not have to integrate these. You can create your own tests that are relevant to your project.
 
-### Core user stories:
+### Possible user stories:
 As a back-end developer, I want to...
 
 - verify Discord.js integration by creating a test function that creates a new Discord client
