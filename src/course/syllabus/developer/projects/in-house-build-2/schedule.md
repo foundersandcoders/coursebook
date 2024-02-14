@@ -26,7 +26,7 @@ schedule:
     - name: Role circles
       start: 12:45
       end: 13:00
-      url: /course/handbook/role-circles
+      url: https://foundersandcoders.notion.site/Role-circles-a2371aab24f34955a69904b87ffc1f05
     - name: Build
       start: 14:00
       end: 16:00
@@ -37,7 +37,7 @@ schedule:
     - name: Team code review
       start: 16:15
       end: 17:45
-      url: /course/handbook/code-review/
+      url: https://foundersandcoders.notion.site/Code-Reviews-5c3b987ed1204e46b4c738da538a758c
   wednesday:
     - name: Web Science
       start: 10:00
@@ -58,15 +58,13 @@ schedule:
     - name: Sprint Review
       start: 10:15
       end: 11:45
-      url: /course/handbook/project-docs/sprint-planning
     - start: 11:45
       end: 13:00
       name: Presentation prep
-      url: /course/handbook/project-presentations/
+      url: https://foundersandcoders.notion.site/In-House-Project-Presentation-e1936ce95a8041b9b8a93e5d4f638ff6
     - name: Project documentation
       start: 15:30
       end: 16:00
-      url: /course/handbook/project-documentation/
   friday:
     - name: Progress Log Review
       start: 10:00

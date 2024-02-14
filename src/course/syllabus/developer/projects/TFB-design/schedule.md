@@ -43,7 +43,7 @@ schedule:
     - name: Choose Roles
       start: 10:00
       end: 10:30
-      url: /course/handbook/project-team
+      url: https://foundersandcoders.notion.site/Project-roles-c2be6c42f4fe4bb0911049b084c51791
       type: project
     - name: Code Planning
       start: 10:30
@@ -68,7 +68,6 @@ schedule:
       start: 11:00
       end: 13:00
       type: project
-      url: /course/handbook/project-docs/sprint-planning
     - name: Build
       start: 14:00
       end: 15:45
@@ -85,15 +84,13 @@ schedule:
       start: 11:00
       end: 13:00
       type: project
-      url: /course/handbook/project-docs/sprint-planning
     - start: 14:00
       end: 14:30
       name: Presentation prep
-      url: /course/handbook/project-presentations/
     - name: Team SGC
       start: 14:30
       end: 15:00
-      url: /course/handbook/retrospectives/#team-retrospectives
+      url: https://foundersandcoders.notion.site/Retrospectives-cbfd57e19cd24c61a6bd8db16fe0f347
     - name: Presentations
       start: 15:00
       end: 16:00
@@ -105,7 +102,6 @@ schedule:
     - name: Project documentation
       start: 9:45
       end: 10:30
-      url: /course/handbook/project-documentation/
     - name: Build
       start: 10:30
       end: 13:00

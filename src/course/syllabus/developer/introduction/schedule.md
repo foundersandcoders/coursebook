@@ -29,7 +29,7 @@ schedule:
       end: 16:15
       url: /course/syllabus/developer/introduction/topicIntro/
     - name: Break
-      url: /course/handbook/installation/
+      url: https://foundersandcoders.notion.site/Installation-Guide-879500e472964043a17a1ad886b0905b
       start: 16:15
       end: 16:30
     - name: Thought of the week (safeguarding)
@@ -38,7 +38,7 @@ schedule:
       start: 16:30
       end: 17:15
     - name: Social
-      url: /course/handbook/installation/
+      url: https://foundersandcoders.notion.site/Installation-Guide-879500e472964043a17a1ad886b0905b
       start: 17:15
       end: 18:00
   friday:
