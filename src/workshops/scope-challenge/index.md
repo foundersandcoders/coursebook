@@ -88,7 +88,7 @@ Generally you should always prefer `let` and `const`, since it can be confusing 
 1. You should see a JS error in the console.
 1. Fix this error, and every other error that shows up
 
-Don't worry about understanding all of the code, just try to make it work. This is mostly an exercise in [debugging](/course/handbook/debugging/), so keep persisting until the app works like [the solution](starter-files/solution/):
+Don't worry about understanding all of the code, just try to make it work. This is mostly an exercise in debugging, so keep persisting until the app works like [the solution](starter-files/solution/):
 
 <figure>
   <img src="https://user-images.githubusercontent.com/9408641/76011766-0a492200-5f0d-11ea-9d20-a8676725255d.gif" alt="Colourful circles appearing as I click on a web page">

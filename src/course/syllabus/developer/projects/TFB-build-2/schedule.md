@@ -22,7 +22,7 @@ schedule:
     - name: Role circles
       start: 12:45
       end: 13:00
-      url: /course/handbook/role-circles
+      url: https://foundersandcoders.notion.site/Role-circles-a2371aab24f34955a69904b87ffc1f05
     - name: Build
       start: 14:00
       end: 17:45
@@ -41,7 +41,6 @@ schedule:
     - name: Presentation prep
       start: 15:30
       end: 17:00
-      url: /course/handbook/project-docs/tfb-presentations
     - name: Presentations (practice run)
       start: 17:00
       end: 17:45
@@ -56,15 +55,12 @@ schedule:
     - name: Handover documentation
       start: 11:30
       end: 13:00
-      url: /course/handbook/project-docs/product-handover
     - name: Presentation prep
       start: 14:00
       end: 15:00
-      url: /course/handbook/project-docs/tfb-presentations
     - name: Product handover
       start: 15:00
       end: 15:45
-      url: /course/handbook/project-docs/product-handover
     - name: Presentation practice
       start: 15:45
       end: 16:45

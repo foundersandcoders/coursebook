@@ -28,7 +28,7 @@ You'll need to have Node installed on your computer to follow this workshop. Che
 node --version
 ```
 
-You should see a version number printed. If you get an error that means Node isn't installed. Follow [our installation guide](/course/handbook/installation/#node) then try again.
+You should see a version number printed. If you get an error that means Node isn't installed. Follow [our installation guide](https://foundersandcoders.notion.site/Installation-Guide-879500e472964043a17a1ad886b0905b) then try again.
 
 Our programme relies on some features that were only added in Node version 18 (the current version), so if you have an older version than that you should install the newer one with:
 

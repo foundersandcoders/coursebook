@@ -18,7 +18,6 @@ schedule:
     - name: Tech for Better
       start: 14:00
       end: 16:30
-      url: /course/handbook/tech-for-better/
     - name: Break
       start: 16:30
       end: 16:45
@@ -47,7 +46,7 @@ schedule:
       end: 13:00
       name: Project
       type: project
-      url: /course/handbook/projects/
+      url: ../project
     - start: 13:00
       end: 14:00
       name: Lunch
@@ -55,7 +54,7 @@ schedule:
       end: 17:45
       name: Project
       type: project
-      url: /course/handbook/projects/
+      url: ../project
     - start: 17:45
       end: 18:00
       name: Check-out
@@ -67,12 +66,12 @@ schedule:
     - name: Role circles
       start: 10:00
       end: 10:15
-      url: /course/handbook/role-circles
+      url: https://foundersandcoders.notion.site/Role-circles-a2371aab24f34955a69904b87ffc1f05
     - start: 10:15
       end: 13:00
       name: Project
       type: project
-      url: /course/handbook/projects/
+      url: ../project
     - start: 13:00
       end: 14:00
       name: Lunch
@@ -80,14 +79,14 @@ schedule:
       end: 16:30
       name: Project
       type: project
-      url: /course/handbook/projects/
+      url: ../project
     - start: 16:30
       end: 16:45
       name: Update READMEs
     - start: 16:45
       end: 17:45
       name: Team code review
-      url: /course/handbook/code-review/
+      url: https://foundersandcoders.notion.site/Code-Reviews-5c3b987ed1204e46b4c738da538a758c
     - start: 17:45
       end: 18:00
       name: Check-out
@@ -103,14 +102,13 @@ schedule:
     - start: 12:00
       end: 13:00
       name: Presentation prep
-      url: /course/handbook/project-presentations/
+      url: https://foundersandcoders.notion.site/Project-presentations-d8787b65e78a4314b62475552e7989e9
     - start: 13:00
       end: 14:00
       name: Lunch
     - start: 14:00
       end: 14:30
       name: Team SGC
-      url: /course/handbook/retrospectives/#team-retrospectives
     - start: 14:30
       end: 15:30
       name: Presentations
@@ -122,7 +120,6 @@ schedule:
     - start: 16:00
       end: 16:50
       name: Cohort SGC
-      url: /course/handbook/retrospectives/#cohort-retrospective
     - start: 16:50
       end: 17:00
       name: Break

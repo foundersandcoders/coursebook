@@ -28,7 +28,6 @@ schedule:
     - name: Conduct user research
       start: 14:15
       end: 15:45
-      url: https://learn.foundersandcoders.com/course/handbook/project-docs/user-research/
     - name: Break
       start: 15:45
       end: 16:00
@@ -93,7 +92,7 @@ schedule:
     - name: Introduction to project roles
       start: 17:30
       end: 17:35
-      url: /course/handbook/project-team
+      url: https://foundersandcoders.notion.site/Project-roles-c2be6c42f4fe4bb0911049b084c51791
       type: presentation
     - name: Choose roles
       start: 17:35
@@ -120,7 +119,6 @@ schedule:
     - name: Sprint planning
       start: 15:45
       end: 16:45
-      url: /course/handbook/project-docs/sprint-planning
     - start: 16:45
       end: 17:45
       name: Feedback Session
@@ -128,7 +126,6 @@ schedule:
     - name: Project documentation
       start: 9:45
       end: 10:30
-      url: /course/handbook/project-documentation/
     - name: Build
       start: 10:30
       end: 13:00
