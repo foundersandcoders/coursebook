@@ -1,105 +1,100 @@
-<!-- You'll be working on a solo project in your free time for the last 3 weeks. We expect you to focus primarily on employment—answering questions and completing take-home challenges. Any additional time you have left can be spent on your project.
+Your project is to build a dynamic web application that queries at least two APIs and presents useful and/or interesting information to the user. You will be using Node.js and Express, which will involve serving a static web page, creating JSON endpoints, and generating dynamic content through both server-side and client-side code.
 
-These projects are designed to help you revise the fundamentals you have learnt during the first 9 weeks of the course. We recommend you pick one that involves something you are uncomfortable with. For example if you struggled using fetch and promises then pick a project that will force you to practice that.
+## **Project Requirements**
 
-## Technical requirements
+### **Core Requirements**
 
-- Configure dev tooling:
-  - [ ] Prettier formatting
-  - [ ] ESLint linting
-  - [ ] Live-reloading local dev server
-- Publish code to GitHub
-- Deploy app to GitHub Pages
+1. **Server-Side Setup**:
+    - Initialise a Node.js project using Express.
+    - Serve a static web page that will be the front end of your application.
+2. **Static Web Page**:
+    - Create an **`index.html`** file within a public directory.
+    - This page should include placeholders where dynamic content will be displayed.
+3. **Creating JSON Endpoints**:
+    - Implement routes in your Express server that respond to GET requests.
+    - These routes will fetch data from external APIs and return it in JSON format.
+4. **Dynamic Content**:
+    - Write client-side JavaScript that makes requests to your server-side endpoints.
+    - Dynamically update the static web page with the data received from these requests.
+5. **Client-Server Interaction**:
+    - Ensure that the server acts as an intermediary for API requests, handling data fetching and processing.
+    - The client-side script should handle the presentation of data, updating the user interface based on server responses.
 
-## Project options
+### Example structure
 
-1. ### Pomodoro timer
+[API mash-up application structure example](https://foundersandcoders.notion.site/API-mash-up-application-structure-example-88b132ed805a4071859552cd6bc25399?pvs=4)
 
-   A "[Pomodoro timer](https://en.wikipedia.org/wiki/Pomodoro_Technique)" is a productivity tool that helps you time alternating periods of working and resting.
+### **Stretch Goals**
 
-   <figure>
-      <video style="aspect-ratio: 1440 / 808;" width="1440" height="808" src="/assets/videos/pomodoro.mp4" autoplay muted controls loop type="video/mp4"></video>
-      <figcaption>An example of a Pomodoro timer</figcaption>
-   </figure>
+- Implement error handling in both server-side and client-side code to manage failed API requests or unavailable data.
+- Implement tests
+- Enhance the user interface with CSS and interactive elements for a better user experience.
+- Introduce additional client-side interactivity, such as user inputs to filter or customise the data displayed.
 
-   #### Features
+### **Additional Considerations**
 
-   - A "work" timer that counts down to zero (usually 25 minutes).
-   - A second "break" timer that counts down to zero (usually 5 minutes).
-   - Buttons to start a session, pause the timer, or cancel the session and restart.
+- Ensure your application's design is responsive and accessible.
+- Document the user journey and your application's functionality in a README file.
+- Securely store any API keys or sensitive information required by your server.
 
-   #### Stretch goals
+### **Submission Guidelines**
 
-   - Customisable lengths of time for work/break.
-   - Save custom lengths to localStorage.
-   - Play an alarm sound to make it obvious the time is up.
+- Host your code in a Git repository with clear documentation.
+- Deploy your application to a cloud platform, ensuring it's publicly accessible.
 
-   #### Learning outcomes
+## **Project Phases**
 
-   - [ ] Timers in JavaScript.
-   - [ ] Coordinating event handlers.
-   - [ ] Managing ongoing state.
+### Initial spike stage
 
-1. ### Canvas painting
+<aside>
+Set up the basic structure of your web application and make a call to a single API.
 
-   A painting app using the HTML5 Canvas API to render "brush" strokes. You can see a simple example in [this video](https://www.youtube.com/watch?v=8ZGAzJ0drl0&list=PLu8EoSxDXHP6CGK4YVJhL_VWetA865GOH&index=10).
+</aside>
 
-   #### Features
+### Core project development
 
-   - Draw coloured lines on a canvas when the user clicks and drags (or swipes if you want to support mobile).
+<aside>
+ After establishing the basic web app framework, you'll enhance the application by integrating more complex functionalities, including multiple API calls and/or incorporating OpenAI's API.
 
-   #### Stretch goals
+</aside>
 
-   - Customise drawing settings: line width, line colour, line shape.
-   - Download drawings as images.
+### Some API examples
 
-   #### Learning outcomes
 
-   - [ ] JS Canvas API
-   - [ ] Drag/swipe event handlers
+### **Easier**
 
-1. ### GitHub profile analyser
+1. **Open AI API** - https://platform.openai.com/
+1. **JokeAPI** - https://jokeapi.dev/
+1. **The Dog API** - https://thedogapi.com/
+1. **The Cat API** - https://thecatapi.com/
+1. **Unsplash it** - https://unsplash.it/
+1. **Recipe Puppy** - http://www.recipepuppy.com/about/api/
+1. **Corporate Buzzword API** - https://corporatebs-generator.sameerkumar.website/
+1. **REST Countries API** - https://restcountries.com/
+1. **UK Police API** - https://data.police.uk/docs/
+1. **Postcode Lookup** - https://postcodes.io/
 
-   Search for a GitHub username to see information about their profile. Figure out what interesting data you can pull out of a profile using the [GitHub API docs](https://docs.github.com/en/rest/).
+### Harder
 
-   #### Features
+1. **Twitter API** - https://developer.twitter.com/en/docs/twitter-api
+1. **Google Maps API** - https://developers.google.com/maps
+1. **Spotify API** - https://developer.spotify.com/documentation/web-api/
+1. **Giphy API** - https://developers.giphy.com/docs/api/
+1. **GitHub API** - https://docs.github.com/en/rest
+1. **The Movie DB API** - https://developers.themoviedb.org/3/getting-started/introduction
+1. **The Guardian API** - https://open-platform.theguardian.com/documentation/
+1. **News API** - https://newsapi.org/docs/endpoints
+1. **TfL API** - https://api.tfl.gov.uk/
 
-   - Show their starred projects.
-   - Show their [recent activity](https://docs.github.com/en/rest/reference/activity#events).
-   - Figure out what their most popular repositories are.
+### **Non-AI API Mash-Up Project Ideas**
 
-   #### Stretch goals
+1. **Random UK Postcode Explorer**: Develop an application that jumps to a random UK postcode and collates various information about that location. Use the Postcodes.io API to generate a random postcode and then fetch data such as weather from the OpenWeatherMap API, local crime statistics from the UK Police API, and perhaps even demographic information if available. This app could serve as an interesting way to explore different parts of the UK, offering insights into the climate, safety, and other aspects of various locales.
+1. **Entertainment and Social Media Buzz Tracker**: Use The Movie DB API and Twitter API to track social media buzz around movies. Develop a platform where users can see real-time tweets about movies, gauge popularity, and view movie details like ratings, casts, and synopses. This could serve as a guide for movie enthusiasts to discover trending movies.
 
-   - Who have they collaborated with the most?
-   - Visualise the data with a library like [D3.js](https://d3js.org) or [Chart.js](https://www.chartjs.org)
+### **AI-Enhanced Mash-Up Project Ideas with APIs and OpenAI**
 
-   #### Learning outcomes
-
-   - [ ] Managing complex `fetch` requests/multiple promises
-   - [ ] Efficiently processing large amounts of data
-
-1. ### Snake game
-
-   Recreate the classic mobile game [Snake](<https://en.wikipedia.org/wiki/Snake_(video_game_genre)>).
-
-   <figure>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Snake_can_be_completed.gif" style="aspect-ratio: 1;" width="299" height="299" src="/assets/videos/pomodoro.mp4" loading="lazy">
-      <figcaption>An example of a Snake game</figcaption>
-    </figure>
-
-   #### Features
-
-   - Control a snake using the keyboard.
-   - Game ends if snake touches itself.
-   - Touching "food" makes snake grow longer/score go up.
-
-   #### Stretch goals
-
-   - Save scores in localStorage to show best attempts.
-   - Speed game up as score gets higher.
-
-   #### Learning outcomes
-
-   - [ ] Keyboard event handlers
-   - [ ] Managing complex game state
-   - [ ] Collision detection -->
+1. **AI-Assisted Weather and News App**: Combine OpenWeatherMap API and NewsAPI. Optionally integrate OpenAI's API to summarize news articles or generate insights based on the current weather data, like suggesting indoor activities on rainy days or outdoor events when it's sunny.
+1. **AI-Powered Social Media and Movie Insights**: Use the Twitter API and The Movie DB. Optionally enhance with OpenAI's API to analyze tweets for sentiment about movies, offering insights into which movies are most loved or creating thematic summaries of social media discussions.
+1. **Intelligent Mapping and Transport Planner**: Merge Google Maps API with TfL API and optionally enhance with OpenAI's capabilities. The AI could predict traffic patterns, suggest optimal routes, or offer travel recommendations based on historical and real-time data.
+1. **AI-Enhanced Recipe and Shopping Assistant**: Combine Recipe Puppy with a supermarket API. Optionally use OpenAI's API to suggest recipes based on user preferences or trends and generate optimized shopping lists considering dietary needs and ingredient availability.
+1. **Community Safety App with AI Analysis**: Mashup the UK Police API with Postcodes.io, and optionally enhance with OpenAI's API for crime data analysis. The AI could identify safety trends, provide tailored alerts, or offer insights into community safety based on crime statistics and location data.

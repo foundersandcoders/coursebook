@@ -9,11 +9,12 @@ Reinforce your learning by building something fun.
 
 ### Week 10
 
--
--
--
--
--
+- Q&A
+- Express workshop review
+- Server-side API mash-up project
+- Live code session: Dev tooling
+- **Writing cover letters and job applications**
+- Project planning and development
 
 ### Unschool
 
@@ -21,17 +22,14 @@ Reinforce your learning by building something fun.
 
 ### Week 11
 
--
--
--
--
--
+- Q&A
+- **Non technical mock interview preparation**
+- Project updates
+- Live code session: 
+- Project planning and development
 
 ### Week 12
 
--
--
--
--
--
--
+- Q&A
+- Project group code reviews
+- Project presentations
