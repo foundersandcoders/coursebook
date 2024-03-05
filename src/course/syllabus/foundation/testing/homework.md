@@ -20,4 +20,4 @@ During this module you should be working on: [Execute Program Modern Javascript 
 
 ### Week 9
 
-- Complete the Express workshop
+- Complete the Express and Dev Tooling workshops
