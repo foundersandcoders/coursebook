@@ -2,7 +2,7 @@
 
 You should be focusing on meeting these learning outcomes over the three-week period. You will be tested on your learning during weekly quizzes.
 
-[ ] Understand of server-side development using Node.js.
+[ ] Understand server-side development using Node.js.
 [ ] Modularise code by creating reusable modules in Node.js, improving code organization and maintainability.
 [ ] Integrate external APIs into a web application.
 [ ] Learn to make server-side requests to APIs and handle responses effectively.
