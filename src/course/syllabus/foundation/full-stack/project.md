@@ -64,27 +64,26 @@ Set up the basic structure of your web application and make a call to a single A
 ### **Easier**
 
 1. **Open AI API** - https://platform.openai.com/
-1. **JokeAPI** - https://jokeapi.dev/
-1. **The Dog API** - https://thedogapi.com/
-1. **The Cat API** - https://thecatapi.com/
-1. **Unsplash it** - https://unsplash.it/
-1. **Recipe Puppy** - http://www.recipepuppy.com/about/api/
-1. **Corporate Buzzword API** - https://corporatebs-generator.sameerkumar.website/
-1. **REST Countries API** - https://restcountries.com/
-1. **UK Police API** - https://data.police.uk/docs/
-1. **Postcode Lookup** - https://postcodes.io/
+2. **JokeAPI** - https://jokeapi.dev/
+3. **The Dog API** - https://thedogapi.com/
+4. **The Cat API** - https://thecatapi.com/
+5. **Unsplash it** - https://unsplash.it/
+6. **Corporate Buzzword API** - https://corporatebs-generator.sameerkumar.website/
+7. **REST Countries API** - https://restcountries.com/
+8. **UK Police API** - https://data.police.uk/docs/
+9. **Postcode Lookup** - https://postcodes.io/
 
 ### Harder
 
 1. **Twitter API** - https://developer.twitter.com/en/docs/twitter-api
-1. **Google Maps API** - https://developers.google.com/maps
-1. **Spotify API** - https://developer.spotify.com/documentation/web-api/
-1. **Giphy API** - https://developers.giphy.com/docs/api/
-1. **GitHub API** - https://docs.github.com/en/rest
-1. **The Movie DB API** - https://developers.themoviedb.org/3/getting-started/introduction
-1. **The Guardian API** - https://open-platform.theguardian.com/documentation/
-1. **News API** - https://newsapi.org/docs/endpoints
-1. **TfL API** - https://api.tfl.gov.uk/
+2. **Google Maps API** - https://developers.google.com/maps
+3. **Spotify API** - https://developer.spotify.com/documentation/web-api/
+4. **Giphy API** - https://developers.giphy.com/docs/api/
+5. **GitHub API** - https://docs.github.com/en/rest
+6. **The Movie DB API** - https://developers.themoviedb.org/3/getting-started/introduction
+7. **The Guardian API** - https://open-platform.theguardian.com/documentation/
+8. **News API** - https://newsapi.org/docs/endpoints
+9. **TfL API** - https://api.tfl.gov.uk/
 
 ### **Non-AI API Mash-Up Project Ideas**
 
