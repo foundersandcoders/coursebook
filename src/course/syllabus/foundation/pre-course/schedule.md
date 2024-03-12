@@ -1,9 +1,8 @@
 ### Spring Term unschool workshop dates:
 
-- Saturday 27th January
-- Saturday 17th February
-- Saturday 2nd March
-- Saturday 16th March
+- Saturday 6th April (Open AI Unschool)
+- Saturday 4th May (Dev Ops 1)
+- Saturday 18th May (Dev Ops 2)
 
 ***Students on the foundation programme are expected to attend all unschool workshops***
 
