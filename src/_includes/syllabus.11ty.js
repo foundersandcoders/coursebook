@@ -74,13 +74,6 @@ exports.render = ({
             html`<${Tab} page=${page} href="resources">Resources</${Tab}>`
           }
           
-          ${
-            tabs.topicIntro !== false &&
-            !isApplicationPage &&
-            !isFoundationPage &&
-            !isTechforBetterPage &&
-            html`<${Tab} page=${page} href="topicIntro">Topic Intro</${Tab}>`
-          }
         </${Tabs}>
       </header>
       <${RawContent} class="flow">${content}</${RawContent}>
