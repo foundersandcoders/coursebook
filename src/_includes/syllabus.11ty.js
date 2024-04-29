@@ -28,6 +28,11 @@ exports.render = ({
             html`<${Tab} page=${page} href="schedule">Schedule</${Tab}>`
           }
           ${
+            tabs.project !== false &&
+            !isTechforBetterPage &&
+            html`<${Tab} page=${page} href="project">Project</${Tab}>`
+          }
+          ${
             tabs.learnings !== false &&
             !isApplicationPage &&
             !isTechforBetterPage &&
@@ -50,11 +55,6 @@ exports.render = ({
             !isApplicationPage &&
             !isTechforBetterPage &&
             html`<${Tab} page=${page} href="homework">Homework</${Tab}>`
-          }
-          ${
-            tabs.project !== false &&
-            !isTechforBetterPage &&
-            html`<${Tab} page=${page} href="project">Project</${Tab}>`
           }
           ${
             tabs.learnings !== false &&
