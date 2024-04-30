@@ -42,8 +42,8 @@ schedule:
       start: 17:15
       end: 18:00
   friday:
-    - name: Server workshop
-      url: /learn/server
+    - name: Typescript Practice
+      url: https://typescript-exercises.github.io/#exercise=1&file=%2Findex.ts
       type: workshop
       start: 9:30
       end: 18:00
