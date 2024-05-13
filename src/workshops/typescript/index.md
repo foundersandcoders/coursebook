@@ -72,7 +72,7 @@ Let's see how we can set up a basic Node project to compile TypeScript for us.
 First we need a new directory to put our project in:
 
 ```shell
-mkdir ts-workshop
+mkdir ts-workshop && cd ts-workshop
 ```
 
 Then we need to initialise a JS project using `npm`:
