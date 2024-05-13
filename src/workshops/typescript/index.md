@@ -153,7 +153,7 @@ npx tsc --outDir build
 
 This should create a `build/` directory and put `index.js` in there.
 
-It can get cumbersome to do this as your project starts to need more an more configuration, so it's common to use a `tsconfig.json` file to contain all the options you need. Create a new file named `tsconfig.json` and add these options:
+It can get cumbersome to do this as your project starts to need more and more configuration, so it's common to use a `tsconfig.json` file to contain all the options you need. Create a new file named `tsconfig.json` and add these options:
 
 ```json
 {
@@ -547,7 +547,7 @@ We have another type error. TS isn't happy that we're assigning to `task.status`
 'task' is possibly 'undefined'.
 ```
 
-If you hover the `task` variable returned by `tasks.find` you'll see that it's type is `Task | undefined`. That's because the `find` method on arrays is not guaranteed to find anything. If `complete` was passed an invalid `id` we'd end up with an undefined `task`. Trying to assign to the `status` property would cause a JS runtime error, which would crash our program.
+If you hover the `task` variable returned by `tasks.find` you'll see that its type is `Task | undefined`. That's because the `find` method on arrays is not guaranteed to find anything. If `complete` was passed an invalid `id` we'd end up with an undefined `task`. Trying to assign to the `status` property would cause a JS runtime error, which would crash our program.
 
 All the compiler errors can seem annoying, but TS is really trying to save us from ourselves!
 
@@ -755,7 +755,7 @@ Cannot find module 'node:util' or its corresponding type declarations.
 
 Node is not written in TypeScript, and so does not include built-in type definitions. TS needs us to provide these definitions, otherwise it has no idea what `node:util` exports.
 
-When a library you want to use does not include it's own types you can usually find them in the community project [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped). You can install types from this project using `npm` in your terminal:
+When a library you want to use does not include its own types you can usually find them in the community project [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped). You can install types from this project using `npm` in your terminal:
 
 ```shell
 npm i -D @types/node
