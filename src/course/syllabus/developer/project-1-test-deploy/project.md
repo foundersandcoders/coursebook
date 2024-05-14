@@ -1,10 +1,10 @@
-Your project this week is to deploy and test the quiz app you have made in the previous two weeks.
+Your task this week is to deploy and test the quiz app you have completed in the previous two weeks.
 
 ## Spike
 
-Before you start you need to create a test and deployment plan. We would like you plan a testing strategy that will have broad coverage of your project. The tools we would like you to use to achieve this can include Cypress, Postman and the Node built in testing library. 
+Before you start you need to create a testing and deployment plan. We would like you plan a testing strategy that will have broad coverage of your project. The tools we would like you to use to achieve this can include Cypress, Postman and the Node built in testing library. 
 
-We would also like you to plan and deploy this project using an EC2 instance for you server and github pages for your frontend.
+We would also like you to deploy this project using an EC2 instance for you server and github pages for your frontend.
 
 ### Questions to consider
 
@@ -19,7 +19,7 @@ We would also like you to plan and deploy this project using an EC2 instance for
 
 ### Acceptance Criteria
 
-- [ ] Comprehensive Test coverage including unit integration and end-to-end tests covering critical application logic and user flows.cal application logic and user flows.
+- [ ] Comprehensive Test coverage including unit, integration and end-to-end tests covering critical application logic and user flows.
 
  - [ ] Successful deployment of apps backend on an AWS EC2 instance, and the frontend is live on GitHub Pages.
 
@@ -27,4 +27,4 @@ We would also like you to plan and deploy this project using an EC2 instance for
 
 ### Stretch criteria
 
-- [ ] GitHub Actions CI setup to run your tests when you push
+- [ ] GitHub Actions CI setup to run your tests when you push.

@@ -11,9 +11,9 @@ You should think and plan what features and look you want to your quiz app to ha
 As a **quizzer**, I want to:
 
 - Begin a quiz session with randomly generated questions.
-- Filter quiz questions by subject, difficulty.
+- Filter quiz questions by subject and difficulty.
 - Select a chosen number of questions.
-- View a summary of my quiz results, including areas of strength and weakness.
+- See a summary of my results after completing a quiz.
 - Add, edit, and delete quiz questions and answers.
 
 ### Stretch user stories
@@ -23,14 +23,13 @@ As a **quizzer**, I want to:
 ## Acceptance Criteria
 
 - [ ] Provide an engaging, intuitive user interface.
-- [ ] Allow users to see a summary of their results after completing a quiz
-- [ ] Allow users to take quizzes based on category, difficulty and count
-- [ ] Allow users to add and delete questions from the 'database'
-- [ ] Follow React principles and best practices
-- [ ] Follow good accessibility practices
-- [ ] Hidden environment variables (i.e. not on GitHub)
+- [ ] Allow users to take quizzes based on category, difficulty and count.
+- [ ] Allow users to add and delete questions from the 'database'.
+- [ ] Follow React principles and best practices.
+- [ ] Follow good accessibility practices.
+- [ ] Hidden environment variables (i.e. not on GitHub).
 
 ### Stretch criteria
 
-- [ ] User local storage to allow for records to persist after browser refresh
+- [ ] User local storage to allow for records to persist after browser refresh.
 - [ ] Make custom hooks to encapsulate repetitive logic i.e. fetch data or adding to local storage.

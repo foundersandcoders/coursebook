@@ -15,14 +15,9 @@
 
 ## Node
 
-- [ ] Set environment variables and understand their use case
+- [ ] Set environment variables and understand their use case (S10, K11, B3)
 
 ## Software Architecture
 
-- [ ] Draw a diagram representing the flow of our application
-- [ ] Follow a consistent pattern for naming our folders, files and variables
-
-## Testing
-
-- [ ] Understand what a component test is and how to write one
-- [ ] Ensure consistency in our application with end to end testing
+- [ ] Draw a diagram representing the flow of our application (S8, K11, B7)
+- [ ] Follow a consistent pattern for naming our folders, files and variables (S1, K11, B3)
