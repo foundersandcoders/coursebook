@@ -35,7 +35,7 @@ exports.render = ({ page: { url }, content }) => {
           <li value="0"><${Link} url=${url} href="/course/syllabus/developer/introduction/schedule">Introduction</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/developer/project-1-server/schedule/">Project 1: Server</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/developer/project-1-frontend/schedule/">Project 1: Frontend</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/authentication/schedule/">Project 1: Test & Deploy</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/project-1-test-deploy/schedule/">Project 1: Test & Deploy</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/developer/server-side-app/schedule/">Server-side app</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/developer/client-side-app/schedule/">Client-side app</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/developer/full-stack-app/schedule/">Full-stack app</${Link}></li>
