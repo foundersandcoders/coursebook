@@ -16,13 +16,14 @@ We would also like you to plan and deploy this project using an EC2 instance for
 - How will you manage configuration variables for different environments (development, staging, production)?
 - How will CORS policies be configured between the frontend on GitHub Pages and the backend on EC2?
 
+
 ### Acceptance Criteria
 
- - [ ] Comprehensive Test Coverage: Unit, integration, and end-to-end tests are in place, covering critical application logic and user flows.
+- [ ] Comprehensive Test coverage including unit integration and end-to-end tests covering critical application logic and user flows.cal application logic and user flows.
 
- - [ ] Successful Deployment: The backend is deployed on an AWS EC2 instance, and the frontend is live on GitHub Pages and secured with HTTPS.
+ - [ ] Successful deployment of apps backend on an AWS EC2 instance, and the frontend is live on GitHub Pages.
 
- - [ ] Up-to-Date Documentation: Documentation clearly outlines setup, deployment, and usage instructions, including API endpoints and environmental requirements.
+ - [ ] Documentation clearly outlines setup, deployment, and usage instructions, including API endpoints and environmental requirements.
 
 ### Stretch criteria
 
