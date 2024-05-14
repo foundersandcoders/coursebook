@@ -1,52 +1,23 @@
-## Authentication
+## Testing and deployment
 
-### Password encryption
+{% box %}
 
-- [ ] **Store passwords securely**
-- [ ] Hash and salt passwords using bcrypt
-- [ ] Describe why it's important to hash and salt passwords
+[Here's a reminder of the full list of KSB's](/course/ksb)
 
-### Authentication
+{% endbox %}
 
-- [ ] **Authenticate users by setting and reading cookies**
-- [ ] Store session IDs in a cookie
-- [ ] Describe why we need session IDs
-- [ ] Ensure only authenticated users can see certain content
-- [ ] Ensure only authenticated users can take certain actions
-- [ ] Describe the difference between a stateful and stateless server
+### Testing
 
-### Promises
+- [ ] Learn how to write and run unit tests for backend functionality using the Node testing suite and Postman  (S4, S13, S6, S13)
+- [ ] Gain experience in using the Cypress testing library with React (S4, S13, B9)
+- [ ] Understand how to and when to use component and end to end tests (K12, S5, S6, S13)
+- [ ] Understand how to write maintainable and readable test cases (S1, S4, B3)
 
-- [ ] **Create our own promises**
-- [ ] Wrap a function that takes a callback in a promise
+### Deployment
 
-## Design
-
-### Sign-in form
-
-- [ ] **Design a usable sign in form**
-- [ ] Create a sign in form with semantic accessible HTML
-- [ ] Help users enter the right information with HTML5 validation
-
-## Testing
-
-### Static analysis
-
-- [ ] **Configure ESLint to catch common JS errors**
-- [ ] Describe how a linter helps us write code
-
-### Viewing browser cookies
-
-- [ ] **Use the Application tab in Chrome dev tools to view cookies**
-
-## DevOps
-
-### Continuous Integration
-
-- [ ] **Set up a continuous integration server**
-- [ ] Run tests and linter in CI to prevent broken code reaching the main branch
-
-### Secure Deployment Pipeline
-
-- [ ] **Integrate security scanning or checks into the CI/CD pipeline**
-- [ ] Restrict access to the deployment process
+- [ ] Gain experience in deploying a full-stack web application to a cloud platform (S10, S14, B3)
+- [ ] Understand the differences between development, staging, and production environments (K1, K3, K8)
+- [ ] Configure the necessary environment variables and settings for deployment (S10, S14, B3)
+- [ ] Understand the process of building and optimizing the application for production (S10, S14, B3)
+- [ ] Learn how to set up and configure a production environment on a cloud platform (S10, S14, B3)
+- [ ] Gain experience in using a continuous integration and deployment (CI/CD) pipeline (S10, S14, B3)
