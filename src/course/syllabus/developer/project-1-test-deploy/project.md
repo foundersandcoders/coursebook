@@ -1,50 +1,29 @@
-Your project this week is to build a web app that authenticates users and stores user-specific data in a SQLite database.
+Your project this week is to deploy and test the quiz app you have made in the previous two weeks.
 
 ## Spike
 
-Before you start writing features you need to create a security plan. This should a section in your `README.md` that describes how you will secure your app and mitigate different potential attacks.
+Before you start you need to create a test and deployment plan. We would like you plan a testing strategy that will have broad coverage of your project. The tools we would like you to use to achieve this can include Cypress, Postman and the Node built in testing library. 
+
+We would also like you to plan and deploy this project using an EC2 instance for you server and github pages for your frontend.
 
 ### Questions to consider
 
-- Will you store session info in a cookie (stateless) or in your database (stateful)?
-- How will you check a user's identity (authentication)?
-- How will you control what actions a user can take (authorization)?
-- How will you mitigate Cross-site Request Forgery (CSRF) attacks?
+- What parts of the application logic are the most critical to cover with unit tests?
+- How will you mock external dependencies (like databases or APIs) during unit testing?
+- What are the key user journeys and flows within the application that must be covered by end-to-end tests?
+- How will you manage test data and state for end-to-end testing?
+- How will encrypted communication (HTTPS) be set up, and will you use a reverse proxy?
+- How will you manage configuration variables for different environments (development, staging, production)?
+- How will CORS policies be configured between the frontend on GitHub Pages and the backend on EC2?
 
-### Useful resources
+### Acceptance Criteria
 
-- [What really is the difference between session and token based authentication](https://dev.to/thecodearcher/what-really-is-the-difference-between-session-and-token-based-authentication-2o39)
-- [JSON Web Tokens suck](https://www.youtube.com/watch?v=JdGOb7AxUo0)
-- [CSRF prevention](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)
+ - [ ] Comprehensive Test Coverage: Unit, integration, and end-to-end tests are in place, covering critical application logic and user flows.
 
-## User stories
+ - [ ] Successful Deployment: The backend is deployed on an AWS EC2 instance, and the frontend is live on GitHub Pages and secured with HTTPS.
 
-### Core
-
-- **As a user, I want to**: submit information to your site for anyone to see
-- **As a user, I want to**: come back to your site later and see what I posted is still there
-- **As a user, I want to**: be the only person allowed to delete my stuff
-
-Since this project is open-ended you'll need to write your own more specific user stories once you know what you want to build.
-
-### Example project ideas
-
-- Founders & Coders book sharing system
-- Food / coffee recommendations around Founders & Coders
-- Founders & Coders events calendar
-
-## Acceptance Criteria
-
-- [ ] Forms for users to sign up and log in
-- [ ] A form for users to submit data only accessible to logged in users
-- [ ] A page showing all the data
-- [ ] A way for logged in users to delete their own data
-- [ ] Semantic form elements with correctly associated labels
-- [ ] A SQLite database
-- [ ] Hidden environment variables (i.e. not on GitHub)
+ - [ ] Up-to-Date Documentation: Documentation clearly outlines setup, deployment, and usage instructions, including API endpoints and environmental requirements.
 
 ### Stretch criteria
 
-- [ ] Tests for all routes
-- [ ] A user page that shows everything posted by a single user
 - [ ] GitHub Actions CI setup to run your tests when you push
