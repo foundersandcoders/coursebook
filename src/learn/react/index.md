@@ -185,7 +185,7 @@ Array items in JSX must have a special unique [`key` prop](https://react.dev/lea
 
 Components are normal JS functions, which means they can **only return one thing**. The following JSX is invalid:
 
-```jsx
+```tsx
 // This won't work!
 function Thing() {
   return (
@@ -195,7 +195,18 @@ function Thing() {
 }
 ```
 
-since the `Thing` function is trying to return _two_ objects. The solution to this is to wrap sibling elements in a parent `<div>` (or use a [Fragment](https://react.dev/reference/react/Fragment#returning-multiple-elements)).
+since the `Thing` function is trying to return _two_ objects. The solution to this is to wrap sibling elements in a [Fragment](https://react.dev/reference/react/Fragment#returning-multiple-elements).
+
+```tsx
+function Thing() {
+  return (
+    <>
+      <span>Hello</span>
+      <span>Goodbye</span>
+    </>
+  );
+}
+```
 
 {% endbox %}
 
