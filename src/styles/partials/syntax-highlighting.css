@@ -75,6 +75,10 @@ pre.language-jsx::after {
   content: "JSX";
 }
 
+pre.language-ts::after {
+  content: "TS";
+}
+
 .token.comment,
 .token.prolog,
 .token.doctype,
