@@ -10,7 +10,7 @@
 
 - [ ] Learn how to write and run unit tests for backend functionality using the Node testing suite and Postman  (S4, S13, S6, S13)
 - [ ] Gain experience in using the Cypress testing library with React (S4, S13, B9)
-- [ ] Understand how to and when to use component and end to end tests (K12, S5, S6, S13)
+- [ ] Understand how and when to use component and end to end tests (K12, S5, S6, S13)
 - [ ] Understand how to write maintainable and readable test cases (S1, S4, B3)
 
 ### Deployment

@@ -5,7 +5,7 @@ These resources are helpful extra reading that may clarify or enhance concepts y
 Official Cypress docs. You'll find some great tutorials to get start there
 
 - ### [Testing with Postman](https://www.youtube.com/watch?v=oXW-C2bM0wE&t=229shttps://www.youtube.com/watch?v=oXW-C2bM0wE&t=229s)
-A short video to making collections and writing test in Postman
+A short video on how to make collections and writing test in Postman
 
 
 
