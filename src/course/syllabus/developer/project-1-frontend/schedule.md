@@ -2,6 +2,11 @@
 layout: schedule
 schedule:
   monday:
+    - name: Sanitize & validate challenge
+      url: https://github.com/foundersandcoders/sanitize-validate-challenge
+      type: challenge
+      start: 11:00
+      end: 12:00
     # - name: Thought of the week (Misinformation, Disinformation and the threat to Democracy)
     #   url: https://www.notion.so/foundersandcoders/Personal-Development-91fe75c7e2cc4f989954108729a2c834
     #   type: personal-development
