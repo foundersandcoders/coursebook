@@ -28,6 +28,11 @@ exports.render = ({
             html`<${Tab} page=${page} href="schedule">Schedule</${Tab}>`
           }
           ${
+            tabs.project !== false &&
+            !isTechforBetterPage &&
+            html`<${Tab} page=${page} href="project">Project</${Tab}>`
+          }
+          ${
             tabs.learnings !== false &&
             !isApplicationPage &&
             !isTechforBetterPage &&
@@ -52,11 +57,6 @@ exports.render = ({
             html`<${Tab} page=${page} href="homework">Homework</${Tab}>`
           }
           ${
-            tabs.project !== false &&
-            !isTechforBetterPage &&
-            html`<${Tab} page=${page} href="project">Project</${Tab}>`
-          }
-          ${
             tabs.learnings !== false &&
             isApplicationPage &&
             html`<${Tab} page=${page} href="learning-outcomes">Learnings</${Tab}>`
@@ -74,13 +74,6 @@ exports.render = ({
             html`<${Tab} page=${page} href="resources">Resources</${Tab}>`
           }
           
-          ${
-            tabs.topicIntro !== false &&
-            !isApplicationPage &&
-            !isFoundationPage &&
-            !isTechforBetterPage &&
-            html`<${Tab} page=${page} href="topicIntro">Topic Intro</${Tab}>`
-          }
         </${Tabs}>
       </header>
       <${RawContent} class="flow">${content}</${RawContent}>
