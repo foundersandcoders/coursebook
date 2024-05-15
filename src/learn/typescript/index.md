@@ -9,6 +9,8 @@ keywords:
 challenge: https://github.com/foundersandcoders/typescript-challenge
 ---
 
+This workshop is also available [as a video](https://www.youtube.com/watch?v=v4FLgfOSOaw).
+
 TypeScript is JavaScript with some additional syntax for describing what _types_ things are. Here's an example:
 
 ```ts
