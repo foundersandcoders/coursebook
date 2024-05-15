@@ -16,9 +16,9 @@ React makes dealing with the DOM in JavaScript more like writing HTML. It helps 
 
 A lot of React concepts are explained in detail below. If you just want to get started quickly here's a code sample with the most important features:
 
-```jsx
-import { useState } from "react";
-import ReactDOM from "react-dom";
+```tsx
+import React, { useState } from "react";
+import ReactDOM from "react-dom/client";
 
 function Counter() {
   // Calling the `setCount` with a new value re-runs your component
@@ -27,7 +27,7 @@ function Counter() {
 }
 
 // Any properties passed to the component are available on the `props` object
-function Title(props) {
+function Title(props: { id: string; children: React.ReactNode }) {
   return <h1 id={props.id}>{props.children}</h1>;
 }
 
@@ -41,11 +41,11 @@ function App() {
 }
 
 // React handles all DOM element creation/updates—you just call `render` once
-const root = ReactDOM.createRoot(document.querySelector("#root"));
+const root = ReactDOM.createRoot(document.querySelector("#root")!);
 root.render(
   <React.StrictMode>
-  <App />
-  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
 ```
 
