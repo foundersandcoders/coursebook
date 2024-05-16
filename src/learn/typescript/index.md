@@ -192,7 +192,7 @@ npx tsc --watch
 ```
 
 ```shell
-node build/index.js --watch
+node --watch build/index.js 
 ```
 
 Now whenever you edit a `.ts` file `tsc` will re-compile it into `build/`. This will cause Node to re-run your `.js` code automatically.
