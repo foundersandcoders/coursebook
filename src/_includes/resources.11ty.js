@@ -14,7 +14,7 @@ exports.data = {
 
 exports.render = ({ page: { url }, content }) => {
   return html`
-  <div class="layout">
+  <div>
     <aside></aside>
     <!-- <aside>
       <${Nav}>
