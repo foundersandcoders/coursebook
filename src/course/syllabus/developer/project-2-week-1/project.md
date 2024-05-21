@@ -27,6 +27,25 @@ Before you start writing features you need to design the schema for your data. T
 - [Database Relationships](https://www.lifewire.com/database-relationships-p2-1019758)
 - [A beginner’s guide to many-to-many relationships](https://support.airtable.com/docs/airtable-s-guide-to-many-to-many-relationships)
 
+### User stories
+
+As a **shopper**, I want to:
+
+- See a homepage with content when I log in
+- Be able to navigate between different pages of the app
+- View a list of products when I visit the products page
+- Click on a product to view more details in a new page
+- Search for products by name or description and view product listings with images, descriptions and reviews
+- Add products to a shopping cart
+
+### Stretch user stories
+
+- View and edit items in my shopping cart
+- Complete the checkout process to "purchase" products in my cart
+- See confirmation when an order is placed successfully
+- View previous orders and order history
+- Complete checkout and payments to simulate purchasing products
+
 ## Acceptance criteria
 
 - [ ] Store product data in a database
