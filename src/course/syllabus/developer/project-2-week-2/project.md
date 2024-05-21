@@ -19,17 +19,23 @@ Before you start writing features you need to create a security plan. This shoul
 
 ### User stories
 
-As a user, I want to:
+As a **shopper**, I want to:
 
 - Log into my account using my email and password
+- Have my user session persisted so I don't have to log in every time
+
+
+
+#### These User Stories from last week should be updated to be linked to a shoppers account
 
 - Add products to a shopping cart
 - View and edit items in my shopping cart
 - Complete the checkout process to "purchase" products in my cart
 - See confirmation when an order is placed successfully
 - View previous orders and order history
-- Have my user session persisted so I don't have to log in every time
 - Complete checkout and payments to simulate purchasing products
+
+### Stretch user stories
 
 As an admin, I want to:
 
@@ -40,5 +46,11 @@ As an admin, I want to:
 
 ## Acceptance Criteria
 
-TBC
+- [ ] Users must log in to use site
+- [ ] Each user has their own session with unique carts and order history
+- [ ] Information stored about users in database is visible on site
+- [ ] Using the site updates information about users on database
+
+### Stretch
+- [ ] Site has admin functions
 
