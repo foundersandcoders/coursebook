@@ -115,6 +115,7 @@ thursday:
   - start: 12:00
     end: 13:00
     name: Presentation Prep
+    url: https://foundersandcoders.notion.site/Project-presentations-d8787b65e78a4314b62475552e7989e9
   - start: 13:00
     end: 14:00
     name: Lunch
