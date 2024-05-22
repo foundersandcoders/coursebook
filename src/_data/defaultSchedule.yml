@@ -16,6 +16,7 @@ monday:
   - start: 12:00
     end: 13:00
     name: SGC
+    url: https://foundersandcoders.notion.site/Retrospectives-cbfd57e19cd24c61a6bd8db16fe0f347
   - start: 13:00
     end: 14:00
     name: lunch
@@ -109,6 +110,7 @@ thursday:
   - start: 10:00
     end: 11:00
     name: Class Code Review
+    url: https://foundersandcoders.notion.site/Code-Reviews-5c3b987ed1204e46b4c738da538a758c
   - start: 11:00
     end: 12:00
     name: Respond to Issues
