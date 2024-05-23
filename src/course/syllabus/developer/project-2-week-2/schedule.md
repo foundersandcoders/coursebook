@@ -7,9 +7,11 @@ schedule:
     #   type: personal-development
     #   start: 11:00
     #   end: 11:45
-    # - name: React state challenge
-    #   start: 11:45
-    #   end: 13:00
+    - name: Promise creation challenge
+      start: 11:00
+      end: 12:00
+      url: https://github.com/foundersandcoders/promise-creation-challenge
+      type: challenge
     #   url: https://github.com/foundersandcoders/react-state-challenge
     #   type: challenge
     # - name: Tech For Better
@@ -33,9 +35,9 @@ schedule:
     #   name: Reading for next topic
     #   url: /course/syllabus/developer/client-side-app/topicIntro/
   friday:
-    # - name: Learn Next.js
-    #   url: https://nextjs.org/learn/basics/create-nextjs-app
-    #   type: workshop
-    #   start: 10:30
-    #   end: 18:00
+    - name: Learn teraform
+      # url: https://nextjs.org/learn/basics/create-nextjs-app
+      type: workshop
+      start: 9:30
+      end: 18:00
 ---
