@@ -29,9 +29,9 @@ schedule:
     #   end: 16:00
     #   url: /course/syllabus/developer/database/topicIntro/
   friday:
-    # - name: Authentication workshop
-    #   url: /learn/auth
-    #   type: workshop
-    #   start: 10:30
-    #   end: 18:00
+    - name: Cypress Learning
+      url: https://learn.cypress.io/#courses
+      type: workshop
+      start: 9:30
+      end: 18:00
 ---
