@@ -4,14 +4,11 @@ Your project this week is TBC
 
 Learners will develop an end-to-end dynamic e-commerce web application where users can browse and purchase products online. 
 
-The application will be built using React. For the backend, it will use Node.js and Express to handle server-side functionality and data persistence. User accounts and product data will be stored in a SQLite database.
+The frontend of this project will be built using React. For the backend, it will use Node.js and Express to handle server-side functionality. User accounts and product data will be stored in a SQLite database.
 
 ## Project
 
-Your project for this week will be to develop a SQLite database linked to a react app with methods that can search for items display information and add to a shppping cart.
-
-
-## Spikes
+Your project for the next 2 weeks will be to develop a Express backend connected to a SQLite database and linked to a React frontend. Your UI should provide methods so that users can search for and display information about items and add them to a shopping cart. It is up to you to determine the process and order you take to achieve this, but should plan this carefully and attempt to anticipate any hurdles you approach will encounter.
 
 ## Spike
 
