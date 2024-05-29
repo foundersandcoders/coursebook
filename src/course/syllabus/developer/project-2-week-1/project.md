@@ -4,14 +4,11 @@ Your project this week is TBC
 
 Learners will develop an end-to-end dynamic e-commerce web application where users can browse and purchase products online. 
 
-The application will be built using React. For the backend, it will use Node.js and Express to handle server-side functionality and data persistence. User accounts and product data will be stored in a SQLite database.
+The frontend of this project will be built using React. For the backend, it will use Node.js and Express to handle server-side functionality. User accounts and product data will be stored in a SQLite database.
 
 ## Project
 
-Your project for this week will be to develop a SQLite database linked to a react app with methods that can search for items display information and add to a shppping cart.
-
-
-## Spikes
+Your project for the next 2 weeks will be to develop a Express backend connected to a SQLite database and linked to a React frontend. Your UI should provide methods so that users can search for and display information about items and add them to a shopping cart. It is up to you to determine the process and order you take to achieve this, but should plan this carefully and attempt to anticipate any hurdles you approach will encounter.
 
 ## Spike
 
@@ -26,6 +23,25 @@ Before you start writing features you need to design the schema for your data. T
 
 - [Database Relationships](https://www.lifewire.com/database-relationships-p2-1019758)
 - [A beginner’s guide to many-to-many relationships](https://support.airtable.com/docs/airtable-s-guide-to-many-to-many-relationships)
+
+### User stories
+
+As a **shopper**, I want to:
+
+- See a homepage with content when I log in
+- Be able to navigate between different pages of the app
+- View a list of products when I visit the products page
+- Click on a product to view more details in a new page
+- Search for products by name or description and view product listings with images, descriptions and reviews
+- Add products to a shopping cart
+
+### Stretch user stories
+
+- View and edit items in my shopping cart
+- Complete the checkout process to "purchase" products in my cart
+- See confirmation when an order is placed successfully
+- View previous orders and order history
+- Complete checkout and payments to simulate purchasing products
 
 ## Acceptance criteria
 
