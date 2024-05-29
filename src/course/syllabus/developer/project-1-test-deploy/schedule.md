@@ -130,11 +130,9 @@ schedule:
     #   end: 18:00
     #   name: Check-out
   friday:
-    # - name: Progress Log Review
-    #   start: 10:00
-    #   end: 11:30
-    #   type: expert-feedback
-    # - name: Consolidation
-    #   start: 11:30
-    #   end: 18:00
+    - name: Database workshop
+      url: /learn/database
+      type: workshop
+      start: 9:30
+      end: 18:00
 ---
