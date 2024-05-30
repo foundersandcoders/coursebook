@@ -1,28 +1,30 @@
-Your project this week is to add authentication and user specific interatctions
+## Project
+
+Your project this week is continue work on the e-commerce shop you started last week and to add authentication and user specific interactions. 
 
 ## Spike
 
-Before you start writing features you need to create a security plan. This should a section in your `README.md` that describes how you will secure your app and mitigate different potential attacks.
+Before you start writing features you need to create a security plan. There should be a section in your `README.md` that describes how you will secure your app and mitigate different potential attacks.
 
 ### Questions to consider
 
-- Will you store session info in a cookie (stateless) or in your database (stateful)?
+- Will you store session info in a token (stateless) or in your database (stateful)?
 - How will you check a user’s identity (authentication)?
 - How will you control what actions a user can take (authorization)?
 - How will you mitigate Cross-site Request Forgery (CSRF) attacks?
 
 ### Useful resources
 
-- [What really is the difference between session and token based authentication](https://dev.to/thecodearcher/what-really-is-the-difference-between-session-and-token-based-authentication-2o39)
-- [JSON Web Tokens suck](https://www.youtube.com/watch?v=JdGOb7AxUo0)
-- [CSRF prevention](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)
+- [Session-base vs token-based authentication](https://dev.to/fidalmathew/session-based-vs-token-based-authentication-which-is-better-227o#:~:text=In%20simple%20words%2C%20session%2Dbased,you%20leave%20or%20log%20out.)
+
 
 ### User stories
 
 As a **shopper**, I want to:
 
 - Log into my account using my email and password
-- Have my user session persisted so I don't have to log in every time
+- Have my user session persist, so I don't have to log in every time
+- Log out of my session
 
 
 
