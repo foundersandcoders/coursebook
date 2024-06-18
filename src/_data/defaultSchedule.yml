@@ -1,10 +1,10 @@
 monday:
   - start: 9:30
     end: 9:45
-    name: Exec program
+    name: Check in
   - start: 9:45
     end: 10:00
-    name: Check in
+    name: Exec program
   - start: 10:00
     end: 11:00
     name: Workshop group discussion
@@ -35,10 +35,10 @@ monday:
 tuesday:
   - start: 9:30
     end: 9:45
-    name: Exec program
+    name: Check-in & Mentor Intro
   - start: 9:45
     end: 10:00
-    name: Check-in & Mentor Intro
+    name: Exec program
   - start: 10:00
     end: 12:00
     name: Project
@@ -69,10 +69,10 @@ tuesday:
 wednesday:
   - start: 9:30
     end: 9:45
-    name: Exec program
+    name: Check-in & Mentor Intro
   - start: 9:45
     end: 10:00
-    name: Check-in & Mentor Intro
+    name: Exec program
   - start: 10:00
     end: 12:00
     name: Project
@@ -103,10 +103,10 @@ wednesday:
 thursday:
   - start: 9:30
     end: 9:45
-    name: Exec program
+    name: Thought of the Week
   - start: 9:45
     end: 10:00
-    name: Thought of the Week
+    name: Exec program
   - start: 10:00
     end: 11:00
     name: Class Code Review
