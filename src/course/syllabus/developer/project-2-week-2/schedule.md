@@ -35,8 +35,8 @@ schedule:
     #   name: Reading for next topic
     #   url: /course/syllabus/developer/client-side-app/topicIntro/
   friday:
-    - name: Learn teraform
-      # url: https://nextjs.org/learn/basics/create-nextjs-app
+    - name: Get Started with AWS CDK
+      url: https://docs.aws.amazon.com/cdk/v2/guide/hello_world.html
       type: workshop
       start: 9:30
       end: 18:00
