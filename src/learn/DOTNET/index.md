@@ -30,7 +30,7 @@ You can use the following command to view a list of templates available for your
 dotnet new list
 ```
 
-next use this command to make a ASP.NET core web api with the name MyWebApi 
+but what we want to build is a WebApi app, and the command to create that template is this:
 
 ```dotnet
 
