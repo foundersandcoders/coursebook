@@ -29,11 +29,9 @@ schedule:
     #   end: 16:00
     #   url: https://fac-slides.netlify.app/slides/design-sprint/
   friday:
-    # - name: Progress Log Review
-    #   start: 10:00
-    #   end: 11:30
-    #   type: expert-feedback
-    # - name: Consolidation day
-    #   start: 11:30
-    #   end: 18:00
+    - name: .NET workshop
+      url: /learn/DOTNET
+      type: workshop
+      start: 9:30
+      end: 18:00
 ---
