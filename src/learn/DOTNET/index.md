@@ -10,7 +10,7 @@ keywords:
 challenge: https://github.com/foundersandcoders/DOTNET-Workshop
 ---
 
-Although all are coding so far has been in javascript or its close cousin typescript not all web sites are coded in this language. If you know other popular coding languges it will boost you capabilities as a dev.
+Although all our coding so far has been in javascript or its close cousin typescript not all web sites are coded in this language. If you know other popular coding languages it will boost you capabilities as a dev.
 The benefits of languges over one another have much to do with situation and prefference. Proponents of DOTNET(.NET) will tell you that in comparison to javascript the langauge was designed with much more intention and while javascript devs are constantly installing new libraries to do anything dotnet has in its built in library most of the functionality needed to be a developer. They will also tell you that when you get to the point of maximizing the speed of your code .NET will make things easier. Many people are also fans of object oriented programing but coming from functional programing its unlikely you will initially feel that way. 
 
 ## Setting up .Net
