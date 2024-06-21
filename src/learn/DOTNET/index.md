@@ -22,7 +22,7 @@ Dot net projects can be made in VSCode just like javascript. In order to get sta
 
 ## Setting up project
 
-start by creating a new project and cding into it.
+start by creating a new project and cd-ing into it.
 
 use the following command to see a list of possible dotnet project types. 
 
