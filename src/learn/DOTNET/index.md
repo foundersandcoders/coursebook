@@ -43,8 +43,8 @@ dotnet new webapi -n MyWebApi
 ## Personalizing your project
 
 Open the ne directory and navigate to the program file. This file is the entrypoint for execution and where servers and middleware can be configured. When you create a new project microsoft helpfully includes some code to tell you the weather in this project. We can delete this. After removing the weather stuff the file should look like
-<!-- language: csharp -->
-```Csharp
+
+```cs
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -79,8 +79,7 @@ which is middleware that is required to run on a route before it acesses the end
 which attatches endpoints to our controllers.
 
 the final file should look like this
-<!-- language: csharp -->
-```Csharp
+```cs
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -117,8 +116,7 @@ app.Run();
 inside your MyWebApi directory make a new directory called controllers. Inside this directory make a new file called MyController.cs
 
 within the file add this code
-<!-- language: csharp -->
-```Csharp
+```cs
 // imports useful methods for setting up a controller
 using Microsoft.AspNetCore.Mvc;
 // sets up an api controller 

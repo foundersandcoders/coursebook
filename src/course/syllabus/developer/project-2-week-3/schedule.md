@@ -29,8 +29,8 @@ schedule:
     #   end: 16:00
     #   url: https://fac-slides.netlify.app/slides/design-sprint/
   friday:
-    - name: Database workshop
-      url: /learn/database
+    - name: .NET workshop
+      url: /learn/DOTNET
       type: workshop
       start: 9:30
       end: 18:00
