@@ -146,7 +146,11 @@ make sure your terminal is inside the api directory then use
 ```shell
 dotnet run
 ```
-You should get a link to visit but there is nothing there. The trick is to add `/swagger` onto the end of your url. If everything has worked properly you should be taken to a web page where you can click around and test any routes from your controller give it a go.
+You should get a link to visit but there is nothing there. The trick is to add `/swagger` onto the end of your url. If everything has worked properly you should be taken to a web page where you can click around and test any routes from your controller give it a go. It should look something like this.
+
+![image](https://github.com/foundersandcoders/coursebook/assets/113926900/51a3063c-2549-4421-b6af-10e1587329e7)
+
+
 
 As a final note before you commit any of this work to github dotnet projects generate small dev files at a scary rate so you should make sure you set up a gitignore a short cut for making one that ignores all the files you will only need locally is
 
