@@ -14,7 +14,7 @@ Like the last project you will benefit this project by building a scheme for you
 
 ### Questions to consider
 
-1. Routes will you need.
+1. What routes will you need.
 2. What sort of objects will you need to match these data types and what will these look like in dotnet.
 
 
