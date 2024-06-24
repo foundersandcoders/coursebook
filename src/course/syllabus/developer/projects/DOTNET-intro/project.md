@@ -10,7 +10,7 @@ Your project for the next 3 weeks will be to develop a .NET backend connected to
 
 ## Spike
 
-Like the last project you will benefit this project by building a scheme for your database before you start. Hopefully with what you learned from last project you are already ready to think about how things will connect. For this week making the backend also be sure to consider what sorts of routes you will want. Finally think about what you have done for stretch goals on previous projects and see if you can come up with a different sort of goal this time ex. if you've been stretching yourself by adding technical complexity try stretching yourself by having a really nice looking site this time.
+Like the last project you will benefit this project by building a scheme for your database before you start. Hopefully with what you learned from last project you are already ready to think about how things will connect. For this week making the backend also be sure to consider what sorts of routes you will want. Finally think about what you have done for stretch goals on previous projects and see if you can come up with a different sort of goal this time for example if you've been stretching yourself by adding technical complexity try stretching yourself by having a really nice looking site this time.
 
 ### Questions to consider
 
