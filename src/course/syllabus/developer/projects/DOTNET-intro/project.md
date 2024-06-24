@@ -2,11 +2,11 @@
 
 Learners will build a library sorting and sharing some sort of information music, photos recipes etc. Users will be able to make personal lists and view items and lists created by other users. Users can upload and favorite items.
 
-The frontend of this project will be built using React. For the backend, it will use ASP.NET to handle server-side functionality. User accounts and item lists will be stored in a postgres  database.
+The frontend of this project will be built using React. For the backend, it will use ASP.NET to handle server-side functionality. User accounts and item lists will be stored in a PostgreSQL or SQLite database.
 
 ## Project
 
-Your project for the next 3 weeks will be to develop a .NET backend connected to a SQLite database and linked to a React frontend. This week you should start by building the backend and testing it with swagger to see that you can create users with libraries containing lists of items. See if you can create a database and make calls to find lists by usernames or to find or filter lists.
+Your project for the next 3 weeks will be to develop a .NET backend connected to a database and linked to a React frontend. This week you should start by building the backend and testing it with swagger to see that you can create users with libraries containing lists of items. See if you can create a database and make calls to find lists by usernames or to find or filter lists.
 
 ## Spike
 
