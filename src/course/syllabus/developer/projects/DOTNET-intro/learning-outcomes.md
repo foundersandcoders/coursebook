@@ -4,7 +4,7 @@
 
 - [ ] Learn how to create and run a project in .NET
 - [ ] Learn C# basics
-- [ ] Learn to test an ASP.NET project with swagger
+- [ ] Learn to test an ASP.NET project with Swagger
 - [ ] Learn to link .NET project with database and react
 
 
