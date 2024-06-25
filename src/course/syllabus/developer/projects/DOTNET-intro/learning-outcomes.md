@@ -10,4 +10,4 @@
 
 ## Working with senior devs
 - [ ] Gain confidence asking external .NET mentors for help and guidance
-- [ ] Gain skill and publishing work for review by mentors with a visible thought process
+- [ ] Write PR's and clear commits for review by outside mentors. This documentation should clearly show your thought process
