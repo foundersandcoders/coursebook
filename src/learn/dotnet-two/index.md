@@ -1,27 +1,19 @@
 ---
-title: Dependency injections and interfaces in Dotnet
-description: Learn how to use dependency injections and interfaces in Dotnet
+title: Dependency injections and interfaces in .NET
+description: Learn how to use dependency injections and interfaces in .NET
 tags:
   - workshop
 keywords:
-  - DOTNET
+  - .NET
   - ASP.NET 
-  - CSharp
+  - C#
 challenge: https://github.com/foundersandcoders/DOTNET-Workshop-Two/blob/main/README.md
 ---
 
 
-
-## Setting up .Net
-
-Dot net projects can be made in VSCode just like javascript. In order to get started with this you will need to first install the dot net SDK https://dotnet.microsoft.com/en-us/download and the C# Dev kit https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit
-
-
-
-
 ## Why Dependency Injections
 
-It is quite common to have an object that depends on another object to do its function especially in a object focused environment like dotnet. For instance your constructor depends on your data context object. However it can cause problems to always have to build dependencies first and then the objects that depend on them next. Also what if two classes need to access different versions of the dependency for example we might want to use the data context class both in a testing class and in the actual project but when using it in the testing context might want to set it up in such a way that we don't actually effect the database we could do this by adjusting the controller class but it would be easier if we could make that class initially more flexible. 
+It is quite common to have an object that depends on another object to do its function especially in a object focused environment like .NET. For instance your constructor depends on your data context object. However it can cause problems to always have to build dependencies first and then the objects that depend on them next. Also what if two classes need to access different versions of the dependency for example we might want to use the data context class both in a testing class and in the actual project but when using it in the testing context might want to set it up in such a way that we don't actually effect the database we could do this by adjusting the controller class but it would be easier if we could make that class initially more flexible. 
 
 The solution to these problems is dependency injections where rather than creating a dependency that a class depends on we give the class a interface to tell it what type of object to expect and then create a service that allows us to create dependencies as needed and inject them into the class. 
 
