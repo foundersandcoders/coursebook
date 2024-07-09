@@ -1,17 +1,17 @@
 ---
-title: Introduction to Dotnet
-description: Learn how to set up a basic DOTNET app
+title: Introduction to .NET
+description: Learn how to set up a basic .NET app
 tags:
   - workshop
 keywords:
-  - DOTNET
+  - .NET
   - ASP.NET 
   - CSharp
 challenge: https://github.com/foundersandcoders/DOTNET-Workshop
 ---
 
 Although all our coding so far has been in javascript or its close cousin typescript not all web sites are coded in this language. If you know other popular coding languages it will boost you capabilities as a dev.
-The benefits of languges over one another have much to do with situation and prefference. Proponents of DOTNET(.NET) will tell you that in comparison to javascript the langauge was designed with much more intention and while javascript devs are constantly installing new libraries to do anything dotnet has in its built in library most of the functionality needed to be a developer. They will also tell you that when you get to the point of maximizing the speed of your code .NET will make things easier. Many people are also fans of object oriented programing but coming from functional programing its unlikely you will initially feel that way. 
+The benefits of languges over one another have much to do with situation and prefference. Proponents of .NET will tell you that in comparison to javascript the langauge was designed with much more intention and while javascript devs are constantly installing new libraries to do anything .NET has in its built in library most of the functionality needed to be a developer. They will also tell you that when you get to the point of maximizing the speed of your code .NET will make things easier. Many people are also fans of object oriented programing but coming from functional programing its unlikely you will initially feel that way. 
 
 ## Setting up .Net
 
@@ -138,7 +138,7 @@ namespace MyApi.Controllers
 
 
 ```
-you now have a very simple api built in dotnet
+you now have a very simple api built in .NET
 ## Using Swagger to test controllers
 
 make sure your terminal is inside the api directory then use
@@ -152,7 +152,7 @@ You should get a link to visit but there is nothing there. The trick is to add `
 
 
 
-As a final note before you commit any of this work to github dotnet projects generate small dev files at a scary rate so you should make sure you set up a gitignore a short cut for making one that ignores all the files you will only need locally is
+As a final note before you commit any of this work to github .NET projects generate small dev files at a scary rate so you should make sure you set up a gitignore a short cut for making one that ignores all the files you will only need locally is
 
 ```shell
 dotnet new gitignore   
