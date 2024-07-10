@@ -2,7 +2,7 @@
 Your task this week is to deploy and test the library app you have completed in the previous two weeks.
 
 ## Spike
-Before you start you need to create a testing and deployment plan. We would like you plan a testing strategy that will have broad coverage of your project. The tools we would like you to use to achieve this can include Cypress, Postman and the Node built in testing library.
+Before you start you need to create a testing and deployment plan. We would like you to plan a testing strategy that will have broad coverage of your project. The tools we would like you to use to achieve this can include Cypress, Postman and the Node built in testing library.
 
 We would also like you to deploy this project using an EC2 instance for you server and a S3 bucket to serve your static files using CloudFront. You should also utilise Github actions to allow you to automatically deploy changes on merges to your main branch.
 
