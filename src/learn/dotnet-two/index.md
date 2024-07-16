@@ -5,45 +5,60 @@ tags:
   - workshop
 keywords:
   - .NET
-  - ASP.NET 
+  - ASP.NET
   - C#
 challenge: https://github.com/foundersandcoders/DOTNET-Workshop-Two/blob/main/README.md
 ---
 
 
+
+
 ## Why Dependency Injections
 
-It is quite common to have an object that depends on another object to do its function especially in a object focused environment like .NET. For instance your constructor depends on your data context object. However it can cause problems to always have to build dependencies first and then the objects that depend on them next. Also what if two classes need to access different versions of the dependency for example we might want to use the data context class both in a testing class and in the actual project but when using it in the testing context might want to set it up in such a way that we don't actually effect the database we could do this by adjusting the controller class but it would be easier if we could make that class initially more flexible. 
 
-The solution to these problems is dependency injections where rather than creating a dependency that a class depends on we give the class a interface to tell it what type of object to expect and then create a service that allows us to create dependencies as needed and inject them into the class. 
+It is quite common to have an object that depends on another object to do its function, especially in an object-oriented environment like .NET. For instance, your constructor depends on your data context object. However, it can cause problems to always have to build dependencies first and then the objects that depend on them next. Also what if two classes need to access different versions of the dependency for example we might want to use the data context class both in a testing class and in the actual project but when using it in the testing context, we might want to set it up in such a way that we don't actually affect the database we could do this by adjusting the controller class but it would be easier if we could make that class initially more flexible.
+
+
+The solution to these problems is dependency injections where rather than creating a dependency that a class depends on we give the class an interface to tell it what type of object to expect and then create a service that allows us to create dependencies as needed and inject them into the class.
+
 
 ## Set up
 
-Open the simple hello world project you made last week. Within MyWebApi (or whatevery you named the project) add a models directory and create a Book.cs file within it that looks like this .
+
+Open the simple hello world project you made last week. Within MyWebApi (or whatever you named the project) add a models directory and create a Book.cs file within it that looks like this 
+
 
 ```cs
 namespace MyWebApi.Models
 {
 
+
     public class Book
     {
         public Guid Id {set; get;}
         public string? Name {set; get;}
-        
+       
+
 
     }
 }
 
+
 ```
-We now need to install Microsoft EntityFrameworkCore to help set up a quick in memory database. Like so
+We now need to install Microsoft EntityFrameworkCore to help set up a quick in-memory database. Like so
+
+
 
 
 ```dotnet
 
+
 dotnet add package Microsoft.EntityFrameworkCore
 
+
 ```
-then we make a data folder and inside make a BookContext.cs file that will look like so
+Then we make a data folder and inside make a BookContext.cs file that will look like so
+
 
 ```cs
 using Microsoft.EntityFrameworkCore;
@@ -53,7 +68,7 @@ namespace  MyWebApi.Data
     public class BookContext : DbContext
     {
         public BookContext(DbContextOptions options): base(options){}
-        
+       
         public  DbSet<Book> Books {set; get;}
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -63,31 +78,44 @@ new Book {Id = Guid.NewGuid(), Name = "Nevada"}
 
 
 
+
+
+
 );
+
 
             base.OnModelCreating(modelBuilder);
         }
 
+
     }
+
 
 }
 
-```
-this is moving towards a simple in memory database containing two books with randomly generated ids. First we will need to update our Program.cs file to use them.
 
-start by installing the following package
+```
+This is moving towards a simple in-memory database containing two books with randomly generated IDs. First, we will need to update our Program.cs file to use them.
+
+
+Start by installing the following package
+
 
 ```dotnet
 dotnet add package Microsoft.EntityFrameworkCore.InMemory
 ```
 
+
 Then update the Program.cs file to look like what follows.
+
 
 ```cs
  using Microsoft.EntityFrameworkCore;
 using MyWebApi.Data;
 
+
 var builder = WebApplication.CreateBuilder(args);
+
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -95,6 +123,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<BookContext>(options => options.UseInMemoryDatabase("book db"));
 builder.Services.AddControllers();
+
 
 var app = builder.Build();
 using(var scope = app.Services.CreateScope())
@@ -109,7 +138,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+
 app.MapControllerRoute("default", "api/[controller]/[action]");
+
+
 
 
 app.UseHttpsRedirection();
@@ -117,18 +149,28 @@ app.UseHttpsRedirection();
 
 
 
+
+
+
+
 app.Run();
 
 
-```
-This should give our BookContext the power to create in memory databases and ensure they are created on app build.
 
-Now lets update our controller to be a book controller that returns a list of books. 
+
+```
+This should give our BookContext the power to create in-memory databases and ensure they are created on app build.
+
+
+Now let's update our controller to be a book controller that returns a list of books.
+
 
 ```cs
 using Microsoft.AspNetCore.Mvc;
 using MyWebApi.Data;
 using MyWebApi.Models;
+
+
 
 
 namespace MyWebApi.Controllers
@@ -149,10 +191,12 @@ public class BookController : Controller
         return result;
     }
 
+
     [HttpGet]
     public Book GetABook(string name)
     {
 var result = _context.Books.FirstOrDefault<Book>((book)=> book.Name== name);
+
 
             if (result == null)
                 throw new Exception("book not found");
@@ -161,8 +205,11 @@ return result;
 }
 }
 
+
 ```
-give it a quick swagger test then lets look at a part of this code in more detail.
+Give it a quick swagger test, and then let's look at a part of this code in more detail.
+
+
 
 
 ```cs
@@ -174,15 +221,19 @@ public class BookController : Controller
         _context = context;
     }
 ```
-The constructor for this class (line 4) requires BookContext to function. This means these two objects are now tightly linked and we cant easily  change one without changing the other.
+The constructor for this class (line 4) requires BookContext to function. This means these two objects are now tightly linked and we can't easily change one without changing the other.
+
 
 To allow us more flexibility we are going to create something called an interface that we can feed in instead. An interface lets the constructor know what to expect but will not be as absolute as actually giving it the class.
 
-the first step to do that is to go into our data directory and make a new file called IBookContext that looks like this.
+
+The first step to do that is to go into our data directory and make a new file called IBookContext that looks like this.
+
 
 ```cs
 using MyWebApi.Models;
 using Microsoft.EntityFrameworkCore;
+
 
 namespace MyWebApi.Data
 {
@@ -193,9 +244,12 @@ public DbSet<Book> Books {set; get;}
 }
 ```
 
+
 This creates an interface and tells the class passed this that at run time it can expect something that contains a DbSet of books rather than the specific class passed to it before. Now we just need to tell all the other parts of our program to look for the interface rather than the object.
 
-lets start with the BookContext file itself
+
+Let's start with the BookContext file itself.
+
 
 ```cs
 using Microsoft.EntityFrameworkCore;
@@ -203,18 +257,20 @@ using MyWebApi.Models;
 namespace  MyWebApi.Data
 {
     public class BookContext : DbContext ,IBookContext
-  
+ 
 ```
-if we make this change the BookContext can now inherits from both DbContext and IBookContext.
+If we make this change the BookContext can now inherit from both DbContext and IBookContext.
 
-Now we want to update our Program.cs file so that when the context is built int knows it could take anything that matches the interface requirements
+
+Now we want to update our Program.cs file so that when the context is built it knows it can take anything that matches the interface requirements
 ```cs
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<IBookContext,BookContext>(options => options.UseInMemoryDatabase("book db"));
 builder.Services.AddControllers();
 ```
-Finally we do what we wanted to all along which is make our book controller independent from the BookContext class by putting our interface in the constructor. 
+Finally, we do what we wanted to all along which is to make our book controller independent from the BookContext class by putting our interface in the constructor.
 ```cs
+
 
 public class BookController : Controller
 {
@@ -222,17 +278,22 @@ public class BookController : Controller
     public  BookController(IBookContext context)
 ```
 
-Besides making your work easier by having these two things loser it will also give you the ability to for instance in tests fill an IBookContext with fake data and easily use it for testing as shown bellow.
+
+Besides making your work easier by having these two things looser it will also give you the ability to if you created an xUnit testing environment (like the one in the challenge repo), write code like this that substitutes fake data for the book context.  
+
 
 ```cs
+
 
  {
     public class BookControllerTests
     {
 
+
         private readonly BookController _controller;
         public  BookControllerTests()
         {
+
 
 var fakeData = new List<Book>
 {
@@ -240,16 +301,21 @@ var fakeData = new List<Book>
         new Book {Id = Guid.NewGuid(), Name = "Fake book2" }
 
 
-}.AsQueryable();         
-var _context = new Mock<IBookContext>();   
+
+
+}.AsQueryable();        
+var _context = new Mock<IBookContext>();  
 _context.Setup(db => db.Books).ReturnsDbSet(fakeData);
+
 
 _controller = new BookController(_context.Object);
         }
 
+
 [Fact]        
 public void GetAllBooks_Returns_Entire_List()
 {
+
 
     var expected = new List<Book>
 {
@@ -257,12 +323,17 @@ public void GetAllBooks_Returns_Entire_List()
         new Book {Id = Guid.NewGuid(), Name = "Fake book2" }
 
 
+
+
 }.AsQueryable();
+
 
 var result = _controller.GetAllBooks().ToList();
 
+
 Assert.Equivalent(expected, result);
 }
+
 
 [Fact]
 public void GetABook_Returns_A_Book()
@@ -272,9 +343,15 @@ public void GetABook_Returns_A_Book()
 
 
 
+
+
+
+
 var result = _controller.GetABook("Fake book1");
 
+
 Assert.Equivalent(expected, result);
+
 
     }
 }
@@ -282,8 +359,12 @@ Assert.Equivalent(expected, result);
 ```
 Note this part which would not be possible if the Book controller relied on a BookContext
 ```cs
-var _context = new Mock<IBookContext>();   
+var _context = new Mock<IBookContext>();  
 _context.Setup(db => db.Books).ReturnsDbSet(fakeData);
+
 
 _controller = new BookController(_context.Object);
 ```
+
+
+
