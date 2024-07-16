@@ -5,55 +5,78 @@ tags:
   - workshop
 keywords:
   - .NET
-  - ASP.NET 
+  - ASP.NET
   - CSharp
 challenge: https://github.com/foundersandcoders/DOTNET-Workshop
 ---
 
-Although all our coding so far has been in javascript or its close cousin typescript not all web sites are coded in this language. If you know other popular coding languages it will boost you capabilities as a dev.
-The benefits of languges over one another have much to do with situation and prefference. Proponents of .NET will tell you that in comparison to javascript the langauge was designed with much more intention and while javascript devs are constantly installing new libraries to do anything .NET has in its built in library most of the functionality needed to be a developer. They will also tell you that when you get to the point of maximizing the speed of your code .NET will make things easier. Many people are also fans of object oriented programing but coming from functional programing its unlikely you will initially feel that way. 
+
+Although all our coding so far has been in JavaScript or its close cousin typescript, not all websites are coded in this language. If you know other popular coding languages it will boost your capabilities as a dev.
+The benefits of languages over one another have much to do with situation and preference. Proponents of .NET will tell you that in comparison to javascript, the language was designed with much more intention, and while javascript devs are constantly installing new libraries to do anything .NET has in its built-in library most of the functionality needed to be a developer. They will also tell you that when you get to the point of maximizing the speed of your code .NET will make things easier. Many people are also fans of object-oriented programming but coming from functional programming it's unlikely you will initially feel that way.
+
 
 ## Setting up .Net
 
-Dot net projects can be made in VSCode just like javascript. In order to get started with this you will need to first install the dot net SDK https://dotnet.microsoft.com/en-us/download and the C# Dev kit https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit
+
+Dot net projects can be made in VSCode just like JavaScript. In order to get started with this you will need to first install the dot net SDK https://dotnet.microsoft.com/en-us/download and the C# Dev kit https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit
+
+
+
+
 
 
 
 
 ## Setting up project
 
-start by creating a new project and cd-ing into it.
+
+Start by creating a new project and cd-ing into it.
+
 
 You can use the following command to view a list of templates available for your project:
+
 
 ```shell
 dotnet new list
 ```
 
-but what we want to build is a WebApi app, and the command to create that template is this:
+
+But what we want to build is a WebApi app. The command to create that template is this:
+
 
 ```dotnet
 
+
 dotnet new webapi -n MyWebApi
+
 
 ```
 
 
 
+
+
+
 ## Personalizing your project
 
-Open the ne directory and navigate to the program file. This file is the entrypoint for execution and where servers and middleware can be configured. When you create a new project microsoft helpfully includes some code to tell you the weather in this project. We can delete this. After removing the weather stuff the file should look like
+
+Open the new directory and navigate to the program file. This file is the entry point for execution and where servers and middleware can be configured. When you create a new project Microsoft helpfully includes some code to tell you the weather in this project. We can delete this. After removing the weather stuff the file should look like
+
 
 ```cs
 
+
 var builder = WebApplication.CreateBuilder(args);
+
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -62,25 +85,33 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+
 app.UseHttpsRedirection();
+
+
+
 
 
 
 app.Run();
 
 
+
+
 ```
-before we leave program to make an api controler we want to add 3 more lines so the program files.
+Before we leave the program file to make an API controller we want to add 3 more lines to the program file.
 1. builder.Services.AddControllers();
- so the file knows we are making a controller 
+ so the file knows we are making a controller
 2. app.UseAuthorization();
-which is middleware that is required to run on a route before it acesses the endpoint
-3.app.MapControllers();
-which attatches endpoints to our controllers.
+which is middleware that is required to run on a route before it accesses the endpoint
+3. app.MapControllers();
+which attaches endpoints to our controllers.
+
 
 the final file should look like this
 ```cs
 var builder = WebApplication.CreateBuilder(args);
+
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -88,7 +119,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -97,29 +130,41 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+
 app.UseHttpsRedirection();
+
 
 app.UseAuthorization();
 
+
 app.MapControllers();
+
+
 
 
 app.Run();
 
 
+
+
 ```
+
+
 
 
 ## Creating a controller
 
 
-inside your MyWebApi directory make a new directory called controllers. Inside this directory make a new file called MyController.cs
+
+
+Inside your MyWebApi directory make a new directory called controllers. Inside this directory make a new file called MyController.cs
+
 
 within the file add this code
 ```cs
 // imports useful methods for setting up a controller
 using Microsoft.AspNetCore.Mvc;
-// sets up an api controller 
+// sets up an api controller
 namespace MyApi.Controllers
 {
     [ApiController]
@@ -137,23 +182,35 @@ namespace MyApi.Controllers
 }
 
 
+
+
 ```
-you now have a very simple api built in .NET
+you now have a very simple API built in .NET
 ## Using Swagger to test controllers
 
-make sure your terminal is inside the api directory then use
+
+Make sure your terminal is inside the API directory then use
+
 
 ```shell
 dotnet run
 ```
-You should get a link to visit but there is nothing there. The trick is to add `/swagger` onto the end of your url. If everything has worked properly you should be taken to a web page where you can click around and test any routes from your controller give it a go. It should look something like this.
+You should get a link to visit but there is nothing there. The trick is to add `/swagger` onto the end of your URL. If everything has worked properly you should be taken to a web page where you can click around and test any routes from your controller give it a go. It should look something like this.
+
 
 ![image](https://github.com/foundersandcoders/coursebook/assets/113926900/51a3063c-2549-4421-b6af-10e1587329e7)
 
 
 
-As a final note before you commit any of this work to github .NET projects generate small dev files at a scary rate so you should make sure you set up a gitignore a short cut for making one that ignores all the files you will only need locally is
+
+
+
+As a final note before you commit any of this work to GitHub .NET projects generate small dev files at a scary rate so you should make sure you set up a .gitignore a shortcut for making one that ignores all the files you will only need locally is
+
 
 ```shell
-dotnet new gitignore   
+dotnet new gitignore  
 ```
+
+
+
