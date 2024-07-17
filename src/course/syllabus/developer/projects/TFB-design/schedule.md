@@ -2,7 +2,7 @@
 layout: schedule
 schedule:
   monday:
-    - name: Finalize Figma
+    - name: Finalise Figma
       start: 9:45
       end: 12:00
       type: project
