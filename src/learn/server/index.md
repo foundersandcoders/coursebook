@@ -513,7 +513,7 @@ Run your tests again and you should see the first one fail, since it is still ex
 
 ```js
 // ...
-assert.match(response.body, /Hello/);
+assert.match(body, /Hello/);
 ```
 
 {% enddisclosure %}
