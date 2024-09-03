@@ -25,11 +25,9 @@ exports.render = ({ page: { url }, content }) => {
         </${Section}>
         <${Section} title="Foundation" url=${url} subpath="course/syllabus/foundation">
           <li><${Link} url=${url} href="/course/syllabus/foundation/pre-course/schedule/">Pre-course</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/foundation/markup/schedule/">Markup</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/foundation/node/schedule/">Concurrency and Node.js</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/foundation/testing/schedule/">Testing</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/foundation/full-stack/schedule/">Full-Stack</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/foundation/post-course/schedule/">Post-course</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/foundation/markup/schedule/">Week 01</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/foundation/node/schedule/">Week 02</${Link}></li>
+
         </${Section}>
         <${Section} title="Developer" url=${url} subpath="course/syllabus/developer">
           <li value="0"><${Link} url=${url} href="/course/syllabus/developer/introduction/schedule">Introduction</${Link}></li>

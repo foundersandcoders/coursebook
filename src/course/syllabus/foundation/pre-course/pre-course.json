@@ -1,6 +1,7 @@
 {
   "tabs": {
     "learnings": false,
+    "project": false,
     "employability": false,
     "homework": false,
     "spikes": true
