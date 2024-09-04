@@ -47,6 +47,9 @@ Normally you would decide on which "features" you were going to build and then b
 
 For the sake of this exercise, we're just going to [add one issue](https://help.github.com/articles/creating-an-issue/) at the moment. Your client wants a beautifully styled heading for the homepage. It should be bold black writing with a background shadow that makes it stand out.
 
+This is how the issues console looks on GitHub.
+<img src="images/github_Issues.png" width="664" height="280" alt="Github Issues">
+
 1. Raise a new issue with a descriptive title.
 1. In the body of the issue, provide more detail about how to complete the work.
 1. Assign yourselves to this issue.
@@ -70,6 +73,16 @@ Alternatively you can do this in a single step by using the `-b` flag to tell th
 
 ```shell
 git checkout -b create-heading-with-shadow
+```
+
+An easy way to check which branch you are working on is to look at the VS status bar. In the following example, the branch is 'FAC30_updates.' Clicking on the name it will
+<img src="images/branch_on_VS.png" width="640" height="296" alt="VS Status bar">
+By clicking on the branch name, you can view all branches, both local and remote (those that are in the repository but not on your local machine)."
+<img src="images/VS_branches.png" width="640" height="296" alt="VS Status bar">
+This can be useful to get the big picture, but we highly recommend using the command line instead. The equivalent command to show all the branches is:
+
+```shell
+git branch -a."
 ```
 
 ### Step 4: satisfy the requirements
@@ -130,7 +143,12 @@ Now we need to write some code to add the new feature.
 
 ### Step 5: stage your changes
 
-1. Add `index.html` and `style.css` to the [staging area](http://softwareengineering.stackexchange.com/questions/119782/what-does-stage-mean-in-git).
+#### Staging changes in Git:
+
+Staging in Git is like a preparation area for your next commit. When you modify files in your project, you can choose which changes to "stage" using the git add command. These staged changes are what will be included in your next commit. This allows you to selectively commit only certain changes, even if you've modified multiple files. Think of it as a way to review and organize your changes before making them permanent in your project's history.
+For a more detailed explanation, you can refer to [staging area](http://softwareengineering.stackexchange.com/questions/119782/what-does-stage-mean-in-git).
+
+1. Add `index.html` and `style.css` to the staging area.
 
 ```shell
 git add index.html style.css
@@ -157,31 +175,94 @@ Here are some [great guidelines](https://chris.beams.io/posts/git-commit/) on wr
 It's also important to link your code changes to the issues that track them. GitHub lets you use a hash symbol followed by a number to [connect a commit to an issue](https://help.github.com/articles/autolinked-references-and-urls/). For example if the message includes `Relates #1` it will show this commit in issue number 1 on the GitHub repo. If a commit totally _fixes_ an issue you can use `Closes #1`, and GitHub will automatically close the issue when the commit is pushed to GitHub.
 
 1. Commit the files that are in the staging area.
+
    ```shell
    git commit -m 'Add new page heading element with styles' -m 'Relates #1'
    ```
+
    Here we're using a second `-m` flag to add another line to our commit message with the extra issue info.
    You could also just run `git commit`, which will open your [default text editor](https://oliverjam.es/blog/make-your-terminal-nicer/#set-your-default-editor) so you can write longer commit messages in a more comfortable environment.
 
 <img src="images/step6GitFlow.png" width="649" height="289" alt="repo visual after step 1">
 
+One final note about committing:
+Take a moment to review your changes before confirming your commit. While unstaging changes is straightforward, there's no simple "uncommit" command. Although it's possible to undo a commit, it can be a complex process, especially if you've already pushed the commit to a shared repository. It's always better to carefully consider your commit before finalizing it.
+
 ### Step 7: push your changes to GitHub
 
-At this point your remote repo on GitHub hasn't changed yet. You need to push your changes.
+After committing your changes locally, your remote repository on GitHub remains unchanged. To synchronize your local changes with the remote repository, you need to push your changes.
 
-1. Push the `create-heading-with-shadow` branch up to the "origin" (the GitHub repo that you cloned from).
+1. Ensure you're on the correct branch: Before pushing, double-check that you're on the branch you want to push:
+
+   ```shell
+   git branch
+   ```
+
+   This should show `create-heading-with-shadow` with an asterisk next to it.
+
+2. Push the create-heading-with-shadow branch to the "origin":
+   The "origin" refers to the GitHub repository that you originally cloned from. Use the following command:
+
    ```shell
    git push origin create-heading-with-shadow
    ```
+
+   This command tells Git to push your local create-heading-with-shadow branch to the same branch on the remote repository.
+
+3. Check the push result: After pushing, Git will display a message indicating the result. If successful, it will show something like:
+   ```shell
+   To https://github.com/your-username/your-repo.git
+   * [new branch]      create-heading-with-shadow -> create-heading-with-shadow
+   ```
+4. Verify on GitHub:
+   After pushing, visit your GitHub repository in a web browser. You should see your new branch listed, and it will contain the changes you just pushed.
 
 <img src="images/step7GitFlow.png" width="427" height="285" alt="repo visual after step 1">
 
 ### Step 8: create a pull request
 
-1. Programmer 1 navigates to the repository on GitHub and creates a pull request.
-   - Add a descriptive title (e.g. `Create page heading`)
-   - Add some more info about the change in the body. You can also link the PR to the issue here by including `Relates #1` or `Closes #1`.
-   - Select Programmer 2 as an [assignee](https://help.github.com/articles/assigning-issues-and-pull-requests-to-other-github-users/).
+After pushing your changes to GitHub, the next step is to create a Pull Request (PR). A PR is a way to propose changes from a branch to the main codebase and request review from your teammates.
+
+1. Navigate to the repository on GitHub:
+
+   - Open your web browser and go to the GitHub page of your repository.
+
+2. Initiate the Pull Request:
+
+   - You should see a prompt suggesting to create a PR for your recently pushed branch. If not, click on the "Pull requests" tab, then click the "New pull request" button.
+   - Select the branch you want to merge (in this case, create-heading-with-shadow) into the main branch.
+
+3. Set up the Pull Request:
+
+   3.1 Add a descriptive title:
+
+   - Choose a clear, concise title that summarizes the changes (e.g., "Create page heading with shadow effect").
+   - Good titles help reviewers quickly understand the purpose of the PR.
+
+     3.2 Write a detailed description in the body:
+
+   - Explain what changes you've made and why.
+   - Mention any potential impacts or dependencies.
+   - If applicable, include steps to test the changes.
+   - Link the PR to the relevant issue:
+
+     - Use keywords like "Relates #1" to reference the issue without closing it automatically.
+     - Use "Closes #1" or "Fixes #1" if this PR should close the issue when merged.
+
+     3.3 Select reviewers and assignees:
+
+   - Assign Programmer 2 as the reviewer. They will be notified to review your changes.
+   - You can also assign yourself or Programmer 2 to the PR, indicating who's responsible for moving it forward.
+
+4. Preview and submit:
+
+   - Review all the information you've added to ensure it's complete and accurate.
+   - Click "Create pull request" to submit it.
+
+5. Post-creation actions:
+
+   - After creating the PR, you can still edit its description, add comments, or include additional commits to the branch.
+   - GitHub will automatically run any configured checks or integrations.
 
 ### Step 9: merge the pull request
 
@@ -195,7 +276,8 @@ Now your remote repo looks like this:
 
 <img src="images/step9GitFlow.png" width="286" height="309" alt="repo visual after step 1">
 
-You can go and close the issue tracking this feature now that the change is merged (If you put `Closes #1` in your commit message it will have automatically closed).
+After the pull request is merged, you should address the related issue:
+If you included "Closes #1" (or similar closing keywords) in your commit message or pull request description, GitHub will have automatically closed the associated issue. If not, you should manually close the issue that tracked this feature, as the work is now complete and merged into the main branch.
 
 ---
 
@@ -216,7 +298,7 @@ Your quality assurance engineer has just noticed some problems with the recent c
    <figcaption>How the heading should look</figcaption>
 </figure>
 
-**Programmer 1 will fix the first problem** and **Programmer 2 will fix the second**. When you begin working on your weekly projects, you will always be pairing. So Programmer 1 represents "pair 1" and Programmer 2 represents "pair 2". From this point on you both need to work on separate computers.
+**Programmer 1 will fix the first problem** and **Programmer 2 will fix the second**. From this point on you both need to work on separate computers.
 
 **Note: Only one line in the `index.html` file needs to be modified.**
 
@@ -232,6 +314,8 @@ Your quality assurance engineer has just noticed some problems with the recent c
 1. Create the following two issues and assign each one to a different person
    - `Fix typo in page heading` (Programmer 1)
    - `Correct the classname of page heading` (Programmer 2)
+
+Remember or take note of the issue numbers when you create them, as you will need these later on.
 
 ### Step 3: create your branches
 
@@ -268,15 +352,20 @@ It's important to avoid making unrelated changes as you work. It can be tempting
 
 ### Step 6: commit your changes
 
-1. Both programmers commit their change. Don't forget the multi-line commit message with the referenced issue.
+1. Both programmers should commit their changes. Remember to use a multi-line commit message that references the relevant issue. (Refer back to the issue numbers you noted when you created them.)
 
-<img src="images/2step7GitFlow.png" width="744" height="450" alt="repo visual after step 1">
+<img src="images/2step7GitFlowSimplified.png" width="744" height="450" alt="repo visual after step 1">
 
 **Important: don't work in parallel from here**. We want to push, PR and merge Programmer 1's change first, _then_ move on to Programmer 2's change.
 
 ### Step 7: pull any new changes (Programmer 1)
 
-On a real project there might be lots of other people contributing code simultaneously. It's a good idea to regularly incorporate changes from the remote `main` branch into your branch (especially if you've been working on this branch for a long time). You usually want to check for remote changes before pushing your branch.
+Before pushing your branch, it's crucial to incorporate the latest changes from the remote `main` branch. In real-world projects, multiple team members often contribute code simultaneously, which can lead to divergence between your branch and the main codebase. To minimize conflicts and ensure your changes integrate smoothly:
+   1. First, always fetch and merge the latest updates from the remote `main` branch into your working branch.
+   2. Then, resolve any conflicts that may arise from this merge.
+   3. Only after successfully integrating the latest `main` changes should you push your branch.
+
+Let's integrate this workflow in our workshop:
 
 1. Programmer 1 switches to `main` branch.
    ```shell
