@@ -5,6 +5,7 @@ This topic is focused on the fundamental building blocks of web pages—accessib
 _To be completed ahead of Week 1_
 
 - [Git workflow workshop](/workshops/git-workflow/)
+- [GitHub Projects workshop](/workshops/github-projects)
 - [CSS Layout workshop](/workshops/css-layout/)
 - [Semantic HTML workshop](/workshops/semantic-html/)
 - [Accessibility workshop](/workshops/learn-a11y/)
