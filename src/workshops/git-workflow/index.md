@@ -239,7 +239,7 @@ After pushing your changes to GitHub, the next step is to create a Pull Request 
    - Choose a clear, concise title that summarizes the changes (e.g., "Create page heading with shadow effect").
    - Good titles help reviewers quickly understand the purpose of the PR.
 
-     3.2 Write a detailed description in the body:
+   3.2 Write a detailed description in the body:
 
    - Explain what changes you've made and why.
    - Mention any potential impacts or dependencies.
@@ -249,7 +249,7 @@ After pushing your changes to GitHub, the next step is to create a Pull Request 
      - Use keywords like "Relates #1" to reference the issue without closing it automatically.
      - Use "Closes #1" or "Fixes #1" if this PR should close the issue when merged.
 
-     3.3 Select reviewers and assignees:
+   3.3 Select reviewers and assignees:
 
    - Assign Programmer 2 as the reviewer. They will be notified to review your changes.
    - You can also assign yourself or Programmer 2 to the PR, indicating who's responsible for moving it forward.
