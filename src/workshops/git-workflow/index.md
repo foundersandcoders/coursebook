@@ -48,7 +48,7 @@ Normally you would decide on which "features" you were going to build and then b
 For the sake of this exercise, we're just going to [add one issue](https://help.github.com/articles/creating-an-issue/) at the moment. Your client wants a beautifully styled heading for the homepage. It should be bold black writing with a background shadow that makes it stand out.
 
 This is how the issues console looks on GitHub.
-<img src="images/github_Issues.png" width="664" height="280" alt="Github Issues">
+<img src="images/github_Issues.png" width="664" height="400" alt="Github Issues">
 
 1. Raise a new issue with a descriptive title.
 1. In the body of the issue, provide more detail about how to complete the work.
@@ -75,10 +75,14 @@ Alternatively you can do this in a single step by using the `-b` flag to tell th
 git checkout -b create-heading-with-shadow
 ```
 
-An easy way to check which branch you are working on is to look at the VS status bar. In the following example, the branch is 'FAC30_updates.' Clicking on the name it will
-<img src="images/branch_on_VS.png" width="640" height="296" alt="VS Status bar">
+An easy way to check which branch you are working on is to look at the VS status bar. In the following example, the branch is 'FAC30_updates.'
+
+<img src="images/branch_on_VS.png" width="400" height="150" alt="VS Status bar">
+
 By clicking on the branch name, you can view all branches, both local and remote (those that are in the repository but not on your local machine)."
+
 <img src="images/VS_branches.png" width="640" height="296" alt="VS Status bar">
+
 This can be useful to get the big picture, but we highly recommend using the command line instead. The equivalent command to show all the branches is:
 
 ```shell
@@ -279,7 +283,7 @@ Now your remote repo looks like this:
 After the pull request is merged, you should address the related issue:
 If you included "Closes #1" (or similar closing keywords) in your commit message or pull request description, GitHub will have automatically closed the associated issue. If not, you should manually close the issue that tracked this feature, as the work is now complete and merged into the main branch.
 
----
+---https://github.com/foundersandcoders/coursebook.git
 
 ## Part 2: splitting the work
 
