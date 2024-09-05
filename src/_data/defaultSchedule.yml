@@ -3,13 +3,13 @@ monday:
     end: 9:45
     name: Check in
   - start: 9:45
-    end: 10:00
+    end: 10:30
     name: Exec program
-  - start: 10:00
-    end: 11:00
+  - start: 10:30
+    end: 11:15
     name: Workshop group discussion
     type: workshop
-  - start: 11:00
+  - start: 11:15
     end: 12:00
     name: Workshop class discussion
     type: workshop
@@ -19,7 +19,7 @@ monday:
     url: https://foundersandcoders.notion.site/Retrospectives-cbfd57e19cd24c61a6bd8db16fe0f347
   - start: 13:00
     end: 14:00
-    name: lunch
+    name: Lunch
   - start: 14:00
     end: 15:00
     name: Sprint planning
@@ -35,15 +35,15 @@ monday:
 tuesday:
   - start: 9:30
     end: 9:45
-    name: Check-in & Mentor Intro
+    name: Check in & Mentor Intro
   - start: 9:45
-    end: 10:00
+    end: 10:30
     name: Exec program
-  - start: 10:00
-    end: 12:00
+  - start: 10:30
+    end: 11:00
     name: Project
     type: project
-  - start: 12:00
+  - start: 11:00
     end: 13:00
     name: Project
     type: project
@@ -69,15 +69,18 @@ tuesday:
 wednesday:
   - start: 9:30
     end: 9:45
-    name: Check-in & Mentor Intro
+    name: Check in & Mentor Intro
   - start: 9:45
-    end: 10:00
+    end: 10:30
     name: Exec program
-  - start: 10:00
-    end: 12:00
+  - start: 10:30
+    end: 13:00
     name: Project
     type: project
-  - start: 12:00
+  - start: 10:30
+    end: 10:45
+    name: Thought of the Week
+  - start: 10:45
     end: 13:00
     name: Project
     type: project
@@ -103,11 +106,11 @@ wednesday:
 thursday:
   - start: 9:30
     end: 9:45
-    name: Thought of the Week
+    name: Check in
   - start: 9:45
-    end: 10:00
+    end: 10:30
     name: Exec program
-  - start: 10:00
+  - start: 10:30
     end: 11:00
     name: Class Code Review
     url: https://foundersandcoders.notion.site/Code-Reviews-5c3b987ed1204e46b4c738da538a758c
@@ -135,13 +138,19 @@ thursday:
     name: Speaker/Tfb
 
 friday:
+  # - start: 9:30
+  #   end: 9:45
+  #   name: Exec program
+  # - start: 9:45
+  #   end: 10:30
+  #   name: Workshop
   - start: 9:30
     end: 9:45
-    name: Exec program
+    name: Check in
   - start: 9:45
-    end: 10:00
-    name: Workshop
-  - start: 10:00
+    end: 10:30
+    name: Exec program
+  - start: 10:30
     end: 11:00
     name: Workshop
   - start: 11:00
