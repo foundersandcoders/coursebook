@@ -37,9 +37,9 @@ exports.render = ({ page: { url }, content }) => {
           <li><${Link} url=${url} href="/course/syllabus/developer/week10-project05-DOTNET-intro/overview">W10→P5: .NET</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/developer/week11-project05-DOTNET-testing/overview">W11→P5: .NET & Testing</${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/developer/week12-project05-DOTNET-deploy/overview">W12→P5: .NET & Test & Deploy</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/projects/TFB-design/overview">W14→TFB: Design</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/projects/TFB-build-1/overview">W15→TFB: Build</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/projects/TFB-build-2/overview">W16→TFB: Build</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/week13-TFB-design/overview">W13→TFB: Design</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/week14-TFB-build/overview">W14→TFB: Build</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/week15-TFB-build/overview">W15→TFB: Build</${Link}></li>
         </${Section}>
         
         <${Section} title="Tech for Better" url=${url} subpath="course/syllabus/tfb">

@@ -1,5 +1,9 @@
 # Project
 
+## Repository naming convention
+Please name your repo following this template:
+PROTFB_Project_Name
+
 Your project in Design Week is to create a wireframe in [Figma](https://www.figma.com/) and test it with your Product Owners' user group.
 
 Take ideas from your Definition workshop and the sketches you did there. You can consider the ideas you came up with there as _low-fidelity prototypes_ and with Figma, you'll create a _high-fidelity prototype_.

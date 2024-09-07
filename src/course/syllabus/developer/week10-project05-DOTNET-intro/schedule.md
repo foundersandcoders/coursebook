@@ -29,6 +29,10 @@ schedule:
     #   end: 17:45
     #   type: project
   wednesday:
+    - name: Object Oriented Programming
+      url: https://docs.google.com/presentation/d/1uj464EeKvm38dJzVUH7Y3c3rYNB_6zSbqVYbNtTAJtQ/edit#slide=id.g2ea5f80184e_0_34
+      start: 10:30
+      end: 10:45 
     # - name: Web Science
     #   start: 10:00
     #   end: 11:00
@@ -48,6 +52,7 @@ schedule:
     #   start: 16:15
     #   end: 17:45
     #   url: https://foundersandcoders.notion.site/Code-Reviews-5c3b987ed1204e46b4c738da538a758c
+    
   thursday:
     # - name: Review issues
     #   start: 10:00

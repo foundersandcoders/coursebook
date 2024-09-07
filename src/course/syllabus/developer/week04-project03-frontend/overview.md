@@ -1,4 +1,4 @@
-### Week of November 4th
+### Week of September 30th
 
 ### This week is not updated to FAC30
 

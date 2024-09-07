@@ -55,7 +55,6 @@ exports.render = ({
           }
           ${
             tabs.homework !== false &&
-            !isDeveloperPage &&
             !isApplicationPage &&
             !isTechforBetterPage &&
             html`<${Tab} page=${page} href="homework">Homework</${Tab}>`

@@ -23,6 +23,10 @@ schedule:
     #   end: 17:45
   tuesday:
   wednesday:
+    - name: Though of the week. Misinformation, Disinformation and the threat to Democracy 
+      url: https://docs.google.com/presentation/d/1BxTrWRsPldIpbgRF8dm5FqCFmeoBil2Be0ZUu7HGEgE/edit#slide=id.g25e05124422_0_0
+      start: 10:30
+      end: 10:45 
   thursday:
     # - name: Design Week Intro
     #   start: 15:30

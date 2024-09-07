@@ -24,6 +24,10 @@ schedule:
       start: 9:45
       end: 13:00
       type: project
+    - name: CIAG - Presentation Feedback 
+      url: https://docs.google.com/presentation/d/1JIG5JlBbFkYdDxFMmhu07FHkFdnCTSEau2n6AVxzqpY/edit#slide=id.g29c2f2d9915_0_75
+      start: 10:30
+      end: 10:45 
 
   thursday:
     # - name: Sprint planning

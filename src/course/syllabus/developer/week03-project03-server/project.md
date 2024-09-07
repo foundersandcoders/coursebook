@@ -21,6 +21,10 @@ As a **quizzer**, I want to:
 - View a summary of my quiz results, including areas of strength and weakness.
 - Add, edit, and delete quiz questions and answers.
 
+## Repository naming convention
+Please name your repo following this template:
+PRO03_Name1_Name2_Name3_Name4
+
 ### Acceptance Criteria
 
 **The API should:**

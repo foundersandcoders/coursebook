@@ -42,6 +42,10 @@ As a **user**, I want to:
 - Stop duplicate items being uploaded
 - Suggest collections based on favourites
 
+## Repository naming convention
+Please name your repo following this template:
+PRO05_Name1_Name2_Name3_Name4
+
 ## Acceptance criteria
 
 - [ ] Backend is in a mostly completed state and attached to a rough draft front end

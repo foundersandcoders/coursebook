@@ -43,6 +43,10 @@ As a **shopper**, I want to:
 - View previous orders and order history
 - Complete checkout and payments to simulate purchasing products
 
+## Repository naming convention
+Please name your repo following this template:
+PRO04_Name1_Name2_Name3_Name4
+
 ## Acceptance criteria
 
 - [ ] Store product data in a database

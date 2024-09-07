@@ -90,6 +90,11 @@ schedule:
     # - start: 17:45
     #   end: 18:00
     #   name: Check-out
+  
+    - name: Though of the week. Safeguarding - Digital and financial wellbeing 
+      url: https://docs.google.com/presentation/d/1ttovT29sBRG_TFcBDpaNy_BKaL-CW95mZbKZltqEeJc/edit#slide=id.g25e05124422_0_0
+      start: 10:30
+      end: 10:45
 
   thursday:
     # - name: Check-in

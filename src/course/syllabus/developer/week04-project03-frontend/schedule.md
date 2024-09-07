@@ -23,6 +23,10 @@ schedule:
     #   url: https://fac-slides.netlify.app/slides/estimation/
   tuesday:
   wednesday:
+    - name: Though of the week. CIAG - Career paths and freelance work
+      url: https://www.notion.so/foundersandcoders/Professional-progression-support-7a3c713bf582457fb0f7d5717df8aff4
+      start: 10:30
+      end: 10:45
   thursday:
     # - name: Reading for next topic
     #   start: 15:30

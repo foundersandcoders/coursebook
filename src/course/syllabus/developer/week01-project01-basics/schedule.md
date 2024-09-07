@@ -28,7 +28,7 @@ schedule:
       start: 9:30
       end: 9:45
 
-    - name: Project Presentation
+    - name: Project Presentation / Create Teams
       type: project
       start: 10:30
       end: 11:00
@@ -37,6 +37,11 @@ schedule:
     - name: Check in
       start: 9:30
       end: 9:45
+
+    - name: Though of the week. Psychological safety
+      start: 10:30
+      end: 10:45
+      url: https://docs.google.com/presentation/d/16aYTQXPnceAxQWrLTuQUMekCJcQ9xt1uJhSGjD2GyLE/edit#slide=id.g2ded454d323_0_103
 
   thursday:
     - name: HackMD Introduction

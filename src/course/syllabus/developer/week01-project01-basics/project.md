@@ -25,6 +25,10 @@ _**A [user story](https://www.visual-paradigm.com/guide/agile-software-developme
 - Navigate your website using keyboard controls
 - Hear my screen reader describe the content on your website
 
+## Repository naming convention
+Please name your repo following this template:
+PRO01_Name1_Name2_Name3_Name4
+
 ## Acceptance Criteria
 
 _**User stories come with [acceptance criteria](https://blog.easyagile.com/how-to-write-good-user-stories-in-agile-software-development-d4b25356b604?gi=dc603f56ed77) - a detailed scope of a user’s requirements.**_
