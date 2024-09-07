@@ -37,7 +37,20 @@ schedule:
     - name: Check in
       start: 9:30
       end: 9:45
-  thursday:
-  friday:
 
+  thursday:
+    - name: HackMD Introduction
+      type: workshop
+      url: https://hackmd.io/
+      start: 11:00
+      end: 11:30
+    - name: Presentation Prep
+      url: https://foundersandcoders.notion.site/Project-presentations-d8787b65e78a4314b62475552e7989e9
+      start: 11:30
+      end: 13:00
+
+    - name: Speaker (Ivan - AI.)
+      start: 16:30
+      end: 17:30
+  friday:
 ---

@@ -138,12 +138,6 @@ thursday:
     name: Speaker/Tfb
 
 friday:
-  # - start: 9:30
-  #   end: 9:45
-  #   name: Exec program
-  # - start: 9:45
-  #   end: 10:30
-  #   name: Workshop
   - start: 9:30
     end: 9:45
     name: Check in

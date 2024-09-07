@@ -23,27 +23,30 @@ exports.render = ({ page: { url }, content }) => {
         <li><${Link} url=${url} href="/course/handbook/software-foundation/">Software Foundation</${Link}></li>
         <li><${Link} url=${url} href="/course/handbook/software-developer/">Software Developer</${Link}></li>
         </${Section}>
-        <${Section} title="Foundation" url=${url} subpath="course/syllabus/foundation">
-          <li><${Link} url=${url} href="/course/syllabus/foundation/pre-course/schedule/">Pre-course</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/foundation/week01/overview/">Week 01</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/foundation/week02/schedule/">Week 02</${Link}></li>
-
-        </${Section}>
         <${Section} title="Developer" url=${url} subpath="course/syllabus/developer">
-          <li value="0"><${Link} url=${url} href="/course/syllabus/developer/introduction/schedule">Introduction</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/project-1-server/schedule/">Project 1: Server</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/project-1-frontend/schedule/">Project 1: Frontend</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/project-1-test-deploy/schedule/">Project 1: Test & Deploy</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/project-2-week-1/schedule/">Project 2: Databases</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/project-2-week-2/schedule/">Project 2: Authentication</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/project-2-week-3/schedule/">Project 2: Test & Deploy</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/projects/DOTNET-intro/schedule">Project 3: .NET</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/projects/dotnet-with-testing/schedule">Project 3: .NET With Testing</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/projects/project-3-week-3/schedule">Project 3: Test and Deploy</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/projects/TFB-design/schedule">TFB Design Sprint</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/projects/TFB-build-1/schedule">TFB Build Sprint 1</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/projects/TFB-build-2/schedule">TFB Build Sprint 2</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/foundation/pre-course/schedule/">Pre-course</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/foundation/week01/overview/">W01/P1: Basics</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/foundation/week02/overview/">W02.P2: Async</${Link}></li>
+  
+
+        
+          
+        
+          <li><${Link} url=${url} href="/course/syllabus/developer/project-1-server/schedule/">W03_P3: Server</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/project-1-frontend/schedule/">W04_P3: Frontend</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/project-1-test-deploy/schedule/">W05_P3: Test & Deploy</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/project-2-week-1/schedule/">W06_P4: Databases</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/project-2-week-2/schedule/">W07_P4: Authentication</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/project-2-week-3/schedule/">W08_P4: Test & Deploy</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/">W09: READING WEEK</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/projects/DOTNET-intro/schedule">W10_P5: .NET</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/projects/dotnet-with-testing/schedule">W11_P5: .NET With Testing</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/projects/project-3-week-3/schedule">W12_P5: Test and Deploy</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/projects/TFB-design/schedule">W14.TFB: Design</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/projects/TFB-build-1/schedule">W15.TFB: Build</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/projects/TFB-build-2/schedule">W16.TFB: Build</${Link}></li>
         </${Section}>
+        
         <${Section} title="Tech for Better" url=${url} subpath="course/syllabus/tfb">
         <li><${Link} url=${url} href="/course/syllabus/tfb/week 1/content">Week 1: Introduction </${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/tfb/week 2/content">Week 2: Product Pitches and Discovery </${Link}></li>
