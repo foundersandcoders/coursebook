@@ -1,3 +1,5 @@
+### Week of September 16th
+
 Learn how to manage asynchronous tasks and send HTTP requests using JavaScript.
 
 ### Workshops

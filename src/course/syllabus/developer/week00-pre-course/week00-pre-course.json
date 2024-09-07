@@ -1,0 +1,12 @@
+{
+  "tabs": {
+    "overview": true,
+    "schedule": false,
+    "project": false,
+    "learnings": false,
+    "spikes": true,
+    "employability": false,
+    "resources": false,
+    "homework": false
+  }
+}
