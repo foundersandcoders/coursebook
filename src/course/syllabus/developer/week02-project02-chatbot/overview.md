@@ -9,7 +9,7 @@ Learn how to manage asynchronous tasks and send HTTP requests using JavaScript.
 - [Build a testing library](/workshops/learn-testing/). Repo name: Work09_TestLibrary_YourName
 - [Unit testing workshop](/workshops/learn-unit-testing/). Repo name: Work10_UnitTesting_YourName
 - [Integration testing workshop](/workshops/learn-integration-testing/). Repo name: Work11_IntegrationTesting_YourName
-- [TDD workshop](/workshops/tdd-array-methods/). Repo name: Work12_DD_YourName
+- [TDD workshop](/workshops/tdd-array-methods/). Repo name: Work12_TDD_YourName
 
 ### Execute Program
 - [Execute Program Basic Typescript](https://www.executeprogram.com/courses/typescript-basics)
