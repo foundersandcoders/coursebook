@@ -1,5 +1,7 @@
 ## Week of September 16th
 
+### This week is not updated to FAC30
+
 Learn how to manage asynchronous tasks and send HTTP requests using JavaScript.
 
 ### Workshops

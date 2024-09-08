@@ -24,6 +24,7 @@ schedule:
   tuesday:
   wednesday:
     - name: Though of the week. CIAG - Career paths and freelance work
+      type: thought
       url: https://www.notion.so/foundersandcoders/Professional-progression-support-7a3c713bf582457fb0f7d5717df8aff4
       start: 10:30
       end: 10:45
@@ -32,6 +33,10 @@ schedule:
     #   start: 15:30
     #   end: 16:00
     #   url: /course/syllabus/developer/database/topicIntro/
+    - name: Speaker (Senior Dev Alphonso)
+      type: speech
+      start: 16:30
+      end: 17:30
   friday:
     - name: Cypress Learning
       url: https://learn.cypress.io/#courses

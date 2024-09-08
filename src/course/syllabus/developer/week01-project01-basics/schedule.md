@@ -25,6 +25,7 @@ schedule:
 
   tuesday:
     - name: Check in
+      type: checkin
       start: 9:30
       end: 9:45
 
@@ -35,13 +36,15 @@ schedule:
 
   wednesday:
     - name: Check in
+      type: checkin   
       start: 9:30
       end: 9:45
 
     - name: Though of the week. Psychological safety
+      type: thought
       start: 10:30
       end: 10:45
-      url: https://docs.google.com/presentation/d/16aYTQXPnceAxQWrLTuQUMekCJcQ9xt1uJhSGjD2GyLE/edit#slide=id.g2ded454d323_0_103
+     
 
   thursday:
     - name: HackMD Introduction
@@ -50,11 +53,13 @@ schedule:
       start: 11:00
       end: 11:30
     - name: Presentation Prep
+      type: presentation
       url: https://foundersandcoders.notion.site/Project-presentations-d8787b65e78a4314b62475552e7989e9
       start: 11:30
       end: 13:00
 
     - name: Speaker (Ivan - AI.)
+      type: speech
       start: 16:30
       end: 17:30
   friday:

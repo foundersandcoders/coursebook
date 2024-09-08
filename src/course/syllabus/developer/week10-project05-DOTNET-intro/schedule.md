@@ -30,6 +30,7 @@ schedule:
     #   type: project
   wednesday:
     - name: Object Oriented Programming
+      type: thought    
       url: https://docs.google.com/presentation/d/1uj464EeKvm38dJzVUH7Y3c3rYNB_6zSbqVYbNtTAJtQ/edit#slide=id.g2ea5f80184e_0_34
       start: 10:30
       end: 10:45 
