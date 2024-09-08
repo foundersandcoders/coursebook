@@ -18,7 +18,12 @@ schedule:
     - name: Though of the week. Giving Feedback Effectively
       type: thought
       start: 10:30
-      end: 10:45
+      end: 11:15
+
+    - name: Project
+      type: project
+      start: 11:15
+      end: 13:00
       
   thursday:
     - name: Speaker (Shaughn)

@@ -1,7 +1,3 @@
-## Learning Outcomes
-
-You should be focusing on meeting these learning outcomes over the three-week period. You will be tested on your learning during weekly quizzes.
-
 ## Accessibility
 
 - [ ] Structure a site using semantic HTML to aid accessibility
