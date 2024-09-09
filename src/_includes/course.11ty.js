@@ -23,29 +23,25 @@ exports.render = ({ page: { url }, content }) => {
         <li><${Link} url=${url} href="/course/handbook/software-foundation/">Software Foundation</${Link}></li>
         <li><${Link} url=${url} href="/course/handbook/software-developer/">Software Developer</${Link}></li>
         </${Section}>
-        <${Section} title="Foundation" url=${url} subpath="course/syllabus/foundation">
-          <li><${Link} url=${url} href="/course/syllabus/foundation/pre-course/schedule/">Pre-course</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/foundation/markup/schedule/">Markup</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/foundation/node/schedule/">Concurrency and Node.js</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/foundation/testing/schedule/">Testing</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/foundation/full-stack/schedule/">Full-Stack</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/foundation/post-course/schedule/">Post-course</${Link}></li>
+        <${Section} title="SW Developer" url=${url} subpath="course/syllabus/developer">
+          <li><${Link} url=${url} href="/course/syllabus/developer/week00-pre-course/overview/">Pre-course</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/week01-project01-basics/overview/">W01→P1: Basics</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/week02-project02-chatbot/overview/">W02→P2: Async</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/week03-project03-server/overview/">W03→P3: Server</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/week04-project03-frontend/overview/">W04→P3: Frontend</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/week05-project03-test-deploy/overview/">W05→P3: Test & Deploy</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/week06-project04-databases/overview/">W06→P4: Databases</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/week07-project04-authentication/overview/">W07→P4: Auth</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/week08-project04-test-deploy/overview/">W08→P4: Test & Deploy</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/week09-reading-week/overview">W09: READING WEEK</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/week10-project05-DOTNET-intro/overview">W10→P5: .NET</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/week11-project05-DOTNET-testing/overview">W11→P5: .NET & Testing</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/week12-project05-DOTNET-deploy/overview">W12→P5: .NET & Test & Deploy</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/week13-TFB-design/overview">W13→TFB: Design</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/week14-TFB-build/overview">W14→TFB: Build</${Link}></li>
+          <li><${Link} url=${url} href="/course/syllabus/developer/week15-TFB-build/overview">W15→TFB: Build</${Link}></li>
         </${Section}>
-        <${Section} title="Developer" url=${url} subpath="course/syllabus/developer">
-          <li value="0"><${Link} url=${url} href="/course/syllabus/developer/introduction/schedule">Introduction</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/project-1-server/schedule/">Project 1: Server</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/project-1-frontend/schedule/">Project 1: Frontend</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/project-1-test-deploy/schedule/">Project 1: Test & Deploy</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/project-2-week-1/schedule/">Project 2: Databases</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/project-2-week-2/schedule/">Project 2: Authentication</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/project-2-week-3/schedule/">Project 2: Test & Deploy</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/projects/DOTNET-intro/schedule">Project 3: .NET</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/projects/dotnet-with-testing/schedule">Project 3: .NET With Testing</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/projects/project-3-week-3/schedule">Project 3: Test and Deploy</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/projects/TFB-design/schedule">TFB Design Sprint</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/projects/TFB-build-1/schedule">TFB Build Sprint 1</${Link}></li>
-          <li><${Link} url=${url} href="/course/syllabus/developer/projects/TFB-build-2/schedule">TFB Build Sprint 2</${Link}></li>
-        </${Section}>
+        
         <${Section} title="Tech for Better" url=${url} subpath="course/syllabus/tfb">
         <li><${Link} url=${url} href="/course/syllabus/tfb/week 1/content">Week 1: Introduction </${Link}></li>
           <li><${Link} url=${url} href="/course/syllabus/tfb/week 2/content">Week 2: Product Pitches and Discovery </${Link}></li>

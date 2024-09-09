@@ -2,10 +2,12 @@ monday:
   - start: 9:30
     end: 9:45
     name: Check in
+    type: checkin
   - start: 9:45
-    end: 10:00
+    end: 10:30
     name: Exec program
-  - start: 10:00
+    type: exec-program
+  - start: 10:30
     end: 11:00
     name: Workshop group discussion
     type: workshop
@@ -19,7 +21,8 @@ monday:
     url: https://foundersandcoders.notion.site/Retrospectives-cbfd57e19cd24c61a6bd8db16fe0f347
   - start: 13:00
     end: 14:00
-    name: lunch
+    name: Lunch
+    type: lunch
   - start: 14:00
     end: 15:00
     name: Sprint planning
@@ -35,21 +38,24 @@ monday:
 tuesday:
   - start: 9:30
     end: 9:45
-    name: Check-in & Mentor Intro
+    name: Check in & Mentor Intro
+    type: checkin
   - start: 9:45
-    end: 10:00
+    end: 10:30
     name: Exec program
-  - start: 10:00
-    end: 12:00
+    type: exec-program
+  - start: 10:30
+    end: 11:00
     name: Project
     type: project
-  - start: 12:00
+  - start: 11:00
     end: 13:00
     name: Project
     type: project
   - start: 13:00
     end: 14:00
     name: Lunch
+    type: lunch
   - start: 14:00
     end: 15:00
     name: Office Hours
@@ -69,21 +75,28 @@ tuesday:
 wednesday:
   - start: 9:30
     end: 9:45
-    name: Check-in & Mentor Intro
+    name: Check in & Mentor Intro
+    type: checkin
   - start: 9:45
-    end: 10:00
+    end: 10:30
     name: Exec program
-  - start: 10:00
-    end: 12:00
+    type: exec-program
+  - start: 10:30
+    end: 13:00
     name: Project
     type: project
-  - start: 12:00
+  - start: 10:30
+    end: 10:45
+    name: Thought of the Week
+    type: thought
+  - start: 10:45
     end: 13:00
     name: Project
     type: project
   - start: 13:00
     end: 14:00
     name: Lunch
+    type: lunch
   - start: 14:00
     end: 15:00
     name: Office Hours
@@ -103,11 +116,13 @@ wednesday:
 thursday:
   - start: 9:30
     end: 9:45
-    name: Thought of the Week
+    name: Check in
+    type: checkin
   - start: 9:45
-    end: 10:00
+    end: 10:30
     name: Exec program
-  - start: 10:00
+    type: exec-program
+  - start: 10:30
     end: 11:00
     name: Class Code Review
     url: https://foundersandcoders.notion.site/Code-Reviews-5c3b987ed1204e46b4c738da538a758c
@@ -117,51 +132,65 @@ thursday:
   - start: 12:00
     end: 13:00
     name: Presentation Prep
+    type: presentation
     url: https://foundersandcoders.notion.site/Project-presentations-d8787b65e78a4314b62475552e7989e9
   - start: 13:00
     end: 14:00
     name: Lunch
+    type: lunch
   - start: 14:00
     end: 15:00
     name: Presentations
+    type: presentation
   - start: 15:00
     end: 16:00
     name: Next Week Intro
   - start: 16:00
     end: 17:00
-    name: Speaker/Tfb
+    name: TFB
   - start: 17:00
     end: 18:00
-    name: Speaker/Tfb
+    name: TFB
 
 friday:
   - start: 9:30
     end: 9:45
-    name: Exec program
+    name: Online Check in
+    type: checkin
+    url: https://us02web.zoom.us/j/8465567424
   - start: 9:45
-    end: 10:00
+    end: 10:30
     name: Workshop
-  - start: 10:00
+    type: workshop
+  - start: 10:30
     end: 11:00
     name: Workshop
+    type: workshop
   - start: 11:00
     end: 12:00
     name: Workshop
+    type: workshop
   - start: 12:00
     end: 13:00
     name: Workshop
+    type: workshop
   - start: 13:00
     end: 14:00
     name: Lunch
+    type: lunch
   - start: 14:00
     end: 15:00
     name: Workshop
+    type: workshop
   - start: 15:00
     end: 16:00
     name: Workshop
+    type: workshop
   - start: 16:00
     end: 17:00
     name: Workshop
+    type: workshop
   - start: 17:00
     end: 18:00
-    name: Workshop
+    name: Progress Log
+    url: https://github.com/fac30/Progress-Log

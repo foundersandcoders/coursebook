@@ -24,6 +24,10 @@ exports.render = ({
         <h1 class="highlight bg-primary">${topic} <span class="vh">${section}</span></h1>
         <${Tabs}>
           ${
+            tabs.overview !== false &&
+            html`<${Tab} page=${page} href="overview">Overview</${Tab}>`
+          }
+          ${
             tabs.schedule !== false &&
             html`<${Tab} page=${page} href="schedule">Schedule</${Tab}>`
           }
@@ -51,7 +55,6 @@ exports.render = ({
           }
           ${
             tabs.homework !== false &&
-            !isDeveloperPage &&
             !isApplicationPage &&
             !isTechforBetterPage &&
             html`<${Tab} page=${page} href="homework">Homework</${Tab}>`

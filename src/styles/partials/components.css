@@ -167,3 +167,8 @@ copy-text > button {
   --shadow: var(--quarternary-100);
   --bg: var(--quarternary-100);
 }
+
+
+.vstack > li::marker {
+  content: none;
+} 

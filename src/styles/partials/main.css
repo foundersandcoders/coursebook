@@ -44,7 +44,7 @@ html {
   --quarternary-700: var(--red-700);
   --tertiary-100: var(--green-100);
   --tertiary-700: var(--green-700);
-  --body-bg: hsl(226.5,94.4%,98%);
+  --body-bg: hsl(226.5, 94.4%, 98%);
   --info-bg: hsl(220, 85%, 96%);
   --info-fg: hsl(220, 60%, 10%);
   --border-title: 1px solid var(--bg-200);
@@ -261,3 +261,4 @@ kbd {
   background-color: var(--primary);
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>');
 }
+
