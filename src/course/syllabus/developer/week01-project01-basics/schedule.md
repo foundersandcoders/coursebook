@@ -42,8 +42,20 @@ schedule:
 
     - name: Though of the week. Psychological safety
       type: thought
+      url: https://docs.google.com/presentation/d/16aYTQXPnceAxQWrLTuQUMekCJcQ9xt1uJhSGjD2GyLE/edit#slide=id.g2ded454d323_0_103
       start: 10:30
-      end: 10:45
+      end: 11:00
+
+    - name: Though of the week. Quiz
+      type: thought
+      url: https://airtable.com/app5owvy06fglNAZF/shryBvouT48OvtMxB
+      start: 11:00
+      end: 11:15
+    
+    - name: Project
+      type: project
+      start: 11:15
+      end: 13:00
      
 
   thursday:
@@ -63,5 +75,5 @@ schedule:
       start: 16:30
       end: 17:30
   friday:
-    
+
 ---
