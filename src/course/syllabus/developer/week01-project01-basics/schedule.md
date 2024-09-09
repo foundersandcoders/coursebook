@@ -63,4 +63,5 @@ schedule:
       start: 16:30
       end: 17:30
   friday:
+    
 ---
