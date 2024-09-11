@@ -23,6 +23,11 @@ schedule:
     #   url: https://fac-slides.netlify.app/slides/estimation/
   tuesday:
   wednesday:
+
+    - name: Check in & Mentor Intro. Guilherme [Databases]
+      start: 9:30
+      end: 9:45
+      type: checkin
     - name: Though of the week. CIAG - Career paths and freelance work
       type: thought
       url: https://www.notion.so/foundersandcoders/Professional-progression-support-7a3c713bf582457fb0f7d5717df8aff4

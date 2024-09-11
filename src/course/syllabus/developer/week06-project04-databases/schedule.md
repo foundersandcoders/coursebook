@@ -9,6 +9,10 @@ schedule:
       end: 12:00
   tuesday:
   wednesday:
+    - name: Check in & Mentor Intro. Oskar [Test & Deploy]
+      start: 9:30
+      end: 9:45
+      type: checkin
     - name: Though of the week. Diversity in Tech
       type: thought    
       url: https://docs.google.com/presentation/d/1-mpW5zfrpBUdkk7DCctWZjcLzDD9VGrx-X4fF469rsg/edit#slide=id.g25e05124422_0_0

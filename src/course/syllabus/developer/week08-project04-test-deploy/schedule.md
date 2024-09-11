@@ -23,6 +23,10 @@ schedule:
     #   end: 17:45
   tuesday:
   wednesday:
+    - name: Check in & Mentor Intro. Evil Alex [.NET & Testing]
+      start: 9:30
+      end: 9:45
+      type: checkin
     - name: Though of the week. Misinformation, Disinformation and the threat to Democracy
       type: thought     
       url: https://docs.google.com/presentation/d/1BxTrWRsPldIpbgRF8dm5FqCFmeoBil2Be0ZUu7HGEgE/edit#slide=id.g25e05124422_0_0
