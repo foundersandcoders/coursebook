@@ -147,6 +147,6 @@ schedule:
     - name: Database workshop
       url: /learn/database
       type: workshop
-      start: 9:30
+      start: 9:45
       end: 18:00
 ---

@@ -47,6 +47,6 @@ schedule:
     - name: Get Started with AWS CDK
       url: https://docs.aws.amazon.com/cdk/v2/guide/hello_world.html
       type: workshop
-      start: 9:30
+      start: 9:45
       end: 18:00
 ---

@@ -1,40 +1,90 @@
-# The Amazin' Quizzer App
+# The Amazin' Quizzer API Backend
 
-## Intro
+## Project Overview
 
-Learners will develop an web application that dynamically generates quizzes. These app should have interfaces both for quiz creation and quiz taking. You can use a AI tool to generate questions or use the ones provided and should use a JSON object in a separate file as a mock database. 
+Your project is to build the backend for a dynamic web application that combines a quiz generator with data from multiple external APIs. This backend will serve as the foundation for a future full-stack application, showcasing your skills in server-side development, API integration, and data manipulation.
 
-## Project
+## Core Requirements
 
-Your project for this week will be to develop a RESTful api as the backend of your application.
+1. **Server-Side Setup**:
+   - Initialize a Node.js project using Express.
+   - Implement a RESTful API for quiz-related operations and external API interactions.
 
-## Spike
+2. **JSON Endpoints**:
+   - Create endpoints that fetch data from at least two external APIs and return it in JSON format.
+   - Implement endpoints for quiz-related operations (e.g., get questions, submit answers, retrieve results).
 
-Before you start writing features you need to design the schema for your data and RESTful API. Think about what different data your app needs to store and how you will access that data using your endpoints. Record your schema and endpoints in your `README.md` to make it easy for other developers to quickly get started using your API. 
+3. **Quiz Functionality**:
+   - Develop server-side logic to:
+     - Generate quizzes with randomly selected questions based on a chosen subject area.
+     - Process quiz answers and calculate results, including areas of strength and weakness.
 
-### User Stories
+4. **Data Management**:
+   - Use a JSON object in a separate file as a mock database to store quiz questions.
+   - Implement CRUD operations for managing quiz questions in this mock database.
 
-As a **quizzer**, I want to:
+5. **External API Integration**:
+   - Integrate at least two external APIs to enhance the quiz experience or provide additional information related to quiz topics.
+   - Implement proper error handling for failed API requests or unavailable data.
 
-- Select a subject area for my quiz.
-- Begin a quiz session with randomly generated questions.
-- View a summary of my quiz results, including areas of strength and weakness.
-- Add, edit, and delete quiz questions and answers.
+## Stretch Goals
 
-## Repository naming convention
-Please name your repo following this template:
-PRO03_Name1_Name2_Name3_Name4
+- Implement more complex quiz generation algorithms (e.g., adaptive difficulty).
+- Add a favourite count feature for questions and allow filtering by this criterion.
+- Develop more sophisticated results analysis.
+- Implement caching mechanisms for external API calls to improve performance.
+- Create comprehensive API documentation using tools like Swagger.
 
-### Acceptance Criteria
+## Project Phases
 
-**The API should:**
+### Initial Spike Stage
+- Set up the basic structure of your Express server.
+- Implement a single endpoint that interacts with one external API.
 
-- [ ] Dynamically generate quizzes with adaptive difficulty.
-- [ ] Filter quiz questions by category.
-- [ ] Return any number of questions by the above criteria.
-- [ ] Add or delete questions from the 'database'.
-- [ ] Provide good documentation on the use of the API.
+### Core Project Development
+- Develop the full set of RESTful endpoints for quiz operations.
+- Integrate multiple external APIs.
+- Implement the quiz generation and results calculation logic.
 
-### Stretch
-- [ ] Implement a favourite count on questions and allow filtering by this criterion.
+## API Suggestions
 
+### Easier APIs
+1. Open AI API - https://platform.openai.com/
+2. JokeAPI - https://jokeapi.dev/
+3. The Dog API - https://thedogapi.com/
+4. The Cat API - https://thecatapi.com/
+5. Unsplash it - https://unsplash.it/
+7. REST Countries API - https://restcountries.com/
+8. UK Police API - https://data.police.uk/docs/
+9. Postcode Lookup - https://postcodes.io/
+
+### More Challenging APIs
+1. Twitter API - https://developer.twitter.com/en/docs/twitter-api
+2. Google Maps API - https://developers.google.com/maps
+3. Spotify API - https://developer.spotify.com/documentation/web-api/
+4. Giphy API - https://developers.giphy.com/docs/api/
+5. GitHub API - https://docs.github.com/en/rest
+6. The Movie DB API - https://developers.themoviedb.org/3/getting-started/introduction
+7. The Guardian API - https://open-platform.theguardian.com/documentation/
+8. News API - https://newsapi.org/docs/endpoints
+9. TfL API - https://api.tfl.gov.uk/
+
+## Submission Guidelines
+
+- Host your code in a Git repository with clear documentation.
+- Deploy your project on GitHub Pages. Feel free to deploy it elsewhere as well if you prefer and have the time.
+- Include a comprehensive README.md file detailing:
+  - Project setup instructions
+  - API endpoints and their usage
+  - External APIs used and their purpose in the project
+  - Any stretch goals implemented
+- Ensure your server is deployable, even though a full deployment isn't required at this stage.
+
+## Additional Considerations
+
+- Design your API with future frontend integration in mind. The frontend part of this project will be added next week.
+- Implement proper error handling and validation for incoming requests and external API responses.
+- Securely store any API keys or sensitive information required by your server.
+- Document your API structure and endpoints thoroughly for future development.
+
+By completing this project, you will demonstrate your ability to create a robust backend application that combines original functionality with external data sources, showcasing your skills in API development, integration, and server-side logic implementation.
