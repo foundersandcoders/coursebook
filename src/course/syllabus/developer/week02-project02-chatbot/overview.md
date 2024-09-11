@@ -16,17 +16,11 @@ Learn how to manage asynchronous tasks and send HTTP requests using JavaScript.
 
 ### Topics
 
-
 - Live code session: Introduction to commonJS modules
-- Discord chatbot project introduction
-- Project development
 - Live code session: Javascript object methods
-- Project planning and development
 - Live code session: Introduction to testing
 - Live code session: Project code review
-- Project code reviews
 - Intro to testing, Build a testing library, Unit testing, Integration testing and TDD workshops
-- Discord chatBot group user testing
 - **Elevator pitch workshop**
 - Live code session: Introduction to Express
 - Project presentations
