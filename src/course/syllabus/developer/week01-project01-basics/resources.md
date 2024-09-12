@@ -10,6 +10,7 @@ These resources are helpful extra reading that may clarify or enhance concepts y
 - [JavaScript Promises Youtube tutorial](https://www.youtube.com/watch?v=TnhCX0KkPqs&t=1958s)
 - [Async Await vs Promises Youtube tutorial](https://www.youtube.com/watch?v=spvYqO_Kp9Q&t=1s)
 - [Introducing asynchronous JS](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing)
+- [Codecademy JavaScript Async Course (Free. 3 hours)](https://www.codecademy.com/enrolled/courses/asynchronous-javascript)
 
 ### CSS
 

@@ -29,6 +29,7 @@ monday:
   - start: 15:00
     end: 16:00
     name: Spike
+    url: https://foundersandcoders.notion.site/Tech-Spikes-c906c62afc3747ef9ecfcb45a9ccf984
   - start: 16:00
     end: 17:00
     name: Spike
@@ -69,8 +70,8 @@ tuesday:
     type: project
   - start: 17:00
     end: 18:00
-    name: Project
-    type: project
+    name: Mini - Presentations
+    type: presentation
 
 wednesday:
   - start: 9:30
@@ -122,13 +123,17 @@ thursday:
     end: 10:30
     name: Exec program
     type: exec-program
+  # - start: 10:30
+  #   end: 11:00
+  #   name: Class Code Review
+  #   url: https://foundersandcoders.notion.site/Code-Reviews-5c3b987ed1204e46b4c738da538a758c
   - start: 10:30
-    end: 11:00
-    name: Class Code Review
-    url: https://foundersandcoders.notion.site/Code-Reviews-5c3b987ed1204e46b4c738da538a758c
-  - start: 11:00
     end: 12:00
-    name: Respond to Issues
+    name: Project
+    type: project
+  # - start: 11:00
+  #   end: 12:00
+  #   name: Respond to Issues
   - start: 12:00
     end: 13:00
     name: Presentation Prep
@@ -139,11 +144,11 @@ thursday:
     name: Lunch
     type: lunch
   - start: 14:00
-    end: 15:00
+    end: 15:30
     name: Presentations
     type: presentation
-  - start: 15:00
-    end: 16:00
+  - start: 15:30
+    end: 16:30
     name: Next Week Intro
   - start: 16:00
     end: 17:00

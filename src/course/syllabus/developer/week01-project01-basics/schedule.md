@@ -56,9 +56,12 @@ schedule:
       type: project
       start: 11:15
       end: 13:00
-     
 
   thursday:
+    - name: Project
+      type: project
+      start: 10:30
+      end: 11:30
     - name: HackMD Introduction
       type: workshop
       url: https://hackmd.io/
@@ -75,5 +78,4 @@ schedule:
       start: 16:30
       end: 17:30
   friday:
-
 ---
