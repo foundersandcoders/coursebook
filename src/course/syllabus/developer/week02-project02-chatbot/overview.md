@@ -19,9 +19,8 @@ Learn how to manage asynchronous tasks and send HTTP requests using JavaScript.
 - Live code session: Introduction to commonJS modules
 - Live code session: Javascript object methods
 - Live code session: Introduction to testing
-- Live code session: Project code review
-- Intro to testing, Build a testing library, Unit testing, Integration testing and TDD workshops
-- **Elevator pitch workshop**
 - Live code session: Introduction to Express
+- Intro to testing, Build a testing library, Unit testing, Integration testing and TDD workshops
+- Elevator pitch workshop
 - Project presentations
 - Knowledge Quiz
