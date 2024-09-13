@@ -418,3 +418,21 @@ Let's use callbacks to make some traffic lights. Download the starter files usin
 **Hint**: to runs async tasks one after the other remember that you can _nest_ function calls.
 
 {% endbox %}
+
+---
+
+## Stretch
+
+Now we have a nested function that logs our traffic lights. However, highly nested functions can be hard to read. We can mitigate this by using a loop. Open `challenge/stretch/index.html` in your editor.
+
+1. Define an array, `light_sequence` containing each colour of the light sequence, ending with "finished"
+2. Modify your `light` function to include a third delay parameter and pass it to your `setTimeout` function
+3. Use a method such as `forEach` on `light_sequence` to pass each element of the array to the `light` function
+4. Start by calling the `light` function with a `1` second pause. What do you notice?
+5. Try and replicate the behaviour of the previous function exactly. How can you ensure the delay is kept between the log of each colour?
+
+{% box %}
+
+**Hint**: _forEach_ can take an additional positional argument.
+
+{% endbox %}
