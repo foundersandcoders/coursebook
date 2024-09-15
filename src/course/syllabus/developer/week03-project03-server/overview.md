@@ -1,8 +1,8 @@
-# Week of September 23th
+## Week of September 23th
 
 Learn how to create a Discord chatbot using Node.js, integrate it with OpenAI's API, and implement testing for your bot.
 
-## Workshops
+### Workshops
 
 - [Testing](https://fac-slides.netlify.app/slides/testing/#0). Repo name: Work15_Testing_YourName
 - [Testing in JS](/workshops/learn-testing/). Repo name: Work16_Testing_YourName
@@ -11,15 +11,15 @@ Learn how to create a Discord chatbot using Node.js, integrate it with OpenAI's 
 - [TDD](/workshops/tdd-array-methods/). Repo name: Work19_Testing_YourName
 - [Developer tooling](/workshops/dev-tooling/). Repo name: Work20_Testing_YourName
 
-## Execute Program
+### Execute Program
 
 - [Execute Program Everyday TypeScript](https://www.executeprogram.com/courses/everyday-typescript)
 
-### Stretch
+#### Stretch
 
 - [Execute Program Advanced TypeScript](https://www.executeprogram.com/courses/advanced-typescript)
 
-## Topics
+### Topics
 
 - Discord.js and bot setup workshop review
 - Secure configuration and environment variables
