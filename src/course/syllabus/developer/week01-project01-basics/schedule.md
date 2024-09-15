@@ -73,7 +73,8 @@ schedule:
       start: 11:30
       end: 13:00
 
-    - name: Speaker (Ivan - AI.)
+    - name: Speaker (Ivan - Learn to learn)
+      url: https://learning-how-to-learn.vercel.app/#0
       type: speech
       start: 16:30
       end: 17:30
