@@ -46,13 +46,13 @@ tuesday:
     name: Exec program
     type: exec-program
   - start: 10:30
-    end: 11:00
-    name: Project
-    type: project
-  - start: 11:00
     end: 13:00
     name: Project
     type: project
+  # - start: 11:00
+  #   end: 13:00
+  #   name: Project
+  #   type: project
   - start: 13:00
     end: 14:00
     name: Lunch
@@ -61,13 +61,13 @@ tuesday:
     end: 15:00
     name: Office Hours
   - start: 15:00
-    end: 16:00
-    name: Project
-    type: project
-  - start: 16:00
     end: 17:00
     name: Project
     type: project
+  # - start: 16:00
+  #   end: 17:00
+  #   name: Project
+  #   type: project
   - start: 17:00
     end: 18:00
     name: Mini - Presentations / Class code review
@@ -102,17 +102,17 @@ wednesday:
     end: 15:00
     name: Office Hours
   - start: 15:00
-    end: 16:00
-    name: Project
-    type: project
-  - start: 16:00
-    end: 17:00
-    name: Project
-    type: project
-  - start: 17:00
     end: 18:00
     name: Project
     type: project
+  # - start: 16:00
+  #   end: 17:00
+  #   name: Project
+  #   type: project
+  # - start: 17:00
+  #   end: 18:00
+  #   name: Project
+  #   type: project
 
 thursday:
   - start: 9:30

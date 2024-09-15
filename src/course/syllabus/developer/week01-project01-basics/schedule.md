@@ -22,13 +22,15 @@ schedule:
       type: workshop
       start: 16:00
       end: 18:00
-
   tuesday:
     - name: Check in
       type: checkin
       start: 9:30
       end: 9:45
-
+    - name: Project
+      type: project
+      start: 11:00
+      end: 13:00
     - name: Project Presentation / Create Teams
       type: project
       start: 10:30
