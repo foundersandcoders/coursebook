@@ -26,6 +26,10 @@ schedule:
     #   end: 17:45
   tuesday:
   wednesday:
+    - name: Check in & Mentor Intro. Fearghal [.NET]
+      start: 9:30
+      end: 9:45
+      type: checkin
     - name: Though of the week. Extra-curricular and learning opportunities 2
       type: thought    
       url: https://docs.google.com/presentation/d/1GwYX_NLH2KayD2QIpKlJnUQCO8ohvF_wY8RO-fMAu6w/edit#slide=id.g25e05124422_0_0
@@ -43,6 +47,6 @@ schedule:
     - name: Get Started with AWS CDK
       url: https://docs.aws.amazon.com/cdk/v2/guide/hello_world.html
       type: workshop
-      start: 9:30
+      start: 9:45
       end: 18:00
 ---

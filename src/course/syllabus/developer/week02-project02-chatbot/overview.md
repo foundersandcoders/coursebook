@@ -14,22 +14,13 @@ Learn how to manage asynchronous tasks and send HTTP requests using JavaScript.
 ### Execute Program
 - [Execute Program Basic Typescript](https://www.executeprogram.com/courses/typescript-basics)
 
-### Topics [NOT UPDATED]
+### Topics
 
-- Q&A
-- JavaScript concurrency workshop review
 - Live code session: Introduction to commonJS modules
-- Node & npm workshop review
-- Discord chatbot project introduction
-- Project development
 - Live code session: Javascript object methods
-- Project planning and development
 - Live code session: Introduction to testing
-- Live code session: Project code review
-- Project code reviews
-- Intro to testing, Build a testing library, Unit testing, Integration testing and TDD workshops
-- Discord chatBot group user testing
-- **Elevator pitch workshop**
 - Live code session: Introduction to Express
+- Intro to testing, Build a testing library, Unit testing, Integration testing and TDD workshops
+- Elevator pitch workshop
 - Project presentations
 - Knowledge Quiz

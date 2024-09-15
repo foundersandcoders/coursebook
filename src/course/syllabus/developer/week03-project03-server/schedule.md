@@ -2,16 +2,16 @@
 layout: schedule
 schedule:
   monday:
-    - name: Thought of the week (safeguarding)
-      url: https://www.notion.so/foundersandcoders/Personal-Development-91fe75c7e2cc4f989954108729a2c834
-      type: personal-development
-      start: 12:00
-      end: 13:00
-    - name: Intro to project managment
-      type: personal-development
-      start: 11:00
-      end: 12:00
-      url: https://fac-slides.netlify.app/slides/proj-mgmt/
+    # - name: Thought of the week (safeguarding)
+    #   url: https://www.notion.so/foundersandcoders/Personal-Development-91fe75c7e2cc4f989954108729a2c834
+    #   type: personal-development
+    #   start: 12:00
+    #   end: 13:00
+    # - name: Intro to project managment
+    #   type: personal-development
+    #   start: 11:00
+    #   end: 12:00
+    #   url: https://fac-slides.netlify.app/slides/proj-mgmt/
 
   #   - name: Tech for Better
   #     type: workshop
@@ -28,11 +28,11 @@ schedule:
       end: 10:45
 
   thursday:
-    - name: Thought of the week (British values)
-      type: thought
-      url: https://www.notion.so/foundersandcoders/Personal-Development-91fe75c7e2cc4f989954108729a2c834
-      start: 9:45
-      end: 10:00
+    # - name: Thought of the week (British values)
+    #   type: thought
+    #   url: https://www.notion.so/foundersandcoders/Personal-Development-91fe75c7e2cc4f989954108729a2c834
+    #   start: 9:45
+    #   end: 10:00
 
     - name: Speaker (Nich)
       type: speech
@@ -48,7 +48,7 @@ schedule:
     - name: React workshop
       url: /learn/react
       type: workshop
-      start: 9:30
+      start: 9:45
       end: 18:00
     # - name: Database workshop
     #   url: /learn/database

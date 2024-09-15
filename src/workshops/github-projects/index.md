@@ -123,12 +123,12 @@ Repeat these steps for each repository you want to link to the project. This all
 
 Remember, you can link as many repositories as needed to a single project, making it easier to manage large, multi-component software projects.
 
-### Step 2: Automating Workflows
-
-GitHub Projects can automate certain tasks based on repository activity.
+### Step 2: Managing Workflows
+GitHub Projects allows you to manage automation workflows based on repository activity.
 
 1. In your project, go to "Settings" > "Workflows".
-2. Click "New workflow".
-3. Set up a rule, for example: "When an issue is closed, set its status to Done" (Note: This workflow may already exist by default in some project templates).
+2. You'll see a list of predefined workflows that you can enable or disable.
+3. To adjust a workflow, click on it to edit its settings. For example, make sure the workflow "When an issue is closed, set its status to Done" is enabled. (Note: This workflow may already be enabled by default in some project templates).
+
 
 <img src="images/github-projects-workflows.png" width="900" alt="initialise repo with readme">

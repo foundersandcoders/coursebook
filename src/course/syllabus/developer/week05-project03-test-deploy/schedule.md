@@ -90,6 +90,10 @@ schedule:
     # - start: 17:45
     #   end: 18:00
     #   name: Check-out
+    - name: Check in & Mentor Intro. Halimah [Authentication]
+      start: 9:30
+      end: 9:45
+      type: checkin
 
     - name: Though of the week. Safeguarding - Digital and financial wellbeing
       type: thought
@@ -143,6 +147,6 @@ schedule:
     - name: Database workshop
       url: /learn/database
       type: workshop
-      start: 9:30
+      start: 9:45
       end: 18:00
 ---
