@@ -27,12 +27,12 @@ monday:
     end: 15:00
     name: Sprint planning
   - start: 15:00
-    end: 16:00
-    name: Spike
-    url: https://foundersandcoders.notion.site/Tech-Spikes-c906c62afc3747ef9ecfcb45a9ccf984
-  - start: 16:00
     end: 17:00
     name: Spike
+    url: https://foundersandcoders.notion.site/Tech-Spikes-c906c62afc3747ef9ecfcb45a9ccf984
+  # - start: 16:00
+  #   end: 17:00
+  #   name: Spike
   - start: 17:00
     end: 18:00
     name: Spike presentation

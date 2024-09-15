@@ -1,6 +1,7 @@
 These resources are helpful extra reading that may clarify or enhance concepts you're learning in the main curriculum.
 
 - [npm for absolute beginners](https://www.youtube.com/watch?v=UYz-9UaUp2E)
+  Kevin Powell's video (Just ignore Astro recomendation at the very end)
 - [HTTP topic intro](https://fac-slides.netlify.app/slides/http/)
 - [How DNS Works](https://howdns.works)
   A comic explaining what happens when you type a URL into your browser.

@@ -22,28 +22,8 @@ Learn how to create a Discord chatbot using Node.js, integrate it with OpenAI's 
 ## Topics
 
 - Discord.js and bot setup workshop review
-- Live code session: Secure configuration and environment variables
-- OpenAI API integration workshop review
-- Discord chatbot project introduction
-- Project development
-- Live code session: Asynchronous JavaScript and API calls
-- Project planning and development
-- Live code session: Error handling in Node.js
-- Live code session: Project code review
-- Project code reviews
-- Testing Discord bots workshop
+- Secure configuration and environment variables
+- Error handling in Node.js
+- Testing Discord bots
 - Discord chatBot group user testing
-- **Bot optimization workshop**
-- Live code session: Advanced Discord.js features
-- Project presentations
-- Knowledge Quiz
-
-## Project
-
-### The Amazin' Quizzer API Backend
-
-Build the backend for a dynamic web application that combines a quiz generator with data from multiple external APIs. This backend will serve as the foundation for a future full-stack application, showcasing your skills in server-side development, API integration, and data manipulation.
-
-[Full project details are in the separate project document]
-
-Repository naming convention: Please name your repo following this template: PRO02_Name1_Name2_Name3_Name4
+- [Project presentations](https://foundersandcoders.notion.site/Project-presentations-d8787b65e78a4314b62475552e7989e9)
