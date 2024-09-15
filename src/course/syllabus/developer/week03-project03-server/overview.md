@@ -4,20 +4,20 @@ Learn how to create a Discord chatbot using Node.js, integrate it with OpenAI's 
 
 ## Workshops
 
-- [Testing](https://fac-slides.netlify.app/slides/testing/#0). Repo name: Work14_Testing_YourName
-- [Testing in JS](/workshops/learn-testing/). Repo name: Work15_Testing_YourName
-- [Learn Unit Testing](/workshops/learn-unit-testing/). Repo name: Work16_Testing_YourName
-- [Learn Integration Testing](/workshops/learn-integration-testing/). Repo name: Work17_Testing_YourName
-- [TDD](/workshops/tdd-array-methods/). Repo name: Work18_Testing_YourName
-- [Developer tooling](/workshops/dev-tooling/). Repo name: Work19_Testing_YourName
+- [Testing](https://fac-slides.netlify.app/slides/testing/#0). Repo name: Work15_Testing_YourName
+- [Testing in JS](/workshops/learn-testing/). Repo name: Work16_Testing_YourName
+- [Learn Unit Testing](/workshops/learn-unit-testing/). Repo name: Work17_Testing_YourName
+- [Learn Integration Testing](/workshops/learn-integration-testing/). Repo name: Work18_Testing_YourName
+- [TDD](/workshops/tdd-array-methods/). Repo name: Work19_Testing_YourName
+- [Developer tooling](/workshops/dev-tooling/). Repo name: Work20_Testing_YourName
 
 ## Execute Program
 
-- Execute Program Everyday TypeScript
+- [Execute Program Everyday TypeScript](https://www.executeprogram.com/courses/everyday-typescript)
 
 ### Stretch
 
-- Execute Program Advanced TypeScript
+- [Execute Program Advanced TypeScript](https://www.executeprogram.com/courses/advanced-typescript)
 
 ## Topics
 

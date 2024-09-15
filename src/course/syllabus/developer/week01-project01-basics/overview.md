@@ -22,7 +22,7 @@ This week is focused on the fundamental building blocks of web pages—accessibl
 - [Promises & fetch workshop](/workshops/learn-fetch/). Repo name: Work04_FetchAndPromises_YourName
 - [Real-world fetch workshop](/workshops/real-world-fetch). Repo name: Work05_Fetch_YourName
 - [Promise practice workshop](/workshops/promise-practice/). Repo name: Work06_Promises_YourName
-- [Pokemon promises vs async/await](https://www.notion.so/Pokemon-promises-vs-async-await-57fc5bf0bcd348d392d48ed5bca3980d?pvs=21)
+- [Pokemon promises vs async/await](https://www.notion.so/Pokemon-promises-vs-async-await-57fc5bf0bcd348d392d48ed5bca3980d?pvs=21). Repo name: Work07_PromisesVSAsync_YourName
 
 ### Execute Program
 - [Execute Program Javascript Concurrency](https://www.executeprogram.com/courses/javascript-concurrency)
