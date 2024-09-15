@@ -22,13 +22,15 @@ schedule:
       type: workshop
       start: 16:00
       end: 18:00
-
   tuesday:
     - name: Check in
       type: checkin
       start: 9:30
       end: 9:45
-
+    - name: Project
+      type: project
+      start: 11:00
+      end: 13:00
     - name: Project Presentation / Create Teams
       type: project
       start: 10:30
@@ -73,7 +75,8 @@ schedule:
       start: 11:30
       end: 13:00
 
-    - name: Speaker (Ivan - AI.)
+    - name: Speaker (Ivan - Learn to learn)
+      url: https://learning-how-to-learn.vercel.app/#0
       type: speech
       start: 16:30
       end: 17:30

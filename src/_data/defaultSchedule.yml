@@ -27,12 +27,12 @@ monday:
     end: 15:00
     name: Sprint planning
   - start: 15:00
-    end: 16:00
-    name: Spike
-    url: https://foundersandcoders.notion.site/Tech-Spikes-c906c62afc3747ef9ecfcb45a9ccf984
-  - start: 16:00
     end: 17:00
     name: Spike
+    url: https://foundersandcoders.notion.site/Tech-Spikes-c906c62afc3747ef9ecfcb45a9ccf984
+  # - start: 16:00
+  #   end: 17:00
+  #   name: Spike
   - start: 17:00
     end: 18:00
     name: Spike presentation
@@ -46,13 +46,13 @@ tuesday:
     name: Exec program
     type: exec-program
   - start: 10:30
-    end: 11:00
-    name: Project
-    type: project
-  - start: 11:00
     end: 13:00
     name: Project
     type: project
+  # - start: 11:00
+  #   end: 13:00
+  #   name: Project
+  #   type: project
   - start: 13:00
     end: 14:00
     name: Lunch
@@ -61,16 +61,16 @@ tuesday:
     end: 15:00
     name: Office Hours
   - start: 15:00
-    end: 16:00
-    name: Project
-    type: project
-  - start: 16:00
     end: 17:00
     name: Project
     type: project
+  # - start: 16:00
+  #   end: 17:00
+  #   name: Project
+  #   type: project
   - start: 17:00
     end: 18:00
-    name: Mini - Presentations
+    name: Mini - Presentations / Class code review
     type: presentation
 
 wednesday:
@@ -102,17 +102,17 @@ wednesday:
     end: 15:00
     name: Office Hours
   - start: 15:00
-    end: 16:00
-    name: Project
-    type: project
-  - start: 16:00
-    end: 17:00
-    name: Project
-    type: project
-  - start: 17:00
     end: 18:00
     name: Project
     type: project
+  # - start: 16:00
+  #   end: 17:00
+  #   name: Project
+  #   type: project
+  # - start: 17:00
+  #   end: 18:00
+  #   name: Project
+  #   type: project
 
 thursday:
   - start: 9:30
@@ -164,37 +164,37 @@ friday:
     type: checkin
     url: https://us02web.zoom.us/j/8465567424
   - start: 9:45
-    end: 10:30
-    name: Workshop
-    type: workshop
-  - start: 10:30
-    end: 11:00
-    name: Workshop
-    type: workshop
-  - start: 11:00
-    end: 12:00
-    name: Workshop
-    type: workshop
-  - start: 12:00
     end: 13:00
-    name: Workshop
+    name: Workshops
     type: workshop
+  # - start: 10:30
+  #   end: 11:00
+  #   name: Workshop
+  #   type: workshop
+  # - start: 11:00
+  #   end: 12:00
+  #   name: Workshop
+  #   type: workshop
+  # - start: 12:00
+  #   end: 13:00
+  #   name: Workshop
+  #   type: workshop
   - start: 13:00
     end: 14:00
     name: Lunch
     type: lunch
   - start: 14:00
-    end: 15:00
-    name: Workshop
-    type: workshop
-  - start: 15:00
-    end: 16:00
-    name: Workshop
-    type: workshop
-  - start: 16:00
     end: 17:00
-    name: Workshop
+    name: Workshops
     type: workshop
+  # - start: 15:00
+  #   end: 16:00
+  #   name: Workshop
+  #   type: workshop
+  # - start: 16:00
+  #   end: 17:00
+  #   name: Workshop
+  #   type: workshop
   - start: 17:00
     end: 18:00
     name: Progress Log / Weekly Quiz / Week Learner Survey
