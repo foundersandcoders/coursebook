@@ -26,7 +26,7 @@ schedule:
       end: 13:00
       
   thursday:
-    - name: Speaker (Shaughn)
+    - name: Speaker - Shaughn (How I am different from a pigeon?)
       type: speech
       start: 16:30
       end: 17:30
