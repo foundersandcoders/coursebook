@@ -35,7 +35,7 @@ monday:
   #   name: Spike
   - start: 17:00
     end: 18:00
-    name: Spike presentation
+    name: Spike sharing
 tuesday:
   - start: 9:30
     end: 9:45
