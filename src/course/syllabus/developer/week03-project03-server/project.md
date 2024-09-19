@@ -6,24 +6,29 @@ Your project is to build the backend for a dynamic web application that combines
 
 ## Core Requirements
 
-1. **Server-Side Setup**:
+1. **TypeScript Implementation:**:
+   - The entire backend project must be written in TypeScript.
+   - Utilize TypeScript's static typing for all modules, functions, and API interfaces.
+   - Configure the TypeScript compiler (tsconfig.json) for the project's specific needs.
+
+2. **Server-Side Setup**:
    - Initialize a Node.js project using Express.
    - Implement a RESTful API for quiz-related operations and external API interactions.
 
-2. **JSON Endpoints**:
+3. **JSON Endpoints**:
    - Create endpoints that fetch data from at least two external APIs and return it in JSON format.
    - Implement endpoints for quiz-related operations (e.g., get questions, submit answers, retrieve results).
 
-3. **Quiz Functionality**:
+4. **Quiz Functionality**:
    - Develop server-side logic to:
      - Generate quizzes with randomly selected questions based on a chosen subject area.
      - Process quiz answers and calculate results, including areas of strength and weakness.
 
-4. **Data Management**:
+5. **Data Management**:
    - Use a JSON object in a separate file as a mock database to store quiz questions.
    - Implement CRUD operations for managing quiz questions in this mock database.
 
-5. **External API Integration**:
+6. **External API Integration**:
    - Integrate at least two external APIs to enhance the quiz experience or provide additional information related to quiz topics.
    - Implement proper error handling for failed API requests or unavailable data.
 
@@ -88,3 +93,7 @@ Your project is to build the backend for a dynamic web application that combines
 - Document your API structure and endpoints thoroughly for future development.
 
 By completing this project, you will demonstrate your ability to create a robust backend application that combines original functionality with external data sources, showcasing your skills in API development, integration, and server-side logic implementation.
+
+## Repository naming convention
+Please name your repo following this template:
+PRO03_Name1_Name2_Name3_Name4
