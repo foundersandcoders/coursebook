@@ -164,7 +164,7 @@ See how we can reuse the `result` and `expect` variable names? Each test is self
 
 {% enddisclosure %}
 
-![](https://user-images.githubusercontent.com/9408641/74967349-b587b080-5410-11ea-8295-a2f81a8d0f78.png)
+![](./starter-files/images/learning-testing.png)
 
 ## Custom messages
 
