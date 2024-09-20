@@ -435,4 +435,5 @@ Now we have a nested function that logs our traffic lights. However, highly nest
 
 **Hint**: _forEach_ can take an additional positional argument.
 
+
 {% endbox %}

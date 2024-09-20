@@ -4,16 +4,13 @@ Learn how to create a Discord chatbot using Node.js, integrate it with OpenAI's 
 
 ### Workshops
 
-- [Testing](https://fac-slides.netlify.app/slides/testing/#0). Repo name: Work15_Testing_YourName
-- [Testing in JS](/workshops/learn-testing/). Repo name: Work16_Testing_YourName
-- [Learn Unit Testing](/workshops/learn-unit-testing/). Repo name: Work17_Testing_YourName
-- [Learn Integration Testing](/workshops/learn-integration-testing/). Repo name: Work18_Testing_YourName
-- [TDD](/workshops/tdd-array-methods/). Repo name: Work19_Testing_YourName
-- [Developer tooling](/workshops/dev-tooling/). Repo name: Work20_Testing_YourName
+- [Developer tooling](/workshops/dev-tooling/). Repo name: Work15_DeveloperTooling_YourName
+- [Building client-side apps with React](https://learn.foundersandcoders.com/learn/react/). Repo name: Work16_React_YourName
+
 
 ### Execute Program
 
-- [Execute Program Everyday TypeScript](https://www.executeprogram.com/courses/everyday-typescript)
+- [Execute Program Everyday TypeScript](https://www.executeprogram.com/courses/everyday-typescript). 
 
 #### Stretch
 
@@ -21,9 +18,15 @@ Learn how to create a Discord chatbot using Node.js, integrate it with OpenAI's 
 
 ### Topics
 
-- Discord.js and bot setup workshop review
-- Secure configuration and environment variables
-- Error handling in Node.js
-- Testing Discord bots
-- Discord chatBot group user testing
+- Express server using Node
+- RESTful API development
+- External API integration and management
+- JSON data handling and mock database operations
+- Server-side logic for quiz generation and processing
+- Error handling and validation in API development
+- CRUD operations implementation
+- API documentation techniques
+- Asynchronous programming in JavaScript
+- Security practices for handling API keys and sensitive data
+
 - [Project presentations](https://foundersandcoders.notion.site/Project-presentations-d8787b65e78a4314b62475552e7989e9)

@@ -5,8 +5,6 @@ These resources are helpful extra reading that may clarify or enhance concepts y
   
 
 ## Express and  RESTFUL APIs
-- ### [What is a web server?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server)
-  General background info on how servers work
 
 - ### [Setting up Typescript and Express](https://blog.logrocket.com/how-to-set-up-node-typescript-express/)
   A guide on setting up the tools for this weeks project. Good explanation on generating and modifying a TS config file
