@@ -75,6 +75,10 @@ pre.language-jsx::after {
   content: "JSX";
 }
 
+pre.language-tsx::after {
+  content: "TSX";
+}
+
 pre.language-ts::after {
   content: "TS";
 }
