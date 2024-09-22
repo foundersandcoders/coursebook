@@ -79,6 +79,10 @@ pre.language-tsx::after {
   content: "TSX";
 }
 
+pre.language-ts::after {
+  content: "TS";
+}
+
 .token.comment,
 .token.prolog,
 .token.doctype,

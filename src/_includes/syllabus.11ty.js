@@ -24,8 +24,17 @@ exports.render = ({
         <h1 class="highlight bg-primary">${topic} <span class="vh">${section}</span></h1>
         <${Tabs}>
           ${
+            tabs.overview !== false &&
+            html`<${Tab} page=${page} href="overview">Overview</${Tab}>`
+          }
+          ${
             tabs.schedule !== false &&
             html`<${Tab} page=${page} href="schedule">Schedule</${Tab}>`
+          }
+          ${
+            tabs.project !== false &&
+            !isTechforBetterPage &&
+            html`<${Tab} page=${page} href="project">Project</${Tab}>`
           }
           ${
             tabs.learnings !== false &&
@@ -46,15 +55,9 @@ exports.render = ({
           }
           ${
             tabs.homework !== false &&
-            !isDeveloperPage &&
             !isApplicationPage &&
             !isTechforBetterPage &&
             html`<${Tab} page=${page} href="homework">Homework</${Tab}>`
-          }
-          ${
-            tabs.project !== false &&
-            !isTechforBetterPage &&
-            html`<${Tab} page=${page} href="project">Project</${Tab}>`
           }
           ${
             tabs.learnings !== false &&
@@ -74,13 +77,6 @@ exports.render = ({
             html`<${Tab} page=${page} href="resources">Resources</${Tab}>`
           }
           
-          ${
-            tabs.topicIntro !== false &&
-            !isApplicationPage &&
-            !isFoundationPage &&
-            !isTechforBetterPage &&
-            html`<${Tab} page=${page} href="topicIntro">Topic Intro</${Tab}>`
-          }
         </${Tabs}>
       </header>
       <${RawContent} class="flow">${content}</${RawContent}>

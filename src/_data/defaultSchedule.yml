@@ -1,146 +1,201 @@
 monday:
+  - start: 9:30
+    end: 9:45
+    name: Check in
+    type: checkin
   - start: 9:45
-    end: 10:00
-    name: Check-in
-  - start: 10:00
-    end: 10:15
-    name: Group discussion
-    type: workshop
-  - start: 10:15
+    end: 10:30
+    name: Exec program
+    type: exec-program
+  - start: 10:30
     end: 11:00
-    name: Cohort discussion
+    name: Workshop group discussion
     type: workshop
-  - start: 11:00
-    end: 11:45
-    name: Thought of the week
-    type: workshop
-  - start: 13:00
-    end: 14:00
-    name: Lunch
-  - name: Tech for Better
-    start: 14:00
-    end: 15:30
-  - name: Break
-    start: 15:30
-    end: 15:45
-  - name: Final project prep
-    start: 15:45
-    end: 16:00
-  - name: Project and spike intro
-    start: 16:00
-    end: 16:15
-    type: project
-    url: ../project
-  - name: Project spike
-    start: 16:15
-    end: 17:45
-    url: ../project#spike
-  - start: 17:45
-    end: 18:00
-    name: Check-out
-tuesday:
-  - start: 9:45
-    end: 10:00
-    name: Check-in
-  - start: 10:00
-    end: 13:00
-    name: Project
-    type: project
-    url: ../project
-  - start: 13:00
-    end: 14:00
-    name: Lunch
-  - start: 14:00
-    end: 17:45
-    name: Project
-    type: project
-    url: ../project
-  - start: 17:45
-    end: 18:00
-    name: Check-out
-wednesday:
-  - start: 9:45
-    end: 10:00
-    name: Check-in
-  - name: Role circles
-    start: 10:00
-    end: 10:15
-    url: https://foundersandcoders.notion.site/Role-circles-a2371aab24f34955a69904b87ffc1f05
-  - start: 10:15
-    end: 13:00
-    name: Project
-    type: project
-    url: ../project
-  - start: 13:00
-    end: 14:00
-    name: Lunch
-  - start: 14:00
-    end: 16:30
-    name: Project
-    type: project
-    url: ../project
-  - start: 16:30
-    end: 16:45
-    name: Update READMEs
-  - start: 16:45
-    end: 17:45
-    name: Team code review
-    url: https://foundersandcoders.notion.site/Code-Reviews-5c3b987ed1204e46b4c738da538a758c
-  - start: 17:45
-    end: 18:00
-    name: Check-out
-thursday:
-  - start: 9:45
-    end: 10:00
-    name: Check-in
-  - start: 10:00
-    end: 11:00
-    name: Expert Feedback - Live code review
-    url: https://foundersandcoders.notion.site/Code-Reviews-5c3b987ed1204e46b4c738da538a758c
-    type: expert-feedback
   - start: 11:00
     end: 12:00
-    name: Respond to issues
-    type: project
+    name: Workshop class discussion
+    type: workshop
   - start: 12:00
     end: 13:00
-    name: Presentation prep
+    name: SGC
+    url: https://foundersandcoders.notion.site/Retrospectives-cbfd57e19cd24c61a6bd8db16fe0f347
+  - start: 13:00
+    end: 14:00
+    name: Lunch
+    type: lunch
+  - start: 14:00
+    end: 15:00
+    name: Sprint planning
+  - start: 15:00
+    end: 17:00
+    name: Spike
+    url: https://foundersandcoders.notion.site/Tech-Spikes-c906c62afc3747ef9ecfcb45a9ccf984
+  # - start: 16:00
+  #   end: 17:00
+  #   name: Spike
+  - start: 17:00
+    end: 18:00
+    name: Spike sharing
+tuesday:
+  - start: 9:30
+    end: 9:45
+    name: Check in & Mentor Intro
+    type: checkin
+  - start: 9:45
+    end: 10:30
+    name: Exec program
+    type: exec-program
+  - start: 10:30
+    end: 13:00
+    name: Project
+    type: project
+  # - start: 11:00
+  #   end: 13:00
+  #   name: Project
+  #   type: project
+  - start: 13:00
+    end: 14:00
+    name: Lunch
+    type: lunch
+  - start: 14:00
+    end: 15:00
+    name: Office Hours
+  - start: 15:00
+    end: 17:00
+    name: Project
+    type: project
+  # - start: 16:00
+  #   end: 17:00
+  #   name: Project
+  #   type: project
+  - start: 17:00
+    end: 18:00
+    name: Mini - Presentations / Class code review
+    type: presentation
+
+wednesday:
+  - start: 9:30
+    end: 9:45
+    name: Check in & Mentor Intro
+    type: checkin
+  - start: 9:45
+    end: 10:30
+    name: Exec program
+    type: exec-program
+  - start: 10:30
+    end: 13:00
+    name: Project
+    type: project
+  - start: 10:30
+    end: 10:45
+    name: Thought of the Week
+    type: thought
+  - start: 10:45
+    end: 13:00
+    name: Project
+    type: project
+  - start: 13:00
+    end: 14:00
+    name: Lunch
+    type: lunch
+  - start: 14:00
+    end: 15:00
+    name: Office Hours
+  - start: 15:00
+    end: 18:00
+    name: Project
+    type: project
+  # - start: 16:00
+  #   end: 17:00
+  #   name: Project
+  #   type: project
+  # - start: 17:00
+  #   end: 18:00
+  #   name: Project
+  #   type: project
+
+thursday:
+  - start: 9:30
+    end: 9:45
+    name: Check in
+    type: checkin
+  - start: 9:45
+    end: 10:30
+    name: Exec program
+    type: exec-program
+  # - start: 10:30
+  #   end: 11:00
+  #   name: Class Code Review
+  #   url: https://foundersandcoders.notion.site/Code-Reviews-5c3b987ed1204e46b4c738da538a758c
+  - start: 10:30
+    end: 12:00
+    name: Project
+    type: project
+  # - start: 11:00
+  #   end: 12:00
+  #   name: Respond to Issues
+  - start: 12:00
+    end: 13:00
+    name: Presentation Prep
+    type: presentation
     url: https://foundersandcoders.notion.site/Project-presentations-d8787b65e78a4314b62475552e7989e9
   - start: 13:00
     end: 14:00
     name: Lunch
+    type: lunch
   - start: 14:00
-    end: 14:30
-    name: Team SGC
-    url: https://foundersandcoders.notion.site/Retrospectives-cbfd57e19cd24c61a6bd8db16fe0f347
-  - start: 14:30
     end: 15:30
     name: Presentations
     type: presentation
   - start: 15:30
-    end: 16:00
-    name: Reading for next topic
+    end: 16:30
+    name: Next Week Intro
   - start: 16:00
-    end: 16:50
-    name: Cohort SGC
-    url: https://foundersandcoders.notion.site/Retrospectives-cbfd57e19cd24c61a6bd8db16fe0f347
-  - start: 16:50
     end: 17:00
-    name: Break
+    name: TFB
   - start: 17:00
-    end: 17:45
-    name: Speaker
-  - start: 17:45
     end: 18:00
-    name: Survey and Check-out
+    name: TFB
+
 friday:
-  - name: Feedback survey
-    start: 9:45
-    end: 10:00
-  - name: Progress Log
-    start: 10:00
-    end: 10:30
-    type: expert-feedback
-  - name: Workshop
-    start: 10:30
+  - start: 9:30
+    end: 9:45
+    name: Online Check in
+    type: checkin
+    url: https://us02web.zoom.us/j/8465567424
+  - start: 9:45
+    end: 13:00
+    name: Workshops
+    type: workshop
+  # - start: 10:30
+  #   end: 11:00
+  #   name: Workshop
+  #   type: workshop
+  # - start: 11:00
+  #   end: 12:00
+  #   name: Workshop
+  #   type: workshop
+  # - start: 12:00
+  #   end: 13:00
+  #   name: Workshop
+  #   type: workshop
+  - start: 13:00
+    end: 14:00
+    name: Lunch
+    type: lunch
+  - start: 14:00
+    end: 17:00
+    name: Workshops
+    type: workshop
+  # - start: 15:00
+  #   end: 16:00
+  #   name: Workshop
+  #   type: workshop
+  # - start: 16:00
+  #   end: 17:00
+  #   name: Workshop
+  #   type: workshop
+  - start: 17:00
     end: 18:00
+    name: Progress Log / Weekly Quiz / Week Learner Survey
+    url: https://airtable.com/app5owvy06fglNAZF/shrE5Ur3oZrExa3P7

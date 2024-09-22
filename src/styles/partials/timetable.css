@@ -1,3 +1,20 @@
+:root {
+  --stripe-pattern-25: repeating-linear-gradient(
+    25deg,
+    rgba(0, 0, 0, 0.1) 0px,
+    rgba(0, 0, 0, 0.1) 1px,
+    var(--stripe-color, transparent) 1px,
+    var(--stripe-color, transparent) 30px
+  );
+  --stripe-pattern-135: repeating-linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.1) 0px,
+    rgba(0, 0, 0, 0.1) 1px,
+    var(--stripe-color, transparent) 1px,
+    var(--stripe-color, transparent) 30px
+  );  
+}
+
 .timetable {
   display: grid;
 }
@@ -59,9 +76,20 @@
   --sat: 80%;
 }
 
+.entry.exec-program {
+  --hue: 170;
+  --sat: 90%;
+}
+
 .entry.presentation {
-  --hue: 20;
+  --hue: 30;
   --sat: 60%;
+}
+
+.entry.thought {
+  --hue: 25;
+  --sat: 80%;
+  background-image: var(--stripe-pattern-25);
 }
 
 .entry.challenge {
@@ -81,6 +109,25 @@
 .entry.expert-feedback {
   --hue: 100;
   --sat: 60%;
+  background-image: var(--stripe-pattern-25);
+}
+
+.entry.checkin {
+  --hue: 0;
+  --sat: 60%;
+  background-image: var(--stripe-pattern-25);
+}
+
+.entry.lunch {
+  --hue: 110;
+  --sat: 70%;
+  background-image: var(--stripe-pattern-25);
+}
+
+.entry.speech {
+  --hue: 200;
+  --sat: 100%;
+  background-image: var(--stripe-pattern-25);
 }
 
 .entry dt {

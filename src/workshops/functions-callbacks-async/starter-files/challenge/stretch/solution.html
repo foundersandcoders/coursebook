@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solution | Functions and asynchronous JavaScript</title>
+  </head>
+  <body>
+    <h1>Open the console</h1>
+    <script>
+      const light_sequence = [
+        "green",
+        "amber",
+        "red",
+        "amber",
+        "green",
+        "finished",
+      ];
+
+      function light(str, callback, delay) {
+        setTimeout(() => callback(str), delay);
+      }
+
+      light_sequence.forEach((element, index) => {
+        light(
+          element,
+          (x) => {
+            console.log(x);
+          },
+          (index + 1) * 1000
+        );
+      });
+    </script>
+  </body>
+</html>
