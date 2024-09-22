@@ -13,6 +13,14 @@
 - [ ] Set up a Node.js environment for web development
 - [ ] Use environment variables for managing secrets and sensitive keys in Node.js
 - [ ] Use npm to manage project dependencies and scripts in a Node.js environment.
+- [ ] Understand server-side development using Node.js.
+- [ ] Modularise code by creating reusable modules in Node.js, improving code organization and maintainability.
+
+## APIs
+
+- [ ] Integrate external APIs into a web application.
+- [ ] Learn to make server-side requests to APIs and handle responses effectively.
+- [ ] Understand the principles of client-server interaction and how to manage data exchange between them.
 
 ## Testing
 
