@@ -20,6 +20,9 @@
 - [ ] Design endpoint structures for data creation, modification, and deletion (K11, S8, S12)
 - [ ] Utilize Postman to test RESTful APIs independently of frontend components, ensuring proper functionality, error handling, and adherence to API specifications (S5, S6, S7)
 - [ ] Gain experience in documenting the application's architecture, API endpoints, and user guides for future reference and maintenance (S15, B4, B7, B8)
+- [ ] Practice creating JSON endpoints and using these endpoints to fetch and display data dynamically.
+- [ ] Dynamically update web page content without needing to reload the page.
+
 
 ### Additional
 - [ ] Utilize `node:fs` for filesystem operations (S1, S16)

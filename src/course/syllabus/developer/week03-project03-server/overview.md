@@ -5,6 +5,7 @@ Learn how to create a Discord chatbot using Node.js, integrate it with OpenAI's 
 ### Workshops
 
 - [Developer tooling](/workshops/dev-tooling/). Repo name: Work15_DeveloperTooling_YourName
+Check resources
 - [Building client-side apps with React](https://learn.foundersandcoders.com/learn/react/). Repo name: Work16_React_YourName
 
 
@@ -27,6 +28,6 @@ Learn how to create a Discord chatbot using Node.js, integrate it with OpenAI's 
 - CRUD operations implementation
 - API documentation techniques
 - Asynchronous programming in JavaScript
-- Security practices for handling API keys and sensitive data
+- Introduce learners to the concept of an ‘elevator pitch’
 
 - [Project presentations](https://foundersandcoders.notion.site/Project-presentations-d8787b65e78a4314b62475552e7989e9)
