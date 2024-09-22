@@ -35,7 +35,7 @@ schedule:
     type: project
   - start: 11:00
     end: 12:15
-    name: Workshop class discussion / Workshops
+    name: Workshop class discussion / DevTools Resources
     type: workshop
 
   - start: 12:15
