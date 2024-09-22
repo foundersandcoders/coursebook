@@ -1,6 +1,6 @@
 ---
 title: Building client-side apps with React
-description: Learn how to create client-side apps using React
+description: Learn how to create client-side apps using ReactHighlught for TS
 tags:
   - workshop
 keywords:
