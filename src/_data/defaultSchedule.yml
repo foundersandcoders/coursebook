@@ -144,12 +144,12 @@ thursday:
     name: Lunch
     type: lunch
   - start: 14:00
-    end: 15:30
-    name: Presentations
-    type: presentation
-  - start: 15:30
     end: 16:30
-    name: Next Week Intro
+    name: Presentations & Breaks
+    type: presentation
+  # - start: 15:30
+  #   end: 16:30
+  #   name: Next Week Intro
   - start: 16:00
     end: 17:00
     name: TFB
