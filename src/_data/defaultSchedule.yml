@@ -164,6 +164,15 @@ friday:
     type: checkin
     url: https://us02web.zoom.us/j/8465567424
   - start: 9:45
+    end: 10:30
+    name: Exec program
+    type: exec-program
+  - start: 10:30
+    end: 11:30
+    name: Progress Log / Weekly Quiz / Week Learner Survey
+    url: https://airtable.com/app5owvy06fglNAZF/shrE5Ur3oZrExa3P7
+
+  - start: 11:30
     end: 13:00
     name: Workshops
     type: workshop
@@ -184,7 +193,7 @@ friday:
     name: Lunch
     type: lunch
   - start: 14:00
-    end: 17:00
+    end: 18:00
     name: Workshops
     type: workshop
   # - start: 15:00
@@ -195,7 +204,3 @@ friday:
   #   end: 17:00
   #   name: Workshop
   #   type: workshop
-  - start: 17:00
-    end: 18:00
-    name: Progress Log / Weekly Quiz / Week Learner Survey
-    url: https://airtable.com/app5owvy06fglNAZF/shrE5Ur3oZrExa3P7
