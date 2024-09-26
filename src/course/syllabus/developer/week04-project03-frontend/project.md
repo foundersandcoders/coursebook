@@ -1,9 +1,6 @@
 # UI for Quizzer App
 
 Your project this week is to build the front end to consume the RESTful API you designed and built last week.
-
-## Spike
-
 You should think and plan what features and look you want to your quiz app to have. You might considered making some wire frames or a prototype using a tool like [Figma](https://www.figma.com).
 
 ### User Stories

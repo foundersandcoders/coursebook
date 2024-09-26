@@ -25,23 +25,23 @@
 layout: schedule
 schedule:
   monday:
-  - start: 9:45
-    end: 10:45
-    name: SGC
-    url: https://foundersandcoders.notion.site/Retrospectives-cbfd57e19cd24c61a6bd8db16fe0f347
-  - start: 10:45
-    end: 11:00
-    name: Project Introduction
-    type: project
-  - start: 11:00
-    end: 12:15
-    name: Workshop class discussion / DevTools Resources
-    type: workshop
+  # - start: 9:45
+  #   end: 10:45
+  #   name: SGC
+  #   url: https://foundersandcoders.notion.site/Retrospectives-cbfd57e19cd24c61a6bd8db16fe0f347
+  # - start: 10:45
+  #   end: 11:00
+  #   name: Project Introduction
+  #   type: project
+  # - start: 11:00
+  #   end: 12:15
+  #   name: Workshop class discussion / DevTools Resources
+  #   type: workshop
 
-  - start: 12:15
-    end: 13:00
-    name: Exec program
-    type: exec-program
+  # - start: 12:15
+  #   end: 13:00
+  #   name: Exec program
+  #   type: exec-program
 
   tuesday:
   wednesday:
