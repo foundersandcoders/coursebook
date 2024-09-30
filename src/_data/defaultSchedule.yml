@@ -168,12 +168,17 @@ friday:
     name: Exec program
     type: exec-program
   - start: 10:30
-    end: 11:30
-    name: Progress Log / Weekly Quiz / Week Learner Survey
+    end: 11:00
+    name: Progress Log
+  - start: 11:00
+    end: 11:15
+    name: Week Learner Survey
     url: https://airtable.com/app5owvy06fglNAZF/shrE5Ur3oZrExa3P7
-
+  - start: 11:15
+    end: 11:30
+    name: Weekly Quiz
   - start: 11:30
-    end: 13:00
+    end: 18:00
     name: Workshops
     type: workshop
   # - start: 10:30
@@ -188,14 +193,14 @@ friday:
   #   end: 13:00
   #   name: Workshop
   #   type: workshop
-  - start: 13:00
-    end: 14:00
-    name: Lunch
-    type: lunch
-  - start: 14:00
-    end: 18:00
-    name: Workshops
-    type: workshop
+  # - start: 13:00
+  #   end: 14:00
+  #   name: Lunch
+  #   type: lunch
+  # - start: 14:00
+  #   end: 17:00
+  #   name: Workshops
+  #   type: workshop
   # - start: 15:00
   #   end: 16:00
   #   name: Workshop
@@ -204,3 +209,4 @@ friday:
   #   end: 17:00
   #   name: Workshop
   #   type: workshop
+ 

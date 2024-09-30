@@ -2,11 +2,7 @@
 layout: schedule
 schedule:
   monday:
-    - name: Sanitize & validate challenge
-      url: https://github.com/foundersandcoders/sanitize-validate-challenge
-      type: challenge
-      start: 11:00
-      end: 12:00
+
     # - name: Thought of the week (Misinformation, Disinformation and the threat to Democracy)
     #   url: https://www.notion.so/foundersandcoders/Personal-Development-91fe75c7e2cc4f989954108729a2c834
     #   type: personal-development
@@ -22,9 +18,18 @@ schedule:
     #   end: 16:00
     #   url: https://fac-slides.netlify.app/slides/estimation/
   tuesday:
+    - name: Sanitize & validate challenge
+      url: https://github.com/foundersandcoders/sanitize-validate-challenge
+      type: challenge
+      start: 10:30
+      end: 11:30
+    - name: Project
+      type: project
+      start: 11:30
+      end: 13:00
   wednesday:
 
-    - name: Check in & Mentor Intro. Guilherme [Databases]
+    - name: Check in & Mentor Intro. Guilherme [React]
       start: 9:30
       end: 9:45
       type: checkin
@@ -43,7 +48,7 @@ schedule:
       start: 16:30
       end: 17:30
   friday:
-    - name: Cypress Learning
+    - name: Cypress Courses (x4)
       url: https://learn.cypress.io/#courses
       type: workshop
       start: 11:30
