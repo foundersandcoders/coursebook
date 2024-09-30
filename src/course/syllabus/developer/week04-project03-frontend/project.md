@@ -30,3 +30,7 @@ As a **quizzer**, I want to:
 
 - [ ] User local storage to allow for records to persist after browser refresh.
 - [ ] Make custom hooks to encapsulate repetitive logic i.e. fetch data or adding to local storage.
+
+## Repository naming convention
+Please name your repo following this template:
+PRO03_FRONT_Name1_Name2_Name3_Name4
