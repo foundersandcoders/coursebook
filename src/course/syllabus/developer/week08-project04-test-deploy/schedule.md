@@ -41,6 +41,6 @@ schedule:
     - name: .NET workshop
       url: /learn/DOTNET
       type: workshop
-      start: 9:45
+      start: 11:30
       end: 18:00
 ---
