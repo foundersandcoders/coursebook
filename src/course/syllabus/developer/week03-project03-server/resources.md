@@ -24,8 +24,3 @@ These resources are helpful extra reading that may clarify or enhance concepts y
 
 - ### [Testing your server](https://learning.postman.com/docs/designing-and-developing-your-api/testing-an-api/)
   Documentation on using Postman to make a collection of tests for api endpoints
-
-
-## React
-
-- ### [React Mindset](https://dev.to/ymir/react-mindset-how-new-react-developers-should-think-2cap)
