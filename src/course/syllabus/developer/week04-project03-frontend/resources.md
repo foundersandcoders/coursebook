@@ -1,5 +1,10 @@
 These resources are helpful extra reading that may clarify or enhance concepts you're learning in the main curriculum.
 
+
+## React
+
+- ### [React Mindset](https://dev.to/ymir/react-mindset-how-new-react-developers-should-think-2cap)
+- ### [Youtube React Course (Net Ninja)](https://youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&feature=shared)
 - ### [Creating a React app with Vite](https://vitejs.dev/guide/)
   A framework agnostic tool that allows for quick setup of a React app with TS
 - ### [React Docs](https://react.dev/learn/typescript)
@@ -8,6 +13,8 @@ These resources are helpful extra reading that may clarify or enhance concepts y
   A quick reference guide to basic React patterns
 - ### [Free Code Camp React/TS guide](https://www.freecodecamp.org/news/using-typescript-in-react-apps/)
   A more guided resource of this material
+
+## Figma  
 - ### [Figma](https://help.figma.com/hc/en-us/sections/4405269443991-Figma-for-beginners-4-parts)
   Basic exercises for beginners
 - ### [Figma Youtube tutorial. 0:16](https://www.youtube.com/watch?v=jk1T0CdLxwU)
