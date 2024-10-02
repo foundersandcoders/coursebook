@@ -43,6 +43,15 @@ schedule:
     #   start: 15:30
     #   end: 16:00
     #   url: /course/syllabus/developer/database/topicIntro/
+
+    - name: Project
+      type: project
+      start: 10:30
+      end: 11:30
+    - name: Presentations Workshop (Tavi)
+      type: workshop
+      start: 11:30
+      end: 12:00
     - name: Speaker (Senior Dev Alphonso)
       type: speech
       start: 16:30
