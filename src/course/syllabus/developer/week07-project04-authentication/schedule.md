@@ -26,7 +26,7 @@ schedule:
     #   end: 17:45
   tuesday:
   wednesday:
-    - name: Check in & Mentor Intro. Fearghal [.NET]
+    - name: Check in & Mentor Intro. Fearghal [Auth]
       start: 9:30
       end: 9:45
       type: checkin
