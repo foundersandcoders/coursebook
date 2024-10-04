@@ -1,4 +1,3 @@
-These resources are helpful extra reading that may clarify or enhance concepts you're learning in the main curriculum.
 - [What is a web server?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server)
 General background info on how servers work
 - [npm for absolute beginners](https://www.youtube.com/watch?v=UYz-9UaUp2E)

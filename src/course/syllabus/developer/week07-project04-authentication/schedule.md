@@ -25,11 +25,11 @@ schedule:
     #   start: 16:45
     #   end: 17:45
   tuesday:
-  wednesday:
     - name: Check in & Mentor Intro. Fearghal [Auth]
       start: 9:30
       end: 9:45
       type: checkin
+  wednesday:
     - name: Though of the week. Extra-curricular and learning opportunities 2
       type: thought    
       url: https://docs.google.com/presentation/d/1GwYX_NLH2KayD2QIpKlJnUQCO8ohvF_wY8RO-fMAu6w/edit#slide=id.g25e05124422_0_0

@@ -1,6 +1,3 @@
-These resources are helpful extra reading that may clarify or enhance concepts you're learning in the main curriculum.
-
-
 ## React
 
 - ### [React Mindset](https://dev.to/ymir/react-mindset-how-new-react-developers-should-think-2cap)
