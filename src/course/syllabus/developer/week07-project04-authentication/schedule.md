@@ -36,17 +36,13 @@ schedule:
       start: 10:30
       end: 10:45 
   thursday:
-    # - start: 9:45
-    #   end: 10:00
-    #   name: Check-in
-    # - start: 15:30
-    #   end: 16:00
-    #   name: Reading for next topic
-    #   url: /course/syllabus/developer/client-side-app/topicIntro/
+    - name: Break
+      start: 15:30
+      end: 16:00
   friday:
     - name: Get Started with AWS CDK
       url: https://docs.aws.amazon.com/cdk/v2/guide/hello_world.html
       type: workshop
-      start: 9:45
+      start: 11:30
       end: 18:00
 ---
