@@ -29,15 +29,12 @@ This week concentrates on testing and deploying the full-stack quiz application 
 
 - Develop a comprehensive testing strategy covering unit, integration, and end-to-end tests
 - Implement tests using Cypress, Postman, and Node's testing library
-- Deploy the backend to an AWS EC2 instance
-- Deploy the frontend to GitHub Pages
-- Set up secure communication (HTTPS) between frontend and backend
+- Deploy both the backend and frontend
 - Configure environment variables for different deployment stages
 - Document the setup, deployment process, and usage instructions
 
 #### Additional Skills
-
 - Managing test data and state
-= Implementing reverse proxies
+- Implementing reverse proxies
 - Configuring CORS policies
 - Using GitHub Actions for CI/CD
