@@ -1,10 +1,7 @@
-These resources are helpful extra reading that may clarify or enhance concepts you're learning in the main curriculum.
-
-
-### Project
+## Project
 - [Quickstart for Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/quickstart-for-projects)
 
-### Async
+## Async
 
 - [Async JavaScript Youtube tutorial](https://www.youtube.com/watch?v=QSqc6MMS6Fk)
 - [JavaScript Promises Youtube tutorial](https://www.youtube.com/watch?v=TnhCX0KkPqs&t=1958s)
@@ -12,7 +9,7 @@ These resources are helpful extra reading that may clarify or enhance concepts y
 - [Introducing asynchronous JS](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing)
 - [Codecademy JavaScript Async Course (Free. 3 hours)](https://www.codecademy.com/enrolled/courses/asynchronous-javascript)
 
-### CSS
+## CSS
 
 - [Units - Every Layout](https://every-layout.dev/rudiments/units/)
 - [The lengths of CSS](https://css-tricks.com/the-lengths-of-css/)
@@ -25,9 +22,9 @@ These resources are helpful extra reading that may clarify or enhance concepts y
 - [Boxes - Every Layout](https://every-layout.dev/rudiments/boxes/)
 - [CSS Layout - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout)
 
-### Accessibility
+## Accessibility
 - [What a Year of Learning and Teaching Accessibility Taught Me](https://www.24a11y.com/2019/what-a-year-of-learning-and-teaching-accessibility-taught-me/)
 - [Why, How, and When to Use Semantic HTML and ARIA](https://css-tricks.com/why-how-and-when-to-use-semantic-html-and-aria/)
 
-### GIT
+## GIT
 - [Intearctive tool to learn Git branching](https://learngitbranching.js.org/)

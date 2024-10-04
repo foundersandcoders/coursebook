@@ -38,5 +38,3 @@ This week focuses on building a dynamic e-commerce web application, integrating 
 - Optimizing database queries for performance
 - Implementing search functionality in both frontend and backend
 - Error handling and data validation in full-stack applications
-
-This week combines database design and management with frontend development, allowing learners to create a comprehensive e-commerce application. The focus on both backend data handling and frontend user experience provides a well-rounded understanding of full-stack development.

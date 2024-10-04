@@ -1,5 +1,3 @@
-These resources are helpful extra reading that may clarify or enhance concepts you're learning in the main curriculum.
-
 ## Databases
 
 - [SQL | W3Schools](https://www.w3schools.com/sql/default.asp) W3Schools have lots of clear simple example for different types of SQL queries
