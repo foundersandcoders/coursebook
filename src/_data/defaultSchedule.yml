@@ -76,7 +76,7 @@ tuesday:
 wednesday:
   - start: 9:30
     end: 9:45
-    name: Check in & Mentor Intro
+    name: Check in
     type: checkin
   - start: 9:45
     end: 10:30

@@ -21,10 +21,11 @@ We would also like you to deploy this project using an EC2 instance for you serv
 
 - [ ] Comprehensive Test coverage including unit, integration and end-to-end tests covering critical application logic and user flows.
 
- - [ ] Successful deployment of apps backend on an AWS EC2 instance, and the frontend is live on GitHub Pages.
+- [ ] Successful deployment of apps backend on an AWS EC2 instance, and the frontend is live on GitHub Pages.
 
- - [ ] Documentation clearly outlines setup, deployment, and usage instructions, including API endpoints and environmental requirements.
+- [ ] Documentation clearly outlines setup, deployment, and usage instructions, including API endpoints and environmental requirements.
 
 ### Stretch criteria
 
 - [ ] GitHub Actions CI setup to run your tests when you push.
+- [ ] Configure HTTPS for secure communication between the frontend and backend, using a tool like Let's Encrypt to obtain and manage SSL/TLS certificates.

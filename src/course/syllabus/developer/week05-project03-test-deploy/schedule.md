@@ -39,6 +39,10 @@ schedule:
     #   name: Check-out
 
   tuesday:
+    - name: Check in & Mentor Intro. Halimah [Testing Backend & Frontend]
+      start: 9:30
+      end: 9:45
+      type: checkin
     # - start: 9:45
     #   end: 10:00
     #   name: Check-in
@@ -90,10 +94,7 @@ schedule:
     # - start: 17:45
     #   end: 18:00
     #   name: Check-out
-    - name: Check in & Mentor Intro. Halimah [Authentication]
-      start: 9:30
-      end: 9:45
-      type: checkin
+ 
 
     - name: Though of the week. Safeguarding - Digital and financial wellbeing
       type: thought
@@ -139,7 +140,7 @@ schedule:
     # - start: 17:45
     #   end: 18:00
     #   name: Check-out
-    - name: Speaker (Laurie)
+    - name: Speaker. Laurie (Accessibility)
       type: speech
       start: 16:30
       end: 17:30
@@ -147,6 +148,6 @@ schedule:
     - name: Database workshop
       url: /learn/database
       type: workshop
-      start: 9:45
+      start: 11:30
       end: 18:00
 ---
