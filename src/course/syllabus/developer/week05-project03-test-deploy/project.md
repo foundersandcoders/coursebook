@@ -1,10 +1,22 @@
 Your task this week is to deploy and test the quiz app you have completed in the previous two weeks.
 
-## Spike
+## Description
 
 Before you start you need to create a testing and deployment plan. We would like you plan a testing strategy that will have broad coverage of your project. The tools we would like you to use to achieve this can include Cypress, Postman and the Node built in testing library. 
 
-We would also like you to deploy this project using an EC2 instance for you server and github pages for your frontend.
+We would like you to deploy both the backend and frontend of your project. Before choosing a deployment platform, consider whether your application is static or dynamic, as this will influence your choice. Here are some options to consider:
+
+- AWS EC2 Instance
+- AWS Lambda (for serverless applications)
+- Heroku (easy deployment for various application types)
+- GitHub Pages
+- AWS S3 Bucket (suitable for static websites)
+- Vercel
+- Netlify
+- Firebase Hosting (suitable for static and dynamic sites)
+- ...
+
+Research these options and choose the ones that best fit your project's needs, considering factors like scalability, ease of use, and cost. Remember, the goal is to understand the deployment process and the considerations involved in choosing a hosting solution.
 
 ### Questions to consider
 
@@ -20,9 +32,7 @@ We would also like you to deploy this project using an EC2 instance for you serv
 ### Acceptance Criteria
 
 - [ ] Comprehensive Test coverage including unit, integration and end-to-end tests covering critical application logic and user flows.
-
-- [ ] Successful deployment of apps backend on an AWS EC2 instance, and the frontend is live on GitHub Pages.
-
+- [ ] Successful deployment of backend and frontend.
 - [ ] Documentation clearly outlines setup, deployment, and usage instructions, including API endpoints and environmental requirements.
 
 ### Stretch criteria
