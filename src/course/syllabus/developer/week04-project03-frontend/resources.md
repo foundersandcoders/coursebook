@@ -13,6 +13,7 @@ These resources are helpful extra reading that may clarify or enhance concepts y
   A quick reference guide to basic React patterns
 - ### [Free Code Camp React/TS guide](https://www.freecodecamp.org/news/using-typescript-in-react-apps/)
   A more guided resource of this material
+- ### [useContext Hook](https://react.dev/reference/react/useContext) A powerful hook for passing state values in your application without prop drilling
 
 ## Figma  
 - ### [Figma](https://help.figma.com/hc/en-us/sections/4405269443991-Figma-for-beginners-4-parts)

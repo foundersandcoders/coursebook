@@ -5,11 +5,11 @@ schedule:
     - name: SQL challenge
       url: https://github.com/foundersandcoders/sql-challenge
       type: challenge
-      start: 11:00
-      end: 12:00
+      start: 10:30
+      end: 11:00
   tuesday:
   wednesday:
-    - name: Check in & Mentor Intro. Oskar [Test & Deploy]
+    - name: Check in & Mentor Intro. Oskar [Databases]
       start: 9:30
       end: 9:45
       type: checkin
@@ -19,10 +19,9 @@ schedule:
       start: 10:30
       end: 10:45
   thursday:
-    # - name: Reading for next topic
-    #   start: 15:30
-    #   end: 16:00
-    #   url: /course/syllabus/developer/server-side-app/topicIntro/
+    - name: Break
+      start: 15:30
+      end: 16:00
   friday:
     - name: Authentication workshop
       url: /learn/auth

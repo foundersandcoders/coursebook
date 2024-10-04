@@ -151,11 +151,12 @@ thursday:
   #   end: 16:30
   #   name: Next Week Intro
   - start: 16:00
-    end: 17:00
-    name: TFB
-  - start: 17:00
     end: 18:00
     name: TFB
+    type: project
+  # - start: 17:00
+  #   end: 18:00
+  #   name: TFB
 
 friday:
   - start: 9:30
