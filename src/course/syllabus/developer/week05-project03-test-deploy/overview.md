@@ -5,9 +5,6 @@ This week concentrates on testing and deploying the full-stack quiz application 
 ### Workshops
 - [Persisting data with SQLite and Node](/learn/database)
 
-Postman API Testing Workshop: Learning to create and run API tests using Postman
-AWS EC2 Deployment Workshop: Step-by-step guide to deploying a Node.js application on EC2
-
 ### Execute Program
 
 - Finalize incomplete courses
