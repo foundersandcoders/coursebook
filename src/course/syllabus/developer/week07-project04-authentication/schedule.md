@@ -30,9 +30,9 @@ schedule:
       end: 9:45
       type: checkin
   wednesday:
-    - name: Though of the week. Extra-curricular and learning opportunities 2
+    - name: Though of the week. Safeguarding - Digital and financial wellbeing
       type: thought
-      url: https://docs.google.com/presentation/d/1GwYX_NLH2KayD2QIpKlJnUQCO8ohvF_wY8RO-fMAu6w/edit#slide=id.g25e05124422_0_0
+      url: https://docs.google.com/presentation/d/1ttovT29sBRG_TFcBDpaNy_BKaL-CW95mZbKZltqEeJc/edit#slide=id.g25e05124422_0_0
       start: 10:30
       end: 10:45
   thursday:
@@ -43,14 +43,10 @@ schedule:
     #   end: 16:00
     #   name: Reading for next topic
     #   url: /course/syllabus/developer/client-side-app/topicIntro/
-    - name: Though of the week. Safeguarding - Digital and financial wellbeing
-      type: thought
-      url: https://docs.google.com/presentation/d/1ttovT29sBRG_TFcBDpaNy_BKaL-CW95mZbKZltqEeJc/edit#slide=id.g25e05124422_0_0
-      start: 10:30
-      end: 10:45
-    - name: Break
-      start: 15:30
-      end: 16:00
+
+    # - name: Break
+    #   start: 15:30
+    #   end: 16:00
   friday:
     - name: Get Started with AWS CDK
       url: https://docs.aws.amazon.com/cdk/v2/guide/hello_world.html

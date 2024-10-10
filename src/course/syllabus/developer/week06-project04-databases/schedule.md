@@ -14,14 +14,14 @@ schedule:
       end: 9:45
       type: checkin
     - name: Though of the week. Diversity in Tech
-      type: thought    
+      type: thought
       url: https://docs.google.com/presentation/d/1-mpW5zfrpBUdkk7DCctWZjcLzDD9VGrx-X4fF469rsg/edit#slide=id.g25e05124422_0_0
       start: 10:30
       end: 10:45
   thursday:
-    - name: Break
-      start: 15:30
-      end: 16:00
+    # - name: Break
+    #   start: 15:30
+    #   end: 16:00
   friday:
     - name: Authentication workshop
       url: /learn/auth
