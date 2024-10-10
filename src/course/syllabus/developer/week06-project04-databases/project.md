@@ -8,7 +8,7 @@ The frontend of this project will be built using React. For the backend, it will
 
 ## Project
 
-Your project for the next 2 weeks will be to develop a Express backend connected to a SQLite database and linked to a React frontend. Your UI should provide methods so that users can search for and display information about items and add them to a shopping cart. It is up to you to determine the process and order you take to achieve this, but should plan this carefully and attempt to anticipate any hurdles you approach will encounter.
+Your project for the next week will be to develop a Express backend connected to a SQLite database and linked to a React frontend. Your UI should provide methods so that users can search for and display information about items and add them to a shopping cart. It is up to you to determine the process and order you take to achieve this, but should plan this carefully and attempt to anticipate any hurdles you approach will encounter.
 
 ## Spike
 
@@ -18,11 +18,6 @@ Before you start writing features you need to design the schema for your data. T
 
 1. What kinds of data relationships are there?
 2. What’s a foreign key? How can they help us design schemas with relational data?
-
-### Useful resources
-
-- [Database Relationships](https://www.lifewire.com/database-relationships-p2-1019758)
-- [A beginner’s guide to many-to-many relationships](https://support.airtable.com/docs/airtable-s-guide-to-many-to-many-relationships)
 
 ### User stories
 
