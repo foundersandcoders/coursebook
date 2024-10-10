@@ -95,9 +95,8 @@ schedule:
       end: 9:45
       type: checkin
 
-    - name: Though of the week. Safeguarding - Digital and financial wellbeing
+    - name: Though of the week. AWS Deployment workshop
       type: thought
-      url: https://docs.google.com/presentation/d/1ttovT29sBRG_TFcBDpaNy_BKaL-CW95mZbKZltqEeJc/edit#slide=id.g25e05124422_0_0
       start: 10:30
       end: 10:45
 
