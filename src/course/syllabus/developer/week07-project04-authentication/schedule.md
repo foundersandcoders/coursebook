@@ -7,11 +7,11 @@ schedule:
     #   type: personal-development
     #   start: 11:00
     #   end: 11:45
-    - name: Promise creation challenge
-      start: 11:00
-      end: 12:00
-      url: https://github.com/foundersandcoders/promise-creation-challenge
-      type: challenge
+    # - name: Promise creation challenge
+    #   start: 11:00
+    #   end: 12:00
+    #   url: https://github.com/foundersandcoders/promise-creation-challenge
+    #   type: challenge
     #   url: https://github.com/foundersandcoders/react-state-challenge
     #   type: challenge
     # - name: Tech For Better

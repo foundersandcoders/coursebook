@@ -4,11 +4,11 @@ This week focuses on enhancing the e-commerce web application developed in the p
 
 ### Workshops
 
-- XXXXXXXXXXXXXXXXX
+[Get Started with AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/hello_world.html)
 
-### Plural Sight?
+### Execute Program
 
-- XXXXXXXXXXXXXXXX
+- Finish previous courses
 
 ### Topics
 
@@ -24,6 +24,7 @@ This week focuses on enhancing the e-commerce web application developed in the p
 ### Project
 
 Continue developing the e-commerce application with the following new features:
+
 - Implement user authentication (registration, login, logout)
 - Create user-specific shopping carts and order history
 - Implement session persistence
