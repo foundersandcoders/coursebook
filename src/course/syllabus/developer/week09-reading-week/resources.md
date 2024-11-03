@@ -8,4 +8,4 @@
 
 [Use React with ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/client-side/spa/react?view=aspnetcore-8.0&tabs=visual-studio)
 
-[](https://www.youtube.com/live/vOcTPUiBQgc?si=_vjOyyGPA0LWiCNW)
+[Object-Oriented vs. Functional Programming With C# and F#](https://www.youtube.com/live/vOcTPUiBQgc?si=_vjOyyGPA0LWiCNW)
