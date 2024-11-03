@@ -3,9 +3,10 @@
     "overview": true,
     "schedule": false,
     "project": false,
-    "learnings": true,
-    "spikes": true,
+    "learnings": false,
+    "spikes": false,
     "employability": false,
-    "homework": true
+    "homework": false,
+    "resources": true
   }
 }
