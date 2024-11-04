@@ -10,6 +10,10 @@ To start, please register on both FreeCodeCamp and Microsoft Learn. You’ll acc
 
 [CSharp certification - 6 modules](https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/)
 
+The next course is not part of the certification, but it is a great short example of minimal API.
+
+[Create web apps and services with ASP.NET Core, minimal API, and .NET - 1hr 35min](https://learn.microsoft.com/en-us/training/paths/aspnet-core-minimal-api/)
+
 ### Route 02. Blended C# and Infrastructure Approach
 
 In this route, you'll combine learning C# with workshops focused on infrastructure essentials. This approach balances language fundamentals with practical infrastructure skills to give you a well-rounded foundation.
@@ -38,78 +42,131 @@ You can complete the first three C# lessons independently or through FreeCodeCam
 
 [Create web apps and services with ASP.NET Core, minimal API, and .NET - 1hr 35min](https://learn.microsoft.com/en-us/training/paths/aspnet-core-minimal-api/)
 
-## PHP. 5-Day PHP Quick Start Guide
+## PHP. 5-Day PHP Learning Plan
 
-## Setup (Before Starting)
+## Setup Required
 
 1. Install XAMPP: https://www.apachefriends.org/download.html
 2. VSCode PHP Extension: PHP Intelephense
 
 ## Day 1: PHP Basics
 
-**Primary Resource:** Laracasts PHP Beginner Series (Free)
-https://laracasts.com/series/php-for-beginners-2023-edition
+**Main Resource:** [Laracasts - PHP for Beginners 2023](https://laracasts.com/series/php-for-beginners-2023-edition)
 
-- Watch and code along with episodes 1-4 (2 hrs)
-- Complete the exercises at the end of each video
+- Episodes 1-7
+  - Variables and Basic PHP Syntax
+  - PHP Configuration
+  - Arrays and Functions
+  - Page Links
 
-**Backup Resource:** W3Schools PHP Tutorial
-https://www.w3schools.com/php/default.asp
+**Reference:** [W3Schools PHP](https://www.w3schools.com/php/default.asp)
 
-- Use this as a quick reference while following Laracasts
+**Practice Project:** Build a Temperature Converter
+Tutorial: https://www.w3schools.com/php/php_form_complete.asp
 
-**Practice Project:**
-Build a basic calculator following this tutorial:
-https://www.w3schools.com/php/php_form_complete.asp
+- Convert Celsius to Fahrenheit and vice versa
+- Form handling
+- Basic calculations
+- Simple styling
 
-## Day 2: Functions & Arrays
+## Day 2: Database & PDO
 
-**Primary Resource:** PHP The Right Way
-https://phptherightway.com/
+**Main Resource:** Laracasts Episodes 8-14
 
-- Focus on "Language Highlights" section
+- Database Connections
+- PDO Basics
+- SQL Injection Prevention
+- Basic Forms
 
-**Video Tutorial:**
-FreeCodeCamp PHP Full Course (2:00:00 - 3:30:00 mark)
-https://www.youtube.com/watch?v=OK_JCtrrv-c
+**Reference:** [PHP PDO Documentation](https://www.php.net/manual/en/book.pdo.php)
 
-- Functions and Arrays sections only
+**Practice Project:** Build a Contact List
+Tutorial: https://www.tutorialrepublic.com/php-tutorial/php-mysql-crud-application.php
 
-**Practice Project:**
-Todo List tutorial from PHP Exercises:
-https://www.w3resource.com/php-exercises/php-array-exercises.php
+- Store names and phone numbers
+- View all contacts
+- Simple database operations
+- Basic error handling
 
-## Day 3: Forms & MySQL
+## Day 3: Authentication
 
-**Primary Resource:** PHP Manual - Forms
-https://www.php.net/manual/en/tutorial.forms.php
+**Main Resource:** Laracasts Episodes 15-20
 
-**MySQL Tutorial:**
-Digital Ocean's MySQL Basics:
-https://www.digitalocean.com/community/tutorials/how-to-use-sql-with-mysql-databases-in-php
+- Sessions
+- Authentication
+- Registration
+- Form Validation
 
-**Practice Project:**
-Build a registration form:
-https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php
+**Reference:** [PHP Session Documentation](https://www.php.net/manual/en/book.session.php)
 
-## Day 4: Building Something Real
+**Practice Project:** User Authentication System
+Tutorial: https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php
 
-**Primary Resource:**
-PHP CRUD Tutorial by CodeWithAwa:
-https://www.youtube.com/watch?v=72U5Af8KUpA
+- Login form
+- User registration
+- Password hashing
+- Session management
 
-- Follow along to build a complete CRUD application
+## Day 4: Structure & Organization
 
-**Reference:**
-PHP PDO Documentation:
-https://www.php.net/manual/en/book.pdo.php
+**Main Resource:** Laracasts Episodes 21-25
 
-## Day 5: Project Day
+- Refactoring
+- Router Implementation
+- Controllers
+- API Basics
 
-Build a simple Blog system using this tutorial as guide:
-https://www.simplilearn.com/tutorials/php-tutorial/php-projects-for-beginners
+**Reference:** [PHP Best Practices](https://phptherightway.com/)
 
-**Additional Resources:**
+**Practice Project:** Simple Note Taking App
+Tutorial: https://www.sourcecodester.com/php/15434/simple-notes-app-using-php-and-mysql-source-code.html
 
-- PHP Security Guide: https://phptherightway.com/#security
-- PHP Best Practices: https://phpbestpractices.org/
+- CRUD operations
+- User-specific notes
+- Basic organization
+- Simple API endpoint
+
+## Day 5: Final Project - Task Management System
+
+Build a complete task management system combining all concepts learned.
+
+Tutorial Guide: https://codeshack.io/crud-application-php-pdo-mysql/
+
+**Project Requirements:**
+
+1. User System
+
+   - Login/Register
+   - Password hashing
+   - Session handling
+
+2. Task Features
+
+   - Add/Edit/Delete tasks
+   - Mark as complete
+   - Due dates
+   - Priority levels
+
+3. Database
+   - Users table
+   - Tasks table
+   - Basic relationships
+
+## Daily Schedule
+
+- 2 hours: Watch Laracasts
+- 1 hour: Code along with episodes
+- 2 hours: Work on daily project
+
+## Getting Unstuck
+
+1. Check Laracasts comments
+2. PHP Manual: https://www.php.net/manual/en/
+3. Stack Overflow
+4. PHP Discord: https://discord.gg/php
+
+## Next Steps
+
+1. Laravel Framework: https://laravel.com/docs/
+2. More complex projects
+3. PHP Security practices
