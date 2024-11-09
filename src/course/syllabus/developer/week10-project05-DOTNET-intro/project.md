@@ -63,6 +63,12 @@ PRO05_Name1_Name2_Name3_Name4
 
 # PHP
 
+**Project Overview: Building a Custom WordPress Site with Theme and Plugin Development**
+
+Over the next three weeks, you will develop a fully functional WordPress website from scratch. Starting with setting up your local development environment, you'll create a custom theme tailored to your design preferences, incorporating dynamic content using The Loop and interactive elements with TypeScript. You'll then plan and build a custom plugin to add significant functionality to your site, such as an event manager or testimonials feature, utilizing custom post types, taxonomies, and AJAX for dynamic updates.
+
+In the final week, you'll focus on deploying your site to a live hosting environment, implementing security best practices, and optimizing performance. By integrating your custom plugin with your theme, you'll create a seamless user experience. This project will enhance your proficiency in WordPress development and PHP programming, providing you with valuable skills and a portfolio-worthy website.
+
 ### **Foundations of WordPress and PHP**
 
 #### **Monday: Setting Up the Development Environment**
