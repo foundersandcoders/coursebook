@@ -6,10 +6,9 @@ This week focuses on testing, deployment, and optimization of the e-commerce web
 
 - [.NET](/learn/DOTNET)
 
+### Execute Program
 
-### Plural Sight?
-
-- XXXXX
+- Finish previous courses
 
 ### Topics
 
