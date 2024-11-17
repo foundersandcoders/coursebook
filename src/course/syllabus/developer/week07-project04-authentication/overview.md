@@ -8,7 +8,7 @@ This week focuses on enhancing the e-commerce web application developed in the p
 
 ### Execute Program
 
-- Finish previous courses
+- Finalise previous courses
 
 ### Topics
 
